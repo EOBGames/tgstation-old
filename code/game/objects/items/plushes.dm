@@ -500,6 +500,15 @@
 	attack_verb = list("clawed", "hissed", "tail slapped")
 	squeak_override = list('sound/weapons/slash.ogg' = 1)
 
+/obj/item/toy/plush/lizardplushie/randomcoder
+	name = "coderlizard plushie"
+	desc = "A cute little cuddly mascot for code monkeys the galaxy over."
+	attack_verb = list("removed", "broke", "patched")
+
+/obj/item/toy/plush/lizardplushie/randomcoder/Initialize()
+	. = ..()
+	name = pick_list(LIZARDPLUSH_FILE, "plushienames")
+
 /obj/item/toy/plush/snakeplushie
 	name = "snake plushie"
 	desc = "An adorable stuffed toy that resembles a snake. Not to be mistaken for the real thing."
