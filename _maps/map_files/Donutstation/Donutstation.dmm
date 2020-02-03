@@ -47014,6 +47014,10 @@
 	pixel_y = 10
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/fancy/nugget_box{
+	pixel_x = 5;
+	pixel_y = -4
+	},
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/computer)
 "pll" = (

@@ -6182,8 +6182,7 @@
 	pixel_y = 10
 	},
 /obj/item/toy/cards/deck/cas/black{
-	pixel_x = -7;
-	pixel_y = 0
+	pixel_x = -7
 	},
 /turf/open/floor/wood,
 /area/maintenance/port/aft)
@@ -19619,7 +19618,6 @@
 /area/maintenance/port)
 "aYb" = (
 /obj/machinery/camera/autoname{
-	icon_state = "camera";
 	dir = 8
 	},
 /turf/open/floor/engine,
@@ -33679,7 +33677,6 @@
 "bIO" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /obj/machinery/computer/camera_advanced/xenobio{
-	icon_state = "computer";
 	dir = 8
 	},
 /obj/structure/window/reinforced{
@@ -34442,7 +34439,6 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable,
 /obj/machinery/camera/autoname{
-	icon_state = "camera";
 	dir = 5
 	},
 /turf/open/floor/plasteel,
@@ -35603,6 +35599,7 @@
 	name = "Station Intercom (Telecomms)";
 	pixel_y = 26
 	},
+/obj/machinery/computer/message_monitor,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bOp" = (
@@ -35699,7 +35696,7 @@
 /area/tcommsat/computer)
 "bOD" = (
 /obj/structure/chair/office{
-	dir = 8
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -35774,10 +35771,10 @@
 /area/maintenance/port/aft)
 "bOM" = (
 /obj/structure/table,
-/obj/item/paper_bin,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
+/obj/item/pet_carrier,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bON" = (
@@ -36102,8 +36099,7 @@
 	dir = 1
 	},
 /obj/structure/sign/warning/deathsposal{
-	pixel_x = -31;
-	pixel_y = 0
+	pixel_x = -31
 	},
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
@@ -36138,11 +36134,11 @@
 /obj/structure/table/glass,
 /obj/item/storage/box/monkeycubes,
 /obj/machinery/button/door{
+	id = "xenobiomain";
 	name = "Containment Blast Doors";
 	pixel_x = 1;
 	pixel_y = -26;
-	req_access_txt = "55";
-	id = "xenobiomain"
+	req_access_txt = "55"
 	},
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
@@ -36199,7 +36195,6 @@
 	},
 /obj/structure/reagent_dispensers/watertank,
 /obj/machinery/camera/autoname{
-	icon_state = "camera";
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -36295,9 +36290,14 @@
 /area/construction)
 "bQd" = (
 /obj/structure/table,
-/obj/item/folder/blue,
-/obj/item/pen/blue,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/bed/dogbed{
+	desc = "An old drone charger, and where Glitch goes to 'sleep'.";
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "rechargeroff";
+	name = "Glitch's charger"
+	},
+/mob/living/simple_animal/pet/petdrone/glitch,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bQe" = (
@@ -36523,14 +36523,6 @@
 /obj/effect/landmark/blobstart,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
-"bQK" = (
-/obj/machinery/door/airlock/command/glass{
-	name = "Control Room";
-	req_access_txt = "19; 61"
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/plasteel,
-/area/tcommsat/computer)
 "bQL" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
@@ -36578,9 +36570,9 @@
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
 "bQP" = (
-/obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plating,
+/obj/structure/table,
+/turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bQQ" = (
 /obj/machinery/door/firedoor,
@@ -36930,7 +36922,6 @@
 	pressure_checks = 0
 	},
 /obj/machinery/camera/autoname{
-	icon_state = "camera";
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
@@ -37050,13 +37041,12 @@
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "bSt" = (
-/obj/structure/closet/emcloset,
 /obj/machinery/camera{
 	c_tag = "Telecomms Monitoring";
 	dir = 8;
 	network = list("tcomms")
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/table,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bSu" = (
@@ -37345,10 +37335,9 @@
 /area/science/xenobiology)
 "bTb" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
-	name = "killroom vent";
-	icon_state = "vent_map_siphon_on-2";
 	dir = 1;
-	external_pressure_bound = 120
+	external_pressure_bound = 120;
+	name = "killroom vent"
 	},
 /obj/machinery/light,
 /turf/open/floor/plasteel/freezer,
@@ -37663,14 +37652,18 @@
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bUc" = (
-/obj/machinery/requests_console{
-	announcementConsole = 1;
-	department = "Telecomms Admin";
-	departmentType = 5;
-	name = "Telecomms RC";
-	pixel_x = 30
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/closet{
+	name = "computer supplies"
+	},
+/obj/item/computer_hardware/battery,
+/obj/item/computer_hardware/network_card,
+/obj/item/computer_hardware/hard_drive,
+/obj/item/computer_hardware/processor_unit/small,
+/obj/item/computer_hardware/printer/mini,
+/obj/item/modular_computer/laptop/buildable,
+/obj/item/pda/clear,
+/obj/item/paicard,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bUg" = (
@@ -37703,7 +37696,6 @@
 	dir = 4
 	},
 /obj/machinery/camera/autoname{
-	icon_state = "camera";
 	dir = 8
 	},
 /turf/open/floor/engine,
@@ -38421,6 +38413,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
 	},
+/obj/item/toy/plush/lizardplushie/randomcoder,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bWu" = (
@@ -38498,7 +38491,6 @@
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
 "bWH" = (
-/obj/structure/table,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
@@ -38508,6 +38500,8 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/structure/table,
+/obj/item/phone,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bWI" = (
@@ -38851,14 +38845,15 @@
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
 "bXE" = (
-/obj/machinery/computer/message_monitor{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/machinery/computer/telecomms/server{
+	dir = 4;
+	network = "tcommsat"
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -39183,10 +39178,6 @@
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
 "bYD" = (
-/obj/machinery/computer/telecomms/server{
-	dir = 4;
-	network = "tcommsat"
-	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
@@ -39194,6 +39185,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/machinery/vending/modularpc,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "bYE" = (
@@ -39420,10 +39412,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/break_room)
-"bZv" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/tcommsat/computer)
 "bZx" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
@@ -40399,8 +40387,6 @@
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
 "cci" = (
-/obj/structure/table,
-/obj/item/multitool,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
@@ -40409,6 +40395,12 @@
 	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/structure/table,
+/obj/item/radio{
+	desc = "An old handheld radio. You could use it, if you really wanted to.";
+	icon_state = "radio";
+	name = "old radio"
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -40621,8 +40613,7 @@
 "ccQ" = (
 /obj/structure/sink{
 	dir = 4;
-	pixel_x = -12;
-	pixel_y = 0
+	pixel_x = -12
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
@@ -40990,14 +40981,20 @@
 /area/tcommsat/server)
 "cee" = (
 /obj/structure/table,
-/obj/item/book/manual/wiki/tcomms,
-/obj/item/radio/off,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/item/reagent_containers/food/drinks/mug{
+	pixel_x = -7;
+	pixel_y = -3
+	},
+/obj/item/storage/fancy/nugget_box{
+	pixel_x = 5;
+	pixel_y = 4
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -41008,6 +41005,7 @@
 	},
 /obj/machinery/light,
 /obj/structure/filingcabinet/chestdrawer,
+/obj/item/book/manual/wiki/tcomms,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "ceh" = (
@@ -41020,6 +41018,7 @@
 	pixel_x = -2;
 	pixel_y = -1
 	},
+/obj/item/storage/toolbox/electrical,
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "cen" = (
@@ -47081,6 +47080,10 @@
 	dir = 1
 	},
 /obj/effect/landmark/event_spawn,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -32;
+	pixel_y = -32
+	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "cBL" = (
@@ -48738,12 +48741,6 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
-"cSF" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark/telecomms,
-/area/tcommsat/server)
 "cSG" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /turf/closed/wall/r_wall,
@@ -49402,7 +49399,6 @@
 	dir = 8
 	},
 /obj/machinery/camera/autoname{
-	icon_state = "camera";
 	dir = 5
 	},
 /turf/open/floor/engine,
@@ -49733,7 +49729,6 @@
 /area/vacant_room/commissary)
 "gGJ" = (
 /obj/machinery/camera/autoname{
-	icon_state = "camera";
 	dir = 5
 	},
 /turf/open/floor/engine,
@@ -49995,7 +49990,6 @@
 	dir = 4
 	},
 /obj/machinery/computer/camera_advanced/xenobio{
-	icon_state = "computer";
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/purple{
@@ -50314,8 +50308,7 @@
 /area/science/xenobiology)
 "jUW" = (
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/white,
@@ -50492,6 +50485,13 @@
 	},
 /turf/closed/wall/r_wall,
 /area/science/mixing/chamber)
+"kEJ" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "kGA" = (
 /obj/structure/chair/office/light{
 	dir = 4
@@ -50536,7 +50536,6 @@
 	},
 /obj/machinery/light,
 /obj/machinery/camera/autoname{
-	icon_state = "camera";
 	dir = 1
 	},
 /obj/structure/cable,
@@ -50982,11 +50981,11 @@
 	pixel_y = -2
 	},
 /obj/machinery/button/door{
+	id = "xenobiomain";
 	name = "Containment Blast Doors";
 	pixel_x = 1;
 	pixel_y = -26;
-	req_access_txt = "55";
-	id = "xenobiomain"
+	req_access_txt = "55"
 	},
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
@@ -51613,10 +51612,9 @@
 /area/security/detectives_office)
 "pvI" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
-	name = "killroom vent";
-	icon_state = "vent_map_siphon_on-2";
 	dir = 1;
-	external_pressure_bound = 120
+	external_pressure_bound = 120;
+	name = "killroom vent"
 	},
 /turf/open/floor/plasteel/freezer,
 /area/science/xenobiology)
@@ -52207,6 +52205,16 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"svG" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/item/trash/can{
+	pixel_x = -8;
+	pixel_y = -8
+	},
+/turf/open/floor/plasteel,
+/area/tcommsat/computer)
 "swH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -78646,7 +78654,7 @@ bXA
 bYB
 bYz
 cai
-cSF
+bYz
 ccg
 cdd
 cea
@@ -78902,7 +78910,7 @@ bWC
 bXz
 bYA
 bXC
-bXC
+kEJ
 bWB
 ccf
 cdc
@@ -80700,10 +80708,10 @@ bVJ
 bOo
 bOD
 bQb
-bZv
+bXG
 bSd
 bXG
-bOC
+svG
 bWt
 cBK
 bVJ
@@ -80957,7 +80965,7 @@ bVJ
 bOl
 bOC
 bPQ
-bQK
+bYF
 bYF
 bTI
 bUy
