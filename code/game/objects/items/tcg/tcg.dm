@@ -10,7 +10,7 @@ var/list/cardTypeLookup = list("name" = 0,
 								"resolve" = 6,
 								"tags" = 7,
 								"cardtype" = 8,
-								"rarity" = 9
+								"rarity" = 9,
 								)
 #define MAX_INDEX 8
 
