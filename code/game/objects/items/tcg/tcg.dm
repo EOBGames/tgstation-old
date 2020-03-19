@@ -12,7 +12,7 @@ var/list/cardTypeLookup = list("name" = 0,
 								"cardtype" = 8,
 								"rarity" = 9,
 								)
-#define MAX_INDEX 8
+#define MAX_INDEX 9
 
 /obj/item/tcgcard
 	name = "Coder"
