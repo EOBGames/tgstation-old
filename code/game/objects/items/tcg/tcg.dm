@@ -24,7 +24,7 @@ var/list/cardTypeLookup = list("name" = 0,
 	var/resolve = 0 //How hard this card can get hit (by default)
 	var/tags = "" //Special tags
 	var/cardtype = "" //Cardtype, for use in battles. Arcane/Inept if you don't update this whole block when you finalize the game I will throw you into the sm
-	var/rarity = 0
+	var/rarity = 0 //EOB discribe this pls
 
 ///Creates a card based on a passed card string
 /obj/item/tcgcard/Initialize(mapload, card)
