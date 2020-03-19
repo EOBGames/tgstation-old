@@ -12,7 +12,6 @@ var/list/cardTypeLookup = list("name" = 0,
 								"cardtype" = 8,
 								"rarity" = 9,
 								)
-#define MAX_INDEX 9
 
 /obj/item/tcgcard
 	name = "Coder"
@@ -167,7 +166,7 @@ var/list/cardTypeLookup = list("name" = 0,
 	if(split.len >= 2)
 		card = "|[split[2]]"
 	var/done = ""
-	for(var/index in 0 to MAX_INDEX)
+	for(var/index in 0 to cardTypeLookup.len - 1)
 		done += applyCardTemplateByIndex(index, card, template)
 	return done + "|"
 
