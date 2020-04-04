@@ -128,6 +128,22 @@
 	response_harm_simple = "splat"
 	gold_core_spawnable = NO_SPAWN
 
+//Squeek the Tider Mouse, an Assistant's best friend. Don't let the lizards get him.
+/mob/living/simple_animal/mouse/gray/squeek
+	name = "Squeek"
+	desc = "This cute little guy is a greytider's best friend."
+	icon_state = "mouse_squeek"
+	response_help_continuous = "pets"
+	response_help_simple = "pet"
+	response_disarm_continuous = "gently pushes aside"
+	response_disarm_simple = "gently push aside"
+	response_harm_continuous = "splats"
+	response_harm_simple = "splat"
+	gold_core_spawnable = NO_SPAWN
+	chew_probability = 0
+	gender = MALE
+	emote_see = list("looks around for a multitool.", "sniffs around for access.", "greytides stationwide.", "chews on his gas mask.")
+
 /obj/item/reagent_containers/food/snacks/deadmouse
 	name = "dead mouse"
 	desc = "It looks like somebody dropped the bass on it. A lizard's favorite meal."
