@@ -51,3 +51,7 @@
 /obj/machinery/atmospherics/components/unary/tank/nitrogen
 	icon_state = "red"
 	gas_type = /datum/gas/nitrogen
+
+/obj/machinery/atmospherics/components/unary/tank/water_vapor
+	icon_state = "generic"
+	gas_type = /datum/gas/water_vapor

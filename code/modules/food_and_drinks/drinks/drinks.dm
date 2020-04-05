@@ -274,6 +274,31 @@
 	var/flip_chance = 10
 	custom_price = 30
 
+/obj/item/reagent_containers/food/drinks/waterbottle/aquaspessia
+	name = "bottle of AquaSpessia water"
+	desc = "Vapour-distilled and with added electrolytes, AquaSpessia is the best water credits can buy."
+	list_reagents = list(/datum/reagent/water = 49.5, /datum/reagent/consumable/sodiumchloride = 0.5)
+
+/obj/item/reagent_containers/food/drinks/waterbottle/tiderade
+	name = "bottle of green Tiderade"
+	desc = "A bottle of Green Blast Tiderade, perfect for keeping you tiding for longer."
+	list_reagents = list(/datum/reagent/consumable/greentide = 30, /datum/reagent/consumable/sugar = 20)
+
+/obj/item/reagent_containers/food/drinks/waterbottle/tiderade/red
+	name = "bottle of red Tiderade"
+	desc = "A bottle of Red Burst Tiderade. Nobody knows what the real flavour is."
+	list_reagents = list(/datum/reagent/consumable/redtide = 30, /datum/reagent/consumable/sugar = 20)
+
+/obj/item/reagent_containers/food/drinks/waterbottle/tiderade/blue
+	name = "bottle of blue Tiderade"
+	desc = "A bottle of Blue Shock Tiderade. It's lightly crackling in the bottle."
+	list_reagents = list(/datum/reagent/consumable/bluetide = 30, /datum/reagent/consumable/sugar = 5, /datum/reagent/consumable/liquidelectricity = 15)
+
+/obj/item/reagent_containers/food/drinks/waterbottle/tiderade/purple
+	name = "bottle of purple Tiderade"
+	desc = "A bottle of Purple Chill Tiderade. This stuff was discontinued years ago."
+	list_reagents = list(/datum/reagent/consumable/lean = 30, /datum/reagent/consumable/sugar = 20)
+
 /obj/item/reagent_containers/food/drinks/waterbottle/Initialize()
 	. = ..()
 	cap_overlay = mutable_appearance(icon, cap_icon_state)

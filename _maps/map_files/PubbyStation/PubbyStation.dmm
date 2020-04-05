@@ -13075,8 +13075,7 @@
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
 "aHw" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/elevatorshaft,
+/turf/open/openspace,
 /area/quartermaster/warehouse)
 "aHz" = (
 /turf/closed/wall,
@@ -32126,6 +32125,7 @@
 	dir = 5
 	},
 /obj/structure/cable,
+/obj/structure/railing/corner,
 /turf/open/floor/plasteel/dark,
 /area/science/explab)
 "bDT" = (
@@ -32827,11 +32827,7 @@
 /turf/open/floor/engine,
 /area/science/storage)
 "bFf" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
+/turf/open/openspace,
 /area/science/explab)
 "bFh" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
@@ -33284,28 +33280,9 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/science/storage)
-"bGj" = (
-/obj/machinery/vending/coffee,
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/science/explab)
 "bGk" = (
 /obj/machinery/light,
-/obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/plasteel/dark,
-/area/science/explab)
-"bGl" = (
-/obj/machinery/portable_atmospherics/scrubber,
-/obj/effect/turf_decal/tile/purple,
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
+/turf/open/openspace,
 /area/science/explab)
 "bGm" = (
 /obj/machinery/light_switch{
@@ -34510,6 +34487,10 @@
 /obj/machinery/light,
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable,
+/obj/machinery/airalarm{
+	dir = 1;
+	pixel_y = -22
+	},
 /turf/open/floor/engine,
 /area/science/storage)
 "bII" = (
@@ -53795,6 +53776,16 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"nEX" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/obj/structure/railing,
+/turf/open/floor/plasteel/dark,
+/area/science/explab)
 "nGi" = (
 /obj/structure/chair{
 	dir = 4
@@ -55425,6 +55416,15 @@
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/plating,
 /area/engine/engineering)
+"qWL" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/science/explab)
 "qWM" = (
 /obj/item/storage/toolbox/mechanical{
 	pixel_x = 2;
@@ -98585,8 +98585,8 @@ bAC
 bBH
 bCT
 bDR
-bCT
-bGj
+nEX
+bFf
 buz
 abI
 bJP
@@ -98842,7 +98842,7 @@ bAD
 bBI
 bCU
 bDS
-bwb
+qWL
 bGk
 buz
 abI
@@ -99100,7 +99100,7 @@ bBJ
 bBJ
 bDT
 bFf
-bGl
+bFf
 buz
 abI
 bJP

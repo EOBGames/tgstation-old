@@ -933,3 +933,29 @@
 		M.drowsyness++
 	return ..()
 
+/datum/reagent/consumable/greentide
+	name = "Green Tiderade"
+	description = "It's lemon-lime flavour. Supposedly."
+	color = "#04FF00"
+	quality = DRINK_NICE
+	taste_description = "lemon-lime"
+	glass_name = "glass of green tiderade"
+	glass_desc = "Mmm. Tastes like college."
+
+/datum/reagent/consumable/bluetide
+	name = "Blue Tiderade"
+	description = "It's berry flavoured. Supposedly."
+	color = "#00C3FF"
+	quality = DRINK_NICE
+	taste_description = "mixed berry"
+	glass_name = "glass of blue tiderade"
+	glass_desc = "Mmm. Tastes like college."
+
+/datum/reagent/consumable/redtide
+	name = "Red Tiderade"
+	description = "It's fruit punch flavoured. Comrade."
+	color = "#CD0000"
+	quality = DRINK_NICE
+	taste_description = "red"
+	glass_name = "glass of red tiderade"
+	glass_desc = "Mmm. Tastes like communism."
