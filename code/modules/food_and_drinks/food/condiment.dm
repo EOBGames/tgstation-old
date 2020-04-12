@@ -310,3 +310,8 @@
 	name = "bbq sauce pack"
 	originalname = "bbq sauce"
 	list_reagents = list(/datum/reagent/consumable/bbqsauce = 10)
+
+/obj/item/reagent_containers/food/condiment/pack/creamer
+	name = "coffee creamer pack"
+	desc = "coffee creamer"
+	list_reagents = list(/datum/reagent/consumable/creamer = 10)

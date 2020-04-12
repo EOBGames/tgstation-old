@@ -669,3 +669,25 @@
 	component_parts += new /obj/item/stack/sheet/glass(null)
 	component_parts += new /obj/item/stock_parts/cell/bluespace(null)
 	RefreshParts()
+
+/obj/machinery/chem_dispenser/drinks/coffee
+	name = "coffee maker"
+	desc = "Can make whatever drink you want, as long as it's coffee related."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "soda_dispenser"
+	circuit = /obj/item/circuitboard/machine/chem_dispenser/drinks/coffee
+	dispensable_reagents = list(
+		/datum/reagent/water,
+		/datum/reagent/consumable/coffee,
+		/datum/reagent/consumable/tea
+	)
+	upgrade_reagents = list(
+		/datum/reagent/consumable/hot_coco,
+		/datum/reagent/consumable/cafe_latte
+	)
+	emagged_reagents = list(
+		/datum/reagent/consumable/soy_latte,
+		/datum/reagent/consumable/pumpkin_latte,
+		/datum/reagent/consumable/orangejuice,
+		/datum/reagent/consumable/ethanol/whiskey
+	)

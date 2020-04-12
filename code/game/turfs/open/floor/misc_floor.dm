@@ -180,3 +180,24 @@
 	icon_state = "eighties"
 	floor_tile = /obj/item/stack/tile/eighties
 	broken_states = list("damaged")
+
+/turf/open/floor/pooltiles
+	name = "pool tiles"
+	desc = "These look kinda sad without water, don't they."
+	icon_state = "pooltiles"
+
+/turf/open/floor/pooltiles/vent
+	icon_state = "pooltilesvent"
+
+/turf/open/floor/pooltiles/water
+	name = "swimming pool"
+	desc = "All the thrill of swimming in a lake, without all that disgusting nature."
+	icon_state = "pooltileswater"
+	slowdown = 1
+	footstep = FOOTSTEP_WATER
+	barefootstep = FOOTSTEP_WATER
+	clawfootstep = FOOTSTEP_WATER
+	heavyfootstep = FOOTSTEP_WATER
+
+/turf/open/floor/pooltiles/water/vent
+	icon_state = "pooltilesventwater"

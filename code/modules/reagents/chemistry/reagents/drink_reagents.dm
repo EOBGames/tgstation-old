@@ -959,3 +959,12 @@
 	taste_description = "red"
 	glass_name = "glass of red tiderade"
 	glass_desc = "Mmm. Tastes like communism."
+
+/datum/reagent/consumable/creamer
+	name = "coffee creamer"
+	description = "Makes your coffee creamy, without all that cow business."
+	color = "#F5F2D0"
+	quality = DRINK_GOOD
+	taste_description = "artificial cream"
+	glass name = "glass of coffee creamer"
+	glass_desc = "Generally you want to add some coffee to this, no?"

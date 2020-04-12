@@ -367,6 +367,12 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/dorms/barracks/female
 	name = "Female Sleep Barracks"
 
+/area/crew_quarters/dorms/greytide
+	name = "Staff Assistants' Quarters"
+
+/area/crew_quarters/dorms/communal
+	name = "Communal Dormitories"
+
 /area/crew_quarters/toilet
 	name = "Dormitory Toilets"
 	icon_state = "toilet"
@@ -383,6 +389,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Restrooms"
 	icon_state = "toilet"
 
+/area/crew_quarters/toilet/greytide
+	name = "Staff Assistants' Restrooms"
+	icon_state = "toilet"
+
 /area/crew_quarters/locker
 	name = "Locker Room"
 	icon_state = "locker"
@@ -390,6 +400,9 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/lounge
 	name = "Lounge"
 	icon_state = "yellow"
+
+/area/crew_quarters/lounge/greytide
+	name = "Staff Assistants' Lounge"
 
 /area/crew_quarters/fitness
 	name = "Fitness Room"
@@ -409,6 +422,27 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/fitness/recreation
 	name = "Recreation Area"
 	icon_state = "fitness"
+
+/area/crewquarters/fitness/healthclub
+	name = "Health Club"
+	icon_state = "healthclub"
+
+/area/crewquarters/fitness/sauna
+	name = "Sauna"
+	mood_bonus = 5
+	mood_message = "<span class='nicegreen'>Being in the sauna is so relaxing!\n</span>"
+	icon_state = "sauna"
+
+/area/crewquarters/fitness/sauna/steamroom
+	name = "Steam Room"
+	mood_message = "<span class='nicegreen'>Being in the steam room is great for my skin!\n</span>"
+
+/area/crewquarters/fitness/healthclub/bathroom
+	name = "Health Club Bathrooms"
+	icon_state = "toilet"
+
+/area/crewquarters/fitness/healthclub/maint
+	name = "Health Club Maintenance"
 
 /area/crew_quarters/cafeteria
 	name = "Cafeteria"
@@ -449,6 +483,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/crew_quarters/theatre/abandoned
 	name = "Abandoned Theatre"
+	icon_state = "Theatre"
+
+/area/crew_quarters/bar/theatrebar
+	name = "Theatre Bar"
 	icon_state = "Theatre"
 
 /area/library
@@ -936,6 +974,9 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/security/checkpoint/customs/auxiliary
 	icon_state = "customs_point_aux"
 
+/area/security/owlcave
+	name = "The Owlery"
+	icon_state = "owlcave"
 
 //Service
 
@@ -977,6 +1018,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/quartermaster/miningoffice
 	name = "Mining Office"
 	icon_state = "mining"
+
+/area/quartermaster/cargodorm
+	name = "Cargo Dormitory"
+	icon_state = "Sleep"
 
 /area/janitor
 	name = "Custodial Closet"

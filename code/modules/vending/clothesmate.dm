@@ -140,3 +140,7 @@
 /obj/item/vending_refill/clothing
 	machine_name = "ClothesMate"
 	icon_state = "refill_clothes"
+
+/obj/machinery/vending/clothing/athletic
+	name = "Buff Bros Gym Clothes"
+	desc = "Has everything you need to get beach body ready."
