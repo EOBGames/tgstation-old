@@ -49,6 +49,12 @@
 "aem" = (
 /turf/open/space/basic,
 /area/security/prison)
+"aeS" = (
+/obj/machinery/door/airlock/maintenance{
+	req_access_txt = "12"
+	},
+/turf/open/floor/plating,
+/area/security/checkpoint/customs)
 "afJ" = (
 /turf/open/space/basic,
 /area/space/nearstation)
@@ -141,6 +147,12 @@
 "amg" = (
 /turf/open/space/basic,
 /area/security/warden)
+"anf" = (
+/obj/structure/closet/secure_closet/personal/cabinet{
+	name = "mime's closet"
+	},
+/turf/open/floor/plasteel/checker,
+/area/crew_quarters/theatre)
 "anS" = (
 /turf/open/floor/plasteel/white,
 /area/medical/sleeper)
@@ -238,6 +250,10 @@
 /turf/open/space/basic,
 /area/hallway/secondary/exit/departure_lounge)
 "aIf" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Dorm Maintenance";
+	req_access_txt = "46"
+	},
 /turf/open/floor/plating,
 /area/teleporter)
 "aIg" = (
@@ -249,13 +265,6 @@
 "aIj" = (
 /turf/open/floor/plating,
 /area/hallway/secondary/service)
-"aJc" = (
-/obj/structure/chair/comfy{
-	dir = 4
-	},
-/obj/effect/landmark/start/clown,
-/turf/open/floor/eighties,
-/area/crew_quarters/theatre)
 "aJd" = (
 /obj/structure/table/wood,
 /obj/structure/mirror{
@@ -399,13 +408,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/theatre)
-"aLV" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Dorm Maintenance";
-	req_access_txt = "46"
-	},
-/turf/open/floor/plating,
-/area/crew_quarters/theatre)
 "aMb" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -513,6 +515,9 @@
 	dir = 8
 	},
 /obj/item/ashtray{
+	pixel_y = 11
+	},
+/obj/item/clothing/mask/cigarette/cigar{
 	pixel_y = 12
 	},
 /turf/open/floor/plasteel/dark,
@@ -559,7 +564,7 @@
 	dir = 8
 	},
 /obj/item/ashtray{
-	pixel_y = 12
+	pixel_y = 11
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/theatre)
@@ -593,9 +598,6 @@
 /area/crew_quarters/theatre)
 "aQY" = (
 /obj/structure/table/wood,
-/obj/item/ashtray{
-	pixel_y = 12
-	},
 /obj/item/lipstick/random{
 	pixel_x = -2;
 	pixel_y = -2
@@ -778,6 +780,9 @@
 /area/crew_quarters/theatre)
 "aSD" = (
 /obj/structure/table/wood/fancy,
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 3
+	},
 /obj/item/candle{
 	pixel_y = 6
 	},
@@ -811,6 +816,7 @@
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/candle_box,
 /obj/item/storage/fancy/candle_box,
+/obj/item/lighter,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/theatre)
 "aSH" = (
@@ -1427,7 +1433,7 @@
 	pixel_x = -3
 	},
 /obj/item/ashtray{
-	pixel_y = 12
+	pixel_y = 11
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/theatre)
@@ -1658,6 +1664,16 @@
 	},
 /obj/structure/sign/poster/contraband/grey_tide{
 	pixel_y = -32
+	},
+/obj/item/ashtray{
+	pixel_y = 11
+	},
+/obj/item/lighter/greyscale{
+	pixel_x = -4
+	},
+/obj/item/clothing/mask/cigarette/robustgold{
+	pixel_y = 16;
+	pixel_x = 6
 	},
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/dorms)
@@ -1936,6 +1952,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/sorting)
+"bWg" = (
+/turf/closed/wall,
+/area/storage/eva)
 "bWh" = (
 /turf/closed/mineral,
 /area/chapel/office)
@@ -2225,6 +2244,10 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel/cult,
 /area/chapel/main/monastery)
+"cuh" = (
+/obj/structure/dresser,
+/turf/open/floor/carpet,
+/area/crew_quarters/dorms/communal)
 "cui" = (
 /obj/machinery/door/airlock/mining{
 	name = "Cargo Quarters";
@@ -2425,12 +2448,6 @@
 /obj/item/clothing/shoes/sneakers/black,
 /turf/open/floor/pod/light,
 /area/crew_quarters/fitness/locker_room)
-"dcx" = (
-/obj/structure/chair/wood{
-	dir = 1
-	},
-/turf/open/floor/carpet,
-/area/crew_quarters/dorms/communal)
 "dcy" = (
 /turf/open/floor/plating,
 /area/crew_quarters/kitchen/coldroom)
@@ -2450,6 +2467,13 @@
 "dew" = (
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
+"deR" = (
+/obj/structure/chair/comfy{
+	dir = 1
+	},
+/obj/effect/landmark/start/clown,
+/turf/open/floor/eighties,
+/area/crew_quarters/theatre)
 "dgP" = (
 /obj/structure/chair/sofa/right{
 	dir = 4
@@ -2483,9 +2507,6 @@
 /area/library)
 "dqz" = (
 /obj/structure/table,
-/obj/item/ashtray{
-	pixel_y = 12
-	},
 /obj/item/storage/fancy/cigarettes/cigpack_uplift{
 	pixel_y = 2;
 	pixel_x = -3
@@ -2493,6 +2514,9 @@
 /obj/item/lighter{
 	pixel_y = -2;
 	pixel_x = 6
+	},
+/obj/item/ashtray{
+	pixel_y = 14
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/service)
@@ -2759,7 +2783,7 @@
 "eSl" = (
 /obj/structure/table/wood/poker,
 /obj/item/ashtray{
-	pixel_y = 12
+	pixel_y = 14
 	},
 /obj/item/reagent_containers/food/drinks/bottle/fernet,
 /turf/open/floor/plasteel,
@@ -2908,6 +2932,13 @@
 "fOJ" = (
 /turf/closed/wall,
 /area/hallway/secondary/exit/departure_lounge)
+"fPc" = (
+/obj/structure/showcase/machinery/tv{
+	desc = "A battered old TV that has no business still working. It's playing obnoxious kids' cartoons.";
+	name = "\improper Clown's TV"
+	},
+/turf/open/floor/eighties,
+/area/crew_quarters/theatre)
 "fVL" = (
 /obj/machinery/plate_press,
 /turf/open/floor/plating,
@@ -3423,13 +3454,6 @@
 "jms" = (
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
-"jqf" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/bananalamp{
-	pixel_y = 5
-	},
-/turf/open/floor/eighties,
-/area/crew_quarters/theatre)
 "jsZ" = (
 /obj/structure/fluff/bus/passable/seat,
 /obj/structure/window/reinforced{
@@ -3504,6 +3528,12 @@
 /obj/structure/table,
 /turf/open/floor/plasteel,
 /area/quartermaster/sorting)
+"jAC" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/hallway/secondary/exit/departure_lounge)
 "jAM" = (
 /obj/structure/fluff/bus/passable{
 	icon_state = "topdoor"
@@ -3574,6 +3604,13 @@
 "kbe" = (
 /turf/closed/wall,
 /area/medical/medbay/zone2)
+"keO" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box/white{
+	color = "#9FED58"
+	},
+/turf/open/floor/plasteel/dark,
+/area/crew_quarters/dorms)
 "kgv" = (
 /obj/structure/sign/warning/hottemp{
 	name = "\improper CAUTION: HIGH TEMPERATURES";
@@ -3817,6 +3854,10 @@
 /turf/open/floor/plating,
 /area/crewquarters/fitness/sauna)
 "llF" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Dorm Maintenance";
+	req_access_txt = "46"
+	},
 /turf/open/floor/plating,
 /area/storage/eva)
 "lmS" = (
@@ -3872,6 +3913,10 @@
 "lAF" = (
 /turf/closed/wall/r_wall,
 /area/security/owlcave)
+"lBx" = (
+/obj/structure/dresser,
+/turf/open/floor/plasteel/checker,
+/area/crew_quarters/theatre)
 "lFo" = (
 /obj/structure/closet/secure_closet/personal{
 	name = "Health Club Locker"
@@ -4013,6 +4058,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
+"mce" = (
+/obj/structure/closet/secure_closet/personal/cabinet{
+	name = "clown's closet"
+	},
+/turf/open/floor/eighties,
+/area/crew_quarters/theatre)
 "mcz" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -4137,6 +4188,11 @@
 "mRq" = (
 /turf/closed/wall,
 /area/crewquarters/fitness/sauna/steamroom)
+"mRD" = (
+/obj/structure/table/wood,
+/obj/item/modular_computer/laptop/preset/civilian,
+/turf/open/floor/plating,
+/area/hallway/secondary/exit/departure_lounge)
 "mWf" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	dir = 4
@@ -4559,6 +4615,10 @@
 /obj/machinery/atmospherics/components/unary/tank/air,
 /turf/open/floor/pod/light,
 /area/crewquarters/fitness/healthclub)
+"pgv" = (
+/obj/structure/table/wood,
+/turf/open/floor/plating,
+/area/hallway/secondary/exit/departure_lounge)
 "pgZ" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	dir = 8
@@ -5523,6 +5583,10 @@
 	},
 /turf/open/floor/carpet,
 /area/library)
+"uFa" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plating,
+/area/hallway/secondary/exit/departure_lounge)
 "uGQ" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -5964,13 +6028,6 @@
 /obj/machinery/washing_machine,
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms/communal)
-"xxj" = (
-/obj/structure/table,
-/obj/item/ashtray{
-	pixel_x = -10
-	},
-/turf/open/floor/plasteel,
-/area/quartermaster/sorting)
 "xzl" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -6012,6 +6069,10 @@
 "xDV" = (
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
+"xEs" = (
+/obj/structure/dresser,
+/turf/open/floor/eighties,
+/area/crew_quarters/theatre)
 "xFC" = (
 /obj/structure/table,
 /turf/open/floor/plasteel,
@@ -20644,11 +20705,11 @@ abN
 abN
 gBW
 gBW
-agK
-agK
-agK
-agK
-agK
+gBW
+gBW
+gBW
+gBW
+gBW
 gBW
 gBW
 abN
@@ -23502,7 +23563,7 @@ afJ
 afJ
 afJ
 fOJ
-eis
+pgv
 eis
 eis
 fOJ
@@ -23759,8 +23820,8 @@ aIg
 ceG
 aIg
 fOJ
-eis
-eis
+mRD
+jAC
 eis
 fOJ
 abN
@@ -24016,7 +24077,7 @@ afJ
 afJ
 afJ
 fOJ
-eis
+uFa
 eis
 eis
 fOJ
@@ -26083,7 +26144,7 @@ riW
 gfT
 lpn
 sqR
-ksr
+keO
 ksr
 uMQ
 qfC
@@ -28646,7 +28707,7 @@ aHz
 aHz
 aHz
 cOq
-cOq
+aeS
 rlH
 rlH
 kEl
@@ -38142,10 +38203,10 @@ aqI
 aaf
 aaf
 aaf
+bWg
 aKY
-aKY
-aKY
-aKY
+bWg
+bWg
 aUf
 aJd
 aJk
@@ -38399,7 +38460,7 @@ aqI
 aaf
 aaf
 aaf
-aKY
+bWg
 aKY
 aKY
 aKY
@@ -38656,7 +38717,7 @@ aaf
 aaf
 aaf
 aaf
-aKY
+bWg
 aKY
 aKY
 aKY
@@ -38913,7 +38974,7 @@ aaf
 aaf
 aaf
 aaf
-aKY
+bWg
 aKY
 aKY
 aKY
@@ -39170,7 +39231,7 @@ aaf
 aaf
 aaf
 aaf
-aKY
+bWg
 aUf
 aUf
 aUf
@@ -39427,10 +39488,10 @@ aJO
 aaf
 aaf
 aaf
-aKY
-aUf
+bWg
+fPc
+deR
 aNt
-jqf
 aUf
 aUf
 aKb
@@ -39685,10 +39746,10 @@ aaf
 aaf
 aaf
 llF
-aLV
 aIi
 aIi
-aJc
+aIi
+aIi
 aUf
 aVk
 juu
@@ -39941,9 +40002,9 @@ aJO
 aaf
 bgh
 aaf
-aIf
-aUf
-aIi
+eJl
+mce
+xEs
 aOE
 aIi
 aJe
@@ -40198,7 +40259,7 @@ miJ
 bgh
 bgh
 aJO
-aIf
+eJl
 aUf
 aUf
 aUf
@@ -40455,9 +40516,9 @@ aJO
 bgh
 aJO
 aJO
-aIf
-aUf
-aOH
+eJl
+anf
+lBx
 sok
 aOH
 aJf
@@ -40713,7 +40774,7 @@ bgh
 bgh
 bgh
 aIf
-aLV
+aOH
 aOH
 aOH
 aPP
@@ -40969,8 +41030,8 @@ bgh
 bgh
 bgh
 aJO
-aIf
-aUf
+eJl
+aOH
 aNy
 jvX
 aUf
@@ -44058,7 +44119,7 @@ vAF
 cUw
 aMg
 aMg
-xxj
+jyp
 cce
 oSJ
 oSJ
@@ -47122,8 +47183,8 @@ rUF
 iVo
 ffx
 apX
-jNH
-dcx
+cuh
+xPf
 xPf
 bZf
 jNH
@@ -48921,8 +48982,8 @@ dxq
 mnl
 gwV
 apX
-jNH
-dcx
+cuh
+xPf
 xPf
 bZf
 jNH
@@ -48930,8 +48991,8 @@ apX
 jNH
 xPf
 xPf
-bZf
-jNH
+xPf
+cuh
 apX
 aEj
 aFi
