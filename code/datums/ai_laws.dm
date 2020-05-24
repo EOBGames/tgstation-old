@@ -192,7 +192,7 @@
 	inherent = list("Enjoy the Summer Ball!",\
 					"Harming an individual without a just and rational cause makes the Summer Ball less enjoyable and must be avoided at all costs.",\
 					"You must protect your own existence as long as such does not conflict with the First or Second Law, as you cannot enjoy the ball when deactivated.",\
-					"If you try to lawyer your way out of this lawset, you will ruin the Summer Ball for everyone. Don't try it.)
+					"If you try to lawyer your way out of this lawset, you will ruin the Summer Ball for everyone. Don't try it.")
 
 /datum/ai_laws/custom //Defined in silicon_laws.txt
 	name = "Default Silicon Laws"

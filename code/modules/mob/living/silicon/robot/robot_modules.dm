@@ -273,7 +273,8 @@
 		/obj/item/roller/robo,
 		/obj/item/borg/cyborghug/medical,
 		/obj/item/stack/medical/gauze/cyborg,
-		/obj/item/organ_storage)
+		/obj/item/organ_storage,
+		/obj/item/gun/magic/staff/healing)
 	emag_modules = list(/obj/item/reagent_containers/borghypo/hacked)
 	cyborg_base_icon = "medical"
 	moduleselect_icon = "medical"
@@ -344,7 +345,6 @@
 		/obj/item/storage/bag/tray,
 		/obj/item/reagent_containers/borghypo/borgshaker,
 		/obj/item/borg/apparatus/beaker/service)
-	emag_modules = null
 	emag_modules = null
 	cyborg_base_icon = "peace"
 	moduleselect_icon = "standard"
