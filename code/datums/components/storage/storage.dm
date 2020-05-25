@@ -460,6 +460,7 @@
 	var/datum/component/storage/concrete/master = master()
 	if(!istype(master))
 		return FALSE
+	SEND_SIGNAL(AM, COMSIG_STORAGE_REMOVED)
 	return master.remove_from_storage(AM, new_location)
 
 /datum/component/storage/proc/refresh_mob_views()
@@ -658,6 +659,7 @@
 	if(M)
 		parent.add_fingerprint(M)
 	. = master.handle_item_insertion_from_slave(src, I, prevent_warning, M)
+	SEND_SIGNAL(I, COMSIG_TRY_STORAGE_STASHED)
 
 /datum/component/storage/proc/mob_item_insertion_feedback(mob/user, mob/M, obj/item/I, override = FALSE)
 	if(silent && !override)
