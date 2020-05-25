@@ -12,13 +12,12 @@ GLOBAL_LIST_EMPTY(cached_cards)
 	w_class = WEIGHT_CLASS_TINY
 	var/id = -1 //Unique ID, for use in lookups and storage, used to index the global datum list where the rest of the card's info is stored
 	var/series = "coderbus" //Used along with the id for lookup
-	var/flipped = 0
+	var/flipped = FALSE
 
-/obj/item/tcgcard/Initialize(mapload, series, id)
+/obj/item/tcgcard/Initialize(mapload, brand, badge_me)
 	. = ..()
 	transform = matrix(0.3,0,0,0,0.3,0)
-	RegisterSignal(src, COMSIG_STORAGE_REMOVED)
-	var/datum/card/temp = GLOB.cached_cards[series]["ALL"][id]
+	var/datum/card/temp = GLOB.cached_cards[brand]["ALL"][badge_me]
 	if(!temp)
 		return
 	name = temp.name
@@ -59,22 +58,23 @@ GLOBAL_LIST_EMPTY(cached_cards)
 /obj/item/tcgcard/attack_self(mob/user)
 	. = ..()
 	to_chat(user, "<span_class='notice'>You turn the card over.</span>")
-	if(flipped == 0)
+	if(!flipped)
 		name = "Trading Card"
 		desc = "It's the back of a trading card... no peeking!"
 		icon_state = "cardback"
-		flipped = 1
 	else
-		var/datum/card/template = GLOB.cached_cards[series]["[id]"]
+		var/datum/card/template = GLOB.cached_cards[series]["ALL"]["[id]"]
 		name = template.name
 		desc = template.desc
 		icon_state = template.icon_state
-		flipped = 0
+	flipped = !flipped
 
-/obj/item/tcgcard/proc/normal()
+/obj/item/tcgcard/equipped(mob/user, slot, initial)
+	. = ..()
 	transform = matrix()
 
-/obj/item/tcgcard/proc/zoom(mob/user, silent)
+/obj/item/tcgcard/dropped(mob/user, silent)
+	. = ..()
 	transform = matrix(0.3,0,0,0,0.3,0)
 
 /obj/item/cardpack
