@@ -70,7 +70,7 @@ GLOBAL_LIST_EMPTY(cached_cards)
 	var/series = "MEME"
 	///Chance of the pack having a coin in it out of 10
 	var/contains_coin = -1
-	///The amount of cards each pack contains
+	///The amount of cards to draw from the rarity table
 	var/card_count = 6
 	///The rarity table, the set must contain at least one of each
 	var/list/rarity_table = list(
@@ -80,7 +80,7 @@ GLOBAL_LIST_EMPTY(cached_cards)
 		"epic" = 25,
 		"legendary" = 10,
 		"misprint" = 1)
-	///The amount of cards added onto card count that draw from the guarenteed rarity table instead
+	///The amount of cards to draw from the guarenteed rarity table
 	var/guaranteed_count = 1
 	///The guaranteed rarity table, acts about the same as the rarity table. it can have as many or as few raritys as you'd like
 	var/list/guar_rarity = list(
