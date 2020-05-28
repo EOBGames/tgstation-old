@@ -71,7 +71,7 @@ GLOBAL_LIST_EMPTY(cached_cards)
 	///Chance of the pack having a coin in it out of 10
 	var/contains_coin = -1
 	///The amount of cards to draw from the rarity table
-	var/card_count = 6
+	var/card_count = 5
 	///The rarity table, the set must contain at least one of each
 	var/list/rarity_table = list(
 		"common" = 900,
