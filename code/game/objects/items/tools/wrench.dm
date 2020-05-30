@@ -117,3 +117,29 @@
 	else
 		icon_state = "[initial(icon_state)]"
 		inhand_icon_state = "[initial(inhand_icon_state)]"
+
+/obj/item/wrench/allenkey
+	name = "allen key"
+	desc = "A tiny little piece of metal for fiddly tasks. Almost guaranteed to get lost at some point."
+	force = 1
+	throwforce = 1
+	w_class = WEIGHT_CLASS_TINY
+	toolspeed = 2
+	custom_materials = list(/datum/material/iron=50)
+	attack_verb = list("poked", "prodded")
+
+/obj/item/wrench/allenkey/bluespace
+	name = "bluespace allen key"
+	desc = "The most high-tech piece of furniture assembly equipment in the galaxy. Cost Nanotrasen an estimated 4 billion in R&D. None of that money made it harder to lose."
+	force = 2
+	throwforce = 2
+	toolspeed = 1.5
+	custom_materials = list(/datum/material/iron=25, /datum/material/bluespace=25)
+
+/obj/item/wrench/allenkey/abductor
+	name = "alien allen key"
+	desc = "This remarkable piece of alien tech fits to any hex socket. Unfortunately, it's still extremely easy to lose."
+	force = 3
+	throwforce = 3
+	usesound = 'sound/effects/empulse.ogg'
+	toolspeed = 1

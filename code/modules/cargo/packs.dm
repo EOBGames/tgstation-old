@@ -2595,3 +2595,11 @@
 			continue
 		crate_value -= I.cost
 		new I.item(C)
+
+/datum/supply_pack/misc/billig
+	name = "SVEA Billig Table Pack"
+	desc = "A shipment from your favourite Space Swedish furniture store, SVEA. Contains a flatpack Billig table and a random dehydrated Space Swedish classic meal."
+	cost = 1000
+	contains = list(/obj/item/flatpack)
+	crate_name = "\improper Billig table box"
+	crate_type = /obj/structure/closet/crate/swedebox

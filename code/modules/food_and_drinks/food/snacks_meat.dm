@@ -410,3 +410,40 @@
 	tastes = list("tex-mex" = 3, "cumin" = 2)
 	bonus_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/capsaicin = 3)
 	value = FOOD_EXOTIC
+
+//Välkommen till SVEA, Världsrymden Sveriges främsta möbelaffär. Vi lagrar också utsökt uttorkad mat!
+/obj/item/reagent_containers/food/snacks/swedish
+	name = "\improper Swedish meal"
+	icon_state = "swedefood"
+	tastes = list("swedishness" = 1)
+	value = FOOD_EXOTIC
+
+/obj/item/reagent_containers/food/snacks/swedish/meatballs
+	name = "köttbullar"
+	icon_state = "swedefood"
+	tastes = list("meat" = 1, "cream" = 1, "lingonberry" = 1, "potato" = 1)
+	value = FOOD_FAST
+
+/obj/item/reagent_containers/food/snacks/swedish/fishballs
+	name = "fiskbullar"
+	icon_state = "swedefood"
+	tastes = list("pasta" = 1, "dill" = 1, "cream" = 1, "fish" = 1)
+	value = FOOD_FAST
+
+/obj/item/reagent_containers/food/snacks/swedish/dumplings
+	name = "palt"
+	icon_state = "swedefood"
+	tastes = list("potato" = 1, "meat" = 1, "lingonberry" = 1, "butter" = 1)
+	value = FOOD_FAST
+
+/obj/item/reagent_containers/food/snacks/swedish/flyingjacob
+	name = "flygande jakob"
+	icon_state = "swedefood"
+	tastes = list("chicken" = 1, "cream" = 1, "chilli" = 1, "bananas" = 1, "peanuts" = 1, "bacon" = 1, "rice" = 1)
+	value = FOOD_FAST
+
+/obj/item/reagent_containers/food/snacks/swedish/surstromming
+	name = "surströmming"
+	icon_state = "swedefood"
+	tastes = list("pure unadulterated death" = 10)
+	value = FOOD_JUNK
