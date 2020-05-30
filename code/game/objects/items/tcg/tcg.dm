@@ -297,12 +297,15 @@ GLOBAL_LIST_EMPTY(cached_cards)
 
 ///Empty the rarity cache so we can safely add new cards
 /proc/clearCards()
+	SStrading_card_game.loaded = FALSE
 	GLOB.cached_cards = list()
 
 ///Reloads all card files
 /proc/reloadAllCardFiles(cardFiles, directory)
 	clearCards()
 	loadAllCardFiles(cardFiles, directory)
+	SStrading_card_game.loaded = TRUE
+
 ///Loads the contents of a json file into our global card list
 /proc/loadCardFile(filename, directory = "strings/tcg")
 	var/list/json = json_decode(file2text("[directory]/[filename]"))
