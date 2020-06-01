@@ -226,7 +226,7 @@
 	products = list(/obj/item/clothing/suit/apron/overalls = 10,
 					/obj/item/clothing/suit/poncho = 10,
 					/obj/item/clothing/suit/poncho/green = 10,
-					/obj/item/clothing/suit/poncho/red = 10
+					/obj/item/clothing/suit/poncho/red = 10,
 					/obj/item/clothing/suit/hooded/carp_costume = 10,
 					/obj/item/clothing/suit/hooded/ian_costume = 10,
 					/obj/item/clothing/suit/hooded/bee_costume = 10,
@@ -285,7 +285,6 @@
 					/obj/item/clothing/gloves/color/plasmaman/white = 10,
 					/obj/item/clothing/head/beanie = 10,
 					/obj/item/clothing/head/beanie/black = 10,
-					/obj/item/clothing/head/beanie/white = 10,
 					/obj/item/clothing/head/beanie/green = 10,
 					/obj/item/clothing/head/beanie/darkblue = 10,
 					/obj/item/clothing/head/beanie/purple = 10,
