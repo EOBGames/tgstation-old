@@ -95,7 +95,7 @@
 					/obj/item/clothing/neck/cloak/hos = 10,
 					/obj/item/clothing/accessory/waistcoat = 10,
 					/obj/item/radio/headset/headset_sec = 10)
-	premium = null
+	premium = list()
 	refill_canister = /obj/item/vending_refill/wardrobe/sec_wardrobe
 	payment_department = ACCOUNT_SEC
 	light_color = "#ff3300"
@@ -249,7 +249,7 @@
 					/obj/item/clothing/neck/cloak/hop = 10,
 					/obj/item/radio/headset/headset_cargo = 10,
 					/obj/item/radio/headset/headset_cargo/mining = 10)
-	premium = null
+	premium = list()
 	refill_canister = /obj/item/vending_refill/wardrobe/cargo_wardrobe
 	payment_department = ACCOUNT_CAR
 /obj/item/vending_refill/wardrobe/cargo_wardrobe
@@ -373,18 +373,26 @@
 					/obj/item/clothing/shoes/laceup = 10,
 					/obj/item/clothing/shoes/galoshes = 10,
 					/obj/item/clothing/shoes/sneakers/black = 10,
+					/obj/item/clothing/shoes/clown_shoes = 10,
+					/obj/item/clothing/shoes/sneakers/mime = 10,
 					/obj/item/clothing/head/that = 10,
 					/obj/item/clothing/head/soft/black = 10,
 					/obj/item/clothing/head/soft/mime = 10,
 					/obj/item/clothing/head/chefhat = 10,
 					/obj/item/clothing/head/soft/purple = 10,
+					/obj/item/clothing/head/frenchberet = 10,
 					/obj/item/clothing/mask/bandana = 10,
+					/obj/item/clothing/mask/gas/clown_hat = 10,
+					/obj/item/clothing/mask/gas/sexyclown = 10,
+					/obj/item/clothing/mask/gas/mime = 10,
+					/obj/item/clothing/mask/gas/sexymime = 10,
 					/obj/item/clothing/glasses/regular = 10,
 					/obj/item/clothing/glasses/regular/jamjar = 10,
 					/obj/item/clothing/glasses/sunglasses/reagent = 10,
 					/obj/item/clothing/glasses/sunglasses/big = 10,
 					/obj/item/clothing/gloves/botanic_leather = 10,
 					/obj/item/clothing/gloves/color/black = 10,
+					/obj/item/clothing/gloves/color/white = 10,
 					/obj/item/clothing/suit/apron = 10,
 					/obj/item/clothing/suit/apron/overalls = 10,
 					/obj/item/clothing/suit/apron/waders = 10,
@@ -393,6 +401,7 @@
 					/obj/item/clothing/suit/apron/purple_bartender = 10,
 					/obj/item/clothing/suit/armor/vest/alt = 10,
 					/obj/item/clothing/suit/apron/chef = 10,
+					/obj/item/clothing/suit/toggle/suspenders = 10,
 					/obj/item/clothing/suit/caution = 10,
 					/obj/item/clothing/suit/toggle/lawyer = 10,
 					/obj/item/clothing/suit/toggle/lawyer/black = 10,

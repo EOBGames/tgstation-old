@@ -217,8 +217,8 @@
 					/obj/item/clothing/under/dress/skirt/plaid/blue = 10,
 					/obj/item/clothing/under/dress/skirt/plaid/purple = 10,
 					/obj/item/clothing/under/dress/skirt/plaid/green = 10)
-	contraband = null
-	premium = null
+	contraband = list()
+	premium = list()
 
 /obj/machinery/vending/clothing/jackets
 	name = "JacketHub"
@@ -252,10 +252,10 @@
 					/obj/item/clothing/suit/toggle/suspenders/blue = 10,
 					/obj/item/clothing/suit/toggle/suspenders/gray = 10,
 					/obj/item/clothing/suit/hawaiian = 10)
-	contraband = null
-	premium = null
+	contraband = list()
+	premium = list()
 
-/obj/machinery/vending/clothing/jackets
+/obj/machinery/vending/clothing/accessories
 	name = "All Accessorize"
 	desc = "A vending machine for accessories."
 	products = list(/obj/item/clothing/glasses/eyepatch = 10,
@@ -381,5 +381,5 @@
 					/obj/item/clothing/shoes/cowboy/black = 10,
 					/obj/item/clothing/shoes/cowboy/fancy = 10,
 					/obj/item/clothing/shoes/cookflops = 10)
-	contraband = null
-	premium = null
+	contraband = list()
+	premium = list()
