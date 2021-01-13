@@ -336,6 +336,10 @@ GLOBAL_LIST_EMPTY(tcgcard_radial_choices)
 	var/series = "MEME"
 	///Chance of the pack having a coin in it out of 10
 	var/contains_coin = -1
+	///Type of coin to spawn
+	var/coin_type = /obj/item/coin/thunderdome
+	///Anything else the pack should spawn, e.g. bubblegum
+	var/extra_spawn = /obj/item/food/chewable/bubblegum
 	///The amount of cards to draw from the rarity table
 	var/card_count = 5
 	///The rarity table, the set must contain at least one of each
@@ -356,14 +360,14 @@ GLOBAL_LIST_EMPTY(tcgcard_radial_choices)
 		"uncommon" = 60)
 
 /obj/item/cardpack/series_one
-	name = "Trading Card Pack: Series 1"
+	name = "Tactical Game Cards: Core Set 2560 Booster Pack"
 	desc = "Contains six cards of varying rarity from the 2560 Core Set. Collect them all!"
 	icon_state = "cardpack_series1"
 	series = "coreset2020"
 	contains_coin = 10
 
 /obj/item/cardpack/resin
-	name = "Trading Card Pack: Resin Frontier Booster Pack"
+	name = "\improper Tactical Game Cards: Resin Frontier Booster Pack"
 	desc = "Contains six cards of varying rarity from the Resin Frontier set. Collect them all!"
 	icon_state = "cardpack_resin"
 	series = "resinfront"
@@ -374,6 +378,32 @@ GLOBAL_LIST_EMPTY(tcgcard_radial_choices)
 		"rare" = 100,
 		"epic" = 30,
 		"legendary" = 5)
+
+/obj/item/cardpack/maint
+	name = "\improper Bootleg TGC Pack"
+	desc = "A dodgy pack of bootleg Tactical Game Cards. Contains three cards of varying rarity from any set."
+	icon_state = "cardpack_maint"
+	series = "maint" //backup in case the initialise fucks up somehow
+	contains_coin = 0
+	card_count = 3
+	guaranteed_count = 0
+	extra_spawn = /obj/item/reagent_containers/pill/floorpill
+
+/obj/item/cardpack/maint/admin
+	name = "\improper Tactical Game Cards: NanoCon Swagbag Pack"
+	desc = "A special pack of Tactical Game Cards from NanoCon. Contains three cards, all uncommon or better, from any set."
+	icon_state = "cardpack_admin"
+	contains_coin = 10
+	card_count = 0
+	guaranteed_count = 3
+
+/obj/item/cardpack/lavaland
+	name = "\improper Tactical Game Cards: Blood and Iron Booster Pack"
+	desc = "Contains six cards of varying rarity from the Blood and Iron set. Collect them all!"
+	icon_state = "cardpack_lava"
+	series = "lavaland"
+	coin_type = /obj/item/coin/plasma
+	extra_spawn = /obj/item/food/chewable/bubblegum/bubblegum
 
 /obj/item/cardpack/Initialize()
 	. = ..()
