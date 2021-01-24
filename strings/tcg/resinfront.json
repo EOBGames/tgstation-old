@@ -92,6 +92,20 @@
 			"rarity": "common"
 		},
 		{
+			"id": "rouny",
+			"name": "Xenomoprh Rouny",
+			"desc": "Rouny like go fast",
+			"rules": "Furst Stike, Hive mind",
+			"icon_state": "xeno_rouny",
+			"power": 2,
+			"resolve": 3,
+			"faction": "Xeno",
+			"summoncost": 3,
+			"cardtype": "Creture",
+			"cardsubtype": "Xenomop",
+			"rarity": "misprint"
+		},
+		{
 			"id": "praetorian",
 			"name": "Xenomorph Praetorian",
 			"desc": "The Praetorian is the Queen's royal guard, never seen far from the Queen's chambers.",
@@ -523,6 +537,34 @@
 			"summoncost": "3",
 			"cardtype": "Creature",
 			"cardsubtype": "Xenomorph",
+			"rarity": "rare"
+		},
+		{
+			"id": "tgmc_deathsquad",
+			"name": "TGMC Black-Ops Operative",
+			"desc": "While details of TGMC's black-ops during the Xeno Wars are now declassified, at the time these soldiers were among TerraGov's most closely guarded secrets.",
+			"rules": "Hivemind, Immunity to Events",
+			"icon_state": "wraith",
+			"power": "2",
+			"resolve": "2",
+			"faction": "Xeno",
+			"summoncost": "3",
+			"cardtype": "Creature",
+			"cardsubtype": "Human Soldier",
+			"rarity": "rare"
+		},
+		{
+			"id": "synthetic",
+			"name": "Synthetic",
+			"desc": "A precursor to the modern cyborgs that we know and love, Synthetics were designed to look human to disguise them from technophobic soldiers and crew.",
+			"rules": "Asimov",
+			"icon_state": "synthetic",
+			"power": "2",
+			"resolve": "2",
+			"faction": "Xeno",
+			"summoncost": "3",
+			"cardtype": "Creature",
+			"cardsubtype": "Silicon",
 			"rarity": "rare"
 		},
 	]
