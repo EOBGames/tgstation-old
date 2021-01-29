@@ -1,0 +1,30 @@
+{
+	"deck_variety": [
+		"Endurance Round: Build a deck with up to 50 cards, including up to 4 of each card.",
+		"Speed Round: Build a deck with 15 cards, with no more than 1 of each card.",
+		"Faction Decks: Build a deck using no more than two factions' cards.",
+		"Deckswap: Swap decks with your opponent."
+	],
+
+	"game_variety": [
+		"Armybuilder: the first 5 turns have no attack phase, allowing each player to build a small army before the fighting starts.",
+		"Twin Battlefields: Each player can have a battlefield in play simultaneously.",
+		"Stacked Battlefields: Played battlefields are played to supercede the previously played one. If a battlefield is destroyed, the previous one becomes the active one."
+	],
+
+	"fun_facts": [
+		"There are several rarities of cards! Every booster pack comes with 5 common cards, 1 guaranteed rare card or better, and occasionally a coin for flipping!",
+		"A wise man once said, \"the card game is deep\". Experiment with card effects, combos, and strategies!",
+		"Did you know that 2% of all profits from the sale of Tactical Game Cards donated to charity?",
+		"Building a deck that revolves around multiple departments can be the key to victory against some strategies!",
+		"The Quartermaster will never be a head of staff. Not even in fiction.",
+		"Tactical Game Cards are individually printed on paper made from the last of the California Redwoods!",
+		"We've never heard of 'magic' or 'porkmen' or 'yumigoes'. Stop emailing us about it!",
+		"There are some clever ways to activate once-per-turn effects a second time.",
+		"Playing Tactical Game Cards while driving or operating heavy machinery is not advised, if you want to look like a DORK that is.",
+		"When we say we donate to charity, we mean we literally just throw the money away.",
+		"Tactical Game Cards are not waterproof, fireproof, or spaceproof! In fact, they're extremely vulnerable to nearly everything!",
+		"Assembling the five pieces of Bubblegum leads to an immediate victory.",
+		"Security cards are based around strength in numbers. Be sure to have enough of them in your deck to activate their effects!"
+	]
+}

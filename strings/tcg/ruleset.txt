@@ -1,0 +1,1 @@
+Each deck can consist of up to 30 cards.
