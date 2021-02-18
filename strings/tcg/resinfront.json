@@ -654,7 +654,7 @@
 		{
 			"id": "cimex_tython",
 			"name": "Cimex Tython",
-			"desc": "The Tythons act as assistants to the Cimex Queen, carrying, nurturing, and heating her eggs until they are ready to hatch.",
+			"desc": "The Tythons act as the main broodcarriers of the Cimex Hive, birthing eggs and keeping them warm until they are ready to hatch.",
 			"rules": "Carapace. When Cimex Tython is destroyed in combat, spawn 2 1/1 Cimex Larvae token creatures.",
 			"icon_state": "cimex_tython",
 			"power": "1",
@@ -711,7 +711,7 @@
 			"id": "cimex_hive",
 			"name": "Cimex Hive",
 			"desc": "Cimex Hives are sprawling networks of resinous, chitinous tunnels filled with hex-shaped combs bearing eggs. Also, they're filled with BUGS!",
-			"rules": "All non-Cimex units get -1/0.",
+			"rules": "All non-Cimex units get -1/0. Cimex cards cost 1 less mana to summon, to a minimum of 1 mana.",
 			"icon_state": "cimex_hive",
 			"power": "0",
 			"resolve": "0",

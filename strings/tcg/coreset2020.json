@@ -1501,6 +1501,21 @@
 			"cardsubtype": "Shuttle",
 			"series": "coreset2020",
 			"rarity": "uncommon"
+		},
+		{
+			"id": "highlander",
+			"name": "Highlander",
+			"desc": "Chan urrainn ach aon a bhith ann.",
+			"rules": "Fury. For each card this card destroys, it gains +1/0.",
+			"icon_state": "highlander",
+			"power": "2",
+			"resolve": "4",
+			"faction": "Xeno",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Human Scotsman",
+			"series": "coreset2020",
+			"rarity": "epic"
 		}
 	]
 }
