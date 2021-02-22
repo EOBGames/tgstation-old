@@ -513,7 +513,7 @@
 		},
 		{
 			"id": "marine_ethereal_medic",
-			"name": "Ethereal Medic",
+			"name": "Ethereal Field Medic",
 			"desc": "Ethereals of the Nurturer caste frequently find themselves in the medical field- however, seeing them as field medics is a rarity, as most take a vow of pacifism.",
 			"rules": "Oo Rah. When a friendly Creature card is about to be destroyed, you may sacrifice Ethereal Medic to save it.",
 			"icon_state": "marine_ethereal_medic",
@@ -551,7 +551,7 @@
 			"summoncost": "3",
 			"cardtype": "Creature",
 			"cardsubtype": "Human Soldier",
-			"rarity": "rare"
+			"rarity": "epic"
 		},
 		{
 			"id": "synthetic",
@@ -565,7 +565,7 @@
 			"summoncost": "3",
 			"cardtype": "Creature",
 			"cardsubtype": "Silicon",
-			"rarity": "rare"
+			"rarity": "common"
 		},
 		{
 			"id": "cimex_scuttler",
@@ -719,7 +719,105 @@
 			"summoncost": "3",
 			"cardtype": "Battlefield",
 			"cardsubtype": "Nest",
+			"rarity": "epic"
+		},
+		{
+			"id": "fire_at_will",
+			"name": "Fire at Will",
+			"desc": "Give them the lock, the stock, and two loaded barrels.",
+			"rules": "Grant all creatures on your battlefield Double Strike until the end of the turn.",
+			"icon_state": "fire_at_will",
+			"power": "0",
+			"resolve": "0",
+			"faction": "TGMC",
+			"summoncost": "5",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "m42c",
+			"name": "M42C Anti-Materiel Rifle",
+			"desc": "An old, yet capable rifle from the human/xeno wars, and one of Nanotrasens' finest weapons to date. Capable of punching clean through 2 inches of composite armour.",
+			"rules": "Grant the equipped creature Hulking.",
+			"icon_state": "m42c",
+			"power": "+3",
+			"resolve": "0",
+			"faction": "TGMC",
+			"summoncost": "4",
+			"cardtype": "Equipment",
+			"cardsubtype": "Weapon",
 			"rarity": "rare"
+		},
+		{
+			"id": "friendly_fire",
+			"name": "Friendly Fire Incident",
+			"desc": "Marine One: Oh man, I just shot Marvin in the back.\nMarine Two: Why the fuck did you do that?\nMarine One: Well I didn't mean to do it, it was an accident!",
+			"rules": "Destroy a creature.",
+			"icon_state": "friendly_fire",
+			"power": "0",
+			"resolve": "0",
+			"faction": "TGMC",
+			"summoncost": "2",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "common"
+		},
+		{
+			"id": "vp78",
+			"name": "VP78 'Protector' Combat Pistol",
+			"desc": "A classic Nanotrasen pistol, which used to be a common sight in the hands of upper management and their personal guards before the widespread adoption of lasguns within the corporation.",
+			"rules": "The equipped creature gains Deadeye.",
+			"icon_state": "vp78",
+			"power": "+2",
+			"resolve": "0",
+			"faction": "TGMC",
+			"summoncost": "2",
+			"cardtype": "Equipment",
+			"cardsubtype": "Weapon",
+			"rarity": "common"
+		},
+		{
+			"id": "cursed_legion_paratrooper",
+			"name": "Cursed Legion Paratrooper",
+			"desc": "The 85th Airborne division of the TGMC is known as the Cursed Legion, due to their extreme misfortune in being present at every major defeat sustained by the TGMC during the human/xeno war. Despite their reputation, the unit is known for incredible valour and performance under stress, and those who survived are known as some of the toughest soldiers the TGMC has produced.",
+			"rules": "Death Defying",
+			"icon_state": "cursed_legion_paratrooper",
+			"power": "3",
+			"resolve": "3",
+			"faction": "TGMC",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Human Soldier",
+			"rarity": "epic"
+		},
+		{
+			"id": "poisoned_axe",
+			"name": "Poisoned Tiziran Francisca",
+			"desc": "The Franciscas employed by the ILA are deadly on their own- but when coated with a deadly poison, they become a weapon few can survive an encounter with.",
+			"rules": "Grant the equipped creature Toxic.",
+			"icon_state": "poisoned_axe",
+			"power": "0",
+			"resolve": "0",
+			"faction": "TGMC",
+			"summoncost": "3",
+			"cardtype": "Equipment",
+			"cardsubtype": "Weapon",
+			"rarity": "common"
+		},
+		{
+			"id": "cryopod",
+			"name": "Cryopod",
+			"desc": "A common sight for long distance travel prior to the invention of bluespace-based Alcubierre drives, cryopods fell out of favour as FTL flight became faster and more economical. They're still seen on older ships, and typically most modern vessels will still maintain a cryobay in case their FTL engines fail.",
+			"rules": "Hex: the attached creature is placed in Stasis.",
+			"icon_state": "poisoned_axe",
+			"power": "0",
+			"resolve": "0",
+			"faction": "TGMC",
+			"summoncost": "3",
+			"cardtype": "Equipment",
+			"cardsubtype": "Weapon",
+			"rarity": "common"
 		}
 	]
 }
