@@ -1446,7 +1446,7 @@
 			"id": "nuclear_option",
 			"name": "The Nuclear Option",
 			"desc": "The Gorlex Marauders are well known for their nuclear weapons, and their nuke first, second, third and fourth policy with regards to deploying them.",
-			"rules": "Destroy the active battlefield card. Deal 2 damage to all creatures on both battlefields.",
+			"rules": "Destroy the active battlefield. Deal 3 damage to all creatures on the battlefield. If a player has no creatures active, they take 2 damage instead.",
 			"icon_state": "nuclear_option",
 			"power": "0",
 			"resolve": "0",

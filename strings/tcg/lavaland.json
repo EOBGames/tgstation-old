@@ -389,7 +389,7 @@
 			"id": "eruption",
 			"name": "Eruption",
 			"desc": "Sometimes the lava gets fed up with waiting for miners to fall in, so it comes to the miners.",
-			"rules": "Destroy the active battlefield. Deal 3 damage to all creatures on the battlefield. If a player has no creatures active, they take 2 damage instead.",
+			"rules": "Destroy the active battlefield. Destroy all equipment on both players' battlefields.",
 			"icon_state": "eruption",
 			"power": "0",
 			"resolve": "0",
