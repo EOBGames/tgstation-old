@@ -2,7 +2,6 @@ Exploration todos:
 
 Mk II drones with more tool slots/other buffs researchable at R&D ?
 Could use more scan conditions
-Improve scanning computer UI
 Balance baseline times for target round length.
 Autodoc everything
 Add more logging.
@@ -11,6 +10,7 @@ Sprites for everything
 Typelists for event/site stuff to reduce costs
 Figure out some way to cache adventure prototypes / defer loading somehow so it scales better with a lot of adventure files.
 $QV(QualityName) replacement in descriptions.
+Exoscanner power use vars
 
 Opt:
 Better names/descriptions for ships/trading/planets

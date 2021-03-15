@@ -168,7 +168,7 @@ GLOBAL_LIST_INIT(all_exodrone_tools,list(
 	for(var/tool in tools)
 		. += list(list("type"="tool","name"=tool))
 	for(var/obj/cargo in contents)
-		. += list(list("type"="cargo","name"=cargo.name))
+		. += list(list("type"="cargo","name"=cargo.name, "ref"=ref(cargo)))
 	for(var/_ in 1 to space_left())
 		. += list(list("type"="empty","name"="Free space"))
 

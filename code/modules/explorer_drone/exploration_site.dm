@@ -58,7 +58,7 @@ GLOBAL_LIST_EMPTY(exploration_sites)
 			add_event(event)
 
 /datum/exploration_site/proc/generate_scan_conditions()
-	var/condition_count = pick(4;0,2;1,1;2) //scale this with distance maybe ?
+	var/condition_count = pick(3;0,2;1,1;2) //scale this with distance maybe ?
 	var/list/possible_conditions = GLOB.scan_conditions.Copy()
 	for(var/i in 1 to condition_count)
 		LAZYADD(scan_conditions,pick_n_take(possible_conditions))
