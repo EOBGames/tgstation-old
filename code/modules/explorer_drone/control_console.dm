@@ -45,7 +45,7 @@
 
 /obj/machinery/computer/exodrone_control_console/ui_static_data(mob/user)
 	. = ..()
-	.["all_tools"] = GLOB.all_exodrone_tools
+	.["all_tools"] = GLOB.exodrone_tool_metadata
 	.["all_bands"] = GLOB.exoscanner_bands
 
 /obj/machinery/computer/exodrone_control_console/ui_data(mob/user)

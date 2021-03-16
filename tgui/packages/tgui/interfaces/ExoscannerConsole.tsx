@@ -8,21 +8,21 @@ import { toKeyedArray } from '../../common/collections';
 
 
 type SiteData = {
-  name : string,
+  name: string,
   ref: string,
-  description : string,
-  distance : number,
-  band_info : Record<string, string>,
-  revealed : boolean,
+  description: string,
+  distance: number,
+  band_info: Record<string, string>,
+  revealed: boolean,
 }
 
 type ScanData = {
-  scan_power : number,
-  point_scan_eta : number,
-  deep_scan_eta : number,
-  point_scan_complete : boolean,
-  deep_scan_complete : boolean
-  site_data : SiteData
+  scan_power: number,
+  point_scan_eta: number,
+  deep_scan_eta: number,
+  point_scan_complete: boolean,
+  deep_scan_complete: boolean
+  site_data: SiteData
 }
 
 const ScanFailedModal = (props, context) => {
@@ -94,9 +94,9 @@ const ScanSelectionSection = (props, context) => {
 };
 
 type ScanInProgressData = {
-  scan_time : number,
-  scan_power : number,
-  scan_description : string,
+  scan_time: number,
+  scan_power: number,
+  scan_description: string,
 }
 
 const ScanInProgressModal = (props, context) => {
@@ -138,13 +138,13 @@ const ScanInProgressModal = (props, context) => {
 
 
 type ExoscannerConsoleData = {
-  scan_in_progress : boolean,
-  scan_power : number,
-  possible_sites : Array<SiteData>,
-  wide_scan_eta : number,
-  selected_site : string,
-  failed : boolean,
-  scan_conditions : Array<string>,
+  scan_in_progress: boolean,
+  scan_power: number,
+  possible_sites: Array<SiteData>,
+  wide_scan_eta: number,
+  selected_site: string,
+  failed: boolean,
+  scan_conditions: Array<string>,
 }
 
 export const ExoscannerConsole = (props, context) => {
@@ -171,14 +171,13 @@ export const ExoscannerConsole = (props, context) => {
             <Section fill title="Available array power">
               <Stack>
                 <Stack.Item grow>
-                  {scan_power > 0 && (<>
+                  {scan_power > 0 && (
+                    <>
                       <Box pr={1} inline fontSize={2}>{scan_power}</Box>
                       <Icon
                         name="satellite-dish"
-                        size={3} /></>
-                  ) || (
-                    "No properly configured scanner arrays detected."
-                  )}
+                        size={3} />
+                    </>) || ("No properly configured scanner arrays detected.")}
                 </Stack.Item>
               </Stack>
               <Section title="Special Scan Condtions">
@@ -186,55 +185,56 @@ export const ExoscannerConsole = (props, context) => {
               </Section>
             </Section>
           </Stack.Item>
-          {selected_site ? (
-          <Stack.Item grow>
-            <ScanSelectionSection site_ref={selected_site} />
-          </Stack.Item>) : (
-          <>
-          <Stack.Item>
-          <Section fill title="Configure Wide Scan">
-            <Stack>
+          {!!selected_site && (
+            <Stack.Item grow>
+              <ScanSelectionSection site_ref={selected_site} />
+            </Stack.Item>)}
+          {!selected_site && (
+            <>
               <Stack.Item>
-                <BlockQuote>
-                  Broad spectrum scan looking for anything not matching known start charts.
-                </BlockQuote>
+                <Section fill title="Configure Wide Scan">
+                  <Stack>
+                    <Stack.Item>
+                      <BlockQuote>
+                        Broad spectrum scan looking for anything not matching known start charts.
+                      </BlockQuote>
+                    </Stack.Item>
+                    <Stack.Item>
+                      Cost estimate: {scan_power > 0 ? formatTime(wide_scan_eta, "short") : "∞ minutes"}
+                    </Stack.Item>
+                    <Stack.Item>
+                      <Button
+                        mt={2}
+                        content="Scan"
+                        disabled={!can_start_wide_scan}
+                        onClick={() => act("start_wide_scan")} />
+                    </Stack.Item>
+                  </Stack>
+                </Section>
               </Stack.Item>
-              <Stack.Item>
-                Cost estimate: {scan_power > 0 ? formatTime(wide_scan_eta, "short") : "∞ minutes"}
+              <Stack.Item grow>
+                <Section
+                  fill
+                  title="Configure Targeted Scans"
+                  scrollable
+                  buttons={
+                    <Button
+                      content="View Experiments"
+                      onClick={() => act("open_experiments")}
+                      icon="tasks" />
+                  }>
+                  <Stack vertical>
+                    {possible_sites.map(site => (
+                      <Stack.Item key={site.ref}>
+                        <Button
+                          content={site.name}
+                          onClick={() => act("select_site", { "site_ref": site.ref })} />
+                      </Stack.Item>
+                    ))}
+                  </Stack>
+                </Section>
               </Stack.Item>
-              <Stack.Item>
-                <Button
-                  mt={2}
-                  content="Scan"
-                  disabled={!can_start_wide_scan}
-                  onClick={() => act("start_wide_scan")} />
-              </Stack.Item>
-            </Stack>
-          </Section>
-        </Stack.Item>
-        <Stack.Item grow>
-          <Section
-            fill
-            title="Configure Targeted Scans"
-            scrollable
-            buttons={
-              <Button
-                content="View Experiments"
-                onClick={() => act("open_experiments")}
-                icon="tasks" />
-            }>
-            <Stack vertical>
-              {possible_sites.map(site => (
-                <Stack.Item key={site.ref}>
-                  <Button
-                    content={site.name}
-                    onClick={() => act("select_site", { "site_ref": site.ref })} />
-                </Stack.Item>
-              ))}
-            </Stack>
-          </Section>
-        </Stack.Item>
-        </>)}
+            </>)}
         </Stack>
       </Window.Content>
     </Window>);

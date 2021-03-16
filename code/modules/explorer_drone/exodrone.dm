@@ -1,7 +1,11 @@
-#define EXODRONE_LOG_SIZE 15
 
+/// How many lines of log we keep
+#define EXODRONE_LOG_SIZE 15
+/// Size of drone storage shared between loot and tools.
 #define EXODRONE_CARGO_SLOTS 6
 
+
+// Fuel types and travel time per unit of distance on that fuel.
 #define FUEL_BASIC "basic"
 #define BASIC_FUEL_TIME_COST 300
 
@@ -11,16 +15,10 @@
 #define FUEL_EXOTIC "exotic"
 #define EXOTIC_FUEL_TIME_COST 100
 
+/// All exodrones.
 GLOBAL_LIST_EMPTY(exodrones)
+/// All exodrone launchers.
 GLOBAL_LIST_EMPTY(exodrone_launchers)
-/// Tool to fa icon name
-GLOBAL_LIST_INIT(all_exodrone_tools,list(
-	EXODRONE_TOOL_WELDER = "burn",
-	EXODRONE_TOOL_TRANSLATOR = "language",
-	EXODRONE_TOOL_LASER = "bolt",
-	EXODRONE_TOOL_MULTITOOL = "broadcast-tower",
-	EXODRONE_TOOL_DRILL = "screwdriver",
-))
 
 /// Exploration drone
 /obj/item/exodrone
@@ -150,7 +148,7 @@ GLOBAL_LIST_INIT(all_exodrone_tools,list(
 	return EXODRONE_CARGO_SLOTS - length(contents) - length(tools)
 
 /obj/item/exodrone/proc/add_tool(tool_type)
-	if(space_left() > 0 && (tool_type in GLOB.all_exodrone_tools))
+	if(space_left() > 0 && (tool_type in GLOB.exodrone_tool_metadata))
 		tools += tool_type
 		update_storage_size()
 
