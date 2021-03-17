@@ -1,8 +1,8 @@
 /obj/machinery/computer/exodrone_control_console
-	name = "exploration odrone control console"
+	name = "exploration drone control console"
+	desc = "control eploration drones from intersteller distances. Communication lag not included."
 	//Currently controlled drone
 	var/obj/item/exodrone/controlled_drone
-
 	/// Have we lost contact with the drone without disconnecting. Unset on user confirmation.
 	var/signal_lost = FALSE
 
@@ -24,11 +24,13 @@
 		update_icon()
 
 /obj/machinery/computer/exodrone_control_console/proc/on_exodrone_status_changed()
-	//Notify we need human action.
+	SIGNAL_HANDLER
+	//Notify we need human action and switch screeb icon to alert.
 	playsound(src,'sound/machines/ping.ogg',30,FALSE)
 	update_icon()
 
 /obj/machinery/computer/exodrone_control_console/proc/drone_destroyed()
+	SIGNAL_HANDLER
 	signal_lost = TRUE
 	end_drone_control()
 
@@ -85,12 +87,12 @@
 		.["all_drones"] = exodrones
 
 /obj/machinery/computer/exodrone_control_console/update_overlays()
+	/// Show alert screen if the drone is in a mode that requires decisionmaking
 	if(controlled_drone && (controlled_drone.drone_status == EXODRONE_IDLE || controlled_drone.drone_status == EXODRONE_EXPLORATION || controlled_drone.drone_status == EXODRONE_ADVENTURE))
 		icon_screen = "alert:2"
 	else
 		icon_screen = initial(icon_screen)
 	. = ..()
-
 
 /obj/machinery/computer/exodrone_control_console/ui_act(action, list/params)
 	. = ..()
@@ -165,12 +167,8 @@
 						qdel(thing_to_jettison) //this might need some limitations
 			return TRUE
 
-
 /obj/machinery/computer/exodrone_control_console/ui_assets(mob/user)
-	return list(
-		get_asset_datum(/datum/asset/simple/adventure) //preset screens
-	)
-
+	return list(get_asset_datum(/datum/asset/simple/adventure)) //preset screens
 
 // DEBUG VERSB
 /mob/verb/discover_sites()

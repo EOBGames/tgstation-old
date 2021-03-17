@@ -1,6 +1,6 @@
 GLOBAL_LIST_INIT(adventure_loot_generator_index,generate_generator_index())
 
-/// Great name
+/// Creates generator__id => type map.
 /proc/generate_generator_index()
 	. = list()
 	for(var/type in typesof(/datum/adventure_loot_generator))

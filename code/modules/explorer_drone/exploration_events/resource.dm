@@ -260,7 +260,10 @@
 	has_tool_description = ""
 	action_text = "Mine"
 	delay_message = "Mining..."
-	loot_type = /obj/item/stack/sheet/mineral/plasma{amount = 30}
+	loot_type = /obj/item/stack/sheet/mineral/plasma/thirty
+
+/obj/item/stack/sheet/mineral/plasma/thirty
+	amount = 30
 
 /datum/exploration_event/simple/resource/mineral_deposit
 	name = "MATERIAL Deposit"
