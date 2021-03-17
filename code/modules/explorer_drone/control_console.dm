@@ -169,10 +169,3 @@
 
 /obj/machinery/computer/exodrone_control_console/ui_assets(mob/user)
 	return list(get_asset_datum(/datum/asset/simple/adventure)) //preset screens
-
-// DEBUG VERSB
-/mob/verb/discover_sites()
-	set name = "Discover Sites"
-
-	generate_exploration_sites(1)
-	generate_exploration_sites(2)

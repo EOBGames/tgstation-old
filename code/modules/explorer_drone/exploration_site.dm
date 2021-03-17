@@ -161,6 +161,12 @@ GLOBAL_LIST_EMPTY(exploration_sites)
 				event_data += list(list("name"=event.name,"ref"=ref(event)))
 		.["events"] = event_data
 
+/// Helper proc for exploration site listings in ui.
+/proc/build_exploration_site_ui_data()
+	. = list()
+	for(var/datum/exploration_site/site in GLOB.exploration_sites)
+		. += list(site.site_data())
+
 /// Sites
 
 /datum/exploration_site/abandoned_refueling_station
