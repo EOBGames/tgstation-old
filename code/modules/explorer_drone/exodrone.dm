@@ -104,6 +104,7 @@ GLOBAL_LIST_EMPTY(exodrone_launchers)
 	if(!location) //We're launching from station, fuel up
 		var/obj/machinery/exodrone_launcher/pad = locate() in loc
 		pad.fuel_up(src)
+		pad.launch_effect()
 		last_pad = WEAKREF(pad)
 		drone_log("Launched from [pad.name] and set course for [target_site.display_name()]")
 	else
@@ -385,6 +386,10 @@ GLOBAL_LIST_EMPTY(exodrone_launchers)
 /obj/machinery/exodrone_launcher/proc/fuel_up(obj/item/exodrone/drone)
 	drone.travel_cost_coeff = get_fuel_coefficent()
 	fuel_canister.use()
+
+/obj/machinery/exodrone_launcher/proc/launch_effect()
+	playsound(src,'sound/effects/podwoosh.ogg',50, FALSE)
+	do_smoke(1,get_turf(src))
 
 /obj/machinery/exodrone_launcher/handle_atom_del(atom/A)
 	if(A == fuel_canister)
