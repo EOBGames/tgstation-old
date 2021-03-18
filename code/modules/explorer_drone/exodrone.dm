@@ -58,6 +58,8 @@ GLOBAL_LIST_EMPTY(exodrone_launchers)
 	var/travel_cost_coeff = BASIC_FUEL_TIME_COST
 	/// Repeated drone name counter
 	var/static/name_counter = list()
+	/// Used to provide source to the regex replacement function. DO NOT MODIFY DIRECTLY
+	var/static/obj/item/exodrone/_regex_context
 
 /obj/item/exodrone/Initialize()
 	. = ..()
@@ -210,7 +212,27 @@ GLOBAL_LIST_EMPTY(exodrone_launchers)
 		specific_event.ecounter(src)
 
 /obj/item/exodrone/proc/get_adventure_data()
-	return current_adventure?.ui_data()
+	var/list/data = current_adventure?.ui_data()
+	data["description"] = updateKeywords(data["description"])
+	return data
+
+///Replaces $$SITE_NAME with site name and $$QualityName with quality values
+/obj/item/exodrone/proc/updateKeywords(description)
+	_regex_context = src
+	var/static/regex/keywordRegex = regex(@"\$\$(\S*)","g")
+	. = keywordRegex.Replace(description,/obj/item/exodrone/proc/replace_keyword)
+	_regex_context = null
+
+/// This is called with src = regex datum, so don't try to access any instance variables directly here.
+/obj/item/exodrone/proc/replace_keyword(match,g1)
+	switch(g1)
+		if("SITE_NAME")
+			return _regex_context.location.display_name()
+		else
+			if(_regex_context.current_adventure.qualities[g1])
+				return "[_regex_context.current_adventure.qualities[g1]]"
+			else
+				return ""
 
 /obj/item/exodrone/proc/start_adventure(datum/adventure/adventure)
 	current_adventure = adventure
