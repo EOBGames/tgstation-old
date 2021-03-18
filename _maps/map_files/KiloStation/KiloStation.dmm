@@ -27797,9 +27797,13 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/neutral,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/delivery,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bov" = (
@@ -33323,16 +33327,9 @@
 /turf/open/floor/iron,
 /area/security/courtroom)
 "bMJ" = (
-/obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet{
-	name = "custodial locker"
-	},
-/obj/item/clothing/gloves/color/orange,
-/obj/item/clothing/shoes/galoshes,
-/obj/item/clothing/head/soft/purple,
-/obj/structure/grille/broken,
+/obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bML" = (
@@ -33559,10 +33556,9 @@
 /turf/open/floor/iron,
 /area/security/courtroom)
 "bNs" = (
-/obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/mopbucket,
-/obj/item/mop,
+/obj/effect/turf_decal/bot,
+/obj/machinery/exodrone_launcher,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bNy" = (
@@ -33656,10 +33652,9 @@
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
 "bNT" = (
-/obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket,
+/obj/structure/rack,
+/obj/item/fuel_pellet,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bOb" = (
@@ -33985,11 +33980,6 @@
 	},
 /area/maintenance/central)
 "bPh" = (
-/obj/structure/table,
-/obj/item/restraints/handcuffs,
-/obj/item/radio{
-	pixel_y = 4
-	},
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 24
@@ -33997,10 +33987,18 @@
 /obj/item/radio/intercom{
 	pixel_y = 22
 	},
-/obj/machinery/camera{
-	c_tag = "Departures Checkpoint";
-	name = "shuttle camera"
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/closet/crate{
+	name = "spare parts"
 	},
+/obj/item/stock_parts/micro_laser,
+/obj/item/stock_parts/micro_laser,
+/obj/item/stock_parts/micro_laser,
+/obj/item/stock_parts/micro_laser,
+/obj/item/stock_parts/scanning_module,
+/obj/item/stock_parts/scanning_module,
+/obj/item/stock_parts/scanning_module,
+/obj/item/stock_parts/scanning_module,
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "bPi" = (
@@ -34305,15 +34303,17 @@
 	},
 /area/maintenance/starboard)
 "bPH" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/security/glass{
-	name = "Security Checkpoint";
-	req_access_txt = "63"
-	},
-/obj/effect/turf_decal/siding/red/corner{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/door/airlock/mining/glass{
+	name = "Drone Control";
+	req_access_txt = "48"
+	},
+/turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bPI" = (
 /obj/effect/turf_decal/delivery,
@@ -34617,13 +34617,13 @@
 /turf/open/floor/iron/dark,
 /area/maintenance/port/aft)
 "bQj" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/table,
+/obj/item/wrench,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bQk" = (
@@ -34638,11 +34638,8 @@
 /area/hallway/primary/aft)
 "bQl" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "security maintenance";
-	req_access_txt = "12;63"
-	},
-/obj/effect/turf_decal/siding/red{
-	dir = 1
+	name = "cargo maintenance";
+	req_one_access_txt = "31;48"
 	},
 /turf/open/floor/iron/dark,
 /area/maintenance/starboard/aft)
@@ -34666,56 +34663,44 @@
 	},
 /area/hallway/primary/central)
 "bQo" = (
-/obj/effect/turf_decal/tile/red{
+/obj/structure/chair/office,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/red{
+/obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bQp" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/requests_console{
-	department = "Security";
-	departmentType = 5;
-	name = "Security RC";
-	pixel_x = 30
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
+	dir = 9
 	},
-/obj/effect/turf_decal/siding/red{
+/obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow,
+/obj/structure/table,
+/obj/item/exodrone{
+	pixel_y = 8
+	},
+/obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bQq" = (
@@ -34775,15 +34760,11 @@
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
 "bQu" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/security/glass{
-	name = "Security Checkpoint";
-	req_access_txt = "63"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/hallway/secondary/exit/departure_lounge)
+/obj/effect/turf_decal/bot,
+/obj/machinery/exodrone_launcher,
+/obj/item/exodrone,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "bQw" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -34970,31 +34951,27 @@
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bQK" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /obj/structure/chair/office{
 	dir = 1
 	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bQL" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/exodrone_control_console{
 	dir = 1
 	},
-/obj/effect/turf_decal/bot,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bQM" = (
 /obj/machinery/door/airlock/maintenance,
@@ -35358,18 +35335,10 @@
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
 "bRm" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/delivery,
-/obj/machinery/door/firedoor,
-/obj/item/folder/red,
-/obj/item/pen,
-/obj/machinery/door/window/southleft{
-	dir = 1;
-	name = "Security Desk";
-	req_one_access_txt = "63"
-	},
-/turf/open/floor/plating,
-/area/hallway/secondary/exit/departure_lounge)
+/obj/structure/lattice/catwalk,
+/obj/machinery/exoscanner,
+/turf/open/space/basic,
+/area/space/nearstation)
 "bRn" = (
 /obj/machinery/door/airlock/external{
 	name = "Prison External Airlock";
@@ -35544,23 +35513,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
-"bRC" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/hallway/secondary/exit/departure_lounge)
 "bRD" = (
 /obj/structure/closet/secure_closet/brig{
 	name = "Prisoner Locker"
@@ -35835,12 +35787,11 @@
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/delivery,
 /obj/machinery/door/firedoor,
-/obj/item/folder/blue,
+/obj/item/folder/red,
 /obj/item/pen,
-/obj/machinery/door/window/westright{
-	dir = 2;
-	name = "Control Desk";
-	req_one_access_txt = "19"
+/obj/machinery/door/window/southleft{
+	name = "Security Desk";
+	req_one_access_txt = "63"
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
@@ -35979,24 +35930,24 @@
 /turf/closed/wall,
 /area/hallway/secondary/entry)
 "bSu" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 6
+	dir = 9
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/siding/red{
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
 	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
@@ -36079,11 +36030,12 @@
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/delivery,
 /obj/machinery/door/firedoor,
-/obj/item/folder/blue,
+/obj/item/folder/red,
 /obj/item/pen,
-/obj/machinery/door/window/westright{
-	name = "Control Desk";
-	req_one_access_txt = "19"
+/obj/machinery/door/window/southleft{
+	dir = 8;
+	name = "Security Desk";
+	req_one_access_txt = "63"
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
@@ -36170,11 +36122,10 @@
 /turf/open/floor/iron/dark,
 /area/hallway/primary/aft)
 "bSQ" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/red,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bSR" = (
@@ -36236,7 +36187,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/effect/turf_decal/delivery,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -36291,30 +36241,32 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bTe" = (
-/obj/machinery/computer/med_data{
-	dir = 4
-	},
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral,
-/obj/machinery/newscaster{
-	pixel_x = -30
-	},
 /obj/machinery/camera{
 	c_tag = "Traffic Control";
 	dir = 4;
 	name = "shuttle camera"
 	},
+/obj/machinery/computer/security{
+	dir = 4
+	},
+/obj/machinery/requests_console{
+	department = "Security";
+	departmentType = 5;
+	name = "Security RC";
+	pixel_x = -30
+	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "bTf" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/red,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bTg" = (
@@ -36329,23 +36281,24 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bTh" = (
-/obj/structure/sink/kitchen{
-	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
-	name = "old sink";
-	pixel_y = 28
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
+/obj/structure/rack,
+/obj/item/circuitboard/machine/exoscanner{
+	pixel_y = 3
+	},
+/obj/item/circuitboard/machine/exoscanner,
+/obj/item/circuitboard/machine/exoscanner{
+	pixel_y = -3
+	},
 /turf/open/floor/plating{
-	icon_state = "platingdmg3"
+	icon_state = "panelscorched"
 	},
 /area/maintenance/starboard/aft)
 "bTi" = (
-/obj/structure/table,
-/obj/machinery/recharger,
 /obj/machinery/airalarm{
 	pixel_y = 22
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "bTj" = (
@@ -36435,14 +36388,13 @@
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
 "bTs" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/neutral,
 /obj/structure/chair/office{
 	dir = 4
 	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bTt" = (
@@ -36619,8 +36571,6 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
@@ -36735,19 +36685,18 @@
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "bTX" = (
-/obj/effect/turf_decal/tile/red{
+/obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/red{
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/neutral{
+/obj/machinery/computer/exoscanner_control{
 	dir = 1
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/obj/structure/chair/office,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bTY" = (
@@ -36918,12 +36867,12 @@
 /area/maintenance/port/aft)
 "bUs" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/command/glass{
-	name = "Traffic Control";
-	req_access_txt = "19"
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/security/glass{
+	name = "Security Checkpoint";
+	req_access_txt = "63"
+	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "bUt" = (
@@ -37714,15 +37663,6 @@
 /turf/open/floor/iron/dark,
 /area/maintenance/starboard/aft)
 "bWi" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 5
 	},
@@ -37730,6 +37670,12 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bWj" = (
@@ -37983,20 +37929,17 @@
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
 "bWE" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
@@ -38519,9 +38462,6 @@
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bXz" = (
-/obj/machinery/computer/crew{
-	dir = 4
-	},
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -38533,6 +38473,9 @@
 /obj/machinery/status_display/supply{
 	pixel_x = -32
 	},
+/obj/machinery/computer/secure_data{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "bXA" = (
@@ -38541,17 +38484,13 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral,
-/obj/item/stack/package_wrap,
-/obj/item/hand_labeler,
 /obj/item/radio/intercom{
 	pixel_x = -28
 	},
+/obj/machinery/recharger,
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "bXB" = (
-/obj/structure/closet/secure_closet/personal{
-	name = "Command Locker"
-	},
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -38562,6 +38501,11 @@
 /obj/machinery/airalarm{
 	dir = 8;
 	pixel_x = 24
+	},
+/obj/structure/table,
+/obj/item/restraints/handcuffs,
+/obj/item/radio{
+	pixel_y = 4
 	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
@@ -38867,13 +38811,6 @@
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "bYe" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
 /obj/machinery/button/door{
 	id = "Arrival Shuttle Bay";
 	name = "Arrival Shuttle Bay Toggle";
@@ -38881,11 +38818,17 @@
 	pixel_y = 8;
 	req_access_txt = "19"
 	},
-/obj/machinery/computer/monitor{
-	dir = 8;
-	name = "backup power monitoring console"
+/obj/effect/turf_decal/tile/red{
+	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/camera{
+	c_tag = "Departures Checkpoint";
+	dir = 8;
+	name = "shuttle camera"
+	},
+/turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "bYf" = (
 /obj/machinery/door/airlock/engineering{
@@ -38912,9 +38855,9 @@
 /area/maintenance/starboard/aft)
 "bYi" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/command/glass{
-	name = "Traffic Control";
-	req_access_txt = "19"
+/obj/machinery/door/airlock/security/glass{
+	name = "Security Checkpoint";
+	req_access_txt = "63"
 	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
@@ -65863,6 +65806,13 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/service/chapel/office)
+"jFA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/tank_holder/extinguisher,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/maintenance/starboard/aft)
 "jFU" = (
 /obj/structure/bookcase/random/fiction,
 /obj/machinery/firealarm{
@@ -131951,7 +131901,7 @@ mBt
 myJ
 hzt
 bTb
-fiv
+bTh
 bRF
 bPe
 bPH
@@ -132208,12 +132158,12 @@ wRI
 hzt
 hzt
 bTd
-bGH
+jFA
 bOc
 bTi
 bSu
 bTX
-bRm
+bOc
 bSW
 bTv
 bTI
@@ -132470,7 +132420,7 @@ bQl
 bLa
 bQo
 bQL
-bPe
+bOc
 bQJ
 ccw
 bWj
@@ -132720,15 +132670,15 @@ rFV
 gxs
 eZr
 iHI
-bEg
-bTh
+bQu
+bYh
 bAT
 bOc
 bPh
 bQp
 bQj
-bQu
-bRC
+bOc
+bSW
 bTM
 bot
 bSe
@@ -132983,7 +132933,7 @@ bAv
 bOc
 bOc
 bOc
-bPe
+bOc
 bXx
 bVJ
 bUm
@@ -134006,7 +133956,7 @@ tlv
 eCi
 lbi
 qJs
-acK
+bRm
 bEg
 bEg
 bEg
