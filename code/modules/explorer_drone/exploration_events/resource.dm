@@ -161,7 +161,7 @@
 	action_text = "Open"
 	loot_type = /datum/adventure_loot_generator/pet
 
-// EXPLORATION_SITE_SHIP 1/2
+// EXPLORATION_SITE_SHIP 2/2
 /datum/exploration_event/simple/resource/fuel_storage
 	name = "fuel storage"
 	required_site_traits = list(EXPLORATION_SITE_SHIP)
@@ -181,7 +181,7 @@
 	required_tool = EXODRONE_TOOL_TRANSLATOR
 	discovery_log = "Discovered ship navigation systems."
 	description = "You find the ship navigation systems. With proper tools you can retrieve any data stored here."
-	success_log = "Retrieved data from ships navigation systems."
+	success_log = "Retrieved shipping data from navigation systems."
 	no_tool_description = "You'll need a translator to decipher the data."
 	delay_message = "Retrieving data..."
 	action_text = "Retrieve data"
