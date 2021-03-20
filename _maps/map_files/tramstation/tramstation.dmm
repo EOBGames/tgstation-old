@@ -28885,6 +28885,9 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/cargo/storage)
 "epT" = (
@@ -66064,6 +66067,7 @@
 	pixel_x = 5
 	},
 /obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/machinery/light,
 /turf/open/floor/iron,
 /area/cargo/storage)
 "voj" = (
