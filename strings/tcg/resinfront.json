@@ -864,7 +864,7 @@
 		{
 			"id": "planet_cracker",
 			"name": "Planet-Cracker Munitions",
-			"desc": "Easily the most powerful artillery load in the TGMC arsenal, consisting of a combination of a high yield thermonuclear 'core' along with several thermobaric explosives designed to cause extreme seismic motion at the point of impact. This produces an extreme man-made earthquake that rips the planet apart. Famously used on Atrakor during the Bombardment of Tizira, giving the moon its signature scar.",
+			"desc": "Easily the most powerful artillery load in the TGMC arsenal, consisting of a combination of a high yield thermonuclear 'core' along with several thermobaric explosives designed to cause extreme seismic motion at the point of impact. This produces an extreme man-made earthquake, making the name somewhat of a misnomer. Famously used on Atrakor during the Bombardment of Tizira, giving the moon its signature scar.",
 			"rules": "Destroy the active battlefield. Destroy all creature cards on both players battlefields.",
 			"icon_state": "planet_cracker",
 			"power": "0",
@@ -890,18 +890,18 @@
 			"rarity": "common"
 		},
 		{
-			"id": "surgical_kit",
-			"name": "Field-Surgeon Kit",
-			"desc": "Field-medic kits are much like regular medical kits, but are cooler.",
-			"rules": "When the equipped creature deals combat damage, you gain one lifeshard.",
-			"icon_state": "surgical_kit",
+			"id": "smart_scope",
+			"name": "Smart Scope",
+			"desc": "A remarkable piece of technology, the AT45 Smart Scope works in conjunction with smart-class ammunition to provide any weapon with smart targeting and lock-on capabilities.",
+			"rules": "The equipped creature gains Deadeye.",
+			"icon_state": "smart_scope",
 			"power": "0",
 			"resolve": "0",
 			"faction": "TGMC",
 			"summoncost": "2",
 			"cardtype": "Equipment",
 			"cardsubtype": "Weapon",
-			"rarity": "common"
+			"rarity": "uncommon"
 		}
 	]
 }

@@ -552,6 +552,48 @@
 			"cardtype": "Event",
 			"cardsubtype": "Triggered",
 			"rarity": "uncommon"
+		},
+		{
+			"id": "mind_melt",
+			"name": "Mind Melt",
+			"desc": "The power of the Necropolis is a dark and twisted thing, and those who spend too long in its presence are driven to a form of madness, known as Necropolis Adaptation Syndrome, or NAS.",
+			"rules": "Take control of an enemy creature until it is destroyed.",
+			"icon_state": "mind_melt",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Necropolis",
+			"summoncost": "3",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "rare"
+		},
+		{
+			"id": "magma_slime",
+			"name": "Magmatic Slime",
+			"desc": "Slimes are known to adapt to their environment, and those living on lavaland are no exception. One of the planet's many unique slimes is the so-called Magmatic Slime, which nests near lava pools and is known to prey on Watchers and Goliaths.",
+			"rules": "",
+			"icon_state": "magma_slime",
+			"power": "2",
+			"resolve": "1",
+			"faction": "Necropolis",
+			"summoncost": "2",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "common"
+		},
+		{
+			"id": "ninja_blade",
+			"name": "Spiderblade",
+			"desc": "The legendary blades of the Spider Clan are said to be individually crafted by their master swordsmith for each member, and are fitted with a heated nanofilament edge mere atoms thick to produce impossibly sharp cuts.",
+			"rules": "",
+			"icon_state": "ninja_blade",
+			"power": "2",
+			"resolve": "1",
+			"faction": "Syndicate",
+			"summoncost": "2",
+			"cardtype": "Equipment",
+			"cardsubtype": "Weapon",
+			"rarity": "rare"
 		}
 	]
 }
