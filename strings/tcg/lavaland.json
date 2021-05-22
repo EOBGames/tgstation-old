@@ -460,7 +460,7 @@
 			"name": "Riot Officer",
 			"desc": "Extreme situations demand an extreme response.",
 			"rules": "While defending against a creature with 5 or more power, Riot Officer gains +2 power.",
-			"icon_state": "legion_turret",
+			"icon_state": "riot_seccie",
 			"power": "1",
 			"resolve": "6",
 			"faction": "Security",

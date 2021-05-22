@@ -388,8 +388,8 @@
 		{
 			"id": "acid_rounds",
 			"name": "Acid Rounds",
-			"desc": "For when you want to get shit done, and break several interspecies treaties while doing so.",
-			"rules": "When the equipped creature attacks another creature, any equipment attached to the opposing creature is destroyed.",
+			"desc": "For when you want to get shit done, and break several galactic conventions while doing so.",
+			"rules": "Grant the equipped creature Toxic.",
 			"icon_state": "acid_rounds",
 			"power": "+1",
 			"resolve": "0",
@@ -442,11 +442,11 @@
 			"rarity": "common"
 		},
 		{
-			"id": "marine_moth",
+			"id": "moth_marine",
 			"name": "Mothic Foreign Legion Marine",
 			"desc": "A soldier of the Mothic Foreign Legion, the elite fighting force of the Moths, and occasionally deployed alongside the TGMC to combat the xeno threat.",
 			"rules": "Oo Rah",
-			"icon_state": "marine_moth",
+			"icon_state": "moth_marine",
 			"power": "3",
 			"resolve": "2",
 			"faction": "TGMC",
@@ -456,11 +456,11 @@
 			"rarity": "uncommon"
 		},
 		{
-			"id": "marine_moth_sniper",
+			"id": "moth_sniper",
 			"name": "Mothic Foreign Legion Sniper",
 			"desc": "Moths are well suited to the job of sniping, as their natural inclination towards bright lights attracts them to their targets.",
 			"rules": "Oo Rah, First Strike",
-			"icon_state": "marine_moth_sniper",
+			"icon_state": "moth_sniper",
 			"power": "4",
 			"resolve": "1",
 			"faction": "TGMC",
@@ -470,11 +470,11 @@
 			"rarity": "epic"
 		},
 		{
-			"id": "marine_moth_gunner",
+			"id": "moth_gunner",
 			"name": "Mothic Foreign Legion Gunner",
 			"desc": "In order to make use of heavy weapons such as the M56, Moth Soldiers are issued with a combat E.X.O. which braces the weight across their entire body.",
 			"rules": "Oo Rah. If more than 3 enemy creatures are attacking, Mothic Foreign Legion Gunner gets +1/+3",
-			"icon_state": "marine_moth_sniper",
+			"icon_state": "moth_gunner",
 			"power": "2",
 			"resolve": "4",
 			"faction": "TGMC",
@@ -484,11 +484,11 @@
 			"rarity": "legendary"
 		},
 		{
-			"id": "marine_lizard",
+			"id": "lizard_marine",
 			"name": "ILA Expeditionary Force Marine",
 			"desc": "The ILA Expeditionary Force is the smallest division of the Imperial Army, and participates (begrudgingly) as a member of the anti-xeno coalition led by TerraGov.",
 			"rules": "Oo Rah. When attacking a Human opponent, this card gains +1/0.",
-			"icon_state": "marine_lizard",
+			"icon_state": "lizard_marine",
 			"power": "3",
 			"resolve": "2",
 			"faction": "TGMC",
@@ -498,11 +498,11 @@
 			"rarity": "rare"
 		},
 		{
-			"id": "marine_lizard_skirmisher",
+			"id": "lizard_skirmisher",
 			"name": "ILA Expeditionary Force Skirmisher",
 			"desc": "Within the Imperial Lizard Army, martial arts continue to play an important role in combat- from hand-to-hand to blades, the Lizards use them all, technological advancement be damned.",
 			"rules": "Oo Rah, Fury",
-			"icon_state": "marine_lizard_skirmisher",
+			"icon_state": "lizard_skirmisher",
 			"power": "2",
 			"resolve": "3",
 			"faction": "TGMC",
@@ -512,11 +512,11 @@
 			"rarity": "epic"
 		},
 		{
-			"id": "marine_ethereal_medic",
+			"id": "ethereal_medic",
 			"name": "Ethereal Field Medic",
 			"desc": "Ethereals of the Nurturer caste frequently find themselves in the medical field- however, seeing them as field medics is a rarity, as most take a vow of pacifism.",
 			"rules": "Oo Rah. When a friendly Creature card is about to be destroyed, you may sacrifice Ethereal Medic to save it.",
-			"icon_state": "marine_ethereal_medic",
+			"icon_state": "ethereal_medic",
 			"power": "1",
 			"resolve": "2",
 			"faction": "TGMC",
@@ -530,7 +530,7 @@
 			"name": "Xenomorph Wraith",
 			"desc": "Marines who have the misfortune of meeting a Wraith don't leave a corpse. O-oo rah?",
 			"rules": "Hivemind, Immunity to Events",
-			"icon_state": "wraith",
+			"icon_state": "xeno_wraith",
 			"power": "2",
 			"resolve": "2",
 			"faction": "Xeno",
@@ -808,7 +808,7 @@
 		{
 			"id": "cryopod",
 			"name": "Cryopod",
-			"desc": "A common sight for long distance travel prior to the invention of bluespace-based Alcubierre drives, cryopods fell out of favour as FTL flight became faster and more economical. They're still common on older ships, and typically most modern vessels will still maintain a cryobay in case their FTL engines fail.",
+			"desc": "A common sight for long distance travel prior to the invention of Alcubierre drives, cryopods fell out of favour as FTL flight became faster and more economical. They're still common on older ships, and typically most modern vessels will still maintain a cryobay in case their FTL engines fail.",
 			"rules": "Hex: the attached creature is placed in Stasis.",
 			"icon_state": "cryopod",
 			"power": "0",
@@ -902,6 +902,20 @@
 			"cardtype": "Equipment",
 			"cardsubtype": "Weapon",
 			"rarity": "uncommon"
+		},
+		{
+			"id": "bluehelmet",
+			"name": "TerraGov Peacekeeping Operative",
+			"desc": "Just like their predecessor organisation, the UN, TerraGov participates in peacekeeping operations across the entirety of inhabited space, wearing their distinctive blue helmets. Their most recent operations, on the Ethereal homeworld Sprout, have seen only mixed success.",
+			"rules": "While TerraGov Peacekeeping Operative is active, no battlefields may be played by the opponent.",
+			"icon_state": "bluehelmet",
+			"power": "2",
+			"resolve": "4",
+			"faction": "TGMC",
+			"summoncost": "3",
+			"cardtype": "Creature",
+			"cardsubtype": "Human Soldier",
+			"rarity": "rare"
 		}
 	]
 }
