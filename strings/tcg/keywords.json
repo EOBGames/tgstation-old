@@ -12,6 +12,12 @@
 		"Fury": "<abbr title=\"The creature must attack at every possibility.\">Fury</abbr>",
 		"Blocker": "<abbr title=\"The creature cannot declare attacks, but can defend.\">Blocker</abbr>",
 		"Hivemind": "<abbr title=\"The creature enters combat with a hivemind token on it. The first time this card would take damage, remove that token instead. This does not apply to instant removal effects, only points of damage.\">Hivemind</abbr>",
-		"Clockwork": "<abbr title=\"The creature can copy a single keyword on another creature on the field, until they lose the Clockwork keyword or leave the field.\">Clockwork</abbr>"
+		"Clockwork": "<abbr title=\"The creature can copy a single keyword on another creature on the field, until they lose the Clockwork keyword or leave the field.\">Clockwork</abbr>",
+		"Hulking": "<abbr title=\"Any power above a defending creature’s resolve is dealt to the opposing player.\">Hulking</abbr>",
+		"Double Strike": "<abbr title=\"This creature deals First Strike and Regular damage.\">Double Strike</abbr>",
+		"Oo Rah": "<abbr title=\"While attacking alongside 4 or more cards with this effect, all cards with Oo Rah gain +1/+1.\">Oo Rah</abbr>",
+		"Carapace": "<abbr title=\"The creature cannot equip equipment cards.\">Carapace</abbr>",
+		"Toxic": "<abbr title=\"Any damage the creature deals to opposing creatures is fatal.\">Toxic</abbr>",
+		"Death-Defying": "<abbr title=\"Any time the creature would be destroyed in combat, flip a coin. If heads, the creature is not destroyed.\">Death-Defying</abbr>"
 	}
 }

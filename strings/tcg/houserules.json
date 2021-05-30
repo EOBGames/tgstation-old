@@ -12,7 +12,7 @@
 		"Stacked Battlefields: Played battlefields are played to supercede the previously played one. If a battlefield is destroyed, the previous one becomes the active one."
 	],
 
-	"fun_facts": [
+	"game_facts": [
 		"There are several rarities of cards! Every booster pack comes with 5 common cards, 1 guaranteed rare card or better, and occasionally a coin for flipping!",
 		"A wise man once said, \"The card game is deep\". Experiment with card effects, combos, and strategies!",
 		"Did you know that 2% of all profits from the sale of Tactical Game Cards donated to charity?",
@@ -26,5 +26,11 @@
 		"Tactical Game Cards are not waterproof, fireproof, or spaceproof! In fact, they're extremely vulnerable to nearly everything!",
 		"Assembling the five pieces of Bubblegum leads to an immediate victory.",
 		"Security cards are based around strength in numbers. Be sure to have enough of them in your deck to activate their effects!"
+	],
+
+	"lore_facts": [
+		"",
+		"Twin Battlefields: Each player can have a battlefield in play simultaneously.",
+		"Stacked Battlefields: Played battlefields are played to supercede the previously played one. If a battlefield is destroyed, the previous one becomes the active one."
 	]
 }

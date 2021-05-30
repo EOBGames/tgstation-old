@@ -594,7 +594,35 @@
 			"cardtype": "Equipment",
 			"cardsubtype": "Weapon",
 			"rarity": "rare"
-		}
+		},
+		{
+			"id": "necropolis",
+			"name": "The Necropolis",
+			"desc": "Bend the knee. Obey. Be reborn.",
+			"rules": "Increase the power of all creatures by 2. Reduce the resolve of all creatures by 2.",
+			"icon_state": "necropolis",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Necropolis",
+			"summoncost": "4",
+			"cardtype": "Battlefield",
+			"cardsubtype": "Temple",
+			"rarity": "legendary"
+		},
+		{
+			"id": "ashwalker",
+			"name": "Ashwalker",
+			"desc": "The descendants of the survivors of the ICS Thazakto, the Ashwalkers have long since lost any semblance of civilised life, as they fell to the influence of the Necropolis.",
+			"rules": "Death-Defying",
+			"icon_state": "Ashwalker",
+			"power": "2",
+			"resolve": "1",
+			"faction": "Necropolis",
+			"summoncost": "3",
+			"cardtype": "Creature",
+			"cardsubtype": "Corrupted Lizard",
+			"rarity": "uncommon"
+		},
 	]
 }
 		
