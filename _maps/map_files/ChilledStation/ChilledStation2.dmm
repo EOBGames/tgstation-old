@@ -5222,19 +5222,11 @@
 /turf/open/floor/iron/cafeteria,
 /area/space)
 "apQ" = (
-/obj/structure/chair/sofa{
-	color = "#c45c57"
+/obj/machinery/door/airlock/security{
+	name = "Corporate Investigator's Office";
+	req_access_txt = "4"
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/item/toy/plush/lizardplushie{
-	name = "Loves-The-Snacks"
-	},
-/turf/open/floor/iron/cafeteria,
+/turf/open/space/basic,
 /area/space)
 "apR" = (
 /obj/structure/closet/crate/freezer,
@@ -12027,27 +12019,6 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron/dark,
 /area/space)
-"aXG" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/structure/table/wood/fancy,
-/obj/structure/sign/painting/library_secure{
-	pixel_x = -32
-	},
-/obj/item/toy/plush/lizardplushie{
-	name = "Lives-In-Luxury";
-	pixel_y = 4
-	},
-/turf/open/floor/iron/dark,
-/area/space)
 "aXI" = (
 /obj/structure/statue/silver/sec,
 /turf/open/floor/iron/dark,
@@ -17589,13 +17560,6 @@
 	},
 /turf/open/floor/iron,
 /area/security/checkpoint/customs)
-"riF" = (
-/obj/structure/table/wood,
-/obj/item/toy/plush/lizardplushie{
-	name = "Preaches-The-Gospel"
-	},
-/turf/open/floor/iron/dark,
-/area/space)
 "rjD" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner,
 /turf/open/floor/iron/dark,
@@ -30425,7 +30389,7 @@ anY
 anY
 anY
 anY
-anY
+apQ
 anY
 anY
 anY
@@ -113350,7 +113314,7 @@ aVk
 aVk
 aVk
 aLd
-apQ
+aUJ
 aqi
 aEY
 aLd
@@ -156077,7 +156041,7 @@ xVI
 xVI
 xVI
 yks
-riF
+xVI
 xVI
 xVI
 yks
@@ -179368,7 +179332,7 @@ aLd
 aLd
 aLd
 aLd
-aXG
+aYb
 aYb
 aYb
 aYb
