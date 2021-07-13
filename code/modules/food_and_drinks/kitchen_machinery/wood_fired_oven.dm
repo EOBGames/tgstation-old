@@ -16,15 +16,15 @@
 	var/lit = FALSE //whether it's lit
 	COOLDOWN_DECLARE(fuel_use_duration)
 
-	var/static/radial_examine = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_examine")
-	var/static/radial_eject = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_eject")
 	var/static/radial_light = image(icon = 'icons/obj/cigarettes.dmi', icon_state = "match_lit")
 
 	// we show the button even if the proc will not work
-	var/static/list/radial_options = list("eject" = radial_eject, "use" = radial_use)
-	var/static/list/ai_radial_options = list("eject" = radial_eject, "use" = radial_use, "examine" = radial_examine)
+	var/static/list/radial_options = list("light" = radial_light)
+	var/static/list/ai_radial_options = list("light" = radial_light)
 
 /obj/machinery/wood_fired_oven/proc/light()
+	if(lit)
+		to_chat(user, "<span class='notice'>[src] is already lit.</span>")
 	if(fuel > 5)
 		fuel -= 5
 		begin_processing()
@@ -35,7 +35,7 @@
 
 /obj/machinery/wood_fired_oven/proc/out_of_fuel()
 	end_processing()
-	visible_message("<span class='notice'>\The [src]'s flame dies out as it runs out of fuel.</span>", null, "<span class='hear'>You no longer hear flames.</span>")
+	visible_message("<span class='notice'>\The [src]'s flame dies out as it runs out of fuel.</span>", null, "<span class='hear'>You hear the last embers of a fire dying.</span>")
 	lit = FALSE
 	set_light(0)
 	update_appearance()
@@ -112,4 +112,92 @@
 
 /obj/machinery/wood_fired_oven/update_icon_state()
 	icon_state = "wood_oven_[lit ? "on" : "off"]"
+	return ..()
+
+/obj/machinery/oven
+	name = "oven"
+	desc = "A fancy high-capacity oven, perfect for baking, roasting and grilling."
+	icon = 'icons/obj/kitchen.dmi'
+	icon_state = "oven"
+	layer = BELOW_OBJ_LAYER
+	density = TRUE
+	use_power = IDLE_POWER_USE
+	circuit = /obj/item/circuitboard/machine/oven
+	light_color = LIGHT_COLOR_YELLOW
+	light_power = 2
+	var/max_items = 3
+	var/list/cooking_objects = list() //things that are currently inside the oven
+	var/on = FALSE //whether it's lit
+
+/obj/machinery/oven/examine(mob/user)
+	. = ..()
+	if(!on)
+		. += "<span class='notice'>Right-click [src] to turn it on.</span>"
+	
+	if(!in_range(user, src) && !issilicon(user) && !isobserver(user))
+		. += "<span class='warning'>You're too far away to examine [src]'s contents!</span>"
+		return
+	if(operating)
+		. += "<span class='notice'>\The [src] is operating.</span>"
+		return
+	
+	if(length(cooking_objects))
+		. += "<span class='notice'>\The [src] contains: [english_list(cooking_objects)]</span>"
+	else
+		. += "<span class='notice'>\The [src] is empty.</span>"
+
+/obj/machinery/oven/attackby(obj/item/I, mob/user, params)
+	if(cooking_objects.len >= max_items)
+		to_chat(user, "<span class='notice'>[src] can't fit more items!</span>")
+		return
+	var/list/modifiers = params2list(params)
+	if(user.transferItemToLoc(I, src, silent = FALSE))
+		to_chat(user, "<span class='notice'>You place [I] inside [src].</span>")
+		AddToOven(I, user)
+	else
+		return ..()
+
+/obj/machinery/oven/RightClick(mob/user)
+	if(user.canUseTopic(src, !issilicon(usr)))
+		if(on)
+			on = FALSE
+		else
+			on = TRUE
+
+/obj/machinery/oven/proc/AddToOven(obj/item/item_to_cook, mob/user)
+	cooking_objects += item_to_cook
+	RegisterSignal(item_to_cook, COMSIG_MOVABLE_MOVED, .proc/ItemMoved)
+	RegisterSignal(item_to_cook, COMSIG_WOOD_FIRED_OVEN_COMPLETED, .proc/OvenBakeCompleted)
+	RegisterSignal(item_to_cook, COMSIG_PARENT_QDELETING, .proc/ItemRemovedFromOven)
+
+/obj/machinery/oven/proc/ItemRemovedFromOven(obj/item/I)
+	SIGNAL_HANDLER
+	cooking_objects -= I
+	UnregisterSignal(I, list(COMSIG_WOOD_FIRED_OVEN_COMPLETED, COMSIG_MOVABLE_MOVED, COMSIG_PARENT_QDELETING))
+
+/obj/machinery/oven/proc/ItemMoved(obj/item/I, atom/OldLoc, Dir, Forced)
+	SIGNAL_HANDLER
+	ItemRemovedFromOven(I)
+
+/obj/machinery/oven/proc/OvenBakeCompleted(obj/item/source, atom/baked_result)
+	SIGNAL_HANDLER
+	AddToOven(baked_result)
+
+/obj/machinery/oven/wrench_act(mob/living/user, obj/item/I)
+	..()
+	default_unfasten_wrench(user, I, 2 SECONDS)
+	return TRUE
+
+/obj/machinery/oven/process(delta_time)
+	..()
+	for(var/i in cooking_objects)
+		var/obj/item/cooked_item = i
+		if(SEND_SIGNAL(cooked_item, COMSIG_ITEM_WOOD_FIRED_OVEN_ACT, src, delta_time) & COMPONENT_SUCCESSFUL_FIRE_OVEN_BAKE)
+			continue
+		cooked_item.fire_act(1000) //Hot hot hot!
+		if(prob(10))
+			visible_message("<span class='danger'>[cooked_item] is burning in [src]!</span>")
+
+/obj/machinery/oven/update_icon_state()
+	icon_state = "oven_[on ? "on" : "off"]"
 	return ..()
