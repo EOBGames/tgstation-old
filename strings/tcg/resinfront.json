@@ -916,6 +916,20 @@
 			"cardtype": "Creature",
 			"cardsubtype": "Human Soldier",
 			"rarity": "rare"
+		},
+		{
+			"id": "pilot",
+			"name": "TerraGov Pilot",
+			"desc": "",
+			"rules": "While TerraGov Peacekeeping Operative is active, no battlefields may be played by the opponent.",
+			"icon_state": "bluehelmet",
+			"power": "2",
+			"resolve": "4",
+			"faction": "TGMC",
+			"summoncost": "3",
+			"cardtype": "Creature",
+			"cardsubtype": "Human Soldier",
+			"rarity": "rare"
 		}
 	]
 }
