@@ -2655,3 +2655,147 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	if(prophet_trauma)
 		QDEL_NULL(prophet_trauma)
 	return ..()
+//Moth Drinks
+/datum/reagent/consumable/ethanol/curacao
+	name = "Curaçao"
+	description = "Made with laraha oranges, for an aromatic finish."
+	boozepwr = 30
+	color = "#1a5fa1"
+	quality = DRINK_FANTASTIC
+	taste_description = "blue orange"
+	glass_icon_state = "curacao"
+	glass_name = "glass of curaçao"
+	glass_desc = "It's blue, da ba dee."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/navy_rum
+	name = "Navy Rum"
+	description = "Rum as the finest sailors drink."
+	boozepwr = 90 //the finest sailors are often drunk
+	color = "#1a5fa1"
+	quality = DRINK_FANTASTIC
+	taste_description = "a life on the waves"
+	glass_icon_state = "ginvodkaglass"
+	glass_name = "glass of navy rum"
+	glass_desc = "Splice the mainbrace, and God save the King."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/bitters
+	name = "Andromeda Bitters"
+	description = "A bartender's best friend, often used to lend a delicate spiciness to any drink. Produced in New Trinidad, now and forever."
+	boozepwr = 70
+	color = "#1c0000"
+	quality = DRINK_FANTASTIC
+	taste_description = "spiced alcohol"
+	glass_icon_state = "bitters"
+	glass_name = "glass of bitters"
+	glass_desc = "Typically you'd want to mix this with something- but you do you."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/admiralty //navy rum, vermouth, fernet
+	name = "Admiralty"
+	description = "A refined, bitter drink made with navy rum, vermouth and fernet."
+	boozepwr = 100
+	color = "#FFD700"
+	quality = DRINK_FANTASTIC
+	taste_description = "haughty arrogance"
+	glass_icon_state = "admiralty"
+	glass_name = "Admiralty"
+	glass_desc = "Hail to the Admiral, for he brings fair tidings, and rum too."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/long_haul //Rum, Curacao, Sugar, dash of bitters, lengthened with soda water
+	name = "Long Haul"
+	description = "A favourite amongst freighter pilots, unscrupulous smugglers, and nerf herders."
+	boozepwr = 35
+	color = "#FFD700"
+	quality = DRINK_GOOD
+	taste_description = "companionship"
+	glass_icon_state = "long_haul"
+	glass_name = "Long Haul"
+	glass_desc = "A perfect companion for a lonely long haul flight."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/long_john_silver //navy rum, bitters, lemonade
+	name = "Long John Silver"
+	description = "A long drink of navy rum, bitters, and lemonade. Particularly popular aboard the Mothic Fleet as it's light on ration credits and heavy on flavour."
+	boozepwr = 35
+	color = "#FFD700"
+	quality = DRINK_NICE
+	taste_description = "rum and spices"
+	glass_icon_state = "long_john_silver"
+	glass_name = "Long John Silver"
+	glass_desc = "Named for a famous pirate, who may or may not have been fictional. But hey, why let the truth get in the way of a good yarn?" //Chopper Reid says "How the fuck are ya?"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/tropical_storm //dark rum, pineapple juice, triple citrus, curacao
+	name = "Tropical Storm"
+	description = "A taste of the Caribbean in one glass."
+	boozepwr = 50
+	color = "#FFD700"
+	quality = DRINK_NICE
+	taste_description = "the tropics"
+	glass_icon_state = "tropical_storm"
+	glass_name = "Long John Silver"
+	glass_desc = "Less destructive than the real thing."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/dark_and_stormy //rum and ginger beer- simple and classic
+	name = "Dark and Stormy"
+	description = "A classic drink arriving to thunderous applause." //thank you, thank you, I'll be here forever
+	boozepwr = 50
+	color = "#FFD700"
+	quality = DRINK_NICE
+	taste_description = "ginger and rum"
+	glass_icon_state = "dark_and_stormy"
+	glass_name = "Dark and Stormy"
+	glass_desc = "Thunder and lightning, very very frightening."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/jean_harlow_martini //navy rum, vermouth
+	name = "Jean Harlow Martini"
+	description = "The martini's stardazzled cousin."
+	boozepwr = 60
+	color = "#FFD700"
+	quality = DRINK_NICE
+	taste_description = "sweet blonde beauty"
+	glass_icon_state = "jean_harlow_martini"
+	glass_name = "Jean Harlow Martini"
+	glass_desc = "The martini's sun-soaked, starstruck, platinum blonde cousin."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/cu_chulainn_freakshake //irish cream, creme de menthe, chocolate ice cream, cream, chocolate syrup, whipped cream, chocolate cake- the freakshake is the ultimate evolution of the bartender's (and chef's) art
+	name = "Cú Chulainn Freakshake"
+	description = "With his hurley in his hand, his name would cross the land."
+	boozepwr = 20
+	color = "#FFD700"
+	quality = DRINK_NICE
+	taste_description = "the emerald isle"
+	glass_icon_state = "cu_chulainn_freakshake"
+	glass_name = "Cú Chulainn Freakshake"
+	glass_desc = "Éirinn go brách agus fág an bealach!"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/millionaire_freakshake //rum, creme de cacao, vanilla ice cream, cream, caramel, whipped cream, shortbread
+	name = "Millionaire's Freakshake"
+	description = "A rich drink for a poor population."
+	boozepwr = 20
+	color = "#FFD700"
+	quality = DRINK_NICE
+	taste_description = "old money"
+	glass_icon_state = "millionaire_freakshake"
+	glass_name = "Millionaire's Freakshake"
+	glass_desc = "Enjoy, you bougie bastard."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/berry_cherry_freakshake //gin, berry juice, cherry jelly, bitters, strawberry ice cream, whipped cream, cherry pie
+	name = "Berry Cherry Freakshake"
+	description = "Do these flavours actually fundamentally work together? Ah, who cares, they rhyme!"
+	boozepwr = 20
+	color = "#FFD700"
+	quality = DRINK_NICE
+	taste_description = "berry and cherry in perfect harmony"
+	glass_icon_state = "berry_cherry_freakshake"
+	glass_name = "Berry Cherry Freakshake"
+	glass_desc = "Huh, I guess berry and cherry do work together. Who'd have thought?"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
