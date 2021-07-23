@@ -426,6 +426,56 @@
 	foodtypes = VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/soup/rice_porridge
+	name = "rice porridge" 
+	desc = "A plate of rice porridge. It's mostly flavourless, but it does fill a spot. To the Chinese it's congee, and moths call it höllflöfmisklsløsk." //höllflöfmiskl = rice (höllflöf = cloud, miskl = seed), sløsk = porridge
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "rice_porridge"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
+	tastes = list("nothing" = 1)
+	foodtypes = GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/hua_mulan_congee
+	name = "\improper Hua Mulan congee" 
+	desc = "Nobody is quite sure why this smiley food is named after a mythological Chinese figure- it's just sorta what it's always been called."
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "hua_mulan_congee"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
+	tastes = list("bacon" = 1, "eggs" = 1)
+	foodtypes = MEAT | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/toechtauese_rice_porridge
+	name = "töchtaüse rice porridge" 
+	desc = "Commonly served aboard the mothic fleet, rice porridge with töchtaüse syrup is more palatable than the regular stuff, if even just because it's spicier than normal."
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "toechtauese_rice_porridge"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
+	tastes = list("sugar" = 1, "spice" = 1)
+	foodtypes = GRAIN | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/cornmeal_porridge
+	name = "cornmeal porridge" 
+	desc = "A plate of cornmeal porridge. It's more flavourful than most porridges, and makes a good base for other flavours, too."
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "cornmeal_porridge"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
+	tastes = list("cornmeal" = 1)
+	foodtypes = GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/cheesy_porridge //milk, polenta, firm cheese, curd cheese, butter
+	name = "cheesy porridge" 
+	desc = "A rich and creamy bowl of cheesy cornmeal porridge."
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "cornmeal_porridge"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
+	tastes = list("cornmeal" = 1, "cheese" = 1, "more cheese" = 1, "lots of cheese" = 1)
+	foodtypes = DAIRY | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
 //Salads: the bread and butter of mothic cuisine
 /obj/item/food/caprese_salad
 	name = "caprese salad"
@@ -606,76 +656,24 @@
 	slice_type = /obj/item/food/pizzaslice/pesto
 	boxtag = "Garlic Bread alla Moffuchi"
 
-//Sharing Platters
-/obj/item/sharing_platter
-	name = "sharing platter"
-	desc = "A platter of good food, made to be shared with friends. Let the good times flow!"
+//Bread
+/obj/item/food/bread/corn
+	name = "cornbread"
+	desc = "Some good down-home country-style, rootin'-tootin', revolver-shootin', dad-gum yeehaw cornbread."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "cheese_board"
-	var/food_type = /obj/item/food/sharing_portion
-	var/amount_of_food = 5
-
-/obj/item/sharing_platter/update_icon_state()
-	switch(amount_of_food)
-		if(0)
-			icon_state = "[initial(icon_state)]_empty"
-		if(1 to 4)
-			icon_state = "[initial(icon_state)]_half"
-		else
-			icon_state = "[initial(icon_state)]"
-	return ..()
-
-/obj/item/sharing_platter/attack_hand(mob/user, list/modifiers)
-	. = ..()
-	if(.)
-		return
-	if(isliving(user))
-		var/mob/living/L = user
-		if(!(L.mobility_flags & MOBILITY_PICKUP))
-			return
-	if(amount_of_food >= 1)
-		amount_of_food--
-		new food_type
-
-		B.forceMove(drop_location())
-		user.put_in_hands(B)
-		to_chat(user, "<span class='notice'>You take [B] out of [src].</span>")
-		update_appearance()
-
-	add_fingerprint(user)
-
-/obj/structure/bedsheetbin/attack_tk(mob/user)
-	if(amount >= 1)
-		amount--
-
-		var/obj/item/bedsheet/B
-		if(sheets.len > 0)
-			B = sheets[sheets.len]
-			sheets.Remove(B)
-
-		else
-			B = new /obj/item/bedsheet(loc)
-
-		B.forceMove(drop_location())
-		to_chat(user, "<span class='notice'>You telekinetically remove [B] from [src].</span>")
-		update_appearance()
-
-		if(hidden)
-			hidden.forceMove(drop_location())
-			hidden = null
-
-	add_fingerprint(user)
-	return COMPONENT_CANCEL_ATTACK_CHAIN
-
-/obj/item/food/sharing_portion
-	name = "sharing portion"
-	desc = "A portion of food from a sharing platter. You better be eating this with friends!"
-	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "cheese_portion"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/consumable/nutriment/protein = 8, /datum/reagent/consumable/tomatojuice = 6, /datum/reagent/consumable/nutriment/vitamin = 5)
-	tastes = list("cheese" = 1, "butter" = 1, "crackers" = 1, "bread" = 1, "herbs" = 1)
-	foodtypes = GRAIN | DAIRY
+	icon_state = "cornbread"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 10)
+	tastes = list("cornbread" = 10)
+	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/breadslice/corn
+	name = "cornbread slice"
+	desc = "A chunk of crispy, cowboy-style cornbread. Consume contentedly."
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "cornbread_slice"
+	foodtypes = GRAIN
+	food_reagents = list(/datum/reagent/consumable/nutriment = 2)
 
 //Sweets
 /obj/item/food/moth_cheese_cakes
@@ -700,6 +698,7 @@
 /obj/item/food/cakeslice/mothmallow
 	name = "mothmallow"
 	desc = "Fluffy little clouds of joy- in a strangely moth-like colour."
+	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "mothmallow_slice"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 2)
 	tastes = list("vanilla" = 1, "clouds" = 1, "chocolate" = 1)

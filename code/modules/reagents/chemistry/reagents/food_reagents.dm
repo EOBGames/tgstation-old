@@ -1003,3 +1003,10 @@
 	taste_description = "olive oil"
 	color = "#DBCF5C"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/cornmeal
+	name = "Cornmeal"
+	description = "Ground cornmeal, for making corn related things."
+	taste_description = "raw cornmeal"
+	color = "#ebca85"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
