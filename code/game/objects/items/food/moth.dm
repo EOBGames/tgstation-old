@@ -476,6 +476,16 @@
 	foodtypes = DAIRY | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/soup/fried_eggplant_polenta
+	name = "fried eggplant and polenta" 
+	desc = "Polenta loaded with cheese, served with a few discs of fried eggplant and some tomato sauce. Lække!"
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "cornmeal_porridge"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
+	tastes = list("cornmeal" = 1, "cheese" = 1, "eggplant" = 1, "tomato sauce" = 1)
+	foodtypes = DAIRY | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
 //Salads: the bread and butter of mothic cuisine
 /obj/item/food/caprese_salad
 	name = "caprese salad"
