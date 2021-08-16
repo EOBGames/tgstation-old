@@ -129,6 +129,12 @@
 	item_instance = /obj/item/reagent_containers/food/drinks/bottle/cream
 	cost_per_order = 40
 
+/datum/orderable_item/yoghurt
+	name = "Yoghurt"
+	category_index = CATEGORY_MILK_EGGS
+	item_instance = /obj/item/reagent_containers/food/condiment/yoghurt
+	cost_per_order = 40
+
 /datum/orderable_item/eggs
 	name = "Egg Carton"
 	category_index = CATEGORY_MILK_EGGS

@@ -44,6 +44,16 @@
 	foodtypes = DAIRY | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/firm_cheese_slice
+	name = "firm cheese slice"
+	desc = "A slice of firm cheese. Perfect for grilling or making into delicious pesto."
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "firm_cheese_slice"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3)
+	tastes = list("aged cheese" = 1)
+	foodtypes = DAIRY | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/food/mozzarella
 	name = "mozzarella cheese"
 	desc = "Delicious, creamy, and cheesy, all in one simple package."
@@ -115,6 +125,16 @@
 	foodtypes = DAIRY | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/yoghurt_garlic_sauce
+	name = "yoghurt garlic sauce"
+	desc = "A tasty mix of garlic, yoghurt, herbs and spices."
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "yoghurt_garlic_sauce"
+	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
+	tastes = list("garlic" = 1, "yoghurt" = 1)
+	foodtypes = DAIRY | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/food/pizza_dough
 	name = "pizza dough"
 	desc = "A strong, glutenous dough designed to hold up to cheese and sauce."
@@ -122,6 +142,16 @@
 	icon_state = "pizza_dough"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("raw flour" = 1)
+	foodtypes = GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/texas_toast
+	name = "\improper Texas toast"
+	desc = "Thick cut bread, griddled to perfection."
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "texas_toast"
+	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
+	tastes = list("toast" = 1)
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -156,7 +186,17 @@
 	foodtypes = DAIRY | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/moth_baked_cheese
+/obj/item/food/baked_cheese
+	name = "baked cheese wheel"
+	desc = "A baked cheese wheel, melty and delicious."
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "baked_cheese"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/consumable/capsaicin = 1)
+	tastes = list("cheese" = 1)
+	foodtypes = DAIRY
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/baked_cheese_platter
 	name = "stanntkraktælo" //stannt = oven, krakt = baked, ælo = cheese
 	desc = "A baked cheese wheel: a mothic favourite for sharing. Usually served with crispy bread slices for dipping, because the only thing better than good cheese is good cheese on bread."
 	icon = 'icons/obj/food/moth.dmi'
@@ -167,37 +207,37 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 //Baked Green Lasagna at the Whistlestop Cafe
-/obj/item/food/raw_green_lasagna
-	name = "raw green lasagna"
-	desc = "A fine lasagna made with pesto and a herby white sauce, ready to bake. Good for multiple servings."
+/obj/item/food/raw_green_lasagne
+	name = "raw green lasagne al forno"
+	desc = "A fine lasagne made with pesto and a herby white sauce, ready to bake. Good for multiple servings."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "raw_green_lasagna"
+	icon_state = "raw_green_lasagne"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("cheese" = 1, "pesto" = 1, "pasta" = 1)
 	foodtypes = VEGETABLES | GRAIN | NUTS
 	w_class = WEIGHT_CLASS_NORMAL
 
-/obj/item/food/flatrootdough/MakeBakeable()
-	AddComponent(/datum/component/bakeable, /obj/item/food/green_lasagna, rand(60 SECONDS, 90 SECONDS), TRUE, TRUE)
+/obj/item/food/raw_green_lasagna/MakeBakeable()
+	AddComponent(/datum/component/bakeable, /obj/item/food/green_lasagne, rand(45 SECONDS, 75 SECONDS), TRUE, TRUE)
 
-/obj/item/food/green_lasagna
-	name = "green lasagna"
-	desc = "A fine lasagna made with pesto and a herby white sauce. Good for multiple servings."
+/obj/item/food/green_lasagne
+	name = "green lasagne al forno"
+	desc = "A fine lasagne made with pesto and a herby white sauce. Good for multiple servings."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "green_lasagna"
+	icon_state = "green_lasagne"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 12, /datum/reagent/consumable/nutriment/vitamin = 18)
 	tastes = list("cheese" = 1, "pesto" = 1, "pasta" = 1)
 	foodtypes = VEGETABLES | GRAIN | NUTS
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/food/green_lasagna/MakeProcessable()
-	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/green_lasagna_slice, 6, 30)
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/green_lasagne_slice, 6, 30)
 
-/obj/item/food/green_lasagna_slice
-	name = "green lasagna slice"
-	desc = "A slice of herby, pesto-y lasagna."
+/obj/item/food/green_lasagne_slice
+	name = "green lasagne al forno slice"
+	desc = "A slice of herby, pesto-y lasagne."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "green_lasagna"
+	icon_state = "green_lasagne"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("cheese" = 1, "pesto" = 1, "pasta" = 1)
 	foodtypes = VEGETABLES | GRAIN | NUTS
@@ -236,11 +276,11 @@
 	foodtypes = VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/fire_baked_corn
-	name = "fire-baked corn"
+/obj/item/food/oven_baked_corn
+	name = "oven-baked corn"
 	desc = "A cob of corn, baked in the roasting heat of an oven until it blisters and blackens. Beloved as a quick yet flavourful and filling component for dishes on the Fleet."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "fire_baked_corn"
+	icon_state = "oven_baked_corn"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/char = 1)
 	tastes = list("corn" = 1, "char" = 1)
 	foodtypes = VEGETABLES
@@ -338,7 +378,7 @@
 
 /obj/item/food/raw_stuffed_peppers
 	name = "raw voltölpapriken" //voltöl = stuffed (vol = full, töl = push), papriken (from German paprika) = bell peppers
-	desc = "Peppers with the tops removed and a herby cheese and onion mixed stuffed inside. Probably shouldn't be eaten raw."
+	desc = "Peppers with the tops removed and a herby cheese and onion mix stuffed inside. Probably shouldn't be eaten raw."
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "raw_stuffed_peppers"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/protein = 3)
@@ -526,6 +566,10 @@
 	tastes = list("onion" = 1, "tomato" = 1, "avocado" = 1, "chili" = 1, "cilantro" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/salad/berber_bowl
+	name = "\improper Luxalafrikkatsolt" //Luxal = North, afrikkat = African, solt = bowl
+	desc = "A bowl of vegetable couscous topped with crispy falafel and garlic yoghurt sauce. Probably not authentically North African, although the moths don't really care."
 
 //Pizza
 /obj/item/food/raw_mothic_margherita
