@@ -338,7 +338,7 @@
 
 /obj/item/food/summer_vegetables
 	name = "roasted summer vegetables"
-	desc = "A summery bouquet of vegetables, topped off with a healthy scattering of nuts and herbs."
+	desc = "A summery bouquet of vegetables, topped off with a healthy scattering of herbs."
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "summer_vegetables"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 7, /datum/reagent/consumable/nutriment/vitamin = 12)
@@ -358,7 +358,7 @@
 
 /obj/item/food/winter_vegetables
 	name = "roasted winter vegetables"
-	desc = "A hearty medley of vegetables, finished with winter spices."
+	desc = "A hearty medley of vegetables, finished with wintery herbs."
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "winter_vegetables"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 7, /datum/reagent/consumable/nutriment/vitamin = 12)
@@ -428,7 +428,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/soup/vegetarian_chili
-	name = "vegetarian chili"
+	name = "chili sin carne"
 	desc = "For the hombres who don't want carne."
 	icon_state = "hotchili"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/capsaicin = 3, /datum/reagent/consumable/tomatojuice = 4, /datum/reagent/consumable/nutriment/vitamin = 4)
@@ -566,10 +566,6 @@
 	tastes = list("onion" = 1, "tomato" = 1, "avocado" = 1, "chili" = 1, "cilantro" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
-
-/obj/item/food/salad/berber_bowl
-	name = "\improper Luxalafrikkatsolt" //Luxal = North, afrikkat = African, solt = bowl
-	desc = "A bowl of vegetable couscous topped with crispy falafel and garlic yoghurt sauce. Probably not authentically North African, although the moths don't really care."
 
 //Pizza
 /obj/item/food/raw_mothic_margherita
