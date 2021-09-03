@@ -33,7 +33,7 @@
 /turf/open/floor/wood/large,
 /area/space)
 "bx" = (
-/obj/item/kirbyplants,
+/obj/structure/punching_bag,
 /turf/open/floor/wood/large{
 	icon_state = "wood_large-broken3"
 	},
@@ -153,6 +153,11 @@
 "hO" = (
 /turf/open/floor/iron/showroomfloor,
 /area/space)
+"im" = (
+/turf/open/floor/iron/stairs/left{
+	dir = 4
+	},
+/area/space)
 "is" = (
 /obj/effect/landmark/thunderdome/two,
 /obj/effect/turf_decal/stripes/line{
@@ -172,8 +177,16 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/indestructible,
 /area/space)
+"jZ" = (
+/turf/open/floor/iron/stairs/left{
+	dir = 8
+	},
+/area/space)
 "kD" = (
 /turf/open/floor/plastic,
+/area/space)
+"la" = (
+/turf/open/floor/carpet/red,
 /area/space)
 "li" = (
 /obj/machinery/door/airlock/highsecurity{
@@ -194,7 +207,6 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/camera/autoname{
 	dir = 1;
-	icon_state = "camera";
 	network = list("Arena Main")
 	},
 /turf/open/indestructible,
@@ -237,6 +249,31 @@
 	dir = 1
 	},
 /turf/open/floor/wood/large,
+/area/space)
+"oT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/railing{
+	color = "black";
+	dir = 1
+	},
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/space)
+"pG" = (
+/obj/structure/chair/comfy{
+	color = "#FF0000";
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/railing{
+	color = "black";
+	dir = 1
+	},
+/turf/open/floor/wood,
 /area/space)
 "pO" = (
 /obj/effect/landmark/thunderdome/two,
@@ -367,11 +404,20 @@
 	},
 /turf/open/floor/wood/large,
 /area/space)
+"wS" = (
+/turf/open/floor/iron/stairs/right{
+	dir = 8
+	},
+/area/space)
 "wW" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 8
 	},
 /turf/open/floor/wood/large,
+/area/space)
+"wX" = (
+/obj/machinery/door/airlock/wood,
+/turf/open/floor/wood,
 /area/space)
 "xU" = (
 /turf/open/floor/wood/large{
@@ -447,6 +493,14 @@
 /obj/structure/chair/stool/directional/east,
 /turf/open/floor/wood/large,
 /area/space)
+"BK" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/railing{
+	color = "black"
+	},
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/space)
 "BM" = (
 /obj/structure/chair/stool/directional/west,
 /turf/open/floor/wood/large,
@@ -469,6 +523,11 @@
 "CJ" = (
 /obj/structure/flora/junglebush,
 /turf/open/floor/plating/dirt,
+/area/space)
+"CS" = (
+/turf/open/floor/iron/stairs/old{
+	dir = 1
+	},
 /area/space)
 "Db" = (
 /obj/structure/table/wood/fancy,
@@ -543,6 +602,11 @@
 	},
 /turf/open/floor/wood/large,
 /area/space)
+"Fs" = (
+/turf/open/floor/iron/stairs/right{
+	dir = 4
+	},
+/area/space)
 "Fw" = (
 /obj/structure/chair/stool/directional/west,
 /turf/open/floor/wood/large{
@@ -553,6 +617,9 @@
 /obj/structure/table/wood/fancy,
 /obj/structure/mirror/directional/east,
 /turf/open/floor/wood/large,
+/area/space)
+"FN" = (
+/turf/closed/indestructible/opsglass,
 /area/space)
 "FP" = (
 /obj/structure/mirror/directional/west,
@@ -605,6 +672,12 @@
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/iron/showroomfloor,
 /area/space)
+"Jh" = (
+/obj/structure/railing{
+	color = "black"
+	},
+/turf/open/floor/wood/large,
+/area/space)
 "JM" = (
 /obj/effect/turf_decal/siding/white/corner,
 /turf/open/floor/iron/showroomfloor,
@@ -636,6 +709,13 @@
 /area/space)
 "Lu" = (
 /obj/item/chair/stool,
+/turf/open/floor/wood/large,
+/area/space)
+"LI" = (
+/obj/structure/railing{
+	color = "black";
+	dir = 1
+	},
 /turf/open/floor/wood/large,
 /area/space)
 "LO" = (
@@ -679,6 +759,16 @@
 	dir = 8
 	},
 /turf/open/floor/iron/showroomfloor,
+/area/space)
+"Pk" = (
+/obj/structure/chair/comfy{
+	color = "#FF0000"
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/railing{
+	color = "black"
+	},
+/turf/open/floor/wood,
 /area/space)
 "Pp" = (
 /obj/effect/landmark/thunderdome/two,
@@ -787,8 +877,8 @@
 /turf/open/floor/plating/ashplanet/rocky,
 /area/space)
 "UD" = (
-/obj/item/kirbyplants,
 /obj/effect/decal/cleanable/cobweb,
+/obj/structure/punching_bag,
 /turf/open/floor/wood/large{
 	icon_state = "wood_large-broken3"
 	},
@@ -869,6 +959,9 @@
 	name = "General Supply"
 	},
 /turf/open/floor/wood/large,
+/area/space)
+"ZW" = (
+/turf/open/floor/iron/stairs/old,
 /area/space)
 "ZX" = (
 /obj/effect/landmark/thunderdome/one,
@@ -5868,10 +5961,10 @@ kD
 vQ
 vQ
 UD
-PB
-PB
-PB
-PB
+Jh
+Fs
+im
+LI
 uA
 vQ
 vQ
@@ -6523,7 +6616,7 @@ kD
 kD
 kD
 kD
-kD
+la
 vQ
 aK
 Cr
@@ -6589,7 +6682,7 @@ kD
 kD
 kD
 kD
-kD
+la
 vQ
 oK
 Cr
@@ -6652,10 +6745,10 @@ kD
 kD
 kD
 kD
-kD
-kD
-kD
-kD
+vQ
+vQ
+vQ
+vQ
 vQ
 vQ
 vQ
@@ -6668,10 +6761,10 @@ aD
 vQ
 vQ
 vQ
-kD
-kD
-kD
-kD
+vQ
+vQ
+vQ
+vQ
 kD
 kD
 PN
@@ -6716,14 +6809,14 @@ PN
 kD
 kD
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-GQ
+la
+la
+vQ
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -6732,14 +6825,14 @@ eC
 eC
 eC
 sa
-GQ
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+vQ
+la
+la
 PN
 PN
 PN
@@ -6782,14 +6875,14 @@ PN
 kD
 kD
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-GQ
+la
+la
+vQ
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -6798,14 +6891,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+vQ
+la
+la
 PN
 PN
 PN
@@ -6848,14 +6941,14 @@ PN
 kD
 kD
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-GQ
+la
+la
+vQ
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -6864,14 +6957,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+vQ
+la
+la
 PN
 PN
 PN
@@ -6914,14 +7007,14 @@ PN
 kD
 kD
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-GQ
+la
+la
+vQ
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -6930,14 +7023,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+vQ
+la
+la
 PN
 PN
 PN
@@ -6980,14 +7073,14 @@ PN
 kD
 kD
 kD
-kD
-vQ
-vQ
-kD
-kD
-kD
-kD
-GQ
+la
+la
+wX
+ZW
+ZW
+ZW
+la
+FN
 eC
 eC
 eC
@@ -6996,14 +7089,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-vQ
-vQ
-kD
-kD
-kD
+FN
+la
+CS
+CS
+CS
+wX
+la
+la
 PN
 PN
 PN
@@ -7046,14 +7139,14 @@ PN
 kD
 kD
 kD
-kD
-RF
+la
+la
 vQ
-kD
-kD
-kD
-kD
-GQ
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -7062,14 +7155,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
+FN
+la
+pG
+pG
+pG
 vQ
-cj
-kD
-kD
-kD
+la
+la
 PN
 PN
 PN
@@ -7112,14 +7205,14 @@ PN
 kD
 kD
 kD
-kD
-RF
-vQ
-kD
-kD
-kD
-kD
-GQ
+la
+la
+BK
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -7128,14 +7221,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-vQ
-cj
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+oT
+la
+la
 PN
 PN
 PN
@@ -7178,14 +7271,14 @@ PN
 kD
 kD
 kD
-kD
-RF
-vQ
-kD
-kD
-kD
-kD
-GQ
+la
+la
+BK
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -7194,14 +7287,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-vQ
-cj
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+oT
+la
+la
 PN
 PN
 PN
@@ -7244,14 +7337,14 @@ PN
 kD
 kD
 kD
-kD
-vQ
-vQ
-kD
-kD
-kD
-kD
-GQ
+la
+la
+BK
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -7260,14 +7353,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-vQ
-vQ
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+oT
+la
+la
 PN
 PN
 PN
@@ -7310,14 +7403,14 @@ PN
 kD
 kD
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-GQ
+la
+la
+vQ
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -7326,14 +7419,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+vQ
+la
+la
 PN
 PN
 PN
@@ -7376,14 +7469,14 @@ PN
 kD
 kD
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-GQ
+la
+la
+wX
+ZW
+ZW
+ZW
+la
+FN
 eC
 eC
 eC
@@ -7392,14 +7485,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+FN
+la
+CS
+CS
+CS
+wX
+la
+la
 PN
 PN
 PN
@@ -7442,14 +7535,14 @@ PN
 kD
 kD
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-GQ
+la
+la
+vQ
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -7458,14 +7551,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+vQ
+la
+la
 PN
 PN
 PN
@@ -7508,14 +7601,14 @@ PN
 kD
 kD
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-GQ
+la
+la
+vQ
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -7524,14 +7617,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+vQ
+la
+la
 PN
 PN
 PN
@@ -7574,14 +7667,14 @@ PN
 kD
 kD
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-GQ
+la
+la
+vQ
+Pk
+Pk
+Pk
+la
+FN
 eC
 eC
 eC
@@ -7590,14 +7683,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+vQ
+la
+la
 PN
 PN
 PN
@@ -7640,14 +7733,14 @@ PN
 kD
 kD
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-GQ
+la
+la
+vQ
+Pk
+Pk
+Pk
+la
+FN
 Sr
 eC
 eC
@@ -7656,14 +7749,14 @@ eC
 eC
 eC
 eC
-GQ
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+FN
+la
+pG
+pG
+pG
+vQ
+la
+la
 PN
 PN
 PN
@@ -7708,10 +7801,10 @@ kD
 kD
 kD
 kD
-kD
-kD
-kD
-kD
+vQ
+vQ
+vQ
+vQ
 vQ
 vQ
 vQ
@@ -7724,10 +7817,10 @@ Kc
 vQ
 vQ
 vQ
-kD
-kD
-kD
-kD
+vQ
+vQ
+vQ
+vQ
 kD
 kD
 PN
@@ -7777,7 +7870,7 @@ kD
 kD
 kD
 kD
-kD
+la
 vQ
 yP
 ZC
@@ -7843,7 +7936,7 @@ kD
 kD
 kD
 kD
-kD
+la
 vQ
 yP
 ZC
@@ -8508,10 +8601,10 @@ kD
 vQ
 vQ
 bx
-PB
-PB
-PB
-PB
+Jh
+jZ
+wS
+LI
 Mc
 vQ
 vQ
@@ -10957,7 +11050,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11023,7 +11116,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11089,7 +11182,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11155,7 +11248,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11221,7 +11314,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11287,7 +11380,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11353,7 +11446,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11419,7 +11512,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11485,7 +11578,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11551,7 +11644,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11617,7 +11710,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11683,7 +11776,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11749,7 +11842,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11815,7 +11908,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
@@ -11881,7 +11974,7 @@ md
 md
 md
 md
-md
+FN
 md
 md
 md
