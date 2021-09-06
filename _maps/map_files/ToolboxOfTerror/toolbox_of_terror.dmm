@@ -1,4 +1,15 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ag" = (
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
+"au" = (
+/obj/structure/chair/sofa/left,
+/turf/open/floor/wood,
+/area/space)
 "aD" = (
 /obj/machinery/door/poddoor{
 	id = "arena_default";
@@ -9,15 +20,11 @@
 	},
 /turf/open/indestructible,
 /area/space)
-"aK" = (
-/obj/structure/rack,
-/obj/item/storage/toolbox,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+"aO" = (
+/obj/structure/chair/sofa/left{
+	dir = 8
 	},
-/turf/open/floor/wood/large{
-	icon_state = "wood_large-broken2"
-	},
+/turf/open/floor/wood,
 /area/space)
 "bd" = (
 /obj/effect/turf_decal/siding/white/corner{
@@ -34,9 +41,13 @@
 /area/space)
 "bx" = (
 /obj/structure/punching_bag,
-/turf/open/floor/wood/large{
-	icon_state = "wood_large-broken3"
+/turf/open/floor/wood/parquet,
+/area/space)
+"bM" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
 	},
+/turf/open/floor/wood,
 /area/space)
 "bQ" = (
 /obj/effect/turf_decal/siding/white{
@@ -74,8 +85,31 @@
 /obj/structure/chair/sofa/corp/left{
 	dir = 4
 	},
-/turf/open/floor/wood/large{
-	icon_state = "wood_large-broken"
+/turf/open/floor/wood/parquet,
+/area/space)
+"cI" = (
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
+"cO" = (
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
 	},
 /area/space)
 "da" = (
@@ -104,6 +138,18 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/space)
+"ei" = (
+/obj/structure/railing{
+	color = "#964B00";
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/iron/stairs/right{
+	color = "#964B00"
+	},
+/area/space)
 "ew" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -113,12 +159,30 @@
 "eC" = (
 /turf/open/floor/plating,
 /area/space)
+"eD" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 8
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
 "fe" = (
 /obj/effect/landmark/thunderdome/one,
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
 /turf/open/indestructible,
+/area/space)
+"ff" = (
+/turf/open/space/basic,
+/area/space)
+"fq" = (
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
 /area/space)
 "fV" = (
 /obj/effect/landmark/thunderdome/one,
@@ -132,6 +196,13 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/indestructible,
 /area/space)
+"gk" = (
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
 "gp" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
@@ -139,16 +210,28 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/space)
+"gt" = (
+/obj/structure/chair/stool/directional/north,
+/turf/open/floor/wood/parquet{
+	icon_state = "wood_parquet-broken4"
+	},
+/area/space)
 "gy" = (
 /obj/structure/table/wood/fancy/green,
 /obj/structure/mirror/directional/north{
 	icon_state = "mirror_broke"
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
 /area/space)
 "hb" = (
 /obj/item/food/spiderling,
 /turf/open/floor/iron/showroomfloor,
+/area/space)
+"hy" = (
+/obj/structure/chair/sofa{
+	dir = 8
+	},
+/turf/open/floor/wood,
 /area/space)
 "hO" = (
 /turf/open/floor/iron/showroomfloor,
@@ -165,6 +248,15 @@
 	},
 /turf/open/indestructible,
 /area/space)
+"iN" = (
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
 "iS" = (
 /obj/effect/landmark/thunderdome/one,
 /obj/effect/turf_decal/stripes/line{
@@ -176,6 +268,33 @@
 /obj/effect/landmark/thunderdome/one,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/indestructible,
+/area/space)
+"iX" = (
+/obj/structure/railing{
+	color = "#964B00";
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/iron/stairs/left{
+	color = "#964B00"
+	},
+/area/space)
+"jd" = (
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
+"jY" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/space)
 "jZ" = (
 /turf/open/floor/iron/stairs/left{
@@ -193,7 +312,12 @@
 	name = "Thunderdome Arena Access";
 	req_one_access_txt = "101"
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
+/area/space)
+"lB" = (
+/turf/open/floor/iron/stairs/left{
+	dir = 1
+	},
 /area/space)
 "lE" = (
 /turf/open/floor/plating/dirt,
@@ -214,12 +338,46 @@
 "md" = (
 /turf/open/openspace,
 /area/space)
+"ms" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 4
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
+"mB" = (
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
+"mZ" = (
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
 "na" = (
 /obj/effect/landmark/thunderdome/one,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/indestructible,
+/area/space)
+"nb" = (
+/obj/machinery/recharger{
+	pixel_y = 4
+	},
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/delivery,
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
 /area/space)
 "np" = (
 /obj/effect/landmark/arena/start,
@@ -248,7 +406,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood,
 /area/space)
 "oT" = (
 /obj/effect/turf_decal/siding/wood{
@@ -258,7 +416,7 @@
 	color = "black";
 	dir = 1
 	},
-/obj/structure/table/wood,
+/obj/structure/table/wood/fancy,
 /turf/open/floor/wood,
 /area/space)
 "pG" = (
@@ -282,6 +440,33 @@
 	},
 /turf/open/indestructible,
 /area/space)
+"pU" = (
+/turf/open/floor/wood,
+/area/space)
+"qi" = (
+/obj/machinery/camera{
+	c_tag = "Red Team";
+	network = list("thunder");
+	pixel_x = 11;
+	pixel_y = -9;
+	resistance_flags = 64
+	},
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/arena_spawn/green,
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
 "qW" = (
 /obj/structure/chair/sofa/corp/left,
 /obj/item/reagent_containers/food/drinks/waterbottle,
@@ -291,6 +476,12 @@
 /obj/structure/table/wood,
 /obj/item/clothing/glasses/geist_gazers,
 /turf/open/floor/iron/showroomfloor,
+/area/space)
+"rz" = (
+/obj/structure/railing{
+	color = "black"
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "rE" = (
 /obj/machinery/door/poddoor{
@@ -348,6 +539,12 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/space)
+"sU" = (
+/turf/open/floor/iron/stairs/left{
+	color = "#964B00";
+	dir = 8
+	},
+/area/space)
 "tN" = (
 /obj/effect/landmark/thunderdome/two,
 /obj/effect/turf_decal/stripes/line{
@@ -369,14 +566,17 @@
 	},
 /turf/open/indestructible,
 /area/space)
+"un" = (
+/turf/open/floor/iron/stairs/right{
+	color = "#964B00"
+	},
+/area/space)
 "us" = (
 /turf/closed/wall/mineral/wood,
 /area/space)
 "uA" = (
 /obj/item/kirbyplants,
-/turf/open/floor/wood/large{
-	icon_state = "wood_large-broken"
-	},
+/turf/open/floor/wood/parquet,
 /area/space)
 "uQ" = (
 /obj/structure/fluff/arc,
@@ -386,10 +586,22 @@
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/plating/dirt,
 /area/space)
-"vC" = (
-/obj/structure/table/wood/fancy/green,
+"vb" = (
+/obj/structure/table/wood/fancy,
 /obj/structure/mirror/directional/north,
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet{
+	icon_state = "wood_parquet-broken3"
+	},
+/area/space)
+"vE" = (
+/obj/machinery/recharger{
+	pixel_y = 4
+	},
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/delivery,
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
 /area/space)
 "vQ" = (
 /turf/closed/indestructible/wood,
@@ -404,6 +616,16 @@
 	},
 /turf/open/floor/wood/large,
 /area/space)
+"wM" = (
+/obj/machinery/door/poddoor{
+	id = "arena_default";
+	name = "Thunderdome Blast Door"
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/space)
 "wS" = (
 /turf/open/floor/iron/stairs/right{
 	dir = 8
@@ -413,11 +635,16 @@
 /obj/structure/chair/sofa/corp/right{
 	dir = 8
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
 /area/space)
 "wX" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
+/area/space)
+"xu" = (
+/turf/open/floor/wood/parquet{
+	icon_state = "wood_parquet-broken3"
+	},
 /area/space)
 "xU" = (
 /turf/open/floor/wood/large{
@@ -427,6 +654,16 @@
 "xW" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/wood/large,
+/area/space)
+"yb" = (
+/obj/machinery/door/poddoor{
+	id = "thunderdomegen";
+	name = "General Supply"
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 8
+	},
+/turf/open/floor/wood,
 /area/space)
 "yI" = (
 /obj/effect/landmark/thunderdome/one,
@@ -449,7 +686,7 @@
 "yP" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox,
-/turf/open/floor/wood/large,
+/turf/open/floor/wood,
 /area/space)
 "zw" = (
 /obj/effect/turf_decal/siding/white/corner{
@@ -457,10 +694,32 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/space)
+"zE" = (
+/obj/structure/railing{
+	color = "#964B00"
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/stairs/left{
+	color = "#964B00";
+	dir = 4
+	},
+/area/space)
+"zP" = (
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/space)
 "zU" = (
 /obj/structure/table/wood/fancy,
 /obj/structure/mirror/directional/south,
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
+/area/space)
+"Ab" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
 /area/space)
 "AB" = (
 /turf/open/floor/wood/large{
@@ -488,6 +747,11 @@
 "Bs" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/floor/plating/dirt,
+/area/space)
+"Bz" = (
+/turf/open/floor/wood/parquet{
+	icon_state = "wood_parquet-broken4"
+	},
 /area/space)
 "BG" = (
 /obj/structure/chair/stool/directional/east,
@@ -518,11 +782,18 @@
 /obj/effect/turf_decal/loading_area{
 	dir = 4
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood,
 /area/space)
 "CJ" = (
 /obj/structure/flora/junglebush,
 /turf/open/floor/plating/dirt,
+/area/space)
+"CO" = (
+/obj/structure/railing{
+	color = "black";
+	dir = 1
+	},
+/turf/open/floor/wood/parquet,
 /area/space)
 "CS" = (
 /turf/open/floor/iron/stairs/old{
@@ -536,6 +807,19 @@
 	},
 /turf/open/floor/wood/large,
 /area/space)
+"Df" = (
+/obj/structure/table/wood/fancy,
+/turf/open/floor/wood,
+/area/space)
+"Dl" = (
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
 "DH" = (
 /obj/machinery/recharger{
 	pixel_y = 4
@@ -543,6 +827,13 @@
 /obj/effect/landmark/thunderdome/one,
 /obj/effect/turf_decal/delivery,
 /turf/open/indestructible,
+/area/space)
+"Ec" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/railing/corner{
+	color = "#964B00"
+	},
+/turf/open/floor/wood,
 /area/space)
 "Ed" = (
 /obj/structure/chair/stool/directional/east,
@@ -561,14 +852,12 @@
 "Ev" = (
 /obj/structure/table/wood/fancy,
 /obj/structure/mirror/directional/north,
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
 /area/space)
 "Ew" = (
 /obj/structure/table/wood/fancy/green,
 /obj/structure/mirror/directional/north,
-/turf/open/floor/wood/large{
-	icon_state = "wood_large-broken3"
-	},
+/turf/open/floor/wood/parquet,
 /area/space)
 "EL" = (
 /obj/structure/mirror/directional/west,
@@ -600,7 +889,7 @@
 /obj/structure/chair/stool/directional/south{
 	dir = 2
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
 /area/space)
 "Fs" = (
 /turf/open/floor/iron/stairs/right{
@@ -631,7 +920,16 @@
 /obj/structure/mirror/directional/north{
 	icon_state = "mirror_broke"
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
+/area/space)
+"Ga" = (
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
 /area/space)
 "Gb" = (
 /obj/structure/table/wood,
@@ -656,7 +954,13 @@
 /area/space)
 "GY" = (
 /obj/structure/chair/stool/directional/north,
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
+/area/space)
+"Ij" = (
+/obj/structure/chair/sofa/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/space)
 "Iv" = (
 /obj/structure/mirror/directional/east{
@@ -668,6 +972,30 @@
 "Ix" = (
 /turf/closed/indestructible/rock,
 /area/space)
+"II" = (
+/obj/machinery/camera{
+	c_tag = "Green Team";
+	network = list("thunder");
+	pixel_x = 12;
+	pixel_y = -10;
+	resistance_flags = 64
+	},
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/arena_spawn/red,
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
 "IU" = (
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/iron/showroomfloor,
@@ -676,11 +1004,32 @@
 /obj/structure/railing{
 	color = "black"
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
+/area/space)
+"Jq" = (
+/obj/structure/railing{
+	color = "black"
+	},
+/turf/open/floor/wood/parquet{
+	icon_state = "wood_parquet-broken7"
+	},
+/area/space)
+"JC" = (
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
 /area/space)
 "JM" = (
 /obj/effect/turf_decal/siding/white/corner,
 /turf/open/floor/iron/showroomfloor,
+/area/space)
+"JW" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/wood,
 /area/space)
 "Kc" = (
 /obj/machinery/door/poddoor{
@@ -697,15 +1046,24 @@
 /obj/structure/mirror/directional/south{
 	icon_state = "mirror_broke"
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
 /area/space)
 "KK" = (
 /obj/item/clothing/head/hardhat/pumpkinhead,
 /turf/open/floor/wood/large,
 /area/space)
+"Lm" = (
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
 "Ln" = (
 /obj/structure/chair/stool/directional/south,
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
 /area/space)
 "Lu" = (
 /obj/item/chair/stool,
@@ -716,7 +1074,12 @@
 	color = "black";
 	dir = 1
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet{
+	icon_state = "wood_parquet-broken5"
+	},
+/area/space)
+"LM" = (
+/turf/open/floor/wood/parquet,
 /area/space)
 "LO" = (
 /obj/structure/table/wood/fancy,
@@ -727,14 +1090,24 @@
 /area/space)
 "Mc" = (
 /obj/item/kirbyplants,
-/turf/open/floor/wood/large{
-	icon_state = "wood_large-broken2"
+/turf/open/floor/wood/parquet{
+	icon_state = "wood_parquet-broken5"
 	},
 /area/space)
 "Mk" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Thunderdome Arena Access";
 	req_one_access_txt = "101"
+	},
+/turf/open/floor/wood,
+/area/space)
+"NI" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	color = "#964B00";
+	dir = 8
 	},
 /turf/open/floor/wood,
 /area/space)
@@ -777,17 +1150,28 @@
 	},
 /turf/open/indestructible,
 /area/space)
+"Pq" = (
+/obj/structure/railing{
+	color = "#964B00"
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/stairs/right{
+	color = "#964B00";
+	dir = 8
+	},
+/area/space)
 "PB" = (
 /turf/open/floor/wood/large,
 /area/space)
 "PN" = (
 /turf/open/floor/plating/ashplanet/rocky,
 /area/space)
-"Qj" = (
-/obj/structure/rack,
-/obj/item/storage/toolbox,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/wood/large,
+"PR" = (
+/obj/structure/railing{
+	color = "black";
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "Qv" = (
 /obj/machinery/recharger{
@@ -822,6 +1206,12 @@
 "QH" = (
 /turf/open/floor/plating/grass,
 /area/space)
+"QX" = (
+/obj/structure/chair/sofa{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/space)
 "Rc" = (
 /obj/machinery/button/door{
 	id = "thunderdomegen";
@@ -849,7 +1239,7 @@
 "Rz" = (
 /obj/structure/table/wood/fancy/green,
 /obj/structure/mirror/directional/south,
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
 /area/space)
 "RB" = (
 /mob/living/simple_animal/hostile/lightgeist,
@@ -858,6 +1248,10 @@
 "RF" = (
 /obj/structure/stairs/south,
 /turf/open/floor/plastic,
+/area/space)
+"RS" = (
+/obj/structure/chair/sofa/corner,
+/turf/open/floor/wood,
 /area/space)
 "Sh" = (
 /obj/machinery/computer/arena,
@@ -869,6 +1263,30 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"SD" = (
+/turf/open/floor/iron/stairs/left{
+	color = "#964B00"
+	},
+/area/space)
+"SO" = (
+/obj/machinery/door/poddoor{
+	id = "arena_default";
+	name = "Thunderdome Blast Door"
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/space)
+"Tl" = (
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
 "Uc" = (
 /obj/structure/railing{
 	color = "black";
@@ -879,8 +1297,8 @@
 "UD" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/punching_bag,
-/turf/open/floor/wood/large{
-	icon_state = "wood_large-broken3"
+/turf/open/floor/wood/parquet{
+	icon_state = "wood_parquet-broken"
 	},
 /area/space)
 "UQ" = (
@@ -888,20 +1306,49 @@
 /obj/item/toy/plush/beeplushie,
 /turf/open/floor/iron/showroomfloor,
 /area/space)
+"UU" = (
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
+"Vi" = (
+/turf/open/floor/iron/stairs/right{
+	color = "#964B00";
+	dir = 4
+	},
+/area/space)
 "Wc" = (
 /obj/structure/table/wood/fancy/green,
 /obj/structure/mirror/directional/south{
 	icon_state = "mirror_broke"
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood/parquet,
+/area/space)
+"WN" = (
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
 /area/space)
 "Xd" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox,
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/wood/large{
-	icon_state = "wood_large-broken"
-	},
+/turf/open/floor/wood,
 /area/space)
 "Xf" = (
 /obj/structure/flora/ausbushes/palebush,
@@ -929,9 +1376,32 @@
 /obj/machinery/arena_spawn/red,
 /turf/open/indestructible,
 /area/space)
+"XE" = (
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
+/area/space)
 "XO" = (
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/floor/plating/dirt,
+/area/space)
+"XV" = (
+/turf/open/floor/carpet/green,
+/area/space)
+"Yk" = (
+/obj/effect/landmark/thunderdome/one,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/camera/autoname{
+	dir = 1;
+	network = list("Arena Main")
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
 /area/space)
 "Yy" = (
 /obj/effect/turf_decal/siding/white{
@@ -939,12 +1409,20 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/space)
+"YP" = (
+/turf/open/floor/iron/dark,
+/area/space)
 "Za" = (
 /turf/closed/mineral/random/volcanic,
 /area/space)
 "Zt" = (
 /mob/living/simple_animal/hostile/lightgeist,
 /turf/open/floor/iron/showroomfloor,
+/area/space)
+"Zu" = (
+/turf/open/floor/iron/stairs/right{
+	dir = 1
+	},
 /area/space)
 "Zy" = (
 /obj/effect/landmark/thunderdome/two,
@@ -958,7 +1436,16 @@
 	id = "thunderdomegen";
 	name = "General Supply"
 	},
-/turf/open/floor/wood/large,
+/turf/open/floor/wood,
+/area/space)
+"ZI" = (
+/obj/effect/landmark/thunderdome/two,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/indestructible{
+	icon_state = "darkfull"
+	},
 /area/space)
 "ZW" = (
 /turf/open/floor/iron/stairs/old,
@@ -5825,18 +6312,18 @@ PN
 PN
 PN
 kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+vQ
+vQ
+vQ
+XV
+XV
+XV
+XV
+XV
+XV
+vQ
+vQ
+vQ
 PN
 PN
 PN
@@ -5891,8 +6378,8 @@ kD
 kD
 kD
 kD
-kD
-kD
+vQ
+LM
 vQ
 vQ
 vQ
@@ -5901,8 +6388,8 @@ li
 vQ
 vQ
 vQ
-kD
-kD
+LM
+vQ
 kD
 kD
 kD
@@ -5957,7 +6444,7 @@ kD
 kD
 kD
 kD
-kD
+vQ
 vQ
 vQ
 UD
@@ -5968,7 +6455,7 @@ LI
 uA
 vQ
 vQ
-kD
+vQ
 kD
 kD
 kD
@@ -6027,10 +6514,10 @@ kD
 vQ
 gy
 Ln
-PB
-PB
-PB
-PB
+XV
+XV
+XV
+XV
 GY
 Rz
 vQ
@@ -6091,12 +6578,12 @@ kD
 kD
 kD
 vQ
-vC
+Ew
 Ln
-xU
-PB
-PB
-AB
+XV
+XV
+XV
+XV
 GY
 Rz
 vQ
@@ -6159,11 +6646,11 @@ kD
 vQ
 Ew
 Ln
-PB
+xu
 wW
-AH
-PB
-GY
+eD
+LM
+gt
 Wc
 vQ
 kD
@@ -6290,12 +6777,12 @@ kD
 vQ
 Rc
 vQ
-PB
-PB
-PB
-PB
-PB
-NQ
+pU
+pU
+pU
+pU
+pU
+pU
 vQ
 KK
 vQ
@@ -6365,10 +6852,10 @@ ZC
 vQ
 vQ
 vQ
-kD
-kD
-kD
-kD
+vQ
+vQ
+vQ
+vQ
 kD
 kD
 PN
@@ -6422,19 +6909,19 @@ kD
 vQ
 oK
 Cr
-da
-pO
-pO
-pO
-pO
-Pp
+Dl
+mB
+mB
+mB
+mB
+Lm
 Cr
 Xd
 vQ
-kD
-kD
-kD
-kD
+pU
+pU
+lB
+pU
 kD
 kD
 PN
@@ -6488,19 +6975,19 @@ kD
 vQ
 oK
 Cr
-Zy
-Qv
-sw
-sw
-Qv
-gg
+XE
+vE
+WN
+WN
+vE
+ag
 Cr
-Qj
+Xd
 vQ
-kD
-kD
-kD
-kD
+pU
+pU
+Zu
+pU
 kD
 kD
 PN
@@ -6554,22 +7041,22 @@ kD
 vQ
 oK
 Cr
-Zy
-sw
-QD
-sw
-sw
-gg
+XE
+WN
+qi
+WN
+WN
+ag
 Cr
-Qj
+Xd
 vQ
 kD
 kD
-kD
-kD
-kD
-kD
-PN
+vQ
+vQ
+la
+la
+la
 PN
 PN
 PN
@@ -6618,24 +7105,24 @@ kD
 kD
 la
 vQ
-aK
+oK
 Cr
-Zy
-Qv
-sw
-sw
-Qv
-gg
+XE
+vE
+WN
+WN
+vE
+ag
 Cr
-Qj
+Xd
 vQ
 kD
 kD
-kD
-kD
-kD
-kD
-PN
+vQ
+pU
+la
+la
+la
 PN
 PN
 PN
@@ -6686,22 +7173,22 @@ la
 vQ
 oK
 Cr
-dc
-tN
-tN
-tN
-tN
-is
+ZI
+Ga
+Ga
+Ga
+Ga
+JC
 Cr
-Qj
+Xd
 vQ
 kD
 kD
-kD
-kD
-kD
-kD
-PN
+vQ
+pU
+la
+la
+la
 PN
 PN
 PN
@@ -6752,12 +7239,12 @@ vQ
 vQ
 vQ
 vQ
-aD
-aD
-aD
-aD
-aD
-aD
+wM
+wM
+wM
+wM
+wM
+wM
 vQ
 vQ
 vQ
@@ -6765,15 +7252,15 @@ vQ
 vQ
 vQ
 vQ
-kD
-kD
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+vQ
+vQ
+vQ
+vQ
+vQ
+la
+la
+la
+vQ
 PN
 PN
 PN
@@ -6808,14 +7295,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 vQ
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -6826,22 +7313,22 @@ eC
 eC
 sa
 FN
-la
+PR
 pG
 pG
 pG
 vQ
+pU
+pU
+SD
+SD
+SD
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+vQ
+vQ
+YP
 PN
 PN
 Ix
@@ -6874,14 +7361,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 vQ
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -6892,22 +7379,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 vQ
+pU
+Ec
+ei
+ei
+ei
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+FN
+YP
 PN
 PN
 Ix
@@ -6940,14 +7427,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 vQ
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -6958,22 +7445,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 vQ
+sU
+Pq
+Ij
+QX
+zP
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+FN
+YP
 PN
 PN
 Ix
@@ -7006,14 +7493,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 vQ
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -7024,22 +7511,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 vQ
+vQ
+vQ
+au
+Df
+Df
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+FN
+YP
 PN
 PN
 Ix
@@ -7072,14 +7559,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 wX
 ZW
 ZW
 ZW
-la
+rz
 FN
 eC
 eC
@@ -7090,22 +7577,22 @@ eC
 eC
 eC
 FN
-la
+PR
 CS
 CS
 CS
 wX
+pU
+pU
+pU
+pU
+pU
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+vQ
+vQ
+YP
 PN
 PN
 Ix
@@ -7138,14 +7625,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 vQ
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -7156,22 +7643,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 vQ
+jY
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+la
+la
+la
+vQ
+YP
+YP
 PN
 PN
 Ix
@@ -7204,14 +7691,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 BK
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -7222,22 +7709,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 oT
+Ab
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+la
+la
+la
+pU
+YP
+YP
 PN
 PN
 Ix
@@ -7270,14 +7757,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 BK
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -7288,22 +7775,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 oT
+Ab
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+la
+la
+la
+pU
+YP
+YP
 PN
 PN
 Ix
@@ -7336,14 +7823,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 BK
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -7354,22 +7841,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 oT
+Ab
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+la
+la
+la
+pU
+YP
+YP
 PN
 PN
 Ix
@@ -7402,14 +7889,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 vQ
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -7420,22 +7907,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 vQ
+bM
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+la
+la
+la
+vQ
+YP
+YP
 PN
 PN
 Ix
@@ -7468,14 +7955,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 wX
 ZW
 ZW
 ZW
-la
+rz
 FN
 eC
 eC
@@ -7486,22 +7973,22 @@ eC
 eC
 eC
 FN
-la
+PR
 CS
 CS
 CS
 wX
+pU
+pU
+pU
+pU
+pU
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+vQ
+vQ
+YP
 PN
 PN
 Ix
@@ -7534,14 +8021,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 vQ
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -7552,22 +8039,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 vQ
+vQ
+vQ
+JW
+Df
+Df
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+FN
+YP
 PN
 PN
 Ix
@@ -7600,14 +8087,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 vQ
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -7618,22 +8105,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 vQ
+Vi
+zE
+RS
+hy
+aO
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+FN
+YP
 PN
 PN
 Ix
@@ -7666,14 +8153,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 vQ
 Pk
 Pk
 Pk
-la
+rz
 FN
 eC
 eC
@@ -7684,22 +8171,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 vQ
+pU
+NI
+iX
+iX
+iX
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+pU
+FN
+YP
 PN
 PN
 Ix
@@ -7732,14 +8219,14 @@ PN
 PN
 kD
 kD
-kD
+la
 la
 la
 vQ
 Pk
 Pk
 Pk
-la
+rz
 FN
 Sr
 eC
@@ -7750,22 +8237,22 @@ eC
 eC
 eC
 FN
-la
+PR
 pG
 pG
 pG
 vQ
+pU
+pU
+un
+un
+un
 la
 la
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+la
+vQ
+vQ
+YP
 PN
 PN
 Ix
@@ -7808,12 +8295,12 @@ vQ
 vQ
 vQ
 vQ
-Kc
-Kc
-Kc
-Kc
-Kc
-Kc
+SO
+SO
+SO
+SO
+SO
+SO
 vQ
 vQ
 vQ
@@ -7821,15 +8308,15 @@ vQ
 vQ
 vQ
 vQ
-kD
-kD
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+vQ
+vQ
+vQ
+vQ
+vQ
+la
+la
+la
+vQ
 PN
 PN
 PN
@@ -7874,27 +8361,27 @@ la
 vQ
 yP
 ZC
-fe
-tV
-tV
-tV
-tV
-iS
+jd
+mZ
+mZ
+mZ
+mZ
+Tl
 ZC
 yP
 vQ
-kD
-kD
-kD
-kD
-kD
-kD
-PN
-PN
-PN
-PN
-PN
-PN
+la
+la
+la
+ff
+la
+la
+la
+la
+la
+la
+la
+la
 PN
 PN
 PN
@@ -7940,27 +8427,27 @@ la
 vQ
 yP
 ZC
-ZX
-DH
-yI
-yI
-DH
-iU
+cO
+nb
+cI
+cI
+nb
+gk
 ZC
 yP
 vQ
-kD
-kD
-kD
-kD
-kD
-kD
-PN
-PN
-PN
-PN
-PN
-PN
+la
+la
+la
+la
+la
+la
+la
+la
+la
+la
+la
+la
 PN
 PN
 PN
@@ -8006,27 +8493,27 @@ kD
 vQ
 yP
 ZC
-ZX
-yI
-Xv
-yI
-yI
-lX
+cO
+cI
+II
+cI
+cI
+Yk
 ZC
 yP
 vQ
-kD
-kD
-kD
-kD
-kD
-kD
-PN
-PN
-PN
-PN
-PN
-PN
+la
+la
+la
+la
+la
+la
+la
+la
+la
+la
+la
+la
 PN
 PN
 PN
@@ -8072,20 +8559,20 @@ kD
 vQ
 yP
 ZC
-ZX
-DH
-yI
-yI
-DH
-iU
+cO
+nb
+cI
+cI
+nb
+gk
 ZC
 yP
 vQ
-kD
-kD
-kD
-kD
-kD
+la
+la
+la
+la
+la
 kD
 PN
 PN
@@ -8138,20 +8625,20 @@ kD
 vQ
 yP
 ZC
-fV
-tT
-tT
-tT
-tT
-na
+fq
+iN
+iN
+iN
+iN
+UU
 ZC
 yP
 vQ
-kD
-kD
-kD
-kD
-kD
+la
+la
+la
+la
+la
 kD
 PN
 PN
@@ -8204,20 +8691,20 @@ kD
 vQ
 vQ
 vQ
-rE
-rE
-rE
-rE
-rE
-rE
+yb
+yb
+yb
+yb
+yb
+yb
 vQ
 vQ
 vQ
-kD
-kD
-kD
-kD
-kD
+la
+la
+la
+la
+la
 kD
 PN
 PN
@@ -8270,12 +8757,12 @@ kD
 vQ
 bi
 vQ
-PB
-PB
-PB
-PB
-PB
-PB
+pU
+pU
+pU
+pU
+pU
+pU
 vQ
 Sh
 vQ
@@ -8403,10 +8890,10 @@ kD
 vQ
 Ev
 Ln
-PB
+LM
 cC
-wE
-PB
+ms
+Bz
 Fn
 KC
 vQ
@@ -8467,12 +8954,12 @@ kD
 kD
 kD
 vQ
-Ev
+vb
 Ln
-PB
-PB
-PB
-PB
+la
+la
+la
+la
 Fn
 zU
 vQ
@@ -8535,10 +9022,10 @@ kD
 vQ
 FY
 Ln
-PB
-PB
-AB
-PB
+la
+la
+la
+la
 Fn
 zU
 vQ
@@ -8597,18 +9084,18 @@ kD
 kD
 kD
 kD
-kD
+vQ
 vQ
 vQ
 bx
-Jh
+Jq
 jZ
 wS
-LI
+CO
 Mc
 vQ
 vQ
-kD
+vQ
 kD
 kD
 kD
@@ -8663,8 +9150,8 @@ PN
 PN
 PN
 PN
-kD
-kD
+vQ
+LM
 vQ
 vQ
 vQ
@@ -8673,8 +9160,8 @@ li
 vQ
 vQ
 vQ
-kD
-kD
+LM
+vQ
 kD
 PN
 PN
@@ -8729,18 +9216,18 @@ PN
 PN
 PN
 PN
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
-kD
+vQ
+vQ
+vQ
+la
+la
+la
+la
+la
+la
+vQ
+vQ
+vQ
 kD
 PN
 PN
