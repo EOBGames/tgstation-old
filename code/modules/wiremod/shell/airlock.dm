@@ -35,7 +35,7 @@
 
 /obj/item/circuit_component/airlock
 	display_name = "Airlock"
-	display_desc = "The general interface with an airlock. Includes general statuses of the airlock"
+	desc = "The general interface with an airlock. Includes general statuses of the airlock"
 
 	/// Called when attack_hand is called on the shell.
 	var/obj/machinery/door/airlock/attached_airlock
@@ -64,8 +64,7 @@
 	/// Called when the airlock is unbolted
 	var/datum/port/output/unbolted
 
-/obj/item/circuit_component/airlock/Initialize()
-	. = ..()
+/obj/item/circuit_component/airlock/populate_ports()
 	// Input Signals
 	bolt = add_input_port("Bolt", PORT_TYPE_SIGNAL)
 	unbolt = add_input_port("Unbolt", PORT_TYPE_SIGNAL)
@@ -116,9 +115,6 @@
 	closed.set_output(COMPONENT_SIGNAL)
 
 /obj/item/circuit_component/airlock/input_received(datum/port/input/port)
-	. = ..()
-	if(.)
-		return
 
 	if(!attached_airlock)
 		return

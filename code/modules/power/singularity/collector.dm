@@ -69,7 +69,7 @@
 	toggle_power()
 	user.visible_message(span_notice("[user.name] turns the [src.name] [active? "on":"off"]."), \
 	span_notice("You turn the [src.name] [active? "on":"off"]."))
-	var/datum/gas_mixture/tank_mix = loaded_tank.return_air()
+	var/datum/gas_mixture/tank_mix = loaded_tank?.return_air()
 	var/fuel
 	if(loaded_tank)
 		fuel = tank_mix.gases[/datum/gas/plasma]
@@ -111,6 +111,7 @@
 	else if(item.GetID())
 		if(!allowed(user))
 			to_chat(user, span_danger("Access denied."))
+			return TRUE
 		if(!active)
 			to_chat(user, span_warning("The controls can only be locked when \the [src] is active!"))
 			return TRUE
