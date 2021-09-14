@@ -540,11 +540,11 @@
 			"rarity": "uncommon"
 		},
 		{
-			"id": "reflect",
-			"name": "Reflect",
-			"desc": "It looks like the tables have turned, doesn't it?",
+			"id": "seraka",
+			"name": "Seraka Mushrooms",
+			"desc": "Originally from Tizira, seraka mushrooms came with the Thazakto to Lavaland and took excellently to its volcanic climate.",
 			"rules": "When you take lifeshard damage, negate the damage and instead deal it to the enemy's lifeshards.",
-			"icon_state": "reflect",
+			"icon_state": "seraka",
 			"power": "0",
 			"resolve": "0",
 			"faction": "Necropolis",

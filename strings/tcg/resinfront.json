@@ -429,7 +429,7 @@
 		},
 		{
 			"id": "crayon_mre",
-			"name": "MRE Menu 7: Crayons",
+			"name": "MRE Menu 7: Crayon Fricassee",
 			"desc": "An important part of any Marine's balanced diet. Colouring book toilet paper not included.",
 			"rules": "Give a Soldier-type Creature +2/0 until the end of the turn.",
 			"icon_state": "crayon_mre",
@@ -778,11 +778,11 @@
 			"rarity": "common"
 		},
 		{
-			"id": "cursed_legion_paratrooper",
-			"name": "Cursed Legion Paratrooper",
+			"id": "cursed_legion_jumptrooper",
+			"name": "Cursed Legion Jumptrooper",
 			"desc": "The 85th Airborne division of the TGMC is known as the Cursed Legion, due to their extreme misfortune in being present at every major defeat sustained by the TGMC during the human/xeno war. Despite their reputation, the unit is known for incredible valour and performance under stress, and those who survived are known as some of the toughest soldiers the TGMC has produced.",
 			"rules": "Death Defying",
-			"icon_state": "cursed_legion_paratrooper",
+			"icon_state": "cursed_legion_jumptrooper",
 			"power": "3",
 			"resolve": "3",
 			"faction": "TGMC",
@@ -892,7 +892,7 @@
 		{
 			"id": "smart_scope",
 			"name": "Smart Scope",
-			"desc": "A remarkable piece of technology, the AT45 Smart Scope works in conjunction with smart-class ammunition to provide any weapon with smart targeting and lock-on capabilities.",
+			"desc": "A remarkable, yet dated piece of technology, the AT45 Smart Scope works in conjunction with smart-class ammunition to provide any weapon with smart targeting and lock-on capabilities.",
 			"rules": "The equipped creature gains Deadeye.",
 			"icon_state": "smart_scope",
 			"power": "0",
@@ -906,7 +906,7 @@
 		{
 			"id": "bluehelmet",
 			"name": "TerraGov Peacekeeping Operative",
-			"desc": "Just like their predecessor organisation, the UN, TerraGov participates in peacekeeping operations across the entirety of inhabited space, wearing their distinctive blue helmets. Their most recent operations, on the Ethereal homeworld Sprout, have seen only mixed success.",
+			"desc": "Just like their predecessor organisation, the UN, TerraGov participates in peacekeeping operations across the entirety of inhabited space, wearing their distinctive blue helmets. Their most recent operations on Mars to quell attacks by Martian Nationalists have seen only mixed success.",
 			"rules": "While TerraGov Peacekeeping Operative is active, no battlefields may be played by the opponent.",
 			"icon_state": "bluehelmet",
 			"power": "2",
@@ -920,7 +920,7 @@
 		{
 			"id": "pilot",
 			"name": "TerraGov Pilot",
-			"desc": "",
+			"desc": "Piloting a spacecraft is not an easy feat, let alone an interceptor or fighter, some of the fastest sublight vessels mankind has produced.",
 			"rules": "While TerraGov Peacekeeping Operative is active, no battlefields may be played by the opponent.",
 			"icon_state": "bluehelmet",
 			"power": "2",
@@ -930,6 +930,20 @@
 			"cardtype": "Creature",
 			"cardsubtype": "Human Soldier",
 			"rarity": "rare"
-		}
+		},
+		{
+			"id": "lv_426",
+			"name": "LV-426",
+			"desc": "The site of the largest battle of the human-xeno wars, LV-426 is a jungle planet constantly slaked by acid rain, and is only inhabited due to its considerable mineral wealth.",
+			"rules": "While LV-426 is active, Immunities are nullified.",
+			"icon_state": "lv_426",
+			"power": "2",
+			"resolve": "4",
+			"faction": "TGMC",
+			"summoncost": "3",
+			"cardtype": "Battlefield",
+			"cardsubtype": "Planet",
+			"rarity": "uncommon"
+		},
 	]
 }
