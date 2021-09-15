@@ -1,7 +1,7 @@
 import { createLanguagePerk, Species } from "./base";
 
 const Lizard: Species = {
-  description: "The militaristic hail originally from Tizira, but have grown \
+  description: "The militaristic Lizardpeople hail originally from Tizira, but have grown \
     throughout their centuries in the stars to possess a large spacefaring \
     empire: though now they must contend with their younger, more \
     technologically advanced human neighbours.",
