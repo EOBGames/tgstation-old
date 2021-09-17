@@ -641,6 +641,51 @@
 	tastes = list("peaches" = 1, "tin" = 7)
 	venue_value = FOOD_EXOTIC
 
+/obj/item/food/canned/caviar
+	name = "\improper Tsarskiy Kaspiyskaya Ikra"
+	desc = "Note: not actually from the Caspian Sea. Or related to the Tsar."
+	icon_state = "caviar"
+	trash_type = /obj/item/trash/can/food/caviar
+	food_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/protein = 11)
+	tastes = list("caviar" = 1)
+	foodtypes = MEAT
+
+/obj/item/food/canned/tushonka
+	name = "\improper Siniybyk Beef Tushonka"
+	desc = "Stew. In a can! Wow, what will those crazy Russians think of next?"
+	icon_state = "tushonka"
+	trash_type = /obj/item/trash/can/food/tushonka
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/protein = 7)
+	tastes = list("beef stew" = 1)
+	foodtypes = MEAT
+
+/obj/item/food/canned/borscht
+	name = "\improper Sibirskiy Borshch"
+	desc = "An unbranded can of Siberian style borscht. The only distinguishing mark is a poorly scrawled note: 'восторг туристов'. Wonder what that means."
+	icon_state = "borscht"
+	trash_type = /obj/item/trash/can/food/borscht
+	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/protein = 5)
+	tastes = list("borscht" = 1, "meatballs" = 1)
+	foodtypes = MEAT | VEGETABLES
+
+/obj/item/food/canned/russian_pasta
+	name = "\improper Pavel's Makarony Po-Flotski"
+	desc = "The only pasta to acknowledge you as its superior. It's your meal after all, Kapitan."
+	icon_state = "russian_pasta"
+	trash_type = /obj/item/trash/can/food/russian_pasta
+	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/protein = 5)
+	tastes = list("pasta" = 1, "meat" = 1, "onions" = 1)
+	foodtypes = MEAT | GRAIN | VEGETABLES
+
+/obj/item/food/canned/russian_condensed_milk
+	name = "\improper Korova-Plyus Sgushyonka"
+	desc = "Premium quality condensed milk as the Motherland makes it."
+	icon_state = "russian_condensed_milk"
+	trash_type = /obj/item/trash/can/food/russian_condensed_milk
+	food_reagents = list(/datum/reagent/consumable/milk = 4, /datum/reagent/consumable/sugar = 16)
+	tastes = list("condensed milk" = 1)
+	foodtypes = SUGAR | JUNKFOOD
+
 /obj/item/food/crab_rangoon
 	name = "Crab Rangoon"
 	desc = "Has many names, like crab puffs, cheese won'tons, crab dumplings? Whatever you call them, they're a fabulous blast of cream cheesy crab."

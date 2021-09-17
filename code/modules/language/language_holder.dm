@@ -312,6 +312,11 @@ Key procs
 	spoken_languages = list(/datum/language/buzzwords = list(LANGUAGE_ATOM))
 	blocked_languages = list(/datum/language/common = list(LANGUAGE_ATOM))
 
+/datum/language_holder/space_russian
+	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
+								/datum/language/novorusskii = list(LANGUAGE_ATOM))
+	spoken_languages = list(/datum/language/novorusskii = list(LANGUAGE_ATOM))
+
 /datum/language_holder/synthetic
 	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
 								/datum/language/uncommon = list(LANGUAGE_ATOM),
@@ -320,7 +325,8 @@ Key procs
 								/datum/language/moffic = list(LANGUAGE_ATOM),
 								/datum/language/calcic = list(LANGUAGE_ATOM),
 								/datum/language/voltaic = list(LANGUAGE_ATOM),
-								/datum/language/nekomimetic = list(LANGUAGE_ATOM))
+								/datum/language/nekomimetic = list(LANGUAGE_ATOM),
+								/datum/language/novorusskii = list(LANGUAGE_ATOM))
 	spoken_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
 							/datum/language/uncommon = list(LANGUAGE_ATOM),
 							/datum/language/machine = list(LANGUAGE_ATOM),
@@ -328,7 +334,8 @@ Key procs
 							/datum/language/moffic = list(LANGUAGE_ATOM),
 							/datum/language/calcic = list(LANGUAGE_ATOM),
 							/datum/language/voltaic = list(LANGUAGE_ATOM),
-							/datum/language/nekomimetic = list(LANGUAGE_ATOM))
+							/datum/language/nekomimetic = list(LANGUAGE_ATOM),
+							/datum/language/novorusskii = list(LANGUAGE_ATOM))
 
 /datum/language_holder/moth
 	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),

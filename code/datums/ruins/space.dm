@@ -299,3 +299,9 @@
 	suffix = "hellfactory.dmm"
 	name = "Heck Brewery"
 	description = "An abandoned warehouse and brewing facility, which has been recently rediscovered. Reports claim that the security system entered an ultra-hard lockdown, but these reports are inconclusive."
+
+/datum/map_template/ruin/space/russian_gas_station
+	id = "russian_gas_station"
+	suffix = "russian_gas_station.dmm"
+	name = "SSC Fuel Outpost ZTKD-1"
+	description = "A local stellar gas station run by Zvezdnoye Toplivo Ltd. Everything's just a little bit Russian. OK, a big bit Russian."

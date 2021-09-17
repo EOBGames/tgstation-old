@@ -389,6 +389,10 @@
 	bot_core_type = /obj/machinery/bot_core/cleanbot/medbay
 	on = FALSE
 
+/mob/living/simple_animal/bot/cleanbot/sweepski
+	name = "Comrade Sweepski"
+	desc = "A knockoff model cleanbot from Space Russia based on older hardware. He's not as flashy, but he gets the job done."
+
 /obj/machinery/bot_core/cleanbot
 	req_one_access = list(ACCESS_JANITOR, ACCESS_ROBOTICS)
 

@@ -99,6 +99,31 @@
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "beans_empty"
 
+/obj/item/trash/can/food/caviar
+	name = "\improper Tsarskiy Kaspiyskaya Ikra"
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "caviar_empty"
+
+/obj/item/trash/can/food/tushonka
+	name = "\improper Siniybyk Beef Tushonka"
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "tushonka_empty"
+
+/obj/item/trash/can/food/borscht
+	name = "\improper Sibirskiy Borshch"
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "borscht_empty"
+
+/obj/item/trash/can/food/russian_pasta
+	name = "\improper Pavel's Makarony Po-Flotski"
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "russian_pasta_empty"
+
+/obj/item/trash/can/food/russian_condensed_milk
+	name = "\improper Korova-Plyus Sgushyonka"
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "russian_condensed_milk_empty"
+
 /obj/item/trash/can/Initialize()
 	. = ..()
 	pixel_x = rand(-4,4)

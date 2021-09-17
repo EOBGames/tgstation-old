@@ -414,3 +414,8 @@
 	name = "\improper Hell Factory Office"
 	icon_state = "red"
 	area_flags = VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA | NOTELEPORT
+
+//SSC FUEL OUTPOST
+/area/ruin/space/has_grav/russian_gas_station
+	name = "\improper SSC Fuel Outpost ZTKD-1"
+	icon_state = "red"

@@ -810,3 +810,9 @@
 	desc = "There is no air shortage. Do not drink."
 	icon_state = "air"
 	list_reagents = list(/datum/reagent/nitrogen = 24, /datum/reagent/oxygen = 6)
+
+/obj/item/reagent_containers/food/drinks/soda_cans/russian_tea
+	name = "Karavan Russian Tea"
+	desc = "Brewed fresh in industrial-strength samovar for refreshing taste. Drink Karavan tea."
+	icon_state = "russian_tea"
+	list_reagents = list(/datum/reagent/consumable/tea = 24, /datum/reagent/consumable/char = 2, /datum/reagent/consumable/lemonjuice = 2, /datum/reagent/consumable/honey = 2)

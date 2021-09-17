@@ -102,7 +102,15 @@
 	icon = 'icons/obj/machines/telecomms.dmi'
 	icon_state = "processor"
 
+/obj/structure/showcase/machinery/jukebox
+	name = "busted jukebox"
+	desc = "An old, broken down jukebox. Looking over the records, it seems that somebody really loved Tom Jones." //What's new pussycat? GOD DAMN IT!!
+	icon = 'icons/obj/stationobjs.dmi'
+	icon_state = "jukebox"
 
+/obj/structure/showcase/machinery/jukebox/russian
+	name = "\improper Tsar Bomba jukebox"
+	desc = "A Space-Russian made jukebox, specifically designed for hardbass. Thankfully, this one's destroyed its drivers with too much cheeki breeki bass."
 
 //Deconstructing
 //Showcases can be any sprite, so it makes sense that they can't be constructed.
