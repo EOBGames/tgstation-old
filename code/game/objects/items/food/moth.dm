@@ -591,6 +591,13 @@
 	slice_type = /obj/item/food/pizzaslice/mothic_margherita
 	boxtag = "Margherita alla Moffuchi"
 
+/obj/item/food/pizzaslice/mothic_margherita
+	name = "mothic margherita slice"
+	desc = "A slice of mothic margherita pizza, the most humble of pizzas."
+	icon_state = "margherita_slice"
+	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1)
+	foodtypes = GRAIN | VEGETABLES | DAIRY
+
 /obj/item/food/raw_mothic_firecracker
 	name = "raw mothic firecracker pizza"
 	desc = "A favourite amongst the more adventurous moths, firecracker pizza is HOT HOT HOT!"
@@ -613,6 +620,13 @@
 	foodtypes = GRAIN | VEGETABLES | DAIRY
 	slice_type = /obj/item/food/pizzaslice/mothic_firecracker
 	boxtag = "Vesuvian Firecracker"
+
+/obj/item/food/pizzaslice/mothic_firecracker
+	name = "mothic firecracker slice"
+	desc = "A spicy slice of something quite nice."
+	icon_state = "firecracker_slice"
+	tastes = list("crust" = 1, "chili" = 1, "corn" = 1, "cheese" = 1)
+	foodtypes = GRAIN | VEGETABLES | DAIRY
 
 /obj/item/food/raw_mothic_five_cheese
 	name = "raw mothic five-cheese pizza"
@@ -637,13 +651,20 @@
 	slice_type = /obj/item/food/pizzaslice/mothic_five_cheese
 	boxtag = "Cheeseplosion"
 
+/obj/item/food/pizzaslice/mothic_five_cheese
+	name = "mothic five-cheese slice"
+	desc = "It's the cheesiest slice in the galaxy!"
+	icon_state = "five_cheese_slice"
+	tastes = list("crust" = 1, "cheese" = 1, "more cheese" = 1, "excessive amounts of cheese" = 1)
+	foodtypes = GRAIN | VEGETABLES | DAIRY
+
 /obj/item/food/raw_mothic_white_pie
 	name = "raw mothic white-pie pizza"
 	desc = "A pizza made for the tomato haters."
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "raw_white_pie_pizza"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 15, /datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/tomatojuice = 6, /datum/reagent/consumable/nutriment/vitamin = 3)
-	tastes = list("dough" = 1, "cheese" = 1, "herbs" = 1)
+	tastes = list("dough" = 1, "cheese" = 1, "herbs" = 1, "garlic" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY
 
 /obj/item/food/raw_mothic_white_pie/MakeBakeable()
@@ -655,10 +676,17 @@
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "white_pie_pizza"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/consumable/nutriment/protein = 8, /datum/reagent/consumable/tomatojuice = 6, /datum/reagent/consumable/nutriment/vitamin = 5)
-	tastes = list("crust" = 1, "cheese" = 1, "herbs" = 1)
+	tastes = list("crust" = 1, "cheese" = 1, "herbs" = 1, "garlic" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY
 	slice_type = /obj/item/food/pizzaslice/mothic_white_pie
 	boxtag = "Pane Bianco"
+
+/obj/item/food/pizzaslice/mothic_white_pie
+	name = "mothic white-pie slice"
+	desc = "Cheesy, garlicky, herby, delicious!"
+	icon_state = "white_pie_slice"
+	tastes = list("crust" = 1, "cheese" = 1, "more cheese" = 1, "excessive amounts of cheese" = 1)
+	foodtypes = GRAIN | VEGETABLES | DAIRY
 
 /obj/item/food/raw_mothic_pesto
 	name = "raw mothic pesto pizza"
@@ -683,6 +711,13 @@
 	slice_type = /obj/item/food/pizzaslice/pesto
 	boxtag = "Presto Pesto"
 
+/obj/item/food/pizzaslice/mothic_pesto
+	name = "mothic pesto slice"
+	desc = "A slice of presto pesto pizza."
+	icon_state = "pesto_slice"
+	tastes = list("crust" = 1, "pesto" = 1, "cheese" = 1)
+	foodtypes = GRAIN | VEGETABLES | DAIRY | NUTS
+
 /obj/item/food/raw_mothic_garlic
 	name = "raw mothic garlic pizzabread"
 	desc = "Ahh, garlic. A universally loved ingredient, except possibly by vampires."
@@ -706,6 +741,13 @@
 	slice_type = /obj/item/food/pizzaslice/pesto
 	boxtag = "Garlic Bread alla Moffuchi"
 
+/obj/item/food/pizzaslice/mothic_garlic
+	name = "mothic garlic pizzabread slice"
+	desc = "The best combination of oily, garlicky, and crusty known to mothkind."
+	icon_state = "garlic_slice"
+	tastes = list("dough" = 1, "garlic" = 1, "butter" = 1)
+	foodtypes = GRAIN | VEGETABLES
+
 //Bread
 /obj/item/food/bread/corn
 	name = "cornbread"
@@ -716,6 +758,9 @@
 	tastes = list("cornbread" = 10)
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/bread/corn/MakeProcessable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/breadslice/corn, 1, 20)
 
 /obj/item/food/breadslice/corn
 	name = "cornbread slice"
