@@ -2655,3 +2655,76 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	if(prophet_trauma)
 		QDEL_NULL(prophet_trauma)
 	return ..()
+
+//special beer types
+/datum/reagent/consumable/ethanol/stout
+	name = "Stout"
+	description = "A short, dark beverage popular on the Emerald Isle."
+	color = "#0f0b0a"
+	boozepwr = 35
+	quality = DRINK_GOOD
+	taste_description = "stout beer"
+	glass_icon_state = "stout"
+	glass_name = "glass of stout"
+	glass_desc = "Tall, dark and handsome."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/bitter
+	name = "Bitter"
+	description = "A heavily hopped beer with a strong bitter finish."
+	color = "#72281E"
+	boozepwr = 30
+	quality = DRINK_GOOD
+	taste_description = "bitter beer"
+	glass_icon_state = "bitter"
+	glass_name = "glass of bitter"
+	glass_desc = "A happy hoppy ale for the distinguished gentleman."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/ipa
+	name = "India Pale Ale"
+	description = "Best drunk with a flannel shirt and skinny jeans."
+	color = "#72281E"
+	boozepwr = 30
+	quality = DRINK_GOOD
+	taste_description = "very bitter beer"
+	glass_icon_state = "ipa"
+	glass_name = "glass of IPA"
+	glass_desc = "The craft beer to rule the hipster kingdom."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/martian_hellas
+	name = "Martian Hellas"
+	description = "A type of beer created on Mars. Light and crisp, with a copper red colour."
+	color = "#934838"
+	boozepwr = 30
+	quality = DRINK_GOOD
+	taste_description = "alien ale"
+	glass_icon_state = "martian_hellas"
+	glass_name = "glass of Martian hellas"
+	glass_desc = "Beer as red as the planet it was made on."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/harvest_witbier
+	name = "Harvest Witbier"
+	description = "A cool, crisp wheat beer from the planet of Harvest."
+	color = "#BF923B"
+	boozepwr = 20
+	quality = DRINK_GOOD
+	taste_description = "light beer"
+	glass_icon_state = "harvest_witbier"
+	glass_name = "glass of Harvest witbier"
+	glass_desc = "From the wheatfields of Harvest to your glass."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/new_moscow_black
+	name = "New Moscow Black"
+	description = "A deep, dark, full bodied beer that's popular throughout the SSC."
+	color = "#0C0903"
+	boozepwr = 20
+	quality = DRINK_GOOD
+	taste_description = "deep, full bodied beer"
+	glass_icon_state = "new_moscow_black"
+	glass_name = "glass of New Moscow Black"
+	glass_desc = "Za Zdarovje!"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
