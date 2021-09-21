@@ -1,16 +1,15 @@
-"af" = (/obj/structure/chair/sofa/corp/corner{dir = 4},/turf/open/floor/iron/dark,/area/space)
+"af" = (/turf/open/floor/iron/stairs/left{dir = 8},/area/space)
 "ai" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/structure/table/wood,/obj/item/folder/red,/obj/item/restraints/handcuffs,/obj/item/pen/fountain,/turf/open/floor/iron/grimy,/area/space)
 "ap" = (/obj/machinery/computer/arcade{dir = 8},/obj/effect/turf_decal/tile/purple{dir = 1},/obj/effect/turf_decal/tile/purple{dir = 4},/obj/effect/turf_decal/tile/purple{dir = 8},/obj/effect/turf_decal/tile/purple,/turf/open/floor/iron/dark,/area/space)
 "aq" = (/obj/structure/chair/sofa/right,/turf/open/floor/carpet/blue,/area/space)
 "av" = (/obj/machinery/door/airlock/shuttle{name = "Arrival Shuttle Airlock"},/turf/open/floor/mineral/titanium,/area/space)
-"aw" = (/obj/structure/table,/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/item/reagent_containers/food/condiment/peppermill{desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table."; pixel_x = 8; pixel_y = 2},/obj/item/reagent_containers/food/condiment/saltshaker{desc = "Salt. From space oceans, presumably. A staple of modern medicine."; pixel_x = 8; pixel_y = 12},/turf/open/floor/iron/cafeteria,/area/space)
+"aw" = (/turf/open/floor/iron/stairs/right{dir = 8},/area/space)
 "ay" = (/obj/structure/chair/pew{dir = 4},/turf/open/floor/iron,/area/space)
 "aB" = (/obj/effect/turf_decal/siding/wood/corner,/turf/open/floor/grass,/area/space)
 "aC" = (/obj/structure/flora/tree/jungle/small,/obj/effect/turf_decal/siding/wood{dir = 4},/turf/open/floor/grass,/area/space)
 "aK" = (/obj/machinery/computer/arcade,/obj/effect/turf_decal/siding/white{dir = 9},/obj/effect/turf_decal/tile/purple{dir = 1},/obj/effect/turf_decal/tile/purple{dir = 4},/obj/effect/turf_decal/tile/purple{dir = 8},/obj/effect/turf_decal/tile/purple,/turf/open/floor/iron/dark,/area/space)
 "aN" = (/obj/effect/turf_decal/siding/wood/corner{dir = 1},/turf/open/floor/grass,/area/space)
 "aO" = (/obj/structure/sign/painting/library_secure{pixel_y = 32},/obj/structure/table/wood,/obj/structure/window/reinforced{dir = 8},/turf/open/floor/wood/parquet,/area/space)
-"aQ" = (/obj/item/kirbyplants/photosynthetic,/turf/open/floor/iron/dark,/area/space)
 "aU" = (/obj/structure/bed/pod,/turf/open/floor/iron,/area/space)
 "aZ" = (/obj/structure/chair/pew/left{dir = 4},/obj/structure/sign/nanotrasen{pixel_x = -32},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/space)
 "bf" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/eighties,/area/space)
@@ -33,9 +32,7 @@
 "cK" = (/obj/structure/chair/pew/left{dir = 8},/turf/open/floor/iron/dark/textured,/area/space)
 "cN" = (/obj/structure/table/reinforced,/obj/item/stamp{pixel_x = -3; pixel_y = 3},/obj/item/stamp/denied{pixel_x = 4; pixel_y = -2},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
 "cT" = (/obj/structure/chair/office,/turf/open/floor/wood/parquet,/area/space)
-"cU" = (/obj/structure/chair/sofa/corp/left,/turf/open/floor/iron/dark,/area/space)
 "dd" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/structure/bookcase/random,/turf/open/floor/wood/parquet,/area/space)
-"do" = (/turf/open/floor/iron/stairs/right{dir = 8},/area/space)
 "dw" = (/obj/structure/chair/stool/bar/directional/south,/obj/effect/turf_decal/trimline/purple/filled/line{dir = 1},/obj/effect/landmark/start/assistant,/turf/open/floor/iron/dark,/area/space)
 "dD" = (/obj/structure/chair/sofa/left{dir = 8},/turf/open/floor/wood/parquet,/area/space)
 "dI" = (/turf/open/floor/wood,/area/space)
@@ -43,11 +40,9 @@
 "dK" = (/obj/structure/railing/corner{dir = 1},/turf/open/floor/iron,/area/space)
 "ed" = (/obj/structure/table/wood,/obj/item/flashlight/lamp/green,/turf/open/floor/carpet/blue,/area/space)
 "ee" = (/obj/structure/disposalpipe/segment,/turf/open/floor/iron/smooth_edge,/area/space)
-"eg" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/trimline/neutral/filled/corner,/turf/open/floor/iron/dark,/area/space)
 "en" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/space)
 "eo" = (/obj/structure/chess/blackbishop,/turf/open/floor/iron/white/smooth_large,/area/space)
 "ep" = (/obj/effect/turf_decal/siding/wood{dir = 1},/obj/effect/turf_decal/siding/wood,/turf/open/floor/grass,/area/space)
-"er" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/window/reinforced/spawner/west,/obj/structure/window/reinforced/spawner,/obj/structure/curtain/cloth/fancy/mechanical{desc = "For the drama queen in all of us."; id = "stage"; name = "stage curtains"},/turf/open/floor/iron/dark,/area/space)
 "es" = (/turf/open/floor/iron/smooth,/area/space)
 "eC" = (/obj/structure/chair{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 9},/turf/open/floor/wood/parquet,/area/space)
 "eE" = (/obj/effect/turf_decal/siding/thinplating/dark/corner{dir = 4},/obj/structure/sign/poster/official/report_crimes{pixel_y = 32},/turf/open/floor/iron,/area/space)
@@ -61,45 +56,34 @@
 "fx" = (/obj/structure/sign/nanotrasen,/turf/closed/wall,/area/space)
 "fz" = (/obj/machinery/holopad,/obj/effect/turf_decal/trimline/red/filled/corner{dir = 1},/obj/effect/turf_decal/trimline/red/filled/corner{dir = 4},/turf/open/floor/iron/dark,/area/space)
 "fB" = (/obj/structure/chair/stool/bar/directional/north,/turf/open/floor/wood/parquet,/area/space)
-"fD" = (/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 8},/turf/open/floor/iron/cafeteria,/area/space)
-"fR" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/trimline/neutral/filled/corner{dir = 8},/turf/open/floor/iron/dark,/area/space)
 "fY" = (/obj/effect/turf_decal/trimline/red/filled/line{dir = 1},/turf/open/floor/iron,/area/space)
 "fZ" = (/obj/structure/chair{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark{dir = 5},/turf/open/floor/wood/parquet,/area/space)
-"gc" = (/turf/open/floor/light/colour_cycle/dancefloor_b,/area/space)
 "gd" = (/obj/machinery/skill_station,/turf/open/floor/wood/parquet,/area/space)
 "gh" = (/obj/structure/chair/office{dir = 8},/obj/effect/turf_decal/trimline/red/filled/line{dir = 9},/turf/open/floor/iron/dark,/area/space)
 "gt" = (/obj/effect/turf_decal/siding/wood{dir = 1},/turf/open/water,/area/space)
 "gu" = (/obj/structure/chair/sofa/corp{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/turf/open/floor/iron,/area/space)
 "gv" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/curtain/cloth/fancy/mechanical{id = "curator_curtains"; name = "Curator Privacy Curtains"},/turf/open/floor/plating,/area/space)
 "gx" = (/obj/structure/chair/sofa/corp/left{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/turf/open/floor/iron,/area/space)
-"gz" = (/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/stripes/line,/turf/open/floor/iron/cafeteria,/area/space)
 "gF" = (/obj/structure/chair/office,/obj/effect/turf_decal/trimline/red/filled/line,/turf/open/floor/iron/dark,/area/space)
 "gG" = (/obj/machinery/computer/med_data,/turf/open/floor/wood,/area/space)
-"gH" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/trimline/neutral/filled/corner{dir = 4},/turf/open/floor/iron/dark,/area/space)
 "gI" = (/obj/structure/table/wood,/obj/item/laser_pointer{pixel_x = 3; pixel_y = 7},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/item/toy/figure/curator{pixel_x = 5},/turf/open/floor/iron/dark,/area/space)
-"gP" = (/obj/structure/chair/sofa{color = "#c45c57"; dir = 1},/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/turf/open/floor/iron/cafeteria,/area/space)
-"gS" = (/obj/structure/chair/sofa{color = "#c45c57"},/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/turf/open/floor/iron/cafeteria,/area/space)
 "gU" = (/obj/structure/table/wood,/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/item/reagent_containers/food/drinks/mug{pixel_x = 8},/turf/open/floor/wood/parquet,/area/space)
 "ha" = (/obj/machinery/libraryscanner,/obj/structure/window/reinforced{dir = 4},/turf/open/floor/wood/parquet,/area/space)
 "hf" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/railing,/turf/open/floor/iron/dark,/area/space)
 "hh" = (/obj/effect/turf_decal/snowdin_station_sign{pixel_y = -16},/obj/effect/turf_decal/snowdin_station_sign/up{pixel_y = 16},/turf/open/floor/iron,/area/space)
 "ho" = (/obj/effect/turf_decal/siding/wood{dir = 8},/obj/structure/railing{dir = 8},/turf/open/floor/grass,/area/space)
 "hp" = (/obj/structure/chair/office,/obj/effect/landmark/start/librarian,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
-"ht" = (/obj/structure/chair/sofa/corp{dir = 4},/turf/open/floor/iron/dark,/area/space)
 "hv" = (/obj/effect/turf_decal/siding/wood{dir = 6},/turf/open/floor/grass,/area/space)
 "hA" = (/obj/structure/chair/sofa/corp/left{dir = 8},/turf/open/floor/wood/parquet,/area/space)
 "hF" = (/obj/effect/turf_decal/siding/wood,/obj/structure/railing,/turf/open/floor/grass,/area/space)
-"hG" = (/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/turf/open/floor/iron/cafeteria,/area/space)
 "hJ" = (/obj/structure/lattice/catwalk,/turf/open/floor/plating,/area/space)
 "hL" = (/obj/structure/railing{dir = 8},/obj/effect/turf_decal/siding/wood{dir = 8},/turf/open/water,/area/space)
 "hN" = (/obj/effect/landmark/start/assistant,/turf/open/water,/area/space)
 "hS" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/space)
 "il" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/obj/item/storage/briefcase{pixel_y = 16},/obj/item/storage/secure/briefcase{pixel_y = 12},/turf/open/floor/iron/grimy,/area/space)
-"in" = (/obj/machinery/disposal/bin,/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 8},/turf/open/floor/iron/cafeteria,/area/space)
 "iA" = (/obj/structure/chair/pew{dir = 8},/obj/effect/landmark/start/assistant,/turf/open/floor/iron/dark/textured,/area/space)
 "iK" = (/obj/structure/flora/tree/jungle,/turf/open/floor/grass,/area/space)
 "iL" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/iron/grimy,/area/space)
-"iM" = (/obj/structure/chair/sofa/corp/right{dir = 8},/turf/open/floor/iron/dark,/area/space)
 "iN" = (/obj/structure/easel,/obj/item/canvas/twentythree_twentythree{pixel_x = 3},/turf/open/floor/wood/parquet,/area/space)
 "iP" = (/obj/effect/turf_decal/snowdin_station_sign/six{pixel_y = -16},/obj/effect/turf_decal/snowdin_station_sign/up/six{pixel_y = 16},/turf/open/floor/iron,/area/space)
 "iR" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth_half{dir = 1},/area/space)
@@ -113,7 +97,6 @@
 "jE" = (/obj/structure/chair/sofa/corp/right{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/iron,/area/space)
 "jG" = (/obj/structure/chair/sofa/corp/right{dir = 1},/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/wood/parquet,/area/space)
 "jJ" = (/obj/structure/chair/sofa/corp/right,/turf/open/floor/wood/parquet,/area/space)
-"jL" = (/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/trimline/neutral/filled/corner{dir = 1},/turf/open/floor/iron/dark,/area/space)
 "jO" = (/obj/effect/turf_decal/siding/thinplating/dark,/obj/structure/chair/office{dir = 1},/turf/open/floor/iron/grimy,/area/space)
 "kh" = (/obj/structure/disposalpipe/segment,/turf/open/floor/iron/smooth_edge{dir = 1},/area/space)
 "kj" = (/obj/machinery/vending/sovietsoda,/obj/effect/decal/cleanable/greenglow,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
@@ -121,7 +104,6 @@
 "kv" = (/obj/structure/chair/pew{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/item/trash/can,/turf/open/floor/iron,/area/space)
 "kD" = (/obj/machinery/vending/games,/turf/open/floor/wood/parquet,/area/space)
 "kH" = (/obj/structure/chair/sofa/corp/right{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/eighties,/area/space)
-"kK" = (/obj/machinery/disposal/bin,/turf/open/floor/iron/dark,/area/space)
 "kN" = (/obj/structure/chair{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/wood/parquet,/area/space)
 "kS" = (/obj/machinery/hydroponics/soil,/obj/item/shovel/spade,/turf/open/floor/grass,/area/space)
 "kX" = (/obj/effect/landmark/observer_start,/turf/open/floor/iron,/area/space)
@@ -142,7 +124,6 @@
 "md" = (/obj/structure/chess/whiterook,/turf/open/floor/iron/dark/smooth_large,/area/space)
 "mp" = (/turf/open/floor/iron/white/smooth_large,/area/space)
 "mr" = (/obj/structure/chair/sofa/corp/left{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 10},/turf/open/floor/eighties,/area/space)
-"ms" = (/obj/machinery/door/airlock/public/glass{name = "Bar"},/turf/open/floor/iron/dark,/area/space)
 "mx" = (/obj/machinery/computer/arcade{dir = 8},/obj/effect/turf_decal/tile/purple{dir = 1},/obj/effect/turf_decal/tile/purple{dir = 4},/obj/effect/turf_decal/tile/purple{dir = 8},/obj/effect/turf_decal/tile/purple,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/space)
 "mA" = (/obj/machinery/door/firedoor,/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/stripes/line,/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/iron/dark,/area/space)
 "mD" = (/obj/effect/turf_decal/siding/thinplating/dark/corner{dir = 1},/turf/open/floor/iron,/area/space)
@@ -156,13 +137,10 @@
 "ns" = (/obj/structure/filingcabinet/chestdrawer,/turf/open/floor/wood,/area/space)
 "nz" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/destructible/cult/tome,/obj/item/book/codex_gigas,/turf/open/floor/iron/dark,/area/space)
 "nB" = (/obj/structure/chair/pew/right{dir = 8},/obj/structure/sign/nanotrasen{pixel_x = 32},/turf/open/floor/iron,/area/space)
-"nF" = (/obj/structure/chair/sofa/corp/right,/turf/open/floor/iron/dark,/area/space)
 "nI" = (/obj/effect/turf_decal/stripes/corner,/turf/open/floor/grass,/area/space)
 "nN" = (/obj/structure/table/reinforced,/obj/machinery/recharger{pixel_y = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
-"nP" = (/obj/structure/chair/stool/bar/directional/south,/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/turf/open/floor/iron/cafeteria,/area/space)
 "nQ" = (/obj/structure/table/wood,/obj/item/kirbyplants{icon_state = "plant-12"; pixel_y = 12},/obj/machinery/door/poddoor/shutters/preopen{id = "cafe"; name = "Cafe Counter Shutters"},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
 "nS" = (/obj/effect/decal/cleanable/greenglow,/obj/item/reagent_containers/glass/bucket{pixel_x = -5; pixel_y = -2},/obj/item/clothing/suit/caution{pixel_x = 8; pixel_y = 4},/turf/open/floor/iron,/area/space)
-"nT" = (/obj/structure/table,/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/item/reagent_containers/food/condiment/peppermill{desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table."; pixel_x = -8; pixel_y = 2},/obj/item/reagent_containers/food/condiment/saltshaker{desc = "Salt. From space oceans, presumably. A staple of modern medicine."; pixel_x = -8; pixel_y = 12},/obj/item/reagent_containers/food/drinks/mug{pixel_x = 2},/turf/open/floor/iron/cafeteria,/area/space)
 "nU" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/wood/parquet,/area/space)
 "nX" = (/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/space)
 "nZ" = (/obj/machinery/computer/secure_data{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
@@ -180,7 +158,6 @@
 "pE" = (/obj/machinery/recharge_station,/turf/open/floor/plating,/area/space)
 "pP" = (/obj/structure/chair/pew/left{dir = 8},/turf/open/floor/grass,/area/space)
 "pT" = (/obj/machinery/disposal/bin,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/space)
-"pZ" = (/obj/machinery/restaurant_portal/bar,/turf/open/floor/iron/dark,/area/space)
 "qb" = (/obj/structure/flora/tree/jungle/small,/obj/effect/turf_decal/siding/wood{dir = 8},/obj/structure/railing{dir = 8},/turf/open/floor/grass,/area/space)
 "qg" = (/obj/item/food/pizzaslice/moldy,/obj/effect/turf_decal/trimline/purple/filled/line{dir = 6},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/space)
 "qp" = (/obj/docking_port/stationary{dwidth = 2; height = 13; id = "ferry_home"; name = "port bay 2"; width = 5},/turf/open/space/basic,/area/space)
@@ -199,10 +176,7 @@
 "rE" = (/turf/open/floor/iron/dark/textured,/area/space)
 "rP" = (/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron,/area/space)
 "rQ" = (/obj/effect/turf_decal/trimline/red/filled/warning{dir = 4},/turf/open/floor/iron,/area/space)
-"sb" = (/obj/structure/table/reinforced,/obj/machinery/door/poddoor/shutters/preopen{id = "kitchen"; name = "Kitchen Shutters"},/turf/open/floor/iron/dark,/area/space)
-"sl" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/machinery/newscaster/directional/north,/turf/open/floor/iron/dark,/area/space)
 "sr" = (/obj/effect/turf_decal/stripes/line{dir = 4},/obj/effect/turf_decal/caution{dir = 8},/obj/effect/turf_decal/siding/white{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/textured_edge{dir = 4},/area/space)
-"ss" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/machinery/disposal/bin,/turf/open/floor/iron/dark,/area/space)
 "st" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/table/reinforced,/obj/machinery/chem_dispenser/drinks/beer{dir = 1},/turf/open/floor/iron/dark,/area/space)
 "su" = (/obj/structure/chair/pew/left{dir = 8},/turf/open/floor/iron,/area/space)
 "sP" = (/turf/open/floor/eighties/red,/area/space)
@@ -212,9 +186,7 @@
 "sW" = (/obj/effect/turf_decal/siding/wood{dir = 6},/obj/structure/flora/tree/jungle/small,/turf/open/floor/grass,/area/space)
 "ta" = (/obj/effect/spawner/lootdrop/gross_decal_spawner,/turf/open/floor/plating,/area/space)
 "tb" = (/obj/structure/chair/sofa/corp/right{dir = 1},/turf/open/floor/wood/parquet,/area/space)
-"tq" = (/obj/structure/chair/sofa/corp/corner{dir = 1},/turf/open/floor/iron/dark,/area/space)
 "tu" = (/obj/effect/turf_decal/siding/wood{dir = 8},/obj/structure/flora/tree/jungle/small,/turf/open/floor/grass,/area/space)
-"ty" = (/obj/structure/chair{dir = 1},/turf/open/floor/iron/dark,/area/space)
 "tz" = (/obj/machinery/smartfridge/drinks,/obj/machinery/door/poddoor/shutters/preopen{id = "cafe"; name = "Cafe Counter Shutters"},/turf/closed/wall,/area/space)
 "tG" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/structure/table/wood,/turf/open/floor/wood/parquet,/area/space)
 "tL" = (/obj/effect/turf_decal/stripes/line{dir = 4},/obj/effect/turf_decal/siding/white{dir = 4},/obj/item/trash/peanuts,/turf/open/floor/iron/textured_edge{dir = 4},/area/space)
@@ -223,7 +195,6 @@
 "uf" = (/obj/structure/table/wood,/obj/machinery/computer/libraryconsole,/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/wood/parquet,/area/space)
 "uj" = (/obj/structure/fireplace,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/decal/cleanable/ash,/turf/open/floor/iron/dark,/area/space)
 "up" = (/obj/structure/chair/office,/obj/effect/landmark/start/librarian,/turf/open/floor/wood/parquet,/area/space)
-"uF" = (/obj/structure/table/glass,/turf/open/floor/iron/dark,/area/space)
 "uI" = (/obj/effect/turf_decal/trimline/red/filled/line{dir = 4},/turf/open/floor/iron,/area/space)
 "uL" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 9},/obj/structure/chair/office,/obj/effect/landmark/start/detective,/turf/open/floor/iron/grimy,/area/space)
 "uR" = (/obj/effect/turf_decal/siding/wood{dir = 4},/obj/structure/flora/tree/jungle/small,/turf/open/floor/grass,/area/space)
@@ -233,9 +204,7 @@
 "vm" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/space)
 "vp" = (/obj/structure/chair/sofa/corp/left,/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/wood/parquet,/area/space)
 "vy" = (/obj/structure/table/wood,/obj/item/kirbyplants{icon_state = "plant-17"; pixel_y = 13},/turf/open/floor/wood/parquet,/area/space)
-"vE" = (/obj/structure/chair/sofa/corp/right{dir = 1},/turf/open/floor/iron/dark,/area/space)
 "vG" = (/obj/machinery/hydroponics/soil,/obj/item/cultivator,/turf/open/floor/grass,/area/space)
-"vL" = (/obj/structure/chair/sofa{color = "#c45c57"},/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/landmark/start/assistant,/turf/open/floor/iron/cafeteria,/area/space)
 "vP" = (/obj/structure/chess/whitequeen,/turf/open/floor/iron/white/smooth_large,/area/space)
 "we" = (/obj/structure/table/glass,/obj/item/coin/thunderdome,/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/eighties,/area/space)
 "wk" = (/obj/effect/turf_decal/snowdin_station_sign/two{pixel_y = -16},/obj/effect/turf_decal/snowdin_station_sign/up/two{pixel_y = 16},/turf/open/floor/iron,/area/space)
@@ -247,11 +216,8 @@
 "wK" = (/obj/structure/chair/sofa/corp/corner{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark{dir = 6},/turf/open/floor/iron,/area/space)
 "wN" = (/obj/effect/turf_decal/siding/wood{dir = 1},/turf/open/floor/grass,/area/space)
 "xa" = (/obj/structure/chair/pew,/obj/effect/landmark/start/assistant,/turf/open/floor/grass,/area/space)
-"xb" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/window/reinforced/spawner/east,/obj/structure/window/reinforced/spawner,/obj/structure/curtain/cloth/fancy/mechanical{desc = "For the drama queen in all of us."; id = "stage"; name = "stage curtains"},/turf/open/floor/iron/dark,/area/space)
-"xf" = (/obj/structure/chair/sofa/corp/left{dir = 1},/turf/open/floor/iron/dark,/area/space)
 "xj" = (/obj/structure/chair/pew/right{dir = 4},/obj/structure/sign/nanotrasen{pixel_x = -32},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/space)
 "xk" = (/obj/machinery/disposal/bin,/turf/open/floor/wood,/area/space)
-"xA" = (/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 8},/obj/machinery/restaurant_portal/restaurant,/turf/open/floor/iron/cafeteria,/area/space)
 "xK" = (/turf/open/floor/mineral/titanium,/area/space)
 "xL" = (/obj/machinery/disposal/bin,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/space)
 "xS" = (/turf/closed/wall,/area/space)
@@ -262,18 +228,15 @@
 "yh" = (/obj/machinery/vending/wardrobe/det_wardrobe,/turf/open/floor/wood,/area/space)
 "yl" = (/obj/structure/shuttle/engine/heater,/obj/structure/window/shuttle,/turf/open/floor/plating,/area/space)
 "yw" = (/obj/structure/chair/sofa/corp/left,/obj/effect/landmark/start/assistant,/turf/open/floor/wood/parquet,/area/space)
-"yD" = (/obj/machinery/door/airlock/public/glass{name = "Botanical Garden"},/turf/open/floor/iron,/area/space)
 "yP" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 5},/turf/open/floor/iron/grimy,/area/space)
 "yR" = (/obj/structure/table/wood,/obj/item/paper_bin{pixel_y = 4},/obj/structure/window/reinforced{dir = 8},/turf/open/floor/wood/parquet,/area/space)
 "zi" = (/obj/machinery/bookbinder,/turf/open/floor/wood/parquet,/area/space)
 "zk" = (/obj/machinery/door/airlock/external{name = "External Docking Port"; safety_mode = 1},/turf/open/floor/iron,/area/space)
 "zl" = (/obj/machinery/door/airlock/large/glass{name = "Bar"},/turf/open/floor/iron/dark,/area/space)
-"zv" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/window/reinforced/spawner,/obj/machinery/light{pixel_y = 7},/obj/structure/curtain/cloth/fancy/mechanical{desc = "For the drama queen in all of us."; id = "stage"; name = "stage curtains"},/turf/open/floor/iron/dark,/area/space)
 "zD" = (/obj/structure/disposalpipe/segment,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/space)
 "zE" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/structure/chair/sofa/corp/left,/turf/open/floor/wood/parquet,/area/space)
 "zG" = (/turf/open/floor/iron/stairs/right{dir = 4},/area/space)
 "zI" = (/turf/open/floor/iron/stairs/left,/area/space)
-"zL" = (/obj/structure/table,/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 8},/obj/item/reagent_containers/food/condiment/saltshaker{desc = "Salt. From space oceans, presumably. A staple of modern medicine."; pixel_x = -4; pixel_y = 1},/obj/item/reagent_containers/food/condiment/peppermill{desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table."; pixel_x = 4; pixel_y = 1},/turf/open/floor/iron/cafeteria,/area/space)
 "zO" = (/obj/structure/chair/pew/right{dir = 4},/turf/open/floor/iron,/area/space)
 "zP" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/structure/bookcase/random,/turf/open/floor/wood/parquet,/area/space)
 "zS" = (/obj/structure/chair/pew{dir = 8},/turf/open/floor/iron/dark/textured,/area/space)
@@ -288,7 +251,6 @@
 "AE" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth_edge{dir = 1},/area/space)
 "AH" = (/obj/structure/stairs/north,/obj/structure/railing{dir = 8},/turf/open/floor/iron/stairs/left,/area/space)
 "AT" = (/obj/structure/chair/sofa/right{dir = 1},/turf/open/floor/wood/parquet,/area/space)
-"Ba" = (/obj/machinery/door/airlock/large/glass{name = "Restaurant"},/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/turf/open/floor/iron/cafeteria,/area/space)
 "Bp" = (/obj/structure/table/wood,/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/turf/open/floor/wood/parquet,/area/space)
 "Bt" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/bookcase{name = "Forbidden Knowledge"},/turf/open/floor/iron/dark,/area/space)
 "Bv" = (/turf/open/floor/iron/smooth_half{dir = 1},/area/space)
@@ -307,11 +269,8 @@
 "Cj" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/structure/chair/sofa/corp/left{dir = 1},/turf/open/floor/wood/parquet,/area/space)
 "Cr" = (/obj/machinery/door/airlock/security{name = "Corporate Investigator's Office"; req_access_txt = "4"},/turf/open/floor/wood,/area/space)
 "Cu" = (/turf/open/floor/wood/large,/area/space)
-"Cx" = (/obj/structure/chair{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/stripes/corner,/turf/open/floor/iron/cafeteria,/area/space)
 "CB" = (/obj/effect/turf_decal/siding/thinplating/dark/corner,/turf/open/floor/iron,/area/space)
 "CE" = (/obj/machinery/holopad,/obj/machinery/newscaster/directional/north,/turf/open/floor/iron/dark/textured,/area/space)
-"CG" = (/obj/structure/chair{dir = 4},/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 8},/turf/open/floor/iron/cafeteria,/area/space)
-"CJ" = (/obj/structure/table,/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 8},/turf/open/floor/iron/cafeteria,/area/space)
 "CN" = (/obj/structure/chair/wood{dir = 1},/turf/open/floor/wood/parquet,/area/space)
 "CV" = (/obj/effect/turf_decal/siding/wood{dir = 8},/turf/open/floor/grass,/area/space)
 "CZ" = (/obj/structure/chair/sofa/corner{dir = 4},/turf/open/floor/wood/parquet,/area/space)
@@ -321,7 +280,6 @@
 "Dr" = (/obj/effect/turf_decal/siding/white{dir = 9},/obj/structure/chair/sofa/corp{dir = 8},/turf/open/floor/mineral/titanium/tiled/yellow,/area/space)
 "DB" = (/obj/machinery/photocopier,/turf/open/floor/wood,/area/space)
 "DG" = (/obj/item/kirbyplants/dead{desc = "Looks almost as rough as you feel."; name = "dead potted plant"; pixel_y = 7},/obj/structure/sign/plaques/kiddie{desc = "This certificate declares that the holder is licensed to conduct investigations within Nanotrasen outposts and stations."; name = "\improper Corporate Investigator License"; pixel_y = 32},/turf/open/floor/wood,/area/space)
-"DH" = (/obj/structure/chair,/turf/open/floor/iron/dark,/area/space)
 "DN" = (/obj/structure/table/glass,/turf/open/floor/iron,/area/space)
 "DY" = (/obj/structure/table/wood,/obj/machinery/computer/security/wooden_tv,/turf/open/floor/wood,/area/space)
 "DZ" = (/obj/structure/chair/sofa/left,/turf/open/floor/wood/parquet,/area/space)
@@ -339,19 +297,15 @@
 "EM" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/structure/chair/sofa/corp/left{dir = 4},/obj/effect/landmark/start/assistant,/turf/open/floor/wood/parquet,/area/space)
 "EQ" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/closet/secure_closet/freezer/fridge/open,/obj/item/reagent_containers/food/condiment/milk,/obj/item/reagent_containers/food/condiment/milk,/obj/item/reagent_containers/food/condiment/milk,/obj/item/reagent_containers/food/drinks/bottle/cream,/turf/open/floor/iron/dark,/area/space)
 "ER" = (/obj/structure/window/reinforced/spawner/west,/obj/structure/window/reinforced/spawner,/obj/structure/curtain/cloth/fancy/mechanical{desc = "For the drama queen in all of us."; id = "stage"; name = "stage curtains"},/turf/open/floor/wood/large,/area/space)
-"Fb" = (/obj/machinery/holopad,/obj/effect/turf_decal/box/white{color = "#DE3A3A"},/turf/open/floor/iron/white,/area/space)
 "Fc" = (/obj/machinery/vending/cigarette,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
 "Fe" = (/obj/structure/chess/blackrook,/turf/open/floor/iron/dark/smooth_large,/area/space)
 "Ff" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/machinery/door/airlock/large/glass{name = "Botanical Garden"},/turf/open/floor/iron/dark,/area/space)
 "Fj" = (/obj/machinery/door/airlock/public/glass{name = "Security Hallway"},/turf/open/floor/iron,/area/space)
 "Fk" = (/obj/structure/closet/secure_closet/security,/obj/item/radio/off,/obj/item/crowbar,/obj/item/assembly/flash/handheld,/obj/item/clothing/suit/hooded/wintercoat/security,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
-"Fr" = (/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/machinery/computer/arcade/battle{dir = 4},/turf/open/floor/iron/cafeteria,/area/space)
 "Ft" = (/obj/structure/chess/whitebishop,/turf/open/floor/iron/dark/smooth_large,/area/space)
-"Fx" = (/obj/structure/table,/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/item/reagent_containers/food/condiment/peppermill{desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table."; pixel_x = -8; pixel_y = 2},/obj/item/reagent_containers/food/condiment/saltshaker{desc = "Salt. From space oceans, presumably. A staple of modern medicine."; pixel_x = -8; pixel_y = 12},/turf/open/floor/iron/cafeteria,/area/space)
 "Fy" = (/obj/effect/turf_decal/stripes/line{dir = 8},/obj/effect/turf_decal/siding/white{dir = 8},/turf/open/floor/iron/textured_edge{dir = 8},/area/space)
 "FD" = (/obj/effect/turf_decal/siding/wood{dir = 10},/turf/open/floor/grass,/area/space)
 "FE" = (/obj/structure/window/reinforced/spawner,/obj/structure/curtain/cloth/fancy/mechanical{desc = "For the drama queen in all of us."; id = "stage"; name = "stage curtains"},/turf/open/floor/wood/large,/area/space)
-"FF" = (/obj/structure/chair/sofa{color = "#c45c57"; dir = 1},/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/stripes/corner{dir = 8},/turf/open/floor/iron/cafeteria,/area/space)
 "FK" = (/obj/structure/railing,/turf/open/floor/plating,/area/space)
 "FL" = (/obj/effect/turf_decal/trimline/purple/filled/line{dir = 8},/turf/open/floor/iron/dark,/area/space)
 "FN" = (/obj/effect/turf_decal/stripes/line{dir = 4},/obj/effect/turf_decal/siding/white{dir = 4},/turf/open/floor/iron/textured_edge{dir = 4},/area/space)
@@ -365,8 +319,6 @@
 "GT" = (/obj/structure/shuttle/engine/propulsion,/turf/open/floor/plating,/area/space)
 "GX" = (/obj/effect/turf_decal/siding/wood{dir = 4},/obj/structure/railing{dir = 4},/turf/open/floor/grass,/area/space)
 "Hb" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/iron/grimy,/area/space)
-"Hc" = (/obj/structure/table,/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 8},/obj/item/toy/cards/deck/kotahi,/turf/open/floor/iron/cafeteria,/area/space)
-"Hi" = (/obj/effect/turf_decal/siding/wood,/obj/structure/railing,/turf/open/water,/area/space)
 "Hl" = (/obj/effect/turf_decal/siding/wood,/turf/open/water,/area/space)
 "Hs" = (/turf/open/floor/iron/stairs/old{dir = 4},/area/space)
 "Ht" = (/obj/structure/table/wood,/obj/item/paper_bin{pixel_y = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
@@ -386,8 +338,6 @@
 "IJ" = (/obj/structure/chair/pew/left,/turf/open/floor/grass,/area/space)
 "IT" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/railing/corner,/turf/open/floor/iron/dark,/area/space)
 "Jh" = (/obj/structure/table/glass,/obj/effect/turf_decal/trimline/purple/filled/line,/turf/open/floor/iron/dark,/area/space)
-"Jz" = (/obj/structure/chair/stool/bar/directional/north,/turf/open/floor/iron/dark,/area/space)
-"JD" = (/turf/open/floor/light/colour_cycle/dancefloor_a,/area/space)
 "JH" = (/obj/structure/chair/pew{dir = 4},/turf/open/floor/iron/dark/textured,/area/space)
 "JI" = (/obj/structure/chair/sofa/corp/left{dir = 4},/turf/open/floor/wood/parquet,/area/space)
 "JL" = (/obj/effect/turf_decal/trimline/red/filled/corner{dir = 8},/turf/open/floor/iron,/area/space)
@@ -395,7 +345,6 @@
 "Kh" = (/obj/structure/table/wood,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/machinery/button/door/directional/north{id = "cafe"; name = "Cafe Counter Shutters"},/turf/open/floor/iron/dark,/area/space)
 "Kk" = (/obj/structure/bookcase/random,/turf/open/floor/wood/parquet,/area/space)
 "Kq" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 6},/turf/open/floor/iron/grimy,/area/space)
-"Kr" = (/obj/structure/chair/stool/bar/directional/west,/obj/effect/turf_decal/tile/red{dir = 4},/obj/effect/turf_decal/tile/red{dir = 8},/turf/open/floor/iron/cafeteria,/area/space)
 "Kw" = (/obj/effect/turf_decal/trimline/red/filled/line{dir = 6},/turf/open/floor/iron/dark,/area/space)
 "KA" = (/obj/structure/chair/stool/bar/directional/south,/obj/effect/turf_decal/trimline/purple/filled/line{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/space)
 "KH" = (/obj/structure/chair/sofa/corp/right{dir = 1},/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/turf/open/floor/wood/parquet,/area/space)
@@ -409,17 +358,14 @@
 "LN" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/space)
 "LQ" = (/obj/machinery/vending/cigarette,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/space)
 "LS" = (/obj/structure/chair/pew{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/landmark/start/assistant,/turf/open/floor/iron,/area/space)
-"Mf" = (/obj/structure/chair/sofa/corp/left{dir = 8},/turf/open/floor/iron/dark,/area/space)
 "Ml" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/structure/chair/sofa/corp/left,/obj/effect/landmark/start/assistant,/turf/open/floor/wood/parquet,/area/space)
 "Mm" = (/obj/machinery/computer/warrant{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
-"Mr" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/window/reinforced/spawner,/obj/structure/curtain/cloth/fancy/mechanical{desc = "For the drama queen in all of us."; id = "stage"; name = "stage curtains"},/turf/open/floor/iron/dark,/area/space)
 "Mv" = (/obj/structure/table/wood,/obj/item/camera_film,/turf/open/floor/wood,/area/space)
 "Mx" = (/obj/machinery/door/airlock/maintenance_hatch,/turf/open/floor/plating,/area/space)
 "MN" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/machinery/door/morgue{name = "Curator's Study"; req_access_txt = "37"},/turf/open/floor/iron/dark,/area/space)
 "MP" = (/obj/structure/chair/sofa{dir = 4},/turf/open/floor/wood/parquet,/area/space)
 "MR" = (/obj/structure/table/wood,/obj/machinery/newscaster/directional/north,/turf/open/floor/wood/parquet,/area/space)
 "MW" = (/obj/structure/stairs/west,/turf/open/floor/iron/stairs/left{dir = 4},/area/space)
-"Nb" = (/obj/structure/table,/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/item/reagent_containers/food/condiment/peppermill{desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table."; pixel_x = 8; pixel_y = 2},/obj/item/reagent_containers/food/condiment/saltshaker{desc = "Salt. From space oceans, presumably. A staple of modern medicine."; pixel_x = 8; pixel_y = 12},/obj/structure/sign/poster/contraband/eat{pixel_x = 32},/turf/open/floor/iron/cafeteria,/area/space)
 "Ni" = (/obj/structure/railing,/obj/effect/turf_decal/stripes/line,/turf/open/floor/grass,/area/space)
 "Nk" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/table/wood,/obj/item/reagent_containers/food/drinks/drinkingglass{pixel_x = 6},/obj/item/reagent_containers/food/drinks/bottle/cognac{pixel_x = -6},/turf/open/floor/iron/dark,/area/space)
 "Nm" = (/turf/open/floor/iron/sepia,/area/space)
@@ -440,7 +386,6 @@
 "Pk" = (/obj/effect/turf_decal/siding/wood/corner{dir = 4},/turf/open/floor/grass,/area/space)
 "Pw" = (/turf/open/floor/iron/grimy,/area/space)
 "PA" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/effect/landmark/start/librarian,/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/wood/parquet,/area/space)
-"PB" = (/obj/effect/turf_decal/siding/wood{dir = 1},/obj/structure/railing{dir = 1},/turf/open/water,/area/space)
 "PG" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/structure/chair/sofa/corp/left{dir = 4},/turf/open/floor/wood/parquet,/area/space)
 "PI" = (/obj/structure/table/reinforced,/obj/item/paper,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/machinery/door/window/brigdoor/southright{dir = 4; name = "Security Desk"; req_access_txt = "63"},/obj/machinery/door/firedoor,/obj/machinery/door/window/westleft{name = "Security Desk"},/turf/open/floor/iron/dark,/area/space)
 "PQ" = (/obj/structure/table/wood,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/space)
@@ -448,7 +393,6 @@
 "PU" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/item/kirbyplants/potty,/turf/open/floor/iron/dark,/area/space)
 "Qa" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/wood/parquet,/area/space)
 "Qf" = (/obj/machinery/hydroponics/soil,/turf/open/floor/grass,/area/space)
-"Qk" = (/obj/structure/chair/sofa/corp/left{dir = 4},/turf/open/floor/iron/dark,/area/space)
 "Qm" = (/obj/machinery/door/firedoor,/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/stripes/line{dir = 8},/obj/effect/turf_decal/stripes/line{dir = 4},/turf/open/floor/iron/dark,/area/space)
 "Qq" = (/obj/structure/chair/sofa/right{dir = 8},/turf/open/floor/wood/parquet,/area/space)
 "Qs" = (/obj/structure/flora/tree/jungle/small,/turf/open/floor/grass,/area/space)
@@ -477,13 +421,11 @@
 "SE" = (/obj/structure/stairs/south,/obj/structure/railing{dir = 8},/turf/open/floor/iron/stairs/left{dir = 1},/area/space)
 "SQ" = (/obj/effect/turf_decal/snowdin_station_sign/four{pixel_y = -16},/obj/effect/turf_decal/snowdin_station_sign/up/four{pixel_y = 16},/turf/open/floor/iron,/area/space)
 "SS" = (/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/plaque{desc = "CHL Class Outpost: Commissioned"; name = "Commission Plaque"},/turf/open/floor/iron/dark,/area/space)
-"SZ" = (/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/structure/chair/stool,/obj/effect/landmark/start/assistant,/turf/open/floor/iron/cafeteria,/area/space)
 "Tk" = (/obj/structure/chair/sofa/corp/right{dir = 8},/turf/open/floor/wood/parquet,/area/space)
 "Tm" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/machinery/door/airlock{name = "Jim Norton's Quebecois Coffee"},/turf/open/floor/iron/dark,/area/space)
 "Ty" = (/obj/structure/chair/pew/left{dir = 4},/turf/open/floor/iron/dark/textured,/area/space)
 "TC" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/chair/comfy/black{dir = 8},/turf/open/floor/iron/dark,/area/space)
 "TL" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 5},/turf/open/floor/eighties,/area/space)
-"TO" = (/obj/structure/chair/sofa/corp/right{dir = 4},/turf/open/floor/iron/dark,/area/space)
 "TR" = (/obj/structure/window/shuttle,/obj/structure/shuttle/engine/heater{dir = 1},/turf/open/floor/plating,/area/space)
 "TU" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/space)
 "Ub" = (/obj/structure/chair/sofa/corp/left{dir = 1},/obj/effect/turf_decal/siding/thinplating/dark/corner,/obj/effect/turf_decal/siding/thinplating/dark/corner{dir = 8},/turf/open/floor/iron,/area/space)
@@ -494,7 +436,7 @@
 "UD" = (/obj/structure/stairs/south,/obj/structure/railing{dir = 4},/turf/open/floor/iron/stairs/right{dir = 1},/area/space)
 "UI" = (/obj/structure/chair/wood,/turf/open/floor/wood/parquet,/area/space)
 "UM" = (/obj/structure/chair/sofa/left,/obj/item/toy/plush/moth{name = "Neckall Fluffington the Second"},/turf/open/floor/carpet/blue,/area/space)
-"UU" = (/turf/open/floor/iron/stairs/left{dir = 8},/area/space)
+"UU" = (/obj/machinery/door/airlock/public/glass{name = "Botanical Garden"},/turf/open/floor/iron,/area/space)
 "UV" = (/obj/structure/chair/pew/right{dir = 8},/turf/open/floor/iron/dark/textured,/area/space)
 "Va" = (/turf/open/water,/area/space)
 "Vb" = (/obj/structure/table/glass,/obj/item/kirbyplants{icon_state = "plant-18"; pixel_y = 11},/turf/open/floor/iron,/area/space)
@@ -513,7 +455,6 @@
 "Wt" = (/obj/effect/turf_decal/siding/wood{dir = 1},/obj/structure/flora/tree/jungle/small,/turf/open/floor/grass,/area/space)
 "WG" = (/obj/structure/chair/sofa/right{dir = 8},/obj/effect/landmark/start/detective,/turf/open/floor/wood,/area/space)
 "WH" = (/obj/structure/stairs/north,/obj/structure/railing{dir = 4},/turf/open/floor/iron/stairs/right,/area/space)
-"WK" = (/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/machinery/door/airlock/medical{name = "Kitchen"; req_access_txt = "28"},/turf/open/floor/iron/cafeteria,/area/space)
 "WL" = (/obj/effect/turf_decal/stripes/line{dir = 4},/obj/effect/turf_decal/caution{dir = 8},/obj/effect/turf_decal/siding/white{dir = 4},/turf/open/floor/iron/textured_edge{dir = 4},/area/space)
 "WM" = (/obj/effect/turf_decal/trimline/purple/filled/corner{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/space)
 "WN" = (/obj/structure/chair/pew/right,/turf/open/floor/grass,/area/space)
@@ -546,7 +487,6 @@
 "YY" = (/obj/structure/chair/sofa/corp/right{dir = 4},/obj/effect/turf_decal/trimline/purple/filled/line,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/space)
 "Za" = (/obj/item/storage/basket,/turf/open/floor/eighties/red,/area/space)
 "Zh" = (/obj/structure/chair/wood{dir = 1},/turf/open/floor/carpet/red,/area/space)
-"Zi" = (/obj/structure/table,/obj/effect/turf_decal/tile/red{dir = 8},/obj/effect/turf_decal/tile/red{dir = 4},/obj/item/reagent_containers/food/condiment/peppermill{desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table."; pixel_x = -8; pixel_y = 2},/obj/item/reagent_containers/food/condiment/saltshaker{desc = "Salt. From space oceans, presumably. A staple of modern medicine."; pixel_x = -8; pixel_y = 12},/obj/structure/sign/poster/official/nanomichi_ad{pixel_x = -32},/turf/open/floor/iron/cafeteria,/area/space)
 "Zk" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark/corner,/turf/open/floor/wood/parquet,/area/space)
 "Zq" = (/obj/effect/turf_decal/snowdin_station_sign/three{pixel_y = -16},/obj/effect/turf_decal/snowdin_station_sign/up/three{pixel_y = 16},/turf/open/floor/iron,/area/space)
 "Zt" = (/obj/structure/displaycase/trophy,/turf/open/floor/wood/parquet,/area/space)
@@ -1158,36 +1098,36 @@ pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
 pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDZDZDZDZDZDZDZDZDQmZDXTuIennNFXcNeneHXTZDQmZDZDZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
 pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDZDZDZDZDZDZDZDZDQmZDXTrQPIghfzoYjBmVXTZDQmZDZDZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
 pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDZDZDZDZDZDZDZDZDQmZDXTuIenSxgFKweneHXTZDQmZDZDZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSenenenxSpqxSxSmAmAxSxSZDXTuIennZMmNBeneHXTZDxSxSmAmAxSenenBahGenenxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqedaqUMpqpqpqxSBwBwenIjZDXTuIfxenenenfxeHXTZDcKenBwBwxSgSgSfDfDgSgSxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqPTbsbspqpqpqxSBwBwenXAZDXTrhfYfYYIfYfYsSXTZDiAenBwBwxSZiCJfDfDHcawxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSBwBwenJHZDXTXTXTXTSSXTXTXTXTZDzSenBwBwxSgPgPfDfDgPgPxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSBwBwenTyZDZDZDZDZDZDZDZDZDZDZDUVenBwBwxSFrSZhGhGfDKrsbhGpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSxSxSxSxSxSxSqFZDZDrErErEZDZDrExSxSxSxSxSxSgSgSfDfDfDKrsbhGpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSxSxSxSxSxSxSxSxSIJxaWNwIwIxSenYuZDenenenYuZDenxSVaVaVaVaennTCJfDfDfDKrsbhGpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSxSaBDhDhDhDhDhDhDhDhbowIpPwIwIGXzIHHhLVaBJzIHHliVaVaVaVaVaengPgPfDFbfDKrsbhGpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSwIaCFeoVlPmplPmpAtQBCVwIrowIwIEwNmNmCfVaEwNmNmCfVawIiKVaVaengSvLfDfDfDKrsbsbxSWKxSxSxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSwIEwtSBMmplPmplPOMIoCVwIriwIiKEwNmNmCViKEwNmNmCVQswIwIwIVaenFxCJfDfDfDfDnPnPhGhGgSgSxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSwIEwpaoVlPmplPmpAtEdCVaBDhDhDhsWNmNmFDDhhvNmNmFDDhDhDhboVaengPgPfDfDfDfDfDfDfDfDCJNbxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSiKEwrCBMmplPmplPOMXdCVEwNmNmNmNmNmNmNmNmNmNmNmNmNmNmNmlYVaeneneninfDfDxACGzLCxgzFFgPxSWUpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSVuEwItoVlPmplPmpAtvPCVEwNmNmNmNmNmNmNmNmNmNmNmNmNmNmNmCVVaVaVaxSenBahGenxSxSxSMxxSxSxSWUxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSQSEweoBMmplPmplPOMFtCVEwNmNmUgwNwNwNwNwNwNwNwNwNpDNmNmFDHlHlHienZDZDZDZDMxWUWUWUWUWUWUWUWUWUWUpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSQSEwXMoVlPmplPmpAtvdCVcmNmNmtuwIQfQfaBDhboQfQfwIEwNmNmNmNmNmUUyDZDegfRZDxSxSxSxSxSxSxSxSxSxSMxxSxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSFWEwrtBMmplPmplPOMmdCVEwNmNmCVwIwIwIEwNrCVwIwIwIEwNmNmNmNmNmdoyDZDgHjLZDxSPdPdPdPdPdPdPdxSBBBBBBxSxSZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDxShFRwRCepepepepepepepVJhvNmNmCVQfQfQfEwlmCVkSQfQfEwNmNmUggtgtPBenZDZDZDZDxSPdPdPdPdPdPdPdZNBBBBBBWYenZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDZDzGNmNmNmNmNmNmNmNmNmNmNmNmNmCVwIwIwIEwVyCVwIwIwIEwNmNmtuVaenenxSenzlBBenxSPdPdPdPdPdPdPdxSBBBBBBFcenZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDZDLiNmNmNmNmNmNmNmNmNmNmNmNmNmCVwIQfvGPkwNaNQfQfwIEwNmNmCVVaenafcUBBBBBBkKxSVeerMrzvMrxbVexSBBBBBBkjenZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDxSEjwNwNwNwNwNwNWtwNwNwNpDNmNmFDDhDhDhDhDhDhDhDhDhsWNmNmCVVaenhtuFBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBmsZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSxSxSxSxSwIwIwIiKwIwIwIxWsPsPEwNmNmNmNmNmNmNmNmNmNmNmNmNmNmNmCVVaenhtuFBBBBDHBBDHBBJDgcJDgcJDBBDHBBBBBBBBmsZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDaUenwIwIVaVawIwIwIZasPxWEwNmNmNmNmNmNmNmNmNmNmNmNmNmNmNmCVVaenhtBBBBBBuFBBuFBBJDgcJDgcJDBBuFBBBBBBaQenZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDeniKwIwIwIQsVawIwIwIwIEwNmNmUgwNwNwNwNwNwNwNwNwNpDNmNmCVVaenhtuFBBBBtyBBtyBBJDgcJDgcJDBBtyBBBBnFcUenZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDaUxSwIQswIwIwIVaVaVaVawIuRNmNmCVwIwIiKwIwIwIQswIwIEwNmNmCVVaenhtuFBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBuFuFenZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDenVawIwIwIwIiKwIQswIwIEwNmNmlYwIwIwIQsVaVaVawIiKEwNmNmCVVaentqxfaQQkuFiMQkuFiMpZJzJzJzJzJzJzBBvExfenZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDenVawIwIwIwIwIwIwIwIwIEwNmNmCVwIwIwIVaVaVaVaVawIaCNmNmCVQsenenenxSTOuFMfTOuFMfxScncncncncncnWmxSxSxSZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDaUxSVaVaiKwIQsVaVaVaiKwIGXcsZWqbiKVaVaVaVaVaVaVaVaGXcsZWhonIGQNiNixSxSxSxSxSxSxSxSPdPdPdPdPdPdPdslxSBBZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDenQsVaVaVaVaVahNVaVaxSenFfPdenenenVaVaQswIVaenenenFfPdenxSWUHshJxSWUWUWUWUWUWUMxPdPdPdPdPdPdPdPdBBBBZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDaUenVaVaVaVaVaVaVaxSxSxSwCPdPdOoPcenVaVaVaVaVaenjJzEPdPdpvxSxSxSMxxSWUxSxSxSWUpqxSZKcBstlePdPUBTssxSBBZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
-pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSxSxSxSxSenenenxSenenenxSKkKkOvPdPdOoiNxSgvgvxSgvgvxSeGtGPdPdOoMxWUWUWUWUWUtaRzBxWUpqxSxSxSxSxSBBxSxSxSxSxSZDZDZDpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSenenenxSpqxSxSmAmAxSxSZDXTuIennZMmNBeneHXTZDxSxSmAmAxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqedaqUMpqpqpqxSBwBwenIjZDXTuIfxenenenfxeHXTZDcKenBwBwxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqPTbsbspqpqpqxSBwBwenXAZDXTrhfYfYYIfYfYsSXTZDiAenBwBwxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSBwBwenJHZDXTXTXTXTSSXTXTXTXTZDzSenBwBwxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSBwBwenTyZDZDZDZDZDZDZDZDZDZDZDUVenBwBwxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSxSxSxSxSxSxSqFZDZDrErErEZDZDrExSxSxSxSxSxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSxSxSxSxSxSxSxSxSIJxaWNwIwIxSenYuZDenenenYuZDenxSVaVaVaVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSxSaBDhDhDhDhDhDhDhDhbowIpPwIwIGXzIHHhLVaBJzIHHliVaVaVaVaVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSwIaCFeoVlPmplPmpAtQBCVwIrowIwIEwNmNmCfVaEwNmNmCfVawIiKVaVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSwIEwtSBMmplPmplPOMIoCVwIriwIiKEwNmNmCViKEwNmNmCVQswIwIwIVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSwIEwpaoVlPmplPmpAtEdCVaBDhDhDhsWNmNmFDDhhvNmNmFDDhDhDhboVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSiKEwrCBMmplPmplPOMXdCVEwNmNmNmNmNmNmNmNmNmNmNmNmNmNmNmlYVaxSxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSVuEwItoVlPmplPmpAtvPCVEwNmNmNmNmNmNmNmNmNmNmNmNmNmNmNmCVVaVaxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSQSEweoBMmplPmplPOMFtCVEwNmNmUgwNwNwNwNwNwNwNwNwNpDNmNmFDHlHlenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSQSEwXMoVlPmplPmpAtvdCVcmNmNmtuwIQfQfaBDhboQfQfwIEwNmNmNmNmafUUpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSFWEwrtBMmplPmplPOMmdCVEwNmNmCVwIwIwIEwNrCVwIwIwIEwNmNmNmNmawUUpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDxShFRwRCepepepepepepepVJhvNmNmCVQfQfQfEwlmCVkSQfQfEwNmNmUggtgtenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDZDzGNmNmNmNmNmNmNmNmNmNmNmNmNmCVwIwIwIEwVyCVwIwIwIEwNmNmtuVaxSxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDZDLiNmNmNmNmNmNmNmNmNmNmNmNmNmCVwIQfvGPkwNaNQfQfwIEwNmNmCVVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDZDZDxSEjwNwNwNwNwNwNWtwNwNwNpDNmNmFDDhDhDhDhDhDhDhDhDhsWNmNmCVVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSxSxSxSxSwIwIwIiKwIwIwIxWsPsPEwNmNmNmNmNmNmNmNmNmNmNmNmNmNmNmCVVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDaUenwIwIVaVawIwIwIZasPxWEwNmNmNmNmNmNmNmNmNmNmNmNmNmNmNmCVVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDeniKwIwIwIQsVawIwIwIwIEwNmNmUgwNwNwNwNwNwNwNwNwNpDNmNmCVVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDaUxSwIQswIwIwIVaVaVaVawIuRNmNmCVwIwIiKwIwIwIQswIwIEwNmNmCVVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDenVawIwIwIwIiKwIQswIwIEwNmNmlYwIwIwIQsVaVaVawIiKEwNmNmCVVaenpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDenVawIwIwIwIwIwIwIwIwIEwNmNmCVwIwIwIVaVaVaVaVawIaCNmNmCVQsenenenxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDaUxSVaVaiKwIQsVaVaVaiKwIGXcsZWqbiKVaVaVaVaVaVaVaVaGXcsZWhonIGQNiNixSxSxSxSxSxSxSpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDZDenQsVaVaVaVaVahNVaVaxSenFfPdenenenVaVaQswIVaenenenFfPdenxSWUHshJxSWUWUWUWUWUWUpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqZDZDaUenVaVaVaVaVaVaVaxSxSxSwCPdPdOoPcenVaVaVaVaVaenjJzEPdPdpvxSxSxSMxxSWUxSxSxSWUpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
+pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSxSxSxSxSenenenxSenenenxSKkKkOvPdPdOoiNxSgvgvxSgvgvxSeGtGPdPdOoMxWUWUWUWUWUtaRzBxWUpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
 pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSkDBHJIMReGTkwoxSBHBHnUPdPdOoeGxSRpNkujnzBtxStbCjPdPdErxSxSxSxSxSWUGzRzBxWUpqpqpqpqpqpqWUpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
 pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSgdBHlXeGeGhABHxSKkKkOvPdPdOoBHMNPdhpPdPdTCxSjJMlPdPdZkxSPQKhPQxSWUWURzBxWUpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
 pqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqxSIHIFIFjGWVIFIFxSIFIFEnPdPdOobGxSHtqSgIPdxYxSeGtGPdPdQaTmPdPdPdMxWUxSxSxSWUpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpqpq
