@@ -2668,7 +2668,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "It's blue, da ba dee."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-/datum/reagent/consumable/ethanol/navy_rum
+/datum/reagent/consumable/ethanol/navy_rum //IN THE NAVY
 	name = "Navy Rum"
 	description = "Rum as the finest sailors drink."
 	boozepwr = 90 //the finest sailors are often drunk
@@ -2680,7 +2680,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "Splice the mainbrace, and God save the King."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-/datum/reagent/consumable/ethanol/bitters
+/datum/reagent/consumable/ethanol/bitters //why do they call them bitters, anyway? they're more spicy than anything else
 	name = "Andromeda Bitters"
 	description = "A bartender's best friend, often used to lend a delicate spiciness to any drink. Produced in New Trinidad, now and forever."
 	boozepwr = 70
@@ -2764,38 +2764,14 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "The martini's sun-soaked, starstruck, platinum blonde cousin."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-/datum/reagent/consumable/ethanol/cu_chulainn_freakshake //irish cream, creme de menthe, chocolate ice cream, cream, chocolate syrup, whipped cream, chocolate cake- the freakshake is the ultimate evolution of the bartender's (and chef's) art
-	name = "Cú Chulainn Freakshake"
-	description = "With his hurley in his hand, his name would cross the land."
-	boozepwr = 20
-	color = "#FFD700"
+/datum/reagent/consumable/ethanol/tiltaellen
+	name = "Tiltällen"
+	description = "A lightly fermented yoghurt drink with salt and lemon juice. Has a distinct sour cheesy flavour."
+	boozepwr = 10
+	color = "#F4EFE2"
 	quality = DRINK_NICE
-	taste_description = "the emerald isle"
-	glass_icon_state = "cu_chulainn_freakshake"
-	glass_name = "Cú Chulainn Freakshake"
-	glass_desc = "Éirinn go brách agus fág an bealach!"
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-
-/datum/reagent/consumable/ethanol/millionaire_freakshake //rum, creme de cacao, vanilla ice cream, cream, caramel, whipped cream, shortbread
-	name = "Millionaire's Freakshake"
-	description = "A rich drink for a poor population."
-	boozepwr = 20
-	color = "#FFD700"
-	quality = DRINK_NICE
-	taste_description = "old money"
-	glass_icon_state = "millionaire_freakshake"
-	glass_name = "Millionaire's Freakshake"
-	glass_desc = "Enjoy, you bougie bastard."
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-
-/datum/reagent/consumable/ethanol/berry_cherry_freakshake //gin, berry juice, cherry jelly, bitters, strawberry ice cream, whipped cream, cherry pie
-	name = "Berry Cherry Freakshake"
-	description = "Do these flavours actually fundamentally work together? Ah, who cares, they rhyme!"
-	boozepwr = 20
-	color = "#FFD700"
-	quality = DRINK_NICE
-	taste_description = "berry and cherry in perfect harmony"
-	glass_icon_state = "berry_cherry_freakshake"
-	glass_name = "Berry Cherry Freakshake"
-	glass_desc = "Huh, I guess berry and cherry do work together. Who'd have thought?"
+	taste_description = "cheesy yoghurt"
+	glass_icon_state = "tiltaellen"
+	glass_name = "glass of tiltällen"
+	glass_desc = "Eww... it's curdled."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
