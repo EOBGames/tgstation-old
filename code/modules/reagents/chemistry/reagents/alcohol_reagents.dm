@@ -2736,7 +2736,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	quality = DRINK_NICE
 	taste_description = "the tropics"
 	glass_icon_state = "tropical_storm"
-	glass_name = "Long John Silver"
+	glass_name = "Tropical Storm"
 	glass_desc = "Less destructive than the real thing."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -2756,7 +2756,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	name = "Jean Harlow Martini"
 	description = "The martini's stardazzled cousin."
 	boozepwr = 60
-	color = "#FFD700"
+	color = "#C84230"
 	quality = DRINK_NICE
 	taste_description = "sweet blonde beauty"
 	glass_icon_state = "jean_harlow_martini"
