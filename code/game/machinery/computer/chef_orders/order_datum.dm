@@ -109,6 +109,17 @@
 	category_index = CATEGORY_FRUITS_VEGGIES
 	item_instance = /obj/item/food/grown/cocoapod
 
+/datum/orderable_item/herbs
+	name = "Bundle of Herbs"
+	category_index = CATEGORY_FRUITS_VEGGIES
+	item_instance = /obj/item/food/grown/herbs
+	cost_per_order = 5
+
+/datum/orderable_item/bell_pepper
+	name = "Bell Pepper"
+	category_index = CATEGORY_FRUITS_VEGGIES
+	item_instance = /obj/item/food/grown/bell_pepper
+
 //Milk and Eggs
 
 /datum/orderable_item/milk
@@ -182,6 +193,12 @@
 	item_instance = /obj/item/food/canned/tomatoes
 	cost_per_order = 30
 
+/datum/orderable_item/canned_pine_nuts
+	name = "Canned Pine Nuts"
+	category_index = CATEGORY_MILK_EGGS
+	item_instance = /obj/item/food/canned/pine_nuts
+	cost_per_order = 20
+
 //Reagents
 
 /datum/orderable_item/flour
@@ -200,6 +217,12 @@
 	name = "Rice Sack"
 	category_index = CATEGORY_SAUCES_REAGENTS
 	item_instance = /obj/item/reagent_containers/food/condiment/rice
+	cost_per_order = 30
+
+/datum/orderable_item/cornmeal
+	name = "Cornmeal Box"
+	category_index = CATEGORY_SAUCES_REAGENTS
+	item_instance = /obj/item/reagent_containers/food/condiment/cornmeal
 	cost_per_order = 30
 
 /datum/orderable_item/enzyme

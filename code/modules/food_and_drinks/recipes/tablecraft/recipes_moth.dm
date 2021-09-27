@@ -36,7 +36,7 @@
 		/obj/item/food/grown/herbs = 2,
 		/obj/item/food/grown/garlic = 1,
 		/datum/reagent/consumable/quality_oil = 5,
-		/obj/item/food/pine_nuts = 1
+		/obj/item/food/canned/pine_nuts = 1
 	)
 	result = /obj/item/food/pesto
 	subcategory = CAT_MOTH
@@ -391,7 +391,7 @@
 /datum/crafting_recipe/food/raw_mothic_margherita
 	name = "Mothic margherita pizza"
 	reqs = list(
-		/obj/item/food/pizza_dough = 1,
+		/obj/item/food/mothic_pizza_dough = 1,
 		/obj/item/food/tomato_sauce = 1,
 		/obj/item/food/mozzarella = 1,
 		/obj/item/food/firm_cheese = 1,
@@ -403,7 +403,7 @@
 /datum/crafting_recipe/food/raw_mothic_firecracker
 	name = "Mothic firecracker pizza"
 	reqs = list(
-		/obj/item/food/pizza_dough = 1,
+		/obj/item/food/mothic_pizza_dough = 1,
 		/obj/item/food/tomato_sauce = 1,
 		/obj/item/food/firm_cheese = 1,
 		/obj/item/food/oven_baked_corn = 1,
@@ -415,7 +415,7 @@
 /datum/crafting_recipe/food/raw_mothic_five_cheese
 	name = "Mothic five cheese pizza"
 	reqs = list(
-		/obj/item/food/pizza_dough = 1,
+		/obj/item/food/mothic_pizza_dough = 1,
 		/obj/item/food/tomato_sauce = 1,
 		/obj/item/food/firm_cheese = 1,
 		/obj/item/food/cheese = 1,
@@ -429,7 +429,7 @@
 /datum/crafting_recipe/food/raw_mothic_white_pie
 	name = "Mothic white pie pizza"
 	reqs = list(
-		/obj/item/food/pizza_dough = 1,
+		/obj/item/food/mothic_pizza_dough = 1,
 		/obj/item/food/bechamel_sauce = 1,
 		/obj/item/food/firm_cheese = 1,
 		/obj/item/food/mozzarella = 1,
@@ -441,7 +441,7 @@
 /datum/crafting_recipe/food/raw_mothic_pesto
 	name = "Mothic pesto pizza"
 	reqs = list(
-		/obj/item/food/pizza_dough = 1,
+		/obj/item/food/mothic_pizza_dough = 1,
 		/obj/item/food/pesto = 1,
 		/obj/item/food/grown/tomato = 1,
 		/obj/item/food/mozzarella = 1
@@ -452,7 +452,7 @@
 /datum/crafting_recipe/food/raw_mothic_garlic
 	name = "Mothic garlic pizzabread"
 	reqs = list(
-		/obj/item/food/pizza_dough = 1,
+		/obj/item/food/mothic_pizza_dough = 1,
 		/obj/item/food/butter = 1,
 		/obj/item/food/grown/garlic = 1,
 		/obj/item/food/grown/herbs = 1

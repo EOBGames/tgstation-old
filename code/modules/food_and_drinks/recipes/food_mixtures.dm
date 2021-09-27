@@ -201,15 +201,15 @@
 	results = list(/datum/reagent/consumable/gravy = 3)
 	required_reagents = list(/datum/reagent/consumable/milk = 1, /datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/flour = 1)
 
-/datum/chemical_reaction/food/pizza_dough
-	required_reagents = list(/datum/reagent/water = 5, /datum/reagent/consumable/quality_oil = 2, /datum/reagent/consumable/sugar = 5, /datum/reagent/consumable/salt = 1, /datum/reagent/consumable/flour = 15)
+/datum/chemical_reaction/food/mothic_pizza_dough
+	required_reagents = list(/datum/reagent/water = 5, /datum/reagent/consumable/quality_oil = 2, /datum/reagent/consumable/sugar = 5, /datum/reagent/consumable/salt = 1, /datum/reagent/consumable/flour = 10, /datum/reagent/consumable/cornmeal = 5)
 	mix_message = "The ingredients form a pizza dough."
 	reaction_flags = REACTION_INSTANT
 
-/datum/chemical_reaction/food/pizza_dough/on_reaction(datum/reagents/holder, datum/equilibrium/reaction, created_volume)
+/datum/chemical_reaction/food/mothic_pizza_dough/on_reaction(datum/reagents/holder, datum/equilibrium/reaction, created_volume)
 	var/location = get_turf(holder.my_atom)
 	for(var/i = 1, i <= created_volume, i++)
-		new /obj/item/food/pizza_dough(location)
+		new /obj/item/food/mothic_pizza_dough(location)
 
 /datum/chemical_reaction/food/curd_cheese
 	required_reagents = list(/datum/reagent/consumable/milk = 30, /datum/reagent/consumable/vinegar = 5, /datum/reagent/consumable/cream = 10)

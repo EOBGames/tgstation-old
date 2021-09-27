@@ -126,11 +126,11 @@
 	foodtypes = DAIRY | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/pizza_dough
-	name = "pizza dough"
-	desc = "A strong, glutenous dough designed to hold up to cheese and sauce."
+/obj/item/food/mothic_pizza_dough
+	name = "mothic pizza dough"
+	desc = "A strong, glutenous dough, made with corn and flour, designed to hold up to cheese and sauce."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "pizza_dough"
+	icon_state = "mothic_pizza_dough"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("raw flour" = 1)
 	foodtypes = GRAIN
@@ -146,7 +146,7 @@
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/pine_nuts
+/obj/item/food/canned/pine_nuts
 	name = "canned pine nuts"
 	desc = "A small can of pine nuts. Can be eaten on their own, if you're into that."
 	icon = 'icons/obj/food/moth.dmi'
