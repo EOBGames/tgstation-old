@@ -29,6 +29,9 @@
 	tastes = list("corn" = 1)
 	distill_reagent = /datum/reagent/consumable/ethanol/whiskey
 
+/obj/item/food/grown/corn/MakeBakeable()
+	AddComponent(/datum/component/bakeable, /obj/item/food/oven_baked_corn, rand(35 SECONDS, 55 SECONDS), TRUE, TRUE)
+
 /obj/item/grown/corncob
 	name = "corn cob"
 	desc = "A reminder of meals gone by."

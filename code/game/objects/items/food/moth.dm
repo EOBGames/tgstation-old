@@ -9,6 +9,7 @@
 	desc = "Known by many names throughout human cuisine, curd cheese is useful for a wide variety of dishes."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "curd_cheese"
+	microwaved_type = /obj/item/food/cheese_curds
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/cream = 1)
 	tastes = list("cream" = 1, "cheese" = 1)
 	foodtypes = DAIRY
@@ -75,11 +76,11 @@
 	foodtypes = DAIRY
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/crisp_salad
-	name = "crisp salad"
-	desc = "A basic salad of lettuce, red onion and tomato. Can serve as a perfect base for a million different salads."
+/obj/item/food/mothic_salad
+	name = "mothic salad"
+	desc = "A basic salad of cabbage, red onion and tomato. Can serve as a perfect base for a million different salads."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "crisp_salad"
+	icon_state = "mothic_salad"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("salad" = 1)
 	foodtypes = VEGETABLES
@@ -125,16 +126,6 @@
 	foodtypes = DAIRY | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/yoghurt_garlic_sauce
-	name = "yoghurt garlic sauce"
-	desc = "A tasty mix of garlic, yoghurt, herbs and spices."
-	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "yoghurt_garlic_sauce"
-	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
-	tastes = list("garlic" = 1, "yoghurt" = 1)
-	foodtypes = DAIRY | VEGETABLES
-	w_class = WEIGHT_CLASS_SMALL
-
 /obj/item/food/pizza_dough
 	name = "pizza dough"
 	desc = "A strong, glutenous dough designed to hold up to cheese and sauce."
@@ -145,14 +136,24 @@
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/texas_toast
-	name = "\improper Texas toast"
+/obj/item/food/griddle_toast
+	name = "griddle toast"
 	desc = "Thick cut bread, griddled to perfection."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "texas_toast"
+	icon_state = "griddle_toast"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("toast" = 1)
 	foodtypes = GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/pine_nuts
+	name = "canned pine nuts"
+	desc = "A small can of pine nuts. Can be eaten on their own, if you're into that."
+	icon = 'icons/obj/food/moth.dmi'
+	icon_state = "pine_nuts"
+	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
+	tastes = list("pine nuts" = 1)
+	foodtypes = NUTS
 	w_class = WEIGHT_CLASS_SMALL
 
 //Entrees: categorising food that is 90% cheese and salad is not easy
@@ -166,11 +167,11 @@
 	foodtypes = DAIRY | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/sweet_chili_lettuce_wrap
-	name = "sweet chili lettuce wrap"
+/obj/item/food/sweet_chili_cabbage_wrap
+	name = "sweet chili cabbage wrap"
 	desc = "Grilled cheese and salad in a cabbage wrap, topped with delicious sweet chili sauce."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "sweet_chili_lettuce_wrap"
+	icon_state = "sweet_chili_cabbage_wrap"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/capsaicin = 1)
 	tastes = list("cheese" = 1, "salad" = 1, "sweet chili" = 1)
 	foodtypes = DAIRY | VEGETABLES
@@ -200,7 +201,7 @@
 	name = "stanntkraktælo" //stannt = oven, krakt = baked, ælo = cheese
 	desc = "A baked cheese wheel: a mothic favourite for sharing. Usually served with crispy bread slices for dipping, because the only thing better than good cheese is good cheese on bread."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "moth_baked_cheese"
+	icon_state = "baked_cheese_platter"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/consumable/capsaicin = 1)
 	tastes = list("cheese" = 1, "bread" = 1)
 	foodtypes = DAIRY | GRAIN
@@ -217,7 +218,7 @@
 	foodtypes = VEGETABLES | GRAIN | NUTS
 	w_class = WEIGHT_CLASS_NORMAL
 
-/obj/item/food/raw_green_lasagna/MakeBakeable()
+/obj/item/food/raw_green_lasagne/MakeBakeable()
 	AddComponent(/datum/component/bakeable, /obj/item/food/green_lasagne, rand(45 SECONDS, 75 SECONDS), TRUE, TRUE)
 
 /obj/item/food/green_lasagne
@@ -230,14 +231,14 @@
 	foodtypes = VEGETABLES | GRAIN | NUTS
 	w_class = WEIGHT_CLASS_NORMAL
 
-/obj/item/food/green_lasagna/MakeProcessable()
+/obj/item/food/green_lasagne/MakeProcessable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/green_lasagne_slice, 6, 30)
 
 /obj/item/food/green_lasagne_slice
 	name = "green lasagne al forno slice"
 	desc = "A slice of herby, pesto-y lasagne."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "green_lasagne"
+	icon_state = "green_lasagne_slice"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 3)
 	tastes = list("cheese" = 1, "pesto" = 1, "pasta" = 1)
 	foodtypes = VEGETABLES | GRAIN | NUTS
@@ -247,7 +248,7 @@
 	name = "big rice pan"
 	desc = "A big pan of layered potatoes topped with rice and vegetable stock, ready to be baked into a delicious sharing meal."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "big_baked_rice"
+	icon_state = "raw_baked_rice"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 6)
 	tastes = list("rice" = 1, "potato" = 1, "veggies" = 1)
 	foodtypes = VEGETABLES | GRAIN
@@ -316,6 +317,9 @@
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/raw_ratatouille/MakeBakeable()
+	AddComponent(/datum/component/bakeable, /obj/item/food/ratatouille, rand(60 SECONDS, 90 SECONDS), TRUE, TRUE)
+
 /obj/item/food/ratatouille
 	name = "ratatouille"
 	desc = "The perfect dish to save your restaurant from a vindictive food critic. Bonus points if you've got a rat in your hat."
@@ -323,46 +327,6 @@
 	icon_state = "ratatouille"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 7, /datum/reagent/consumable/char = 1)
 	tastes = list("veggies" = 1, "roasted peppers" = 1, "char" = 1)
-	foodtypes = VEGETABLES
-	w_class = WEIGHT_CLASS_SMALL
-
-/obj/item/food/raw_summer_vegetables
-	name = "raw summer vegetables"
-	desc = "Vegetables and oil. While perfectly tasty on its own, baking it will unleash its true potential."
-	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "raw_summer_vegetables"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 10)
-	tastes = list("eggplant" = 1, "bell pepper" = 1, "onion" = 1, "tomato" = 1)
-	foodtypes = VEGETABLES
-	w_class = WEIGHT_CLASS_SMALL
-
-/obj/item/food/summer_vegetables
-	name = "roasted summer vegetables"
-	desc = "A summery bouquet of vegetables, topped off with a healthy scattering of herbs."
-	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "summer_vegetables"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 7, /datum/reagent/consumable/nutriment/vitamin = 12)
-	tastes = list("eggplant" = 1, "bell pepper" = 1, "onion" = 1, "tomato" = 1, "herbs" = 1)
-	foodtypes = VEGETABLES | NUTS
-	w_class = WEIGHT_CLASS_SMALL
-
-/obj/item/food/raw_winter_vegetables
-	name = "raw winter vegetables"
-	desc = "Vegetables and oil. While perfectly tasty on its own, baking it will unleash its true potential."
-	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "raw_winter_vegetables"
-	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 10)
-	tastes = list("sweet potato" = 1, "parsnip" = 1, "carrot" = 1, "pumpkin" = 1)
-	foodtypes = VEGETABLES
-	w_class = WEIGHT_CLASS_SMALL
-
-/obj/item/food/winter_vegetables
-	name = "roasted winter vegetables"
-	desc = "A hearty medley of vegetables, finished with wintery herbs."
-	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "winter_vegetables"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 7, /datum/reagent/consumable/nutriment/vitamin = 12)
-	tastes = list("sweet potato" = 1, "parsnip" = 1, "carrot" = 1, "pumpkin" = 1, "pumpkin spice" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -377,20 +341,23 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/raw_stuffed_peppers
-	name = "raw voltölpapriken" //voltöl = stuffed (vol = full, töl = push), papriken (from German paprika) = bell peppers
-	desc = "Peppers with the tops removed and a herby cheese and onion mix stuffed inside. Probably shouldn't be eaten raw."
+	name = "raw voltölpaprik" //voltöl = stuffed (vol = full, töl = push), paprik (from German paprika) = bell pepper
+	desc = "A pepper with the top removed and a herby cheese and onion mix stuffed inside. Probably shouldn't be eaten raw."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "raw_stuffed_peppers"
+	icon_state = "raw_stuffed_pepper"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/protein = 3)
 	tastes = list("creamy cheese" = 1, "herbs" = 1, "onion" = 1, "bell pepper" = 1)
 	foodtypes = DAIRY | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/raw_stuffed_peppers/MakeBakeable()
+	AddComponent(/datum/component/bakeable, /obj/item/food/stuffed_peppers, rand(40 SECONDS, 65 SECONDS), TRUE, TRUE)
+
 /obj/item/food/stuffed_peppers
-	name = "voltölpapriken"
-	desc = "Soft yet still crisp bell peppers, with a wonderful melty cheesy interior."
+	name = "voltölpaprik"
+	desc = "A soft yet still crisp bell pepper, with a wonderful melty cheesy interior."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "stuffed_peppers"
+	icon_state = "stuffed_pepper"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/protein = 3)
 	tastes = list("creamy cheese" = 1, "herbs" = 1, "onion" = 1, "bell pepper" = 1)
 	foodtypes = DAIRY | VEGETABLES
@@ -471,17 +438,17 @@
 	desc = "A plate of rice porridge. It's mostly flavourless, but it does fill a spot. To the Chinese it's congee, and moths call it höllflöfmisklsløsk." //höllflöfmiskl = rice (höllflöf = cloud, miskl = seed), sløsk = porridge
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "rice_porridge"
-	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("nothing" = 1)
 	foodtypes = GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/soup/hua_mulan_congee
 	name = "\improper Hua Mulan congee" 
-	desc = "Nobody is quite sure why this smiley food is named after a mythological Chinese figure- it's just sorta what it's always been called."
+	desc = "Nobody is quite sure why this smiley bowl of rice porridge with eggs and bacon is named after a mythological Chinese figure- it's just sorta what it's always been called."
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "hua_mulan_congee"
-	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/nutriment/protein = 5)
 	tastes = list("bacon" = 1, "eggs" = 1)
 	foodtypes = MEAT | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
@@ -510,7 +477,7 @@
 	name = "cheesy porridge" 
 	desc = "A rich and creamy bowl of cheesy cornmeal porridge."
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "cornmeal_porridge"
+	icon_state = "cheesy_porridge"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("cornmeal" = 1, "cheese" = 1, "more cheese" = 1, "lots of cheese" = 1)
 	foodtypes = DAIRY | GRAIN
@@ -520,7 +487,7 @@
 	name = "fried eggplant and polenta" 
 	desc = "Polenta loaded with cheese, served with a few discs of fried eggplant and some tomato sauce. Lække!"
 	icon = 'icons/obj/food/moth.dmi'
-	icon_state = "cornmeal_porridge"
+	icon_state = "fried_eggplant_polenta"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("cornmeal" = 1, "cheese" = 1, "eggplant" = 1, "tomato sauce" = 1)
 	foodtypes = DAIRY | GRAIN
@@ -563,7 +530,7 @@
 	icon = 'icons/obj/food/moth.dmi'
 	icon_state = "moth_kachumbari"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3, /datum/reagent/consumable/nutriment/vitamin = 5)
-	tastes = list("onion" = 1, "tomato" = 1, "avocado" = 1, "chili" = 1, "cilantro" = 1)
+	tastes = list("onion" = 1, "tomato" = 1, "corn" = 1, "chili" = 1, "cilantro" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -708,7 +675,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/consumable/nutriment/protein = 8, /datum/reagent/consumable/tomatojuice = 6, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("crust" = 1, "pesto" = 1, "cheese" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY | NUTS
-	slice_type = /obj/item/food/pizzaslice/pesto
+	slice_type = /obj/item/food/pizzaslice/mothic_pesto
 	boxtag = "Presto Pesto"
 
 /obj/item/food/pizzaslice/mothic_pesto
@@ -738,7 +705,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/consumable/nutriment/protein = 8, /datum/reagent/consumable/tomatojuice = 6, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("crust" = 1, "garlic" = 1, "butter" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY | NUTS
-	slice_type = /obj/item/food/pizzaslice/pesto
+	slice_type = /obj/item/food/pizzaslice/mothic_pesto
 	boxtag = "Garlic Bread alla Moffuchi"
 
 /obj/item/food/pizzaslice/mothic_garlic
@@ -760,7 +727,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/bread/corn/MakeProcessable()
-	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/breadslice/corn, 1, 20)
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/breadslice/corn, 6, 20)
 
 /obj/item/food/breadslice/corn
 	name = "cornbread slice"
@@ -789,6 +756,9 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 15, /datum/reagent/consumable/sugar = 10)
 	tastes = list("vanilla" = 1, "clouds" = 1, "chocolate" = 1)
 	foodtypes = VEGETABLES | SUGAR
+
+/obj/item/food/cake/mothmallow/MakeProcessable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/cakeslice/mothmallow, 6, 20)
 
 /obj/item/food/cakeslice/mothmallow
 	name = "mothmallow"

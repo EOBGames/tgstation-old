@@ -2672,7 +2672,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	name = "Navy Rum"
 	description = "Rum as the finest sailors drink."
 	boozepwr = 90 //the finest sailors are often drunk
-	color = "#1a5fa1"
+	color = "#d8e8f0"
 	quality = DRINK_FANTASTIC
 	taste_description = "a life on the waves"
 	glass_icon_state = "ginvodkaglass"
@@ -2696,7 +2696,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	name = "Admiralty"
 	description = "A refined, bitter drink made with navy rum, vermouth and fernet."
 	boozepwr = 100
-	color = "#FFD700"
+	color = "#1F0001"
 	quality = DRINK_FANTASTIC
 	taste_description = "haughty arrogance"
 	glass_icon_state = "admiralty"
@@ -2708,7 +2708,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	name = "Long Haul"
 	description = "A favourite amongst freighter pilots, unscrupulous smugglers, and nerf herders."
 	boozepwr = 35
-	color = "#FFD700"
+	color = "#003153"
 	quality = DRINK_GOOD
 	taste_description = "companionship"
 	glass_icon_state = "long_haul"
@@ -2719,8 +2719,8 @@ All effects don't start immediately, but rather get worse over time; the rate is
 /datum/reagent/consumable/ethanol/long_john_silver //navy rum, bitters, lemonade
 	name = "Long John Silver"
 	description = "A long drink of navy rum, bitters, and lemonade. Particularly popular aboard the Mothic Fleet as it's light on ration credits and heavy on flavour."
-	boozepwr = 35
-	color = "#FFD700"
+	boozepwr = 50
+	color = "#c4b35c"
 	quality = DRINK_NICE
 	taste_description = "rum and spices"
 	glass_icon_state = "long_john_silver"
@@ -2731,8 +2731,8 @@ All effects don't start immediately, but rather get worse over time; the rate is
 /datum/reagent/consumable/ethanol/tropical_storm //dark rum, pineapple juice, triple citrus, curacao
 	name = "Tropical Storm"
 	description = "A taste of the Caribbean in one glass."
-	boozepwr = 50
-	color = "#FFD700"
+	boozepwr = 40
+	color = "#00bfa3"
 	quality = DRINK_NICE
 	taste_description = "the tropics"
 	glass_icon_state = "tropical_storm"
@@ -2744,7 +2744,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	name = "Dark and Stormy"
 	description = "A classic drink arriving to thunderous applause." //thank you, thank you, I'll be here forever
 	boozepwr = 50
-	color = "#FFD700"
+	color = "#8c5046"
 	quality = DRINK_NICE
 	taste_description = "ginger and rum"
 	glass_icon_state = "dark_and_stormy"
@@ -2752,26 +2752,38 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "Thunder and lightning, very very frightening."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-/datum/reagent/consumable/ethanol/jean_harlow_martini //navy rum, vermouth
-	name = "Jean Harlow Martini"
-	description = "The martini's stardazzled cousin."
+/datum/reagent/consumable/ethanol/salt_and_swell //navy rum, tochtause syrup, egg whites, dash of saline-glucose solution
+	name = "Salt and Swell"
+	description = "A bracing sour with an interesting salty taste."
 	boozepwr = 60
-	color = "#C84230"
+	color = "#b4abd0"
 	quality = DRINK_NICE
-	taste_description = "sweet blonde beauty"
-	glass_icon_state = "jean_harlow_martini"
-	glass_name = "Jean Harlow Martini"
-	glass_desc = "The martini's sun-soaked, starstruck, platinum blonde cousin."
+	taste_description = "salt and spice"
+	glass_icon_state = "salt_and_swell"
+	glass_name = "Salt and Swell"
+	glass_desc = "Ah, I do like to be beside the seaside."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-/datum/reagent/consumable/ethanol/tiltaellen
+/datum/reagent/consumable/ethanol/tiltaellen //yoghurt, salt, vinegar
 	name = "Tiltällen"
-	description = "A lightly fermented yoghurt drink with salt and lemon juice. Has a distinct sour cheesy flavour."
+	description = "A lightly fermented yoghurt drink with salt and a light dash of vinegar. Has a distinct sour cheesy flavour."
 	boozepwr = 10
 	color = "#F4EFE2"
 	quality = DRINK_NICE
-	taste_description = "cheesy yoghurt"
+	taste_description = "sour cheesy yoghurt"
 	glass_icon_state = "tiltaellen"
 	glass_name = "glass of tiltällen"
 	glass_desc = "Eww... it's curdled."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/tich_toch
+	name = "Tich Toch"
+	description = "A mix of Tiltällen, Töchtaüse Syrup, and vodka. It's not exactly to everyones' tastes."
+	boozepwr = 75
+	color = "#b4abd0"
+	quality = DRINK_NICE
+	taste_description = "spicy sour cheesy yoghurt"
+	glass_icon_state = "tich_toch"
+	glass_name = "Tich Toch"
+	glass_desc = "Oh god."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED

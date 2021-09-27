@@ -17,6 +17,9 @@
 /obj/item/food/cheese/wheel/MakeProcessable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/cheese, 5, 30)
 
+/obj/item/food/cheese/wheel/MakeBakeable()
+	AddComponent(/datum/component/bakeable, /obj/item/food/baked_cheese, rand(55 SECONDS, 75 SECONDS), TRUE, TRUE)
+
 /obj/item/food/cheese/royal
 	name = "royal cheese"
 	desc = "Ascend the throne. Consume the wheel. Feel the POWER."
@@ -722,3 +725,11 @@
 	foodtypes = JUNKFOOD | SUGAR | GROSS
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_TINY
+
+/obj/item/food/roasted_bell_pepper
+	name = "roasted bell pepper"
+	desc = "A blackened, blistered bell pepper. Great for making sauces."
+	icon_state = "roasted_bell_pepper"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/char = 1)
+	tastes = list("bell pepper" = 1, "char" = 1)
+	foodtypes = VEGETABLES

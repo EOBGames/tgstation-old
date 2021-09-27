@@ -1,23 +1,20 @@
-/datum/crafting_recipe/food/crisp_salad
+/datum/crafting_recipe/food/herby_cheese
 	name = "Herby cheese"
 	reqs = list(
 		/obj/item/food/curd_cheese = 1,
-		/obj/item/food/oregano = 1,
-		/obj/item/food/basil = 1,
-		/obj/item/food/parsley = 1,
-		/obj/item/food/mint_herb = 1
+		/obj/item/food/grown/herbs = 4
 	)
 	result = /obj/item/food/herby_cheese
 	subcategory = CAT_MOTH
 
-/datum/crafting_recipe/food/crisp_salad
+/datum/crafting_recipe/food/mothic_salad
 	name = "Crisp salad"
 	reqs = list(
-		/obj/item/food/grown/lettuce = 1,
+		/obj/item/food/grown/cabbage = 1,
 		/obj/item/food/onion_slice/red = 2,
 		/obj/item/food/grown/tomato = 1
 	)
-	result = /obj/item/food/crisp_salad
+	result = /obj/item/food/mothic_salad
 	subcategory = CAT_MOTH
 
 /datum/crafting_recipe/food/toasted_seeds
@@ -36,7 +33,7 @@
 	reqs = list(
 		/obj/item/food/firm_cheese_slice = 1,
 		/datum/reagent/consumable/salt = 5,
-		/obj/item/food/basil = 2,
+		/obj/item/food/grown/herbs = 2,
 		/obj/item/food/grown/garlic = 1,
 		/datum/reagent/consumable/quality_oil = 5,
 		/obj/item/food/pine_nuts = 1
@@ -49,8 +46,7 @@
 	reqs = list(
 		/obj/item/food/canned/tomatoes = 1,
 		/datum/reagent/consumable/salt = 2,
-		/obj/item/food/basil = 1,
-		/obj/item/food/oregano = 1,
+		/obj/item/food/grown/herbs = 1,
 		/datum/reagent/consumable/quality_oil = 5
 	)
 	result = /obj/item/food/tomato_sauce
@@ -66,18 +62,6 @@
 	result = /obj/item/food/bechamel_sauce
 	subcategory = CAT_MOTH
 
-/datum/crafting_recipe/food/yoghurt_garlic_sauce
-	name = "Yoghurt garlic sauce"
-	reqs = list(
-		/datum/reagent/consumable/yoghurt = 10,
-		/datum/reagent/consumable/lemonjuice = 2,
-		/obj/item/food/mint_herb = 1,
-		/obj/item/food/oregano = 1,
-		/obj/item/food/grown/garlic = 1
-	)
-	result = /obj/item/food/yoghurt_garlic_sauce
-	subcategory = CAT_MOTH
-
 /datum/crafting_recipe/food/squeaking_stir_fry
 	name = "Skeklitmischtpoppl (Squeaking stir fry)"
 	reqs = list(
@@ -91,16 +75,16 @@
 	result = /obj/item/food/squeaking_stir_fry
 	subcategory = CAT_MOTH
 
-/datum/crafting_recipe/food/sweet_chili_lettuce_wrap
-	name = "Sweet chili lettuce wrap"
+/datum/crafting_recipe/food/sweet_chili_cabbage_wrap
+	name = "Sweet chili cabbage wrap"
 	reqs = list(
 		/obj/item/food/grilled_cheese = 1,
-		/obj/item/food/crisp_salad = 1,
+		/obj/item/food/mothic_salad = 1,
 		/obj/item/food/grown/chili = 1,
-		/obj/item/food/grown/lettuce = 1,
+		/obj/item/food/grown/cabbage = 1,
 		/datum/reagent/consumable/honey = 5
 	)
-	result = /obj/item/food/squeaking_stir_fry
+	result = /obj/item/food/sweet_chili_cabbage_wrap
 	subcategory = CAT_MOTH
 
 /datum/crafting_recipe/food/loaded_curds
@@ -118,7 +102,7 @@
 	name = "Stanntkraktælo (Baked cheese platter)"
 	reqs = list(
 		/obj/item/food/baked_cheese = 1,
-		/obj/item/food/texas_toast = 3
+		/obj/item/food/griddle_toast = 3
 	)
 	result = /obj/item/food/baked_cheese_platter
 	subcategory = CAT_MOTH
@@ -141,7 +125,7 @@
 		/obj/item/food/soup/vegetable = 1,
 		/obj/item/food/grown/potato = 2,
 		/obj/item/food/grown/chili = 1,
-		/obj/item/food/parsley = 1
+		/obj/item/food/grown/herbs = 1
 	)
 	result = /obj/item/food/raw_baked_rice
 	subcategory = CAT_MOTH
@@ -172,39 +156,11 @@
 	name = "Ratatouille"
 	reqs = list(
 		/obj/item/food/grown/tomato = 1,
+		/obj/item/food/grown/onion/red = 1,
 		/obj/item/food/grown/eggplant = 1,
-		/obj/item/food/grown/zucchini = 1,
 		/obj/item/food/roasted_bell_pepper = 1
 	)
 	result = /obj/item/food/raw_ratatouille
-	subcategory = CAT_MOTH
-
-/datum/crafting_recipe/food/raw_summer_vegetables
-	name = "Summer vegetables"
-	reqs = list(
-		/obj/item/food/grown/tomato = 1,
-		/obj/item/food/grown/eggplant = 1,
-		/obj/item/food/grown/zucchini = 1,
-		/obj/item/food/grown/bell_pepper = 1,
-		/obj/item/food/grown/onion/red = 1,
-		/obj/item/food/herb/basil = 1,
-		/datum/reagent/consumable/quality_oil = 5
-	)
-	result = /obj/item/food/raw_summer_vegetables
-	subcategory = CAT_MOTH
-
-/datum/crafting_recipe/food/raw_winter_vegetables
-	name = "Winter vegetables"
-	reqs = list(
-		/obj/item/food/grown/potato/sweet = 1,
-		/obj/item/food/grown/parsnip = 1,
-		/obj/item/food/grown/carrot = 1,
-		/obj/item/food/grown/pumpkin = 1,
-		/obj/item/food/grown/redbeet = 1,
-		/obj/item/food/herb/rosemary = 1,
-		/datum/reagent/consumable/quality_oil = 5
-	)
-	result = /obj/item/food/raw_winter_vegetables
 	subcategory = CAT_MOTH
 
 /datum/crafting_recipe/food/mozzarella_sticks
@@ -313,7 +269,7 @@
 		/obj/item/food/grown/ghost_chili = 1,
 		/obj/item/food/tofu = 1,
 		/datum/reagent/consumable/milk = 10,
-		/datum/reagent/consumable/lemonjuice = 2,
+		/datum/reagent/consumable/vinegar = 2,
 		/obj/item/reagent_containers/glass/bowl = 1
 	)
 	result = /obj/item/food/soup/moth_fire_soup
@@ -334,7 +290,7 @@
 	reqs = list(
 		/obj/item/food/soup/rice_porridge = 1,
 		/obj/item/food/meat/bacon = 1,
-		/obj/item/food/friedegg = 2
+		/obj/item/food/friedegg = 1
 	)
 	result = /obj/item/food/soup/hua_mulan_congee
 	subcategory = CAT_MOTH
@@ -387,7 +343,7 @@
 	reqs = list(
 		/obj/item/food/grown/tomato = 1,
 		/obj/item/food/mozzarella = 1,
-		/obj/item/food/herb/basil = 1,
+		/obj/item/food/grown/herbs = 1,
 		/datum/reagent/consumable/quality_oil = 2,
 		/datum/reagent/consumable/vinegar = 2
 	)
@@ -397,7 +353,7 @@
 /datum/crafting_recipe/food/fleet_salad
 	name = "Lörtonknusksolt (Fleet salad)"
 	reqs = list(
-		/obj/item/food/crisp_salad = 1,
+		/obj/item/food/mothic_salad = 1,
 		/obj/item/food/grilled_cheese = 1,
 		/obj/item/food/breadslice = 1,
 		/obj/item/food/grown/carrot = 1,
@@ -410,7 +366,7 @@
 /datum/crafting_recipe/food/cotton_salad
 	name = "Flöfrölenknusksolt (Cotton salad)"
 	reqs = list(
-		/obj/item/food/crisp_salad = 1,
+		/obj/item/food/mothic_salad = 1,
 		/obj/item/grown/cotton = 2,
 		/obj/item/food/grown/carrot = 1,
 		/datum/reagent/consumable/quality_oil = 2,
@@ -422,11 +378,11 @@
 /datum/crafting_recipe/food/moth_kachumbari
 	name = "Kæniatknusksolt (Kenyan salad)"
 	reqs = list(
-		/obj/item/food/grown/avocado = 1,
+		/obj/item/food/oven_baked_corn = 1,
 		/obj/item/food/grown/chili = 1,
 		/obj/item/food/grown/onion/red = 1,
 		/obj/item/food/grown/tomato = 1,
-		/obj/item/food/herb/cilantro = 1,
+		/obj/item/food/grown/herbs = 1,
 		/datum/reagent/consumable/limejuice = 2
 	)
 	result = /obj/item/food/salad/moth_kachumbari
@@ -439,7 +395,7 @@
 		/obj/item/food/tomato_sauce = 1,
 		/obj/item/food/mozzarella = 1,
 		/obj/item/food/firm_cheese = 1,
-		/obj/item/food/herb/basil = 1
+		/obj/item/food/grown/herbs = 1
 	)
 	result = /obj/item/food/raw_mothic_margherita
 	subcategory = CAT_MOTH
@@ -477,7 +433,7 @@
 		/obj/item/food/bechamel_sauce = 1,
 		/obj/item/food/firm_cheese = 1,
 		/obj/item/food/mozzarella = 1,
-		/obj/item/food/herb/rosemary = 1
+		/obj/item/food/grown/herbs = 1
 	)
 	result = /obj/item/food/raw_mothic_white_pie
 	subcategory = CAT_MOTH
@@ -499,7 +455,7 @@
 		/obj/item/food/pizza_dough = 1,
 		/obj/item/food/butter = 1,
 		/obj/item/food/grown/garlic = 1,
-		/obj/item/food/herb/parsley = 1
+		/obj/item/food/grown/herbs = 1
 	)
 	result = /obj/item/food/raw_mothic_garlic
 	subcategory = CAT_MOTH

@@ -176,6 +176,12 @@
 	item_instance = /obj/item/food/larvae
 	cost_per_order = 20
 
+/datum/orderable_item/canned_tomatoes
+	name = "Canned San Marzano Tomatoes"
+	category_index = CATEGORY_MILK_EGGS
+	item_instance = /obj/item/food/canned/tomatoes
+	cost_per_order = 30
+
 //Reagents
 
 /datum/orderable_item/flour
@@ -237,3 +243,9 @@
 	category_index = CATEGORY_SAUCES_REAGENTS
 	item_instance = /obj/item/reagent_containers/food/condiment/quality_oil
 	cost_per_order = 120 //Extra Virgin, just like you, the reader
+
+/datum/orderable_item/yoghurt
+	name = "Yoghurt"
+	category_index = CATEGORY_SAUCES_REAGENTS
+	item_instance = /obj/item/reagent_containers/food/condiment/yoghurt
+	cost_per_order = 30
