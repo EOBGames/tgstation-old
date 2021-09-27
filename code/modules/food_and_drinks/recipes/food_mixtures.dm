@@ -212,7 +212,7 @@
 		new /obj/item/food/mothic_pizza_dough(location)
 
 /datum/chemical_reaction/food/curd_cheese
-	required_reagents = list(/datum/reagent/consumable/milk = 30, /datum/reagent/consumable/vinegar = 5, /datum/reagent/consumable/cream = 10)
+	required_reagents = list(/datum/reagent/consumable/milk = 15, /datum/reagent/consumable/vinegar = 5, /datum/reagent/consumable/cream = 5)
 	mix_message = "The milk curdles into cheese."
 	required_temp = 353
 	reaction_flags = REACTION_INSTANT
@@ -223,8 +223,8 @@
 		new /obj/item/food/curd_cheese(location)
 
 /datum/chemical_reaction/food/mozzarella
-	required_reagents = list(/datum/reagent/consumable/milk = 15, /datum/reagent/consumable/cream = 15)
-	required_catalysts = list(/datum/reagent/consumable/enzyme = 5)
+	required_reagents = list(/datum/reagent/consumable/milk = 10, /datum/reagent/consumable/cream = 10)
+	required_catalysts = list(/datum/reagent/consumable/enzyme = 1)
 	mix_message = "Fine ribbons of curd form in the milk."
 	required_temp = 353
 	reaction_flags = REACTION_INSTANT
