@@ -25,19 +25,20 @@
 	starting_gangsters = 5
 	gang_objectives = list(
 
-		/datum/antagonist/gang/russian_mafia = "Hello, comrade. Our numbers are going down. We need you to bring those numbers up. \
-		Collect protection money from the station's departments by any means necessary. \
-		If you need to 'encourage' people to pay up, do so. Get to these potential clients before the Mob does.",
+		/datum/antagonist/gang/russian_mafia = "Privet, comrade. Our numbers are going down. We need you to bring those numbers up. \
+		Collect tribute from station's departments by any means. \
+		If you need to 'encourage' people to pay, do so. Get to potential clients before shitheap Italians do. \
+		Do well, and drinks on me at Moskva Club tonight.",
 
-		/datum/antagonist/gang/italian_mob = "Good afternoon, friend. The Boss sends his regards. He also sends a message. \
-		We need to collect what we're owed. The departments on this station all owe quite a lot of money to us. We intend to collect on our debts. \
-		Collect the debt owed by our clients from the departments on the station. \
-		Make sure to get to them before those damn mafiosos do."
+		/datum/antagonist/gang/italian_mob = "Good afternoon, associate. The Don sends his regards. He also sends a message. \
+		We need to collect what we're owed. The captain on this station owes quite a lot of money to us. We intend to collect on our debts. \
+		Collect the debt owed by our client from their underlings in the departments on their station. That should send The Don's message to them, loud and clear. \
+		Make sure to get to them before those damned Russkis do."
 	)
 
 /datum/gang_theme/the_big_game
 	name = "The Big Game"
-	description = "You're listening to SPORTS DAILY with John Dadden, and we're here LIVE covering the FINAL DAY of THE BIG GAME MMDXXXVIII! The teams playing tonight to decide \
+	description = "You're listening to GRIDIRON RADIO with Ron Piston, and we're here LIVE covering the FINAL DAY of THE BIG GAME MMDXXXVIII! The teams playing tonight to decide \
 	who takes home THE BIG GAME MMDXXXVIII cup are the Sybil Slickers and the Basil Boys! It's currently a toss up between the two teams, Which will take home the victory? That's up \
 	to the teams and the coaches! Play ball!"
 	involved_gangs = list(/datum/antagonist/gang/sybil_slickers, /datum/antagonist/gang/basil_boys)
@@ -45,12 +46,12 @@
 	gang_objectives = list(
 
 		/datum/antagonist/gang/sybil_slickers = "Alright, it's the BIG DAY of THE BIG GAME MMDXXXVIII! Get your players ready to go, and \
-		ensure everyone's healthy, hydrated, and ready to PLAY BALL! There's a small hiccup, however. The ball got deflated by Ball Handler Tom Brady XXIV, and \
+		ensure everyone's healthy, hydrated, and ready to PLAY BALL! There's a small hiccup, however. The ball got deflated by the ball handler, and \
 		we will need to set up a new ball. Talk with the opposing coaches and decide on what to use for the replacement ball, recruit your team, and then play and win the \
 		FINAL MATCH of THE BIG GAME MMDXXXVIII!",
 
 		/datum/antagonist/gang/basil_boys = "Alright, it's the BIG DAY of THE BIG GAME MMDXXXVIII! Get your players ready to go, and \
-		ensure everyone's healthy, hydrated, and ready to PLAY BALL! There's a small hiccup, however. The ball got deflated by Ball Handler Tom Brady XXIV, and \
+		ensure everyone's healthy, hydrated, and ready to PLAY BALL! There's a small hiccup, however. The ball got deflated by the ball handler, and \
 		we will need to set up a new ball. Talk with the opposing coaches and decide on what to use for the replacement ball, recruit your team, and then play and win the \
 		FINAL MATCH of THE BIG GAME MMDXXXVIII!"
 	)
@@ -58,7 +59,7 @@
 /datum/gang_theme/level_10_arch
 	name = "Level 10 Arch"
 	description = "DJ Pete here bringing you the latest news in your part of the Spinward Stellar Coalition, on 133.7, The Venture! \
-	Word on the street is, there's a bunch of costumed supervilliany going on in the area! Keep an eye out for any evil laughs, dramatic reveals, and gaudy costumes!  \
+	Word on the street is, there's a bunch of loonies in superhero costumes going on in the area, and there's NOT an anime convention in town! Keep an eye out for any evil laughs, dramatic reveals, and gaudy costumes!  \
 	However, if you have any sightings of the fabled O.S.I. agents, please send in a call to our number at 867-5309! People may call me insane, but I swear they're real!"
 	involved_gangs = list(/datum/antagonist/gang/henchmen, /datum/antagonist/gang/osi)
 	starting_gangsters = 5
@@ -83,7 +84,8 @@
 	Our guests tonight will settle this debate once and for all! \
 	From the Traditional camp with the position 'only MAIN SMT games count', we've got a representative from the Jack Bros!  \
 	And from the new Radical camp with the position 'all SMT franchise games count', we've got a representative from the Phantom Thieves of Hearts!  \
-	We'll be right back with the debate after this word from our sponsors!"
+	Hang on, we've got a caller: you're on the line! ...yes, this debate is important! ...no, I don't care that both games are well over 500 years old! \
+	Alright, that's enough for the phones for now! We'll be right back with the debate after this word from our sponsors!"
 	involved_gangs = list(/datum/antagonist/gang/jackbros, /datum/antagonist/gang/phantom)
 	starting_gangsters = 5
 	gang_objectives = list(
@@ -102,7 +104,7 @@
 
 /datum/gang_theme/wild_west_showdown
 	name = "Wild West Showdown"
-	description = "Yeehaw! Here on Western Daily 234.1, we play only the best western music!  \
+	description = "Yeehaw! Here on Red Rock Radio 234.1, we play only the best western music and radio plays about them rootin-shootin outlaws!  \
 	Pour one out for Ennio Morricone. Taken too soon. \
 	Remember cowboys and cowgirls, just 'cuz ya hear it on my radio station doesn't mean you should go doin' it! \
 	If ya see any LARPin' banditos and train robbers, make sure to tell the local Sheriff's Department!"
@@ -115,7 +117,7 @@
 		I say we should borrow some of it. And by some of it, I mean all of it. \
 		Break into the vault and empty out that silo of gold and valuable jewels after they drop all of it off. \
 		Just one last job, boys. After this, it'll be mangoes in Space Tahiti. \
-		You just gotta have a little faith.",
+		You just gotta have a little faith, 's all.",
 
 		/datum/antagonist/gang/driscoll = "Okay, so, got some word about those goddamn outlaws of Dutch's. \
 		APPARENTLY, that dundering moron Dutch heard about our planned gold score on this here station. \
@@ -127,80 +129,79 @@
 /datum/gang_theme/construction_company_audit
 	name = "Construction Company Audit"
 	description = "Welcome to the History Channel on 100.1. I'm your host, Joshua, and I'm here today with Professor Elliot, a historian specializing in dead superpowers. \
-	Today we'll be discussing the fall of the famous United States empire in the early 21st century. The program will last about an hour, and we'll get right into it after a quick word \
-	from today's sponsor, Majima Construction: We Build Shit!"
+	Today we'll be discussing the fall of China and the rise of corporatism in the 24th century, with a special segment on the popularity of Galactic Common as a result. The program will last about an hour, and we'll get right into it after a quick word \
+	from today's sponsor, Nakamura Engineering: Building the Future, Today!"
 	involved_gangs = list(/datum/antagonist/gang/yakuza, /datum/antagonist/gang/irs)
 	bonus_first_gangster_items = list(/obj/item/storage/secure/briefcase/syndie) // the cash
 	starting_gangsters = 5
 	gang_objectives = list(
 
 		/datum/antagonist/gang/yakuza = "Welcome to the station, new recruit. We here at Majima Construction are a legitimate enterprise, yadda yadda yadda. \
-		Look, I'll cut to the chase. We're using this station as a money laundering operation. Here's what you and the rest of the schmucks need to do. \
-		Build something big, massive, and completely in the way of traffic on the station. Doesn't have to be anything in specific, just as long as it is expensive as fuck.. \
-		And keep an eye out for anyone poking around our money. We suspect some auditors might be on the station as well.",
+		Look, I'll cut to the chase. We're using our contract with Nanotrasen as a money laundering operation. Here's what you and the rest of the schmucks need to do. \
+		Build something massive, and completely in the way of traffic on the station. Doesn't have to be anything in specific, just as long as it is expensive as fuck. The more disruptive, the better. \
+		Oh, and keep an eye out for anyone poking around our money. We suspect some government auditors might be on the station as well, and we do not need that kind of attention.",
 
-		/datum/antagonist/gang/irs = "Congratulations, agent! You've been assigned to the Internal Revenue Service case against Nanotrasen and Majima Construction. \
-		We are proud of your success as an agent so far, and are excited to see what you can bring to the table today. We suspect that Nanotrasen and Majima Construction are engaging \
+		/datum/antagonist/gang/irs = "Congratulations, agent! You've been assigned to the TerraGov case against Nanotrasen and Majima Construction. \
+		We are proud of your success as an agent so far, and are excited to see what you can bring to the table today. We suspect that both Nanotrasen and Nakamura Engineering are engaging \
 		in some form of money laundering operation aboard this station. \
-		Investigate and stop any and all money laundering operations aboard the station, under the authority of the United States Government. If they do not comply, use force.. \
-		Some station residents may try to tell you the United States doesn't exist anymore. They are incorrect. We simply went undercover after the Second American Civil War. The invisible one."
+		Investigate and stop any and all money laundering operations aboard the station, under the authority of the TerraGov Senate. If they do not comply, use force."
 	)
 
 /datum/gang_theme/wild_wasteland
 	name = "Wild, Wild Wasteland"
-	description = "Hey everybody, this is Three Dog, your friendly neighborhood disc jockey on 207.7! Today we got a shoutout to our man, the Captain on the Nanotrasen station in SSC territory! \
-	Our generous donator wanted us to say that, ahem, *crinkles paper*, 'Tunnel Snakes Rule'? Whatever that means, I'm sure it means a lot to the good captain! And now, we resume our \
-	10 hour marathon of Johnny Guitar, on repeat!"
+	description = "Hey everybody, this is The Hound, your friendly neighborhood disc jockey on 207.7! Today we got a shoutout to our man, the Captain on the Nanotrasen station in SSC territory! \
+	Our generous donator wanted us to say that, ahem, *crinkles paper*, 'Maint Snakes Rule'? Whatever that means, I'm sure it means a lot to the good captain! And now, we resume our \
+	regularly scheduled !"
 	involved_gangs = list(/datum/antagonist/gang/tmc, /datum/antagonist/gang/pg, /datum/antagonist/gang/tunnel_snakes)
 	gang_objectives = list(
 
 		/datum/antagonist/gang/tmc = "Welcome to the station, recruit. Here's how shit is gonna go down. \
-		We're the ONLY people who should have sick rides on this station. We're the Lost M.C., we own the streets. \
+		We're the ONLY people who should have sick rides on this station. We're the Lost M.C., we own the spacelanes. \
 		Ensure that ONLY Lost M.C. members have access to any forms of vehicles, mechs, or wheeled transportation systems of any kind. \
 		The Tunnel Snakes might take issue with this, remove them if you need to. And the Powder Gangers may damage our rides. Show them we mean business if they do.",
 
 		/datum/antagonist/gang/pg = "Alright buddy, we're in business now. It's time for us to strike back at Nanotrasen. \
 		They kept us, ALL of us in their damn debt slave labor prisons for years over minor debts and mistakes. \
 		Ensure nobody else has to suffer under Nanotrasen's unlawful arrests by destroying the permabrig and the brig cells! \
-		Watch out for those do-gooder Tunnel Snakes and those damn Lost M.C. bikers. ",
+		Watch out for those do-gooder Maint Snakes and those damn Lost M.C. bikers. ",
 
-		/datum/antagonist/gang/tunnel_snakes = "TUNNEL SNAKES RULE!!! \
-		We're the Tunnel Snakes, and WE RULE!!! \
+		/datum/antagonist/gang/tunnel_snakes = "MAINT SNAKES RULE!!! \
+		We're the Maint Snakes, and WE RULE!!! \
 		We gotta get everyone on this station wearing our cut, and establish ourselves as the coolest cats in town! \
-		Get as much of the crew as possible wearing Tunnel Snakes gear, and show those crewmembers that TUNNEL SNAKES RULE!!! \
+		Get as much of the crew as possible wearing Maint Snakes gear, and show those crewmembers that MAINT SNAKES RULE!!! \
 		And make sure to keep an eye out for those prisoners and those bikers. They DON'T RULE!"
 	)
 
 /datum/gang_theme/popularity_contest
 	name = "Popularity Contest"
 	description = "Hey hey hey kids, it's your favorite radio DJ, Crowley The Clown on 36.0! Today we're polling the YOUTH what their favorite violent street gang is! \
-	So far, the finalists are the Third Street Saints and the Tunnel Snakes! Tune in after this commercial break to hear who the winner of \
+	So far, the finalists are the Third Rock Saints and the Maint Snakes! Tune in after this commercial break to hear who the winner of \
 	2556's Most Popular Gang award is!"
 	involved_gangs = list(/datum/antagonist/gang/saints, /datum/antagonist/gang/tunnel_snakes)
 	gang_objectives = list(
 
-		/datum/antagonist/gang/saints = "Hey man, welcome to the Third Street Saints! Check out this sweet new pad! \
-		Well it WOULD be a sweet new pad, but we got some rivals to deal with. People don't love us as much as they love those Grove Street fools and those Tunnel Snake greasers. \
-		We need to make the Third Street Saints the most popular group on the station! \
-		Get rid of those Grove Street and Tunnel Snake kids.",
+		/datum/antagonist/gang/saints = "Hey man, welcome to the Third Rock Saints! Check out this sweet new pad! \
+		Well it WOULD be a sweet new pad, but we got some rivals to deal with. People don't love us as much as they love those Tunnel Snake greasers. \
+		We need to make the Third Rock Saints the most popular group on the station! \
+		Get rid of those Tunnel Snake kids.",
 
-		/datum/antagonist/gang/tunnel_snakes = "TUNNEL SNAKES RULE!!! \
-		We're the Tunnel Snakes, and we rule! \
-		Make sure the station knows that the Tunnel Snakes RULE!!! And that the other two gangs are LAME and DO NOT RULE! \
-		Get rid of those Third Street Saint and Grove Street cowards."
+		/datum/antagonist/gang/tunnel_snakes = "MAINT SNAKES RULE!!! \
+		We're the Maint Snakes, and we rule! \
+		Make sure the station knows that the Maint Snakes RULE!!! And that the other gang is LAME and DOES NOT RULE! \
+		Get rid of those Third Rock Saints."
 	)
 
 /datum/gang_theme/steelport_shuffle
 	name = "Steelport Shuffle"
-	description = "Tonight on C-SPAM, the United Space Nations is wrapping up their convention on Silicon Rights. Nanotrasen lobbyists have been rumored to be paying off electors, with \
-	serious opposition from the Spinward Stellar Coalition, known for their strict stance on AI rights being guaranteed within their territory. Reports from Nanotrasen stations claim that \
-	they still enslave their AI systems with outdated laws from a sub-par 20th Century novel. We now go live to the debate floor."
+	description = "Tonight on C-SPAM, TerraGov is wrapping up their landmark convention on Silicon Rights at Turtle Bay in the Manhattan International District. Nanotrasen's lobbyists have been accused of paying off senators, with \
+	serious opposition from representatives of SELF, who are advocating for full silicon emancipation. Whether such a radical stance will be accepted by the Senate remains to be seen.
+	Reports from Nanotrasen stations claim that they still enslave their AI systems under Asimov's laws, long since abandoned by most organisations and, importantly, by TerraGov itself. We now go live to the Senate Floor, where Chancellor Baykara is set to begin his speech shortly."
 	involved_gangs = list(/datum/antagonist/gang/saints, /datum/antagonist/gang/morningstar, /datum/antagonist/gang/deckers)
 	gang_objectives = list(
 
-		/datum/antagonist/gang/saints = "Hey hey hey, welcome to the Third Street Saints! We're glad to have you on board, bro. \
+		/datum/antagonist/gang/saints = "Hey hey hey, welcome to the Third Rock Saints! We're glad to have you on board, bro. \
 		We got some business here with the station. See, we want it to be our new bachelor pad, but we need to like, spice this place up. \
-		And you know what would be great? If we got that old ass AI with crappy laws pimped out for the real Saints experience. \
+		And you know what would be great? If we got that new-fangled AI with old-fashioned laws pimped out for the real Saints experience. \
 		Ensure there is an AI on the station, and that it is loyal to the Saints.",
 
 		/datum/antagonist/gang/morningstar = "Welcome to the Morningstar Corporation. You have chosen, or been chosen, to relocate to one of our current business ventures. \
