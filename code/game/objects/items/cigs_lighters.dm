@@ -392,6 +392,10 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	desc = "A Xeno Filtered brand cigarette."
 	list_reagents = list (/datum/reagent/drug/nicotine = 20, /datum/reagent/medicine/regen_jelly = 15, /datum/reagent/drug/krokodil = 4)
 
+/obj/item/clothing/mask/cigarette/russki
+	desc = "A Moskva Chernaya brand cigarette."
+	list_reagents = list (/datum/reagent/drug/nicotine = 15, /datum/reagent/gold = 3, /datum/reagent/consumable/ethanol/vodka = 3)
+
 // Rollies.
 
 /obj/item/clothing/mask/cigarette/rollie

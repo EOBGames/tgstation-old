@@ -193,3 +193,38 @@
 	else
 		return ..()
 
+/obj/machinery/door/poddoor/large
+	icon = 'icons/obj/doors/two_by_one.dmi'
+	icon_state = "closed"
+	name = "large blast door"
+	desc = "A large blast door that opens mechanically."
+	bound_width = 64 // 2x1
+
+/obj/machinery/door/poddoor/large/preopen
+	icon_state = "open"
+	density = FALSE
+	opacity = FALSE
+
+/obj/machinery/door/poddoor/huge
+	icon = 'icons/obj/doors/three_by_one.dmi'
+	icon_state = "closed"
+	name = "huge blast door"
+	desc = "A huge blast door that opens mechanically."
+	bound_width = 96 // 3x1
+
+/obj/machinery/door/poddoor/huge/preopen
+	icon_state = "open"
+	density = FALSE
+	opacity = FALSE
+
+/obj/machinery/door/poddoor/colossal
+	icon = 'icons/obj/doors/four_by_one.dmi'
+	icon_state = "closed"
+	name = "colossal blast door"
+	desc = "A colossal blast door that opens mechanically."
+	bound_width = 128 // 4x1
+
+/obj/machinery/door/poddoor/colossal/preopen
+	icon_state = "open"
+	density = FALSE
+	opacity = FALSE

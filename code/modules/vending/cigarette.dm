@@ -63,3 +63,10 @@
 	if(istype(I, /obj/item/lighter))
 		var/obj/item/lighter/L = I
 		L.set_lit(TRUE)
+
+/obj/machinery/vending/cigarette/russian
+	name = "\improper Moscow Quality Cigarettes"
+	desc = "Best smokes in all galaxy, guaranteed!"
+	initial_language_holder = /datum/language_holder/space_russian
+	product_ads = "Of good quality, make smoke immediately!;Smoking unhealthy for body, yes, but good for soul!;Buy cigarettes already, comrade!"
+	product_slogans = "Best tobacco in whole Union!;Smoke by glorious chairman himself!;Smoke!"

@@ -377,6 +377,13 @@
 	base_icon_state = "shadyjim"
 	spawn_type = /obj/item/clothing/mask/cigarette/rollie/mindbreaker
 
+/obj/item/storage/fancy/cigarettes/cigpack_russki
+	name = "\improper Moskva Chernaya packet"
+	desc = "Almost as black as your lungs."
+	icon_state = "russki"
+	base_icon_state = "russki"
+	spawn_type = /obj/item/clothing/mask/cigarette/russki
+
 /obj/item/storage/fancy/rollingpapers
 	name = "rolling paper pack"
 	desc = "A pack of Nanotrasen brand rolling papers."

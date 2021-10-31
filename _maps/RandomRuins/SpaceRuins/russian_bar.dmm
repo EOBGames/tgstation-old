@@ -1,0 +1,101 @@
+"a" = (/turf/open/space/basic,/area/space)
+"b" = (/obj/structure/chair/sofa/left,/turf/open/floor/mineral/plastitanium/red,/area/space)
+"c" = (/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/wood/parquet,/area/space)
+"d" = (/obj/structure/chair/sofa/corner{dir = 4},/turf/open/floor/mineral/plastitanium/red,/area/space)
+"e" = (/obj/structure/chair/sofa,/turf/open/floor/mineral/plastitanium/red,/area/space)
+"f" = (/obj/structure/railing{dir = 4},/turf/open/floor/vault{desc = "Space tarmac, for space roads."; name = "garage floor"},/area/space)
+"g" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/wood/parquet,/area/space)
+"h" = (/obj/machinery/vending/cigarette{desc = "Best cigarettes in all galaxy, guaranteed!"; initial_language_holder = /datum/language_holder/space_russian; name = "\improper Moscow Quality Cigarettes"},/obj/effect/turf_decal/siding/thinplating/dark{dir = 6},/turf/open/floor/wood/parquet,/area/space)
+"i" = (/obj/structure/railing{dir = 1},/turf/open/floor/iron/stairs/left{dir = 8},/area/space)
+"j" = (/obj/structure/chair/wood{dir = 4},/turf/open/floor/wood/parquet,/area/space)
+"k" = (/obj/effect/turf_decal/siding/white{dir = 8},/turf/open/floor/vault{desc = "Space tarmac, for space roads."; name = "garage floor"},/area/space)
+"l" = (/obj/structure/chair/sofa/corner,/turf/open/floor/mineral/plastitanium/red,/area/space)
+"m" = (/turf/open/floor/wood/parquet,/area/space)
+"n" = (/obj/structure/table/wood,/turf/open/floor/wood/parquet,/area/space)
+"o" = (/obj/effect/decal/hammerandsickle{dir = 4},/turf/open/floor/mineral/plastitanium/red,/area/space)
+"p" = (/turf/closed/wall/mineral/plastitanium/nodiagonal,/area/space)
+"q" = (/obj/effect/turf_decal/siding/thinplating/dark/corner,/obj/effect/turf_decal/siding/thinplating/dark{dir = 9},/turf/open/floor/wood/parquet,/area/space)
+"r" = (/turf/open/floor/vault{desc = "Space tarmac, for space roads."; name = "garage floor"},/area/space)
+"s" = (/obj/structure/railing,/turf/open/floor/iron/stairs/right{dir = 8},/area/space)
+"u" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/turf/open/floor/wood/parquet,/area/space)
+"v" = (/obj/structure/railing/corner{dir = 4},/turf/open/floor/vault{desc = "Space tarmac, for space roads."; name = "garage floor"},/area/space)
+"w" = (/obj/structure/table/wood,/turf/open/floor/mineral/plastitanium/red,/area/space)
+"x" = (/obj/structure/chair/sofa/right{dir = 4},/turf/open/floor/mineral/plastitanium/red,/area/space)
+"y" = (/obj/effect/turf_decal/siding/thinplating/dark/corner{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/turf/open/floor/wood/parquet,/area/space)
+"z" = (/obj/effect/turf_decal/siding/thinplating/dark/corner{dir = 1},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/wood/parquet,/area/space)
+"A" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/turf/open/floor/wood/parquet,/area/space)
+"B" = (/turf/open/floor/mineral/plastitanium/red,/area/space)
+"C" = (/obj/structure/chair/sofa/left{dir = 1},/turf/open/floor/mineral/plastitanium/red,/area/space)
+"D" = (/obj/effect/turf_decal/siding/thinplating/dark,/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/wood/parquet,/area/space)
+"E" = (/obj/structure/showcase/russian_car,/turf/open/floor/vault{desc = "Space tarmac, for space roads."; name = "garage floor"},/area/space)
+"F" = (/turf/open/floor/iron/smooth,/area/space)
+"G" = (/obj/effect/turf_decal/siding/thinplating/dark/corner{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark{dir = 5},/turf/open/floor/wood/parquet,/area/space)
+"I" = (/obj/structure/chair/wood{dir = 8},/turf/open/floor/wood/parquet,/area/space)
+"L" = (/obj/structure/showcase/machinery/jukebox/russian,/turf/open/floor/mineral/plastitanium/red,/area/space)
+"M" = (/obj/structure/chair/sofa/left{dir = 8},/turf/open/floor/mineral/plastitanium/red,/area/space)
+"N" = (/obj/structure/table/reinforced/plastitaniumglass,/turf/open/space/basic,/area/space)
+"O" = (/obj/structure/chair/sofa/right,/turf/open/floor/mineral/plastitanium/red,/area/space)
+"P" = (/obj/structure/railing/corner,/turf/open/floor/vault{desc = "Space tarmac, for space roads."; name = "garage floor"},/area/space)
+"Q" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 5},/turf/open/floor/wood/parquet,/area/space)
+"R" = (/obj/machinery/door/airlock/maintenance/external{name = "Garage"},/turf/open/floor/iron/smooth,/area/space)
+"S" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/wood/parquet,/area/space)
+"T" = (/obj/structure/chair/sofa/right{dir = 1},/turf/open/floor/mineral/plastitanium/red,/area/space)
+"U" = (/obj/effect/turf_decal/siding/thinplating/dark/corner{dir = 4},/turf/open/floor/wood/parquet,/area/space)
+"V" = (/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,/turf/open/space/basic,/area/space)
+"W" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 10},/turf/open/floor/wood/parquet,/area/space)
+"X" = (/obj/effect/turf_decal/siding/white{dir = 4},/turf/open/floor/vault{desc = "Space tarmac, for space roads."; name = "garage floor"},/area/space)
+"Y" = (/obj/structure/table/reinforced/plastitaniumglass,/turf/open/floor/mineral/plastitanium,/area/space)
+"Z" = (/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/wood/parquet,/area/space)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaapppppppaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaapdeeelpaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaapxwwwMpppaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaappappqDDDGObVaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaapNaaYABBBgwwVaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaapNaaYABBBgCTVaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaYABoBgBLpaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaapNaaYABBBgObVaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaapNaaYABBBgwwVaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaappappySSSzCTVaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaapBBBpujnIUQpppaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaBBBBBujnImZBBBaaaaaaaaaaaaaaaaaa
+aaaaaaaapppppppppppBBBpWcccchpppaaaaaaaaaaaaaaaaaa
+aaaaaaapprkXrrrkXrppRpppVVVVppaaaaaaaaaaaaaaaaaaaa
+aaaaaaaprrkXrrrkXrfFFFpaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaprrkXrrrkXrfFFFpaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaprEkXrrEkXrviFFpaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaprrkXrrrkXrPsFFpaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaapprkXrprkXrpppppaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaprkXrprkXrpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaprkXrprkXrpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaprkXrprkXrpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaprkXrprkXrpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaprkXrprkXrpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

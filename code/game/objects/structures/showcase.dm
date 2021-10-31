@@ -39,6 +39,12 @@
 	icon = 'icons/obj/machines/cloning.dmi'
 	icon_state = "pod_g" // Please don't delete it and not notice it for months this time.
 
+/obj/structure/showcase/russian_car
+	name = "\improper Steinhardt-Mainz F-Class"
+	desc = "The finest in German luxury spacecars, as frequently used by corpo cats, celebrities, and mobsters. Especially mobsters."
+	icon = 'icons/obj/car.dmi'
+	icon_state = "mob_car"
+
 /obj/structure/showcase/machinery/oldpod
 	name = "damaged cryogenic pod"
 	desc = "A damaged cryogenic pod long since lost to time, including its former occupant..."
