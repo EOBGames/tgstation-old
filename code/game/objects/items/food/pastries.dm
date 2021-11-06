@@ -155,6 +155,34 @@
 	tastes = list("donut" = 3, "fizzy tutti frutti" = 1,)
 	is_decorated = TRUE
 
+/obj/item/food/donut/apple_fritter
+	name = "apple fritter"
+	desc = "Goes great with a cup of cinnamon coffee."
+	icon_state = "donut_fritter"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/applejuice = 3, /datum/reagent/consumable/sugar = 3)
+	tastes = list("donut" = 3, "apple" = 1, "cinnamon" = 1)
+
+/obj/item/food/donut/dutchie
+	name = "hollander donut"
+	desc = "Goes great with a mug of medium roast."
+	icon_state = "donut_dutchie"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 3)
+	tastes = list("donut" = 3, "raisins" = 1)
+
+/obj/item/food/donut/maple
+	name = "maple-dip donut"
+	desc = "Goes great with a mug of maple latte."
+	icon_state = "donut_maple"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 3)
+	tastes = list("donut" = 3, "maple" = 1)
+
+/obj/item/food/donut/honey_cruller
+	name = "honey cruller"
+	desc = "Goes great with a glass of honey."
+	icon_state = "donut_cruller"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/honey = 3)
+	tastes = list("donut" = 3, "honey" = 1)
+
 //////////////////////JELLY DONUTS/////////////////////////
 
 /obj/item/food/donut/jelly
@@ -904,5 +932,33 @@
 	icon_state = "icecream_cone_chocolate"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/coco = 1)
 	ingredients = list(/datum/reagent/consumable/flour, /datum/reagent/consumable/sugar, /datum/reagent/consumable/coco)
+
+/obj/item/food/croissant
+	name = "croissant"
+	desc = "A classic French pastry made with flour, sugar, yeast, and enough butter to clog every artery in your body."
+	icon_state = "croissant"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/sugar = 2)
+	tastes = list("buttery pastry" = 1)
+
+/obj/item/food/croquignole
+	name = "croquignole"
+	desc = "A Quebecois pastry, similar to a donut, made with maple and butter."
+	icon_state = "croquignole"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 4)
+	tastes = list("cinnamon" = 1, "pastry" = 1, "maple" = 1)
+
+/obj/item/food/chocolatine
+	name = "chocolatine"
+	desc = "Also known as pain-au-chocolat, the chocolatine is similar to a croissant, but with a chocolate core."
+	icon_state = "chocolatine"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 2, /datum/reagent/consumable/coco = 2)
+	tastes = list("buttery pastry" = 1, "chocolate" = 1)
+
+/obj/item/food/rocky_road
+	name = "rocky road"
+	desc = "More popular than the high road or the low road."
+	icon_state = "rocky_road"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/sugar = 6, /datum/reagent/consumable/coco = 2)
+	tastes = list("chocolate" = 1, "fruit" = 1, "nuts" = 1, "biscuit" = 1, "marshmallow" = 1)
 
 #undef DONUT_SPRINKLE_CHANCE
