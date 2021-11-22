@@ -2656,3 +2656,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	if(prophet_trauma)
 		QDEL_NULL(prophet_trauma)
 	return ..()
+
+/datum/reagent/consumable/cool_edge
+	name = "Cool Edge"
+	description = "A summer cocktail popular at bars along the Minosk coast, the Cool Edge marries sulat, alcohol, and sugar in a basic yet refreshing beverage."

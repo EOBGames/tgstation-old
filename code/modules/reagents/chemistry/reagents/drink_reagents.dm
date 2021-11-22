@@ -1043,3 +1043,53 @@
 		M.adjustOxyLoss(-0.5 * REM * delta_time, 0)
 	..()
 	. = TRUE
+
+/datum/reagent/consumable/princess_iced_tea
+	name = "Princess Iced Tea"
+	description = "An unofficial drink of Zagoskeld, princess iced tea is made with imported peaches as well as berry juice and korta nectar."
+	color = "#FFB0DF" // rgb: 16, 16, 0
+	nutriment_factor = 0
+	taste_description = "peach tea"
+	glass_icon_state = "princess_iced_tea"
+	glass_name = "glass of princess iced tea"
+	glass_desc = "A drink that makes you long for a throne."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/korta_sulat
+	name = "Korta-Roast Sulat"
+	description = "A coffee-like drink produced from roasting Sulat Nuts, sulat is popular across Tizira as a morning beverage. Korta, or gold roast, is the most common roast colour, and produces a balanced drink."
+	color = "#482000" // rgb: 72, 32, 0
+	nutriment_factor = 0
+	overdose_threshold = 80
+	taste_description = "nutty bitterness"
+	glass_icon_state = "glass_brown"
+	glass_name = "glass of korta-roast sulat"
+	glass_desc = "Mmm, just like egg-mother used to brew it."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	glass_price = DRINK_PRICE_STOCK
+
+/datum/reagent/consumable/dark_sulat
+	name = "Dark-Roast Sulat"
+	description = "A coffee-like drink produced from roasting Sulat Nuts, sulat is popular across Tizira as a morning beverage. Dark roast is the second most popular roast, and delivers a strong sweetness due to caramelisation of sugars within the nuts making it a typical choice for dessert drinks."
+	color = "#482000" // rgb: 72, 32, 0
+	nutriment_factor = 0
+	overdose_threshold = 80
+	taste_description = "nutty sweetness"
+	glass_icon_state = "glass_brown"
+	glass_name = "glass of dark-roast sulat"
+	glass_desc = "Mmm, just like egg-mother used to brew it."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	glass_price = DRINK_PRICE_STOCK
+
+/datum/reagent/consumable/shoko_sulat
+	name = "Shoko-Sulat"
+	description = "Chocolate made waves across Tizira following its introduction after the Human-Lizard wars, finding its way into many desserts and drinks- including sulat."
+	color = "#482000" // rgb: 72, 32, 0
+	nutriment_factor = 0
+	overdose_threshold = 80
+	taste_description = "chocolate nuts"
+	glass_icon_state = "glass_brown"
+	glass_name = "glass of shoko-sulat"
+	glass_desc = "The flavours of chocolate and dark-roast, beautifully entwined."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	glass_price = DRINK_PRICE_STOCK

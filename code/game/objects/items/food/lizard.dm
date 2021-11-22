@@ -604,7 +604,7 @@
 	foodtypes = MEAT | GROSS
 	w_class = WEIGHT_CLASS_SMALL
 
-//LIZARD FOOD 2
+//LIZARD FOOD 2: SON OF LIZARD FOOD
 /obj/item/food/blackened_mudfish
 	name = "blackened mudfish"
 	desc = "The simplest (and arguably best) way to cook mudfish: coat it in spices, and cook it on a grill."
@@ -616,7 +616,7 @@
 
 /obj/item/food/armorfish_boil
 	name = "boiled armorfish"
-	desc = "Armorfish boiled with the shell on in a tasty broth. Are you a true Lowlander, or are you a pretender? It's all in how you eat this."
+	desc = "Armorfish boiled with the shell on in a tasty broth. Are you a true Lowlander, or are you a pretender? It's all in how you eat this." //True lowlanders eat the shell, too
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "armorfish_boil"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
@@ -767,6 +767,124 @@
 	tastes = list("meat" = 1, "potatoes" = 1, "spices" = 1, "sacza" = 1)
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/eggs_imperiaux
+	name = "eggs impériaux"
+	desc = "Invented at the Imperial Hotel in Klareka Bay, eggs impériaux started as a frequent request made by a crown prince, who would sneak out to the hotel for lunch when he bored of court politics. After he ascended to the throne, he granted an Imperial warrant to the hotel, who added the dish to their permanent menu."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "eggs_imperiaux"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("steak" = 1, "toast" = 1, "eggs" = 1, "mushrooms" = 1, "cream" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/bisque_de_soldat
+	name = "bisque de soldat"
+	desc = "Another invention of the Imperial Hotel, bisque de soldat, or soldier's bisque, is based upon camp soup recipes from the Tiziran army, but with the refined French style typical of the Imperial."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "bisque_de_soldat"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("fish" = 1, "vegetables" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/scallops_tizirique
+	name = "scallops tizirique"
+	desc = "The final dish created by Chef Patil-Dansat of the Imperial Hotel prior to his young and tragic death in a skiing accident, scallops tizirique are simply seared then served with a wine-and-squid-ink reduction. The dish is named for Tizira, makes good use of both human and lizard cooking techniques, and has come to be used as a symbol of human-lizard unity by activists, as Dansat would have wanted."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "scallops_tizirique"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("scallops" = 1, "squid ink" = 1, "wine" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/traka_tolorisk
+	name = "traka tolorisk"
+	desc = "Traka tolorisk, or 'priest's pockets' in Galactic Common, are small dumplings made of nizaya dough, similar to Italian ravioli or German maultasche. Fillings vary- near the coast fish is a common choice, though inland frequently other meats or even vegetarian versions are popular. The name's origin is unknown, lost to the sands of time."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "traka_tolorisk"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("fish" = 1, "dough" = 1, "herbs" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/berry_puffs
+	name = "berry puffs"
+	desc = "A popular treat in the fruit-growing regions of Valynga, berry puffs are made from almost every type of berry, and have a light, crisp texture, similar to meringue."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "berry_puffs"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("berries" = 1, "sugar" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/minosk_sun_carpaccio
+	name = "\improper Minosk sun carpaccio"
+	desc = "The Minosk, or 'lesser sea', is Tizira's smallest ocean. In addition, it falls almost entirely within the tropical regions of the planet, making it particularly warm and giving it appeal as a tourist destination. This carpaccio is a favourite at resorts along its sunkissed shores, using fresh fish caught daily from its warm, crystal clear waters."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "minosk_sun_carpaccio"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("fish" = 1, "oil" = 1, "vinegar" = 1, "seasonings" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/winter_palace_pavlova
+	name = "winter palace pavlova"
+	desc = "A dessert showcasing the sweet best of the Tiziran winter, as frequently served at the Szrada Merakorum- the Winter Palace- to the royal family and their guests, especially at their lavish soirees in the Solstice Gardens."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "winter_palace_pavlova"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("berries" = 1, "korta nectar" = 1, "apple" = 1, "cinnamon" = 1, "pear" = 1, "plum" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/tiziran_sweet_tea_fancies
+	name = "\improper Tiziran sweet tea fancies"
+	desc = "As with all members of high society, the Tiziran upper class regularly amuses itself with fetes and galas- including the ubiquitous garden party. Typically at these gatherings light snacks are served, including the tea fancy- a general title for small sweet amuse-bouches intended to be eaten alongside mushroom tea."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "tiziran_sweet_tea_fancies"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("berries" = 1, "sugar" = 1, "cake" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/tiziran_savoury_tea_fancies
+	name = "\improper Tiziran savoury tea fancies"
+	desc = "Much like their sweet counterpart, the savoury tea fancy is a common sight at garden parties throughout Tizira's high society. Unlike their sweet counterpart, however, savoury tea fancies tend to be more varied and less one-dimensional."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "tiziran_savoury_tea_fancies"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("meat" = 1, "rootbread" = 1, "vegetables" = 1, "sauce" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/silverscale_sable
+	name = "mysterious sable biscuit"
+	desc = "A Tiziran sable biscuit with a mysterious symbol baked into it, and silver leaf tucked into the details."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "silverscale_sable"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("biscuit" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/sword_biscuits
+	name = "pelasert biscuits"
+	desc = "Named for their sword-like shape, pelasert biscuits are a common sight in bakeries across Zagoskeld, and the whole of the Tiziran old world. Typically they receive a dusting of sugar, although some may also be iced."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "sword_biscuits"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("biscuit" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/shooters_pie
+	name = "shooter's pie"
+	desc = "A favourite of game hunters on Tizira, the Shooter's Pie is made with wild game from the hunt, set in gelatine with a boiled egg in the centre, and is typically eaten cold while on the next hunt."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "shooters_pie"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("game" = 1, "pastry" = 1, "egg" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/herb_jelly
+	name = "herb jelly"
+	desc = "A savoury spreadable jelly made from herbs and seasonings set in vinegar and gelatine. Due to its fairly neutral flavour it's used as an accompaniment to many roast meats, as well as many other dishes."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "herb_jelly"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("herbs" = 1, "spices" = 1, "vinegar" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+//Preserved food, direct from Tizira, and with many brands
 /obj/item/food/jarred_heritage_geckos
 	name = "jar of Amovar brand pickled heritage geckos"
 	desc = "As monkeys are to humans, the so-called Heritage Geckos are to lizards. They're also tasty, and keep well once they're pickled."
@@ -787,7 +905,7 @@
 
 /obj/item/food/canned/potted_zagosk_crab
 	name = "\improper Blue Horizons brand potted Zagosk crab with tomato sauce"
-	desc = "Crab meat, tomato sauce, fine oil, garlic, seasonings. Simple and delicious, and perfect on rootbread as a quick breakfast."
+	desc = "Crab meat, tomato sauce, fine oil, garlic, seasonings. Simple and delicious, and perfect on roottoast as a quick breakfast."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "potted_zagosk_crab"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
@@ -803,11 +921,11 @@
 	tastes = list("sweet cinnamon" = 1, "bitter tonic" = 1)
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/canned/canned_clot
-	name = "\improper Smiling Soldier brand canned clot"
-	desc = "Seasoned clotted blood in a can. Made with seraka extract, for 'consistent clotting'. Apparently, no other brand clots it better. Is that meant to be good or bad?"
+/obj/item/food/canned/jarred_clot
+	name = "\improper Smiling Soldier brand jarred clot"
+	desc = "Seasoned clotted blood in a jar for spreading on roottoast. Made with seraka extract, for 'consistent clotting'. Apparently, no other brand clots it better. Is that meant to be good or bad?"
 	icon = 'icons/obj/food/lizard.dmi'
-	icon_state = "canned_clot"
+	icon_state = "jarred_clot"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
 	tastes = list("blood" = 1, "seasonings" = 1)
 	w_class = WEIGHT_CLASS_SMALL
@@ -822,7 +940,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/jellyfish_jerky
-	name = "\improper Zagoskeld Fisheries brand air-dried jellyfish"
+	name = "\improper Zagoskeld Fisheries brand air-dried jellyfish jerky"
 	desc = "Air dried jellyfish jerky. It's got a lovely mix of bell and stingers."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "jellyfish_jerky"
@@ -832,7 +950,7 @@
 
 /obj/item/food/canned/salted_pinchbugs
 	name = "\improper Dael-Paeska brand salted pinchbugs"
-	desc = "Little stinging insects found frequently around water, pinchbugs are reviled by lizards when they're alive, and cherished as a salty snack by them when they're dead."
+	desc = "Little stinging insects found frequently around water in Tizira's swamps, pinchbugs are reviled by lizards when they're alive, and cherished as a salty snack by them when they're dead."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "salted_pinchbugs"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
