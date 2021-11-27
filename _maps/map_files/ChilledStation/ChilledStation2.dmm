@@ -2211,7 +2211,6 @@
 /area/space)
 "agp" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
@@ -3341,7 +3340,6 @@
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/freezer/kitchen,
-/obj/effect/spawner/lootdrop/donkpockets,
 /turf/open/floor/iron/cafeteria,
 /area/space)
 "ajY" = (
@@ -3544,7 +3542,6 @@
 /area/space)
 "akw" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/maintenance/three,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/space)
@@ -4535,10 +4532,10 @@
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/space)
 "anC" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/donkpockets,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/obj/structure/chair/sofa/bench/left{
+	dir = 4
+	},
+/turf/open/space/basic,
 /area/space)
 "anD" = (
 /obj/structure/flora/junglebush,
@@ -4946,7 +4943,6 @@
 /area/space)
 "aoR" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
-/obj/item/reagent_containers/food/drinks/beer/light,
 /turf/open/floor/plating,
 /area/space)
 "aoS" = (
@@ -8006,18 +8002,10 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/nitrogen_input,
 /turf/open/floor/engine/n2,
 /area/space)
-"aBo" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste,
-/obj/effect/turf_decal/stripes/box,
-/turf/open/space/basic,
-/area/maintenance/disposal/incinerator)
 "aBp" = (
 /turf/closed/indestructible/rock/snow,
 /area/space)
 "aBt" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste{
-	dir = 4
-	},
 /obj/effect/turf_decal/stripes/box,
 /turf/open/space/basic,
 /area/maintenance/disposal/incinerator)
@@ -8045,10 +8033,6 @@
 	dir = 4;
 	id = "incineratorturbine"
 	},
-/turf/open/floor/iron/dark,
-/area/maintenance/disposal/incinerator)
-"aBC" = (
-/obj/machinery/atmospherics/components/unary/tank/toxins,
 /turf/open/floor/iron/dark,
 /area/maintenance/disposal/incinerator)
 "aBD" = (
@@ -8492,12 +8476,6 @@
 "aFe" = (
 /turf/open/floor/engine/plasma,
 /area/space)
-"aFf" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/toxin_input{
-	dir = 4
-	},
-/turf/open/floor/engine/plasma,
-/area/space)
 "aFh" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -8543,14 +8521,7 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/courtroom)
-"aFI" = (
-/obj/machinery/portable_atmospherics/canister/toxins,
-/turf/open/floor/engine/plasma,
-/area/space)
 "aFJ" = (
-/obj/machinery/computer/atmos_control/tank/toxin_tank{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
@@ -8589,12 +8560,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/courtroom)
-"aFY" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/toxin_output{
-	dir = 4
-	},
-/turf/open/floor/engine/plasma,
-/area/space)
 "aFZ" = (
 /obj/machinery/chem_master/condimaster,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
@@ -9778,7 +9743,6 @@
 /turf/open/floor/iron/dark,
 /area/security/warden)
 "aPw" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "engiengine";
 	name = "Engineering Shielding Blast Door"
@@ -11914,21 +11878,6 @@
 /obj/structure/statue/sandstone/assistant,
 /turf/open/floor/iron/dark,
 /area/space)
-"aXj" = (
-/obj/structure/table/reinforced,
-/obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/security/brig/upper)
 "aXk" = (
 /obj/structure/chair{
 	dir = 4
@@ -13915,22 +13864,6 @@
 /obj/structure/table,
 /turf/open/floor/iron/dark,
 /area/space)
-"fcY" = (
-/obj/structure/table/reinforced,
-/obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/space)
 "fdy" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -14627,11 +14560,6 @@
 /obj/item/stack/cable_coil,
 /turf/open/floor/plating,
 /area/space)
-"hrn" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/space)
 "hva" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/weather/snow/corner{
@@ -14665,7 +14593,6 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "hHO" = (
-/obj/machinery/portable_atmospherics/canister/toxins,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
 /area/space)
@@ -15416,7 +15343,6 @@
 	},
 /obj/effect/turf_decal/tile/yellow,
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/donkpockets,
 /turf/open/floor/iron,
 /area/space)
 "keL" = (
@@ -16452,10 +16378,6 @@
 	dir = 4
 	},
 /area/space)
-"nsP" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
-/turf/open/floor/plating,
-/area/space)
 "nuw" = (
 /obj/structure/sign/warning/electricshock{
 	pixel_y = 32
@@ -16542,10 +16464,6 @@
 /turf/open/space/basic,
 /area/space)
 "nUH" = (
-/obj/structure/window/plasma/reinforced{
-	dir = 4
-	},
-/obj/machinery/power/rad_collector/anchored,
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -16698,7 +16616,6 @@
 /turf/open/floor/iron/freezer,
 /area/space)
 "oiZ" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "atmosengine";
 	name = "Atmospherics Shielding Blast Door"
@@ -17871,10 +17788,6 @@
 /turf/open/floor/carpet/blue,
 /area/space)
 "svt" = (
-/obj/structure/window/plasma/reinforced{
-	dir = 8
-	},
-/obj/machinery/power/rad_collector/anchored,
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -19497,11 +19410,6 @@
 	dir = 4
 	},
 /area/space)
-"xna" = (
-/obj/structure/table/wood,
-/obj/item/storage/pill_bottle/dice,
-/turf/open/floor/iron/dark,
-/area/space)
 "xoP" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -19668,13 +19576,6 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/royalblue,
-/area/space)
-"xOm" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/reagent_containers/food/drinks/beer/light{
-	pixel_x = 11
-	},
-/turf/open/floor/iron/dark,
 /area/space)
 "xOo" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -29365,7 +29266,7 @@ anY
 anY
 anY
 anY
-anY
+anC
 anY
 anY
 anY
@@ -49746,11 +49647,11 @@ mxE
 wQO
 aIe
 gJl
-nsP
+aQf
 bzA
 bzA
 bzA
-nsP
+aQf
 wWV
 cot
 xxN
@@ -50003,11 +49904,11 @@ mxE
 osa
 aIe
 nav
-nsP
+aQf
 bzA
 bzA
 bzA
-nsP
+aQf
 wzr
 xxN
 xxN
@@ -50260,11 +50161,11 @@ mxE
 mxE
 mxE
 xdU
-nsP
+aQf
 bzA
 bzA
 bzA
-nsP
+aQf
 gpD
 xxN
 xxN
@@ -50517,11 +50418,11 @@ mxE
 wQO
 aIe
 gJl
-nsP
+aQf
 bzA
 bzA
 bzA
-nsP
+aQf
 oyI
 lys
 xxN
@@ -50774,11 +50675,11 @@ mxE
 osa
 aIe
 nav
-nsP
+aQf
 bzA
 bzA
 bzA
-nsP
+aQf
 msT
 msT
 xxN
@@ -115286,7 +115187,7 @@ ayf
 ayf
 rkc
 bzA
-nsP
+aQf
 jJm
 jJm
 oCW
@@ -115530,7 +115431,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 opS
 kXW
 vkA
@@ -115543,7 +115444,7 @@ keL
 ayf
 jHk
 bzA
-nsP
+aQf
 kgC
 kgC
 xxN
@@ -115787,11 +115688,11 @@ xxN
 xxN
 xxN
 aPg
-nsP
+aQf
 cbz
 iIf
 iIf
-nsP
+aQf
 iIf
 abx
 iIf
@@ -115800,7 +115701,7 @@ iIf
 jJV
 iNd
 mtJ
-hrn
+aYW
 vfL
 xxN
 xxN
@@ -116044,7 +115945,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 xoP
 onD
 muj
@@ -116057,7 +115958,7 @@ xag
 ayf
 jHk
 bzA
-nsP
+aQf
 ebC
 ebC
 xxN
@@ -116137,7 +116038,7 @@ aFZ
 aJW
 aJW
 aJW
-anC
+anE
 aLd
 bzA
 bzA
@@ -116314,7 +116215,7 @@ ayf
 ayf
 jHk
 bzA
-nsP
+aQf
 jJm
 vXR
 oCW
@@ -118371,7 +118272,7 @@ anY
 anY
 ayf
 dce
-xOm
+eND
 pQB
 ayf
 bzA
@@ -166225,7 +166126,7 @@ xxN
 aVS
 ayf
 aWP
-aXj
+aUr
 aUr
 aYd
 mwV
@@ -172922,7 +172823,7 @@ aLd
 mHc
 xxN
 rJN
-xna
+xVI
 qia
 aLd
 spG
@@ -173879,7 +173780,7 @@ aEe
 aDO
 aJB
 aFe
-aFI
+aFe
 aFe
 aJB
 aHC
@@ -174126,7 +174027,7 @@ anY
 anY
 aJU
 aJU
-aBC
+aCq
 aCq
 aCq
 aLH
@@ -174135,9 +174036,9 @@ aML
 aDO
 aEF
 aJB
-aFf
 aFe
-aFY
+aFe
+aFe
 aJB
 aHE
 aHC
@@ -174381,7 +174282,7 @@ anY
 anY
 anY
 anY
-aBo
+aBt
 aJU
 aAL
 aCq
@@ -174389,19 +174290,19 @@ aCq
 aCM
 aJB
 aJB
-nsP
+aQf
 aJB
 aJB
 aJB
-nsP
+aQf
 aJB
 aJB
 aJB
-nsP
+aQf
 aJB
 aJB
 aJB
-nsP
+aQf
 aJB
 aJB
 anY
@@ -175922,7 +175823,7 @@ aJB
 meW
 aBe
 meW
-nsP
+aQf
 aQf
 awc
 xxN
@@ -176950,7 +176851,7 @@ aJB
 aHI
 aBf
 aHI
-nsP
+aQf
 aQf
 awc
 xxN
@@ -177978,7 +177879,7 @@ aJB
 aHL
 aBg
 aHL
-nsP
+aQf
 aQf
 awc
 xxN
@@ -179523,7 +179424,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 aZq
@@ -179780,7 +179681,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 aZq
@@ -180037,7 +179938,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 aZq
@@ -180809,7 +180710,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 lMO
@@ -180822,7 +180723,7 @@ aOn
 dZl
 aZq
 aZq
-nsP
+aQf
 anY
 aZq
 anY
@@ -181066,7 +180967,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 lMO
@@ -181079,7 +180980,7 @@ aFS
 aGt
 aZq
 aZq
-nsP
+aQf
 anY
 aZq
 anY
@@ -181323,7 +181224,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 lMO
@@ -181336,7 +181237,7 @@ aFS
 aGt
 aZq
 aZq
-nsP
+aQf
 aZq
 aZq
 aZq
@@ -181580,7 +181481,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 lMO
@@ -181593,7 +181494,7 @@ aFS
 aGt
 aZq
 aZq
-nsP
+aQf
 anY
 aZq
 anY
@@ -181837,7 +181738,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 lMO
@@ -181850,7 +181751,7 @@ aOp
 ovX
 aZq
 aZq
-nsP
+aQf
 anY
 aZq
 anY
@@ -182607,7 +182508,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 aZq
@@ -182864,7 +182765,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 aZq
@@ -183121,7 +183022,7 @@ xxN
 xxN
 xxN
 xxN
-nsP
+aQf
 aZq
 aZq
 aZq
@@ -185011,7 +184912,7 @@ kMa
 cWu
 ede
 ayf
-fcY
+rwt
 xXK
 bxc
 xxN
