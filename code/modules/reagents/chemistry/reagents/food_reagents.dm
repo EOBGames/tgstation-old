@@ -945,6 +945,13 @@
 	color = "#fccc98"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/reagent/consumable/mustard
+	name = "Mustard"
+	description = "It may be yellow, but it's certainly not mellow."
+	nutriment_factor = 5 * REAGENTS_METABOLISM
+	color = "#FFDB58" // rgb: 255, 219, 88
+	taste_description = "mustard"
+
 /datum/reagent/consumable/korta_flour
 	name = "Korta Flour"
 	description = "A coarsely ground, peppery flour made from korta nut shells."

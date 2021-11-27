@@ -136,6 +136,10 @@
 	name = "brown corner"
 	color = "#A46106"
 
+/obj/effect/turf_decal/tile/orange
+	name = "orange corner"
+	color = "#E53900"
+
 /obj/effect/turf_decal/tile/brown/half
 	icon_state = "tile_half"
 	name = "brown half"
