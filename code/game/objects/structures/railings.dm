@@ -124,3 +124,13 @@
 
 /obj/structure/railing/proc/after_rotation(mob/user,rotation_type)
 	add_fingerprint(user)
+
+/obj/structure/railing/platform
+	name = "platform edge"
+	desc = "Elevate your position. Elevate your life."
+	icon_state = "platform"
+
+/obj/structure/railing/platform/corner
+	icon_state = "platform_corner"
+	density = FALSE
+	climbable = FALSE

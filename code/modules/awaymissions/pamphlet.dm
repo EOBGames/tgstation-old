@@ -46,3 +46,15 @@
 			As a participant in the Nanotrasen Gateway Project, you will be on the frontiers of space. \
 			Though complete safety is assured, participants are advised to prepare for inhospitable \
 			environs."
+
+/obj/item/paper/pamphlet/chilled
+	name = "pamphlet - \'Welcome to Arctic Post 13\'"
+	info = "Nanotrasen congratulates you on your recent transfer to its latest CHL-class outpost on the Icemoon Freyja, Arctic Post 13! \
+		As you will be spending the next 6 months to 2 years on this station (depending on your specific contract stipulations, please contact your outpost's company represenative for specific details if you require them), we at the Employee Wellbeing Office have seen it fit to issue these pamphlets, which will help guide you around this facility. \
+		If you have collected this pamphlet from the arrivals station, you are presently in Centre Ward. Centre Ward is home to the outpost's services, including the station's bar, cafeteria, library, dormitories, and the Ward's centrepiece: our state of the art botanical garden, a welcome area of respite from the harsh cold outside. With climate control maintaining a balmy tropical environment year-round, it's always a pleasant place to head to when you're finished with your day's work. \
+		Centre Ward is also home to the outpost's command sector and brig, granting a commanding view for both departments over the entirety of the valley outside. Ensure you are acquainted with the Security staff and your superiors. \
+		Lastly, Centre Ward is also home to the Cargo department, who will supply you and your department with requisitions. The Cargo department is located on the upper level. \
+		To the west lies Pedersen Ward. Named for the head of Nanotrasen's Research and Development Division, Pedersen Ward is host to the outpost's Science and Medical Departments, which collectively form the Med-Sci department. Here, you will receive the finest medical care that Nanotrasen offers, with state of the art treatment facilities. \
+		To the east lies Merrick Ward. Named after former Chancellor Johannes Merrick of the TerraGov Senate, who opened the facility, Merrick Ward holds the Engineering Department, who are responsible for keeping the outpost in tip-top condition. Thankfully, we only hire the best. \
+		Additionally in Merrick Ward, there is presently construction undergoing on a new addition to the station, however details of this are presently classified. We hope to bring you more news soon. \
+		So, from all of us at the Employee Wellbeing Office, welcome to your new home! For any further questions, we are available via the company intranet at the following address: employee-wellbeing@nt-internal.net. Enjoy your time on Arctic Post 13!"

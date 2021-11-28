@@ -53,6 +53,53 @@
 		if ("delete")
 			qdel(src)
 
+/obj/structure/closet/emcloset/winter
+	desc = "It's stocked with oxygen and warm jackets."
+
+/obj/structure/closet/emcloset/winter/PopulateContents()
+	..()
+
+	if (prob(40))
+		new /obj/item/storage/toolbox/emergency(src)
+
+	switch (pick_weight(list("small" = 30, "aid" = 25, "tank" = 15, "jackets" = 15, "both" = 10, "nothing" = 4, "delete" = 1)))
+		if ("small")
+			new /obj/item/tank/internals/emergency_oxygen(src)
+			new /obj/item/tank/internals/emergency_oxygen(src)
+			new /obj/item/clothing/mask/breath(src)
+			new /obj/item/clothing/mask/breath(src)
+			new /obj/item/clothing/suit/hooded/wintercoat(src)
+			new /obj/item/clothing/suit/hooded/wintercoat(src)
+
+		if ("aid")
+			new /obj/item/tank/internals/emergency_oxygen(src)
+			new /obj/item/storage/firstaid/emergency(src)
+			new /obj/item/clothing/mask/breath(src)
+
+		if ("tank")
+			new /obj/item/tank/internals/oxygen(src)
+			new /obj/item/clothing/mask/breath(src)
+			new /obj/item/clothing/suit/hooded/wintercoat(src)
+		
+		if ("jackets")
+			new /obj/item/clothing/suit/hooded/wintercoat(src)
+			new /obj/item/clothing/suit/hooded/wintercoat(src)
+			new /obj/item/clothing/suit/hooded/wintercoat(src)
+
+		if ("both")
+			new /obj/item/tank/internals/emergency_oxygen(src)
+			new /obj/item/clothing/mask/breath(src)
+
+		if ("nothing")
+			// doot
+
+		// teehee //Fuck you
+		if ("delete")
+			qdel(src)
+
+/obj/structure/closet/emcloset/winter/anchored
+	anchored = TRUE
+
 /*
  * Fire Closet
  */

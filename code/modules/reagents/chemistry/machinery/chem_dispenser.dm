@@ -523,6 +523,22 @@
 	. = ..()
 	dispensable_reagents |= emagged_reagents //adds emagged reagents
 
+/obj/machinery/chem_dispenser/drinks/diner
+	name = "diner soda fountain"
+	desc = "Has every type of soda a spessman could want."
+	circuit = /obj/item/circuitboard/machine/chem_dispenser/drinks/diner
+	dispensable_reagents = list(
+		/datum/reagent/consumable/ice,
+		/datum/reagent/consumable/icetea,
+		/datum/reagent/consumable/space_cola,
+		/datum/reagent/consumable/spacemountainwind,
+		/datum/reagent/consumable/dr_gibb,
+		/datum/reagent/consumable/space_up,
+		/datum/reagent/consumable/sodawater,
+		/datum/reagent/consumable/pwr_game,
+		/datum/reagent/consumable/shamblers
+	)
+
 /obj/machinery/chem_dispenser/drinks/beer
 	name = "booze dispenser"
 	desc = "Contains a large reservoir of the good stuff."
