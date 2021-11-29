@@ -1,0 +1,35 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"c" = (/obj/structure/shuttle/engine/router,/turf/open/floor/plating,/area/shuttle/arrival)
+"i" = (/obj/effect/turf_decal/siding/white{dir = 4},/obj/structure/chair/sofa/bench/right{dir = 4},/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"l" = (/obj/structure/shuttle/engine/propulsion{dir = 8},/turf/template_noop,/area/shuttle/arrival)
+"q" = (/obj/effect/turf_decal/siding/white{dir = 10},/obj/structure/chair/sofa/bench/right,/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"r" = (/turf/template_noop,/area/shuttle/arrival)
+"u" = (/turf/closed/wall/mineral/titanium,/area/shuttle/arrival)
+"v" = (/obj/structure/shuttle/engine/heater{dir = 8},/obj/structure/window/reinforced/shuttle,/turf/open/floor/plating,/area/shuttle/arrival)
+"w" = (/obj/structure/shuttle/engine/propulsion{dir = 4},/turf/template_noop,/area/shuttle/arrival)
+"y" = (/obj/effect/turf_decal/siding/white{dir = 4},/obj/structure/chair/sofa/bench{dir = 4},/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"z" = (/obj/effect/turf_decal/siding/white{dir = 9},/obj/structure/chair/sofa/bench/left{dir = 1},/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"B" = (/obj/effect/turf_decal/siding/white{dir = 8},/obj/structure/chair/sofa/bench{dir = 8},/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"C" = (/turf/open/floor/mineral/titanium,/area/shuttle/arrival)
+"E" = (/obj/effect/turf_decal/siding/white{dir = 5},/obj/structure/chair/sofa/bench/right{dir = 1},/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"J" = (/obj/effect/turf_decal/siding/white{dir = 1},/obj/structure/chair/sofa/bench{dir = 1},/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"L" = (/obj/effect/turf_decal/siding/white{dir = 6},/obj/structure/chair/sofa/bench/left,/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"N" = (/obj/effect/turf_decal/siding/white,/obj/structure/chair/sofa/bench,/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"P" = (/obj/machinery/door/airlock/shuttle{name = "Arrival Shuttle Airlock"},/turf/open/floor/mineral/titanium,/area/shuttle/arrival)
+"S" = (/obj/structure/window/reinforced/shuttle,/turf/open/floor/plating,/area/shuttle/arrival)
+"T" = (/obj/effect/turf_decal/siding/white{dir = 4},/obj/structure/chair/sofa/bench/left{dir = 4},/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"V" = (/obj/effect/turf_decal/siding/white{dir = 8},/obj/structure/chair/sofa/bench/left{dir = 8},/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"W" = (/obj/structure/shuttle/engine/large{dir = 4},/turf/template_noop,/area/shuttle/arrival)
+"X" = (/obj/effect/turf_decal/siding/white{dir = 8},/obj/structure/chair/sofa/bench/right{dir = 8},/turf/open/floor/mineral/titanium/tiled/yellow,/area/shuttle/arrival)
+"Y" = (/obj/structure/shuttle/engine/heater{dir = 4},/obj/structure/window/reinforced/shuttle,/turf/open/floor/plating,/area/shuttle/arrival)
+"Z" = (/obj/structure/shuttle/engine/large{dir = 8},/turf/template_noop,/area/shuttle/arrival)
+
+(1,1,1) = {"
+auuaaaalcwaaaauua
+rruuPuSSuSSuPuurr
+ZrvTCqNNNNNLCXYWr
+alvyCCCCCCCCCBYwr
+rrviCzJJJJJECVYrr
+ZruuPuSSuSSuPuuWr
+auuaaaalcwaaaauua
+"}
