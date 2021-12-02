@@ -58,3 +58,15 @@
 		To the east lies Merrick Ward. Named after former Chancellor Johannes Merrick of the TerraGov Senate, who opened the facility, Merrick Ward holds the Engineering Department, who are responsible for keeping the outpost in tip-top condition. Thankfully, we only hire the best. \
 		Additionally in Merrick Ward, there is presently construction undergoing on a new addition to the station, however details of this are at this moment classified. We hope to bring you more news soon. \
 		So, from all of us at the Employee Wellbeing Office, welcome to your new home! For any further questions, we are available via the company intranet at the following address: employee-wellbeing@nt-internal.net. Enjoy your time on Arctic Post 13!"
+
+/obj/item/paper/pamphlet/dormitories
+	name = "pamphlet - \'Use of the Communal Dormitories\'"
+	info = "Welcome to the station's communal sleeping facilities. \
+		As we are unable to provide individual accommodation for all employees, we have opted to provide shared rooms. These regulations govern their use. \
+		As a shared space, you will be sharing your room with another employee on the same shift scheduling as you. Individual lockers and beds will be provided, however surfaces are shared. We encourage working with your cohabitant to set boundaries on their use. \
+		Bathroom services are shared- you will find the communal restrooms and showers at the end of your accommodation block. Laundry services are also provided at the opposite end of the block. \
+		Quiet hours are between 11pm and 8am GST. During these times, do not disturb the peace. Any offenders will be reprimanded and sanctions may be placed. \
+		Your room is a no smoking area. If this rule is broken, your pay may be docked to cover cleaning fees. \
+		Cleaning occurs for dayshift rooms at 10am on Monday, and for nightshift rooms at 11pm on Monday. We ask that you vacate your room during this time to ease the burden on custodial staff- although you should be at your assigned shift at these times. The custodial staff will not clean excessive messes, and will report such issues to command. \
+		Breakfast is served at the canteen in shifts. You should have already been made aware of your assigned shift. \
+		Please send any concerns, queries or complaints via the company intranet at the following address: accommodation.ap13@nt-internal.net."
