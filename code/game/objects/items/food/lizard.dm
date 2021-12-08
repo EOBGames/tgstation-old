@@ -877,11 +877,29 @@
 
 /obj/item/food/herb_jelly
 	name = "herb jelly"
-	desc = "A savoury spreadable jelly made from herbs and seasonings set in vinegar and gelatine. Due to its fairly neutral flavour it's used as an accompaniment to many roast meats, as well as many other dishes."
+	desc = "A savoury spreadable jelly made from herbs and seasonings set in vinegar and gelatine. Due to its fairly neutral flavour (barring the herbs, of course) it's used as an accompaniment to many roast meats, as well as many other dishes."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "herb_jelly"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
 	tastes = list("herbs" = 1, "spices" = 1, "vinegar" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/jellied_sea_mouse
+	name = "jellied sea mouse"
+	desc = "One of the strangest meats to grace Tiziran plates (and beyond), the sea mouse is an aquatic invertebrate with a number of large fins- including two that so happen to look like a mouse's ears. Once cooked, it's firm and somewhat spongey, and is traditionally set in jelly and served alongside a meat pie and mashed vegetables, at least in Zagoskeld."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "jellied_sea_mouse"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("seafood" = 1, "jelly" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/zagoskeld_meat_pie
+	name = "\improper Zagoskeld meat pie"
+	desc = "Well braised meat in a korta pastry shell, and topped with a herb sauce. Simple, classic, and tasty."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "zagoskeld_meat_pie"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("meat" = 1, "spiced pastry" = 1, "herbs" = 1)
 	w_class = WEIGHT_CLASS_SMALL
 
 //Preserved food, direct from Tizira, and with many brands
