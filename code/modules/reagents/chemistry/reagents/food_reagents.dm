@@ -1025,3 +1025,10 @@
 	taste_description = "raw batter"
 	color = "#ebca85"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ground_cave_crystal
+	name = "Ground Cave Crystal"
+	description = "Foraged from deep caverns on Sprout, Cave Crystals are famed for their supposed medicinal properties and marvelous capacity for seasoning food."
+	taste_description = "complex saltiness"
+	color = "#FF10F0"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED

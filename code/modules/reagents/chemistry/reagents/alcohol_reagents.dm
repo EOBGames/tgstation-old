@@ -2791,3 +2791,126 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_name = "Tich Toch"
 	glass_desc = "Oh god."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//Ethereal Drinks
+// These drinks contain 24-volt energy: liquid electricity, so these are ethereal exclusive (unless you're *very* brave)
+/datum/reagent/consumable/ethanol/shocker //24 volt energy, ethanol, liquid electricity, citric acid
+	name = "Shocker"
+	description = "Wakes you up like a kick to the face."
+	boozepwr = 80
+	color = "#0892d0"
+	quality = DRINK_NICE
+	taste_description = "sour vim and vigour"
+	glass_icon_state = "shocker"
+	glass_name = "Shocker"
+	glass_desc = "It'll give you the get up and go you need to do all the pathetic things you have to do."
+
+/datum/reagent/consumable/ethanol/stardust_speedway //24 volt energy, turbo, patron, glowstick juice
+	name = "Stardust Speedway"
+	description = "Sparkling in more ways than one."
+	boozepwr = 30
+	color = "#F000F0"
+	quality = DRINK_NICE
+	taste_description = "a bad future"
+	glass_icon_state = "stardust_speedway"
+	glass_name = "Stardust Speedway"
+	glass_desc = "Hit it and turn it up!"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/spin_cycle //24 volt energy, grenadine, hooch, lime juice
+	name = "Spin Cycle"
+	description = "Round and round the bottle goes... but where will it stop?"
+	boozepwr = 80
+	color = "#380080"
+	quality = DRINK_NICE
+	taste_description = "rotation"
+	glass_icon_state = "spin_cycle"
+	glass_name = "Spin Cycle"
+	glass_desc = "One sip and the world will spin."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/murasaki_no_kiku //yuyake, 24-volt-energy, blessing tea
+	name = "Murasaki no Kiku"
+	description = "An oddly tranquil name for an energising beverage."
+	boozepwr = 25
+	color = "#F5DEB3" // rgb: 102, 67, 0
+	quality = DRINK_NICE
+	taste_description = "a samurai's vigour"
+	glass_icon_state = "murasaki_no_kiku"
+	glass_name = "Murasaki no Kiku"
+	glass_desc = "Sit amongst the blooms\nDrink deeply from the vessel\nEarn newfound vigor"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+// Non-ethereals need some love, too, so I added some Japanese-inspired drinks because I bought TW: Shogun 2 recently
+/datum/reagent/consumable/ethanol/yuyake //you know midori? well, green sucks, we want red instead!
+	name = "Yūyake"
+	description = "A vibrant red melon liqueur made for mixing."
+	boozepwr = 25
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "melon"
+	glass_icon_state = "yuyake"
+	glass_name = "glass of yūyake"
+	glass_desc = "It's the sweetest sunset you know."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/yuyakita //lime juice, yuyake, tequila (yes, someone really did order this with midori. no, it is not good.)
+	name = "Yūyakita"
+	description = "A hell unleashed on the world by an unnamed patron."
+	boozepwr = 45
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "sour death"
+	glass_icon_state = "yuyakita"
+	glass_name = "Yūyakita"
+	glass_desc = "And I looked, and behold a pale horse: and his name that sat on him was Death, and Hell followed with him."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/saibasan //sake, yuyake, cherry, triple citrus (no particular inspiration on this one, just wanted something Cybersun related while on the topic of Japanese spirits)
+	name = "Saibāsan"
+	description = "A drink named after Nanotrasen's biggest competitor- it's probably not wise to drink this in front of your employer, but you will anyway."
+	boozepwr = 45
+	color = "#FF160C"
+	quality = DRINK_NICE
+	taste_description = "betrayal"
+	glass_icon_state = "saibasan"
+	glass_name = "Saibāsan"
+	glass_desc = "A drink made in honour of Cybersun Industries' 600th year of continual business, and banned on Nanotrasen stations."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/banzaiti //yuyake, triple sec, gin, rum, tequila, vodka, triple citrus, soda water (christ there are a lot of ingredients in a long island iced tea)
+	name = "Banzaitī"
+	description = "To long life, and good health! To live ten thousand years!"
+	boozepwr = 45
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "betrayal"
+	glass_icon_state = "saibasan"
+	glass_name = "Banzaitī"
+	glass_desc = "A drink to last ten-thousand years- better sip slowly then."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/sanraizusoda //yuyake, soda water, cream, ice (like a boozy Japanese cream soda)
+	name = "Sanraizusōda"
+	description = "An alcoholic twist on a childhood classic."
+	boozepwr = 15
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "creamy melon"
+	glass_icon_state = "sanraizusoda"
+	glass_name = "Sanraizusōda"
+	glass_desc = "A popular children's dessert from Japan, made adult with the addition of booze. Kanpai!"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+// And just because it's fun, the Zapp Brannigan Martini
+/datum/reagent/consumable/ethanol/zapp_brannigan_martini //vodka, champagne, grenadine, yeah fuck you it's not really a martini because no vermouth, I don't give a fuck! FUCK THE RULES! ANARCHY NOW! BLOOD FOR THE BLOOD GOD!
+	name = "Zapp Brannigan Martini"
+	description = "Made with champagne, and goes down softly as velour."
+	boozepwr = 35
+	color = "#9A013E"
+	quality = DRINK_NICE
+	taste_description = "cham-paggin"
+	glass_icon_state = "zapp_brannigan_martini"
+	glass_name = "Zapp Brannigan Martini"
+	glass_desc = "One day, a man has everything. Then the next day, he blows up a billion dollar space station. And then the next day, he has nothing. Makes you think." //how fitting for this game, huh? it's like it was made for it.
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
