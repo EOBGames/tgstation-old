@@ -2791,3 +2791,52 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_name = "Tich Toch"
 	glass_desc = "Oh god."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+// Lizard Food 2: Son of Lizardfood
+/datum/reagent/consumable/ethanol/heritage_sacza
+	name = "Heritage Sacza"
+	description = "The simplest of all sacza varieties, Heritage Sacza has strict limits placed on its ingredients and quality by the Ministry of Food Standards, allowing only four ingredients: anobar wood (and bark), anobar leaves, spring water, and yeast."
+	boozepwr = 35
+	color = "#bbd9b4"
+	quality = DRINK_VERYGOOD
+	taste_description = "cinnamon and tonic water"
+	glass_icon_state = "heritage_sacza"
+	glass_name = "glass of heritage sacza"
+	glass_desc = "Sacza made as the ancestors made it."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/pelata_sacza
+	name = "Pelata Sacza"
+	description = "Pelata is the Tiziran name for iron, and much like it, Pelata Sacza is made for war. Typically used in the past as a drink intended to last a long time, it's stronger and more heavy on the anobar leaf than regular sacza, and is still popular even long after its military use has become defunct."
+	boozepwr = 45
+	color = "#bbd9b4"
+	quality = DRINK_VERYGOOD
+	taste_description = "strong tonic water"
+	glass_icon_state = "pelata_sacza"
+	glass_name = "glass of pelata sacza"
+	glass_desc = "A drink that used to fuel warriors in years gone by, now enjoyed mostly by middle-aged men who've hardly held a rifle. Funny how times change."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/_sacza
+	name = "Pelata Sacza"
+	description = "Pelata is the Tiziran name for iron, and much like it, Pelata Sacza is made for war. Typically used in the past as a drink intended to last a long time, it's stronger and more heavy on the anobar leaf than regular sacza, and is still popular even long after its military use has become defunct."
+	boozepwr = 45
+	color = "#bbd9b4"
+	quality = DRINK_VERYGOOD
+	taste_description = "strong tonic water"
+	glass_icon_state = "pelata_sacza"
+	glass_name = "glass of pelata sacza"
+	glass_desc = "A drink that used to fuel warriors in years gone by, now enjoyed mostly by middle-aged men who've hardly held a rifle. Funny how times change."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/el_tizisk
+	name = "El Tizisk"
+	description = "Translating to water of life, El Tizisk is a strong spirit made from mountain grasses and meltwater in the foothills of Tizira's largest mountain range (and only there). It's then infused with botanicals and flowers, making a strongly perfumed liquor enjoyed galaxywide."
+	boozepwr = 75
+	color = "#d8e8f0"
+	quality = DRINK_GOOD
+	taste_description = "flowers and herbs"
+	glass_icon_state = "el_tizisk"
+	glass_name = "glass of el tizisk"
+	glass_desc = "A flowery, herby liquor from the foothills of Tizira's mountains."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED

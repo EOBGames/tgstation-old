@@ -603,3 +603,375 @@
 	tastes = list("sweet bugs" = 1)
 	foodtypes = MEAT | GROSS
 	w_class = WEIGHT_CLASS_SMALL
+
+//LIZARD FOOD 2: SON OF LIZARD FOOD
+/obj/item/food/blackened_mudfish
+	name = "blackened mudfish"
+	desc = "The simplest (and arguably best) way to cook mudfish: coat it in spices, and cook it on a grill."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "blackened_mudfish"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("fish" = 1, "spices" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/armorfish_boil
+	name = "boiled armorfish"
+	desc = "Armorfish boiled with the shell on in a tasty broth. Are you a true Lowlander, or are you a pretender? It's all in how you eat this." //True lowlanders eat the shell, too
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "armorfish_boil"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("armorfish" = 1, "spices" = 1)
+	w_class = WEIGHT_CLASS_TINY
+
+/obj/item/food/swamp_roots
+	name = "swamp roots"
+	desc = "A crispy fry-up of root vegetables with sausage and veggies. As tasty as its name is horrible."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "swamp_roots"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("potatoes" = 1, "peppers" = 1, "spicy sausage" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/barbecue_nizaya
+	name = "barbecue nizaya"
+	desc = "Nizaya pasta topped off with slices of brisket, fried onions, and barbecue sauce."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "barbecue_nizaya"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("gnocchi" = 1, "fried onions" = 1, "barbecue brisket" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/raw_tilotozisk_sausage
+	name = "raw Tilotozisk sausage"
+	desc = "An offal sausage made from tripe, onions, herbs and seasonings, and most importantly kas'sa wine, typical of the city of Tilotoz."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "raw_tilotozisk_sausage"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("spicy sausage" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/smoked_tilotozisk_sausage
+	name = "smoked Tilotozisk sausage"
+	desc = "An offal sausage made from tripe, onions, herbs, seasonings, kas'sa wine, and most importantly, smoked to perfection."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "smoked_tilotozisk_sausage"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("spicy sausage" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/bloodbug_cuts
+	name = "bloodbug cuts"
+	desc = "On Tizira, giant bloodbugs are not allowed to be sold as meat due to being disease vectors. Fortunately, you're not on Tizira."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "bloodbug_cuts"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("blood" = 1, "bug" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/armorfish_sandwich
+	name = "armorfish Pauper's Respite sandwich"
+	desc = "A Pauper's Respite sandwich, loaded up with fried armorfish, mayonnaise, bacon, and veggies."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "armorfish_sandwich"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("bread" = 1, "fried armorfish" = 1, "mayo" = 1, "bacon" = 1, "salad" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/tilo_sausage_sandwich
+	name = "sausage hash Pauper's Respite sandwich"
+	desc = "A Pauper's Respite sandwich, loaded up with sausage hash, barbecue sauce, bacon, a fried egg, and veggies."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "tilo_sausage_sandwich"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("bread" = 1, "spicy sausage" = 1, "potatoes" = 1, "bbq sauce" = 1, "bacon" = 1, "egg" = 1, "salad" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/roast_pork_sandwich
+	name = "roast pork Pauper's Respite sandwich"
+	desc = "A Pauper's Respite sandwich, loaded up with roast pork, mustard, bacon, cheese, and pickles."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "roast_pork_sandwich"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("bread" = 1, "pork" = 1, "bacon" = 1, "mustard" = 1, "cheese" = 1, "pickles" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/baked_anobar_wood
+	name = "baked anobar wood"
+	desc = "Anobar wood, baked to soften it off- it's got a texture roughly similar to silken tofu."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "baked_anobar_wood"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("sweet cinnamon" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/butcher_pie
+	name = "butcher's pie"
+	desc = "Similar to shepard's pie or cottage pie, butcher's pie is made with chop, mixed with some seasoning and vegetables, then topped off with mashed root vegetables and baked."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "butcher_pie"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("meat" = 1, "gravy" = 1, "onion" = 1, "potato" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/badlands_beans
+	name = "badlands beans"
+	desc = "Baked beans with barbecue meat and fried onions, then cooked down to a thick syrupy sauce."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "badlands_beans"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("brisket" = 1, "beans" = 1, "fried onions" = 1, "barbecue sauce" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/chop_stew
+	name = "chop stew"
+	desc = "Chop (a corruption of the Draconic, Kopp) is a euphemistic term for the lowest quality cuts of meat available. While edible and safe to eat, they need particular attention to become decent food, like putting them in a big old stew."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "chop_stew"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("meat" = 1, "tomato" = 1, "garlic" = 1, "chilli heat" = 1, "red sauce" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/badlands_goat_roast
+	name = "badlands goat roast"
+	desc = "A whole goat, organs and fur removed, rubbed down with seasoning and roasted to perfection. Served with drippin's for dippin'."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "badlands_goat_roast"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("goat" = 1, "spices" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/royal_tajine
+	name = "renazisk tajine"
+	desc = "Made with tsatzloatl, as is traditional in the deserts of the East."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "royal_tajine"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("turkey" = 1, "warm spices" = 1, "dried fruit" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/sacza_stewed_bones
+	name = "sacza stewed bones"
+	desc = "Bones stewed in a spicy sacza sauce, with tender and juicy bone marrow. An old inn favourite that's still common in saczerias across Tizira."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "sacza_stewed_bones"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("sacza" = 1, "bone marrow" = 1, "spices" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/student_mess
+	name = "student mess"
+	desc = "A campus favourite due to its cheap ingredients, student mess is typically made with whatever meat's lying around the dormitory, alongside spices, root vegetables, and sacza."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "student_mess"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("meat" = 1, "potatoes" = 1, "spices" = 1, "sacza" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/eggs_imperiaux
+	name = "eggs impériaux"
+	desc = "Invented at the Imperial Hotel in Klareka Bay, eggs impériaux started as a frequent request made by a crown prince, who would sneak out to the hotel for lunch when he bored of court politics. After he ascended to the throne, he granted an Imperial warrant to the hotel, who added the dish to their permanent menu."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "eggs_imperiaux"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("steak" = 1, "toast" = 1, "eggs" = 1, "mushrooms" = 1, "cream" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/bisque_de_soldat
+	name = "bisque de soldat"
+	desc = "Another invention of the Imperial Hotel, bisque de soldat, or soldier's bisque, is based upon camp soup recipes from the Tiziran army, but with the refined French style typical of the Imperial."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "bisque_de_soldat"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("fish" = 1, "vegetables" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/scallops_tizirique
+	name = "scallops tizirique"
+	desc = "The final dish created by Chef Patil-Dansat of the Imperial Hotel prior to his young and tragic death in a skiing accident, scallops tizirique are simply seared then served with a wine-and-squid-ink reduction. The dish is named for Tizira, makes good use of both human and lizard cooking techniques, and has come to be used as a symbol of human-lizard unity by activists, as Dansat would have wanted."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "scallops_tizirique"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("scallops" = 1, "squid ink" = 1, "wine" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/traka_tolorisk
+	name = "traka tolorisk"
+	desc = "Traka tolorisk, or 'priest's pockets' in Galactic Common, are small dumplings made of nizaya dough, similar to Italian ravioli or German maultasche. Fillings vary- near the coast fish is a common choice, though inland frequently other meats or even vegetarian versions are popular. The name's origin is unknown, lost to the sands of time."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "traka_tolorisk"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("fish" = 1, "dough" = 1, "herbs" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/berry_puffs
+	name = "berry puffs"
+	desc = "A popular treat in the fruit-growing regions of Valynga, berry puffs are made from almost every type of berry, and have a light, crisp texture, similar to meringue."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "berry_puffs"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("berries" = 1, "sugar" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/minosk_sun_carpaccio
+	name = "\improper Minosk sun carpaccio"
+	desc = "The Minosk, or 'lesser sea', is Tizira's smallest ocean. In addition, it falls almost entirely within the tropical regions of the planet, making it particularly warm and giving it appeal as a tourist destination. This carpaccio is a favourite at resorts along its sunkissed shores, using fresh fish caught daily from its warm, crystal clear waters."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "minosk_sun_carpaccio"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("fish" = 1, "oil" = 1, "vinegar" = 1, "seasonings" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/winter_palace_pavlova
+	name = "winter palace pavlova"
+	desc = "A dessert showcasing the sweet best of the Tiziran winter, as frequently served at the Szrada Merakorum- the Winter Palace- to the royal family and their guests, especially at their lavish soirees in the Solstice Gardens."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "winter_palace_pavlova"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("berries" = 1, "korta nectar" = 1, "apple" = 1, "cinnamon" = 1, "pear" = 1, "plum" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/tiziran_sweet_tea_fancies
+	name = "\improper Tiziran sweet tea fancies"
+	desc = "As with all members of high society, the Tiziran upper class regularly amuses itself with fetes and galas- including the ubiquitous garden party. Typically at these gatherings light snacks are served, including the tea fancy- a general title for small sweet amuse-bouches intended to be eaten alongside mushroom tea."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "tiziran_sweet_tea_fancies"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("berries" = 1, "sugar" = 1, "cake" = 1, "chocolate" = 1, "biscuits" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/tiziran_savoury_tea_fancies
+	name = "\improper Tiziran savoury tea fancies"
+	desc = "Much like their sweet counterpart, the savoury tea fancy is a common sight at garden parties throughout Tizira's high society. Unlike their sweet counterpart, however, savoury tea fancies tend to be more varied and less one-dimensional."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "tiziran_savoury_tea_fancies"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("meat" = 1, "rootbread" = 1, "fish" = 1, "vegetables" = 1, "mushroom" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/silverscale_sable
+	name = "mysterious sable biscuit"
+	desc = "A Tiziran sable biscuit with a mysterious symbol baked into it, and silver leaf tucked into the details."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "silverscale_sable"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("biscuit" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/sword_biscuits
+	name = "pelaskert biscuits"
+	desc = "Named for their sword-like shape, pelaskert biscuits are a common sight in bakeries across Zagoskeld, and the whole of the Tiziran old world. Typically they receive a dusting of sugar, although some may also be iced."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "sword_biscuits"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("biscuit" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/shooters_pie
+	name = "shooter's pie"
+	desc = "A favourite of game hunters on Tizira, the Shooter's Pie is made with wild game from the hunt, set in gelatine with a boiled egg in the centre, and is typically eaten cold while on the next hunt."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "shooters_pie"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("game" = 1, "pastry" = 1, "egg" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/herb_jelly
+	name = "herb jelly"
+	desc = "A savoury spreadable jelly made from herbs and seasonings set in vinegar and gelatine. Due to its fairly neutral flavour (barring the herbs, of course) it's used as an accompaniment to many roast meats, as well as many other dishes."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "herb_jelly"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("herbs" = 1, "spices" = 1, "vinegar" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/jellied_sea_mouse
+	name = "jellied sea mouse"
+	desc = "One of the strangest meats to grace Tiziran plates (and beyond), the sea mouse is an aquatic invertebrate with a number of large fins- including two that so happen to look like a mouse's ears. Once cooked, it's firm and somewhat spongey, and is traditionally set in jelly and served alongside a meat pie and mashed vegetables, at least in Zagoskeld."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "jellied_sea_mouse"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("seafood" = 1, "jelly" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/zagoskeld_meat_pie
+	name = "\improper Zagoskeld meat pie"
+	desc = "Well braised meat in a thick korta pastry shell, and topped with a herb sauce. Simple, classic, and tasty."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "zagoskeld_meat_pie"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("meat" = 1, "spiced pastry" = 1, "herbs" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+//Preserved food, direct from Tizira, and with many brands
+/obj/item/food/jarred_heritage_geckos
+	name = "jar of Amovar brand pickled heritage geckos"
+	desc = "As monkeys are to humans, the so-called Heritage Geckos are to lizards. They're also tasty, and keep well once they're pickled."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "jarred_heritage_geckos"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("lizards" = 1, "vinegar" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/canned/candied_sand_crickets
+	name = "\improper Fruits of the Desert brand candied sand crickets"
+	desc = "Crickets, candied thoroughly, then rolled in cocoa powder. Bittersweet, yet satisfying."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "candied_sand_crickets"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("bugs" = 1, "sugar" = 1, "cocoa" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/canned/potted_zagosk_crab
+	name = "\improper Blue Horizons brand potted Zagosk crab with tomato sauce"
+	desc = "Crab meat, tomato sauce, fine oil, garlic, seasonings. Simple and delicious, and perfect on roottoast as a quick breakfast."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "potted_zagosk_crab"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("crab" = 1, "tomato" = 1, "seasonings" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/canned/anobar_jelly
+	name = "\improper Razida brand anobar jelly"
+	desc = "An odd jam made from anobar trees and honey. Remember: Razida anobar jelly: a full tree in every jar!"
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "anobar_jelly"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("sweet cinnamon" = 1, "bitter tonic" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/canned/jarred_clot
+	name = "\improper Smiling Soldier brand jarred clot"
+	desc = "Seasoned clotted blood in a jar for spreading on roottoast. Made with seraka extract, for 'consistent clotting'. Apparently, no other brand clots it better. Is that meant to be good or bad?"
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "jarred_clot"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("blood" = 1, "seasonings" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/canned/assorted_pickled_offal
+	name = "\improper Finest Quality brand assorted pickled offal"
+	desc = "Oh god."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "assorted_pickled_offal"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("jellified organs" = 1, "acid" = 1, "'meat'" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/jellyfish_jerky
+	name = "\improper Zagoskeld Fisheries brand air-dried jellyfish jerky"
+	desc = "Air dried jellyfish jerky. It's got a lovely mix of bell and stingers."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "jellyfish_jerky"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("jellyfish" = 1, "spices" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/canned/salted_pinchbugs
+	name = "\improper Dael-Paeska brand salted pinchbugs"
+	desc = "Little stinging insects found frequently around water in Tizira's swamps, pinchbugs are reviled by lizards when they're alive, and cherished as a salty snack by them when they're dead."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "salted_pinchbugs"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4, /datum/reagent/consumable/honey = 2)
+	tastes = list("bugs" = 1, "salt" = 1)
+	w_class = WEIGHT_CLASS_SMALL
+
