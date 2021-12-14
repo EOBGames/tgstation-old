@@ -2817,16 +2817,16 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "A drink that used to fuel warriors in years gone by, now enjoyed mostly by middle-aged men who've hardly held a rifle. Funny how times change."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-/datum/reagent/consumable/ethanol/_sacza
-	name = "Pelata Sacza"
-	description = "Pelata is the Tiziran name for iron, and much like it, Pelata Sacza is made for war. Typically used in the past as a drink intended to last a long time, it's stronger and more heavy on the anobar leaf than regular sacza, and is still popular even long after its military use has become defunct."
+/datum/reagent/consumable/ethanol/mourning_sacza
+	name = "Mourning Sacza"
+	description = "A mournful sacza made for the Festival of Mourning, the day directly following the Festival of Atrakor's Might. It's fortified with herbs and spices common to the season."
 	boozepwr = 45
 	color = "#bbd9b4"
 	quality = DRINK_VERYGOOD
-	taste_description = "strong tonic water"
-	glass_icon_state = "pelata_sacza"
-	glass_name = "glass of pelata sacza"
-	glass_desc = "A drink that used to fuel warriors in years gone by, now enjoyed mostly by middle-aged men who've hardly held a rifle. Funny how times change."
+	taste_description = "winter spices and tonic water"
+	glass_icon_state = "mourning_sacza"
+	glass_name = "glass of mourning sacza"
+	glass_desc = "A herbed, spiced drink normally enjoyed (and poured onto ancestors' bones) during the Festival of Mourning- while the holiday's meaning is mostly forgotten, traditions still continue, and the ossuaries still run green with sacza every first winter's day."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/el_tizisk
