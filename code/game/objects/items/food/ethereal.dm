@@ -9,7 +9,7 @@
 	tastes = list("fake apple" = 2, "electricity" = 1, "extreme sourness" = 1)
 
 /obj/item/food/shock_rocks/cherry
-	name = "\improper Cherry Crackle Shok-Roks"
+	name = "\improper Electric Cherry Shok-Roks"
 	desc = "Tastes about as close to real cherries as spray cheese does to fine cheddar."
 	tastes = list("fake cherry" = 2, "electricity" = 1, "extreme sourness" = 1)
 
@@ -26,4 +26,4 @@
 /obj/item/food/zistors
 	name = "\improper Zistors gel candy"
 	desc = "GET A TASTE OF THE COSMOS WITH ZISTORS: CANDY THAT'S OUT OF THIS UNIVERSE!!"
-	tastes = list("stardust(?)" = 2, "electricity" = 1, "extreme sourness" = 1)
+	tastes = list("the cosmos" = 2, "electricity" = 1)
