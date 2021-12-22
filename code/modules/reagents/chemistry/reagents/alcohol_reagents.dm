@@ -2841,67 +2841,6 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "Sit amongst the blooms\nDrink deeply from the vessel\nEarn newfound vigor"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-// Non-ethereals need some love, too, so I added some Japanese-inspired drinks because I bought TW: Shogun 2 recently
-/datum/reagent/consumable/ethanol/yuyake //you know midori? well, green sucks, we want red instead!
-	name = "Yūyake"
-	description = "A vibrant red melon liqueur made for mixing."
-	boozepwr = 25
-	color = "#FD5E53"
-	quality = DRINK_NICE
-	taste_description = "melon"
-	glass_icon_state = "yuyake"
-	glass_name = "glass of yūyake"
-	glass_desc = "It's the sweetest sunset you know."
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-
-/datum/reagent/consumable/ethanol/yuyakita //lime juice, yuyake, tequila (yes, someone really did order this with midori. no, it is not good.)
-	name = "Yūyakita"
-	description = "A hell unleashed on the world by an unnamed patron."
-	boozepwr = 45
-	color = "#FD5E53"
-	quality = DRINK_NICE
-	taste_description = "sour death"
-	glass_icon_state = "yuyakita"
-	glass_name = "Yūyakita"
-	glass_desc = "And I looked, and behold a pale horse: and his name that sat on him was Death, and Hell followed with him."
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-
-/datum/reagent/consumable/ethanol/saibasan //sake, yuyake, cherry, triple citrus (no particular inspiration on this one, just wanted something Cybersun related while on the topic of Japanese spirits)
-	name = "Saibāsan"
-	description = "A drink named after Nanotrasen's biggest competitor- it's probably not wise to drink this in front of your employer, but you will anyway."
-	boozepwr = 45
-	color = "#FF160C"
-	quality = DRINK_NICE
-	taste_description = "betrayal"
-	glass_icon_state = "saibasan"
-	glass_name = "Saibāsan"
-	glass_desc = "A drink made in honour of Cybersun Industries' 600th year of continual business, and banned on Nanotrasen stations."
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-
-/datum/reagent/consumable/ethanol/banzaiti //yuyake, triple sec, gin, rum, tequila, vodka, triple citrus, soda water (christ there are a lot of ingredients in a long island iced tea)
-	name = "Banzaitī"
-	description = "To long life, and good health! To live ten thousand years!"
-	boozepwr = 45
-	color = "#FD5E53"
-	quality = DRINK_NICE
-	taste_description = "betrayal"
-	glass_icon_state = "saibasan"
-	glass_name = "Banzaitī"
-	glass_desc = "A drink to last ten-thousand years- better sip slowly then."
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-
-/datum/reagent/consumable/ethanol/sanraizusoda //yuyake, soda water, cream, ice (like a boozy Japanese cream soda)
-	name = "Sanraizusōda"
-	description = "An alcoholic twist on a childhood classic."
-	boozepwr = 15
-	color = "#FD5E53"
-	quality = DRINK_NICE
-	taste_description = "creamy melon"
-	glass_icon_state = "sanraizusoda"
-	glass_name = "Sanraizusōda"
-	glass_desc = "A popular children's dessert from Japan, made adult with the addition of booze. Kanpai!"
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-
 // And just because it's fun, the Zapp Brannigan Martini
 /datum/reagent/consumable/ethanol/zapp_brannigan_martini //vodka, champagne, grenadine, yeah fuck you it's not really a martini because no vermouth, I don't give a fuck! FUCK THE RULES! ANARCHY NOW! BLOOD FOR THE BLOOD GOD!
 	name = "Zapp Brannigan Martini"
