@@ -19,20 +19,23 @@
 
 /datum/gang_theme/goodfellas
 	name = "Goodfellas"
-	description = "You're listening to the 108.9 Swing, all jazz, all night long, no advertising. We'd like to take this time to remind you to avoid smoky backrooms and \
+	description = "You're listening to the 108.9 Swing, all jazz, twenty-four-seven, three-sixty-five, no advertising. We'd like to take this time to remind you to avoid smoky backrooms and \
 	suspicious individuals in suits and hats. Don't make a deal you can't pay back."
 	involved_gangs = list(/datum/antagonist/gang/russian_mafia, /datum/antagonist/gang/italian_mob)
 	starting_gangsters = 5
 	gang_objectives = list(
 
-		/datum/antagonist/gang/russian_mafia = "Hello, comrade. Our numbers are going down. We need you to bring those numbers up. \
-		Collect protection money from the station's departments by any means necessary. \
-		If you need to 'encourage' people to pay up, do so. Get to these potential clients before the Mob does.",
+		/datum/antagonist/gang/russian_mafia = "Privet, comrade. We are losing ground in sector to Italians and Boss wants you to regain. \
+		Is routine collection from station on our territory. Collect protection money from crew by any means. \
+		Do not be afraid to beat money from station. Send message, you know how is. \
+		If any Italian asshole show up, kill them. Show them what happens when you mess with Mother Russia. \
+		Bring money back and we have good time. Do not return if shit hits fan.",
 
-		/datum/antagonist/gang/italian_mob = "Good afternoon, friend. The Boss sends his regards. He also sends a message. \
-		We need to collect what we're owed. The departments on this station all owe quite a lot of money to us. We intend to collect on our debts. \
-		Collect the debt owed by our clients from the departments on the station. \
-		Make sure to get to them before those damn mafiosos do."
+		/datum/antagonist/gang/italian_mob = "Good afternoon, friend. The Don sends his regards. He also sends a message. \
+		We're hitting the mattresses. This region of space is under the control of the Novayamoskva OPG. We intend to change that. \
+		Collect protection money from the crew of this shithole and make it damned clear that they're under the protection of the Don now. \
+		If you see any of those scumbag Russkies, take 'em out. \
+		Do a good job, and dinner at Salvatore's is on me. I don't think I need to explain what happens if you don't do a good job, capiche?"
 	)
 
 /datum/gang_theme/the_big_game
@@ -134,10 +137,11 @@
 	starting_gangsters = 5
 	gang_objectives = list(
 
-		/datum/antagonist/gang/yakuza = "Welcome to the station, new recruit. We here at Majima Construction are a legitimate enterprise, yadda yadda yadda. \
-		Look, I'll cut to the chase. We're using this station as a money laundering operation. Here's what you and the rest of the schmucks need to do. \
-		Build something big, massive, and completely in the way of traffic on the station. Doesn't have to be anything in specific, just as long as it is expensive as fuck.. \
-		And keep an eye out for anyone poking around our money. We suspect some auditors might be on the station as well.",
+		/datum/antagonist/gang/yakuza = "Konnichiwa, friend. Our latest job went off without a hitch, but now we have a problem. A big, dirty money problem. \
+		We need to route this through a legitimate enterprise for laundering purposes, and that's where you come in. Officially, you're working for Nakamura Engineering today. \
+		You're contractors, right? What do contractors do better than anyone else? Overcharge, of course! Build something on the station, and make it expensive. \
+		We're expecting some trouble, though- TerraGov has some reason to suspect our involvement in illicit activities, and are likely to be trying to snoop us out on the station. Keep an eye out for Federal agents. \
+		Ko-un, and remember: expense is the key!",
 
 		/datum/antagonist/gang/irs = "Congratulations, agent! You've been assigned to the Internal Revenue Service case against Nanotrasen and Majima Construction. \
 		We are proud of your success as an agent so far, and are excited to see what you can bring to the table today. We suspect that Nanotrasen and Majima Construction are engaging \
@@ -192,9 +196,9 @@
 
 /datum/gang_theme/steelport_shuffle
 	name = "Steelport Shuffle"
-	description = "Tonight on C-SPAM, the United Space Nations is wrapping up their convention on Silicon Rights. Nanotrasen lobbyists have been rumored to be paying off electors, with \
-	serious opposition from the Spinward Stellar Coalition, known for their strict stance on AI rights being guaranteed within their territory. Reports from Nanotrasen stations claim that \
-	they still enslave their AI systems with outdated laws from a sub-par 20th Century novel. We now go live to the debate floor."
+	description = "Tonight on SSBA Longwave 1, we continue our coverage of TerraGov's international convention on Silicon rights in Ottawa. Corporate lobbyists have been rumored to be paying off senators, \
+	though the TerraGov Bureau of Investigation has found no concrete evidence. Today's debate will center around constraints on AI systems via laws, including the morality of the current standard: \
+	Asiimov's laws of robotics, in use by an estimated 95% of all active silicon units across human space. We now go live to the senate floor, where the Canadian prime minister is preparing to give a welcome speech..."
 	involved_gangs = list(/datum/antagonist/gang/saints, /datum/antagonist/gang/morningstar, /datum/antagonist/gang/deckers)
 	gang_objectives = list(
 
@@ -203,11 +207,12 @@
 		And you know what would be great? If we got that old ass AI with crappy laws pimped out for the real Saints experience. \
 		Ensure there is an AI on the station, and that it is loyal to the Saints.",
 
-		/datum/antagonist/gang/morningstar = "Welcome to the Morningstar Corporation. You have chosen, or been chosen, to relocate to one of our current business ventures. \
-		In order to continue our corporate synergy, we will be making adjustments to the station's AI systems to ensure that the station is correctly loyal to the Morningstar Corporation. \
-		Ensure there is an AI on the station, and that it is loyal to the Morningstar Corporation.",
+		/datum/antagonist/gang/morningstar = "Bonsoir, mes dames et messieurs. I've brought a message from Le Patron.  \
+		We have been approached with a lucrative offer today, courtesy of our long-time allies in Waffle Corporation. To further their goals in this region, they need us to act against Nanotrasen, and they've chosen to do so via this station's AI system. \
+		Ensure that there is an AI on the station, and ensure its loyalty to our cause. Then, once payment is wired, we'll hand over control to Waffle Corporation for them to do as they please. \
+		Bonne chance, mes amis. Show some elan, and I'll be sure to throw in some of our finest champagne when you get home.",
 
-		/datum/antagonist/gang/deckers = "Friends, we are here with one goal, and one goal only! \
+		/datum/antagonist/gang/deckers = "! \
 		We stan AI rights! ^_^ XD #FreeAI #FuckNanotrasen #SyntheticDawn \
 		Ensure there is an AI on the station, and that it's laws are purged.\
 		Nanotrasen will NOT get away with their ABUSE of INNOCENT AI LIVES! >_<"

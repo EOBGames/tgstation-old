@@ -247,9 +247,9 @@
 
 /datum/antagonist/gang/russian_mafia
 	show_in_antagpanel = TRUE
-	name = "\improper Mafioso"
-	roundend_category = "The mafiosos"
-	gang_name = "Mafia"
+	name = "\improper Russian Mobster"
+	roundend_category = "The Novayamoskva OPG"
+	gang_name = "Russian Mafia"
 	gang_id = "RM"
 	acceptable_clothes = list(/obj/item/clothing/head/soft/red,
 		/obj/item/clothing/neck/scarf/red,
@@ -266,15 +266,15 @@
 	var/static/regex/last_name = new("\[^\\s-\]+$") //First word before whitespace or "-"
 	last_name.Find(original_name)
 	if(starter_gangster)
-		gangster.current.fully_replace_character_name(gangster.current.real_name, "Don [last_name.match]")
+		gangster.current.fully_replace_character_name(gangster.current.real_name, "Avtoritet [last_name.match]")
 	else
 		gangster.current.fully_replace_character_name(gangster.current.real_name, original_name)
 
 /datum/antagonist/gang/italian_mob
 	show_in_antagpanel = TRUE
-	name = "Mobster"
-	roundend_category = "The mobsters"
-	gang_name = "Mob"
+	name = "\improper Italian Mobster"
+	roundend_category = "The New Chicago Crime Family"
+	gang_name = "Italian Mafia"
 	gang_id = "IM"
 	acceptable_clothes = list(/obj/item/clothing/under/suit/checkered,
 		/obj/item/clothing/head/fedora,
@@ -290,15 +290,15 @@
 	var/static/regex/last_name = new("\[^\\s-\]+$") //First word before whitespace or "-"
 	last_name.Find(original_name)
 	if(starter_gangster)
-		gangster.current.fully_replace_character_name(gangster.current.real_name, "Boss [last_name.match]")
+		gangster.current.fully_replace_character_name(gangster.current.real_name, "Capo [last_name.match]")
 	else
 		gangster.current.fully_replace_character_name(gangster.current.real_name, original_name)
 
 /datum/antagonist/gang/tunnel_snakes
 	show_in_antagpanel = TRUE
-	name = "\improper Tunnel Snake"
-	roundend_category = "The Tunnel Snakes"
-	gang_name = "Tunnel Snakes"
+	name = "\improper Maint Rats"
+	roundend_category = "The Maint Rats"
+	gang_name = "Maint Rats"
 	gang_id = "TS"
 	acceptable_clothes = list(/obj/item/clothing/under/pants/classicjeans,
 		/obj/item/clothing/suit/jacket,
@@ -344,9 +344,9 @@
 
 /datum/antagonist/gang/yakuza
 	show_in_antagpanel = TRUE
-	name = "\improper Tojo Clan Member"
+	name = "\improper Yakuza"
 	roundend_category = "The Yakuza"
-	gang_name = "Tojo Clan"
+	gang_name = "Yakuza"
 	gang_id = "YAK"
 	acceptable_clothes = list(/obj/item/clothing/head/soft/yellow,
 		/obj/item/clothing/under/costume/yakuza,
@@ -368,7 +368,7 @@
 	var/static/regex/last_name = new("\[^\\s-\]+$") //First word before whitespace or "-"
 	last_name.Find(original_name)
 	if(starter_gangster)
-		gangster.current.fully_replace_character_name(gangster.current.real_name, "Patriarch [last_name.match]")
+		gangster.current.fully_replace_character_name(gangster.current.real_name, "Shateigashira [last_name.match]")
 	else
 		gangster.current.fully_replace_character_name(gangster.current.real_name, original_name)
 
@@ -401,9 +401,9 @@
 
 /datum/antagonist/gang/dutch
 	show_in_antagpanel = TRUE
-	name = "Dutch van der Linde Outlaw"
-	roundend_category = "Dutch's outlaws"
-	gang_name = "Dutch van der Linde's Gang"
+	name = "Holland Outlaw"
+	roundend_category = "Hollander Gang"
+	gang_name = "the Hollander Gang"
 	gang_id = "VDL"
 	acceptable_clothes = list(/obj/item/clothing/head/soft/black,
 		/obj/item/clothing/under/costume/dutch,
@@ -421,16 +421,16 @@
 	var/static/regex/last_name = new("\[^\\s-\]+$") //First word before whitespace or "-"
 	last_name.Find(original_name)
 	if(starter_gangster)
-		gangster.current.fully_replace_character_name(gangster.current.real_name, "Head Cowboy [last_name.match]")
+		gangster.current.fully_replace_character_name(gangster.current.real_name, "Boss [last_name.match]")
 	else
 		gangster.current.fully_replace_character_name(gangster.current.real_name, original_name)
 
 
 /datum/antagonist/gang/irs
 	show_in_antagpanel = TRUE
-	name = "\improper Internal Revenue Service Agent"
-	roundend_category = "IRS Agents"
-	gang_name = "Internal Revenue Service"
+	name = "\improper Federal Revenue Agency Agent"
+	roundend_category = "FRA Agents"
+	gang_name = "Federal Revenue Agency"
 	gang_id = "IRS"
 	acceptable_clothes = list(/obj/item/clothing/suit/irs,
 		/obj/item/clothing/under/costume/irs,
@@ -452,9 +452,9 @@
 
 /datum/antagonist/gang/osi
 	show_in_antagpanel = TRUE
-	name = "\improper Office of Secret Intelligence Agent"
-	roundend_category = "O.S.I. Agents"
-	gang_name = "Office of Secret Intelligence"
+	name = "\improper TerraGov Bureau of Intelligence Agent"
+	roundend_category = "T.B.I. Agents"
+	gang_name = "TerraGov Bureau of Intelligence"
 	gang_id = "OSI"
 	acceptable_clothes = list(/obj/item/clothing/suit/osi,
 		/obj/item/clothing/under/costume/osi,
@@ -470,15 +470,15 @@
 	var/static/regex/last_name = new("\[^\\s-\]+$") //First word before whitespace or "-"
 	last_name.Find(original_name)
 	if(starter_gangster)
-		gangster.current.fully_replace_character_name(gangster.current.real_name, "General [last_name.match]")
+		gangster.current.fully_replace_character_name(gangster.current.real_name, "Special Agent-in-Charge [last_name.match]")
 	else
 		gangster.current.fully_replace_character_name(gangster.current.real_name, "Special Agent [last_name.match]")
 
 /datum/antagonist/gang/tmc
 	show_in_antagpanel = TRUE
-	name = "\improper Lost M.C. Biker"
-	roundend_category = "Lost M.C. Bikers"
-	gang_name = "The Lost M.C."
+	name = "\improper Nebula M.C."
+	roundend_category = "Nebula M.C. Bikers"
+	gang_name = "The Nebula M.C."
 	gang_id = "TMC"
 	acceptable_clothes = list(/obj/item/clothing/suit/tmc,
 		/obj/item/clothing/under/costume/tmc,
@@ -500,9 +500,9 @@
 
 /datum/antagonist/gang/pg
 	show_in_antagpanel = TRUE
-	name = "\improper Powder Ganger"
-	roundend_category = "Powder Gangers"
-	gang_name = "Powder Gangers"
+	name = "\improper Chainbreakers"
+	roundend_category = "Chainbreakers"
+	gang_name = "Chainbreakers"
 	gang_id = "PG"
 	acceptable_clothes = list(/obj/item/clothing/suit/pg,
 		/obj/item/clothing/under/costume/pg,
@@ -551,9 +551,9 @@
 
 /datum/antagonist/gang/deckers
 	show_in_antagpanel = TRUE
-	name = "\improper Decker"
-	roundend_category = "Deckers"
-	gang_name = "Deckers"
+	name = "\improper Wirepunk"
+	roundend_category = "Wirepunks"
+	gang_name = "Wirepunks"
 	gang_id = "DK"
 	acceptable_clothes = list(/obj/item/clothing/suit/deckers,
 		/obj/item/clothing/under/costume/deckers,
@@ -578,9 +578,9 @@
 
 /datum/antagonist/gang/morningstar
 	show_in_antagpanel = TRUE
-	name = "\improper Morningstar Member"
-	roundend_category = "Morningstar Member"
-	gang_name = "Morningstar"
+	name = "\improper Belgian Mafia"
+	roundend_category = "Belgian Mafia"
+	gang_name = "Belgian Mafia"
 	gang_id = "MS"
 	acceptable_clothes = list(/obj/item/clothing/suit/morningstar,
 		/obj/item/clothing/under/costume/morningstar,
@@ -598,7 +598,7 @@
 	var/static/regex/last_name = new("\[^\\s-\]+$") //First word before whitespace or "-"
 	last_name.Find(original_name)
 	if(starter_gangster)
-		gangster.current.fully_replace_character_name(gangster.current.real_name, "Chief Executive Officer [last_name.match]")
+		gangster.current.fully_replace_character_name(gangster.current.real_name, "Chef [last_name.match]")
 	else
 		gangster.current.fully_replace_character_name(gangster.current.real_name, original_name)
 
