@@ -30,3 +30,8 @@
 /obj/item/vending_refill/youtool
 	machine_name = "YouTool"
 	icon_state = "refill_engi"
+
+/obj/machinery/vending/tool/russian
+	name = "\improper Worker's Tools"
+	desc = "Revolution may be long over, but is still use for hammer and sickle..."
+	initial_language_holder = /datum/language_holder/space_russian

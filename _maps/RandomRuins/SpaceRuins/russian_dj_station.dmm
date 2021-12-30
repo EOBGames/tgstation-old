@@ -1,0 +1,1307 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bk" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/radio/intercom{
+	dir = 8;
+	freerange = 1;
+	name = "Pirate Radio Listening Channel"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"bu" = (
+/obj/structure/toilet{
+	pixel_y = 8
+	},
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/iron/smooth,
+/area/space)
+"cd" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"cq" = (
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/space)
+"cz" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/space_heater,
+/turf/open/floor/iron,
+/area/space)
+"cP" = (
+/obj/structure/fluff/broken_flooring{
+	icon_state = "singular"
+	},
+/turf/open/floor/plating,
+/area/space)
+"dY" = (
+/turf/open/floor/carpet/red,
+/area/space)
+"ex" = (
+/obj/item/stack/cable_coil/cut,
+/turf/template_noop,
+/area/space)
+"eZ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/turf/template_noop,
+/area/space)
+"fl" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/iron,
+/area/space)
+"fB" = (
+/turf/open/floor/iron/smooth,
+/area/space)
+"gt" = (
+/obj/structure/curtain,
+/turf/open/floor/iron/smooth,
+/area/space)
+"hf" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space)
+"hH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"hU" = (
+/obj/machinery/vending/sovietfood,
+/turf/open/floor/plating,
+/area/space)
+"iZ" = (
+/obj/effect/decal/cleanable/greenglow,
+/obj/item/reagent_containers/glass/bucket,
+/turf/open/floor/plating,
+/area/space)
+"jb" = (
+/obj/machinery/power/solar,
+/obj/structure/cable,
+/turf/open/floor/iron/solarpanel/airless,
+/area/space)
+"jN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"jY" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Bathroom"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/space)
+"kh" = (
+/obj/item/vending_refill/sovietfood{
+	pixel_y = 5
+	},
+/obj/item/vending_refill/sovietsoda,
+/turf/open/floor/plating,
+/area/space)
+"kG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"kW" = (
+/obj/structure/fluff/tram_rail/anchor,
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space)
+"lY" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"nG" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Docking Clamp"
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"nW" = (
+/turf/open/floor/carpet/green,
+/area/space)
+"oh" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/weldingtool/mini,
+/obj/item/clothing/glasses/welding,
+/turf/open/floor/iron,
+/area/space)
+"ov" = (
+/obj/structure/fluff/tram_rail/end{
+	dir = 1
+	},
+/turf/template_noop,
+/area/space)
+"oO" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12;
+	pixel_y = -6
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"ph" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"qo" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/turf/open/floor/iron,
+/area/space)
+"sy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"tn" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/table,
+/turf/open/floor/iron,
+/area/space)
+"tB" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/radio/intercom{
+	broadcasting = 1;
+	dir = 8;
+	freerange = 1;
+	listening = 0;
+	name = "Pirate Radio Broadcast Channel"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"tT" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/radio/intercom{
+	dir = 8;
+	freerange = 1;
+	name = "Pirate Radio Listening Channel"
+	},
+/obj/item/screwdriver,
+/turf/open/floor/iron/dark,
+/area/space)
+"uC" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plating/airless,
+/area/space)
+"vi" = (
+/obj/structure/lattice,
+/obj/structure/cable,
+/turf/template_noop,
+/area/space)
+"vB" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
+"vQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"vT" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"xf" = (
+/obj/machinery/atmospherics/components/tank/air,
+/turf/open/floor/iron/smooth,
+/area/space)
+"zk" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/telecomms/relay/preset/ruskie,
+/turf/open/floor/iron,
+/area/space)
+"zD" = (
+/obj/structure/cable,
+/turf/open/floor/iron/solarpanel/airless,
+/area/space)
+"zV" = (
+/obj/structure/closet/emcloset,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"Av" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron,
+/area/space)
+"AK" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/item/trash/can/food/caviar,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron,
+/area/space)
+"AQ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Bc" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space)
+"Bd" = (
+/turf/open/floor/plating/airless,
+/area/space)
+"Bx" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Docking Clamp"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/space)
+"BO" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"Cj" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/turf/open/floor/iron,
+/area/space)
+"CD" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Storage"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/plating,
+/area/space)
+"Do" = (
+/obj/structure/fluff/tram_rail/end{
+	dir = 8
+	},
+/turf/template_noop,
+/area/space)
+"Dq" = (
+/obj/structure/bed/maint,
+/obj/item/bedsheet/red,
+/turf/open/floor/plating,
+/area/space)
+"DT" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/template_noop,
+/area/space)
+"Ez" = (
+/obj/structure/fluff/tram_rail,
+/turf/template_noop,
+/area/space)
+"FQ" = (
+/obj/structure/fluff/tram_rail/end{
+	dir = 4
+	},
+/turf/template_noop,
+/area/space)
+"FU" = (
+/obj/structure/fluff/tram_rail,
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space)
+"Ho" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"HB" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"HO" = (
+/obj/structure/table,
+/mob/living/simple_animal/parrot{
+	desc = "Artyom squawks, \"А ну, чики-брики и в дамки!\"";
+	name = "Artyom"
+	},
+/turf/open/floor/plating,
+/area/space)
+"Iw" = (
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/space)
+"Iy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"IA" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line,
+/turf/template_noop,
+/area/space)
+"ID" = (
+/obj/structure/cable,
+/turf/closed/wall,
+/area/space)
+"IG" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/food/canned/tushonka{
+	pixel_y = 8
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"IM" = (
+/turf/open/floor/iron/solarpanel/airless,
+/area/space)
+"IV" = (
+/obj/machinery/vending/sovietsoda,
+/turf/open/floor/plating,
+/area/space)
+"IX" = (
+/turf/template_noop,
+/area/space)
+"JR" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/showcase/machinery/tv{
+	desc = "An ancient Soviet-made TV. God only knows how it got here.";
+	name = "\improper Radiokorol TV"
+	},
+/turf/open/floor/iron,
+/area/space)
+"KA" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"KR" = (
+/obj/structure/lattice,
+/obj/structure/fluff/tram_rail/anchor{
+	dir = 1
+	},
+/turf/template_noop,
+/area/space)
+"LH" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/carpet/green,
+/area/space)
+"LW" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/template_noop,
+/area/space)
+"LY" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/clothing/head/ushanka,
+/turf/open/floor/iron,
+/area/space)
+"MW" = (
+/obj/structure/fluff/tram_rail/anchor{
+	dir = 1
+	},
+/turf/template_noop,
+/area/space)
+"Nc" = (
+/obj/item/reagent_containers/food/drinks/bottle/vodka{
+	pixel_x = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/vodka,
+/obj/item/reagent_containers/food/drinks/bottle/vodka{
+	pixel_x = -8
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"NQ" = (
+/obj/item/trash/can/food/russian_pasta,
+/turf/open/floor/plating,
+/area/space)
+"Ro" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/marker_beacon,
+/turf/open/floor/plating/airless,
+/area/space)
+"Rq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/plating,
+/area/space)
+"RK" = (
+/obj/structure/cable,
+/obj/machinery/power/solar,
+/turf/open/floor/iron/solarpanel/airless,
+/area/space)
+"Ti" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/marker_beacon,
+/turf/open/floor/plating/airless,
+/area/space)
+"Tl" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/reagent_containers/food/drinks/bottle/vodka{
+	pixel_x = -7
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Tu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/carpet/red,
+/area/space)
+"Uc" = (
+/turf/closed/wall,
+/area/space)
+"UD" = (
+/obj/structure/lattice,
+/obj/structure/fluff/tram_rail/anchor,
+/turf/template_noop,
+/area/space)
+"UG" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/turf/open/floor/plating,
+/area/space)
+"UX" = (
+/obj/item/food/canned/caviar{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/food/canned/borscht{
+	pixel_x = -8
+	},
+/obj/item/food/canned/russian_pasta{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/food/canned/tushonka{
+	pixel_x = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"Vn" = (
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/space)
+"Vt" = (
+/obj/structure/chair/sofa/left{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"VK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"WQ" = (
+/obj/structure/fluff/tram_rail{
+	dir = 1
+	},
+/turf/template_noop,
+/area/space)
+"Xl" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"YR" = (
+/obj/structure/fluff/tram_rail/end,
+/turf/template_noop,
+/area/space)
+"YV" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+
+(1,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+Do
+IX
+FQ
+IX
+IX
+IX
+"}
+(2,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+RK
+IX
+IX
+IX
+IX
+IX
+cq
+IX
+IX
+IX
+IX
+IX
+IX
+cq
+IX
+IX
+IX
+IX
+Ez
+IX
+WQ
+IX
+IX
+IX
+"}
+(3,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+RK
+vi
+IX
+IX
+IX
+IX
+Bc
+IX
+Uc
+LW
+LW
+Uc
+IX
+Bc
+IX
+IX
+IX
+IX
+kW
+eZ
+MW
+IX
+IX
+IX
+"}
+(4,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+RK
+vi
+RK
+IX
+IX
+hH
+sy
+sy
+Uc
+hf
+hf
+Uc
+Iy
+sy
+kG
+IX
+IX
+Bc
+FU
+IX
+WQ
+IX
+IX
+IX
+"}
+(5,1,1) = {"
+IX
+IX
+IX
+IX
+cq
+Bc
+Bc
+vi
+Bc
+Bc
+Bc
+Uc
+Uc
+Uc
+Uc
+HO
+oh
+Uc
+hf
+Uc
+BO
+Ho
+Bc
+Bc
+Ez
+IX
+WQ
+IX
+IX
+IX
+"}
+(6,1,1) = {"
+IX
+IX
+IM
+IX
+IX
+IX
+RK
+vi
+RK
+IX
+IX
+vT
+hf
+Cj
+YV
+Vt
+cd
+Uc
+zV
+Uc
+Uc
+Uc
+Bc
+IX
+Ez
+IX
+WQ
+IX
+IX
+IX
+"}
+(7,1,1) = {"
+IX
+IX
+jb
+IX
+IX
+IX
+RK
+vi
+RK
+IX
+IX
+Ro
+hf
+JR
+dY
+KA
+Tu
+Bx
+AQ
+Bx
+ph
+nG
+IX
+IX
+Ez
+IX
+WQ
+IX
+Bc
+eZ
+"}
+(8,1,1) = {"
+IX
+IX
+vi
+IX
+IX
+IX
+RK
+vi
+RK
+IX
+hf
+hf
+Uc
+zk
+dY
+dY
+Tu
+Uc
+Uc
+Uc
+Uc
+Uc
+Bc
+Bc
+UD
+Vn
+KR
+Bc
+Bc
+IX
+"}
+(9,1,1) = {"
+IX
+IX
+IX
+ex
+IX
+IX
+IX
+vi
+IX
+IX
+hf
+Tl
+tT
+iZ
+cP
+fl
+AK
+Uc
+kh
+xf
+hf
+IA
+IX
+IX
+Ez
+IX
+WQ
+IX
+IX
+IX
+"}
+(10,1,1) = {"
+IX
+Vn
+Bc
+vi
+vi
+ID
+Iw
+Iw
+Iw
+Bd
+Uc
+tB
+lY
+qo
+LH
+LH
+Rq
+CD
+Rq
+AQ
+hf
+IA
+IX
+IX
+Ez
+IX
+WQ
+IX
+IX
+IX
+"}
+(11,1,1) = {"
+IX
+IX
+IX
+jb
+IX
+IX
+IX
+vi
+IX
+IX
+hf
+IG
+bk
+YV
+nW
+nW
+Rq
+Uc
+UX
+Nc
+hf
+IA
+IX
+IX
+Ez
+IX
+WQ
+IX
+IX
+IX
+"}
+(12,1,1) = {"
+IX
+IX
+IX
+jb
+IX
+IX
+RK
+vi
+RK
+IX
+hf
+hf
+Uc
+cz
+nW
+nW
+Av
+Uc
+Uc
+Uc
+Uc
+Uc
+Bc
+Bc
+UD
+Vn
+KR
+Bc
+Bc
+IX
+"}
+(13,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+RK
+vi
+RK
+IX
+IX
+vQ
+hf
+tn
+NQ
+cP
+Av
+jY
+oO
+gt
+fB
+UG
+IX
+IX
+Ez
+IX
+WQ
+IX
+Bc
+eZ
+"}
+(14,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+RK
+vi
+RK
+IX
+IX
+vT
+hf
+LY
+Dq
+YV
+vB
+Uc
+bu
+Uc
+Uc
+Uc
+Bc
+IX
+Ez
+IX
+WQ
+IX
+IX
+IX
+"}
+(15,1,1) = {"
+IX
+IX
+IX
+IX
+cq
+Bc
+Bc
+vi
+Bc
+Bc
+Bc
+Uc
+Uc
+Uc
+Uc
+IV
+hU
+Uc
+UG
+Uc
+uC
+Xl
+Bc
+Bc
+Ez
+IX
+WQ
+IX
+IX
+IX
+"}
+(16,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+RK
+vi
+RK
+IX
+IX
+HB
+VK
+VK
+Uc
+hf
+hf
+Uc
+Ti
+VK
+jN
+IX
+IX
+Bc
+FU
+IX
+WQ
+IX
+IX
+IX
+"}
+(17,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+RK
+vi
+ex
+IX
+IX
+IX
+Bc
+IX
+Uc
+DT
+DT
+Uc
+IX
+Bc
+IX
+IX
+IX
+IX
+kW
+eZ
+MW
+IX
+IX
+IX
+"}
+(18,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+RK
+vi
+IX
+Bc
+zD
+IX
+cq
+IX
+IX
+IX
+IX
+IX
+IX
+cq
+IX
+IX
+IX
+IX
+Ez
+IX
+WQ
+IX
+IX
+IX
+"}
+(19,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+Bc
+IX
+IX
+RK
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+YR
+IX
+ov
+IX
+IX
+IX
+"}
+(20,1,1) = {"
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+"}

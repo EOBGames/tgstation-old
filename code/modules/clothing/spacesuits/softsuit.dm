@@ -88,3 +88,15 @@
 		torn = TRUE
 		playsound(loc, 'sound/weapons/slashmiss.ogg', 50, TRUE)
 		playsound(loc, 'sound/effects/refill.ogg', 50, TRUE)
+
+/obj/item/clothing/head/helmet/space/soviet
+	name = "soviet-era space helmet"
+	desc = "A space helmet, as worn by the brave cosmonaut pioneers of the Third Soviet Union."
+	icon_state = "syndicate"
+	inhand_icon_state = "syndicate"
+
+/obj/item/clothing/suit/space/soviet
+	name = "soviet-era space suit"
+	desc = "An old, Third Soviet Union era space suit, designed to protect the wearer from space and from capitalism."
+	icon_state = "syndicate"
+	inhand_icon_state = "space_suit_syndicate"
