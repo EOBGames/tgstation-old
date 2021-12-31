@@ -1,4 +1,5 @@
 //send help, I am being forced against my will to make a felinid food PR, I'm being held somewhere in New Zeal- OH GOD NO HE'S COME BACK, AND HE'S GOT THE JUICER-
+//Martian food! As one of Earth's biggest and most accessible colonies, Mars has a diverse culture- though it's mostly influenced by the initial waves of colonists from both East Asia and Europe.
 /obj/item/food/salad/sushi_rice
 	name = "sushi rice"
 	desc = "A bowl of sushi rice, ready for making sushi with. Obviously."
@@ -132,12 +133,12 @@
 	foodtypes = MEAT | FRIED
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/katsu_meal
-	name = "katsu meal"
-	desc = "Breaded and deep fried meat, with a topping of tonkatsu sauce and a side of fries and shredded lettuce."
-	icon_state = "katsu_meal"
+/obj/item/food/satay_katsu
+	name = "erdesei-katsu meal"
+	desc = "Breaded and deep fried meat, with a topping of Martian-style Erdeseisauß, a side of spicy fries and a kimchi salad."
+	icon_state = "satay_katsu"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
-	tastes = list("meat" = 1, "breading" = 1, "lettuce" = 1, "tonkatsu sauce" = 1, "fries" = 1)
+	tastes = list("meat" = 1, "breading" = 1, "spicy cabbage" = 1, "peanut sauce" = 1, "spicy fries" = 1)
 	foodtypes = MEAT | VEGETABLES | FRIED
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -150,13 +151,13 @@
 	foodtypes = MEAT | VEGETABLES | FRIED
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/omurice
-	name = "omurice"
-	desc = "An omelette stuffed with ketchup fried rice and topped with ketchup."
-	icon_state = "omurice"
+/obj/item/food/omurroz
+	name = "omurroz"
+	desc = "An omelette stuffed with Spanish-style squid-ink rice and topped with a spicy tomato salsa."
+	icon_state = "omurroz"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
-	tastes = list("egg" = 1, "fried rice" = 1, "ketchup" = 1)
-	foodtypes = MEAT | VEGETABLES | GRAIN
+	tastes = list("egg" = 1, "saffron" = 1, "rice" = 1, "fish" = 1, "salsa" = 1)
+	foodtypes = MEAT | VEGETABLES | SEAFOOD | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/shoyu_ramen
@@ -169,6 +170,15 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 //Korean Food
+/obj/item/food/kimchi
+	name = "kimchi"
+	desc = "A classic Korean dish, although this particular prep is more similar to the Martian style- shredded cabbage with chilli peppers, konbu, bonito, and a mix of spices."
+	icon_state = "kimchi"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("spicy cabbage" = 1, "seafood" = 1, "spices" = 1)
+	foodtypes = VEGETABLES | SEAFOOD
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/food/bulgogi_noodles
 	name = "bulgogi noodles"
 	desc = "Korean barbecue meat served with noodles! Made with gochujang, for extra spicy flavour."
@@ -178,11 +188,47 @@
 	foodtypes = MEAT | VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/bulgogi_teller
+	name = "bulgogi teller"
+	desc = "Fried bulgogi beef topped with garlic-cream sauce and served alongside spicy fries and a kimchi salad."
+	icon_state = "bulgogi_teller"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("meat" = 1, "spicy fries" = 1, "garlic" = 1, "spicy cabbage" = 1)
+	foodtypes = MEAT | VEGETABLES | DAIRY
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/food/bibimbap
 	name = "bibimbap"
 	desc = "A Korean dish consisting of rice and various toppings, served in a roasting hot stone bowl."
 	icon_state = "bulgogi_noodles"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("meat" = 1, "noodles" = 1, "soy sauce" = 1, "broth" = 1, "fishcakes" = 1, "onion" = 1, "egg" = 1)
+	foodtypes = MEAT | VEGETABLES | SEAFOOD
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/chili_miy_kaezu
+	name = "Chile miy Käzu"
+	desc = "A spicy beef soup with cheese- blending several cultural influences seemlessly into one tasty dish."
+
+/obj/item/food/brat_kimchi
+	name = "brat-kimchi"
+	desc = "Fried kimchi, mixed with sugar and topped with bratwurst. A popular dish at izakayas on Mars."
+
+//Chinese-Style Dishes
+/obj/item/food/peking_crepes
+	name = "\improper Peking duck crepes a l'orange"
+	desc = "This dish takes the best of Beijing's and Paris' cuisines to make a deliciously tangy and savoury meal."
+	icon_state = "peking_crepes"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("duck" = 1, "orange" = 1, "onion" = 1, "chilli" = 1, "crepes" = 1)
+	foodtypes = MEAT | VEGETABLES | SEAFOOD
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/pizza/raw_red_city_pizza
+	name = "raw Red City pizza"
+	desc = "A pizza style common to New Osaka (and particularly the district of Little Brooklyn), Red City pizza has a thick, airy crust, topped off with mozzarella, parmesan, and baked tomato sauce- creating a pizza that is inspired by both the Italian and American traditions, and simultaneously in in neither camp. Popular toppings include traditional American options such as pepperoni, traditional Italian toppings such as fresh herbs, and culinary fusion options such as seaweed and kimchi."
+	icon_state = "raw_red_city_pizza"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("crust" = 1, "cheese" = 1, "tomato" = 1, "mushrooms" = 1, "seaweed" = 1, "shrimp" = 1)
 	foodtypes = MEAT | VEGETABLES | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
