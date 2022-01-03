@@ -89,5 +89,11 @@
 	else
 		return ..()
 
+/obj/item/organ/appendix/lizard
+	name = "lizard appendix"
+	desc = "An appendix from a lizard- it's equally as useless as a human one!"
+	icon_state = "appendix-lizard"
+	base_icon_state = "appendix-lizard"
+
 #undef APPENDICITIS_PROB
 #undef INFLAMATION_ADVANCEMENT_PROB

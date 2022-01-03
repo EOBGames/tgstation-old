@@ -500,3 +500,8 @@
 	REMOVE_TRAIT(unadapted, TRAIT_FLASH_SENSITIVE, ORGAN_TRAIT)
 	REMOVE_TRAIT(unadapted, TRAIT_UNNATURAL_RED_GLOWY_EYES, ORGAN_TRAIT)
 	return ..()
+
+/obj/item/organ/eyes/lizard
+	name = "lizard eyes"
+	desc = "These eyes seem to stare back no matter the direction you look at it from."
+	icon_state = "eyeballs-lizard"

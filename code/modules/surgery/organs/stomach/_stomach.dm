@@ -315,5 +315,9 @@
 	if(prob(emp_vulnerability/severity)) //Chance of permanent effects
 		organ_flags |= ORGAN_SYNTHETIC_EMP //Starts organ faliure - gonna need replacing soon.
 
+/obj/item/organ/stomach/lizard
+	name = "lizard stomach"
+	desc = "Full of strong acid, for digesting tasty, tasty meat."
+	icon_state = "stomach-lizard"
 
 #undef STOMACH_METABOLISM_CONSTANT

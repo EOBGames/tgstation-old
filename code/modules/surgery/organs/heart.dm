@@ -488,3 +488,9 @@
 	ethereal_heart.owner.gain_trauma(picked_trauma, TRAUMA_RESILIENCE_ABSOLUTE)
 	playsound(get_turf(ethereal_heart.owner), 'sound/effects/ethereal_revive.ogg', 100)
 	qdel(src)
+
+/obj/item/organ/heart/lizard
+	name = "lizard twin hearts" //two hearts are better than one, am I right? (no, they're actually identical in function, but why let the truth get in the way of a good yarn?)
+	desc = "A heart in a human is worth two in a lizard."
+	icon_state = "lizard-heart-on"
+	base_icon_state = "lizard_heart"
