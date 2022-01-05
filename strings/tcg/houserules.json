@@ -3,7 +3,7 @@
 		"Endurance Round: Build a deck with up to 50 cards, including up to 4 of each card.",
 		"Speed Round: Build a deck with 15 cards, with no more than 1 of each card.",
 		"Faction Decks: Build a deck using no more than two factions' cards.",
-		"Deckswap: Swap decks with your opponent."
+		"Deckswap: Swap decks with your opponent. Remember, stealing your opponent's cards makes you a DORK!"
 	],
 
 	"game_variety": [
@@ -25,12 +25,54 @@
 		"When we say we donate to charity, we mean we literally just throw the money away.",
 		"Tactical Game Cards are not waterproof, fireproof, or spaceproof! In fact, they're extremely vulnerable to nearly everything!",
 		"Assembling the five pieces of Bubblegum leads to an immediate victory.",
-		"Security cards are based around strength in numbers. Be sure to have enough of them in your deck to activate their effects!"
+		"Security cards are based around strength in numbers. Be sure to have enough of them in your deck to activate their effects!",
+		"Rogue AI cards are mostly based around offensive Events. Make sure you have enough Creatures to ensure you've always got a defense!"
 	],
 
-	"lore_facts": [
-		"",
-		"Twin Battlefields: Each player can have a battlefield in play simultaneously.",
+	"advertisement": [
+		"Coming soon to a store near you: Nanotrasen TGCs: Better Red Than Dead. Lead the soldiers of the Third Soviet Union to victory over capitalism, or use the power of the Spinward Stellar Coalition to your advantage!",
+		"The TGC Switchblade: take your card game to the next level with an official TGC Switchblade deck and hand holder. Keep your hand attached to your wrist, look like a BADASS, and claim an ultimate victory over your opponents. Available at all good comic and TTG stores.",
 		"Stacked Battlefields: Played battlefields are played to supercede the previously played one. If a battlefield is destroyed, the previous one becomes the active one."
+	],
+
+	"keyword_information": [
+		"Asimov: Creatures possessing this trait cannot attack or defend against creatures with the Human subtype.",
+		"Changeling: This creature possesses all creature subtypes simultaneously. Any effects which affect a specific subtype apply to Changelings.",
+		"Graytide: When this creature enters the battlefield, it gains +1/+1 for the number of creatures on your side of the field with Graytide, until the end of the turn.",
+		"Holy: Immunity to all event cards.",
+		"Taunt: All opposing creature attacks must be directed towards the creature with Taunt.",
+		"First Strike: This creature has attack priority and deals damage before the enemy in combat. If two creatures with First Strike are in combat with each-other, standard attack priority is used (both deal damage simultaneously).",
+		"Deadeye: This creature can always hit opponents, regardless of effects or immunities.",
+		"Squad Tactics: When this creature defeats an opponent's creature in combat, the owner of the defeated card takes 1 lifeshard of damage from combat.",
+		"Immunity to: The creature cannot be affected by card effects or combat of its immunity type. This includes both friendly and opposing effects.",
+		"Fury: The creature must attack at every possibility.",
+		"Blocker: The creature cannot declare attacks, but can defend.",
+		"Hivemind: The creature enters combat with a hivemind token on it. The first time this card would take damage, remove that token instead. This does not apply to instant removal effects, only points of damage.",
+		"Clockwork: The creature can copy a single keyword from another creature on the field, until they lose the Clockwork keyword or leave the field.",
+		"Hulking: Any power above a defending creature’s resolve is dealt to the opposing player.",
+		"Double Strike: This creature deals First Strike and Regular damage.",
+		"Oo Rah: While attacking alongside 4 or more cards with this effect, all cards with Oo Rah gain +1/+1.",
+		"Carapace: The creature cannot equip equipment cards.",
+		"Toxic: Any damage the creature deals to opposing creatures is fatal.",
+		"Death-Defying: Any time the creature would be destroyed in combat, flip a coin. If heads, the creature is not destroyed.",
+		"Necrotaint: Upon summoning a creature with Necrotaint to the battlefield, the summoner loses 5 lifeshards.",
+		"Lifedrain: upon dealing lifeshard damage to an opposing player with a creature with Lifedrain, heal for one lifeshard.",
+		"Stasis: While in Stasis, the creature cannot attack, defend, or activate abilities. Any card effects or keywords they possess remain active, provided they do not cause the creature to attack, defend, or activate an ability.",
+		"Acid Blood: While defending, if a creature with Acid Blood is destroyed, the creature that destroys it is also destroyed.",
+		"Modular: When this equipment is attached to a creature, the creature gains +1/+1 in addition to the effects listed on the card.",
+		"Systems Nominal: The creature always fights as if at full strength.",
+		"Exterminate: The creature has +1/0 if fighting a creature with the Human subtype.",
+		"Focused: The creature ignores creatures with the Blocker keyword.",
+		"Unstoppable: The creature cannot be blocked."
+	],
+
+	"card_types": [
+		"Creature: Creatures are your attackers and defenders. Each has a power, representing the damage they deal on attacking, and a resolve, representing their health.",
+		"Instant: Instant Event cards are capable of being played at any time that cards are capable of being played- including during your opponent's turn.",
+		"Hex: attach this Event card to an opposing creature. It applies its effect continuously until the Hex is destroyed or the creature leaves the battlefield.",
+		"Triggered: Triggered Event cards are played to your Trigger pile (you can have three active at a time). When the Event's trigger occurs, apply its effect, then discard.",
+		"Buff: Buff Events can only be attached to friendly cards meeting the criteria listed on the card. Once attached, it applies its effect continuously.",
+		"Artifact: Artifact cards are played to your Artifact slot (you can have only one active at a time). Any Artifact played will destroy the Artifact currently occupying the slot. They can be tapped for the cost shown on the card once per turn to apply their effect.",
+		"Battlefield: Battlefield cards are played to the Battlefield slot (only one can be active at any time). This slot is shared between the players and any Battlefield played will destroy the Battlefield currently occupying the slot. Battlefields provide a permanent effect to both players until they are destroyed."
 	]
 }

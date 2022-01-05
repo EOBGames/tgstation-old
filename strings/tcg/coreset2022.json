@@ -1,0 +1,56 @@
+{
+	"templates": [
+		{
+			"template": "default",
+			"icon": "icons/runtime/tcg/coreset2022.dmi",
+			"series": "coreset2022"
+		}
+	],
+	"cards": [
+		{
+			"id": "highlander",
+			"name": "Highlander",
+			"desc": "Dunmaghlas! Dauðinn blasir við þér! Cruachan!",
+			"rules": "Fury. For each card this card destroys, it gains +1/0.",
+			"icon_state": "highlander",
+			"power": "2",
+			"resolve": "4",
+			"faction": "Xeno",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Human Scotsman",
+			"series": "coreset2022",
+			"rarity": "epic"
+		},
+		{
+			"id": "heretic",
+			"name": "Elder Servant",
+			"desc": "Dunmaghlas! Kryfja hann!",
+			"rules": "Fury. For each card this card destroys, it gains +1/0.",
+			"icon_state": "highlander",
+			"power": "2",
+			"resolve": "4",
+			"faction": "Xeno",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Human Scotsman",
+			"series": "coreset2022",
+			"rarity": "epic"
+		},
+		{
+			"id": "highlander",
+			"name": "Highlander",
+			"desc": "Dunmaghlas! Kryfja hann!",
+			"rules": "Fury. For each card this card destroys, it gains +1/0.",
+			"icon_state": "highlander",
+			"power": "2",
+			"resolve": "4",
+			"faction": "Xeno",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Human Scotsman",
+			"series": "coreset2022",
+			"rarity": "epic"
+		}
+	]
+}
