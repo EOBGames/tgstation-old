@@ -392,10 +392,6 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	desc = "A Xeno Filtered brand cigarette."
 	list_reagents = list (/datum/reagent/drug/nicotine = 20, /datum/reagent/medicine/regen_jelly = 15, /datum/reagent/drug/krokodil = 4)
 
-/obj/item/clothing/mask/cigarette/russki
-	desc = "A Moskva Chernaya brand cigarillo."
-	list_reagents = list (/datum/reagent/drug/nicotine = 15, /datum/reagent/gold = 3, /datum/reagent/consumable/ethanol/vodka = 3)
-
 // Rollies.
 
 /obj/item/clothing/mask/cigarette/rollie
@@ -498,6 +494,30 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	pixel_x = rand(-5, 5)
 	pixel_y = rand(-5, 5)
 
+////////////////
+// CIGARILLOS //
+////////////////
+/obj/item/clothing/mask/cigarette/cigarillo
+	name = "cigarillo"
+	desc = "A poor man's cigar, for those with delusions of grandeur and no money to back them up."
+	icon_state = "cigarillo_off"
+	icon_on = "cigarillo_on"
+	icon_off = "cigarillo_off"
+	type_butt = /obj/item/cigbutt/cigarillo
+	throw_speed = 0.5
+	inhand_icon_state = "cigarillo_off"
+	smoketime = 9 MINUTES
+	chem_volume = 35
+	list_reagents = list(/datum/reagent/drug/nicotine = 20)
+
+/obj/item/clothing/mask/cigarette/cigarillo/russki
+	name = "\improper Moskva Chernaya cigarillo"
+	desc = "A Moskva Chernaya brand premium cigarillo, as smoked by socialites and mobsters."
+	icon_state = "cigarillo_russ_off"
+	inhand_icon_state = "cigarillo_russ_off"
+	icon_on = "russki_cig_on"
+	type_butt = /obj/item/cigbutt/cigarillo/russki
+	list_reagents = list (/datum/reagent/drug/nicotine = 20, /datum/reagent/gold = 2, /datum/reagent/consumable/ethanol/vodka = 3)
 
 ////////////
 // CIGARS //
@@ -543,6 +563,11 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	w_class = WEIGHT_CLASS_TINY
 	throwforce = 0
 	grind_results = list(/datum/reagent/carbon = 2)
+
+/obj/item/cigbutt/cigarillo
+	name = "cigarillo butt"
+	desc = "A manky old cigarillo butt."
+	icon_state = "cigarillobutt"
 
 /obj/item/cigbutt/cigarbutt
 	name = "cigar butt"

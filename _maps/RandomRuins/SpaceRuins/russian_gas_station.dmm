@@ -1,259 +1,5309 @@
-"an" = (/obj/structure/chair/sofa/bench/left{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"ar" = (/obj/structure/chair/sofa/bench/right{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"aL" = (/obj/item/kirbyplants/fullysynthetic,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"bh" = (/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{dir = 1},/turf/open/floor/engine/plasma,/area/ruin/space/has_grav/russian_gas_station)
-"bi" = (/obj/structure/rack,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/item/tank/internals/plasma/empty,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"bn" = (/obj/effect/turf_decal/stripes/corner{dir = 8},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"bx" = (/obj/structure/chair/sofa/bench/left,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"bG" = (/obj/structure/marker_beacon/burgundy{name = "landing marker"},/obj/structure/lattice/catwalk,/turf/template_noop,/area/template_noop)
-"bY" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"cc" = (/turf/closed/wall/r_wall,/area/ruin/space/has_grav/russian_gas_station)
-"cd" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/effect/turf_decal/arrows{dir = 4},/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"cq" = (/obj/structure/lattice,/obj/structure/grille,/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible,/turf/template_noop,/area/template_noop)
-"cI" = (/obj/structure/rack,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"da" = (/obj/machinery/atmospherics/pipe/smart/simple/violet/visible,/turf/open/floor/engine/plasma,/area/ruin/space/has_grav/russian_gas_station)
-"di" = (/obj/structure/lattice,/obj/structure/grille/broken,/turf/template_noop,/area/template_noop)
-"ds" = (/obj/machinery/door/airlock/maintenance/external{name = "External Access"},/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"dG" = (/obj/structure/lattice,/obj/machinery/atmospherics/pipe/smart/simple/violet/visible,/turf/template_noop,/area/template_noop)
-"dS" = (/obj/machinery/door/airlock/public/glass{name = "Services"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"eA" = (/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"eC" = (/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"eF" = (/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on,/turf/open/floor/engine/plasma,/area/ruin/space/has_grav/russian_gas_station)
-"eS" = (/mob/living/simple_animal/bot/cleanbot{initial_language_holder = /datum/language_holder/space_russian; name = "Comrade Sweepski"},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"eY" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"fa" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/effect/decal/cleanable/dirt,/obj/machinery/light/cold/directional/west,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"fx" = (/obj/effect/turf_decal/stripes/line{dir = 6},/obj/structure/marker_beacon/burgundy{name = "landing marker"},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"fU" = (/obj/structure/lattice/catwalk,/obj/effect/turf_decal/stripes/line{dir = 8},/turf/template_noop,/area/template_noop)
-"gd" = (/obj/effect/spawner/structure/window/plasma/reinforced,/obj/machinery/atmospherics/pipe/smart/simple/violet/visible,/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"ge" = (/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/machinery/light/cold/directional/east,/obj/structure/showcase/machinery/jukebox/russian,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"gp" = (/obj/item/storage/toolbox/mechanical{pixel_x = -1; pixel_y = 4},/obj/item/storage/toolbox/electrical{pixel_x = -1; pixel_y = -3},/obj/machinery/light/cold/directional/north,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"gs" = (/obj/machinery/door/airlock/maintenance/external{name = "Docking Clamp 2"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"gJ" = (/obj/effect/turf_decal/stripes/line{dir = 9},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"gU" = (/obj/structure/rack,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"hd" = (/obj/effect/turf_decal/stripes/line{dir = 4},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"hj" = (/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{dir = 6},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"hq" = (/obj/structure/rack,/obj/item/rack_parts,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"hv" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"hx" = (/obj/structure/rack,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/item/food/rationpack{pixel_x = 2; pixel_y = 4},/obj/item/food/rationpack{pixel_x = 2; pixel_y = 2},/obj/item/food/rationpack{pixel_x = 2},/obj/item/food/rationpack{pixel_x = 2; pixel_y = -2},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"hL" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"hO" = (/obj/structure/rack,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/item/tank/internals/plasmaman,/obj/item/tank/internals/oxygen,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"iC" = (/obj/machinery/door/airlock/public/glass{name = "Services"},/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"iN" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"js" = (/obj/machinery/power/terminal{dir = 8},/obj/structure/cable,/obj/effect/turf_decal/stripes/end{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"ka" = (/obj/item/kirbyplants/fullysynthetic{icon_state = "plant-27"},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"kj" = (/obj/structure/cable,/turf/open/floor/plating/catwalk_floor,/area/ruin/space/has_grav/russian_gas_station)
-"kn" = (/obj/structure/closet/crate/bin,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"ks" = (/obj/structure/fluff/tram_rail{dir = 1},/turf/template_noop,/area/template_noop)
-"kD" = (/obj/machinery/vending/sovietsoda,/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark,/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/obj/effect/decal/cleanable/greenglow,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"lf" = (/obj/structure/chair/sofa/bench{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"lk" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 8},/obj/machinery/light/cold/directional/east,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"lz" = (/obj/structure/fluff/tram_rail/anchor{dir = 1},/turf/template_noop,/area/template_noop)
-"lF" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"lR" = (/obj/machinery/atmospherics/components/unary/vent_pump/on,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"lS" = (/obj/structure/fluff/tram_rail/anchor,/turf/template_noop,/area/template_noop)
-"lZ" = (/obj/structure/fluff/tram_rail,/turf/template_noop,/area/template_noop)
-"mn" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible{dir = 8},/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"mp" = (/obj/machinery/door/firedoor,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/stripes/line{dir = 8},/obj/effect/turf_decal/stripes/line{dir = 4},/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{dir = 9},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"mC" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"mF" = (/obj/structure/rack,/obj/item/tank/internals/plasma/empty,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"mH" = (/obj/structure/chair/sofa/bench/left{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"mO" = (/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"nm" = (/obj/machinery/atmospherics/components/tank/air{dir = 1},/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"nM" = (/obj/structure/chair/sofa/bench,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"oa" = (/obj/effect/spawner/structure/window/plasma/reinforced,/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"oo" = (/obj/effect/turf_decal/stripes/line{dir = 8},/obj/structure/marker_beacon/burgundy{name = "landing marker"},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"oU" = (/obj/structure/grille,/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"pb" = (/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden,/turf/open/floor/plating/catwalk_floor,/area/ruin/space/has_grav/russian_gas_station)
-"pi" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"pp" = (/obj/structure/fluff/tram_rail/end{dir = 4},/turf/template_noop,/area/template_noop)
-"px" = (/obj/machinery/door/airlock/public/glass{name = "Automat"},/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"pD" = (/obj/structure/lattice/catwalk,/turf/template_noop,/area/template_noop)
-"pO" = (/obj/structure/marker_beacon/burgundy{name = "landing marker"},/obj/effect/turf_decal/stripes/line{dir = 9},/turf/open/floor/plating/airless,/area/template_noop)
-"qn" = (/turf/open/floor/engine/plasma,/area/ruin/space/has_grav/russian_gas_station)
-"qw" = (/obj/machinery/portable_atmospherics/canister,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"qD" = (/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{dir = 1},/turf/open/floor/engine/plasma,/area/ruin/space/has_grav/russian_gas_station)
-"qE" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/machinery/vending/sovietsoda,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/cobweb/cobweb2,/obj/effect/decal/cleanable/greenglow,/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"rl" = (/obj/machinery/door/airlock/maintenance/external{name = "Docking Clamp 1"},/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"rp" = (/obj/effect/spawner/structure/window/reinforced/tinted,/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"rx" = (/obj/machinery/portable_atmospherics/canister,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"sb" = (/obj/effect/turf_decal/stripes/line{dir = 10},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"tf" = (/obj/structure/lattice,/obj/structure/grille,/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{dir = 5},/turf/template_noop,/area/template_noop)
-"tk" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"tu" = (/obj/structure/lattice/catwalk,/obj/effect/turf_decal/stripes/line{dir = 1},/turf/template_noop,/area/template_noop)
-"tI" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/obj/effect/decal/cleanable/dirt,/obj/machinery/light/cold/directional/north,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"tN" = (/obj/effect/turf_decal/stripes/corner{dir = 1},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"ui" = (/obj/item/kirbyplants/fullysynthetic{icon_state = "plant-27"},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"uq" = (/obj/structure/chair/sofa/bench/right,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"uL" = (/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"uR" = (/obj/machinery/atmospherics/components/unary/portables_connector,/obj/machinery/portable_atmospherics/canister,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/obj/machinery/light/cold/directional/west,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"vc" = (/obj/structure/rack,/obj/item/multitool,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"vC" = (/obj/structure/marker_beacon/burgundy{name = "landing marker"},/obj/effect/turf_decal/stripes/line{dir = 10},/turf/open/floor/plating/airless,/area/template_noop)
-"vP" = (/obj/structure/lattice,/obj/structure/grille,/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{dir = 9},/turf/template_noop,/area/template_noop)
-"vT" = (/obj/machinery/door/firedoor,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/stripes/line{dir = 8},/obj/effect/turf_decal/stripes/line{dir = 4},/obj/machinery/atmospherics/pipe/smart/manifold/violet/hidden{dir = 8},/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"wg" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/machinery/vending/assist{desc = "All the finest of miscellaneous Space Russian electronics one could ever need! Not responsible for any injuries caused by reckless misuse of parts."; initial_language_holder = /datum/language_holder/space_russian; name = "\improper Partski-Martski"},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"wh" = (/obj/effect/turf_decal/stripes/corner{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"wx" = (/obj/structure/table,/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark,/obj/machinery/light/cold/directional/west,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"wD" = (/obj/structure/chair/sofa/bench/right,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"wM" = (/obj/structure/table,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"wQ" = (/obj/structure/mirror/directional/north,/obj/structure/sink/kitchen{desc = "A sink used for washing one's hands and face. It looks rusty and home-made"; name = "sink"; pixel_y = 14},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"wX" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/machinery/light/cold/directional/west,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"xi" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/machinery/vending/cigarette{desc = "Best cigarettes in all galaxy, guaranteed!"; initial_language_holder = /datum/language_holder/space_russian; name = "\improper Moscow Quality Cigarettes"},/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"xm" = (/obj/structure/toilet{dir = 4},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/greenglow,/obj/machinery/light/cold/directional/south,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"yw" = (/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"yA" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"yF" = (/obj/machinery/door/airlock/public/glass{name = "Store"},/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"yK" = (/obj/structure/sign/poster/contraband/smoke{pixel_y = 32},/obj/machinery/atmospherics/components/binary/pump/on{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/machinery/light/cold/directional/north,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"yS" = (/obj/machinery/door/airlock/maintenance/external{name = "Docking Clamp 1"},/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"yW" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/obj/machinery/light/cold/directional/south,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"ze" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{dir = 9},/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"zr" = (/obj/effect/turf_decal/stripes/line{dir = 5},/obj/structure/marker_beacon/burgundy{name = "landing marker"},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"zt" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Ak" = (/obj/machinery/door/firedoor,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/stripes/line{dir = 8},/obj/effect/turf_decal/stripes/line{dir = 4},/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{dir = 10},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Bc" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Bk" = (/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/machinery/light/cold/directional/east,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Bl" = (/obj/structure/table,/obj/item/reagent_containers/food/condiment/saltshaker{pixel_x = 8; pixel_y = 10},/obj/item/reagent_containers/food/condiment/peppermill{pixel_x = 8; pixel_y = 5},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Br" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"Bw" = (/obj/machinery/door/airlock/public/glass{name = "Services"},/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{dir = 4},/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Bx" = (/obj/machinery/door/airlock/maintenance/external{name = "Docking Clamp 2"},/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"BH" = (/obj/machinery/door/airlock/maintenance/external{name = "Station Maintenance"},/obj/machinery/atmospherics/components/binary/pump/on/layer2{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"BS" = (/obj/structure/lattice,/turf/template_noop,/area/template_noop)
-"BY" = (/obj/structure/chair/stool/bar/directional/east,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"CO" = (/obj/structure/closet/crate/bin,/obj/effect/decal/cleanable/dirt,/obj/machinery/light/cold/directional/south,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"CT" = (/obj/structure/lattice,/obj/structure/grille,/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{dir = 6},/turf/template_noop,/area/template_noop)
-"Dp" = (/turf/closed/wall,/area/ruin/space/has_grav/russian_gas_station)
-"Dv" = (/obj/machinery/power/smes/engineering{charge = 1e+006},/obj/structure/cable,/obj/effect/turf_decal/stripes/line,/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"Dx" = (/obj/effect/turf_decal/stripes/corner{dir = 1},/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{dir = 5},/obj/effect/decal/cleanable/dirt,/obj/machinery/light/cold/directional/north,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"DR" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"DV" = (/obj/effect/turf_decal/stripes/line,/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/arrows{dir = 4},/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"DY" = (/turf/template_noop,/area/template_noop)
-"Ee" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/obj/machinery/vending/tool{desc = "Though revolution may be long over, is still use for hammer and sickle.."; initial_language_holder = /datum/language_holder/space_russian; name = "\improper Worker's Tools"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Eh" = (/obj/structure/cable,/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{dir = 4},/turf/open/floor/plating/catwalk_floor,/area/ruin/space/has_grav/russian_gas_station)
-"Ej" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/obj/effect/decal/cleanable/dirt,/obj/structure/table,/obj/item/wrench,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Em" = (/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/machinery/holopad,/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Fa" = (/obj/structure/closet/crate/bin,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Fo" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/machinery/door/airlock/public/glass{name = "Store"},/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Gf" = (/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"Gi" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{dir = 5},/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"Gj" = (/obj/structure/lattice,/obj/structure/cable,/turf/template_noop,/area/template_noop)
-"GG" = (/obj/structure/chair/sofa/bench/left{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"GJ" = (/obj/structure/chair/stool/bar/directional/east,/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"GK" = (/obj/structure/marker_beacon/burgundy{name = "landing marker"},/obj/effect/turf_decal/stripes/corner{dir = 1},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"GN" = (/obj/structure/lattice/catwalk,/obj/effect/turf_decal/stripes/line{dir = 10},/turf/template_noop,/area/template_noop)
-"HP" = (/obj/structure/table,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/sign/poster/contraband/eat{pixel_y = 32},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Ic" = (/obj/effect/turf_decal/stripes/line{dir = 8},/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Iv" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/machinery/vending/tool{desc = "Though revolution may be long over, is still use for hammer and sickle.."; initial_language_holder = /datum/language_holder/space_russian; name = "\improper Worker's Tools"},/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"IF" = (/obj/structure/lattice/catwalk,/obj/effect/turf_decal/stripes/line,/turf/template_noop,/area/template_noop)
-"II" = (/obj/structure/fluff/tram_rail/end{dir = 8},/turf/template_noop,/area/template_noop)
-"IQ" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"Ja" = (/obj/structure/chair/sofa/bench/right{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Je" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"Jf" = (/obj/docking_port/stationary{dir = 2; dwidth = 11; height = 22; id = "whiteship_fuel"; name = "KD21 Fuel Station: Docking Clamp 1"; width = 35},/turf/template_noop,/area/template_noop)
-"Jj" = (/obj/structure/rack,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/item/kitchen/knife/combat/survival,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Jx" = (/obj/machinery/atmospherics/components/tank/air,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"JQ" = (/obj/structure/cable,/obj/machinery/power/solar,/turf/open/floor/iron/solarpanel/airless,/area/ruin/space/has_grav/russian_gas_station)
-"JU" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible{dir = 1},/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"JV" = (/obj/structure/lattice/catwalk,/obj/effect/turf_decal/stripes/line{dir = 9},/turf/template_noop,/area/template_noop)
-"Kb" = (/obj/structure/chair/sofa/bench/left,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Kr" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 8},/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Lf" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Lv" = (/obj/structure/chair/sofa/bench/left,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"LH" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/machinery/door/airlock/maintenance/external{name = "Bathroom"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"LI" = (/obj/structure/chair/sofa/bench/right{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/decal/cleanable/dirt,/obj/structure/window/reinforced/tinted{dir = 4; pixel_x = 3},/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"LJ" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"LW" = (/obj/structure/lattice,/obj/structure/grille,/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible{dir = 1},/turf/template_noop,/area/template_noop)
-"MM" = (/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"MV" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"MX" = (/obj/structure/table,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"MY" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"Nc" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{dir = 4},/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Ni" = (/obj/structure/rack,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"Nu" = (/obj/effect/turf_decal/stripes/corner,/obj/effect/decal/cleanable/dirt,/obj/machinery/light/cold/directional/south,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Ou" = (/obj/machinery/atmospherics/components/unary/portables_connector,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"OG" = (/obj/effect/turf_decal/tile/bar,/obj/effect/turf_decal/tile/bar{dir = 1},/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Pu" = (/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{dir = 4},/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 1},/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Qd" = (/obj/effect/turf_decal/stripes/line,/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"Qq" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/manifold/violet/hidden{dir = 4},/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"QG" = (/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{dir = 4},/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"QP" = (/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"QQ" = (/obj/effect/turf_decal/stripes/corner{dir = 8},/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"QR" = (/obj/structure/lattice,/obj/structure/grille,/turf/template_noop,/area/template_noop)
-"Rp" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"Rt" = (/obj/structure/chair/sofa/bench/left,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"RC" = (/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden{dir = 1},/turf/open/floor/plating/catwalk_floor,/area/ruin/space/has_grav/russian_gas_station)
-"Sl" = (/obj/structure/lattice,/obj/structure/grille/broken,/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{dir = 10},/turf/template_noop,/area/template_noop)
-"Sz" = (/obj/machinery/atmospherics/components/binary/pump/on{dir = 8},/obj/machinery/light/cold/directional/south,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"SA" = (/obj/machinery/atmospherics/pipe/layer_manifold/supply{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"SJ" = (/obj/structure/marker_beacon/burgundy{name = "landing marker"},/obj/effect/turf_decal/stripes/corner{dir = 8},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/russian_gas_station)
-"SR" = (/obj/effect/turf_decal/stripes/corner{dir = 8},/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{dir = 6},/obj/effect/decal/cleanable/dirt,/obj/machinery/light/cold/directional/south,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"SX" = (/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{dir = 5},/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"Tl" = (/obj/machinery/vending/sovietfood,/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/siding/thinplating/dark,/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"TL" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible,/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"Ua" = (/obj/machinery/door/airlock/public/glass{name = "Automat"},/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Uz" = (/obj/structure/lattice,/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{dir = 1},/turf/template_noop,/area/template_noop)
-"UH" = (/obj/structure/chair/sofa/bench/right,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/siding/thinplating/dark{dir = 8},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"Vc" = (/obj/effect/spawner/structure/window/reinforced,/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"Vm" = (/obj/structure/rack,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"VE" = (/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron/smooth,/area/ruin/space/has_grav/russian_gas_station)
-"VS" = (/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{dir = 4},/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Wa" = (/obj/structure/cable,/obj/machinery/power/solar_control{dir = 8},/turf/open/floor/plating/catwalk_floor,/area/ruin/space/has_grav/russian_gas_station)
-"Wu" = (/obj/structure/cable,/obj/machinery/power/apc/auto_name/west,/obj/effect/turf_decal/stripes/end{dir = 8},/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"WJ" = (/obj/effect/turf_decal/stripes/corner{dir = 4},/obj/effect/decal/cleanable/dirt,/obj/machinery/light/cold/directional/north,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"WZ" = (/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/structure/window/reinforced/tinted{dir = 4; pixel_x = 3},/obj/machinery/holopad,/obj/effect/turf_decal/siding/thinplating/dark{dir = 1},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
-"XT" = (/obj/effect/spawner/structure/window/plasma/reinforced,/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{dir = 1},/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"YH" = (/obj/effect/turf_decal/tile/bar{dir = 1},/obj/effect/turf_decal/tile/bar,/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/iron,/area/ruin/space/has_grav/russian_gas_station)
-"Zn" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/cable,/turf/open/floor/plating,/area/ruin/space/has_grav/russian_gas_station)
-"ZF" = (/obj/structure/closet/crate/bin,/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/siding/thinplating/dark{dir = 4},/turf/open/floor/iron/dark,/area/ruin/space/has_grav/russian_gas_station)
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"an" = (
+/obj/structure/chair/sofa/bench/left{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"ar" = (
+/obj/structure/chair/sofa/bench/right{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"aL" = (
+/obj/item/kirbyplants/fullysynthetic,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"bh" = (
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+	dir = 1
+	},
+/turf/open/floor/engine/plasma,
+/area/ruin/space/has_grav/russian_gas_station)
+"bi" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/item/tank/internals/plasma/empty,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"bn" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"bx" = (
+/obj/structure/chair/sofa/bench/left,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"bG" = (
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/template_noop)
+"bY" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"cc" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/russian_gas_station)
+"cd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/turf_decal/arrows{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"cq" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible,
+/turf/template_noop,
+/area/template_noop)
+"cI" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"da" = (
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible,
+/turf/open/floor/engine/vacuum,
+/area/ruin/space/has_grav/russian_gas_station)
+"di" = (
+/obj/structure/lattice,
+/obj/structure/grille/broken,
+/turf/template_noop,
+/area/template_noop)
+"ds" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "External Access"
+	},
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"dG" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible,
+/turf/template_noop,
+/area/template_noop)
+"dS" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Services"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"eA" = (
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"eC" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"eF" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on,
+/turf/open/floor/engine/plasma,
+/area/ruin/space/has_grav/russian_gas_station)
+"eS" = (
+/mob/living/simple_animal/bot/cleanbot{
+	initial_language_holder = /datum/language_holder/space_russian;
+	name = "Comrade Sweepski"
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"eY" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"fa" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"fx" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"fU" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/template_noop,
+/area/template_noop)
+"gd" = (
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"ge" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/light/cold/directional/east,
+/obj/structure/showcase/machinery/jukebox/russian,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"gp" = (
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/obj/item/storage/toolbox/electrical{
+	pixel_x = -1;
+	pixel_y = -3
+	},
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"gs" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Docking Clamp 2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"gJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"gU" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"hd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"hj" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"hq" = (
+/obj/structure/rack,
+/obj/item/rack_parts,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"hv" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"hx" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/item/food/rationpack{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/item/food/rationpack{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/food/rationpack{
+	pixel_x = 2
+	},
+/obj/item/food/rationpack{
+	pixel_x = 2;
+	pixel_y = -2
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"hL" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"hO" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/item/tank/internals/plasmaman,
+/obj/item/tank/internals/oxygen,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"iC" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Services"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"iN" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"js" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"ka" = (
+/obj/item/kirbyplants/fullysynthetic{
+	icon_state = "plant-27"
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"kj" = (
+/obj/structure/cable,
+/turf/open/floor/plating/catwalk_floor,
+/area/ruin/space/has_grav/russian_gas_station)
+"kn" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"ks" = (
+/obj/structure/fluff/tram_rail{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"kD" = (
+/obj/machinery/vending/sovietsoda,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"lf" = (
+/obj/structure/chair/sofa/bench{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"lk" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"lz" = (
+/obj/structure/fluff/tram_rail/anchor{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"lF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"lR" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"lS" = (
+/obj/structure/fluff/tram_rail/anchor,
+/turf/template_noop,
+/area/template_noop)
+"lZ" = (
+/obj/structure/fluff/tram_rail,
+/turf/template_noop,
+/area/template_noop)
+"mn" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"mp" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"mC" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"mF" = (
+/obj/structure/rack,
+/obj/item/tank/internals/plasma/empty,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"mH" = (
+/obj/structure/chair/sofa/bench/left{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"mO" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"nm" = (
+/obj/machinery/atmospherics/components/tank/air{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"nM" = (
+/obj/structure/chair/sofa/bench,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"oa" = (
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"oo" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"oU" = (
+/obj/structure/grille,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"pb" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/plating/catwalk_floor,
+/area/ruin/space/has_grav/russian_gas_station)
+"pi" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"pp" = (
+/obj/structure/fluff/tram_rail/end{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"px" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Automat"
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"pD" = (
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/template_noop)
+"pO" = (
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"qn" = (
+/turf/open/floor/engine/plasma,
+/area/ruin/space/has_grav/russian_gas_station)
+"qw" = (
+/obj/machinery/portable_atmospherics/canister,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"qD" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 1
+	},
+/turf/open/floor/engine/vacuum,
+/area/ruin/space/has_grav/russian_gas_station)
+"qE" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/vending/sovietsoda,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"rl" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Docking Clamp 1"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"ro" = (
+/turf/open/floor/engine/vacuum,
+/area/ruin/space/has_grav/russian_gas_station)
+"rp" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"rx" = (
+/obj/machinery/portable_atmospherics/canister,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"sb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"tf" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+	dir = 5
+	},
+/turf/template_noop,
+/area/template_noop)
+"tk" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"tu" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"tI" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"tN" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"ui" = (
+/obj/item/kirbyplants/fullysynthetic{
+	icon_state = "plant-27"
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"uq" = (
+/obj/structure/chair/sofa/bench/right,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"uy" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"uL" = (
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"uR" = (
+/obj/machinery/atmospherics/components/unary/portables_connector,
+/obj/machinery/portable_atmospherics/canister,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"vc" = (
+/obj/structure/rack,
+/obj/item/multitool,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"vC" = (
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"vP" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+	dir = 9
+	},
+/turf/template_noop,
+/area/template_noop)
+"vT" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/violet/hidden{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"wg" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/vending/assist{
+	desc = "All the finest of miscellaneous Space Russian electronics one could ever need! Not responsible for any injuries caused by reckless misuse of parts.";
+	initial_language_holder = /datum/language_holder/space_russian;
+	name = "\improper Partski-Martski"
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"wh" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"wx" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"wD" = (
+/obj/structure/chair/sofa/bench/right,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"wM" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"wQ" = (
+/obj/structure/mirror/directional/north,
+/obj/structure/sink/kitchen{
+	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
+	name = "sink";
+	pixel_y = 14
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"wX" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"xi" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/vending/cigarette/russian,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"xm" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/greenglow,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"yw" = (
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"yA" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"yF" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Store"
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"yK" = (
+/obj/structure/sign/poster/contraband/smoke{
+	pixel_y = 32
+	},
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"yS" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Docking Clamp 1"
+	},
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"yW" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"ze" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"zr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"zt" = (
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark/end,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Ak" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Bc" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Bk" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Bl" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = 8;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 8;
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Bq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Br" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"Bw" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Services"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Bx" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Docking Clamp 2"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"BH" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Station Maintenance"
+	},
+/obj/machinery/atmospherics/components/binary/pump/on/layer2{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"BS" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
+"BY" = (
+/obj/structure/chair/stool/bar/directional/east,
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"CO" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"CT" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+	dir = 6
+	},
+/turf/template_noop,
+/area/template_noop)
+"Dp" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/russian_gas_station)
+"Dv" = (
+/obj/machinery/power/smes/engineering{
+	charge = 1e+006
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"Dx" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"DR" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"DV" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/arrows{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"DY" = (
+/turf/template_noop,
+/area/template_noop)
+"Ee" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/vending/tool{
+	desc = "Though revolution may be long over, is still use for hammer and sickle..";
+	initial_language_holder = /datum/language_holder/space_russian;
+	name = "\improper Worker's Tools"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Eh" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating/catwalk_floor,
+/area/ruin/space/has_grav/russian_gas_station)
+"Ej" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/item/wrench,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"El" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "External Access"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
+	dir = 5
+	},
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"Em" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/holopad,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"EK" = (
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Fa" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Fc" = (
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Fo" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/door/airlock/public/glass{
+	name = "Store"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Gf" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"Gi" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"Gj" = (
+/obj/structure/lattice,
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
+"GG" = (
+/obj/structure/chair/sofa/bench/left{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"GJ" = (
+/obj/structure/chair/stool/bar/directional/east,
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"GK" = (
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"GN" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/template_noop,
+/area/template_noop)
+"HP" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/structure/sign/poster/contraband/eat{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Ic" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Iv" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/vending/tool/russian,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"IF" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line,
+/turf/template_noop,
+/area/template_noop)
+"II" = (
+/obj/structure/fluff/tram_rail/end{
+	dir = 8
+	},
+/turf/template_noop,
+/area/template_noop)
+"IQ" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"Ja" = (
+/obj/structure/chair/sofa/bench/right{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Je" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"Jf" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 11;
+	height = 22;
+	id = "whiteship_fuel";
+	name = "KD21 Fuel Station: Docking Clamp 1";
+	width = 35
+	},
+/turf/template_noop,
+/area/template_noop)
+"Jj" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/item/kitchen/knife/combat/survival,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Jx" = (
+/obj/machinery/atmospherics/components/tank/air,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"JQ" = (
+/obj/structure/cable,
+/obj/machinery/power/solar,
+/turf/open/floor/iron/solarpanel/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"JU" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"JV" = (
+/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/template_noop,
+/area/template_noop)
+"Kb" = (
+/obj/structure/chair/sofa/bench/left,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Kr" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Lf" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Lv" = (
+/obj/structure/chair/sofa/bench/left,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"LH" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Bathroom"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"LI" = (
+/obj/structure/chair/sofa/bench/right{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/reinforced/tinted{
+	dir = 4;
+	pixel_x = 3
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"LJ" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"LW" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"MB" = (
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark/end{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"MM" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"MV" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"MX" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"MY" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"Nc" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Ni" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"Nu" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Ou" = (
+/obj/machinery/atmospherics/components/unary/portables_connector,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"OG" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Pu" = (
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Qd" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"Qq" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/manifold/violet/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"QG" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"QP" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"QQ" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"QR" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/turf/template_noop,
+/area/template_noop)
+"Rp" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"Rt" = (
+/obj/structure/chair/sofa/bench/left,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"RC" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating/catwalk_floor,
+/area/ruin/space/has_grav/russian_gas_station)
+"Sl" = (
+/obj/structure/lattice,
+/obj/structure/grille/broken,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+	dir = 10
+	},
+/turf/template_noop,
+/area/template_noop)
+"Sz" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 8
+	},
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"SA" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/supply{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"SJ" = (
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/russian_gas_station)
+"SR" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"SX" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"Tl" = (
+/obj/machinery/vending/sovietfood,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"TL" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/manifold/violet/visible,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"Ua" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Automat"
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Uz" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"UH" = (
+/obj/structure/chair/sofa/bench/right,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"Vc" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"Vm" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"VE" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/russian_gas_station)
+"VS" = (
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Wa" = (
+/obj/structure/cable,
+/obj/machinery/power/solar_control{
+	dir = 8
+	},
+/turf/open/floor/plating/catwalk_floor,
+/area/ruin/space/has_grav/russian_gas_station)
+"Wu" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/west,
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"WJ" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"WZ" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/structure/window/reinforced/tinted{
+	dir = 4;
+	pixel_x = 3
+	},
+/obj/machinery/holopad,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
+"XT" = (
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"YH" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/russian_gas_station)
+"Zn" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/russian_gas_station)
+"ZF" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/russian_gas_station)
 
 (1,1,1) = {"
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYbGDYDYDYDYDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYBSDYDYDYDYDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYbGDYDYDYBSDYDYDYbGDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYBSDYDYDYBSDYDYDYBSDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYBSBSQRQRQRQRQRBSBSDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYBSDYDYBSDYBSDYDYBSDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYBSDYccccoaccccDYBSDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDpBSccqnqnqnccBSDpDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYIIlZlSlZlZlZlZlZlSlZlZlZlZlZlSlZlZlZlZlZeADYoaqneFqnoaDYeADYDYDYDYDYbGDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYbGBSBSBSBSBSbGBSBSBSBSBSbGBSBSBSBSBSDpBSccqnbhqnccBSDpDYDYDYDYDYGjDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYppkslzkskskskskslzkskskskskslzkskskskskseADYccccXTccccDYeADYDYJQJQDYGjDYJQJQDY
-DYDYDYDYDYDYDYDYIIlZlSlZlZlZlZlZlSlZlZlZlZlZlSlZlZlZlZlZlSlZlZlZlZlZlSlZlZlZlZlZlZeADYDYDYUzDYDYDYeADYDYDYGjGjGjGjGjDYDY
-DYDYDYDYDYDYDYDYDYDYbGBSBSBSBSBSbGBSBSBSBSBSbGBSBSBSBSBSbGBSBSBSBSBSbGBSBSBSBSBSbGDpQRQRCTcqSlQRQRDpDYDYJQJQDYGjDYJQJQDY
-DYDYDYDYDYDYDYDYppkslzkskskskskslzkskskskskslzkskskskskslzkskskskskslzksksksksksksoUDYDYUzDYUzDYDYoUDYDYDYDYDYGjDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYIIlZlSlZlZlZlZlZlSlZlZlZlZlZlSlZlZlZlZlZoUDYDpGiJUzeDpDYoUDYJQJQJQDYGjDYJQJQJQ
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYbGBSBSBSBSBSbGBSBSBSBSBSbGBSBSBSBSBSDpDpDpwxkDTlDpDpDpDYDYGjGjGjGjGjGjGjDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYppkslzkskskskskslzkskskskskslzksksksksksooiNHPBYLfLJUHRtiNDYJQJQJQDYGjDYJQJQJQ
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYQPiNMXBYyApiwMBliNDYDYDYDYDYGjDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYQPiNMXGJyALJGGariNDYDYJQJQDYGjDYJQJQDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYgJtNiNMXBYyApieSgeDpzrDYDYGjGjGjGjGjDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYQPDpDpDpwXyALJwDKbiNhdDYJQJQDYGjDYJQJQDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYpOtutututututuiNgsVctututututututuRpRpRpGKeAiNZFLJyApiwMBliNhdDYDYDYDYGjDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYppkskskskskskslzksDpiNiNiNiNiNMYVciNiNiNiNiNiNiNDpDpDpDpeAiNkaOGKrLJGGarDpDpiNiNiNiNZnDpiNBSbG
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDpDpDpaLuqnMbxiNBxVcuqnMLvknuqnMLvxiIvqEDpDpDpDpUaVcpxDpDpDphqmFvcJxJxkjgpiNDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYJVDpwQDpQQMVhLMVWJcdDxuLuLuLuLuLuLuLuLVSVSyKAkiCtkYHtIbYbYDphjmOSAQGVEVEEhRCiNiNiN
-DYDYDYDYDYDYDYDYDYDYDYbGBSBSpDpDpDBSBSfUrpJeLHIclFlFeYlFlFlFlFeYlFlFlFeYeYeYlFlFlFvTBwNcNcQqBcYHBHhvlkDpWuDvjsWalRdsGfds
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYGNDpxmDpwhMVywMVNuDVSRVSPuuLuLuLVSuLuLuLVSSzmpdStkYHyWbYtkDpSXmOSAVEVEQGEhpbiNiNiN
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDpDpDpFamHlfJaiNrlVcanlfJauianlfLIWZWZEmDpDpDpDpFoVcyFDpDpDpNiNiNinmnmkjCOiNDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYIIlZlZlZlZlZlZlSlZDpiNiNiNiNiNBrVciNiNiNiNiNiNiNDpDpDpDpeAiNEeYHDRtkJjbiDpDpiNiNiNiNZnDpiNBSbG
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYvCIFIFIFIFIFIFiNySVcIFIFIFIFIFIFIFQdQdQdSJeAiNwgbYzttkMMeCiNhdDYDYDYDYGjDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYJfDYDYDYDYDYDYDYDYDYDYDYQPDpDpDpfamCbYhOVmiNhdDYJQJQDYGjDYJQJQDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYsbbniNrxbYmCtkMMBkDpfxDYDYGjGjGjGjGjDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYQPiNrxtkzttkcIVmiNDYDYJQJQDYGjDYJQJQDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYQPiNqwtkzttkMMeCiNDYDYDYDYDYGjDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYIIlZlSlZlZlZlZlZlSlZlZlZlZlZlSlZlZlZlZlZooiNrxtkmCbYhxgUiNDYJQJQJQDYGjDYJQJQJQ
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYbGBSBSBSBSBSbGBSBSBSBSBSbGBSBSBSBSBSDpDpDpuREjOuDpDpDpDYDYGjGjGjGjGjGjGjDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYppkslzkskskskskslzkskskskskslzksksksksksoUDYDpmnTLIQDpDYoUDYJQJQJQDYGjDYJQJQJQ
-DYDYDYDYDYDYDYDYIIlZlSlZlZlZlZlZlSlZlZlZlZlZlSlZlZlZlZlZlSlZlZlZlZlZlSlZlZlZlZlZlZoUDYDYdGDYdGDYDYoUDYDYDYDYDYGjDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYbGBSBSBSBSBSbGBSBSBSBSBSbGBSBSBSBSBSbGBSBSBSBSBSbGBSBSBSBSBSbGDpQRditfLWvPQRdiDpDYDYJQJQDYGjDYJQJQDY
-DYDYDYDYDYDYDYDYppkslzkskskskskslzkskskskskslzkskskskskslzkskskskskslzkskskskskskseADYDYDYdGDYDYDYeADYDYDYGjGjGjGjGjDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYIIlZlSlZlZlZlZlZlSlZlZlZlZlZlSlZlZlZlZlZeADYccccgdccccDYeADYDYJQJQDYGjDYJQJQDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYbGBSBSBSBSBSbGBSBSBSBSBSbGBSBSBSBSBSDpBSccqndaqnccBSDpDYDYDYDYDYGjDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYppkslzkskskskskslzkskskskskslzkskskskskseADYoaqnqDqnoaDYeADYDYDYDYDYbGDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDpBSccqnqnqnccBSDpDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYBSDYccccoaccccDYBSDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYBSDYDYBSDYBSDYDYBSDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYBSBSQRQRQRQRQRBSBSDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYBSDYDYDYBSDYDYDYBSDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYbGDYDYDYBSDYDYDYbGDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYBSDYDYDYDYDYDYDYDYDYDYDYDYDYDY
-DYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYDYbGDYDYDYDYDYDYDYDYDYDYDYDYDYDY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(2,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(3,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(4,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(5,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(6,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(7,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(8,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(9,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+II
+DY
+pp
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+II
+DY
+pp
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(10,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+DY
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+DY
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(11,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lS
+bG
+lz
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lS
+bG
+lz
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(12,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+bG
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(13,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+BS
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(14,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+pp
+DY
+DY
+BS
+DY
+DY
+II
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(15,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+ks
+DY
+DY
+pD
+DY
+DY
+lZ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(16,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+ks
+DY
+DY
+pD
+DY
+DY
+lZ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(17,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lS
+bG
+lz
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+ks
+DY
+DY
+pD
+DY
+DY
+lZ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lS
+bG
+lz
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(18,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+ks
+DY
+DY
+BS
+DY
+DY
+lZ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(19,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+ks
+DY
+DY
+BS
+DY
+DY
+lZ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(20,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+ks
+DY
+JV
+fU
+GN
+DY
+lZ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(21,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+pO
+lz
+Dp
+Dp
+rp
+Dp
+Dp
+lS
+vC
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(22,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+II
+DY
+pp
+lZ
+BS
+ks
+II
+DY
+pp
+DY
+DY
+DY
+DY
+tu
+ks
+Dp
+wQ
+Je
+xm
+Dp
+lZ
+IF
+DY
+DY
+DY
+DY
+II
+DY
+pp
+lZ
+BS
+ks
+II
+DY
+pp
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(23,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+DY
+ks
+lS
+bG
+lz
+lZ
+DY
+ks
+DY
+DY
+DY
+DY
+tu
+Dp
+Dp
+Dp
+LH
+Dp
+Dp
+Dp
+IF
+DY
+DY
+DY
+DY
+lZ
+DY
+ks
+lS
+bG
+lz
+lZ
+DY
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(24,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lS
+bG
+lz
+lZ
+BS
+ks
+lS
+bG
+lz
+DY
+DY
+DY
+DY
+tu
+iN
+aL
+QQ
+Ic
+wh
+Fa
+iN
+IF
+DY
+DY
+DY
+DY
+lS
+bG
+lz
+lZ
+BS
+ks
+lS
+bG
+lz
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(25,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+tu
+iN
+uq
+MV
+lF
+MV
+mH
+iN
+IF
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(26,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+tu
+iN
+nM
+hL
+lF
+yw
+lf
+iN
+IF
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(27,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+tu
+iN
+bx
+MV
+eY
+MV
+Ja
+iN
+IF
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(28,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+iN
+iN
+iN
+WJ
+lF
+Nu
+iN
+iN
+iN
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(29,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lS
+bG
+lz
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+gs
+MY
+Bx
+cd
+lF
+DV
+rl
+Br
+yS
+Jf
+DY
+DY
+DY
+lZ
+BS
+ks
+lS
+bG
+lz
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(30,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lS
+bG
+lz
+lZ
+BS
+ks
+lS
+bG
+lz
+DY
+DY
+DY
+DY
+Vc
+Vc
+Vc
+Dx
+lF
+SR
+Vc
+Vc
+Vc
+DY
+DY
+DY
+DY
+lS
+bG
+lz
+lZ
+BS
+ks
+lS
+bG
+lz
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(31,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+tu
+iN
+uq
+uL
+lF
+VS
+an
+iN
+IF
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(32,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+tu
+iN
+nM
+uL
+eY
+Pu
+lf
+iN
+IF
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(33,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+tu
+iN
+Lv
+uL
+lF
+uL
+Ja
+iN
+IF
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(34,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+tu
+iN
+kn
+uL
+lF
+uL
+ui
+iN
+IF
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(35,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lS
+bG
+lz
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+tu
+iN
+uq
+uL
+lF
+uL
+an
+iN
+IF
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lS
+bG
+lz
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(36,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lS
+bG
+lz
+lZ
+BS
+ks
+lS
+bG
+lz
+DY
+DY
+DY
+DY
+tu
+iN
+nM
+uL
+eY
+VS
+lf
+iN
+IF
+DY
+DY
+DY
+DY
+lS
+bG
+lz
+lZ
+BS
+ks
+lS
+bG
+lz
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(37,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+tu
+iN
+Lv
+uL
+eY
+uL
+LI
+iN
+IF
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(38,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+Rp
+Dp
+xi
+uL
+eY
+uL
+WZ
+Dp
+Qd
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(39,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+Rp
+Dp
+Iv
+EK
+lF
+Bq
+WZ
+Dp
+Qd
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(40,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+Rp
+Dp
+qE
+VS
+lF
+VS
+Em
+Dp
+Qd
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+BS
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(41,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+lZ
+BS
+ks
+lZ
+bG
+ks
+lZ
+BS
+ks
+DY
+DY
+gJ
+QP
+GK
+Dp
+Dp
+yK
+lF
+Sz
+Dp
+Dp
+SJ
+QP
+sb
+DY
+DY
+lZ
+BS
+ks
+lZ
+bG
+ks
+lZ
+BS
+ks
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(42,1,1) = {"
+DY
+DY
+bG
+BS
+BS
+BS
+BS
+Dp
+eA
+Dp
+eA
+eA
+Dp
+oU
+oU
+Dp
+oo
+QP
+QP
+tN
+Dp
+eA
+eA
+Dp
+Ak
+vT
+mp
+Dp
+eA
+eA
+Dp
+bn
+QP
+QP
+oo
+Dp
+oU
+oU
+Dp
+eA
+eA
+Dp
+eA
+Dp
+BS
+BS
+BS
+BS
+bG
+DY
+DY
+"}
+(43,1,1) = {"
+DY
+DY
+DY
+DY
+BS
+DY
+DY
+BS
+DY
+BS
+DY
+DY
+QR
+DY
+DY
+Dp
+iN
+iN
+iN
+iN
+Dp
+iN
+iN
+Dp
+iC
+Bw
+dS
+Dp
+iN
+iN
+Dp
+iN
+iN
+iN
+iN
+Dp
+DY
+DY
+QR
+DY
+DY
+BS
+DY
+BS
+DY
+DY
+BS
+DY
+DY
+DY
+DY
+"}
+(44,1,1) = {"
+DY
+DY
+DY
+DY
+QR
+DY
+cc
+cc
+oa
+cc
+cc
+DY
+QR
+DY
+Dp
+Dp
+HP
+MX
+MX
+MX
+Dp
+ZF
+ka
+Dp
+tk
+Nc
+tk
+Dp
+Ee
+wg
+Dp
+rx
+rx
+qw
+rx
+Dp
+Dp
+DY
+di
+DY
+cc
+cc
+oa
+cc
+cc
+DY
+QR
+DY
+DY
+DY
+DY
+"}
+(45,1,1) = {"
+DY
+DY
+DY
+DY
+QR
+BS
+cc
+qn
+qn
+qn
+cc
+DY
+CT
+Uz
+Gi
+wx
+BY
+BY
+GJ
+BY
+wX
+LJ
+OG
+Ua
+YH
+Nc
+YH
+Fo
+YH
+bY
+fa
+bY
+tk
+tk
+tk
+uR
+mn
+dG
+tf
+DY
+cc
+ro
+ro
+ro
+cc
+BS
+QR
+DY
+DY
+DY
+DY
+"}
+(46,1,1) = {"
+bG
+BS
+BS
+BS
+QR
+DY
+oa
+qn
+eF
+bh
+XT
+Uz
+cq
+DY
+JU
+kD
+Lf
+yA
+yA
+yA
+yA
+yA
+Kr
+Vc
+tI
+Qq
+yW
+Vc
+DR
+MB
+Fc
+Fc
+Fc
+zt
+mC
+Ej
+TL
+DY
+LW
+dG
+gd
+da
+qD
+ro
+oa
+DY
+QR
+BS
+BS
+BS
+bG
+"}
+(47,1,1) = {"
+DY
+DY
+DY
+DY
+QR
+BS
+cc
+qn
+qn
+qn
+cc
+DY
+Sl
+Uz
+ze
+Tl
+LJ
+pi
+LJ
+pi
+LJ
+pi
+LJ
+px
+bY
+Bc
+bY
+yF
+tk
+tk
+bY
+tk
+tk
+tk
+bY
+Ou
+IQ
+dG
+vP
+DY
+cc
+ro
+ro
+ro
+cc
+BS
+QR
+DY
+DY
+DY
+DY
+"}
+(48,1,1) = {"
+DY
+DY
+DY
+DY
+QR
+DY
+cc
+cc
+oa
+cc
+cc
+DY
+QR
+DY
+Dp
+Dp
+UH
+wM
+GG
+eS
+wD
+wM
+GG
+Dp
+bY
+YH
+tk
+Dp
+Jj
+MM
+hO
+MM
+cI
+MM
+hx
+Dp
+Dp
+DY
+QR
+DY
+cc
+cc
+oa
+cc
+cc
+DY
+QR
+DY
+DY
+DY
+DY
+"}
+(49,1,1) = {"
+DY
+DY
+DY
+DY
+BS
+DY
+DY
+BS
+DY
+BS
+DY
+DY
+QR
+DY
+DY
+Dp
+Rt
+Bl
+ar
+ge
+Kb
+Bl
+ar
+Dp
+Dp
+BH
+Dp
+Dp
+bi
+eC
+Vm
+Bk
+Vm
+eC
+gU
+Dp
+DY
+DY
+di
+DY
+DY
+BS
+DY
+BS
+DY
+DY
+BS
+DY
+DY
+DY
+DY
+"}
+(50,1,1) = {"
+DY
+DY
+bG
+BS
+BS
+BS
+BS
+Dp
+eA
+Dp
+eA
+eA
+Dp
+oU
+oU
+Dp
+iN
+iN
+iN
+Dp
+iN
+iN
+Dp
+Dp
+hj
+hv
+SX
+Dp
+Dp
+iN
+iN
+Dp
+iN
+iN
+iN
+Dp
+oU
+oU
+Dp
+eA
+eA
+Dp
+eA
+Dp
+BS
+BS
+BS
+BS
+bG
+DY
+DY
+"}
+(51,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+zr
+hd
+hd
+Dp
+hq
+mO
+lk
+mO
+Ni
+Dp
+hd
+hd
+fx
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(52,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+JQ
+DY
+JQ
+DY
+DY
+DY
+DY
+DY
+iN
+mF
+SA
+Dp
+SA
+Ni
+iN
+DY
+DY
+DY
+DY
+DY
+JQ
+DY
+JQ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(53,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+JQ
+DY
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+DY
+JQ
+DY
+iN
+vc
+QG
+Wu
+VE
+Ni
+iN
+DY
+JQ
+DY
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+DY
+JQ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(54,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+iN
+Jx
+VE
+Dv
+VE
+nm
+iN
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(55,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+Gj
+DY
+DY
+DY
+Gj
+DY
+DY
+DY
+Gj
+DY
+DY
+iN
+Jx
+VE
+js
+QG
+nm
+iN
+DY
+DY
+Gj
+DY
+DY
+DY
+Gj
+DY
+DY
+DY
+Gj
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(56,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+bG
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Zn
+kj
+Eh
+Wa
+Eh
+kj
+Zn
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+Gj
+bG
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(57,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+Gj
+DY
+DY
+DY
+Gj
+DY
+DY
+DY
+Gj
+DY
+DY
+Dp
+gp
+RC
+lR
+pb
+CO
+Dp
+DY
+DY
+Gj
+DY
+DY
+DY
+Gj
+DY
+DY
+DY
+Gj
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(58,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+iN
+iN
+uy
+El
+iN
+iN
+iN
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(59,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+JQ
+DY
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+DY
+JQ
+DY
+BS
+DY
+iN
+Gf
+iN
+DY
+BS
+DY
+JQ
+DY
+JQ
+DY
+JQ
+Gj
+JQ
+DY
+JQ
+DY
+JQ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+"}
+(60,1,1) = {"
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+JQ
+DY
+JQ
+DY
+DY
+DY
+DY
+DY
+bG
+DY
+iN
+ds
+iN
+DY
+bG
+DY
+DY
+DY
+DY
+DY
+JQ
+DY
+JQ
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
+DY
 "}

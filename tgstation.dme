@@ -1987,6 +1987,7 @@
 #include "code\modules\awaymissions\gateway.dm"
 #include "code\modules\awaymissions\pamphlet.dm"
 #include "code\modules\awaymissions\signpost.dm"
+#include "code\modules\awaymissions\space_russian_stuff.dm"
 #include "code\modules\awaymissions\super_secret_room.dm"
 #include "code\modules\awaymissions\zlevel.dm"
 #include "code\modules\awaymissions\mission_code\Academy.dm"

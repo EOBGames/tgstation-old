@@ -1,0 +1,1541 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"am" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"at" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on/layer4,
+/turf/open/floor/engine/vacuum,
+/area/space)
+"bA" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 5
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"bO" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/smooth,
+/area/space)
+"bW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"cS" = (
+/turf/open/floor/engine/air,
+/area/space)
+"dT" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"dX" = (
+/obj/structure/table/reinforced,
+/obj/item/radio/intercom{
+	dir = 8;
+	freerange = 1;
+	frequency = 1525;
+	name = "Shipping Channel Intercom"
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"eh" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 5
+	},
+/obj/item/storage/firstaid/emergency{
+	pixel_y = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"em" = (
+/obj/machinery/light/small/red/directional/east,
+/turf/open/space/basic,
+/area/space)
+"fl" = (
+/obj/structure/chair/stool/bar/directional/west,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron,
+/area/space)
+"fC" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/item/stack/sheet/mineral/uranium/five,
+/obj/machinery/door/window/survival_pod{
+	dir = 8;
+	name = "Uranium Storage"
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"hD" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 5
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"id" = (
+/turf/open/floor/engine/vacuum,
+/area/space)
+"ie" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/closet/crate/secure/loot,
+/turf/open/floor/iron/smooth,
+/area/space)
+"in" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"jz" = (
+/turf/open/floor/plating,
+/area/space)
+"jF" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/dark/visible/layer4{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"jG" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Docking Clamp"
+	},
+/turf/open/floor/plating,
+/area/space)
+"jL" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/west,
+/obj/item/reagent_containers/glass/bucket{
+	pixel_x = 8;
+	pixel_y = -5
+	},
+/obj/item/mop,
+/turf/open/floor/iron/smooth,
+/area/space)
+"kw" = (
+/obj/machinery/light/small/directional/east,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/space)
+"kU" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/binary/pump/layer4{
+	dir = 4;
+	name = "Fuel Supply Pump"
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"kY" = (
+/obj/machinery/door/poddoor/shutters/window,
+/obj/structure/fluff/tram_rail/floor{
+	desc = "For moving heavy cargo.";
+	name = "cargo rail"
+	},
+/turf/open/floor/plating,
+/area/space)
+"mb" = (
+/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/turf/open/floor/plating,
+/area/space)
+"ot" = (
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"oA" = (
+/obj/machinery/light/small/red/directional/north,
+/turf/open/space/basic,
+/area/space)
+"oF" = (
+/obj/structure/shuttle/engine/huge{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
+"pg" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Bathroom"
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"pq" = (
+/obj/structure/closet,
+/obj/item/clothing/suit/hooded/wintercoat/cargo{
+	name = "hauler's winter coat"
+	},
+/obj/item/food/canned/tushonka,
+/turf/open/floor/iron/smooth,
+/area/space)
+"px" = (
+/obj/machinery/door/poddoor/shutters,
+/turf/open/floor/plating,
+/area/space)
+"pO" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
+"qa" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = -3;
+	pixel_y = 14
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 3;
+	pixel_y = 14
+	},
+/obj/item/plate/oven_tray{
+	desc = "Perfect for eating square meals off of.";
+	name = "spacer's plate"
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/structure/sign/poster/contraband/smoke{
+	pixel_y = 32
+	},
+/obj/item/food/fries{
+	pixel_x = 3;
+	pixel_y = 6
+	},
+/obj/item/food/patty/plain{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/turf/open/floor/iron,
+/area/space)
+"qY" = (
+/obj/structure/table/reinforced,
+/obj/item/food/rationpack{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/item/food/rationpack{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/food/rationpack{
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/food/drinks/bottle/vodka{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/item/reagent_containers/food/condiment/pack/hotsauce,
+/turf/open/floor/iron,
+/area/space)
+"rz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"rM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/smooth,
+/area/space)
+"so" = (
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"te" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/open/floor/iron/smooth,
+/area/space)
+"tr" = (
+/obj/structure/fluff/tram_rail/floor{
+	desc = "For moving heavy cargo.";
+	name = "cargo rail"
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"vB" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Docking Clamp"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/plating,
+/area/space)
+"wf" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on/layer2,
+/turf/open/floor/engine/air,
+/area/space)
+"wI" = (
+/obj/structure/toilet{
+	pixel_y = 8
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/smooth,
+/area/space)
+"xj" = (
+/obj/structure/showcase/fakeid{
+	desc = "The console is locked down, presumably because the ship is out of fuel.";
+	dir = 4;
+	name = "navigation console"
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"xv" = (
+/obj/machinery/door/poddoor/shutters/window,
+/obj/structure/fluff/tram_rail/floor{
+	desc = "For moving heavy cargo.";
+	dir = 1;
+	name = "cargo rail"
+	},
+/turf/open/floor/plating,
+/area/space)
+"yo" = (
+/obj/structure/showcase/fakeid{
+	desc = "A modern GPS system, although this one is out of power.";
+	dir = 1;
+	name = "galactic positioning system console"
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"yO" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/light/cold/no_nightlight/directional/north,
+/obj/structure/closet/crate/secure/loot,
+/turf/open/floor/iron/smooth,
+/area/space)
+"yT" = (
+/turf/open/space/basic,
+/area/space)
+"yV" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/light/warm/directional/south,
+/turf/open/floor/carpet/black,
+/area/space)
+"zj" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/smooth,
+/area/space)
+"zV" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"Aa" = (
+/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/shuttle/engine/heater{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"Aq" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Be" = (
+/obj/machinery/light/small/red/directional/south,
+/turf/open/space/basic,
+/area/space)
+"BS" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/light_switch/directional/south,
+/turf/open/floor/carpet/black,
+/area/space)
+"BV" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Docking Clamp"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"Cp" = (
+/turf/open/floor/iron/smooth,
+/area/space)
+"Cz" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Dj" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/sign/warning/fire{
+	pixel_y = 32
+	},
+/obj/machinery/light/cold/no_nightlight/directional/north,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Dr" = (
+/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/curtain/bounty,
+/turf/open/floor/plating,
+/area/space)
+"DN" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"Ef" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/structure/chair/sofa/left,
+/obj/item/newspaper{
+	desc = "An issue of the Spinward Times, published in New Moscow."
+	},
+/obj/item/clothing/shoes/workboots/mining{
+	desc = "Steel-toed boots for freight-haulers. Very good at keeping toes uncrushed by falling crates.";
+	name = "freight-hauler's boots";
+	pixel_y = -9
+	},
+/turf/open/floor/carpet/black,
+/area/space)
+"Et" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/iron,
+/area/space)
+"EN" = (
+/obj/structure/chair/stool/bar/directional/east,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
+"FC" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"FW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Ge" = (
+/obj/structure/sign/russian_ship{
+	pixel_y = 32
+	},
+/turf/open/space/basic,
+/area/space)
+"GR" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"Hc" = (
+/obj/structure/sign/ssc_flag{
+	pixel_y = 32
+	},
+/obj/structure/chair/sofa/right,
+/obj/item/toy/plush/lizard_plushie/green{
+	name = "Alexei"
+	},
+/turf/open/floor/carpet/black,
+/area/space)
+"Hd" = (
+/obj/machinery/door/poddoor/shutters/window,
+/turf/open/floor/plating,
+/area/space)
+"HB" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Cargo Hold"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"HP" = (
+/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4,
+/turf/open/floor/plating,
+/area/space)
+"HS" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"Ie" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Im" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"Is" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Cargo Hold"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Iv" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Iz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light/cold/no_nightlight/directional/south,
+/turf/open/floor/iron/smooth,
+/area/space)
+"IN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/light/cold/no_nightlight/directional/south,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Jd" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
+"Jw" = (
+/obj/structure/reagent_dispensers/plumbed,
+/turf/open/floor/iron/smooth,
+/area/space)
+"JD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 1
+	},
+/obj/machinery/light/cold/no_nightlight/directional/east,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"JM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"Ko" = (
+/obj/structure/bed/pod,
+/obj/item/bedsheet/black,
+/obj/machinery/computer/security/telescreen/entertainment/directional/west,
+/turf/open/floor/carpet/black,
+/area/space)
+"KV" = (
+/obj/structure/table/reinforced,
+/obj/item/modular_computer/laptop/preset/civilian,
+/obj/item/reagent_containers/food/drinks/mug/tea{
+	pixel_x = -5
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"LU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Ml" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/dresser,
+/turf/open/floor/carpet/black,
+/area/space)
+"MD" = (
+/obj/structure/fluff/tram_rail/floor{
+	desc = "For moving heavy cargo.";
+	name = "cargo rail"
+	},
+/turf/open/floor/plating,
+/area/space)
+"NI" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 10
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"OH" = (
+/obj/structure/sign/russian_ship/right{
+	pixel_y = 32
+	},
+/turf/open/space/basic,
+/area/space)
+"OR" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"OT" = (
+/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2,
+/turf/open/floor/plating,
+/area/space)
+"Pc" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"Pd" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
+"Pg" = (
+/obj/structure/table/reinforced,
+/obj/machinery/microwave{
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/iron,
+/area/space)
+"Pj" = (
+/obj/structure/shuttle/engine/large{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
+"RT" = (
+/obj/machinery/shower{
+	dir = 1
+	},
+/obj/structure/curtain/bounty,
+/obj/item/soap,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Sb" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/light/warm/directional/south,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Sc" = (
+/obj/structure/fluff/tram_rail/floor{
+	desc = "For moving heavy cargo.";
+	dir = 1;
+	name = "cargo rail"
+	},
+/turf/open/floor/plating,
+/area/space)
+"Sr" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"Su" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"Tc" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/item/plate/oven_tray{
+	desc = "Perfect for eating square meals off of.";
+	name = "spacer's plate"
+	},
+/obj/item/kitchen/fork{
+	pixel_x = -8
+	},
+/turf/open/floor/iron,
+/area/space)
+"Up" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Cargo Hold"
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"UP" = (
+/obj/structure/fluff/tram_rail/floor{
+	desc = "For moving heavy cargo.";
+	dir = 1;
+	name = "cargo rail"
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"VP" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/space)
+"Wo" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 4
+	},
+/obj/structure/sign/warning/radiation{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"WP" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 11;
+	pixel_y = -6
+	},
+/obj/structure/mirror/directional/east,
+/turf/open/floor/iron/smooth,
+/area/space)
+"WU" = (
+/obj/structure/sign/russian_ship/left{
+	pixel_y = 32
+	},
+/turf/open/space/basic,
+/area/space)
+"Xv" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/north,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"XY" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 8
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible/layer4{
+	dir = 10
+	},
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Ya" = (
+/obj/machinery/power/port_gen/pacman/super,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/space)
+"YJ" = (
+/obj/machinery/holopad,
+/turf/open/floor/carpet/black,
+/area/space)
+
+(1,1,1) = {"
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(2,1,1) = {"
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(3,1,1) = {"
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(4,1,1) = {"
+yT
+yT
+yT
+yT
+yT
+em
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(5,1,1) = {"
+yT
+yT
+yT
+VP
+vB
+VP
+px
+xv
+Hd
+kY
+px
+Pc
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(6,1,1) = {"
+yT
+yT
+Be
+VP
+Xv
+VP
+bW
+Sc
+jz
+MD
+rz
+VP
+oA
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(7,1,1) = {"
+yT
+yT
+Pc
+VP
+BV
+VP
+yO
+Sc
+jz
+MD
+Iz
+VP
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(8,1,1) = {"
+yT
+yT
+mb
+zj
+dT
+Cp
+bO
+Sc
+jz
+MD
+ie
+VP
+mb
+mb
+mb
+yT
+yT
+yT
+yT
+yT
+"}
+(9,1,1) = {"
+yT
+yT
+mb
+zj
+dT
+in
+bO
+Sc
+jz
+MD
+JM
+VP
+dX
+xj
+mb
+mb
+yT
+yT
+yT
+yT
+"}
+(10,1,1) = {"
+yT
+yT
+mb
+te
+OR
+Im
+GR
+Sc
+jz
+MD
+am
+VP
+KV
+Su
+yo
+mb
+yT
+yT
+yT
+yT
+"}
+(11,1,1) = {"
+yT
+yT
+Pc
+VP
+VP
+VP
+Aq
+Sc
+jz
+MD
+am
+VP
+Ml
+yV
+VP
+VP
+oA
+yT
+yT
+yT
+"}
+(12,1,1) = {"
+yT
+yT
+yT
+VP
+cS
+mb
+Sr
+Sc
+jz
+MD
+am
+VP
+Hc
+YJ
+Ko
+Dr
+yT
+yT
+yT
+yT
+"}
+(13,1,1) = {"
+yT
+yT
+yT
+VP
+wf
+OT
+Ie
+Sc
+jz
+MD
+am
+VP
+Ef
+BS
+VP
+VP
+yT
+yT
+yT
+yT
+"}
+(14,1,1) = {"
+yT
+yT
+yT
+VP
+cS
+mb
+Sr
+Sc
+jz
+MD
+am
+VP
+fl
+Et
+Pg
+mb
+yT
+yT
+yT
+yT
+"}
+(15,1,1) = {"
+yT
+yT
+yT
+VP
+VP
+VP
+Dj
+Sc
+jz
+MD
+IN
+VP
+qa
+pO
+Tc
+mb
+yT
+yT
+yT
+yT
+"}
+(16,1,1) = {"
+yT
+yT
+yT
+VP
+id
+mb
+Sr
+Sc
+jz
+MD
+am
+VP
+EN
+Pd
+qY
+mb
+yT
+yT
+yT
+yT
+"}
+(17,1,1) = {"
+yT
+yT
+yT
+VP
+at
+HP
+bA
+Sc
+jz
+MD
+LU
+Is
+Iv
+Sb
+VP
+VP
+VP
+yT
+yT
+yT
+"}
+(18,1,1) = {"
+yT
+yT
+Be
+VP
+id
+mb
+kU
+Sc
+jz
+MD
+FW
+VP
+pq
+Cp
+jG
+kw
+vB
+yT
+yT
+yT
+"}
+(19,1,1) = {"
+yT
+yT
+yT
+VP
+VP
+VP
+zV
+Sc
+jz
+MD
+FW
+VP
+VP
+pg
+VP
+VP
+VP
+oA
+yT
+yT
+"}
+(20,1,1) = {"
+yT
+yT
+yT
+VP
+Ya
+VP
+Wo
+Sc
+jz
+MD
+FW
+VP
+wI
+WP
+RT
+VP
+yT
+yT
+yT
+yT
+"}
+(21,1,1) = {"
+yT
+yT
+yT
+VP
+so
+Up
+Cz
+UP
+HS
+tr
+FW
+VP
+VP
+VP
+VP
+VP
+WU
+yT
+yT
+yT
+"}
+(22,1,1) = {"
+yT
+yT
+yT
+VP
+fC
+VP
+NI
+jF
+JD
+jF
+FC
+HB
+hD
+jL
+Jw
+VP
+Ge
+yT
+yT
+yT
+"}
+(23,1,1) = {"
+yT
+yT
+yT
+Pc
+VP
+VP
+DN
+ot
+VP
+ot
+DN
+VP
+XY
+eh
+rM
+VP
+OH
+yT
+yT
+yT
+"}
+(24,1,1) = {"
+yT
+yT
+yT
+yT
+Be
+VP
+Aa
+Aa
+VP
+Aa
+Aa
+VP
+Aa
+Aa
+Aa
+VP
+oA
+yT
+yT
+yT
+"}
+(25,1,1) = {"
+yT
+yT
+yT
+yT
+yT
+VP
+Jd
+Pj
+VP
+Jd
+Pj
+VP
+Jd
+Jd
+oF
+Pc
+yT
+yT
+yT
+yT
+"}
+(26,1,1) = {"
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(27,1,1) = {"
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(28,1,1) = {"
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(29,1,1) = {"
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}
+(30,1,1) = {"
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+yT
+"}

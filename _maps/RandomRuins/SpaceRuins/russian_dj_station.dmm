@@ -72,9 +72,26 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
+/obj/structure/table,
+/obj/item/phone{
+	desc = "An old Soviet phone with an internal send/receive device. Considered revolutionary prior to the invention of bluespace communications, it's now a relic of the past. Funny how technology progresses, isn't it?";
+	name = "kosmophone";
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/food/drinks/bottle/vodka{
+	pixel_x = -7
+	},
 /turf/open/floor/iron,
 /area/space)
 "fB" = (
+/obj/machinery/shower{
+	dir = 4
+	},
 /turf/open/floor/iron/smooth,
 /area/space)
 "gt" = (
@@ -259,6 +276,15 @@
 /obj/item/screwdriver,
 /turf/open/floor/iron/dark,
 /area/space)
+"ul" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/turf/open/floor/plating/airless,
+/area/space)
 "uC" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plating/airless,
@@ -428,6 +454,13 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"HV" = (
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_y = 4
+	},
+/turf/open/floor/carpet/green,
+/area/space)
 "Iw" = (
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
@@ -503,6 +536,13 @@
 /area/space)
 "LH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/structure/table,
+/obj/item/folder/red{
+	pixel_y = 2
+	},
+/obj/item/pen/fountain{
+	pixel_y = 2
+	},
 /turf/open/floor/carpet/green,
 /area/space)
 "LW" = (
@@ -595,6 +635,11 @@
 /area/space)
 "Uc" = (
 /turf/closed/wall,
+/area/space)
+"Uj" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/structure/chair/office,
+/turf/open/floor/carpet/green,
 /area/space)
 "UD" = (
 /obj/structure/lattice,
@@ -775,7 +820,7 @@ IX
 IX
 hH
 sy
-sy
+Iy
 Uc
 hf
 hf
@@ -805,7 +850,7 @@ vi
 Bc
 Bc
 Bc
-Uc
+vT
 Uc
 Uc
 Uc
@@ -968,7 +1013,7 @@ Uc
 tB
 lY
 qo
-LH
+Uj
 LH
 Rq
 CD
@@ -1001,7 +1046,7 @@ IG
 bk
 YV
 nW
-nW
+HV
 Rq
 Uc
 UX
@@ -1125,7 +1170,7 @@ vi
 Bc
 Bc
 Bc
-Uc
+vT
 Uc
 Uc
 Uc
@@ -1159,7 +1204,7 @@ IX
 IX
 HB
 VK
-VK
+ul
 Uc
 hf
 hf
