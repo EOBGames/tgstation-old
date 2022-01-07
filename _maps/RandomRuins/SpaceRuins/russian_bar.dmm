@@ -90,7 +90,7 @@
 	},
 /area/space)
 "hN" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/turf/closed/wall,
 /area/space)
 "hQ" = (
 /obj/structure/chair/sofa/right{
@@ -255,7 +255,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "vq" = (
-/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/space)
 "vY" = (
