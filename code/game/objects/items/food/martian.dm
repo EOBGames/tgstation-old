@@ -169,10 +169,9 @@
 	foodtypes = MEAT | VEGETABLES | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-//Korean Food
 /obj/item/food/kimchi
 	name = "kimchi"
-	desc = "A classic Korean dish, although this particular prep is more similar to the Martian style- shredded cabbage with chilli peppers, konbu, bonito, and a mix of spices."
+	desc = "A classic Korean dish, although this particular prep is more similar to the Martian fusion style- shredded cabbage with chilli peppers, konbu, bonito, and a mix of spices."
 	icon_state = "kimchi"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("spicy cabbage" = 1, "seafood" = 1, "spices" = 1)
@@ -206,15 +205,41 @@
 	foodtypes = MEAT | VEGETABLES | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/soup/chili_miy_kaezu
-	name = "Chile miy Käzu"
-	desc = "A spicy beef soup with cheese- blending several cultural influences seemlessly into one tasty dish."
+/obj/item/food/soup/chileramen_miy_kaezu
+	name = "chileramen miy käzu"
+	desc = "A spicy beef ramen with cheese- blending several cultural influences seemlessly into one tasty dish."
 
 /obj/item/food/brat_kimchi
 	name = "brat-kimchi"
 	desc = "Fried kimchi, mixed with sugar and topped with bratwurst. A popular dish at izakayas on Mars."
 
-//Chinese-Style Dishes
+/obj/item/food/tonkatsuwurst
+	name = "tonkatsuwurst"
+	desc = "A cultural fusion between German and Japanese cooking, tonkatsuwurst blends the currywurst and tonkatsu sauce into something familiar, yet new."
+	icon_state = "tonkatsuwurst"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("sausage" = 1, "brown sauce" = 1)
+	foodtypes = MEAT | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/new_osaka_sunrise
+	name = "\improper New Osaka sunrise soup"
+	desc = "A bright, flavourful miso soup with tofu that commonly forms part of a traditional Martian breakfast, at least in the capital."
+	icon_state = "new_osaka_sunrise"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("miso" = 1, "tofu" = 1)
+	foodtypes = VEGETABLES | BREAKFAST
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/cilbir
+	name = "cilbir"
+	desc = "Eggs, served on a savoury yoghurt base with a spicy oil topping. Originally a Turkish dish, it came to Mars with German-Turkish settlers and has become a breakfast mainstay since."
+	icon_state = "cilbir"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("eggs" = 1, "yoghurt" = 1, "chili" = 1)
+	foodtypes = VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/food/peking_crepes
 	name = "\improper Peking duck crepes a l'orange"
 	desc = "This dish takes the best of Beijing's and Paris' cuisines to make a deliciously tangy and savoury meal."
@@ -226,7 +251,7 @@
 
 /obj/item/food/pizza/raw_red_city_pizza
 	name = "raw Red City pizza"
-	desc = "A pizza style common to New Osaka (and particularly the district of Little Brooklyn), Red City pizza has a thick, airy crust, topped off with mozzarella, parmesan, and baked tomato sauce- creating a pizza that is inspired by both the Italian and American traditions, and simultaneously in in neither camp. Popular toppings include traditional American options such as pepperoni, traditional Italian toppings such as fresh herbs, and culinary fusion options such as seaweed and kimchi."
+	desc = "A pizza style common to New Osaka (and particularly the district of Little Brooklyn), Red City pizza has a thick, airy crust, topped off with mozzarella, parmesan, and baked tomato sauce- creating a pizza that is inspired by both the Italian and American traditions, and simultaneously is fully in neither camp. Popular toppings include traditional American options such as pepperoni, traditional Italian toppings such as fresh herbs, and culinary fusion options such as seaweed and kimchi."
 	icon_state = "raw_red_city_pizza"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("crust" = 1, "cheese" = 1, "tomato" = 1, "mushrooms" = 1, "seaweed" = 1, "shrimp" = 1)
