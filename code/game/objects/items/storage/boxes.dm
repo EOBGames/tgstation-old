@@ -495,6 +495,12 @@
 	icon_state = "donkpocketboxbanana"
 	donktype = /obj/item/food/donkpocket/honk
 
+/obj/item/storage/box/donkpockets/donkpocketnacho
+	name = "box of Double-Crunch Donkritos nacho cheese donk-pockets"
+	desc = "Exclusive to 24/7, it's Double-Crunch Donkriots nacho cheese donk-pockets, the pinnacle of the donk-pocket art."
+	icon_state = "donkpocketboxnacho"
+	donktype = /obj/item/food/donkpocket/nacho
+
 /obj/item/storage/box/monkeycubes
 	name = "monkey cube box"
 	desc = "Drymate brand monkey cubes. Just add water!"

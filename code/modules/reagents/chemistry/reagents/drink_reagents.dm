@@ -1066,3 +1066,44 @@
 	glass_name = "glass of töchtaüse syrup"
 	glass_desc = "Not for drinking on its own."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//SLUSHEES, SLUSHEES, WE ALL LOVE SLUSHEES!
+/datum/reagent/consumable/blue_slushee
+	name = "Blue Raspberry Blast Slushee"
+	description = "The Slushee: 24/7's finest frozen beverage, in a range of wild, wacky, and highly artificial flavours."
+	color = "#7DF9FF"
+	taste_description = "sour raspberry"
+	glass_icon_state = "blue_slushee"
+	glass_name = "glass of Blue Raspberry Blast Slushee"
+	glass_desc = "The classic drink of long summers spent at gas stations and convenience stores."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/smwind_slushee
+	name = "Space Mountain Wind Slushee"
+	description = "Everyone's favourite citrus-flavoured sugar water mixed with crushed ice."
+	color = "#94C93D"
+	taste_description = "sweet citrus soda"
+	glass_icon_state = "smwind_slushee"
+	glass_name = "glass of Space Mountain Wind Slushee"
+	glass_desc = "This really just isn't the same when it's not in a Slushee cup."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/cola_slushee
+	name = "Space Cola Slushee"
+	description = "For when your cola just isn't cold enough."
+	color = "#663931"
+	taste_description = "cola"
+	glass_icon_state = "cola_slushee"
+	glass_name = "glass of Space Cola Slushee"
+	glass_desc = "Wow, it's cola!"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/purple_slushee
+	name = "Purple Power Punch Slushee"
+	description = "I give this Slushee an A+ for alliteration, and an F for actually describing the flavour."
+	color = "#6C1888"
+	taste_description = "sour grape"
+	glass_icon_state = "purple_slushee"
+	glass_name = "glass of Purple Power Punch Slushee"
+	glass_desc = "The secret is that it's just grape flavoured."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED

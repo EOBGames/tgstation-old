@@ -561,6 +561,23 @@
 	tastes = list("meat" = 2, "dough" = 2, "inner peace" = 1)
 	foodtypes = GRAIN
 
+/obj/item/food/donkpocket/nacho
+	name = "\improper Double-Crunch Donkritos nacho cheese donk-pocket"
+	desc = "All that hype, and it's still just a donk-pocket. What a rip-off!"
+	icon_state = "donkpocketnacho"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4)
+	microwaved_type = /obj/item/food/donkpocket/warm/nacho
+	tastes = list("donkritos" = 2, "nacho cheese" = 2)
+	foodtypes = DAIRY | GRAIN
+
+/obj/item/food/donkpocket/warm/nacho
+	name = "warm Double-Crunch Donkritos nacho cheese donk-pocket"
+	desc = "All that hype, and it's still just a donk-pocket. What a rip-off!"
+	icon_state = "donkpocketnacho"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/medicine/omnizine = 2)
+	tastes = list("donkritos" = 2, "nacho cheese" = 2)
+	foodtypes = DAIRY | GRAIN
+
 ////////////////////////////////////////////OTHER////////////////////////////////////////////
 
 /obj/item/food/cookie
