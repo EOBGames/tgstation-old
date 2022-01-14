@@ -953,3 +953,22 @@
 	icon_state = "ready_donk_warm_mex"
 	tastes = list("enchiladas" = 2, "laziness" = 1)
 	foodtypes = GRAIN | DAIRY | JUNKFOOD
+
+// Welcome to 24-Seven
+/obj/item/food/power_chew_dog
+	name = "\improper Power Chew hot dog"
+	desc = "The king of convenience store food, beloved by stoners and college students galaxywide."
+	icon_state = "power_chew_dog"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/protein = 1, /datum/reagent/consumable/ketchup = 3, /datum/reagent/consumable/nutriment/vitamin = 6, /datum/reagent/consumable/salt = 10)
+	tastes = list("bun" = 3, "meat" = 2, "toppings" = 1)
+	foodtypes = GRAIN | MEAT | VEGETABLES | DAIRY //relish is a vegetable
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/donkritos_nachos
+	name = "\improper Donkritos Double-Dip nachos"
+	desc = "Tortilla chips: check. Nacho cheese: check. Jalapenos: check. Salsa: check. Chili: check. Violent quantities of salt and fat: check. Yep, it's convenience store nachos time."
+	icon_state = "donkritos_nachos"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/protein = 1, /datum/reagent/consumable/nutriment/vitamin = 3, /datum/reagent/consumable/salt = 10)
+	tastes = list("nachos" = 2, "cheese" = 1, "chili" = 1, "jalapenos" = 1, "salsa" = 1)
+	foodtypes = GRAIN | FRIED | DAIRY | MEAT | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL

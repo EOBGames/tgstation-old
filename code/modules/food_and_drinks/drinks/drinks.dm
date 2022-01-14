@@ -583,6 +583,27 @@
 		if (icon_state == "colocup6")
 			desc = "A cheap, mass produced style of cup, typically used at parties. Woah, this one is in red! What the hell?"
 
+/obj/item/reagent_containers/food/drinks/chug_cup
+	name = "\improper Power Chug cup"
+	desc = "24-Seven's premier thirst quenching weapon. This one's normally sized, for a Chug, anyway."
+	icon = 'icons/obj/drinks.dmi'
+	icon_state = "chug_cup"
+	lefthand_file = 'icons/mob/inhands/misc/food_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/misc/food_righthand.dmi'
+	inhand_icon_state = "chugcup"
+	custom_materials = list(/datum/material/plastic = 1500)
+	possible_transfer_amounts = list(5, 10, 15, 20)
+	volume = 45
+	amount_per_transfer_from_this = 5
+	isGlass = FALSE
+
+/obj/item/reagent_containers/food/drinks/chug_cup/huge
+	name = "\improper Super Power Chug cup"
+	desc = "24-Seven's premier thirst quenching weapon. This one's pretty big, for a Chug, anyway."
+	icon_state = "huge_chug_cup"
+	custom_materials = list(/datum/material/plastic = 3000)
+	volume = 80
+
 //////////////////////////drinkingglass and shaker//
 //Note by Darem: This code handles the mixing of drinks. New drinks go in three places: In Chemistry-Reagents.dm (for the drink
 // itself), in Chemistry-Recipes.dm (for the reaction that changes the components into the drink), and here (for the drinking glass
