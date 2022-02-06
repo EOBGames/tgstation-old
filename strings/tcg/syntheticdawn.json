@@ -338,6 +338,21 @@
 			"rarity": "uncommon"
 		},
 		{
+			"id": "loader_modsuit",
+			"name": "NT Wojtek-Class MODsuit",
+			"desc": "Originally designed for loading orbital artillery, the Wojtek-Class has found popularity amongst crate-pushers for loading cargo, too.",
+			"rules": "Modular",
+			"icon_state": "loader_modsuit",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Nakamura",
+			"summoncost": "4",
+			"cardtype": "Equipment",
+			"cardsubtype": "Armour",
+			"series": "syntheticdawn",
+			"rarity": "uncommon"
+		},
+		{
 			"id": "synth",
 			"name": "Synth",
 			"desc": "The most basic self-mobile artificial intelligence platform, Synths are fragile, clumsy, and yet still dangerous.",
