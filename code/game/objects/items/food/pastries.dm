@@ -155,34 +155,6 @@
 	tastes = list("donut" = 3, "fizzy tutti frutti" = 1,)
 	is_decorated = TRUE
 
-/obj/item/food/donut/apple_fritter
-	name = "apple fritter"
-	desc = "Goes great with a cup of cinnamon coffee."
-	icon_state = "donut_fritter"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/applejuice = 3, /datum/reagent/consumable/sugar = 3)
-	tastes = list("donut" = 3, "apple" = 1, "cinnamon" = 1)
-
-/obj/item/food/donut/dutchie
-	name = "hollander donut"
-	desc = "Goes great with a mug of medium roast."
-	icon_state = "donut_dutchie"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 3)
-	tastes = list("donut" = 3, "raisins" = 1)
-
-/obj/item/food/donut/maple
-	name = "maple-dip donut"
-	desc = "Goes great with a mug of maple latte."
-	icon_state = "donut_maple"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 3)
-	tastes = list("donut" = 3, "maple" = 1)
-
-/obj/item/food/donut/honey_cruller
-	name = "honey cruller"
-	desc = "Goes great with a glass of honey."
-	icon_state = "donut_cruller"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/honey = 3)
-	tastes = list("donut" = 3, "honey" = 1)
-
 //////////////////////JELLY DONUTS/////////////////////////
 
 /obj/item/food/donut/jelly
@@ -933,9 +905,38 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/coco = 1)
 	ingredients = list(/datum/reagent/consumable/flour, /datum/reagent/consumable/sugar, /datum/reagent/consumable/coco)
 
+//Jim Norton's, Quebecois Coffee Pioneers and Makers of Excellent Donuts
+/obj/item/food/donut/apple_fritter
+	name = "apple fritter"
+	desc = "Goes great with a cup of cinnamon coffee."
+	icon_state = "donut_fritter"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/applejuice = 3, /datum/reagent/consumable/sugar = 3)
+	tastes = list("donut" = 3, "apple" = 1, "cinnamon" = 1)
+
+/obj/item/food/donut/dutchie
+	name = "hollander donut"
+	desc = "Goes great with a mug of medium roast."
+	icon_state = "donut_dutchie"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 3)
+	tastes = list("donut" = 3, "raisins" = 1)
+
+/obj/item/food/donut/maple
+	name = "maple-dip donut"
+	desc = "Goes great with a cardboard cup of maple latte."
+	icon_state = "donut_maple"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 3)
+	tastes = list("donut" = 3, "maple" = 1)
+
+/obj/item/food/donut/honey_cruller
+	name = "honey cruller"
+	desc = "Goes great with a glass of honey."
+	icon_state = "donut_cruller"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/honey = 3)
+	tastes = list("donut" = 3, "honey" = 1)
+
 /obj/item/food/croissant
 	name = "croissant"
-	desc = "A classic French pastry made with flour, sugar, yeast, and enough butter to clog every artery in your body."
+	desc = "A classic French pastry made with flour, sugar, yeast, and enough butter to clog up every artery in your body. Ah well, c'est la vie."
 	icon_state = "croissant"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/sugar = 2)
 	tastes = list("buttery pastry" = 1)
