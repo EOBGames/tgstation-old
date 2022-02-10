@@ -235,3 +235,53 @@
 		adjust_health((health + 3) * delta_time)
 		last_feeding = world.time //emulsijack feeds on the emulsion!
 	..()
+
+//Lavaland Fish- Sulphurous Water
+/datum/aquarium_behaviour/fish/bone_guppy
+	name = "bone guppy"
+	desc = "An animated skeletal fish from the Sulphurous Spring on Lavaland. Apart from the whole 'no skin, flesh or organs' thing, it's a pretty normal fish."
+	icon_state = "bone_guppy"
+	random_case_rarity = FISH_RARITY_GOOD_LUCK_FINDING_THIS
+	required_fluid_type = AQUARIUM_FLUID_SULPHWATEVER
+	stable_population = 3
+
+/datum/aquarium_behaviour/fish/penumbral_horror
+	name = "penumbral horror"
+	desc = "A nightmarish beast dredged up from the depths of the Sulphurous Spring. Makes for a good pet, if you can get past the 'unknowable terror from beyond' thing."
+	icon_state = "penumbral_horror"
+	random_case_rarity = FISH_RARITY_GOOD_LUCK_FINDING_THIS
+	required_fluid_type = AQUARIUM_FLUID_SULPHWATEVER
+	stable_population = 3
+
+/datum/aquarium_behaviour/fish/tragic_clownfish
+	name = "tragic clownfish"
+	desc = "This fish from the Sulphurous Spring never got over the tragic loss of his son on a school trip. Now spends his time trying (and failing) to cheer people up."
+	icon_state = "tragic_clownfish"
+	random_case_rarity = FISH_RARITY_GOOD_LUCK_FINDING_THIS
+	required_fluid_type = AQUARIUM_FLUID_SULPHWATEVER
+	stable_population = 3
+
+/datum/aquarium_behaviour/fish/blood_drunk_piranha
+	name = "blood drunk piranha"
+	desc = "This blood-starved beast from the Sulphurous Spring has been waiting years to escape."
+	icon_state = "blood_drunk_piranha"
+	random_case_rarity = FISH_RARITY_GOOD_LUCK_FINDING_THIS
+	required_fluid_type = AQUARIUM_FLUID_SULPHWATEVER
+	stable_population = 3
+
+/datum/aquarium_behaviour/fish/brimstone_lumifin
+	name = "brimstone lumifin"
+	desc = "A brilliant yellow glowing fish from the Sulphurous Springs, where it lights up the murky waters."
+	icon_state = "brimstone_lumifin"
+	random_case_rarity = FISH_RARITY_GOOD_LUCK_FINDING_THIS
+	required_fluid_type = AQUARIUM_FLUID_SULPHWATEVER
+	stable_population = 3
+
+//Lavaland Fish- Lava
+/datum/aquarium_behaviour/fish/scorchfish
+	name = "scorchfish"
+	desc = "A boiling hot fish that lives in lava. Best served raw."
+
+/datum/aquarium_behaviour/fish/devil_dogfish
+	name = "devil dogfish"
+	desc = "A mangy lava fish riddled with bugs. You should remove this from your life, promptly."
