@@ -1723,6 +1723,15 @@
 		var/item = pick(contains)
 		new item(C)
 
+/datum/supply_pack/service/randomized/tiziran_food_pack
+	name = "Tiziran Import Crate"
+	desc = "A randomly filled box of food from the Empire, shipped (mostly) legally. Contains 5 random ingredients from Tizira, perfect for making lizard cuisine."
+	cost = CARGO_CRATE_VALUE * 5
+	contains = list(/obj/item/food/ready_donk,
+	/obj/item/food/ready_donk/mac_n_cheese,
+	/obj/item/food/ready_donk/donkhiladas)
+	crate_name = "\improper Ready-Donk crate"
+
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////// Organic /////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
