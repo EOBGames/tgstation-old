@@ -237,3 +237,15 @@
 	)
 	result = /obj/item/food/bechamel_sauce
 	subcategory = CAT_MISCFOOD
+
+/datum/crafting_recipe/food/supermatter_sauce
+	name = "Bottle of supermatter sauce"
+	reqs = list(
+		/obj/item/nuke_core/supermatter_sliver = 1,
+		/obj/item/food/grown/ghost_chili = 2,
+		/obj/item/food/grown/garlic = 1,
+		/datum/reagent/consumable/limejuice = 5,
+		/datum/reagent/consumable/vinegar = 10
+	)
+	result = /obj/item/reagent_containers/food/drinks/bottle/supermatter_sauce
+	subcategory = CAT_MISCFOOD

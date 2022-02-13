@@ -1031,3 +1031,43 @@
 	taste_description = "raw batter"
 	color = "#ebca85"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/supermatter_sauce
+	name = "Supermatter Hot Sauce"
+	description = "Military grade hot sauce, with delicious notes of lime, habanero, and intense, burning agony."
+	taste_description = "intense burning agony"
+	color = "#fffe03"
+	overdose_threshold = 15
+
+/datum/reagent/consumable/supermatter_sauce/on_mob_life(mob/living/carbon/M, delta_time, times_fired)
+	var/heating = 0
+	var/dust = FALSE
+	switch(current_cycle)
+		if(1 to 15)
+			heating = 10
+			if(holder.has_reagent(/datum/reagent/cryostylane))
+				holder.remove_reagent(/datum/reagent/cryostylane, 5 * REM * delta_time)
+			if(isslime(M))
+				heating = rand(10, 25)
+		if(15 to 25)
+			heating = 10
+			if(isslime(M))
+				heating = rand(10, 20)
+		if(25 to 35)
+			heating = 15
+			if(isslime(M))
+				heating = rand(15, 20)
+		if(35 to INFINITY)
+			dust = TRUE
+	if(dust = TRUE)
+		to_chat(M, span_warning("Suddenly, the pain stops."))
+		M.emote("sigh")
+		M.dust()
+	else
+		M.adjust_bodytemperature(heating * TEMPERATURE_DAMAGE_COEFFICIENT * REM * delta_time)
+	..()
+
+/datum/reagent/consumable/supermatter_sauce/overdose_process(mob/living/M, delta_time, times_fired)
+	. = ..()
+	to_chat(L, span_warning("As you feel the buildup of Supermatter Sauce in your system, you begin to vibrate. Your ears are filled with unearthly ringing. Your last thought is \"Oh, fuck.\""))
+	M.dust()

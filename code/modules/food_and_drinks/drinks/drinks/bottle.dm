@@ -629,6 +629,13 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/mushi_kombucha = 30)
 	isGlass = FALSE
 
+/obj/item/reagent_containers/food/drinks/bottle/supermatter_sauce
+	name = "'El Esqueleto de Cristal Amarillo' hot sauce"
+	desc = "Created by Nanotrasen scientists as a potential military-grade pepper spray, 'El Esqueleto' instead found culinary applications when some bored scientists used it to pep up Taco Night."
+	icon_state = "supermatter_sauce"
+	volume = 20
+	list_reagents = list(/datum/reagent/consumable/supermatter_sauce = 20)
+
 ////////////////////////// MOLOTOV ///////////////////////
 /obj/item/reagent_containers/food/drinks/bottle/molotov
 	name = "molotov cocktail"
