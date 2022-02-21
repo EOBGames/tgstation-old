@@ -522,6 +522,23 @@
 	. = ..()
 	dispensable_reagents |= emagged_reagents //adds emagged reagents
 
+/obj/machinery/chem_dispenser/drinks/diner //stripped back selection for self-service
+	name = "diner soda fountain"
+	desc = "Contains a large reservoir of soft drinks. This model has a stripped back selection for self-service."
+	dispensable_reagents = list(
+		/datum/reagent/consumable/ice,
+		/datum/reagent/consumable/space_cola,
+		/datum/reagent/consumable/spacemountainwind,
+		/datum/reagent/consumable/dr_gibb,
+		/datum/reagent/consumable/space_up,
+		/datum/reagent/consumable/sodawater,
+		/datum/reagent/consumable/lemon_lime,
+		/datum/reagent/consumable/pwr_game,
+		/datum/reagent/consumable/shamblers
+	)
+	emagged_reagents = null
+	circuit = /obj/item/circuitboard/machine/chem_dispenser/drinks/diner
+
 /obj/machinery/chem_dispenser/drinks/beer
 	name = "booze dispenser"
 	desc = "Contains a large reservoir of the good stuff."

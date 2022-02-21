@@ -59,4 +59,16 @@
         Additionally in Merrick Ward, there is presently construction undergoing on a new addition to the station, however details of this are presently classified. We hope to bring you more news soon. \
         Connecting the Wards are the east and west tunnels. \
 		Emergency briefings will be conducted within 1 week of your arrival. In the interim, please note that fire alarm drills occur at 11am each Tuesday. \
-        So, from all of us at the Employee Wellbeing Office, welcome to your new home! For any further questions, we are available via the company intranet at the following address: employee-wellbeing@nt-internal.net. Enjoy your time on Arctic Post 13!"
+        So, from all of us at the Employee Wellbeing Office, welcome to your new home! For any further questions, we are available via the company intranet at the following address: employee-wellbeing@nt-internal.net. Enjoy your time on Surface Station 13!"
+
+/obj/item/paper/pamphlet/chilled_engine
+	name = "pamphlet - \'NTE-05 Coalescence Class Engine Operational Parameters and Guidelines\'"
+	info = "This pamphlet and all contents are confidential information and the sole property of Nanotrasen. \
+		The NTE-05 Coalescence Class Supermatter Engine is the latest revision to Project Starbrand's prototype supermatter engine concept as of 20/02/2562. \
+		As the first purpose-built planetary atmospheric-cooled engine (and a rough prototype at that), it requires particular care and attention to maintain stability and optimal cooling. \
+		The main change in the \'05 revision is the cold tank- this tank allows for switching between atmospheric cooling and internal coolant gas via a vent. \
+		Under standard operational procedures the cold tank should be opened to the atmosphere. This will allow for exchange of heat and prevent overheating. \
+		Should it be desired, the vent may also be closed, allowing for the introduction of coolant gas to the cold tank. \
+		Extreme caution is advised when using the cold tank in sealed mode: temperatures should be monitored carefully to avoid overheating and damage to the supermatter crystal matrix. \
+		When the engine is shut down, the tank should be sealed and purged via the dump valve. \
+		Findings regarding the use of the cold tank or the \'05 revision in general should be directed via secure mail to the following intranet address: usman.akanni@matlab.nt-internal.net."
