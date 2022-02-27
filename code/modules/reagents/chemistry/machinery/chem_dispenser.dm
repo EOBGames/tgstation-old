@@ -534,7 +534,9 @@
 		/datum/reagent/consumable/sodawater,
 		/datum/reagent/consumable/lemon_lime,
 		/datum/reagent/consumable/pwr_game,
-		/datum/reagent/consumable/shamblers
+		/datum/reagent/consumable/shamblers,
+		/datum/reagent/consumable/cream_soda,
+		/datum/reagent/consumable/grape_soda
 	)
 	emagged_reagents = null
 	circuit = /obj/item/circuitboard/machine/chem_dispenser/drinks/diner
