@@ -1,5 +1,5 @@
 //send help, I am being forced against my will to make a felinid food PR, I'm being held somewhere in New Zeal- OH GOD NO HE'S COME BACK, AND HE'S GOT THE JUICER-
-//Martian food! As one of Earth's biggest and most accessible colonies, Mars has a diverse culture- though it's mostly influenced by the initial waves of colonists from both East Asia and Europe.
+//Martian food! As one of Earth's biggest and most accessible colonies, Mars has a diverse culture- though it's mostly influenced by the initial waves of colonists from both East Asia and Europe, and to a lesser extent by Americans.
 /obj/item/food/salad/sushi_rice
 	name = "sushi rice"
 	desc = "A bowl of sushi rice, ready for making sushi with. Obviously."
@@ -123,6 +123,18 @@
 
 //I don't even fuckin like sushi, why on earth am I making this?
 
+//Ingredients
+/obj/item/food/kamaboko
+	name = "kamaboko"
+	desc = "A Japanese-style fishcake frequently used in snacks and ramen."
+	icon_state = "kamaboko"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("fish" = 1)
+	foodtypes = SEAFOOD
+	w_class = WEIGHT_CLASS_SMALL
+
+
+
 //Japanese Dishes
 /obj/item/food/katsu_fillet
 	name = "katsu fillet"
@@ -151,12 +163,21 @@
 	foodtypes = MEAT | VEGETABLES | FRIED
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/soup/ikaroz
+	name = "ikaroz"
+	desc = "A spicy rice dish made with sushi rice, squid-ink, peppers, onions, chorizo, and a lot of paprika."
+	icon_state = "ikaroz"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("paprika" = 1, "rice" = 1, "squid ink" = 1)
+	foodtypes = MEAT | VEGETABLES | SEAFOOD | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/food/omurroz
 	name = "omurroz"
 	desc = "An omelette stuffed with Spanish-style squid-ink rice and topped with a spicy tomato salsa."
 	icon_state = "omurroz"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
-	tastes = list("egg" = 1, "saffron" = 1, "rice" = 1, "fish" = 1, "salsa" = 1)
+	tastes = list("egg" = 1, "paprika" = 1, "rice" = 1, "squid ink" = 1, "salsa" = 1)
 	foodtypes = MEAT | VEGETABLES | SEAFOOD | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -224,7 +245,7 @@
 
 /obj/item/food/soup/new_osaka_sunrise
 	name = "\improper New Osaka sunrise soup"
-	desc = "A bright, flavourful miso soup with tofu that commonly forms part of a traditional Martian breakfast, at least in the capital."
+	desc = "A bright, flavourful miso soup with tofu that commonly forms part of a traditional Martian breakfast."
 	icon_state = "new_osaka_sunrise"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("miso" = 1, "tofu" = 1)
