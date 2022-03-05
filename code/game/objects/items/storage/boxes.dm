@@ -1726,7 +1726,7 @@
 
 /obj/item/storage/box/tiziran_goods/PopulateContents()
 	for(var/i in 1 to 6)
-		var/randomFood = pick_weight(list(/obj/item/food/fishmeat/armorfish = 10
+		var/randomFood = pick_weight(list(/obj/item/food/fishmeat/armorfish = 10,
 										  /obj/item/food/moonfish_caviar = 5,
 										  /obj/item/food/liver_pate = 5,
 										  /obj/item/food/fishmeat/moonfish = 5,
@@ -1754,7 +1754,7 @@
 										  /obj/item/food/firm_cheese = 2))
 		new randomFood(src)
 
-/obj/item/storage/mothic_cans_sauces
+/obj/item/storage/box/mothic_cans_sauces
 	name = "Mothic Canned Goods and Sauces Pack"
 	desc = "A box containing an assortment of canned Mothic goods- to be eaten as is, or used in cooking."
 	icon_state = "moth_package"
