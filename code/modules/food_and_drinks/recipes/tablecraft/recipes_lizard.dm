@@ -12,7 +12,7 @@
 /datum/crafting_recipe/food/headcheese
 	name = "Raw headcheese"
 	reqs = list(
-		/obj/item/food/meat/slab = 1,
+		/obj/item/food/meat/slab = 2,
 		/datum/reagent/consumable/salt = 10,
 		/datum/reagent/consumable/blackpepper = 5
 	)

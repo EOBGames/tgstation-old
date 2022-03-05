@@ -1684,3 +1684,87 @@
 							  /obj/item/food/sustenance_bar/wonka = 1))
 		new randomFood(src)
 	new /obj/item/storage/box/gum/wake_up(src)
+
+/obj/item/storage/box/tiziran_goods
+	name = "Tiziran Farm-Fresh Pack"
+	desc = "A box containing an assortment of fresh Tiziran goods- perfect for making the foods of the Lizard Empire."
+	icon_state = "moth_package"
+	illustration = null
+
+/obj/item/storage/box/tiziran_goods/PopulateContents()
+	for(var/i in 1 to 7)
+		var/randomFood = pick_weight(list(/obj/item/food/grown/korta_nut = 10,
+										  /obj/item/food/rootroll = 5,
+										  /obj/item/food/root_flatbread = 5,
+										  /obj/item/food/spaghetti/nizaya = 5,
+										  /obj/item/food/moonfish_caviar = 5,
+										  /obj/item/food/liver_pate = 5,
+										  /obj/item/food/lizard_dumplings = 5,
+										  /obj/item/food/grown/korta_nut/sweet = 2,
+										  /obj/item/food/grown/ash_flora/seraka = 2,
+										  /obj/item/food/bread/root = 2))
+		new randomFood(src)
+
+/obj/item/storage/box/tiziran_cans
+	name = "Tiziran Canned Goods Pack"
+	desc = "A box containing an assortment of canned Tiziran goods- to be eaten as is, or used in cooking."
+	icon_state = "moth_package"
+	illustration = null
+
+/obj/item/storage/box/tiziran_cans/PopulateContents()
+	for(var/i in 1 to 6)
+		var/randomFood = pick_weight(list(/obj/item/food/desert_snails = 5,
+										  /obj/item/food/larvae = 5,
+										  /obj/item/food/canned_jellyfish = 5))
+		new randomFood(src)
+
+/obj/item/storage/box/tiziran_meats
+	name = "Tiziran Meatmarket Pack"
+	desc = "A box containing an assortment of fresh-frozen Tiziran meats and fish- the keys to lizard cooking."
+	icon_state = "moth_package"
+	illustration = null
+
+/obj/item/storage/box/tiziran_goods/PopulateContents()
+	for(var/i in 1 to 6)
+		var/randomFood = pick_weight(list(/obj/item/food/fishmeat/armorfish = 10
+										  /obj/item/food/moonfish_caviar = 5,
+										  /obj/item/food/liver_pate = 5,
+										  /obj/item/food/fishmeat/moonfish = 5,
+										  /obj/item/food/fishmeat/gunner_jellyfish = 5,
+										  /obj/item/food/moonfish_caviar = 5,
+										  /obj/item/food/meat/slab/synthmeat = 2))
+		new randomFood(src)
+
+/obj/item/storage/box/mothic_goods
+	name = "Mothic Fresh Goods Pack"
+	desc = "A box containing an assortment of fresh Mothic goods- fresh from the Fleet."
+	icon_state = "moth_package"
+	illustration = null
+
+/obj/item/storage/box/mothic_goods/PopulateContents()
+	for(var/i in 1 to 7)
+		var/randomFood = pick_weight(list(/obj/item/food/grown/toechtauese = 5,
+										  /obj/item/food/grown/herbs = 5,
+										  /obj/item/food/mothic_pizza_dough = 5,
+										  /obj/item/food/bread/corn = 5,
+										  /obj/item/food/herby_cheese = 5,
+										  /obj/item/food/curd_cheese = 5,
+										  /obj/item/food/cheese_curds = 5,
+										  /obj/item/food/mozzarella = 5,
+										  /obj/item/food/firm_cheese = 2))
+		new randomFood(src)
+
+/obj/item/storage/mothic_cans_sauces
+	name = "Mothic Canned Goods and Sauces Pack"
+	desc = "A box containing an assortment of canned Mothic goods- to be eaten as is, or used in cooking."
+	icon_state = "moth_package"
+	illustration = null
+
+/obj/item/storage/box/mothic_cans_sauce/PopulateContents()
+	for(var/i in 1 to 6)
+		var/randomFood = pick_weight(list(/obj/item/food/canned/tomatoes = 5,
+										  /obj/item/food/canned/pine_nuts = 5,
+										  /obj/item/food/tomato_sauce = 5,
+										  /obj/item/food/bechamel_sauce = 5,
+										  /obj/item/food/pesto = 5))
+		new randomFood(src)

@@ -249,3 +249,17 @@
 	var/location = get_turf(holder.my_atom)
 	for(var/i = 1, i <= created_volume, i++)
 		new /obj/item/food/bread/corn(location)
+
+/datum/chemical_reaction/food/yoghurt
+	required_reagents = list(/datum/reagent/consumable/cream = 15)
+	required_catalysts = list(/datum/reagent/consumable/virus_food = 1) //ehhh fuck it, this works
+	results = list(/datum/reagent/consumable/yoghurt = 15)
+
+/datum/chemical_reaction/food/vinegar_synthetic //non-brewed condiment
+	required_reagents = list(/datum/reagent/consumable/ethanol = 15)
+	required_catalysts = list(/datum/reagent/consumable/enzyme = 1)
+	results = list(/datum/reagent/consumable/vinegar = 15)
+
+/datum/chemical_reaction/food/quality_oil_upconvert
+	required_reagents = list(/datum/reagent/consumable/quality_oil = 5, /datum/reagent/consumable/cooking_oil = 45)
+	results = list(/datum/reagent/consumable/quality_oil = 20) //allows upconversion of cooking oil to quality oil at 2:5 ratio if botany won't cooperate

@@ -58,6 +58,22 @@
 	make_reagents = list(/datum/reagent/consumable/flour = 10)
 	category = list("initial","Food")
 
+/datum/design/cornmeal
+	name = "10u Cornmeal"
+	id = "cornmeal_sack"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass= 30)
+	make_reagents = list(/datum/reagent/consumable/cornmeal = 10)
+	category = list("initial","Food")
+
+/datum/design/quality_oil
+	name = "10u Quality Oil"
+	id = "quality_oil"
+	build_type = BIOGENERATOR
+	materials = list(/datum/material/biomass= 100)
+	make_reagents = list(/datum/reagent/consumable/quality_oil = 10)
+	category = list("initial","Food")
+
 /datum/design/monkey_cube
 	name = "Monkey Cube"
 	id = "mcube"
