@@ -133,7 +133,7 @@
 	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-
+/obj/item/food/
 
 //Japanese Dishes
 /obj/item/food/katsu_fillet
@@ -229,10 +229,20 @@
 /obj/item/food/soup/chileramen_miy_kaezu
 	name = "chileramen miy käzu"
 	desc = "A spicy beef ramen with cheese- blending several cultural influences seemlessly into one tasty dish."
+	icon_state = "chileramen"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("meat" = 1, "noodles" = 1, "soy sauce" = 1, "broth" = 1, "cheese" = 1, "chilli" = 1, "egg" = 1)
+	foodtypes = MEAT | VEGETABLES | DAIRY
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/brat_kimchi
 	name = "brat-kimchi"
 	desc = "Fried kimchi, mixed with sugar and topped with bratwurst. A popular dish at izakayas on Mars."
+	icon_state = "brat_kimchi"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("sausage" = 1, "kimchi" = 1, "sweetness" = 1)
+	foodtypes = MEAT | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/tonkatsuwurst
 	name = "tonkatsuwurst"
@@ -258,7 +268,7 @@
 	icon_state = "cilbir"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("eggs" = 1, "yoghurt" = 1, "chili" = 1)
-	foodtypes = VEGETABLES
+	foodtypes = MEAT | DAIRY | BREAKFAST
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/peking_crepes

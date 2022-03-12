@@ -1025,3 +1025,10 @@
 	taste_description = "raw batter"
 	color = "#ebca85"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/martian_seasoning
+	name = "Martian All-Purpose Seasoning"
+	description = "A general use seasoning from Mars, where it's treated like Old Bay- they use it on everything!"
+	taste_description = "salty spice"
+	color = "#952F00"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
