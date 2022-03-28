@@ -124,16 +124,41 @@
 //I don't even fuckin like sushi, why on earth am I making this?
 
 //Ingredients
+/obj/item/food/kimchi
+	name = "kimchi"
+	desc = "A classic Korean dish, although this particular prep is more similar to the Martian fusion style- shredded cabbage with chilli peppers, konbu, bonito, and a mix of spices."
+	icon_state = "kimchi"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("spicy cabbage" = 1, "seafood" = 1, "spices" = 1)
+	foodtypes = VEGETABLES | SEAFOOD
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/food/kamaboko
 	name = "kamaboko"
 	desc = "A Japanese-style fishcake frequently used in snacks and ramen."
-	icon_state = "kamaboko"
+	icon_state = "kamaboko_sunrise"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("fish" = 1)
 	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/
+/obj/item/food/kamaboko/Initialize(mapload)
+	. = ..()
+	if(prob(25))
+		icon_state = "kamaboku_smiling"
+	else if(prob(25))
+		icon_state = "kamaboku_star"
+	else if(prob(25))
+		icon_state = "kamaboku_spiral"
+
+/obj/item/food/sambal
+	name = "sambal"
+	desc = "A spice paste from Indonesia, used widely in cooking throughout South East Asia."
+	icon_state = "sambal"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("chilli heat" = 1)
+	foodtypes = SEAFOOD | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
 
 //Japanese Dishes
 /obj/item/food/katsu_fillet
@@ -163,19 +188,28 @@
 	foodtypes = MEAT | VEGETABLES | FRIED
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/soup/ikaroz
-	name = "ikaroz"
+/obj/item/food/soup/hurricane_rice
+	name = "hurricane rice"
+	desc = "Inspired by nasi goreng, this classic dish comes straight from Prospect, on Mars. It's named for its distinctive cooking style, where the frying rice is given lots of airtime while being flipped, mostly because it looks really cool for the customers."
+	icon_state = "hurricane rice"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("rice" = 1, "meat" = 1, "spices" = 1, "pineapple" = 1)
+	foodtypes = MEAT | VEGETABLES | FRUIT | PINEAPPLE
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/ikareis
+	name = "ikareis"
 	desc = "A spicy rice dish made with sushi rice, squid-ink, peppers, onions, chorizo, and a lot of paprika."
-	icon_state = "ikaroz"
+	icon_state = "ikareis"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("paprika" = 1, "rice" = 1, "squid ink" = 1)
 	foodtypes = MEAT | VEGETABLES | SEAFOOD | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/omurroz
-	name = "omurroz"
+/obj/item/food/omurreis
+	name = "omurreis"
 	desc = "An omelette stuffed with Spanish-style squid-ink rice and topped with a spicy tomato salsa."
-	icon_state = "omurroz"
+	icon_state = "omurreis"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("egg" = 1, "paprika" = 1, "rice" = 1, "squid ink" = 1, "salsa" = 1)
 	foodtypes = MEAT | VEGETABLES | SEAFOOD | GRAIN
@@ -183,20 +217,11 @@
 
 /obj/item/food/shoyu_ramen
 	name = "shōyu ramen"
-	desc = "A soy-sauce based ramen, with soba noodles, fishcake, barbecued meat, sliced onion, and a boiled egg."
+	desc = "A soy-sauce based ramen, with noodles, fishcake, barbecued meat, sliced onion, and a boiled egg."
 	icon_state = "shoyu_ramen"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("meat" = 1, "noodles" = 1, "soy sauce" = 1, "broth" = 1, "fishcakes" = 1, "onion" = 1, "egg" = 1)
 	foodtypes = MEAT | VEGETABLES | SEAFOOD
-	w_class = WEIGHT_CLASS_SMALL
-
-/obj/item/food/kimchi
-	name = "kimchi"
-	desc = "A classic Korean dish, although this particular prep is more similar to the Martian fusion style- shredded cabbage with chilli peppers, konbu, bonito, and a mix of spices."
-	icon_state = "kimchi"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
-	tastes = list("spicy cabbage" = 1, "seafood" = 1, "spices" = 1)
-	foodtypes = VEGETABLES | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/bulgogi_noodles
@@ -253,6 +278,41 @@
 	foodtypes = MEAT | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/izakaya_tempomix
+	name = "izakaya tempomix"
+	desc = "A popular mix of tempura-fried food, typically served at izakayas throughout New Osaka. Items include shrimp, catfish, calamari, tofu, chicken, onions, and mushrooms, although really anything can show up, depending on where you go."
+	icon_state = "izakaya_tempomix"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("fish" = 1, "tofu" = 1, "meat" = 1, "onion" = 1, "mushroom" = 1)
+	foodtypes = MEAT | VEGETABLES | SEAFOOD
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/mars_tofu
+	name = "\improper Huoxing tofu"
+	desc = "An adaptation of mapo tofu made famous in Prospect, the foodie Mecca of Mars. It even kinda looks like Mars, if you really squint."
+	icon_state = "mars_tofu"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("tofu" = 1, "meat" = 1, "blinding heat" = 1)
+	foodtypes = MEAT | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/plasma_dog
+	name = "\improper Plasma Dog"
+	desc = "A ballpark hot-dog with sambal, grilled onions and pineapple-lime salsa. You know, the kind of bold flavours they enjoy on Mars."
+
+/obj/item/food/agedashi
+	name = "agedashi tofu"
+	desc = "Crispy fried tofu, served in a tasty dashi broth. Frequently served at izakayas."
+	icon_state = "agedashi"
+
+/obj/item/food/dorayaki_pancakes
+	name = "dorayaki pancakes"
+	desc = "A simple Japanese dessert consisting of two small pancakes with custard sandwiched inbetween. Often served with a sharp berry coulis to balance the sweetness."
+
+/obj/item/food/blood_cake
+	name = "ti hoeh koe skewers"
+	desc = "Pig blood, mixed with rice, fried, and topped with peanut and coriander. It's an... acquired taste for sure, but is popular at Prospect's night markets, brough by Taiwanese settlers."
+
 /obj/item/food/soup/new_osaka_sunrise
 	name = "\improper New Osaka sunrise soup"
 	desc = "A bright, flavourful miso soup with tofu that commonly forms part of a traditional Martian breakfast."
@@ -260,6 +320,15 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("miso" = 1, "tofu" = 1)
 	foodtypes = VEGETABLES | BREAKFAST
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/fried_noodles
+	name = "\improper Martian fried noodles"
+	desc = "Fried noodles from the red planet. Martian cooking draws from many cultures, and these noodles are no exception- there's elements of Malay, Thai, Chinese, Korean and Japanese cuisine in here."
+	icon_state = "fried_noodles"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("noodles" = 1, "peanut" = 1, "eggs" = 1, "meat" = 1, "dark sauce" = 1)
+	foodtypes = VEGETABLES | MEAT | GRAIN | NUTS
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/cilbir
@@ -277,7 +346,7 @@
 	icon_state = "peking_crepes"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("duck" = 1, "orange" = 1, "onion" = 1, "chilli" = 1, "crepes" = 1)
-	foodtypes = MEAT | VEGETABLES | SEAFOOD
+	foodtypes = MEAT | VEGETABLES | FRUIT
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/pizza/raw_red_city_pizza
@@ -288,3 +357,39 @@
 	tastes = list("crust" = 1, "cheese" = 1, "tomato" = 1, "mushrooms" = 1, "seaweed" = 1, "shrimp" = 1)
 	foodtypes = MEAT | VEGETABLES | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/cake/vulgaris_spekkoek
+	name = "vulgaris spekkoek"
+	desc = "Brought to Mars by both Dutch and Indonesian settlers, spekkoek is a common holiday cake on the Red Planet, often being served as part of a traditional rijsttafel. Use of ambrosia vulgaris as a flavouring is one of necessity in deep space, as pandan leaf is rare this far from Earth."
+	icon_state = "vulgaris_spekkoek"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
+	tastes = list("cake" = 1, "herbs" = 1, "tomato" = 1, "mushrooms" = 1, "seaweed" = 1, "shrimp" = 1)
+	foodtypes = MEAT | VEGETABLES | SEAFOOD
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/peanut_butter_mochi
+	name = "peanut butter mochi"
+	desc = "A classic dessert at the Arabia Street Night Market in Prospect, peanut butter mochi is made with peanut butter as the main filling, and coated in crushed peanuts in the Taiwanese tradition."
+
+/obj/item/food/kasei_dango
+	name = "kasei dango"
+	desc = "Japanese-style dango balls, flavoured with pomegranate and orange, giving a final result that looks like Mars and tastes like dessert, served three to a stick."
+
+/obj/item/food/scallion_pancake //cong you bing
+	name = "scallion pancake"
+	desc = "Also known as cong you bing in China, this crispy, chewy onion flatbread is a delight, if you like onions and bread."
+
+/obj/item/food/yam_zongzi
+	name = "sweet yam zongzi"
+	desc = "A sweet treat from the street markets of Prospect. Made with sweetened yam and sticky rice, for a unique dessert experience."
+
+//Ice Cream and Frozen Treats
+/obj/item/food/popsicle/sea_salt
+	name = "sea salt ice cream bar"
+	desc = "A bright-blue bar of sea salt ice cream. Salty... no, sweet!"
+	food_reagents = list(/datum/reagent/consumable/salt = 4, /datum/reagent/consumable/cream = 2, /datum/reagent/consumable/vanilla = 2, /datum/reagent/consumable/sugar = 4)
+	foodtypes = DAIRY | SUGAR
+
+/obj/item/food/halo_halo
+	name = "halo-halo"
+	desc = "A traditional Filipino dessert, made with a wide variety of ingredients and designed to be mixed together (hence the name, mix-mix)."

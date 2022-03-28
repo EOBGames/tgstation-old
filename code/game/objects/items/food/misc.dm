@@ -943,6 +943,7 @@
 /obj/item/food/ready_donk/donk_pow_chicken
 	name = "\improper Ready-Donk: Donk-Pow Chicken"
 	desc = "Donk-Pow Chicken and fried rice: as authentically Chinese as General Tso's!"
+	microwaved_type = /obj/item/food/ready_donk/warm/donk_pow_chicken
 	tastes = list("kung-pao chicken" = 2, "laziness" = 1)
 	foodtypes = GRAIN | MEAT | VEGETABLES | JUNKFOOD
 
@@ -956,12 +957,13 @@
 /obj/item/food/ready_donk/donkiyaki
 	name = "\improper Ready-Donk: Donkiyaki"
 	desc = "Donk Co's signature spicy chili teriyaki chicken with steamed rice."
+	microwaved_type = /obj/item/food/ready_donk/warm/donkiyaki
 	tastes = list("kung-pao chicken" = 2, "laziness" = 1)
 	foodtypes = GRAIN | MEAT | VEGETABLES | JUNKFOOD
 
 /obj/item/food/ready_donk/warm/donkiyaki
 	name = "warm Ready-Donk: Donkiyaki"
-	desc = "Donk-Pow Chicken: as authentically Chinese as General Tso's and as hot as a dragon's breath!"
+	desc = "Donk Co's signature spicy chili teriyaki chicken with steamed rice, served hot as the rising sun."
 	icon_state = "ready_donk_warm_chin"
 	tastes = list("kung-pao chicken" = 2, "laziness" = 1)
 	foodtypes = GRAIN | MEAT | VEGETABLES | JUNKFOOD

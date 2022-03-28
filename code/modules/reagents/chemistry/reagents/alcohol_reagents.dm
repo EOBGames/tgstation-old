@@ -2805,15 +2805,15 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "It's the sweetest sunset you know."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-/datum/reagent/consumable/ethanol/shochu
-	name = "Shōchū"
+/datum/reagent/consumable/ethanol/soju
+	name = "Soju"
 	description = "A distilled rice wine which should not be mistaken for sake."
 	boozepwr = 35
 	color = "#DDDDDD"
 	taste_description = "boozy rice wine"
-	glass_icon_state = "shochu"
-	glass_name = "cup of shōchū"
-	glass_desc = "A cup of shōchū."
+	glass_icon_state = "soju"
+	glass_name = "cup of soju"
+	glass_desc = "A cup of soju."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	glass_price = DRINK_PRICE_STOCK
 
@@ -2853,7 +2853,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "A drink to last ten-thousand years- better sip slowly then."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-/datum/reagent/consumable/ethanol/sanraizusoda //yuyake, soda water, cream, ice (like a boozy Japanese cream soda)
+/datum/reagent/consumable/ethanol/sanraizusoda //yuyake, soda water, cream, ice (like a boozy Japanese melon soda)
 	name = "Sanraizusōda"
 	description = "An alcoholic twist on a childhood classic."
 	boozepwr = 15
@@ -2898,5 +2898,17 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	taste_description = "godliness"
 	glass_icon_state = "amaterasus_emergence"
 	glass_name = "Amaterasu's Emergence"
-	glass_desc = "And so Amaterasu emerged from the Heavenly Rock Cave, and so light was restored to the world."
+	glass_desc = "And so Amaterasu emerged from the Heavenly Rock Cave, and light was restored to the world."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/reisbiru
+	name = "Martian Reisbiru"
+	description = "A Martian specialty drink made from rice syrup and hops- like beer, made from rice."
+	boozepwr = 25
+	color = "#F5DEB3"
+	quality = DRINK_NICE
+	taste_description = "beer"
+	glass_icon_state = "reisbiru"
+	glass_name = "glass of reisbiru"
+	glass_desc = "Considered a hate crime against Bavarians under the Reinheitsgebot Act of 1516."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED

@@ -619,6 +619,26 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/mushi_kombucha = 30)
 	isGlass = FALSE
 
+/obj/item/reagent_containers/food/drinks/bottle/reisbiru
+	name = "bottle of Ebisu Super Dry reisbiru"
+	desc = "Mars' favourite ricebeer brand, 200 years running."
+	icon_state = "reisbiru_ebisu"
+	volume = 30
+	list_reagents = list(/datum/reagent/consumable/ethanol/reisbiru = 30)
+	foodtype = GRAIN | ALCOHOL
+	custom_price = PAYCHECK_EASY
+
+/obj/item/reagent_containers/food/drinks/bottle/reisbiru/Initialize(mapload)
+	. = ..()
+	if(prob(25))
+		name = "bottle of Shimauma Ichiban reisbiru"
+		desc = "Mars' most middling ricebeer brand. Not as popular as Ebisu, but it's comfortable in second place."
+		icon_state = "reisbiru_shimauma"
+	else if(prob(25))
+		name = "bottle of Moonlabor Malt reisbiru"
+		desc += "Mars' underdog ricebeer brand. Popular amongst the Yakuza, for reasons unknown."
+		icon_state = "reisbiru_moonlabor"
+
 ////////////////////////// MOLOTOV ///////////////////////
 /obj/item/reagent_containers/food/drinks/bottle/molotov
 	name = "molotov cocktail"
