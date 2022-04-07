@@ -15,6 +15,13 @@
 	},
 /turf/open/floor/plating,
 /area/hallway/primary/starboard)
+"acj" = (
+/obj/machinery/door/airlock{
+	id_tag = "S2";
+	name = "Dorm S2"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "acy" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/tile/neutral{
@@ -42,6 +49,13 @@
 /obj/effect/turf_decal/trimline/neutral/filled/line,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"adL" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 8
+	},
+/obj/machinery/light/warm/directional/west,
+/turf/open/floor/iron,
+/area/space)
 "afA" = (
 /obj/effect/turf_decal/tile/dark{
 	dir = 8
@@ -80,6 +94,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/service/library)
+"ahN" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/space)
 "ahX" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -335,6 +355,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/security/checkpoint/engineering)
+"avD" = (
+/obj/structure/flora/junglebush/large,
+/turf/open/floor/grass,
+/area/space)
 "avM" = (
 /obj/machinery/chem_master/condimaster{
 	name = "BarBuddy 2000"
@@ -867,6 +891,10 @@
 	},
 /turf/open/floor/carpet/black,
 /area/commons/dorms)
+"aWb" = (
+/obj/structure/table/wood,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "aWk" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 6
@@ -1144,6 +1172,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/bar)
+"bhm" = (
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/turf/open/floor/carpet/green,
+/area/space)
 "bhw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -1416,6 +1450,13 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/stellar,
 /area/space)
+"buX" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/obj/machinery/disposal/bin,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "bvj" = (
 /turf/open/floor/iron/stairs/left,
 /area/service/hydroponics/garden)
@@ -1598,6 +1639,12 @@
 /obj/machinery/atmospherics/pipe/multiz/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/maintenance/central)
+"bEz" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron,
+/area/space)
 "bEW" = (
 /obj/structure/table,
 /turf/open/floor/iron/dark,
@@ -1714,6 +1761,10 @@
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/iron/dark,
 /area/service/bar)
+"bLL" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "bMi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/sofa/bench/right,
@@ -2078,6 +2129,10 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass,
 /area/hallway/secondary/entry)
+"cbv" = (
+/obj/structure/table/wood,
+/turf/open/floor/carpet/black,
+/area/space)
 "cbT" = (
 /obj/structure/chair/pew{
 	dir = 1
@@ -2086,6 +2141,13 @@
 	dir = 1
 	},
 /area/service/chapel)
+"cck" = (
+/obj/structure/table/wood/poker{
+	desc = "A table for playing pool- at least, when pool balls are available.";
+	name = "pool table"
+	},
+/turf/open/floor/carpet/green,
+/area/space)
 "cdT" = (
 /obj/machinery/camera{
 	c_tag = "Holodeck - Fore";
@@ -2142,6 +2204,13 @@
 /obj/machinery/light/blacklight/directional/south,
 /turf/open/floor/iron/dark/textured,
 /area/service/bar)
+"cfW" = (
+/obj/machinery/door/airlock{
+	id_tag = "C2";
+	name = "Dorm C2"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "cge" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -3394,6 +3463,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/hallway/primary/upper)
+"duW" = (
+/obj/machinery/vending/autodrobe/all_access,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "duX" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/open/floor/plating,
@@ -3458,6 +3531,10 @@
 /obj/structure/chair/comfy/beige,
 /turf/open/floor/iron/dark/textured,
 /area/commons/lounge)
+"dxZ" = (
+/obj/machinery/light/warm/directional/south,
+/turf/open/floor/carpet/black,
+/area/space)
 "dys" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 9
@@ -3516,6 +3593,11 @@
 	dir = 1
 	},
 /area/ai_monitored/command/storage/eva)
+"dCj" = (
+/obj/structure/table/wood/poker,
+/obj/item/storage/dice,
+/turf/open/floor/wood/parquet,
+/area/space)
 "dCp" = (
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/wood/parquet,
@@ -3593,6 +3675,13 @@
 /obj/machinery/light/cold/no_nightlight/directional/south,
 /turf/open/floor/iron/smooth,
 /area/engineering/main)
+"dGW" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/carpet/black,
+/area/space)
 "dHe" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 9
@@ -3730,6 +3819,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/smooth,
 /area/engineering/main)
+"dNV" = (
+/obj/structure/sign/poster/official/anniversary_vintage_reprint{
+	pixel_y = 32
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "dOl" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -4777,6 +4872,10 @@
 	},
 /turf/open/floor/iron/stairs/right,
 /area/hallway/primary/aft)
+"eTy" = (
+/obj/structure/cable,
+/turf/open/floor/carpet/black,
+/area/space)
 "eTB" = (
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 4
@@ -4924,6 +5023,12 @@
 	dir = 1
 	},
 /turf/open/floor/iron/white,
+/area/space)
+"fcD" = (
+/obj/structure/chair/sofa/right{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
 /area/space)
 "fcH" = (
 /obj/structure/table/reinforced,
@@ -5853,6 +5958,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/engineering/engine_smes)
+"fVq" = (
+/obj/structure/chair/sofa/corner,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "fVE" = (
 /turf/closed/wall,
 /area/maintenance/central)
@@ -6070,6 +6179,10 @@
 	},
 /turf/open/water/jungle,
 /area/service/hydroponics/garden)
+"gfn" = (
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/carpet/black,
+/area/space)
 "gfK" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -6787,6 +6900,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/engineering/supermatter/room)
+"gSE" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "gSH" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/effect/turf_decal/tile/neutral,
@@ -6898,6 +7017,13 @@
 /obj/machinery/light/cold/no_nightlight/directional/west,
 /turf/open/floor/iron/dark/textured,
 /area/service/janitor)
+"gWH" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 4
+	},
+/obj/machinery/light/warm/directional/east,
+/turf/open/floor/iron,
+/area/space)
 "gWO" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 9
@@ -7411,6 +7537,10 @@
 /obj/structure/flora/junglebush,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"hAD" = (
+/obj/effect/turf_decal/trimline/green/filled/line,
+/turf/open/floor/iron,
+/area/space)
 "hAV" = (
 /turf/closed/wall,
 /area/commons/fitness/recreation)
@@ -7919,6 +8049,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/textured,
 /area/commons/storage/tools)
+"icn" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
 "icw" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 6
@@ -8006,6 +8142,9 @@
 	dir = 4
 	},
 /area/service/hydroponics/garden)
+"ihk" = (
+/turf/open/floor/wood/parquet,
+/area/space)
 "ihM" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
@@ -8018,6 +8157,12 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/commons/fitness/recreation)
+"iib" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Rec Room"
+	},
+/turf/open/floor/iron,
+/area/space)
 "iik" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/turf_decal/siding/white,
@@ -8059,6 +8204,10 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"ijc" = (
+/obj/machinery/vending/games,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "ijT" = (
 /obj/structure/chair/sofa/bench/right,
 /obj/effect/turf_decal/tile/red{
@@ -8600,6 +8749,9 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/engineering/storage/tech)
+"iGa" = (
+/turf/open/floor/carpet/black,
+/area/space)
 "iGu" = (
 /turf/open/floor/iron/chapel{
 	dir = 1
@@ -9052,6 +9204,10 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/commons/storage/tools)
+"jau" = (
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/wood/parquet,
+/area/space)
 "jaI" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -9171,6 +9327,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/commons/dorms)
+"jlF" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 1
+	},
+/obj/structure/sign/poster/official/high_class_martini{
+	pixel_y = 32
+	},
+/turf/open/floor/iron,
+/area/space)
 "jmf" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -9484,6 +9649,13 @@
 /obj/machinery/vending/cart,
 /turf/open/floor/iron/dark,
 /area/space)
+"jzv" = (
+/obj/structure/noticeboard{
+	name = "dorms notice board";
+	pixel_y = 32
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "jzG" = (
 /obj/item/kirbyplants/photosynthetic,
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -9491,6 +9663,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/commons/fitness/recreation)
+"jAd" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/turf/open/floor/carpet/black,
+/area/space)
 "jAf" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -9567,6 +9743,10 @@
 "jDb" = (
 /turf/open/floor/glass/reinforced,
 /area/space)
+"jDd" = (
+/obj/machinery/vending/snack/orange,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "jDo" = (
 /obj/structure/closet/crate/grave,
 /obj/structure/railing/corner{
@@ -9621,6 +9801,13 @@
 /obj/structure/flora/junglebush,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"jGZ" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "jHJ" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Dormitories"
@@ -9981,6 +10168,12 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"jXf" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "jXu" = (
 /obj/structure/chair/comfy/shuttle{
 	desc = "A comfortable, secure seat. It exudes an aura of extreme authority.";
@@ -10711,6 +10904,13 @@
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/iron/smooth_half,
 /area/hallway/secondary/entry)
+"kIV" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
 "kJa" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 10
@@ -10777,6 +10977,13 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"kPh" = (
+/obj/machinery/door/airlock{
+	id_tag = "C4";
+	name = "Dorm C4"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "kPj" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
@@ -11124,6 +11331,11 @@
 	dir = 1
 	},
 /area/service/hydroponics/garden)
+"lnO" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/green/filled/line,
+/turf/open/floor/iron,
+/area/space)
 "lon" = (
 /obj/structure/sign/poster/official/moth_hardhat{
 	pixel_y = 32
@@ -11421,6 +11633,12 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"lMb" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "lMs" = (
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 8
@@ -11808,6 +12026,13 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/space)
+"mhg" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
 "mhI" = (
 /obj/structure/sign/directions/engineering{
 	dir = 4;
@@ -12068,6 +12293,12 @@
 /obj/machinery/newscaster/directional/east,
 /turf/open/floor/iron/dark,
 /area/service/bar)
+"mwD" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "mxy" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 9
@@ -12093,6 +12324,13 @@
 /obj/effect/turf_decal/trimline/yellow/warning,
 /turf/open/floor/iron/smooth,
 /area/engineering/storage/tech)
+"myu" = (
+/obj/machinery/door/airlock{
+	id_tag = "C3";
+	name = "Dorm C3"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "myG" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/mug{
@@ -12353,6 +12591,13 @@
 	},
 /turf/open/floor/plating,
 /area/commons/toilet/auxiliary)
+"mIO" = (
+/obj/machinery/door/airlock{
+	id_tag = "S3";
+	name = "Dorm S3"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "mIU" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 4
@@ -12482,6 +12727,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/engineering/supermatter/room)
+"mQS" = (
+/obj/machinery/door/airlock{
+	id_tag = "N4";
+	name = "Dorm N4"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "mRf" = (
 /obj/machinery/light/warm/directional/north,
 /turf/open/floor/grass,
@@ -12772,6 +13024,12 @@
 /obj/structure/sign/warning/coldtemp,
 /turf/open/floor/plating,
 /area/engineering/gravity_generator)
+"nkN" = (
+/obj/structure/chair/sofa/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "nly" = (
 /obj/effect/turf_decal/tile/neutral/half{
 	dir = 4
@@ -13132,6 +13390,17 @@
 /obj/structure/flora/junglebush,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"nBk" = (
+/obj/structure/table/wood/poker,
+/obj/item/toy/cards/deck{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/obj/structure/sign/poster/official/love_ian{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "nBK" = (
 /obj/machinery/door/airlock{
 	id_tag = "N3";
@@ -14191,6 +14460,12 @@
 	},
 /turf/open/floor/iron/dark/textured_half,
 /area/hallway/primary/upper)
+"oIG" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "oIR" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
@@ -14697,6 +14972,12 @@
 	dir = 8
 	},
 /area/service/bar)
+"pcs" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "pdp" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
@@ -14732,6 +15013,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
+"pgZ" = (
+/obj/machinery/door/airlock{
+	id_tag = "S4";
+	name = "Dorm S4"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "phE" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 4
@@ -15100,6 +15388,10 @@
 "pBf" = (
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
+"pBh" = (
+/obj/machinery/vending/clothing,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "pBG" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave{
@@ -15283,6 +15575,23 @@
 /obj/effect/landmark/start/medical_doctor,
 /turf/open/floor/iron/white,
 /area/space)
+"pKF" = (
+/obj/structure/showcase/machinery/tv{
+	desc = "A slightly battered looking TV. It's hooked up to everything you need for entertainment- an old VCR, an old NanoBox... hold on, is there anything new in here?";
+	name = "communal TV"
+	},
+/obj/structure/sign/poster/official/foam_force_ad{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
+"pLh" = (
+/obj/structure/sign/poster/contraband/red_rum{
+	pixel_y = 32
+	},
+/obj/structure/chair/sofa,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "pMb" = (
 /obj/structure/closet/secure_closet/security,
 /obj/item/radio/off,
@@ -15464,6 +15773,9 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark,
 /area/service/bar)
+"pRE" = (
+/turf/open/floor/carpet/green,
+/area/space)
 "pRP" = (
 /obj/structure/chair/sofa/bench,
 /obj/effect/landmark/start/hangover,
@@ -15556,6 +15868,14 @@
 "pWd" = (
 /turf/open/floor/bamboo,
 /area/service/hydroponics/garden)
+"pWk" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron,
+/area/space)
 "pWo" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 8
@@ -15577,6 +15897,10 @@
 "pWF" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /turf/open/floor/iron,
+/area/space)
+"pWQ" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood/parquet,
 /area/space)
 "pWZ" = (
 /obj/structure/table/wood,
@@ -16160,6 +16484,13 @@
 "qFl" = (
 /turf/open/floor/catwalk_floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
+"qFH" = (
+/obj/machinery/door/airlock{
+	id_tag = "S1";
+	name = "Dorm S1"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "qFP" = (
 /obj/structure/stone_tile/block,
 /obj/effect/turf_decal/siding/white,
@@ -16678,6 +17009,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/textured,
 /area/engineering/supermatter/room)
+"rjS" = (
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "rki" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/command{
@@ -16996,6 +17333,13 @@
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/iron/dark,
 /area/command/meeting_room)
+"rwE" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/carpet/black,
+/area/space)
 "rwU" = (
 /obj/structure/mirror/directional/north,
 /obj/structure/sink/kitchen{
@@ -17151,6 +17495,13 @@
 /obj/machinery/light/cold/no_nightlight/directional/south,
 /turf/open/floor/iron/dark/textured,
 /area/service/janitor)
+"rCx" = (
+/obj/machinery/door/airlock{
+	id_tag = "N2";
+	name = "Dorm N2"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "rCG" = (
 /obj/structure/table/reinforced/rglass,
 /obj/effect/turf_decal/tile/neutral/half,
@@ -17334,6 +17685,11 @@
 	},
 /turf/open/floor/glass/reinforced,
 /area/service/bar)
+"rPx" = (
+/obj/machinery/vending/coffee,
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "rPI" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 5
@@ -18225,9 +18581,23 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"sMj" = (
+/obj/machinery/door/airlock{
+	id_tag = "N3";
+	name = "Dorm N3"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "sMt" = (
 /turf/open/floor/wood/parquet,
 /area/service/lawoffice)
+"sNr" = (
+/obj/machinery/door/airlock{
+	id_tag = "C1";
+	name = "Dorm C1"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "sOK" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line{
@@ -18461,6 +18831,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/commons/fitness/recreation)
+"sXo" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "sXx" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay"
@@ -18493,6 +18869,12 @@
 "sXS" = (
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
+"sXV" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
 "sYs" = (
 /obj/machinery/computer/secure_data,
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -18696,6 +19078,13 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen/diner)
+"the" = (
+/obj/machinery/door/airlock{
+	id_tag = "N1";
+	name = "Dorm N1"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "thw" = (
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Supermatter Catwalk Access";
@@ -19058,6 +19447,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
+"tGB" = (
+/obj/structure/sign/poster/official/corporate_perks_vacation{
+	pixel_y = 32
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "tGW" = (
 /obj/effect/turf_decal/trimline/purple/filled/line,
 /turf/open/floor/iron/dark,
@@ -19104,6 +19499,12 @@
 /obj/structure/flora/junglebush/b,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"tJI" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-05"
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "tKn" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/flora/junglebush/c,
@@ -19135,6 +19536,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/chapel/office)
+"tKE" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/space)
 "tLb" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
@@ -19467,10 +19874,23 @@
 	dir = 1
 	},
 /area/space)
+"ujD" = (
+/obj/structure/chair/sofa/left{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "ujG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/purple,
 /turf/open/floor/engine/airless,
 /area/engineering/gravity_generator)
+"uko" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/carpet/black,
+/area/space)
 "ukF" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
@@ -19647,6 +20067,11 @@
 	},
 /turf/open/floor/iron/smooth_half,
 /area/hallway/secondary/entry)
+"urP" = (
+/obj/effect/turf_decal/siding/white,
+/obj/structure/cable,
+/turf/open/floor/carpet/black,
+/area/space)
 "usc" = (
 /obj/structure/chair/sofa/corp,
 /obj/effect/turf_decal/tile/neutral,
@@ -19715,6 +20140,15 @@
 /obj/structure/cable/multilayer/multiz,
 /turf/open/openspace,
 /area/engineering/supermatter/room)
+"uvA" = (
+/obj/structure/bed/pod{
+	dir = 4
+	},
+/obj/item/bedsheet/dorms{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "uvV" = (
 /obj/structure/showcase/machinery/tv,
 /obj/effect/turf_decal/tile/green{
@@ -20047,6 +20481,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
+"uKN" = (
+/obj/structure/bed/pod,
+/obj/item/bedsheet/dorms,
+/turf/open/floor/carpet/black,
+/area/space)
 "uLl" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "coldvent";
@@ -20287,6 +20726,12 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/commons/lounge)
+"uVH" = (
+/obj/structure/chair/sofa/left{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "uWw" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
@@ -20781,9 +21226,22 @@
 	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/exit/departure_lounge)
+"vyl" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 8
+	},
+/obj/structure/sign/warning/nosmoking{
+	pixel_x = -32
+	},
+/turf/open/floor/iron,
+/area/space)
 "vym" = (
 /turf/open/floor/iron,
 /area/hallway/primary/aft)
+"vyn" = (
+/obj/structure/chair/comfy/beige,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "vzd" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 5
@@ -21219,6 +21677,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"vTT" = (
+/obj/structure/chair/sofa{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "vUb" = (
 /obj/structure/holosign/barrier/atmos/sturdy,
 /turf/open/floor/iron/smooth,
@@ -21285,6 +21749,10 @@
 /obj/structure/chair/stool/bamboo,
 /turf/open/floor/bamboo,
 /area/service/hydroponics/garden)
+"vYR" = (
+/obj/machinery/vending/cola/black,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "vZC" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -21882,6 +22350,10 @@
 /obj/structure/table,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"wGR" = (
+/obj/machinery/light/warm/directional/north,
+/turf/open/floor/carpet/black,
+/area/space)
 "wHz" = (
 /obj/machinery/computer/station_alert{
 	dir = 4
@@ -21987,6 +22459,14 @@
 	},
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/ce)
+"wNB" = (
+/obj/structure/showcase{
+	desc = "It's an old, broken jukebox. Looking at the records inside, someone really likes Tom Jones.";
+	icon_state = "jukebox";
+	name = "Retro Jukebox"
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "wNL" = (
 /obj/machinery/door/poddoor/shutters/window{
 	id = "evac_elevator_top";
@@ -22694,6 +23174,12 @@
 /obj/machinery/vending/sovietsoda,
 /turf/open/floor/iron/dark/textured,
 /area/service/bar)
+"xzY" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-02"
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "xAd" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering Foyer";
@@ -22771,6 +23257,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/library)
+"xFZ" = (
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/space)
 "xHw" = (
 /obj/structure/sign/poster/official/report_crimes{
 	pixel_y = 32
@@ -49782,9 +50274,9 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
+tKE
+icn
+ahN
 fJe
 fJe
 fJe
@@ -50039,9 +50531,9 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
+kIV
+qmz
+lnO
 fJe
 fJe
 fJe
@@ -50296,9 +50788,9 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
+sXV
+qmz
+hAD
 fJe
 fJe
 fJe
@@ -50553,9 +51045,9 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
+sXV
+qmz
+hAD
 fJe
 fJe
 fJe
@@ -50810,9 +51302,9 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
+sXV
+qmz
+hAD
 fJe
 fJe
 fJe
@@ -51065,12 +51557,12 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+duS
+sXV
+qmz
+hAD
+duS
 fJe
 fJe
 fJe
@@ -51322,12 +51814,12 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+duW
+sXV
+qmz
+hAD
+duS
 fJe
 fJe
 fJe
@@ -51574,17 +52066,17 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+duS
+duS
+duS
+duS
+duS
+ijc
+sXV
+qmz
+hAD
+duS
 fJe
 fJe
 fJe
@@ -51831,17 +52323,17 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+bYk
+bYk
+bYk
+bYk
+bTz
+duS
+pBh
+sXV
+qmz
+hAD
+duS
 fJe
 fJe
 fJe
@@ -52083,33 +52575,33 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duX
+duS
+duS
+duS
+sXV
+qmz
+hAD
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
 fJe
 fJe
 fJe
@@ -52340,33 +52832,33 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+fBE
+jAd
+cbv
+duS
+iGa
+iGa
+iGa
+iGa
+iGa
+gfn
+sXV
+qmz
+hAD
+pcs
+iGa
+iGa
+iGa
+iGa
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -52597,33 +53089,33 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+fBE
+uvA
+lMb
+duS
+iGa
+eTy
+eTy
+eTy
+eTy
+urP
+sXV
+qmz
+hAD
+rwE
+eTy
+eTy
+eTy
+eTy
+iGa
+duS
+lMb
+uvA
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -52845,6 +53337,7 @@ sXJ
 kFs
 kFs
 kFs
+bYk
 fJe
 fJe
 fJe
@@ -52853,34 +53346,33 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+fBE
+iGa
+iGa
+mQS
+iGa
+eTy
+iGa
+iGa
+iGa
+gfn
+bEz
+jGZ
+xFZ
+pcs
+iGa
+iGa
+iGa
+eTy
+iGa
+pgZ
+iGa
+iGa
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -53102,6 +53594,7 @@ iPB
 kbi
 mKr
 kFs
+bYk
 fJe
 fJe
 fJe
@@ -53110,34 +53603,33 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+fBE
+uKN
+sXo
+duS
+iGa
+eTy
+iGa
+duS
+fBE
+fBE
+fBE
+fBE
+fBE
+fBE
+fBE
+duS
+iGa
+eTy
+iGa
+duS
+sXo
+uKN
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -53359,6 +53851,7 @@ kHW
 kFs
 kFs
 kFs
+bYk
 fJe
 fJe
 fJe
@@ -53367,34 +53860,33 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+fBE
+jAd
+cbv
+duS
+iGa
+eTy
+iGa
+duS
+eBt
+eBt
+eBt
+eBt
+eBt
+eBt
+eBt
+duS
+tGB
+eTy
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -53616,42 +54108,42 @@ hgd
 ttD
 ibw
 kFs
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
+duS
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+duS
+duS
+duS
+duS
+wGR
+eTy
+iGa
+duS
+duS
+duS
+duS
+eBt
+duS
+duS
+duS
+duS
+iGa
+eTy
+dxZ
+duS
+duS
+duS
+duS
+eBt
+duS
 fJe
 fJe
 fJe
@@ -53873,42 +54365,42 @@ fPd
 gUI
 gUI
 gUI
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
+duS
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+fBE
+jAd
+cbv
+duS
+iGa
+eTy
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+fBE
+jAd
+cbv
+duS
+iGa
+eTy
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -54130,42 +54622,42 @@ qfV
 qfV
 ovb
 gUI
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
+duS
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+fBE
+uvA
+lMb
+duS
+iGa
+eTy
+iGa
+duS
+lMb
+uvA
+fBE
+eBt
+fBE
+uvA
+lMb
+duS
+iGa
+eTy
+iGa
+duS
+lMb
+uvA
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -54387,42 +54879,42 @@ dLe
 dLe
 sgF
 fPd
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
+duS
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+fBE
+iGa
+iGa
+sMj
+iGa
+eTy
+iGa
+myu
+iGa
+iGa
+fBE
+eBt
+fBE
+iGa
+iGa
+kPh
+iGa
+eTy
+iGa
+mIO
+iGa
+iGa
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -54644,42 +55136,42 @@ inC
 dLe
 bsF
 fPd
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
+duS
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+fBE
+uKN
+sXo
+duS
+iGa
+eTy
+iGa
+duS
+sXo
+uKN
+fBE
+eBt
+fBE
+uKN
+sXo
+duS
+iGa
+eTy
+iGa
+duS
+sXo
+uKN
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -54901,42 +55393,42 @@ eoD
 ndT
 vMZ
 gUI
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
+duS
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+fBE
+jAd
+cbv
+duS
+jzv
+eTy
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+fBE
+jAd
+cbv
+duS
+dNV
+eTy
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -55158,42 +55650,42 @@ gUI
 gUI
 gUI
 gUI
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+jXf
+dGW
+jXf
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+jXf
+dGW
+jXf
+duS
+duS
+duS
+duS
+duS
+duS
 fJe
 fJe
 fJe
@@ -55415,6 +55907,7 @@ sXS
 sXS
 sXS
 fPd
+bYk
 fJe
 fJe
 fJe
@@ -55422,32 +55915,31 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+tKE
+icn
+vyl
+icn
+icn
+icn
+icn
+icn
+mhg
+icn
+icn
+adL
+icn
+icn
+icn
+icn
+icn
+adL
+icn
+icn
+mhg
+icn
+icn
+icn
+icn
 fJe
 fJe
 fJe
@@ -55672,6 +56164,7 @@ sXS
 sXS
 sXS
 fPd
+bYk
 fJe
 fJe
 fJe
@@ -55679,32 +56172,31 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+sXV
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
+qmz
 fJe
 fJe
 fJe
@@ -55929,6 +56421,7 @@ sXS
 sXS
 sXS
 gUI
+bYk
 fJe
 fJe
 fJe
@@ -55936,32 +56429,31 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+bEz
+mwD
+mwD
+mwD
+mwD
+mwD
+mwD
+mwD
+jGZ
+mwD
+mwD
+gWH
+mwD
+mwD
+mwD
+mwD
+mwD
+gWH
+mwD
+mwD
+jGZ
+mwD
+mwD
+mwD
+mwD
 fJe
 fJe
 fJe
@@ -56186,42 +56678,42 @@ gUI
 fPd
 fPd
 gUI
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+oIG
+uko
+oIG
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+oIG
+uko
+oIG
+duS
+duS
+duS
+duS
+duS
+duS
 fJe
 fJe
 fJe
@@ -56443,42 +56935,42 @@ bQi
 rIg
 tfz
 gUI
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+bYk
+duS
+eBt
+fBE
+jAd
+cbv
+duS
+iGa
+eTy
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+fBE
+jAd
+cbv
+duS
+iGa
+eTy
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -56700,42 +57192,42 @@ oSZ
 dLe
 bsF
 fPd
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+bYk
+duS
+eBt
+fBE
+uvA
+lMb
+duS
+iGa
+eTy
+iGa
+duS
+lMb
+uvA
+fBE
+eBt
+fBE
+uvA
+lMb
+duS
+iGa
+eTy
+iGa
+duS
+lMb
+uvA
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -56957,42 +57449,42 @@ dLe
 dLe
 sgF
 fPd
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+bYk
+duS
+eBt
+fBE
+iGa
+iGa
+rCx
+iGa
+eTy
+iGa
+sNr
+iGa
+iGa
+fBE
+eBt
+fBE
+iGa
+iGa
+cfW
+iGa
+eTy
+iGa
+acj
+iGa
+iGa
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -57214,42 +57706,42 @@ uQE
 uQE
 sqF
 gUI
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+bYk
+duS
+eBt
+fBE
+uKN
+sXo
+duS
+iGa
+eTy
+iGa
+duS
+sXo
+uKN
+fBE
+eBt
+fBE
+uKN
+sXo
+duS
+iGa
+eTy
+iGa
+duS
+sXo
+uKN
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -57471,42 +57963,42 @@ fPd
 fPd
 gUI
 gUI
+bYk
 fJe
 fJe
 fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+bYk
+duS
+eBt
+fBE
+jAd
+cbv
+duS
+iGa
+eTy
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+fBE
+jAd
+cbv
+duS
+iGa
+eTy
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -57735,35 +58227,35 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+bYk
+duS
+eBt
+duS
+duS
+duS
+duS
+wGR
+eTy
+iGa
+duS
+duS
+duS
+duS
+eBt
+duS
+duS
+duS
+duS
+iGa
+eTy
+dxZ
+duS
+duS
+duS
+duS
+eBt
+duS
 fJe
 fJe
 fJe
@@ -57992,35 +58484,35 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+bYk
+duS
+eBt
+fBE
+jAd
+cbv
+duS
+iGa
+eTy
+iGa
+duS
+eBt
+eBt
+eBt
+eBt
+eBt
+eBt
+eBt
+duS
+iGa
+eTy
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -58249,35 +58741,35 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+bYk
+duS
+eBt
+fBE
+uvA
+lMb
+duS
+iGa
+eTy
+iGa
+duS
+fBE
+fBE
+fBE
+fBE
+fBE
+fBE
+fBE
+duS
+iGa
+eTy
+iGa
+duS
+lMb
+uvA
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -58506,35 +58998,35 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+bYk
+duS
+eBt
+fBE
+iGa
+iGa
+the
+iGa
+eTy
+iGa
+iGa
+iGa
+gfn
+tKE
+icn
+ahN
+pcs
+iGa
+iGa
+iGa
+eTy
+iGa
+qFH
+iGa
+iGa
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -58763,35 +59255,35 @@ fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+bYk
+duS
+eBt
+fBE
+uKN
+sXo
+duS
+iGa
+eTy
+eTy
+eTy
+eTy
+urP
+kIV
+qmz
+lnO
+rwE
+eTy
+eTy
+eTy
+eTy
+iGa
+duS
+sXo
+uKN
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -59021,34 +59513,34 @@ fVE
 paM
 paM
 paM
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+bYk
+duS
+eBt
+fBE
+jAd
+cbv
+duS
+iGa
+iGa
+iGa
+iGa
+iGa
+gfn
+sXV
+qmz
+hAD
+pcs
+iGa
+iGa
+iGa
+iGa
+iGa
+duS
+cbv
+jAd
+fBE
+eBt
+duS
 fJe
 fJe
 fJe
@@ -59278,34 +59770,34 @@ bqv
 wjL
 bqv
 paM
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+bYk
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+sXV
+qmz
+hAD
+duS
+pqp
+pqp
+pqp
+pqp
+pqp
+duS
+duS
+duS
+duS
+duS
+duS
 fJe
 fJe
 fJe
@@ -59535,31 +60027,31 @@ bqv
 bqv
 bqv
 fVE
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+bYk
+bYk
+bYk
+bYk
+bYk
+bYk
+bYk
+bYk
+bYk
+bYk
+bYk
+bYk
+duX
+sXV
+qmz
+hAD
+duS
+aWb
+aDK
+rjS
+tJI
+vyn
+nBk
+uVH
+duS
 fJe
 fJe
 fJe
@@ -59792,31 +60284,31 @@ cHS
 bqv
 bqv
 fVE
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+bYk
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+bYk
+bTz
+xxy
+xxy
+duS
+pWk
+qmz
+hAD
+duS
+pKF
+ihk
+pWQ
+ihk
+jau
+dCj
+gSE
+duS
 fJe
 fJe
 fJe
@@ -60050,30 +60542,30 @@ ckF
 jNH
 fVE
 fVE
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+fUe
+brR
+wGw
+wGw
+dbk
+duS
+duX
+duS
+duS
+duS
+duS
+jlF
+qmz
+hAD
+pqp
+aDK
+ihk
+bhm
+pRE
+pRE
+ihk
+aDK
+duX
 fJe
 fJe
 fJe
@@ -60307,30 +60799,30 @@ ppq
 dHi
 fSq
 fVE
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+rPx
+cwU
+cwU
+cwU
+cwU
+cwU
+pqp
+hJO
+kIr
+qyq
+ctS
+pqp
+sXV
+qmz
+hAD
+pqp
+xzY
+ihk
+pRE
+pRE
+pRE
+ihk
+vYR
+duS
 fJe
 fJe
 fJe
@@ -60564,30 +61056,30 @@ aJd
 dHi
 cfQ
 paM
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+buX
+xpm
+cMf
+eby
+oZz
+igf
+pqp
+hJO
+kIr
+bcW
+ctS
+pqp
+sXV
+qmz
+hAD
+iib
+aDK
+ihk
+pRE
+pRE
+pRE
+ihk
+ijc
+duS
 fJe
 fJe
 fJe
@@ -60821,30 +61313,30 @@ eDa
 dHi
 mRQ
 paM
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+kkH
+sXV
+qmz
+hAD
+pqp
+nqj
+ihk
+cck
+pRE
+cck
+ihk
+jDd
+duS
 fJe
 fJe
 fJe
@@ -61078,30 +61570,30 @@ eDa
 dHi
 fSq
 paM
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+hJO
+pqp
+sXV
+qmz
+hAD
+pqp
+bLL
+ihk
+cck
+pRE
+cck
+ihk
+uVH
+duS
 fJe
 fJe
 fJe
@@ -61335,30 +61827,30 @@ eDa
 dHi
 mRQ
 fVE
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+kIr
+bcW
+qqp
+hJO
+kIr
+bcW
+qqp
+qnJ
+ata
+isc
+bxL
+pqp
+sXV
+qmz
+hAD
+duS
+pLh
+ihk
+ihk
+ihk
+ihk
+ihk
+vTT
+duS
 fJe
 fJe
 fJe
@@ -61592,30 +62084,30 @@ eDa
 dHi
 mRQ
 fVE
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+kIr
+lJZ
+ctS
+hJO
+kIr
+lJZ
+ctS
+duS
+pqp
+pqp
+pqp
+duS
+bEz
+jGZ
+xFZ
+duS
+fVq
+ujD
+aWb
+wNB
+aWb
+fcD
+nkN
+duS
 fJe
 fJe
 fJe
@@ -61849,30 +62341,30 @@ eDa
 dHi
 fSq
 paM
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+fBE
+fBE
+fBE
+fBE
+fBE
+fBE
+fBE
+duS
+eBt
+eBt
+avD
+duS
+duS
+duX
+duS
+duS
+fBE
+fBE
+fBE
+fBE
+fBE
+fBE
+fBE
+duS
 fJe
 fJe
 fJe
@@ -62106,30 +62598,30 @@ eDa
 dHi
 mRQ
 paM
+eBt
+eBt
+eBt
+eBt
+eBt
+eBt
+eBt
+eBt
+eBt
+duS
+duS
+duS
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+eBt
+eBt
+eBt
+eBt
+eBt
+eBt
+eBt
+duS
 fJe
 fJe
 fJe
@@ -62363,30 +62855,30 @@ nKU
 dHi
 cfQ
 paM
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
 fJe
 fJe
 fJe
 fJe
 fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
-fJe
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
+duS
 fJe
 fJe
 fJe
@@ -125337,7 +125829,7 @@ ovY
 ovY
 ovY
 fVE
-ovY
+ioc
 fJe
 fJe
 fJe
