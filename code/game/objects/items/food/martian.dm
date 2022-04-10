@@ -116,11 +116,6 @@
 	desc = "A pouch of fried tofu, stuffed with sushi rice."
 	icon_state = "inarizushi"
 
-/obj/item/food/sushi/oshizushi
-	name = "sake oshizushi"
-	desc = "A pressed block of salmon sushi."
-	icon_state = "oshizushi"
-
 //I don't even fuckin like sushi, why on earth am I making this?
 
 //Ingredients
@@ -215,7 +210,7 @@
 	foodtypes = MEAT | VEGETABLES | SEAFOOD | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/shoyu_ramen
+/obj/item/food/soup/shoyu_ramen
 	name = "shōyu ramen"
 	desc = "A soy-sauce based ramen, with noodles, fishcake, barbecued meat, sliced onion, and a boiled egg."
 	icon_state = "shoyu_ramen"
@@ -224,7 +219,7 @@
 	foodtypes = MEAT | VEGETABLES | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/bulgogi_noodles
+/obj/item/food/soup/bulgogi_noodles
 	name = "bulgogi noodles"
 	desc = "Korean barbecue meat served with noodles! Made with gochujang, for extra spicy flavour."
 	icon_state = "bulgogi_noodles"
@@ -251,9 +246,9 @@
 	foodtypes = MEAT | VEGETABLES | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/soup/chileramen_miy_kaezu
-	name = "chileramen miy käzu"
-	desc = "A spicy beef ramen with cheese- blending several cultural influences seemlessly into one tasty dish."
+/obj/item/food/soup/frankramen_miy_kaezu
+	name = "frankramen miy käzu"
+	desc = "A beef and onion ramen with cheese- blending several cultural influences seemlessly into one tasty dish."
 	icon_state = "chileramen"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("meat" = 1, "noodles" = 1, "soy sauce" = 1, "broth" = 1, "cheese" = 1, "chilli" = 1, "egg" = 1)
