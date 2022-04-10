@@ -26,10 +26,6 @@
 "ah" = (
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
-"ai" = (
-/obj/structure/lattice,
-/turf/closed/wall/r_wall,
-/area/engineering/main)
 "aj" = (
 /turf/closed/wall/r_wall,
 /area/engineering/main)
@@ -115,10 +111,6 @@
 "aA" = (
 /turf/open/floor/iron,
 /area/engineering/main)
-"aB" = (
-/obj/machinery/newscaster/security_unit,
-/turf/closed/wall/r_wall,
-/area/engineering/main)
 "aC" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -162,16 +154,7 @@
 /turf/open/floor/plating,
 /area/engineering/gravity_generator)
 "aJ" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/engineering/gravity_generator)
 "aK" = (
@@ -307,16 +290,7 @@
 /area/engineering/gravity_generator)
 "bi" = (
 /obj/machinery/gravity_generator/main/station,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/engineering/gravity_generator)
 "bk" = (
@@ -1087,7 +1061,7 @@
 "dO" = (
 /obj/structure/table,
 /obj/machinery/light/directional/south,
-/obj/item/storage/firstaid/regular,
+/obj/item/storage/medkit/regular,
 /obj/item/healthanalyzer/advanced,
 /turf/open/floor/iron,
 /area/commons/storage/primary)
@@ -1167,7 +1141,7 @@
 	height = 5;
 	id = "laborcamp_home";
 	name = "fore bay 1";
-	roundstart_template = /datum/map_template/shuttle/labour/box;
+	roundstart_template = /datum/map_template/shuttle/labour/generic;
 	width = 9
 	},
 /turf/open/space/basic,
@@ -1810,10 +1784,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/science)
-"ge" = (
-/obj/structure/lattice,
-/turf/closed/wall/r_wall,
-/area/hallway/secondary/entry)
 "gf" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -2143,8 +2113,8 @@
 /turf/open/floor/iron/dark,
 /area/construction)
 "sE" = (
-/obj/machinery/power/rtg/advanced,
 /obj/structure/cable,
+/obj/machinery/power/rtg/debug,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "sH" = (
@@ -2563,6 +2533,10 @@
 /obj/item/healthanalyzer/advanced,
 /turf/open/floor/iron,
 /area/medical/medbay)
+"UO" = (
+/obj/machinery/newscaster/directional/west,
+/turf/open/floor/iron,
+/area/engineering/main)
 "Vg" = (
 /obj/machinery/light/directional/south,
 /obj/structure/cable,
@@ -5865,7 +5839,7 @@ eh
 rn
 eh
 eh
-ge
+dY
 aa
 aa
 aa
@@ -5957,7 +5931,7 @@ cN
 LH
 en
 dY
-ge
+dY
 dY
 aa
 aa
@@ -7120,7 +7094,7 @@ aa
 aa
 aa
 aa
-ai
+aj
 aj
 aj
 aj
@@ -7215,7 +7189,7 @@ aa
 aj
 al
 aA
-aB
+aj
 WT
 aj
 aj
@@ -7307,7 +7281,7 @@ aa
 aj
 ap
 aA
-aA
+UO
 Vy
 aS
 bd

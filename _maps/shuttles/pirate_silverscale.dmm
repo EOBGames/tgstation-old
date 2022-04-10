@@ -8,13 +8,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/pod/light,
 /area/shuttle/pirate)
 "aA" = (
-/obj/structure/rack{
-	dir = 8;
-	layer = 2.9
-	},
 /obj/item/storage/bag/money/vault,
 /obj/item/stack/sheet/mineral/gold{
 	amount = 3;
@@ -26,10 +22,13 @@
 	pixel_x = 2;
 	pixel_y = -1
 	},
+/obj/structure/table,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate)
 "aZ" = (
 /obj/machinery/suit_storage_unit/pirate,
+/obj/effect/turf_decal/bot_red,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "cE" = (
@@ -43,7 +42,7 @@
 /obj/machinery/door/airlock/silver,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/turf/open/floor/pod/dark,
+/turf/open/floor/pod/light,
 /area/shuttle/pirate)
 "de" = (
 /obj/machinery/door/airlock/external/glass/ruin{
@@ -52,17 +51,25 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/pod/dark,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/pod/light,
 /area/shuttle/pirate)
 "dI" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "dT" = (
-/obj/structure/rack{
-	dir = 8;
-	layer = 2.9
+/obj/item/ammo_box/a762{
+	pixel_y = 2
 	},
+/obj/item/ammo_box/a762,
+/obj/item/grenade/c4{
+	pixel_x = -13
+	},
+/obj/structure/table,
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate)
 "ei" = (
@@ -74,7 +81,8 @@
 /obj/structure/shuttle/engine/heater{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/trimline/yellow/warning,
+/turf/open/floor/plating/airless,
 /area/shuttle/pirate)
 "eK" = (
 /obj/structure/shuttle/engine/router,
@@ -88,11 +96,16 @@
 /obj/machinery/computer/shuttle/pirate{
 	dir = 8
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
 /area/shuttle/pirate)
 "fN" = (
 /obj/structure/dresser,
 /obj/machinery/light/small/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
+	dir = 9
+	},
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "fT" = (
@@ -105,12 +118,17 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/turf/open/floor/iron/dark,
+/obj/machinery/airalarm/all_access{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "ht" = (
 /obj/machinery/door/airlock/silver,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/turf/open/floor/pod/dark,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/pod/light,
 /area/shuttle/pirate)
 "hu" = (
 /obj/structure/chair/stool/directional/west,
@@ -121,11 +139,18 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 8
 	},
-/turf/open/floor/pod/dark,
+/obj/effect/turf_decal/trimline/blue,
+/turf/open/floor/pod/light,
 /area/shuttle/pirate)
-"iY" = (
-/obj/structure/chair/comfy/shuttle,
-/turf/open/floor/iron/dark,
+"iQ" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/obj/structure/shuttle/engine/heater{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
 /area/shuttle/pirate)
 "je" = (
 /turf/template_noop,
@@ -152,12 +177,27 @@
 	preferred_direction = 4;
 	width = 26
 	},
-/turf/open/floor/pod/dark,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/pod/light,
 /area/shuttle/pirate)
-"jo" = (
+"jz" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/carpet/royalblack,
+/area/shuttle/pirate)
+"jF" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/turf/open/floor/plating,
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
 /area/shuttle/pirate)
 "jG" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
@@ -170,10 +210,14 @@
 	dir = 4
 	},
 /obj/machinery/light/small/directional/south,
+/obj/effect/turf_decal/caution/stand_clear{
+	dir = 4
+	},
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "ko" = (
 /obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/bot/right,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "ky" = (
@@ -188,7 +232,7 @@
 	dir = 8
 	},
 /obj/machinery/light/small/directional/north,
-/turf/open/floor/iron/dark,
+/turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "kF" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
@@ -198,9 +242,10 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/pirate)
-"kU" = (
-/obj/machinery/light/floor,
-/turf/open/floor/iron/dark,
+"kX" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/obj/machinery/meter,
+/turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "lk" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -210,10 +255,23 @@
 /area/shuttle/pirate)
 "lu" = (
 /obj/item/storage/secure/safe/directional/north,
-/obj/effect/mob_spawn/ghost_role/human/pirate/silverscale/captain{
-	dir = 8
+/obj/machinery/airalarm/all_access{
+	dir = 4;
+	pixel_x = 24
 	},
+/obj/structure/bed/pod,
+/obj/item/bedsheet/black,
 /turf/open/floor/carpet/royalblack,
+/area/shuttle/pirate)
+"ly" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 24
+	},
+/turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "lL" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
@@ -221,11 +279,24 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/pirate)
+"ms" = (
+/obj/machinery/porta_turret/syndicate/energy{
+	dir = 4;
+	faction = list("pirate")
+	},
+/obj/effect/turf_decal/trimline/yellow/end{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/pirate)
 "mz" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
 	},
-/turf/open/space/basic,
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 6
+	},
+/turf/open/floor/plating/airless,
 /area/shuttle/pirate)
 "mI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -237,6 +308,15 @@
 /obj/machinery/computer/monitor/secret{
 	dir = 8
 	},
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/shuttle/pirate)
+"nq" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 1
+	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate)
 "nB" = (
@@ -253,7 +333,18 @@
 /obj/machinery/door/airlock/external/glass/ruin{
 	id_tag = "pirateportexternal"
 	},
-/turf/open/floor/pod/dark,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/pod/light,
+/area/shuttle/pirate)
+"os" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "pk" = (
 /obj/machinery/porta_turret/syndicate/energy{
@@ -271,7 +362,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/pod/light,
 /area/shuttle/pirate)
 "qA" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -307,10 +398,14 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "vM" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/ammo_casing/shotgun,
+/obj/item/ammo_casing/shotgun,
+/obj/item/ammo_casing/shotgun,
+/obj/item/ammo_casing/shotgun,
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "vP" = (
@@ -334,13 +429,7 @@
 /area/shuttle/pirate)
 "xj" = (
 /obj/structure/table/glass,
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -8
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = 9;
-	pixel_y = 9
-	},
+/obj/item/storage/medkit/brute,
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "xs" = (
@@ -368,6 +457,7 @@
 /obj/item/melee/energy/sword/saber/purple{
 	pixel_x = 17
 	},
+/obj/effect/turf_decal/bot,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "zB" = (
@@ -375,13 +465,16 @@
 /obj/machinery/chem_dispenser/drinks/beer{
 	dir = 1
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured,
 /area/shuttle/pirate)
 "zN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
 /obj/machinery/light/small/directional/north,
+/obj/effect/turf_decal/caution/stand_clear{
+	dir = 4
+	},
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "zQ" = (
@@ -391,10 +484,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/pod/dark,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/pod/light,
 /area/shuttle/pirate)
 "Ae" = (
 /obj/machinery/shuttle_scrambler,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate)
 "Ai" = (
@@ -404,7 +503,6 @@
 /obj/structure/chair/sofa/corp/right{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate)
 "AE" = (
@@ -412,7 +510,8 @@
 /obj/structure/shuttle/engine/heater{
 	dir = 8
 	},
-/turf/open/space/basic,
+/obj/effect/turf_decal/trimline/yellow/warning,
+/turf/open/floor/plating/airless,
 /area/shuttle/pirate)
 "AR" = (
 /obj/structure/toilet{
@@ -426,22 +525,7 @@
 	dir = 8
 	},
 /obj/machinery/light/small/directional/south,
-/turf/open/floor/iron/dark,
-/area/shuttle/pirate)
-"BK" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
-	dir = 1
-	},
-/turf/open/floor/carpet/royalblack,
-/area/shuttle/pirate)
-"BO" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/yellow/warning{
-	dir = 9
-	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "Ch" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
@@ -458,26 +542,25 @@
 	charge = 1e+006
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "CW" = (
 /obj/machinery/vending/boozeomat/all_access{
 	onstation = 0
 	},
-/turf/open/floor/iron/dark,
-/area/shuttle/pirate)
-"Dt" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
-/obj/machinery/light/floor,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured,
 /area/shuttle/pirate)
 "DX" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/carpet/royalblack,
+/area/shuttle/pirate)
+"Fx" = (
+/obj/machinery/newscaster/directional/east,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark,
 /area/shuttle/pirate)
 "Gr" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
@@ -504,7 +587,7 @@
 	pixel_x = 2;
 	pixel_y = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured,
 /area/shuttle/pirate)
 "HD" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
@@ -517,6 +600,7 @@
 /obj/structure/musician/piano{
 	icon_state = "piano"
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate)
 "Ig" = (
@@ -524,12 +608,20 @@
 /obj/machinery/chem_dispenser/drinks{
 	dir = 1
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/pirate)
+"In" = (
+/obj/machinery/airalarm/all_access{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "Is" = (
 /obj/machinery/computer/piratepad_control{
 	dir = 4
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "Jc" = (
@@ -544,17 +636,22 @@
 /obj/item/reagent_containers/food/drinks/bottle/wine{
 	pixel_y = 6
 	},
-/turf/open/floor/iron/dark,
+/obj/machinery/newscaster/directional/west,
+/turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "Jq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 6
 	},
+/obj/effect/mob_spawn/ghost_role/human/pirate/silverscale/gunner{
+	dir = 4
+	},
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "JL" = (
 /obj/structure/bookcase/random/nonfiction,
-/turf/open/floor/iron/dark,
+/obj/machinery/newscaster/directional/west,
+/turf/open/floor/iron/dark/textured,
 /area/shuttle/pirate)
 "JV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
@@ -574,8 +671,23 @@
 	},
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
+"LG" = (
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/pirate)
 "LQ" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/obj/effect/mob_spawn/ghost_role/human/pirate/silverscale{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/carpet/royalblack,
+/area/shuttle/pirate)
+"LY" = (
+/obj/machinery/airalarm/all_access{
+	dir = 4;
+	pixel_x = 24
+	},
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "Mo" = (
@@ -584,7 +696,9 @@
 	x_offset = 10;
 	y_offset = 5
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
 /area/shuttle/pirate)
 "Mu" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -593,13 +707,18 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/pirate)
 "MA" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 1
+/obj/effect/mob_spawn/ghost_role/human/pirate/silverscale/captain{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
+	dir = 10
 	},
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "Nm" = (
 /obj/machinery/loot_locator,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate)
 "NI" = (
@@ -607,7 +726,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/pod/light,
 /area/shuttle/pirate)
 "Oo" = (
 /obj/structure/table/glass,
@@ -638,17 +758,12 @@
 	pixel_x = 3;
 	pixel_y = 5
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured,
 /area/shuttle/pirate)
 "Ox" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/open/floor/pod/dark,
-/area/shuttle/pirate)
-"OT" = (
-/obj/machinery/door/airlock/silver,
-/obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "Pg" = (
@@ -664,14 +779,11 @@
 /obj/machinery/atmospherics/components/tank/air{
 	dir = 1
 	},
+/obj/effect/turf_decal/bot,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "QO" = (
-/obj/structure/bed/pod,
-/obj/item/bedsheet/black,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
-	dir = 10
-	},
+/obj/machinery/newscaster/directional/north,
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "QU" = (
@@ -687,15 +799,11 @@
 	amount = 10
 	},
 /obj/item/multitool,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "RE" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
-	dir = 9
-	},
-/obj/effect/mob_spawn/ghost_role/human/pirate/silverscale/gunner{
-	dir = 4
-	},
+/obj/machinery/newscaster/directional/south,
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "RF" = (
@@ -706,17 +814,22 @@
 /area/shuttle/pirate)
 "RH" = (
 /obj/structure/fireplace,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured,
 /area/shuttle/pirate)
 "RO" = (
 /obj/structure/rack{
 	dir = 8;
 	layer = 2.9
 	},
-/obj/item/gun/ballistic/rifle/boltaction{
-	pixel_y = 5
+/obj/item/ammo_box/a762,
+/obj/item/ammo_box/a762{
+	pixel_y = 3
 	},
-/obj/item/gun/ballistic/rifle/boltaction,
+/obj/effect/turf_decal/bot,
+/obj/item/gun/ballistic/rifle/boltaction/brand_new/prime,
+/obj/item/gun/ballistic/rifle/boltaction/brand_new/prime{
+	pixel_y = 4
+	},
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "RY" = (
@@ -744,6 +857,11 @@
 	anchored = 1
 	},
 /obj/structure/cable,
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 24
+	},
+/obj/effect/turf_decal/bot,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "Sv" = (
@@ -751,6 +869,15 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
+/area/shuttle/pirate)
+"TD" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 5
+	},
+/turf/open/floor/plating/airless,
 /area/shuttle/pirate)
 "TT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -774,7 +901,8 @@
 	amount = 10
 	},
 /obj/item/lighter,
-/turf/open/floor/iron/dark,
+/obj/item/melee/roastingstick,
+/turf/open/floor/iron/dark/textured,
 /area/shuttle/pirate)
 "UJ" = (
 /obj/structure/shuttle/engine/propulsion{
@@ -798,7 +926,24 @@
 /area/shuttle/pirate)
 "Wy" = (
 /obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/bot/left,
 /turf/open/floor/pod/dark,
+/area/shuttle/pirate)
+"WI" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/carpet/royalblack,
+/area/shuttle/pirate)
+"Xe" = (
+/obj/structure/bed/pod{
+	dir = 4
+	},
+/obj/item/bedsheet/black{
+	dir = 4
+	},
+/turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "Xw" = (
 /obj/structure/table/glass,
@@ -826,11 +971,14 @@
 	onstation = 0
 	},
 /obj/machinery/light/small/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
+	dir = 10
+	},
 /turf/open/floor/carpet/royalblack,
 /area/shuttle/pirate)
 "XX" = (
 /obj/structure/bookcase/random/fiction,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured,
 /area/shuttle/pirate)
 "Yj" = (
 /obj/structure/rack{
@@ -838,7 +986,9 @@
 	layer = 2.9
 	},
 /obj/item/storage/box/lethalshot,
-/obj/item/gun/ballistic/shotgun/doublebarrel,
+/obj/item/storage/box/lethalshot,
+/obj/effect/turf_decal/bot,
+/obj/item/gun/ballistic/shotgun/doublebarrel/slugs,
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "YD" = (
@@ -849,20 +999,25 @@
 	pixel_y = -5
 	},
 /obj/item/radio/intercom{
+	freerange = 1;
 	pixel_y = 5
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate)
-"YL" = (
-/obj/effect/mob_spawn/ghost_role/human/pirate/silverscale{
-	dir = 8
+"Zo" = (
+/obj/machinery/porta_turret/syndicate/energy{
+	dir = 8;
+	faction = list("pirate")
 	},
-/turf/open/floor/carpet/royalblack,
-/area/shuttle/pirate)
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 6
+	},
+/turf/open/floor/plating/airless,
+/area/template_noop)
 "ZD" = (
 /obj/machinery/door/airlock/silver/glass,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
-/turf/open/floor/iron/dark,
+/turf/open/floor/pod/light,
 /area/shuttle/pirate)
 
 (1,1,1) = {"
@@ -886,7 +1041,7 @@ je
 "}
 (2,1,1) = {"
 je
-BO
+vw
 rB
 TT
 rB
@@ -905,7 +1060,7 @@ je
 "}
 (3,1,1) = {"
 je
-AE
+jF
 rB
 jQ
 rB
@@ -955,7 +1110,7 @@ Yj
 RO
 xR
 rB
-Si
+ly
 QI
 rB
 rB
@@ -975,7 +1130,7 @@ wa
 wa
 cH
 Si
-wa
+kX
 ko
 rB
 "}
@@ -986,11 +1141,11 @@ Pg
 qA
 rB
 RY
-Qm
-Qm
+wa
+In
 Ox
 Qm
-Qm
+wa
 RY
 rB
 xe
@@ -1005,11 +1160,11 @@ au
 rB
 rB
 rB
-OT
+cH
 rB
 rB
 rB
-OT
+cH
 rB
 rB
 rB
@@ -1024,11 +1179,11 @@ fT
 cE
 xs
 HS
-kU
-iY
+Ch
+eU
 Jc
 gg
-kU
+Ch
 aA
 xs
 Kq
@@ -1043,11 +1198,11 @@ fT
 CH
 xs
 hu
-am
+JV
 eU
 Xw
 DX
-am
+JV
 dT
 xs
 Ai
@@ -1061,13 +1216,13 @@ RH
 ue
 lk
 ZD
-Ai
-am
+ei
+JV
 eU
 xj
 DX
-am
-Ai
+JV
+lk
 ZD
 ei
 Ch
@@ -1076,19 +1231,19 @@ rB
 "}
 (12,1,1) = {"
 HD
-Ai
+LG
 ue
 Aj
-jo
-lk
+xs
+Ai
 am
 am
 am
 am
 am
-ei
-jo
-Ch
+Ai
+xs
+Ai
 Ch
 zB
 HD
@@ -1097,17 +1252,17 @@ HD
 HD
 XX
 fT
-CH
+nq
 xs
 Nm
 Vw
 vz
-Dt
+vz
 vz
 YD
 Ae
 xs
-Ai
+Fx
 fT
 Ig
 HD
@@ -1118,13 +1273,13 @@ rB
 pU
 rB
 rB
-HD
+rB
 HD
 Mo
 fj
 nh
 HD
-HD
+rB
 rB
 rB
 pU
@@ -1147,13 +1302,13 @@ Sh
 rB
 fN
 Sv
-uP
+Xe
 rB
 "}
 (16,1,1) = {"
 rB
 vM
-BK
+jz
 MA
 HD
 xO
@@ -1165,8 +1320,8 @@ je
 RF
 HD
 LQ
-JV
-YL
+jz
+uP
 rB
 "}
 (17,1,1) = {"
@@ -1189,10 +1344,10 @@ rB
 rB
 "}
 (18,1,1) = {"
-je
+Zo
 rB
 lu
-Sv
+WI
 rB
 je
 je
@@ -1202,10 +1357,10 @@ je
 je
 je
 rB
-Sv
-uP
+os
+LY
 rB
-je
+Zo
 "}
 (19,1,1) = {"
 je
@@ -1228,7 +1383,7 @@ je
 "}
 (20,1,1) = {"
 je
-em
+iQ
 rB
 ky
 rB
@@ -1247,7 +1402,7 @@ je
 "}
 (21,1,1) = {"
 je
-mz
+TD
 rB
 rB
 rB
@@ -1364,7 +1519,7 @@ je
 je
 je
 je
-rB
+ms
 je
 je
 je
@@ -1372,7 +1527,7 @@ je
 je
 je
 je
-rB
+ms
 je
 je
 je

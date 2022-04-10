@@ -380,18 +380,9 @@
 	},
 /obj/item/storage/bag/plants/portaseeder,
 /obj/item/plant_analyzer,
-/obj/item/clothing/mask/bandana,
+/obj/item/clothing/mask/bandana/color/striped/botany,
 /obj/item/hatchet,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -772,7 +763,7 @@
 /area/awaymission/undergroundoutpost45/central)
 "bW" = (
 /obj/structure/glowshroom/single,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -780,7 +771,7 @@
 	},
 /area/awaymission/undergroundoutpost45/caves)
 "bX" = (
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -987,18 +978,9 @@
 	},
 /obj/item/clothing/suit/apron,
 /obj/item/storage/bag/plants/portaseeder,
-/obj/item/clothing/mask/bandana,
+/obj/item/clothing/mask/bandana/color/striped/botany,
 /obj/item/cultivator,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -1386,16 +1368,7 @@
 /area/awaymission/undergroundoutpost45/central)
 "dq" = (
 /obj/machinery/vending/hydronutrients,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -1404,16 +1377,7 @@
 /obj/machinery/vending/hydroseeds{
 	slogan_delay = 700
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -1426,16 +1390,7 @@
 	name = "\improper DISPOSAL: LEADS TO EXTERIOR";
 	pixel_y = 32
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -1443,32 +1398,14 @@
 "dt" = (
 /obj/machinery/seed_extractor,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/central)
 "du" = (
 /obj/machinery/biogenerator,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -2005,16 +1942,7 @@
 "er" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -2062,7 +1990,7 @@
 	pixel_y = 9
 	},
 /obj/item/pen,
-/obj/machinery/door/window/southleft{
+/obj/machinery/door/window/left/directional/south{
 	base_state = "right";
 	dir = 8;
 	icon_state = "right";
@@ -2134,16 +2062,7 @@
 /obj/item/book/manual/hydroponics_pod_people,
 /obj/item/paper/guides/jobs/hydroponics,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -2181,7 +2100,7 @@
 	},
 /area/awaymission/undergroundoutpost45/central)
 "eJ" = (
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -2194,7 +2113,7 @@
 /obj/machinery/recharger{
 	pixel_y = 4
 	},
-/obj/machinery/newscaster/security_unit{
+/obj/machinery/newscaster{
 	pixel_x = -30
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -2224,7 +2143,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
 /obj/item/folder/red,
-/obj/machinery/door/window/southleft{
+/obj/machinery/door/window/left/directional/south{
 	dir = 8;
 	name = "Security Checkpoint";
 	req_access_txt = "201"
@@ -2263,7 +2182,7 @@
 "eQ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/window/southleft{
+/obj/machinery/door/window/left/directional/south{
 	dir = 4;
 	name = "Hydroponics Desk";
 	req_access_txt = "201"
@@ -2309,16 +2228,7 @@
 	pixel_y = 3
 	},
 /obj/item/watertank,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -2422,7 +2332,7 @@
 "fd" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/window/southleft{
+/obj/machinery/door/window/left/directional/south{
 	base_state = "right";
 	dir = 4;
 	icon_state = "right";
@@ -2457,7 +2367,7 @@
 	c_tag = "Hydroponics";
 	network = list("uo45")
 	},
-/obj/machinery/power/apc/highcap/fifteen_k{
+/obj/machinery/power/apc/highcap/ten_k{
 	locked = 0;
 	name = "Hydroponics APC";
 	pixel_y = -25;
@@ -2534,7 +2444,7 @@
 /area/awaymission/undergroundoutpost45/central)
 "fn" = (
 /obj/machinery/light/small/directional/west,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -2608,16 +2518,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -2757,7 +2658,7 @@
 /area/awaymission/undergroundoutpost45/central)
 "fJ" = (
 /obj/machinery/light/small/directional/north,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -2774,7 +2675,7 @@
 "fM" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/window/eastleft{
+/obj/machinery/door/window/left/directional/east{
 	dir = 1;
 	name = "Hydroponics Desk";
 	req_access_txt = "201"
@@ -2923,7 +2824,7 @@
 /area/awaymission/undergroundoutpost45/central)
 "gf" = (
 /obj/structure/glowshroom/single,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -3063,7 +2964,7 @@
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "gB" = (
 /obj/machinery/light/small/directional/south,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -3190,16 +3091,7 @@
 	},
 /area/awaymission/undergroundoutpost45/central)
 "gR" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -3281,7 +3173,7 @@
 /area/awaymission/undergroundoutpost45/research)
 "hd" = (
 /obj/machinery/light/small/directional/west,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -3290,7 +3182,7 @@
 /area/awaymission/undergroundoutpost45/research)
 "he" = (
 /obj/machinery/light/small/directional/east,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -3315,7 +3207,7 @@
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "hh" = (
 /obj/machinery/light/small/directional/west,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -3723,16 +3615,7 @@
 	},
 /area/awaymission/undergroundoutpost45/central)
 "hZ" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/cable,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
@@ -4106,7 +3989,7 @@
 /area/awaymission/undergroundoutpost45/central)
 "iN" = (
 /obj/structure/table,
-/obj/item/storage/firstaid/regular,
+/obj/item/storage/medkit/regular,
 /obj/structure/sign/warning/biohazard{
 	pixel_x = -32
 	},
@@ -4206,14 +4089,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /obj/structure/table,
 /obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high{
-	charge = 100;
-	maxcharge = 15000
-	},
-/obj/item/stock_parts/cell/high{
-	charge = 100;
-	maxcharge = 15000
-	},
+/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/cell/high,
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/white{
 	heat_capacity = 1e+006
@@ -4463,7 +4340,7 @@
 	},
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "jy" = (
-/obj/machinery/door/window/southright{
+/obj/machinery/door/window/right/directional/south{
 	name = "Bar Door";
 	req_access_txt = "201"
 	},
@@ -4585,7 +4462,7 @@
 /area/awaymission/undergroundoutpost45/gateway)
 "jL" = (
 /obj/machinery/light/small/directional/south,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -4619,7 +4496,7 @@
 /area/awaymission/undergroundoutpost45/research)
 "jP" = (
 /obj/machinery/light/small/directional/south,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -4672,7 +4549,7 @@
 	},
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "jV" = (
-/obj/machinery/power/apc/highcap/fifteen_k{
+/obj/machinery/power/apc/highcap/ten_k{
 	dir = 1;
 	locked = 0;
 	name = "UO45 Bar APC";
@@ -4801,16 +4678,7 @@
 /area/awaymission/undergroundoutpost45/research)
 "ke" = (
 /obj/machinery/suit_storage_unit/standard_unit,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -5684,7 +5552,7 @@
 	},
 /area/awaymission/undergroundoutpost45/research)
 "lH" = (
-/obj/machinery/power/apc/highcap/fifteen_k{
+/obj/machinery/power/apc/highcap/ten_k{
 	locked = 0;
 	name = "UO45 Research Division APC";
 	pixel_y = -25;
@@ -5872,14 +5740,8 @@
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 26
 	},
-/obj/item/stock_parts/cell/high{
-	charge = 100;
-	maxcharge = 15000
-	},
-/obj/item/stock_parts/cell/high{
-	charge = 100;
-	maxcharge = 15000
-	},
+/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/cell/high,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -5907,10 +5769,7 @@
 "ma" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high{
-	charge = 100;
-	maxcharge = 15000
-	},
+/obj/item/stock_parts/cell/high,
 /obj/item/stack/cable_coil{
 	pixel_x = 3;
 	pixel_y = -7
@@ -6201,7 +6060,7 @@
 	},
 /area/awaymission/undergroundoutpost45/gateway)
 "mE" = (
-/obj/machinery/power/apc/highcap/fifteen_k{
+/obj/machinery/power/apc/highcap/ten_k{
 	locked = 0;
 	name = "UO45 Gateway APC";
 	pixel_y = -25;
@@ -6249,7 +6108,7 @@
 /area/awaymission/undergroundoutpost45/gateway)
 "mI" = (
 /obj/machinery/light/small/directional/north,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -6432,8 +6291,12 @@
 /area/awaymission/undergroundoutpost45/engineering)
 "na" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/obj/structure/bed,
-/obj/item/bedsheet,
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet{
+	dir = 4
+	},
 /turf/open/floor/carpet{
 	heat_capacity = 1e+006
 	},
@@ -7635,7 +7498,7 @@
 /area/awaymission/undergroundoutpost45/engineering)
 "pa" = (
 /obj/machinery/air_sensor{
-	id_tag = "UO45_air_sensor"
+	chamber_id = "uo45air"
 	},
 /turf/open/floor/engine/air,
 /area/awaymission/undergroundoutpost45/engineering)
@@ -7839,7 +7702,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
 	dir = 6
 	},
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -7850,7 +7713,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -7862,7 +7725,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -7937,15 +7800,14 @@
 	},
 /area/awaymission/undergroundoutpost45/engineering)
 "pE" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/atmos{
-	id_tag = "UO45_air_out";
-	name = "air out"
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored{
+	chamber_id = "uo45air"
 	},
 /turf/open/floor/engine/air,
 /area/awaymission/undergroundoutpost45/engineering)
 "pF" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos{
-	id = "UO45_air_in"
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored{
+	chamber_id = "uo45air"
 	},
 /turf/open/floor/engine/air,
 /area/awaymission/undergroundoutpost45/engineering)
@@ -8064,8 +7926,12 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/structure/bed,
-/obj/item/bedsheet,
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet{
+	dir = 4
+	},
 /turf/open/floor/carpet{
 	heat_capacity = 1e+006
 	},
@@ -8128,7 +7994,7 @@
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "qa" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -8346,7 +8212,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4
 	},
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -8357,7 +8223,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
 	dir = 1
 	},
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -8368,7 +8234,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
 	dir = 9
 	},
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -8485,17 +8351,14 @@
 /area/awaymission/undergroundoutpost45/engineering)
 "qK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
-/obj/machinery/computer/atmos_control/tank{
-	input_tag = "UO45_air_in";
-	name = "Mixed Air Supply Control";
-	output_tag = "UO45_air_out";
-	sensors = list("UO45_air_sensor" = "Tank")
-	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
+	},
+/obj/machinery/computer/atmos_control/noreconnect{
+	atmos_chambers = list("uo45air" = "Air Supply")
 	},
 /turf/open/floor/iron/white/corner{
 	dir = 1;
@@ -8804,7 +8667,7 @@
 /turf/closed/wall/r_wall,
 /area/awaymission/undergroundoutpost45/engineering)
 "rp" = (
-/obj/machinery/power/apc/highcap/fifteen_k{
+/obj/machinery/power/apc/highcap/ten_k{
 	dir = 8;
 	name = "UO45 Engineering APC";
 	pixel_x = -25;
@@ -8821,9 +8684,8 @@
 /area/awaymission/undergroundoutpost45/engineering)
 "rq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible,
-/obj/machinery/meter/atmos{
-	id_tag = "UO45_distro_meter";
-	name = "Distribution Loop"
+/obj/machinery/meter/monitored{
+	chamber_id = "uo45distro"
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -9282,7 +9144,7 @@
 	id = "UO45_EngineeringOffice";
 	name = "Privacy Shutters"
 	},
-/obj/machinery/door/window/southleft{
+/obj/machinery/door/window/left/directional/south{
 	dir = 4;
 	name = "Engineering Reception";
 	req_access_txt = "201"
@@ -9369,7 +9231,7 @@
 	},
 /area/awaymission/undergroundoutpost45/mining)
 "sj" = (
-/obj/machinery/power/apc/highcap/fifteen_k{
+/obj/machinery/power/apc/highcap/ten_k{
 	locked = 0;
 	name = "UO45 Mining APC";
 	pixel_y = -25;
@@ -9446,6 +9308,10 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
+/obj/machinery/computer/atmos_control/noreconnect{
+	atmos_chambers = list("uo45mix" = "Mix Chamber");
+	dir = 8
+	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -9463,10 +9329,9 @@
 	},
 /area/awaymission/undergroundoutpost45/engineering)
 "sr" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
-	dir = 8;
-	id_tag = "UO45_mix_in";
-	name = "distro out"
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored{
+	chamber_id = "uo45mix";
+	dir = 8
 	},
 /turf/open/floor/engine/vacuum,
 /area/awaymission/undergroundoutpost45/engineering)
@@ -9521,11 +9386,11 @@
 /area/awaymission/undergroundoutpost45/research)
 "sy" = (
 /obj/structure/table,
-/obj/item/storage/firstaid/toxin{
+/obj/item/storage/medkit/toxin{
 	pixel_x = 2;
 	pixel_y = 6
 	},
-/obj/item/storage/firstaid/toxin{
+/obj/item/storage/medkit/toxin{
 	pixel_x = -2;
 	pixel_y = 4
 	},
@@ -9537,7 +9402,7 @@
 /area/awaymission/undergroundoutpost45/research)
 "sz" = (
 /obj/structure/table,
-/obj/item/storage/firstaid/regular{
+/obj/item/storage/medkit/regular{
 	pixel_x = 2;
 	pixel_y = 6
 	},
@@ -9716,7 +9581,7 @@
 	id = "UO45_EngineeringOffice";
 	name = "Privacy Shutters"
 	},
-/obj/machinery/door/window/southleft{
+/obj/machinery/door/window/left/directional/south{
 	base_state = "right";
 	dir = 4;
 	icon_state = "right";
@@ -9852,13 +9717,6 @@
 	},
 /area/awaymission/undergroundoutpost45/engineering)
 "tc" = (
-/obj/machinery/computer/atmos_control/tank{
-	dir = 8;
-	input_tag = "UO45_mix_in";
-	name = "Gas Mix Tank Control";
-	output_tag = "UO45_mix_in";
-	sensors = list("UO45_mix_sensor" = "Tank")
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 6
 	},
@@ -9887,15 +9745,15 @@
 	},
 /area/awaymission/undergroundoutpost45/engineering)
 "te" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos{
-	dir = 8;
-	id = "UO45_mix_in"
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored{
+	chamber_id = "uo45mix";
+	dir = 8
 	},
 /turf/open/floor/engine/vacuum,
 /area/awaymission/undergroundoutpost45/engineering)
 "tf" = (
 /obj/machinery/air_sensor{
-	id_tag = "UO45_mix_sensor"
+	chamber_id = "uo45mix"
 	},
 /turf/open/floor/engine/vacuum,
 /area/awaymission/undergroundoutpost45/engineering)
@@ -10163,9 +10021,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible{
 	dir = 8
 	},
-/obj/machinery/meter/atmos{
-	id_tag = "UO45_waste_meter";
-	name = "Waste Loop"
+/obj/machinery/meter/monitored{
+	chamber_id = "uo45waste"
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -10391,7 +10248,7 @@
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "ub" = (
 /obj/machinery/light/small/directional/north,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -10505,13 +10362,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 4
 	},
-/obj/machinery/computer/atmos_control/tank{
-	dir = 1;
-	input_tag = "UO45_n2_in";
-	name = "Nitrogen Supply Control";
-	output_tag = "UO45_n2_out";
-	sensors = list("UO45_n2_sensor" = "Tank")
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -10519,6 +10369,10 @@
 	},
 /obj/effect/turf_decal/tile/red{
 	dir = 8
+	},
+/obj/machinery/computer/atmos_control/noreconnect{
+	atmos_chambers = list("uo45n2" = "Nitrogen Supply");
+	dir = 1
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -10554,19 +10408,16 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
-/obj/machinery/computer/atmos_control/tank{
-	dir = 1;
-	input_tag = "UO45_o2_in";
-	name = "Oxygen Supply Control";
-	output_tag = "UO45_o2_out";
-	sensors = list("UO45_o2_sensor" = "Tank")
-	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
+	},
+/obj/machinery/computer/atmos_control/noreconnect{
+	atmos_chambers = list("uo45o2" = "Oxygen Supply");
+	dir = 1
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -10645,16 +10496,16 @@
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "uA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/machinery/computer/atmos_control{
-	dir = 4;
-	name = "Tank Monitor";
-	sensors = list("UO45_n2_sensor" = "Nitrogen", "UO45_o2_sensor" = "Oxygen", "UO45_mix_sensor" = "Gas Mix Tank")
-	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/machinery/computer/atmos_control/fixed{
+	atmos_chambers = list("uo45air" = "Air Supply", "uo45mix" = "Mix Chamber", "uo45n2" = "Nitrogen Supply", "uo45o2" = "Oxygen Supply");
+	dir = 4;
+	name = "Chamber Atmospherics Monitoring"
 	},
 /turf/open/floor/iron/dark/corner{
 	dir = 1;
@@ -10825,13 +10676,13 @@
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "uU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/machinery/computer/atmos_control{
-	dir = 4;
-	name = "Distribution and Waste Monitor";
-	sensors = list("UO45_air_sensor" = "Mixed Air Supply Tank", "UO45_distro_meter" = "Distribution Loop", "UO45_waste_meter" = "Waste Loop")
-	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
+	},
+/obj/machinery/computer/atmos_control/fixed{
+	atmos_chambers = list("uo45waste", "uo45distro");
+	dir = 4;
+	name = "Distribution and Waste Monitoring"
 	},
 /turf/open/floor/iron/dark/corner{
 	dir = 1;
@@ -10945,32 +10796,30 @@
 	},
 /area/awaymission/undergroundoutpost45/engineering)
 "vd" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos{
-	dir = 1;
-	id = "UO45_n2_in"
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored{
+	chamber_id = "uo45n2";
+	dir = 1
 	},
 /turf/open/floor/engine/n2,
 /area/awaymission/undergroundoutpost45/engineering)
 "ve" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos{
-	dir = 1;
-	id_tag = "UO45_n2_out";
-	name = "nitrogen out"
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored{
+	chamber_id = "uo45n2";
+	dir = 1
 	},
 /turf/open/floor/engine/n2,
 /area/awaymission/undergroundoutpost45/engineering)
 "vf" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos{
-	dir = 1;
-	id = "UO45_o2_in"
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored{
+	chamber_id = "uo45o2";
+	dir = 1
 	},
 /turf/open/floor/engine/o2,
 /area/awaymission/undergroundoutpost45/engineering)
 "vg" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos{
-	dir = 1;
-	id_tag = "UO45_o2_out";
-	name = "oxygen out"
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored{
+	chamber_id = "uo45o2";
+	dir = 1
 	},
 /turf/open/floor/engine/o2,
 /area/awaymission/undergroundoutpost45/engineering)
@@ -11018,7 +10867,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -11182,10 +11031,10 @@
 	},
 /area/awaymission/undergroundoutpost45/engineering)
 "vD" = (
-/obj/machinery/air_sensor{
-	id_tag = "UO45_n2_sensor"
-	},
 /obj/machinery/light/small/directional/south,
+/obj/machinery/air_sensor{
+	chamber_id = "uo45n2"
+	},
 /turf/open/floor/engine/n2,
 /area/awaymission/undergroundoutpost45/engineering)
 "vE" = (
@@ -11193,10 +11042,10 @@
 /turf/open/floor/engine/n2,
 /area/awaymission/undergroundoutpost45/engineering)
 "vF" = (
-/obj/machinery/air_sensor{
-	id_tag = "UO45_o2_sensor"
-	},
 /obj/machinery/light/small/directional/south,
+/obj/machinery/air_sensor{
+	chamber_id = "uo45o2"
+	},
 /turf/open/floor/engine/o2,
 /area/awaymission/undergroundoutpost45/engineering)
 "vG" = (
@@ -11205,7 +11054,7 @@
 /area/awaymission/undergroundoutpost45/engineering)
 "vH" = (
 /obj/machinery/light/small/directional/north,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -11350,10 +11199,7 @@
 	},
 /obj/structure/table,
 /obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high{
-	charge = 100;
-	maxcharge = 15000
-	},
+/obj/item/stock_parts/cell/high,
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -11478,7 +11324,7 @@
 /area/awaymission/undergroundoutpost45/mining)
 "wj" = (
 /obj/machinery/light/small/directional/west,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -11507,16 +11353,7 @@
 	req_access_txt = "201"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/cable,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -11600,16 +11437,7 @@
 	pixel_x = -32
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -11622,16 +11450,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -11640,16 +11459,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -11659,16 +11469,7 @@
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/cable,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -11717,16 +11518,7 @@
 /area/awaymission/undergroundoutpost45/mining)
 "wG" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -11734,47 +11526,20 @@
 "wH" = (
 /obj/structure/chair,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/engineering)
 "wI" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/engineering)
 "wJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/cable,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -11847,16 +11612,7 @@
 	pixel_y = 4
 	},
 /obj/item/stamp/ce,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -11864,16 +11620,7 @@
 "wS" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/yellow,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -11886,16 +11633,7 @@
 	},
 /obj/item/pen,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -11907,16 +11645,7 @@
 	pixel_x = 23
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/cable,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -11924,8 +11653,12 @@
 /area/awaymission/undergroundoutpost45/engineering)
 "wV" = (
 /obj/machinery/light/small/directional/south,
-/obj/structure/bed,
-/obj/item/bedsheet,
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet{
+	dir = 4
+	},
 /turf/open/floor/carpet{
 	heat_capacity = 1e+006
 	},
@@ -11979,16 +11712,7 @@
 /obj/item/lighter{
 	pixel_x = 4
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -11998,31 +11722,13 @@
 	dir = 1;
 	pixel_y = 3
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/engineering)
 "xd" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/cable,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -12034,16 +11740,7 @@
 	},
 /obj/machinery/newscaster/directional/south,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/cable,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -12051,16 +11748,7 @@
 /area/awaymission/undergroundoutpost45/engineering)
 "xf" = (
 /obj/structure/bookcase/manuals/engineering,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -12093,16 +11781,7 @@
 /obj/machinery/computer/station_alert{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -12112,16 +11791,7 @@
 /obj/machinery/computer/atmos_alert{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/button/door/directional/south{
 	id = "UO45_Engineering";
 	name = "Engineering Lockdown";
@@ -12143,16 +11813,7 @@
 	dir = 1;
 	name = "primary power monitoring console"
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/cable,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -12580,7 +12241,7 @@
 /area/awaymission/undergroundoutpost45/mining)
 "yg" = (
 /obj/machinery/light/small/directional/north,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12589,7 +12250,7 @@
 /area/awaymission/undergroundoutpost45/mining)
 "yh" = (
 /obj/structure/ore_box,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12598,7 +12259,7 @@
 /area/awaymission/undergroundoutpost45/caves)
 "yi" = (
 /obj/structure/closet/crate,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12609,7 +12270,7 @@
 /obj/structure/alien/weeds,
 /obj/structure/bed/nest,
 /obj/effect/mob_spawn/corpse/human,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12619,7 +12280,7 @@
 "yk" = (
 /obj/structure/alien/weeds,
 /obj/structure/bed/nest,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12630,7 +12291,7 @@
 /obj/structure/alien/weeds,
 /obj/structure/glowshroom/single,
 /obj/effect/decal/cleanable/blood/gibs/down,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12640,7 +12301,7 @@
 "ym" = (
 /obj/structure/alien/weeds,
 /obj/effect/decal/cleanable/blood/gibs/core,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12649,7 +12310,7 @@
 /area/awaymission/undergroundoutpost45/caves)
 "yn" = (
 /obj/structure/alien/weeds,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12659,7 +12320,7 @@
 "yo" = (
 /obj/structure/alien/weeds,
 /obj/structure/alien/resin/wall,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12669,7 +12330,7 @@
 "yp" = (
 /obj/structure/alien/weeds,
 /obj/effect/mob_spawn/corpse/human,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12678,7 +12339,7 @@
 /area/awaymission/undergroundoutpost45/caves)
 "yq" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12687,7 +12348,7 @@
 /area/awaymission/undergroundoutpost45/caves)
 "yr" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12697,7 +12358,7 @@
 "yt" = (
 /obj/structure/alien/weeds,
 /obj/structure/glowshroom/single,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12707,7 +12368,7 @@
 "yu" = (
 /obj/structure/alien/resin/wall,
 /obj/structure/alien/weeds,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12717,7 +12378,7 @@
 "yw" = (
 /obj/structure/alien/weeds,
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12726,7 +12387,7 @@
 /area/awaymission/undergroundoutpost45/caves)
 "yz" = (
 /obj/structure/alien/resin/membrane,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12736,7 +12397,7 @@
 "yA" = (
 /obj/structure/alien/weeds,
 /obj/effect/decal/cleanable/blood/gibs/down,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12745,7 +12406,7 @@
 /area/awaymission/undergroundoutpost45/caves)
 "yB" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12755,7 +12416,7 @@
 "yC" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/mob_spawn/corpse/human,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12766,7 +12427,7 @@
 /obj/structure/alien/weeds,
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/mob_spawn/corpse/human,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";
@@ -12777,7 +12438,7 @@
 /obj/structure/alien/weeds,
 /obj/effect/decal/cleanable/blood/gibs/down,
 /obj/effect/mob_spawn/corpse/human,
-/turf/open/floor/plating/asteroid{
+/turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
 	name = "Cave Floor";

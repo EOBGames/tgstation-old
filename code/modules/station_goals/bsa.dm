@@ -34,10 +34,10 @@ GLOBAL_VAR_INIT(bsa_unlock, FALSE)
 	density = TRUE
 	anchored = TRUE
 
-/obj/machinery/bsa/wrench_act(mob/living/user, obj/item/I)
-	..()
-	default_unfasten_wrench(user, I, 10)
-	return TRUE
+/obj/machinery/bsa/wrench_act(mob/living/user, obj/item/tool)
+	. = ..()
+	default_unfasten_wrench(user, tool, time = 1 SECONDS)
+	return TOOL_ACT_TOOLTYPE_SUCCESS
 
 /obj/machinery/bsa/back
 	name = "Bluespace Artillery Generator"
@@ -308,6 +308,7 @@ GLOBAL_VAR_INIT(bsa_unlock, FALSE)
 	if(isnull(options[victim]))
 		return
 	target = options[victim]
+	log_game("[key_name(user)] has aimed the artillery strike at [target].")
 
 
 /obj/machinery/computer/bsa_control/proc/get_target_name()
