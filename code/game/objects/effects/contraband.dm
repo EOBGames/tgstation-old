@@ -520,6 +520,43 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	desc = "Andromeda Bitters: good for the body, good for the soul. Made in New Trinidad, now and forever."
 	icon_state = "andromeda_bitters"
 
+/obj/structure/sign/poster/contraband/blasto_detergent
+	name = "Blasto Brand Laundry Detergent"
+	desc = "Sheriff Blasto's here to take back Laundry County from the evil Johnny Dirt and the Clothstain Crew, and he's brought a posse. It's High Noon for Tough Stains: Blasto brand detergent, available at all good stores."
+	icon_state = "blasto_detergent"
+
+/obj/structure/sign/poster/contraband/eistee
+	name = "EisT: The New Revolution in Energy"
+	desc = "New from EisT, try EisT Energy, available in a kaleidoscope range of flavors. EisT: Precision German Engineering for your Thirst."
+	icon_state = "eistee"
+
+/obj/structure/sign/poster/contraband/eistee/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("Get a taste of the tropics with Amethyst Sunrise, one of the many new flavours of EisT Energy now available from EisT.")]"
+	. += "\t[span_info("With pink grapefruit, yuzu, and yerba mate, Amethyst Sunrise gives you a great start in the morning, or a welcome boost throughout the day.")]"
+	. += "\t[span_info("Get EisT Energy today at your nearest retailer.")]"
+	return .
+
+/obj/structure/sign/poster/contraband/little_fruits
+	name = "Little Fruits: Honey, I Shrunk the Fruitbowl"
+	desc = "Little Fruits are the galaxy's leading vitamin-enriched gummy candy product, packed with everything you need to stay healthy in one great tasting package. Get yourself a bag today!"
+	icon_state = "little_fruits"
+
+/obj/structure/sign/poster/contraband/little_fruits/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("Oh no, there's been a terrible accident at the Little Fruits factory! We shrunk the fruits!")]"
+	. += "\t[span_info("Wait, hang on, that's what we've always done! That's right, at Little Fruits our gummy candies are made to be as healthy as the real deal, but smaller and sweeter, too!")]"
+	. += "\t[span_info("Get yourself a bag of our Classic Mix today, or perhaps you're interested in our other options? See our full range today on the extranet at little_fruits.kr.tg.")]"
+	. += "\t[span_info("Little Fruits: Size Matters.")]"
+	return .
+
+/obj/structure/sign/poster/contraband/jumbo_bar
+	name = "Jumbo Ice Cream Bars"
+	desc = "Treat yourself to the good life with Jumbo Ice Cream Bars, from Happy Heart."
+	icon_state = "jumbo_bar"
+
 /obj/structure/sign/poster/contraband/syndiemoth	//Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982); original art credit to AspEv
 	name = "Syndie Moth - Nuclear Operation"
 	desc = "A Syndicate-commissioned poster that uses Syndie Moth™ to tell the viewer to keep the nuclear authentication disk unsecured. \"Peace was never an option!\" No good employee would listen to this nonsense."
