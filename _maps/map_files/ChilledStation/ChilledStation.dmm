@@ -643,12 +643,6 @@
 "aAo" = (
 /turf/open/floor/carpet/green,
 /area/commons/fitness/recreation)
-"aAU" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/openspace,
-/area/space)
 "aBo" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -186217,7 +186211,7 @@ fJe
 fJe
 fJe
 duS
-aAU
+uTp
 lne
 fVE
 jLw
@@ -186473,8 +186467,8 @@ hJO
 hJO
 hJO
 hJO
-aDK
-aAU
+duS
+uTp
 lne
 fVE
 jLw
@@ -186730,8 +186724,8 @@ hJO
 hJO
 hJO
 hJO
-aDK
-aAU
+duS
+uTp
 uTp
 duS
 jLw
@@ -186987,8 +186981,8 @@ hJO
 hJO
 hJO
 hJO
-aDK
-aAU
+duS
+uTp
 uTp
 duS
 bYk
