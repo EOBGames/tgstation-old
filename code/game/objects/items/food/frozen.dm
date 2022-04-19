@@ -287,13 +287,13 @@
 	foodtypes = FRUIT | DAIRY | SUGAR
 
 /obj/item/food/popsicle/jumbo
-	name = "jumbo icecream"
+	name = "\improper Jumbo"
 	desc = "A luxurious icecream covered in rich chocolate. It seems smaller than you remember it being."
 	food_reagents = list(/datum/reagent/consumable/hot_coco = 4, /datum/reagent/consumable/cream = 2, /datum/reagent/consumable/vanilla = 3, /datum/reagent/consumable/sugar = 2)
 	overlay_state = "jumbo"
 
 /obj/item/food/popsicle/nogga_black
-	name = "nogga black"
+	name = "\improper Nogga Black"
 	desc = "A salty licorice icecream recently reintroduced due to all records of the controversy being lost to time. Those who cannot remember the past are doomed to repeat it."
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/salt = 1,  /datum/reagent/consumable/cream = 2, /datum/reagent/consumable/vanilla = 1, /datum/reagent/consumable/sugar = 4)
 	tastes = list("salty liquorice")
@@ -309,3 +309,46 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/hot_coco = 4, /datum/reagent/consumable/cream = 2, /datum/reagent/consumable/vanilla = 4, /datum/reagent/consumable/sugar = 2)
 	foodtypes = DAIRY | SUGAR
 	venue_value = FOOD_PRICE_NORMAL
+
+//Chilly Billy's Frosty Treats
+/obj/item/wrapped_popsicle
+	name = ""
+
+/obj/item/food/popsicle/corgice
+	name = "\improper Happy Corgice"
+	desc = "A jolly little ice-cream corgi with gumball features. He's almost too cute to eat."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 4)
+	tastes = list("orange" = 1, "vanilla" = 1, "bubblegum" = 1)
+	overlay_state = "corgice"
+
+/obj/item/food/popsicle/corgice/bad
+	desc = "A deformed, hideous ice-cream corgi with misplaced features. Hurry up and eat him before he starts screaming or something."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 4)
+	overlay_state = "corgice_bad"
+
+/obj/item/wrapped_popsicle/corgice
+
+/obj/item/food/popsicle/wunderbar //fab
+	name = "\improper Wunderbar"
+	desc = "A family favourite ice-cream bar. The triple-layered exterior obscures the secret raspberry jelly core."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 4)
+	tastes = list("strawberry" = 1, "vanilla" = 1, "chocolate" = 1)
+	overlay_state = "wunderbar"
+
+/obj/item/food/popsicle/sunbeam //solero
+	name = "\improper Sunbeam"
+	desc = "The sunniest ice cream around. A tropical ice shell covers smooth vanilla ice cream, with swirls of luxurious tropical sauce."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 4)
+	tastes = list("mango" = 1, "pineapple" = 1, "orange" = 1, "vanilla" = 1)
+	overlay_state = "sunbeam"
+
+/obj/item/food/popsicle/bakers_dozen //maxibon
+	name = "\improper Baker's Dozen"
+	desc = "A chocolate cookie sandwich on a stick, with cookie dough and brownie ice cream inside."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 4)
+	tastes = list("cookie" = 1, "chocolate" = 1, "brownie" = 1)
+	overlay_state = "bakers_dozen"
+
+/obj/item/food/popsicle/chuckles
+	name = "\improper Chuckles the Clown"
+	desc = "A rare popsicle, Chuckles is vanilla flavoured, with mango hair, a raspberry nose, blueberry eyes, and a banana core. Reportedly traumatises one child every day."
