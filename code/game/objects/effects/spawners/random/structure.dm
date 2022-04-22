@@ -189,6 +189,8 @@
 		/obj/structure/billboard/azik = 50,
 		/obj/structure/billboard/donk_n_go = 50,
 		/obj/structure/billboard/space_cola = 50,
+		/obj/structure/billboard/cvr = 50,
+		/obj/structure/billboard/twenty_four_seven = 50,
 		/obj/structure/billboard/nanotrasen = 35,
 		/obj/structure/billboard/nanotrasen/defaced = 15,
 	)

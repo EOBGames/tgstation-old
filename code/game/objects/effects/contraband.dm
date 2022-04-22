@@ -554,8 +554,13 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/jumbo_bar
 	name = "Jumbo Ice Cream Bars"
-	desc = "Treat yourself to the good life with Jumbo Ice Cream Bars, from Happy Heart."
+	desc = "Get a taste of the Big Life with Jumbo Ice Cream Bars, from Happy Heart."
 	icon_state = "jumbo_bar"
+
+/obj/structure/sign/poster/contraband/galaxywise
+	name = "Galaxywise Shipyards"
+	desc = "It helps to be Galaxywise- reliable ships at reasonable prices, built over Adasta."
+	icon_state = "galaxywise"
 
 /obj/structure/sign/poster/contraband/syndiemoth	//Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982); original art credit to AspEv
 	name = "Syndie Moth - Nuclear Operation"
