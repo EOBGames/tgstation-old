@@ -2358,6 +2358,7 @@
 #include "code\modules\awaymissions\mission_code\challenge.dm"
 #include "code\modules\awaymissions\mission_code\moonoutpost19.dm"
 #include "code\modules\awaymissions\mission_code\murderdome.dm"
+#include "code\modules\awaymissions\mission_code\plasma_refinery.dm"
 #include "code\modules\awaymissions\mission_code\research.dm"
 #include "code\modules\awaymissions\mission_code\snowdin.dm"
 #include "code\modules\awaymissions\mission_code\spacebattle.dm"
