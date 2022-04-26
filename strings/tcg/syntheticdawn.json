@@ -447,7 +447,7 @@
 			"name": "Armor Booster",
 			"desc": "Even after all these years, there are few armours more effective than simply covering yourself in thick metal sheets.",
 			"rules": "Buff: Equipment with Armour Subtype.\nGrant the equipped creature 0/+2.",
-			"icon_state": "denial_of_service",
+			"icon_state": "armor_booster",
 			"power": "0",
 			"resolve": "0",
 			"faction": "Nakamura",
