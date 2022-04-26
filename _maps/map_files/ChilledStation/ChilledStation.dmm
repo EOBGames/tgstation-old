@@ -11507,6 +11507,9 @@
 	},
 /obj/structure/table/reinforced,
 /obj/structure/bedsheetbin,
+/obj/structure/sign/gym/mirrored/right{
+	pixel_y = 32
+	},
 /turf/open/floor/pod,
 /area/commons/fitness)
 "iVD" = (
@@ -28593,6 +28596,12 @@
 	},
 /turf/open/floor/plating,
 /area/service/chapel)
+"wDL" = (
+/obj/structure/sign/gym/mirrored{
+	pixel_y = 32
+	},
+/turf/open/floor/pod,
+/area/commons/fitness)
 "wEg" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -62273,7 +62282,7 @@ qlU
 drO
 sJP
 fVE
-pRu
+wDL
 dRX
 pRu
 oBi
