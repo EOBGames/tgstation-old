@@ -635,7 +635,7 @@
 		desc = "Mars' most middling ricebeer brand. Not as popular as Ebisu, but it's comfortable in second place."
 		icon_state = "reisbiru_shimauma"
 	else if(prob(25))
-		name = "bottle of Moonlabor Malt reisbiru"
+		name = "bottle of Moonlabor Malt's reisbiru"
 		desc += "Mars' underdog ricebeer brand. Popular amongst the Yakuza, for reasons unknown."
 		icon_state = "reisbiru_moonlabor"
 
