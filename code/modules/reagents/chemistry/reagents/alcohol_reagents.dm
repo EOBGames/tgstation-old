@@ -2889,7 +2889,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "A drink to make you feel like royalty."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-/datum/reagent/consumable/ethanol/amaterasus_emergence //shochu, berry juice, vodka, grenadine, soda water
+/datum/reagent/consumable/ethanol/amaterasus_emergence //shochu, berry juice, grenadine, champagne
 	name = "Amaterasu's Emergence"
 	description = "A nectar of the gods- fruity, sweet, and strongly alcoholic."
 	boozepwr = 15
