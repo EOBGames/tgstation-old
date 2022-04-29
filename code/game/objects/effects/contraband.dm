@@ -562,6 +562,41 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	desc = "It helps to be Galaxywise- reliable ships at reasonable prices, built over Adasta."
 	icon_state = "galaxywise"
 
+/obj/structure/sign/poster/contraband/razida_jelly
+	name = "Razida Anobar Jelly"
+	desc = "A treat from Tizira to satisfy all tastes, made from the finest anobar wood and luxurious Taraviero honey. Razida: a full tree in every jar."
+	icon_state = "razida_jelly"
+
+/obj/structure/sign/poster/contraband/triumphal_arch
+	name = "Zagoskeld Art Print #1: The Arch on the March"
+	desc = "One of the Zagoskeld Art Print series. It depicts the Arch of Unity (also know as the Triumphal Arch) at the Plaza of Triumph, with the Avenue of the Victorious March in the background."
+	icon_state = "triumphal_arch"
+
+/obj/structure/sign/poster/contraband/new_hill
+	name = "Zagoskeld Art Print #4: Stranger's Fortress"
+	desc = "One of the Zagoskeld Art Print series. It depicts the late medieval fortress of Zeletz at the New Hill, as seen from Mazol Plaza."
+	icon_state = "new_hill"
+
+/obj/structure/sign/poster/contraband/mothic_rations
+	name = "Mothic Ration Chart"
+	desc = "A poster showing a commissary menu from a Mothic fleet vessel. It lists various consumable items alongside prices in ration tickets for them."
+	icon_state = "mothic_rations"
+
+/obj/structure/sign/poster/contraband/woodpeckers
+	name = "New Osaka Woodpeckers Fan Poster"
+	desc = "A signed poster from the New Osaka Woodpeckers, Mars' number one baseball team."
+	icon_state = "woodpeckers"
+
+/obj/structure/sign/poster/contraband/wildcat
+	name = "Wildcat Customs Screambike"
+	desc = "A pinup poster showing a Wildcat Customs Dante Screambike- the fastest production sublight open-frame vessel in the galaxy."
+	icon_state = "wildcat"
+
+/obj/structure/sign/poster/contraband/babel_device
+	name = "Linguafacile Babel Device"
+	desc = "A poster advertising Linguafacile's new Babel Device model. 'Calibrated for excellent performance on all Human languages, as well as most common variants of Draconic and Mothic!'"
+	icon_state = "babel_device"
+
 /obj/structure/sign/poster/contraband/syndiemoth	//Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982); original art credit to AspEv
 	name = "Syndie Moth - Nuclear Operation"
 	desc = "A Syndicate-commissioned poster that uses Syndie Moth™ to tell the viewer to keep the nuclear authentication disk unsecured. \"Peace was never an option!\" No good employee would listen to this nonsense."
@@ -798,6 +833,24 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	desc = "This informational poster provides information on some of the prizes available via the NT Corporate Perks program, including a two-week vacation for two on the resort world Idyllus."
 	icon_state = "corporate_perks_vacation"
 
+/obj/structure/sign/poster/official/jim_nortons
+	name = "Jim Norton's Québécois Coffee"
+	desc = "An advertisement for Jim Norton's, the Québécois coffee joint that's taken the galaxy by storm."
+	icon_state = "jim_nortons"
+
+/obj/structure/sign/poster/official/jim_nortons/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("From our roots in Trois-Rivières, we've worked to bring you the best coffee money can buy since 1965.")]"
+	. += "\t[span_info("So stop by Jim's today- have a hot cup of coffee and a donut, and relax.")]"
+	. += "\t[span_info("Jim Norton's Québécois Coffee: Toujours Le Bienvenu.")]"
+	return .
+
+/obj/structure/sign/poster/official/twenty_four_seven
+	name = "24-Seven Supermarkets"
+	desc = "An advertisement for 24-Seven supermarkets, advertising their new 24-Stops as part of their partnership with Nanotrasen."
+	icon_state = "twenty_four_seven"
+
 //SafetyMoth Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982)
 //SafetyMoth art credit goes to AspEv
 /obj/structure/sign/poster/official/moth_hardhat
@@ -826,5 +879,69 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	icon_state = "aspev_delam"
 //End of AspEv posters
 
+//Departmental Posters- For posters that don't fit everywhere and need some degree of geographic limitation
+/obj/structure/sign/poster/cargo
+	poster_item_name = "cargo poster"
+	poster_item_desc = "This poster comes with its own automatic adhesive mechanism, for easy pinning to any vertical surface. It's intended for the cargo department."
+	poster_item_icon_state = "rolled_poster"
+
+/obj/structure/sign/poster/cargo/random
+	name = "random cargo poster"
+	icon_state = "random_cargo"
+	never_random = TRUE
+	random_basetype = /obj/structure/sign/poster/cargo
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/cargo/random, 32)
+
+/obj/structure/sign/poster/cargo/crate_rebate
+	name = "Nanotrasen Crate Rebate Scheme"
+	desc = "An informational poster about the Crate Rebate scheme: remember to return crates to Central Command for your deposit back!"
+	icon_state = "crate_rebate"
+
+/obj/structure/sign/poster/cargo/loading_procedure
+	name = "Loading Procedure Checklist"
+	desc = "An informational poster about the protocol and guidelines for correct cargo shuttle loading."
+	icon_state = "loading_procedure"
+
+/obj/structure/sign/poster/cargo/report_contraband
+	name = "Report Contraband"
+	desc = "An informational poster warning the reader about the penalties for smuggling."
+	icon_state = "report_contraband"
+
+/obj/structure/sign/poster/engineering
+	poster_item_name = "engineering poster"
+	poster_item_desc = "This poster comes with its own automatic adhesive mechanism, for easy pinning to any vertical surface. It's intended for the engineering department."
+	poster_item_icon_state = "rolled_poster"
+
+/obj/structure/sign/poster/engineering/random
+	name = "random engineering poster"
+	icon_state = "random_engineering"
+	never_random = TRUE
+	random_basetype = /obj/structure/sign/poster/engineering
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/engineering/random, 32)
+
+/obj/structure/sign/poster/engineering/piping_schematics
+	name = "Supermatter Piping Schematics"
+	desc = "A poster showing the schematics for the supermatter engine's standard piping setup."
+	icon_state = "piping_schematics"
+
+/obj/structure/sign/poster/medical
+	poster_item_name = "medical poster"
+	poster_item_desc = "This poster comes with its own automatic adhesive mechanism, for easy pinning to any vertical surface. It's intended for the medical department."
+	poster_item_icon_state = "rolled_poster"
+
+/obj/structure/sign/poster/medical/random
+	name = "random medical poster"
+	icon_state = "random_medical"
+	never_random = TRUE
+	random_basetype = /obj/structure/sign/poster/medical
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/medical/random, 32)
+
+/obj/structure/sign/poster/medical/donate_blood
+	name = "Donate Blood"
+	desc = "A poster showing the schematics for the supermatter engine's standard piping setup."
+	icon_state = "piping_schematics"
 
 #undef PLACE_SPEED
