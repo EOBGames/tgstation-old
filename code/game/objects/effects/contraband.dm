@@ -562,10 +562,10 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	desc = "It helps to be Galaxywise- reliable ships at reasonable prices, built over Adasta."
 	icon_state = "galaxywise"
 
-/obj/structure/sign/poster/contraband/razida_jelly
-	name = "Razida Anobar Jelly"
-	desc = "A treat from Tizira to satisfy all tastes, made from the finest anobar wood and luxurious Taraviero honey. Razida: a full tree in every jar."
-	icon_state = "razida_jelly"
+/obj/structure/sign/poster/contraband/calada_jelly
+	name = "Calada Anobar Jelly"
+	desc = "A treat from Tizira to satisfy all tastes, made from the finest anobar wood and luxurious Taraviero honey. Calada: a full tree in every jar."
+	icon_state = "calada_jelly"
 
 /obj/structure/sign/poster/contraband/triumphal_arch
 	name = "Zagoskeld Art Print #1: The Arch on the March"
@@ -596,6 +596,11 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	name = "Linguafacile Babel Device"
 	desc = "A poster advertising Linguafacile's new Babel Device model. 'Calibrated for excellent performance on all Human languages, as well as most common variants of Draconic and Mothic!'"
 	icon_state = "babel_device"
+
+/obj/structure/sign/poster/contraband/pizza_imperator
+	name = "Pizza Imperator"
+	desc = "An advertisement for Pizza Imperator. Their crusts may be tough and their sauce may be thin, but they're everywhere, so you've gotta give in."
+	icon_state = "pizza_imperator"
 
 /obj/structure/sign/poster/contraband/syndiemoth	//Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982); original art credit to AspEv
 	name = "Syndie Moth - Nuclear Operation"
@@ -842,7 +847,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	. = ..()
 	. += span_notice("<i>You browse some of the poster's information...</i>")
 	. += "\t[span_info("From our roots in Trois-Rivières, we've worked to bring you the best coffee money can buy since 1965.")]"
-	. += "\t[span_info("So stop by Jim's today- have a hot cup of coffee and a donut, and relax.")]"
+	. += "\t[span_info("So stop by Jim's today- have a hot cup of coffee and a donut, and live like the Québécois do.")]"
 	. += "\t[span_info("Jim Norton's Québécois Coffee: Toujours Le Bienvenu.")]"
 	return .
 

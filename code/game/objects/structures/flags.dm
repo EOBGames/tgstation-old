@@ -2,7 +2,7 @@
 	name = "flag of the Nanotrasen IT Department"
 	desc = "A flag that should never be seen under normal circumstances. If you spot this flag in the wild, pester the IT department about it."
 	icon = 'icons/obj/flags.dmi'
-	icon_state = "flag_coder"
+	icon_state = null
 
 /obj/structure/sign/flag/nanotrasen
 	name = "flag of Nanotrasen"
