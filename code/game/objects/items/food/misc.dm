@@ -884,6 +884,19 @@
 	tastes = list("bell pepper" = 1, "char" = 1)
 	foodtypes = VEGETABLES
 
+/obj/item/food/pickles
+	name = "\improper Red Planet dill pickles"
+	desc = "A jar of the finest dill pickles money can buy, all the way from Mars itself."
+	icon_state = "pickles"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/char = 1)
+	tastes = list("pickles" = 1)
+	foodtypes = VEGETABLES
+
+/obj/item/food/pickles/homemade
+	name = "homemade dill pickles"
+	desc = "A jar of homemade dill pickles. While they might lack that processed charm, they more than make up for it with pride and accomplishment, and potentially botulism."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/char = 1)
+
 //DONK DINNER: THE INNOVATIVE WAY TO GET YOUR DAILY RECOMMENDED ALLOWANCE OF SALT... AND THEN SOME!
 /obj/item/food/ready_donk
 	name = "\improper Ready-Donk: Bachelor Chow"
@@ -954,16 +967,16 @@
 	tastes = list("kung-pao chicken" = 2, "laziness" = 1)
 	foodtypes = GRAIN | MEAT | VEGETABLES | JUNKFOOD
 
-/obj/item/food/ready_donk/donkiyaki
-	name = "\improper Ready-Donk: Donkiyaki"
-	desc = "Donk Co's signature spicy chili teriyaki chicken with steamed rice."
-	microwaved_type = /obj/item/food/ready_donk/warm/donkiyaki
-	tastes = list("kung-pao chicken" = 2, "laziness" = 1)
-	foodtypes = GRAIN | MEAT | VEGETABLES | JUNKFOOD
+/obj/item/food/ready_donk/nachos
+	name = "\improper Ready-Donk: Donk World Series Nachos Grandes"
+	desc = "Hot and spicy nachos with Monterey Jack queso, Donk Sauce, five-alarm chili, and black beans. Comes with separate sour cream and pico-de-gallo."
+	microwaved_type = /obj/item/food/ready_donk/warm/nachos
+	tastes = list("nachos" = 2, "laziness" = 1)
+	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
 
-/obj/item/food/ready_donk/warm/donkiyaki
-	name = "warm Ready-Donk: Donkiyaki"
-	desc = "Donk Co's signature spicy chili teriyaki chicken with steamed rice, served hot as the rising sun."
-	icon_state = "ready_donk_warm_chin"
-	tastes = list("kung-pao chicken" = 2, "laziness" = 1)
-	foodtypes = GRAIN | MEAT | VEGETABLES | JUNKFOOD
+/obj/item/food/ready_donk/warm/nachos
+	name = "warm Ready-Donk: Donk World Series Nachos Grandes"
+	desc = "Hot and spicy nachos with Monterey Jack queso, Donk Sauce, five-alarm chili, and black beans. Almost as hot as the Hot Shots in the Sol Series."
+	icon_state = "ready_donk_warm_nachos"
+	tastes = list("nachos" = 2, "laziness" = 1)
+	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
