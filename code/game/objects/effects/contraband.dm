@@ -602,6 +602,16 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	desc = "An advertisement for Pizza Imperator. Their crusts may be tough and their sauce may be thin, but they're everywhere, so you've gotta give in."
 	icon_state = "pizza_imperator"
 
+/obj/structure/sign/poster/contraband/thunderdrome
+	name = "Thunderdrome Concert Ticket"
+	desc = "An advertisement for a concert at the Adasta City Thunderdrome, the largest nightclub in human space."
+	icon_state = "thunderdrome"
+
+/obj/structure/sign/poster/contraband/rush_propaganda
+	name = "A New Life"
+	desc = "An old poster from around the time of the First Spinward Rush. It depicts a view of wide, unspoiled lands, ready for Humanity's Manifest Destiny."
+	icon_state = "rush_propaganda"
+
 /obj/structure/sign/poster/contraband/syndiemoth	//Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982); original art credit to AspEv
 	name = "Syndie Moth - Nuclear Operation"
 	desc = "A Syndicate-commissioned poster that uses Syndie Moth™ to tell the viewer to keep the nuclear authentication disk unsecured. \"Peace was never an option!\" No good employee would listen to this nonsense."
