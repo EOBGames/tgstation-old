@@ -12,6 +12,33 @@
 /obj/item/food/sushi
 	name = "generic sushi"
 
+/obj/item/food/rice_ball
+	name = "rice ball"
+	desc = "A plain ball of sushi rice, ready to be made into nigiri, or perhaps into onigiri."
+	icon_state = "rice_ball"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2)
+	tastes = list("rice" = 5, "vinegar" = 1)
+	foodtypes = GRAIN | BREAKFAST
+
+/obj/item/food/tamago
+	name = "tamago omelette"
+	desc = "A Japanese-styled sweet omelette, specifically prepared for use in sushi."
+	icon_state = "tamago"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2)
+	tastes = list("egg" = 1)
+	foodtypes = MEAT | BREAKFAST
+
+/obj/item/food/tamago/MakeProcessable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/tamago_slice, 8, 30)
+
+/obj/item/food/tamago_slice
+	name = "tamago slice"
+	desc = "A slice of Japanese-style sweet omelette, ready for use on sushi."
+	icon_state = "tamago_slice"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2)
+	tastes = list("egg" = 1)
+	foodtypes = MEAT | BREAKFAST
+
 //Nigiri- a ball of rice with a topping, sometimes bound in seaweed
 /obj/item/food/sushi/tamago_nigiri
 	name = "tamago nigiri"
@@ -49,10 +76,10 @@
 	desc = "A maki roll made with a cucumber filling."
 	icon_state = "kappa_maki"
 
-/obj/item/food/sushi/spicy_tuna_maki
-	name = "spicy tuna maki"
-	desc = "An uramaki roll made with a tuna and sriracha filling."
-	icon_state = "spicy_tuna_maki"
+/obj/item/food/sushi/spicy_salmon_maki
+	name = "spicy salmon maki"
+	desc = "An uramaki roll made with a salmon and spicy mayo filling."
+	icon_state = "spicy_salmon_maki"
 
 /obj/item/food/sushi/california_maki
 	name = "california maki"
@@ -71,7 +98,7 @@
 
 /obj/item/food/sushi/samurai_maki
 	name = "samurai maki"
-	desc = "A maki roll made with a barbecued eel, carrot, cucumber and sriracha filling."
+	desc = "A maki roll made with a barbecued eel, carrot, cucumber and hot sauce filling."
 	icon_state = "samurai_maki"
 
 //Sashimi- fish, sliced thin, served raw
@@ -80,10 +107,10 @@
 	desc = "Sashimi made from the deadly fugu fish."
 	icon_state = "fugu_sashimi"
 
-/obj/item/food/sushi/xeno_sashimi
-	name = "xeno sashimi"
+/obj/item/food/sushi/eirian_sashimi
+	name = "eirian sashimi"
 	desc = "Sashimi made from xenomorph meat- wait, what?"
-	icon_state = "xeno_sashimi"
+	icon_state = "eirian_sashimi"
 
 /obj/item/food/sushi/tako_sashimi
 	name = "tako sashimi"
@@ -95,10 +122,10 @@
 	desc = "Sashimi made from shrimp."
 	icon_state = "ebi_sashimi"
 
-/obj/item/food/sushi/same_sashimi
-	name = "same sashimi"
-	desc = "Sashimi made from shark."
-	icon_state = "same_sashimi"
+/obj/item/food/sushi/supesukoi_sashimi
+	name = "supēsukoi sashimi"
+	desc = "Sashimi made from space carp."
+	icon_state = "supesukoi_sashimi"
 
 /obj/item/food/sushi/sake_sashimi
 	name = "sake sashimi"
