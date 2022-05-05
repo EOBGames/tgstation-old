@@ -254,3 +254,94 @@
 	)
 	result = /obj/item/food/katsu_fillet
 	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/satay_katsu
+	name = "Erdesei-katsu meal"
+	reqs = list(
+		/obj/item/food/katsu_fillet = 1,
+		/obj/item/food/kimchi = 1,
+		/obj/item/food/fries = 1,
+		/datum/reagent/consumable/peanut_butter = 5,
+		/datum/reagent/consumable/limejuice = 2,
+		/datum/reagent/consumable/martian_seasoning = 2
+	)
+	result = /obj/item/food/satay_katsu
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/katsu_curry
+	name = "Katsu curry"
+	reqs = list(
+		/obj/item/food/katsu_fillet = 1,
+		/obj/item/food/salad/boiledrice = 1,
+		/datum/reagent/consumable/curry_sauce = 10
+	)
+	result = /obj/item/food/salad/katsu_curry
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/hurricane_rice
+	name = "Hurricane fried rice"
+	reqs = list(
+		/obj/item/food/salad/boiledrice = 1,
+		/obj/item/food/meat/cutlet = 2,
+		/obj/item/food/egg = 1,
+		/obj/item/food/grown/carrot = 1,
+		/obj/item/food/grown/onion = 1,
+		/obj/item/food/grown/chili = 1,
+		/obj/item/food/grown/pineapple = 1,
+		/datum/reagent/consumable/martian_seasoning = 2,
+		/datum/reagent/consumable/soysauce = 2
+	)
+	result = /obj/item/food/salad/hurricane_rice
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/ikareis
+	name = "Ikareis (Martian fried rice)"
+	reqs = list(
+		/obj/item/food/salad/sushi_rice = 1,
+		/obj/item/food/sausage = 1,
+		/obj/item/food/squid_ink = 1,
+		/obj/item/food/grown/bell_pepper = 1,
+		/obj/item/food/grown/onion = 1,
+		/datum/reagent/consumable/martian_seasoning = 4
+	)
+	result = /obj/item/food/salad/ikareis
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/omurreis
+	name = "Ikareis (Martian fried rice)"
+	reqs = list(
+		/obj/item/food/salad/ikareis = 1,
+		/obj/item/food/grown/tomato = 1,
+		/obj/item/food/grown/onion = 1,
+		/obj/item/food/egg = 2
+	)
+	result = /obj/item/food/omurreis
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/shoyu_ramen
+	name = "Shōyu ramen"
+	reqs = list(
+		/obj/item/food/noodles = 1,
+		/obj/item/food/kamaboko = 1,
+		/obj/item/food/meat/cutlet = 1,
+		/obj/item/food/grown/onion = 1,
+		/obj/item/food/boiledegg = 1,
+		/datum/reagent/consumable/broth = 10,
+		/obj/item/reagent_containers/glass/bowl = 1
+	)
+	result = /obj/item/food/soup/shoyu_ramen
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/bulgogi_noodles
+	name = "Bulgogi noodles"
+	reqs = list(
+		/obj/item/food/noodles = 1,
+		/obj/item/food/meat/cutlet = 2,
+		/obj/item/food/grown/onion = 1,
+		/obj/item/food/grown/carrot = 1,
+		/obj/item/food/egg = 1,
+		/obj/item/food/sambal = 1,
+		/obj/item/reagent_containers/glass/bowl = 1
+	)
+	result = /obj/item/food/salad/bulgogi_noodles
+	subcategory = CAT_MARTIAN

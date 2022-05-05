@@ -219,7 +219,7 @@
 	foodtypes = MEAT | VEGETABLES | FRIED
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/soup/katsu_curry
+/obj/item/food/salad/katsu_curry
 	name = "katsu curry"
 	desc = "Breaded and deep fried meat, topped with curry sauce and served on a bed of rice."
 	icon_state = "katsu_curry" //✓
@@ -228,8 +228,8 @@
 	foodtypes = MEAT | VEGETABLES | FRIED
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/soup/hurricane_rice
-	name = "hurricane rice"
+/obj/item/food/salad/hurricane_rice
+	name = "hurricane fried rice"
 	desc = "Inspired by nasi goreng, this classic dish comes straight from Prospect, on Mars. It's named for its distinctive cooking style, where the frying rice is given lots of airtime while being flipped, mostly because it looks really cool for the crowd of customers."
 	icon_state = "hurricane rice" //✓
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
@@ -237,7 +237,7 @@
 	foodtypes = MEAT | VEGETABLES | FRUIT | PINEAPPLE
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/soup/ikareis
+/obj/item/food/salad/ikareis
 	name = "ikareis"
 	desc = "A spicy rice dish made with sushi rice, squid-ink, peppers, onions, sausage, and a lot of paprika."
 	icon_state = "ikareis" //✓
@@ -264,12 +264,12 @@
 	foodtypes = MEAT | VEGETABLES | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/soup/bulgogi_noodles
+/obj/item/food/salad/bulgogi_noodles
 	name = "bulgogi noodles"
-	desc = "Korean barbecue meat served with noodles! Made with gochujang, for extra spicy flavour."
+	desc = "Korean barbecue meat served with noodles! Made with sambal, for extra spicy flavour."
 	icon_state = "bulgogi_noodles" //✓
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
-	tastes = list("meat" = 1, "noodles" = 1, "soy sauce" = 1, "broth" = 1, "fishcakes" = 1, "onion" = 1, "egg" = 1)
+	tastes = list("meat" = 1, "egg" = 1, "noodles" = 1, "spicy relish" = 1)
 	foodtypes = MEAT | VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 

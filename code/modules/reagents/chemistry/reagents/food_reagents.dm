@@ -1028,7 +1028,21 @@
 
 /datum/reagent/consumable/martian_seasoning
 	name = "Martian All-Purpose Seasoning"
-	description = "A general use seasoning from Mars, where it's treated like Old Bay- they use it on everything!"
+	description = "A general use seasoning from Mars, where it's treated like Baltimore Blend- they use it on everything!"
 	taste_description = "salty spice"
 	color = "#952F00"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/curry_powder
+	name = "Curry Powder"
+	description = "A mild curry powder, useful for making... well, curry, I suppose."
+	taste_description = "curry in powder form"
+	color = "#F6C800"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/curry_sauce
+	name = "Curry Sauce"
+	description = "A fine curry sauce made from curry powder."
+	taste_description = "curry"
+	color = "#F6C800"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
