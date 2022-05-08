@@ -579,8 +579,22 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/mothic_rations
 	name = "Mothic Ration Chart"
-	desc = "A poster showing a commissary menu from a Mothic fleet vessel. It lists various consumable items alongside prices in ration tickets for them."
+	desc = "A poster showing a commissary menu from the Mothic fleet flagship, the Va Lümla. It lists various consumable items alongside prices in ration tickets for them."
 	icon_state = "mothic_rations"
+
+/obj/structure/sign/poster/contraband/mothic_rations/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("Va Lümla Commissary Menu (Spring 335)")]"
+	. += "\t[span_info("Windgrass Cigarettes, Half-Pack (6): 1 Ticket")]"
+	. += "\t[span_info("Töchtaüse Schnapps, Bottle (4 Measures): 2 Tickets")]"
+	. += "\t[span_info("Activin Gum, Pack (4): 1 Ticket")]"
+	. += "\t[span_info("A18 Sustenance Bar, Breakfast, Bar (4): 1 Ticket")]"
+	. += "\t[span_info("Pizza, Margherita, Standard Slice: 1 Ticket")]"
+	. += "\t[span_info("Keratin Wax, Medicated, Tin (20 Measures): 2 Tickets")]"
+	. += "\t[span_info("Setae Soap, Herb Scent, Bottle (20 Measures): 2 Tickets")]"
+	. += "\t[span_info("Additional Bedding, Floral Print, Sheet: 5 Tickets")]"
+	return .
 
 /obj/structure/sign/poster/contraband/woodpeckers
 	name = "New Osaka Woodpeckers Fan Poster"
@@ -603,7 +617,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	icon_state = "pizza_imperator"
 
 /obj/structure/sign/poster/contraband/thunderdrome
-	name = "Thunderdrome Concert Ticket"
+	name = "Thunderdrome Concert Advertisement"
 	desc = "An advertisement for a concert at the Adasta City Thunderdrome, the largest nightclub in human space."
 	icon_state = "thunderdrome"
 
@@ -611,6 +625,46 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	name = "A New Life"
 	desc = "An old poster from around the time of the First Spinward Rush. It depicts a view of wide, unspoiled lands, ready for Humanity's Manifest Destiny."
 	icon_state = "rush_propaganda"
+
+/obj/structure/sign/poster/contraband/tipper_cream_soda
+	name = "Tipper's Cream Soda"
+	desc = "An old advertisement for an obscure cream soda brand, now bankrupt due to legal problems."
+	icon_state = "tipper_cream_soda"
+
+/obj/structure/sign/poster/contraband/neon_greed
+	name = "Movie Poster: Neon Greed"
+	desc = "A poster for the cult-classic space-ploitation flick Neon Greed."
+	icon_state = "neon_greed"
+
+/obj/structure/sign/poster/contraband/neon_greed/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("One woman. One laser sword. One mission: reclaim Adasta City from the scum that's taken it.")]"
+	. += "\t[span_info("Revenge is a dish best served at 3500 Kelvin.")]"
+	. += "\t[span_info("Fiona Jameson is Cassidy Miller in: NEON GREED. A Mark S. Redd production. A Petrov Markovnikov film. Screenplay by Harris Wilson. Music by Electrohand. Produced by Mark S. Redd. Directed by Petrov Markovnikov.")]"
+	. += "\t[span_info("Five Stars, I have never seen such an action-packed experience- The Adasta Inquirer")]"
+	. += "\t[span_info("Rated R for Restricted. A Roseus Galactus Picture.")]"
+	return .
+
+/obj/structure/sign/poster/contraband/tea_over_tizira
+	name = "Movie Poster: Tea Over Tizira"
+	desc = "A poster for a thought-provoking arthouse movie about the Human-Lizard war, criticised by human supremacist groups for its morally-grey portrayal of the war."
+	icon_state = "tea_over_tizira"
+
+/obj/structure/sign/poster/contraband/tea_over_tizira/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("At the climax of the Human-Lizard war, the human crew of a bomber rescue two enemy soldiers from the vacuum of space. Seeing the souls behind the propaganda, they begin to question their orders, and imprisonment turns to hospitality.")]"
+	. += "\t[span_info("Is victory worth losing our humanity?")]"
+	. += "\t[span_info("Starring Dara Reilly, Anton DuBois, Jennifer Clarke, Raz-Parla and Seri-Lewa. An Adriaan van Jenever production. A Carlos de Vivar film. Screenplay by Robert Dane. Music by Joel Karlsbad. Produced by Adriaan van Jenever. Directed by Carlos de Vivar.")]"
+	. += "\t[span_info("Heartbreaking and thought-provoking- Tea Over Tizira asks questions that few have had the boldness to ask before: The London Independent")]"
+	. += "\t[span_info("Rated PG13. A Pangalactic Studios Picture.")]"
+	return .
+
+/obj/structure/sign/poster/contraband/starstop_temphabs
+	name = "Movie Poster: Tea Over Tizira"
+	desc = "A poster for a thought-provoking arthouse movie about the Human-Lizard war, criticised by human supremacist groups for its morally-grey portrayal of the war."
+	icon_state = "tea_over_tizira"
 
 /obj/structure/sign/poster/contraband/syndiemoth	//Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982); original art credit to AspEv
 	name = "Syndie Moth - Nuclear Operation"
@@ -865,6 +919,11 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	name = "24-Seven Supermarkets"
 	desc = "An advertisement for 24-Seven supermarkets, advertising their new 24-Stops as part of their partnership with Nanotrasen."
 	icon_state = "twenty_four_seven"
+
+/obj/structure/sign/poster/official/tactical_game_cards
+	name = "Nanotrasen Tactical Game Cards"
+	desc = "An advertisement for Nanotrasen's TCG cards: BUY MORE CARDS."
+	icon_state = "tactical_game_cards"
 
 //SafetyMoth Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982)
 //SafetyMoth art credit goes to AspEv
