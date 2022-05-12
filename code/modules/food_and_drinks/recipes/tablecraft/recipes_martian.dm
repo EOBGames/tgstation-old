@@ -345,3 +345,99 @@
 	)
 	result = /obj/item/food/salad/bulgogi_noodles
 	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/bulgogi_teller
+	name = "Bulgogi teller"
+	reqs = list(
+		/obj/item/food/meat/cutlet = 2,
+		/obj/item/food/kimchi = 1,
+		/obj/item/food/fries = 1,
+		/obj/item/food/grown/garlic = 1,
+		/datum/reagent/consumable/martian_seasoning = 2,
+		/datum/reagent/consumable/cream = 4
+	)
+	result = /obj/item/food/bulgogi_teller
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/frankramen_miy_kaezu
+	name = "Frankramen miy kaezu"
+	reqs = list(
+		/obj/item/food/noodles = 1,
+		/obj/item/food/meat/cutlet = 2,
+		/obj/item/food/grown/onion = 2,
+		/obj/item/food/cheese = 1,
+		/datum/reagent/consumable/broth = 10,
+		/obj/item/reagent_containers/glass/bowl = 1
+	)
+	result = /obj/item/food/soup/frankramen_miy_kaezu
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/brat_kimchi
+	name = "Brat-kimchi"
+	reqs = list(
+		/obj/item/food/sausage = 1,
+		/obj/item/food/kimchi = 1,
+		/datum/reagent/consumable/sugar = 2
+	)
+	result = /obj/item/food/brat_kimchi
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/tonkatsuwurst
+	name = "Brat-kimchi"
+	reqs = list(
+		/obj/item/food/sausage = 1,
+		/obj/item/food/fries = 1,
+		/datum/reagent/consumable/ketchup = 5,
+		/datum/reagent/consumable/martian_seasoning = 2
+	)
+	result = /obj/item/food/tonkatsuwurst
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/izakaya_tempomix
+	name = "Izakaya tempomix"
+	reqs = list(
+		/obj/item/food/onion_slice = 1,
+		/obj/item/food/fishmeat = 1,
+		/obj/item/food/meat/rawcutlet = 1,
+		/obj/item/food/tofu = 1,
+		/obj/item/food/grown/mushroom = 1,
+		/datum/reagent/consumable/flour = 5,
+		/datum/reagent/water = 5
+	)
+	result = /obj/item/food/izakaya_tempomix
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/mars_tofu
+	name = "Huoxing tofu"
+	reqs = list(
+		/obj/item/food/tofu = 1,
+		/obj/item/food/meatball = 1,
+		/obj/item/food/grown/onion = 1,
+		/obj/item/food/grown/chili = 1,
+		/obj/item/food/grown/soybeans = 1
+	)
+	result = /obj/item/food/salad/mars_tofu
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/plasma_dog
+	name = "Plasma Dog Supreme"
+	reqs = list(
+		/obj/item/food/bun = 1,
+		/obj/item/food/sausage = 1,
+		/obj/item/food/sambal = 1,
+		/obj/item/food/onion_slice = 2,
+		/obj/item/food/pineappleslice = 1,
+		/datum/reagent/consumable/limejuice = 2
+	)
+	result = /obj/item/food/plasma_dog
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/frickles
+	name = "Frickles (fried pickles)"
+	reqs = list(
+		/obj/item/food/pickle = 2,
+		/datum/reagent/consumable/flour = 5,
+		/datum/reagent/consumable/martian_seasoning = 2
+	)
+	result = /obj/item/food/frickles
+	subcategory = CAT_MARTIAN

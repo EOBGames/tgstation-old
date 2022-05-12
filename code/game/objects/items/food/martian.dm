@@ -327,7 +327,7 @@
 	foodtypes = MEAT | VEGETABLES | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/soup/mars_tofu
+/obj/item/food/salad/mars_tofu
 	name = "\improper Huoxing tofu"
 	desc = "An adaptation of mapo tofu made famous in Prospect, the foodie Mecca of Mars. It even kinda looks like Mars, if you really squint."
 	icon_state = "mars_tofu" //✓
