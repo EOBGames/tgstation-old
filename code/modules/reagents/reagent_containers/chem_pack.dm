@@ -38,3 +38,22 @@
 	if(sealed)
 		return
 	..()
+
+//Name Brand Chempacks
+/obj/item/reagent_containers/chem_pack/radpurge
+	name = "\improper Radpurge IV bag"
+	desc = "A drug cocktail produced by Interdyne Pharmaceutics. Rapidly purges radiation, treats genetic damage, and flushes the system."
+	list_reagents = list(/datum/reagent/medicine/pen_acid = 50, /datum/reagent/medicine/rezadone = 25, /datum/reagent/medicine/salglu_solution = 25)
+	icon_state = "chempack_interdyne"
+
+/obj/item/reagent_containers/chem_pack/allergone
+	name = "\improper Allergone IV bag"
+	desc = "A drug cocktail produced by the DeForest Medical Corp. Designed to rapidly stabilise patients undergoing severe allergic reactions."
+	list_reagents = list(/datum/reagent/medicine/synaphydramine = 50, /datum/reagent/medicine/pen_acid = 25, /datum/reagent/medicine/omnizine = 25)
+	icon_state = "chempack_deforest"
+
+/obj/item/reagent_containers/chem_pack/stabilin
+	name = "\improper Stabilin IV bag"
+	desc = "A drug cocktail produced by the DeForest Medical Corp. Designed to rapidly stabilise patients in critical condition."
+	list_reagents = list(/datum/reagent/medicine/atropine = 50, /datum/reagent/medicine/epinephrine = 50)
+	icon_state = "chempack_deforest"

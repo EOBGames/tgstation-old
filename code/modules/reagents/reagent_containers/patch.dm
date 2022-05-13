@@ -44,3 +44,46 @@
 	desc = "Helps with brute and burn injuries. Slightly toxic."
 	list_reagents = list(/datum/reagent/medicine/c2/synthflesh = 20)
 	icon_state = "bandaid_both"
+
+//Name Brand Patches
+/obj/item/reagent_containers/pill/patch/miraculin
+	name = "\improper Miraculin patch"
+	desc = "A medicinal patch produced by the DeForest Medical Corp. Contains adminordrazine as an active ingredient."
+	list_reagents = list(/datum/reagent/medicine/adminordrazine = 10)
+	icon_state = "bandaid_deforest"
+
+/obj/item/reagent_containers/pill/patch/aqualin
+	name = "\improper Aqualin patch"
+	desc = "A medicinal patch produced by the DeForest Medical Corp. Contains rezadone as an active ingredient."
+	list_reagents = list(/datum/reagent/medicine/rezadone = 10)
+	icon_state = "bandaid_deforest"
+
+/obj/item/reagent_containers/pill/patch/pancyclidone
+	name = "\improper Pancyclidone patch"
+	desc = "A medicinal patch produced by the DeForest Medical Corp. Contains salicylic acid as an active ingredient, diluted with Granibitaluri."
+	list_reagents = list(/datum/reagent/medicine/sal_acid = 2, /datum/reagent/medicine/granibitaluri = 8)
+	icon_state = "bandaid_deforest"
+
+/obj/item/reagent_containers/pill/patch/junkpurge
+	name = "\improper Junkpurge patch"
+	desc = "A medicinal patch produced by the DeForest Medical Corp. Contains haloperidol as an active ingredient."
+	list_reagents = list(/datum/reagent/medicine/haloperidol = 10)
+	icon_state = "bandaid_deforest"
+
+/obj/item/reagent_containers/pill/patch/nicravex
+	name = "\improper Nicravex patch"
+	desc = "A nicotine patch produced by the DeForest Medical Corp. Beat those cravings!"
+	list_reagents = list(/datum/reagent/drug/nicotine = 2, /datum/reagent/medicine/granibitaluri = 8)
+	icon_state = "bandaid_deforest"
+
+/obj/item/reagent_containers/pill/patch/activin
+	name = "\improper Activin patch"
+	desc = "A medicinal patch produced by Interdyne Pharmaceutics. Contains methamphetamine as an active ingredient."
+	list_reagents = list(/datum/reagent/drug/methamphetamine = 2, /datum/reagent/medicine/granibitaluri = 8)
+	icon_state = "bandaid_interdyne"
+
+/obj/item/reagent_containers/pill/patch/salvium
+	name = "\improper Salvium patch"
+	desc = "A medicinal patch produced by Interdyne Pharmaceutics. Contains oxandrolone as an active ingredient."
+	list_reagents = list(/datum/reagent/medicine/oxandrolone = 2, /datum/reagent/medicine/granibitaluri = 8)
+	icon_state = "bandaid_interdyne"
