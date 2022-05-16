@@ -70,6 +70,22 @@
 	status = LIGHT_EMPTY
 	update(0)
 
+/obj/machinery/light/small/no_nightlight
+	nightshift_enabled = FALSE
+
+/obj/machinery/light/small/warm
+	bulb_colour = "#fae5c1"
+
+/obj/machinery/light/small/warm/no_nightlight
+	nightshift_allowed = FALSE
+
+/obj/machinery/light/small/cold
+	bulb_colour = "#deefff"
+	nightshift_light_color = "#deefff"
+
+/obj/machinery/light/small/cold/no_nightlight
+	nightshift_allowed = FALSE
+
 /obj/machinery/light/small/red
 	bulb_colour = "#FF3232"
 	no_emergency = TRUE
@@ -82,6 +98,11 @@
 	nightshift_allowed = FALSE
 	brightness = 2
 	bulb_power = 0.9
+
+/obj/machinery/light/small/dim
+	nightshift_allowed = FALSE
+	bulb_colour = "#FFDDCC"
+	bulb_power = 0.6
 
 // -------- Directional presets
 // The directions are backwards on the lights we have now
@@ -132,6 +153,21 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/small/built, 0)
 
 // ---- Broken bulbs
 MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/small/broken, 0)
+
+// ---- No nightlight bulbs
+MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/small/no_nightlight, 0)
+
+// ---- Warm bulbs
+MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/small/warm, 0)
+
+// ---- No nightlight warm bulbs
+MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/small/warm/no_nightlight, 0)
+
+// ---- Cold bulbs
+MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/small/cold, 0)
+
+// ---- No nightlight cold bulbs
+MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/small/cold/no_nightlight, 0)
 
 // ---- Red bulbs
 MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light/small/red, 0)
