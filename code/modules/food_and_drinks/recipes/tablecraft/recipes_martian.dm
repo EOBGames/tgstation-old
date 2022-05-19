@@ -441,3 +441,90 @@
 	)
 	result = /obj/item/food/frickles
 	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/ballpark_pretzel
+	name = "Ballpark pretzel"
+	reqs = list(
+		/obj/item/food/doughslice = 1,
+		/datum/reagent/consumable/salt = 2
+	)
+	result = /obj/item/food/ballpark_pretzel
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/ballpark_tsukune
+	name = "Ballpark tsukune"
+	reqs = list(
+		/obj/item/food/meatball/chicken = 2,
+		/datum/reagent/consumable/soysauce = 2,
+		/datum/reagent/consumable/sugar = 1,
+		/obj/item/stack/rods = 1
+	)
+	result = /obj/item/food/kebab/ballpark_tsukune
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/squid_fries
+	name = "Squid fries"
+	reqs = list(
+		/obj/item/food/calamari = 1,
+		/obj/item/food/fries = 1,
+		/datum/reagent/consumable/mayonnaise = 3,
+		/datum/reagent/consumable/martian_seasoning = 2
+	)
+	result = /obj/item/food/squid_fries
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/agedashi
+	name = "Agedashi tofu"
+	reqs = list(
+		/obj/item/food/tofu = 1,
+		/datum/reagent/consumable/broth = 10,
+		/obj/item/reagent_containers/glass/bowl = 1
+	)
+	result = /obj/item/food/soup/agedashi
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/dorayaki
+	name = "Dorayaki pancakes"
+	reqs = list(
+		/obj/item/food/pancakes = 2,
+		/obj/item/food/egg = 1,
+		/obj/item/food/grown/berries = 1,
+		/datum/reagent/consumable/milk = 2,
+		/datum/reagent/consumable/sugar = 4
+	)
+	result = /obj/item/food/dorayaki_pancakes
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/blood_cake
+	name = "Ti hoeh koe skewer (Pig's blood cake)"
+	reqs = list(
+		/obj/item/food/peanuts = 1,
+		/obj/item/food/grown/herbs = 1,
+		/datum/reagent/consumable/rice = 5,
+		/datum/reagent/blood = 5,
+		/obj/item/stack/rods = 1
+	)
+	result = /obj/item/food/kebab/blood_cake
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/new_osaka_sunrise
+	name = "New Osaka sunrise miso soup"
+	reqs = list(
+		/obj/item/food/tofu = 1,
+		/obj/item/food/miso_paste = 1,
+		/datum/reagent/consumable/broth = 10,
+		/obj/item/reagent_containers/glass/bowl = 1
+	)
+	result = /obj/item/food/soup/new_osaka_sunrise
+	subcategory = CAT_MARTIAN
+
+/datum/crafting_recipe/food/new_osaka_sunrise
+	name = "New Osaka sunrise miso soup"
+	reqs = list(
+		/obj/item/food/tofu = 1,
+		/obj/item/food/miso_paste = 1,
+		/datum/reagent/consumable/broth = 10,
+		/obj/item/reagent_containers/glass/bowl = 1
+	)
+	result = /obj/item/food/soup/new_osaka_sunrise
+	subcategory = CAT_MARTIAN

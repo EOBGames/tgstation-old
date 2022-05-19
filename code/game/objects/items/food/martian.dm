@@ -431,7 +431,7 @@
 	foodtypes = VEGETABLES | BREAKFAST
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/soup/fried_noodles
+/obj/item/food/salad/fried_noodles
 	name = "\improper Martian fried noodles"
 	desc = "Fried noodles from the red planet. Martian cooking draws from many cultures, and these noodles are no exception- there's elements of Malay, Thai, Chinese, Korean and Japanese cuisine in here."
 	icon_state = "fried_noodles"
