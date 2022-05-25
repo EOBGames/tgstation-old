@@ -26,6 +26,30 @@
 	foodtypes = MEAT
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/raw_tilotozisk_sausage
+	name = "raw Tilotozisk sausage"
+	desc = "A raw Tilotozisk sausage, ready to be smoked."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "raw_tilotozisk_sausage"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2)
+	tastes = list("meat" = 1, "wine" = 1, "aromatics" = 1)
+	foodtypes = MEAT
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/raw_tilotozisk_sausage/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/dryable, /obj/item/food/tilotozisk_sausage)
+
+/obj/item/food/tilotozisk_sausage
+	name = "\improper Tilotozisk sausage"
+	desc = "An offal sausage made from tripe, onions, herbs, seasonings, kas’sa wine, and most importantly, smoked to perfection."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "tilotozisk_sausage"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/consumable/nutriment/vitamin = 3)
+	tastes = list("meat" = 1, "wine" = 1, "aromatics" = 1, "smoke" = 1)
+	foodtypes = MEAT
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/food/raw_headcheese
 	name = "raw headcheese block"
 	desc = "A common food on Tizira, headcheese is traditionally made of an animal's head, with the organs removed, boiled until it falls apart, at which point it is collected, strained of moisture, salted heavily, packed into blocks, and left to dry and age for several months. The resulting hard block tastes similar to cheese."
@@ -194,6 +218,16 @@
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/swamp_roots
+	name = "swamp roots"
+	desc = "A crispy fry-up of root vegetables with sausage and veggies. As tasty as its name is horrible."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "swamp_roots"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/nutriment/protein = 4)
+	tastes = list("marvelous mushrooms" = 1, "sublime shrooms" = 1)
+	foodtypes = VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
 //Fish Dishes
 /obj/item/food/grilled_moonfish
 	name = "grilled moonfish"
@@ -224,6 +258,16 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 15, /datum/reagent/consumable/nutriment/protein = 10, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("surf" = 1, "turf" = 1)
 	foodtypes = MEAT | SEAFOOD | VEGETABLES
+	w_class = WEIGHT_CLASS_BULKY
+
+/obj/item/food/blackened_mudfish
+	name = "blackened mudfish"
+	desc = "The simplest (and arguably best) way to cook mudfish: coat it in spices, and cook it on a grill."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "blackened_mudfish"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/char = 2)
+	tastes = list("fish" = 1, "spices" = 1)
+	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_BULKY
 
 //Spaghetti Dishes
@@ -272,6 +316,15 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/vitamin = 10)
 	tastes = list("savouriness" = 1, "nuttiness" = 1, "gnocchi" = 1)
 	foodtypes = VEGETABLES
+
+/obj/item/food/spaghetti/barbecue_nizaya
+	name = "barbecue nizaya"
+	desc = "Nizaya pasta topped off with slices of meat, fried onions, and barbecue sauce."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "barbecue_nizaya"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/vitamin = 10)
+	tastes = list("barbecue sauce" = 1, "fried onion" = 1, "meat" = 1, "gnocchi" = 1)
+	foodtypes = VEGETABLES | MEAT
 
 //Dough Dishes
 
@@ -434,6 +487,28 @@
 	foodtypes = VEGETABLES | NUTS | FRUIT
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/paupers_respite_armorfish
+	name = "armorfish pauper's respite sandwich"
+	desc = "A Pauper's Respite sandwich, loaded up with fried armorfish, mayonnaise, bacon, and veggies."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "honey_roll"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/nutriment/protein = 6)
+	tastes = list("bread" = 1, "fish" = 1, "mayonnaise" = 1, "bacon" = 1, "salad" = 1)
+	foodtypes = VEGETABLES | NUTS | SEAFOOD | MEAT
+	food_flags = FOOD_FINGER_FOOD
+	w_class = WEIGHT_CLASS_NORMAL
+
+/obj/item/food/paupers_respite_armorfish
+	name = "sausage hash pauper's respite sandwich"
+	desc = "A Pauper's Respite sandwich, loaded up with fried armorfish, mayonnaise, bacon, and veggies."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "honey_roll"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/nutriment/protein = 6)
+	tastes = list("bread" = 1, "fish" = 1, "mayonnaise" = 1, "bacon" = 1, "salad" = 1)
+	foodtypes = VEGETABLES | NUTS | SEAFOOD | MEAT
+	food_flags = FOOD_FINGER_FOOD
+	w_class = WEIGHT_CLASS_NORMAL
 
 //Soup Dishes
 /obj/item/food/soup/atrakor_dumplings
