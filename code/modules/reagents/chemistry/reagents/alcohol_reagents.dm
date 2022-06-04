@@ -2829,3 +2829,16 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	if(drinker.hallucination < hal_cap && DT_PROB(5, delta_time))
 		drinker.hallucination += hal_amt
 	..()
+
+// Beer: the cause of, and solution to, all of life's problems
+/datum/reagent/consumable/ethanol/harvest_witbier
+	name = "Harvest Witbier"
+	description = "A mix of Tiltällen, Töchtaüse Syrup, and vodka. It's not exactly to everyones' tastes."
+	boozepwr = 75
+	color = "#b4abd0"
+	quality = DRINK_VERYGOOD
+	taste_description = "spicy sour cheesy yoghurt"
+	glass_icon_state = "tich_toch"
+	glass_name = "Tich Toch"
+	glass_desc = "Oh god."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
