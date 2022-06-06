@@ -42,6 +42,11 @@
 	toggle_noun = "sleeves"
 	species_exception = list(/datum/species/golem)
 
+/obj/item/clothing/suit/toggle/chef/master
+	name = "\improper Plasteel Chef's black jacket"
+	desc = "As every king has his crown, every Plasteel Chef has his black jacket. Hand-crafted from the finest materials available to chefdom, and bestowed only upon masters by the Galactic Association of Chefs. Comes complete with a professional waist apron."
+	icon_state = "chef_master"
+
 //Cook
 /obj/item/clothing/suit/apron/chef
 	name = "cook's apron"

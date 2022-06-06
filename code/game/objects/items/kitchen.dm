@@ -79,6 +79,11 @@
 	name = "kitchen knife"
 	desc = "A general purpose Chef's Knife made by SpaceCook Incorporated. Guaranteed to stay sharp for years to come."
 
+/obj/item/knife/kitchen/master
+	name = "\improper Master's kitchen knife"
+	desc = "A kitchen knife bestowed only upon masters of the culinary arts. Hand crafted from plasteel by the Galactic Association of Chefs."
+	icon_state = "master"
+
 /obj/item/knife/plastic
 	name = "plastic knife"
 	icon_state = "plastic_knife"

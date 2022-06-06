@@ -22,6 +22,11 @@
 	desc = "The commander in chef's head wear. Upon closer inspection, there seem to be dozens of tiny levers, buttons, dials, and screens inside of this hat. What the hell...?"
 	mouse_control_probability = 100
 
+/obj/item/clothing/head/chefhat/master
+	name = "\improper Plasteel Chef's hat"
+	desc = "A hat to accompany a black jacket, as no chef's ensemble is complete without their toque."
+	icon = "chef_master"
+
 /obj/item/clothing/head/chefhat/suicide_act(mob/user)
 	user.visible_message(span_suicide("[user] is donning [src]! It looks like [user.p_theyre()] trying to become a chef."))
 	user.say("Bork Bork Bork!", forced = "chef hat suicide")
