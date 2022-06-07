@@ -547,7 +547,6 @@
 	circuit = /obj/item/circuitboard/machine/chem_dispenser/drinks/diner
 	dispensable_reagents = list(
 		/datum/reagent/water,
-		/datum/reagent/consumable/ice,
 		/datum/reagent/consumable/icetea,
 		/datum/reagent/consumable/space_cola,
 		/datum/reagent/consumable/spacemountainwind,
