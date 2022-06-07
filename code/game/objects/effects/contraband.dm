@@ -535,7 +535,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	. += span_notice("<i>You browse some of the poster's information...</i>")
 	. += "\t[span_info("Get a taste of the tropics with Amethyst Sunrise, one of the many new flavours of EisT Energy now available from EisT.")]"
 	. += "\t[span_info("With pink grapefruit, yuzu, and yerba mate, Amethyst Sunrise gives you a great start in the morning, or a welcome boost throughout the day.")]"
-	. += "\t[span_info("Get EisT Energy today at your nearest retailer.")]"
+	. += "\t[span_info("Get EisT Energy today at your nearest retailer, or online at eist.de.tg/store/.")]"
 	return .
 
 /obj/structure/sign/poster/contraband/little_fruits
@@ -559,7 +559,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/galaxywise
 	name = "Galaxywise Shipyards"
-	desc = "It helps to be Galaxywise- reliable ships at reasonable prices, built over Adasta."
+	desc = "Reliable ships at reasonable prices, built over Adasta. Remember- when you need a ship, it helps to be Galaxywise."
 	icon_state = "galaxywise"
 
 /obj/structure/sign/poster/contraband/calada_jelly
@@ -579,7 +579,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/mothic_rations
 	name = "Mothic Ration Chart"
-	desc = "A poster showing a commissary menu from the Mothic fleet flagship, the Va Lümla. It lists various consumable items alongside prices in ration tickets for them."
+	desc = "A poster showing a commissary menu from the Mothic fleet flagship, the Va Lümla. It lists various consumable items alongside prices in ration tickets."
 	icon_state = "mothic_rations"
 
 /obj/structure/sign/poster/contraband/mothic_rations/examine_more(mob/user)
@@ -662,9 +662,9 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	return .
 
 /obj/structure/sign/poster/contraband/starstop_temphabs
-	name = "Movie Poster: Tea Over Tizira"
-	desc = "A poster for a thought-provoking arthouse movie about the Human-Lizard war, criticised by human supremacist groups for its morally-grey portrayal of the war."
-	icon_state = "tea_over_tizira"
+	name = "Starstop Temphabs"
+	desc = "An advertisement for Starstop Temphabs, the galaxy's leading hotel chain. When you need a rest, think Starstop."
+	icon_state = "starstop_temphabs"
 
 /obj/structure/sign/poster/contraband/syndiemoth	//Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982); original art credit to AspEv
 	name = "Syndie Moth - Nuclear Operation"
