@@ -957,13 +957,6 @@
 	tastes = list("enchiladas" = 2, "laziness" = 1)
 	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
 
-/obj/item/food/ready_donk/warm/donkhiladas
-	name = "warm Ready-Donk: Donkhiladas"
-	desc = "Donk Co's signature Donkhiladas with Donk sauce, served as hot as the Mexican sun."
-	icon_state = "ready_donk_warm_mex"
-	tastes = list("enchiladas" = 2, "laziness" = 1)
-	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
-
 /obj/item/food/pierogi
 	name = "pierogi"
 	desc = "A dumpling made by wrapping unleavened dough around a savoury or sweet filling and cooking in boiling water. This one is filled with a potato and onion mixture."
@@ -989,4 +982,24 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("seaweed" = 1)
 	foodtypes = VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/microwave_popcorn
+	name = "\improper Fast-Snax microwave popcorn"
+	desc = "Popcorn? In a microwave oven? Impossible, they said- and yet, here it is."
+	icon_state = "microwave_popcorn"
+	microwaved_type = /obj/item/food/popcorn
+	food_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
+	tastes = list("bullets" = 1)
+	foodtypes = JUNKFOOD
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/microwave_sliders
+	name = "\improper Peewee Prince's Microsliders"
+	desc = "Since 1921, Peewee's has been bringing you the best sliders money can buy- and since 2012, they've been available for the home microwave market."
+	icon_state = "microwave_sliders"
+	microwaved_type = /obj/item/food/popcorn
+	food_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
+	tastes = list("sadburgers" = 1)
+	foodtypes = JUNKFOOD
 	w_class = WEIGHT_CLASS_SMALL
