@@ -1918,10 +1918,6 @@
 	},
 /turf/open/floor/pod/dark,
 /area/station/service/hydroponics/garden)
-"bAq" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/station/hallway/primary/starboard)
 "bAy" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -4460,6 +4456,10 @@
 /turf/open/floor/iron/smooth,
 /area/station/engineering/hallway)
 "dEB" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/textured,
 /area/station/maintenance/central)
 "dEJ" = (
@@ -5099,18 +5099,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/ce)
-"eeH" = (
-/obj/effect/turf_decal/tile/neutral/half{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral/half{
-	dir = 8
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark/textured_half{
-	dir = 1
-	},
-/area/station/hallway/primary/starboard)
 "eeT" = (
 /obj/machinery/door/airlock/public{
 	name = "Freezer";
@@ -5828,21 +5816,6 @@
 /obj/machinery/light/small/red/directional/south,
 /turf/open/floor/plating,
 /area/station/cargo/sorting)
-"eLe" = (
-/obj/structure/sign/departments/custodian{
-	pixel_y = 32
-	},
-/obj/effect/turf_decal/tile/neutral/half{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral/half{
-	dir = 4
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark/textured_half{
-	dir = 1
-	},
-/area/station/hallway/primary/starboard)
 "eLf" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -10330,6 +10303,15 @@
 /obj/effect/spawner/random/vending/snackvend,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
+"igi" = (
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Primary Tool Storage"
+	},
+/obj/effect/turf_decal/siding/white,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/station/command/teleporter)
 "ign" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 4
@@ -11187,6 +11169,13 @@
 	},
 /turf/open/openspace,
 /area/station/service/hydroponics/garden)
+"iJm" = (
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Primary Tool Storage"
+	},
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/iron/smooth,
+/area/station/command/teleporter)
 "iJu" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -12333,6 +12322,9 @@
 	dir = 1
 	},
 /area/station/hallway/secondary/entry)
+"jBt" = (
+/turf/closed/wall/ice,
+/area/station/ai_monitored/command/storage/eva)
 "jBR" = (
 /obj/structure/chair/sofa/bench/left,
 /turf/open/floor/iron/dark/textured,
@@ -17622,6 +17614,14 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/service/hydroponics/garden)
+"ocX" = (
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Primary Tool Storage"
+	},
+/obj/effect/turf_decal/siding/white,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/station/command/teleporter)
 "odp" = (
 /obj/structure/railing{
 	dir = 4
@@ -17949,7 +17949,8 @@
 /turf/open/floor/iron/grimy,
 /area/station/service/lawoffice)
 "opF" = (
-/turf/closed/wall,
+/obj/structure/window/reinforced/fulltile/ice,
+/turf/open/floor/plating,
 /area/station/command/teleporter)
 "opS" = (
 /obj/machinery/door/airlock/public/glass{
@@ -22913,6 +22914,9 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/space)
+"spF" = (
+/turf/open/space/basic,
+/area/station/hallway/primary/starboard)
 "sqa" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/structure/window/reinforced{
@@ -29420,6 +29424,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/escape)
+"xst" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured,
+/area/station/maintenance/central)
 "xsS" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/neutral/half,
@@ -29588,6 +29599,9 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/storage)
+"xzk" = (
+/turf/closed/wall/ice,
+/area/station/command/teleporter)
 "xzW" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -29910,6 +29924,10 @@
 /turf/open/floor/iron/smooth,
 /area/station/engineering/supermatter/room)
 "xMB" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
 /turf/open/floor/iron/dark/textured,
 /area/station/command/teleporter)
 "xME" = (
@@ -135800,7 +135818,7 @@ oRJ
 aTj
 oKs
 kro
-rVB
+jBt
 rVB
 rVB
 rVB
@@ -136057,7 +136075,7 @@ pxO
 kro
 oKs
 kro
-rVB
+jBt
 lkR
 xMp
 qlI
@@ -136828,7 +136846,7 @@ xqw
 sNz
 oKs
 kro
-opF
+iJm
 vKM
 vKM
 pLG
@@ -137085,7 +137103,7 @@ rNE
 sNz
 oKs
 aTj
-opF
+ocX
 vKM
 vKM
 pLG
@@ -137856,13 +137874,13 @@ pxO
 kro
 oKs
 kro
-opF
+xzk
 xYu
 xSx
 vKM
 vKM
 xMB
-dEB
+xst
 fVE
 ovY
 fVE
@@ -138113,14 +138131,14 @@ niA
 kro
 oKs
 kro
+xzk
+xzk
 opF
+ocX
+igi
 opF
-opF
-opF
-opF
-opF
-fVE
-fVE
+paM
+paM
 oGs
 fVE
 uNL
@@ -139141,14 +139159,14 @@ fVE
 sCz
 iXc
 sCz
-fVE
-bAq
-bAq
-bAq
-uRz
-eLe
-eeH
-uRz
+jLw
+spF
+spF
+spF
+spF
+spF
+spF
+spF
 bmc
 ach
 bmc
@@ -139398,14 +139416,14 @@ duS
 hJO
 qmz
 hJO
-duS
-ldt
-ldt
-ldt
-ldt
-kro
-kro
-uRz
+fJe
+spF
+spF
+spF
+spF
+spF
+spF
+spF
 ldt
 ldt
 ldt
@@ -139655,14 +139673,14 @@ duS
 gck
 qmz
 hJO
-duS
-ldt
-ldt
-ldt
-ldt
-kro
-kro
-uRz
+fJe
+spF
+spF
+spF
+spF
+spF
+spF
+spF
 ldt
 ldt
 ldt
@@ -139912,14 +139930,14 @@ duS
 hJO
 qmz
 hJO
-duS
-uRz
-uRz
-uRz
-uRz
-uRz
-uRz
-uRz
+fJe
+spF
+spF
+spF
+spF
+spF
+spF
+spF
 ldt
 ldt
 ldt
@@ -140169,14 +140187,14 @@ duS
 hJO
 qmz
 hJO
-duS
-hJO
-hJO
-hJO
-hJO
-duX
-bYk
-duS
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
 uRz
 uRz
 uRz
@@ -140426,14 +140444,14 @@ duS
 hJO
 qmz
 hJO
-hJO
-hJO
-hJO
-hJO
-hJO
-duS
-bYk
-duS
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
 bYk
 mrA
 bYk
@@ -140683,14 +140701,14 @@ duS
 hJO
 qmz
 hJO
-duS
-hJO
-hJO
-hJO
-hJO
-duS
-bYk
-duS
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
 duS
 gfK
 duS
@@ -140940,14 +140958,14 @@ duS
 qKC
 tBr
 qKC
-duS
-hJO
-hJO
-hJO
-hJO
-duS
-bYk
-bYk
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
 bYk
 gfK
 gfK
@@ -141197,14 +141215,14 @@ vXm
 nXu
 hce
 nXu
-vXm
-hJO
-hJO
-hJO
-hJO
-duS
-duS
-duS
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
 duS
 duS
 duS
@@ -141454,14 +141472,14 @@ vXm
 tfi
 fLb
 tfi
-vXm
-duS
-duS
-duS
-duS
-duS
-bYk
-bYk
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
+fJe
 bYk
 bYk
 bYk
