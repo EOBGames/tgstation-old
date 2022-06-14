@@ -2,8 +2,69 @@
 "a" = (
 /turf/open/space/basic,
 /area/space)
+"b" = (
+/obj/structure/fluff/tram_rail{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/space)
+"c" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/space)
+"d" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating/airless,
+/area/space)
 "e" = (
-/turf/closed/wall,
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/space)
+"g" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth,
+/area/space)
+"h" = (
+/obj/effect/turf_decal/tile/red/half,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth_edge,
+/area/space)
+"i" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"j" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/turf/open/floor/iron/smooth,
 /area/space)
 "k" = (
 /obj/effect/turf_decal/box/corners,
@@ -11,6 +72,11 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
+/area/space)
+"l" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/space/basic,
 /area/space)
 "m" = (
 /obj/effect/turf_decal/box/corners{
@@ -21,12 +87,210 @@
 	},
 /turf/open/floor/plating/airless,
 /area/space)
+"n" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/stairs/right{
+	dir = 8
+	},
+/area/space)
+"p" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/fluff/tram_rail{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/space)
+"q" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth_edge{
+	dir = 8
+	},
+/area/space)
+"s" = (
+/turf/open/floor/iron/dark/textured,
+/area/space)
+"t" = (
+/obj/effect/turf_decal/tile/red/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_edge{
+	dir = 1
+	},
+/area/space)
+"u" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/stairs/left{
+	dir = 8
+	},
+/area/space)
+"w" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"x" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/plating/airless,
+/area/space)
+"y" = (
+/turf/open/floor/iron/smooth,
+/area/space)
+"z" = (
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/space)
+"A" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
+"B" = (
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth,
+/area/space)
+"C" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/plating/airless,
+/area/space)
+"D" = (
+/turf/open/floor/iron/smooth_edge{
+	dir = 1
+	},
+/area/space)
+"F" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
 "G" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/space)
+"H" = (
+/obj/structure/rack,
+/turf/open/floor/iron/dark/textured,
+/area/space)
+"I" = (
+/obj/structure/fluff/tram_rail/anchor{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/space)
+"K" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
 "L" = (
 /turf/open/floor/plating/airless,
+/area/space)
+"M" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth_edge{
+	dir = 4
+	},
+/area/space)
+"O" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth_edge,
+/area/space)
+"P" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth,
+/area/space)
+"Q" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/plating/airless,
+/area/space)
+"R" = (
+/turf/open/floor/iron/smooth_edge,
+/area/space)
+"S" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_edge{
+	dir = 1
+	},
+/area/space)
+"U" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"X" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth_edge,
+/area/space)
+"Y" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_edge{
+	dir = 1
+	},
+/area/space)
+"Z" = (
+/obj/structure/chair/sofa/bench{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
 /area/space)
 
 (1,1,1) = {"
@@ -1495,8 +1759,8 @@ a
 a
 a
 a
-a
-a
+U
+G
 a
 a
 a
@@ -1557,8 +1821,8 @@ a
 a
 a
 a
-a
-a
+U
+G
 a
 a
 a
@@ -1613,15 +1877,15 @@ a
 a
 a
 a
-e
-a
-a
-e
-e
-e
-e
+U
+D
+R
+U
+U
+U
+U
 G
-a
+b
 a
 a
 a
@@ -1675,15 +1939,15 @@ a
 a
 a
 a
-e
-a
-a
-e
+U
+D
+R
+U
 G
 G
 G
 G
-a
+b
 a
 a
 a
@@ -1737,15 +2001,15 @@ a
 a
 a
 a
-e
-a
-a
+U
+D
+R
 e
 m
 m
 m
 G
-a
+b
 a
 a
 a
@@ -1799,15 +2063,15 @@ a
 a
 a
 a
-e
-a
-a
+U
+D
+R
 e
 L
 L
 L
 G
-a
+I
 a
 a
 a
@@ -1861,15 +2125,15 @@ a
 a
 a
 a
-e
-a
-a
+U
+D
+R
 e
 k
 k
 k
 G
-a
+b
 a
 a
 a
@@ -1923,15 +2187,15 @@ a
 a
 a
 a
-e
-a
-a
-e
+U
+D
+R
+U
 G
 G
 G
 G
-a
+b
 a
 a
 a
@@ -1985,15 +2249,15 @@ a
 a
 a
 a
-e
-a
-a
+U
+D
+R
 e
 m
 m
 m
 G
-a
+b
 a
 a
 a
@@ -2047,15 +2311,15 @@ a
 a
 a
 a
-e
-a
-a
+U
+D
+R
 e
 L
 L
 L
 G
-a
+I
 a
 a
 a
@@ -2109,15 +2373,15 @@ a
 a
 a
 a
-e
-a
-a
+U
+D
+R
 e
 k
 k
 k
 G
-a
+b
 a
 a
 a
@@ -2171,15 +2435,15 @@ a
 a
 a
 a
-e
-a
-a
-e
+U
+D
+R
+U
 G
 G
 G
 G
-a
+p
 a
 a
 a
@@ -2233,15 +2497,15 @@ a
 a
 a
 a
-e
-a
-a
-e
-e
-e
-e
-a
-a
+U
+D
+R
+U
+U
+U
+U
+U
+Q
 a
 a
 a
@@ -2295,15 +2559,15 @@ a
 a
 a
 a
+U
+D
+R
 e
-a
-a
-a
+Z
+Z
 e
-a
-e
-e
-a
+L
+d
 a
 a
 a
@@ -2347,25 +2611,25 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-a
-a
-a
-a
-a
-a
-a
-a
+U
+U
+U
+U
+U
+U
+U
+U
+U
+U
+U
+D
+R
+s
+z
+z
+s
+L
+x
 a
 a
 a
@@ -2407,27 +2671,27 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+D
+y
+q
+q
+q
+q
+q
+q
+q
+q
+q
+q
+q
+w
+X
 e
-a
-a
-a
+c
+c
 e
-a
-e
-e
-a
+L
+d
 a
 a
 a
@@ -2469,27 +2733,27 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-a
-a
-e
-e
-e
-e
-a
-a
+D
+j
+M
+M
+M
+M
+M
+M
+M
+M
+M
+M
+M
+A
+X
+U
+U
+U
+U
+U
+C
 a
 a
 a
@@ -2531,27 +2795,27 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+D
+B
+U
+U
 e
-a
-a
 e
+e
+U
+e
+e
+e
+U
+U
+F
+X
+U
 G
 G
 G
 G
-a
+p
 a
 a
 a
@@ -2593,6 +2857,10 @@ a
 a
 a
 a
+D
+O
+s
+U
 a
 a
 a
@@ -2600,20 +2868,16 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-e
-a
-a
+U
+H
+S
+X
 e
 m
 m
 m
 G
-a
+b
 a
 a
 a
@@ -2655,6 +2919,10 @@ a
 a
 a
 a
+D
+O
+s
+U
 a
 a
 a
@@ -2662,20 +2930,16 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-e
-a
-a
+U
+H
+S
+X
 e
 L
 L
 L
 G
-a
+I
 a
 a
 a
@@ -2717,6 +2981,10 @@ a
 a
 a
 a
+D
+O
+s
+U
 a
 a
 a
@@ -2724,20 +2992,16 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-e
-a
-a
+U
+H
+S
+X
 e
 k
 k
 k
 G
-a
+b
 a
 a
 a
@@ -2779,6 +3043,10 @@ a
 a
 a
 a
+D
+g
+U
+U
 a
 a
 a
@@ -2786,20 +3054,16 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-e
-a
-a
-e
+U
+U
+i
+X
+U
 G
 G
 G
-G
-a
+l
+b
 a
 a
 a
@@ -2841,6 +3105,10 @@ a
 a
 a
 a
+D
+h
+s
+U
 a
 a
 a
@@ -2848,20 +3116,16 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-e
-a
-a
+U
+H
+t
+X
 e
 m
 m
 m
 G
-a
+b
 a
 a
 a
@@ -2903,6 +3167,10 @@ a
 a
 a
 a
+D
+h
+s
+U
 a
 a
 a
@@ -2910,20 +3178,16 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-e
-a
-a
+U
+H
+t
+X
 e
 L
 L
 L
 G
-a
+I
 a
 a
 a
@@ -2965,6 +3229,10 @@ a
 a
 a
 a
+D
+h
+s
+U
 a
 a
 a
@@ -2972,20 +3240,16 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-e
-a
-a
+U
+H
+t
+X
 e
 k
 k
 k
 G
-a
+b
 a
 a
 a
@@ -3027,27 +3291,27 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-a
-a
-e
+D
+P
+U
+U
+U
+U
+U
+U
+U
+U
+U
+U
+U
+K
+X
+U
 G
 G
 G
-G
-a
+l
+b
 a
 a
 a
@@ -3101,15 +3365,15 @@ a
 a
 a
 a
+U
+Y
+X
 e
-a
-a
-e
-e
-e
-e
+m
+m
+m
 G
-a
+b
 a
 a
 a
@@ -3163,15 +3427,15 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+U
+Y
+X
+e
+L
+L
+L
+G
+I
 a
 a
 a
@@ -3225,15 +3489,15 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+U
+Y
+X
+e
+k
+k
+k
+G
+b
 a
 a
 a
@@ -3287,15 +3551,15 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+U
+Y
+X
+U
+G
+G
+G
+l
+b
 a
 a
 a
@@ -3349,15 +3613,15 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+U
+Y
+X
+e
+m
+m
+m
+G
+b
 a
 a
 a
@@ -3411,15 +3675,15 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+U
+Y
+X
+e
+L
+L
+L
+G
+I
 a
 a
 a
@@ -3473,15 +3737,15 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+U
+Y
+X
+e
+k
+k
+k
+G
+b
 a
 a
 a
@@ -3535,15 +3799,15 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+U
+u
+n
+U
+G
+G
+G
+G
+b
 a
 a
 a
@@ -3597,14 +3861,14 @@ a
 a
 a
 a
+U
 a
 a
-a
-a
-a
-a
-a
-a
+U
+U
+U
+U
+G
 a
 a
 a
@@ -3665,8 +3929,8 @@ a
 a
 a
 a
-a
-a
+U
+G
 a
 a
 a
