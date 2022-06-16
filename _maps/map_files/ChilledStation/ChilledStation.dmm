@@ -5043,10 +5043,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
-"eag" = (
-/obj/effect/turf_decal/siding/white,
-/turf/open/floor/grass,
-/area/station/commons/fitness/recreation)
 "eao" = (
 /obj/effect/turf_decal/snowdin_station_sign/seven,
 /obj/structure/cable,
@@ -9967,12 +9963,6 @@
 /obj/effect/turf_decal/siding/white/corner,
 /turf/open/floor/grass,
 /area/station/service/hydroponics/garden)
-"hSz" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/turf/open/floor/grass,
-/area/station/commons/fitness/recreation)
 "hSC" = (
 /obj/machinery/chem_master/condimaster{
 	name = "KitchenMate 3000"
@@ -28199,9 +28189,6 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
-"wvU" = (
-/turf/open/floor/iron/herringbone,
-/area/station/commons/fitness/recreation)
 "wwv" = (
 /turf/closed/wall,
 /area/station/cargo/qm)
@@ -125060,10 +125047,10 @@ eGO
 wtz
 wtz
 wtz
-eag
-wvU
-wvU
-hSz
+wtz
+wtz
+wtz
+wtz
 wtz
 wtz
 uUT
@@ -125317,10 +125304,10 @@ mla
 mla
 mla
 mla
-icw
-wGi
-vWI
-vdY
+mla
+mla
+mla
+mla
 mla
 aky
 vPn
