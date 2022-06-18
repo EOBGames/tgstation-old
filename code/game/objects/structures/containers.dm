@@ -29,6 +29,29 @@
 	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Nakamura, presumably for transporting tools or heavy industrial equipment."
 	icon_state = "nakamura"
 
+/obj/structure/shipping_container/kahraman
+	name = "\improper Kahraman Heavy Industry shipping container"
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Kahraman, and is reinforced for carrying ore."
+	icon_state = "kahraman"
+
+/obj/structure/shipping_container/kahraman/alt
+	icon_state = "kahraman_alt"
+
+/obj/structure/shipping_container/nthi
+	name = "\improper Nanotrasen Heavy Industries shipping container"
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from NTHI: Nanotrasen's mining and refining subdivision."
+	icon_state = "nthi"
+
+/obj/structure/shipping_container/conarex
+	name = "\improper Conarex Aeronautics shipping container"
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Conarex Aeronautics, and is probably carrying spacecraft parts (or a bribery scandal) as a result."
+	icon_state = "conarex"
+
+/obj/structure/shipping_container/vitezstvi
+	name = "\improper Vítězství Arms shipping container"
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Vítězství Arms, proudly proclaiming that Vítězství weapons mean victory."
+	icon_state = "vitezstvi"
+
 //Syndies
 /obj/structure/shipping_container/cybersun
 	name = "\improper Cybersun Industries shipping container"
@@ -45,5 +68,5 @@
 
 /obj/structure/shipping_container/donk_co
 	name = "\improper Donk Co. shipping container"
-	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Donk Co. and so could be carrying just about anything."
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Donk Co. and so could be carrying just about anything- although it's probably Donk Pockets."
 	icon_state = "donk_co"
