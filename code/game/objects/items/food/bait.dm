@@ -28,6 +28,21 @@
 	desc = "This worm looks very sophisticated."
 	bait_quality = GOOD_QUALITY_BAIT_TRAIT
 
+//Forageable/findable bait
+/obj/item/food/bait/worm/weeping
+	name = "weepingworm"
+	desc = "A little slimy worm. Named for the pungent musk it 'weeps' constantly- which makes it very useful as fish bait."
+	icon_state = "weepingworm"
+	bait_quality = GOOD_QUALITY_BAIT_TRAIT
+	rod_overlay_icon_state = "weepingworm_overlay"
+
+/obj/item/food/bait/frostmoth_larva
+	name = "frostmoth larva"
+	desc = "A little fuzzy caterpillar native to the Icemoon. Fish go crazy for these."
+	icon_state = "frostmoth_larva"
+	bait_quality = GOOD_QUALITY_BAIT_TRAIT
+	rod_overlay_icon_state = "frostmoth_overlay"
+
 /obj/item/food/bait/doughball
 	name = "doughball"
 	desc = "Small piece of dough. Simple but effective fishing bait."

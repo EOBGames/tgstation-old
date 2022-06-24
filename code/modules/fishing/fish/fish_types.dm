@@ -181,6 +181,40 @@
 	fillet_type = /obj/item/food/fishmeat/armorfish
 	fish_ai_type = FISH_AI_SLOW
 
+// Lava Fish
+/obj/item/fish/scorchfish
+	name = "scorchfish"
+	desc = "A boiling hot fish that lives in lava. Best served raw."
+	icon_state = "lanternfish"
+	required_fluid_type = AQUARIUM_FLUID_SALTWATER
+	random_case_rarity = FISH_RARITY_VERY_RARE
+	source_width = 28
+	source_height = 21
+	sprite_width = 8
+	sprite_height = 8
+	average_size = 100
+	average_weight = 1500
+	stable_population = 3
+
+	fishing_traits = list(/datum/fishing_trait/nocturnal)
+
+//Sulphurous Fish
+/obj/item/fish/bone_guppy
+	name = "scorchfish"
+	desc = "A boiling hot fish that lives in lava. Best served raw."
+	icon_state = "lanternfish"
+	required_fluid_type = AQUARIUM_FLUID_SALTWATER
+	random_case_rarity = FISH_RARITY_VERY_RARE
+	source_width = 28
+	source_height = 21
+	sprite_width = 8
+	sprite_height = 8
+	average_size = 100
+	average_weight = 1500
+	stable_population = 3
+
+	fishing_traits = list(/datum/fishing_trait/nocturnal)
+
 /obj/item/storage/box/fish_debug
 	name = "box full of fish"
 
