@@ -557,11 +557,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	desc = "Get a taste of the Big Life with Jumbo Ice Cream Bars, from Happy Heart."
 	icon_state = "jumbo_bar"
 
-/obj/structure/sign/poster/contraband/galaxywise
-	name = "Galaxywise Shipyards"
-	desc = "Reliable ships at reasonable prices, built over Adasta. Remember- when you need a ship, it helps to be Galaxywise."
-	icon_state = "galaxywise"
-
 /obj/structure/sign/poster/contraband/calada_jelly
 	name = "Calada Anobar Jelly"
 	desc = "A treat from Tizira to satisfy all tastes, made from the finest anobar wood and luxurious Taraviero honey. Calada: a full tree in every jar."
@@ -571,11 +566,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	name = "Zagoskeld Art Print #1: The Arch on the March"
 	desc = "One of the Zagoskeld Art Print series. It depicts the Arch of Unity (also know as the Triumphal Arch) at the Plaza of Triumph, with the Avenue of the Victorious March in the background."
 	icon_state = "triumphal_arch"
-
-/obj/structure/sign/poster/contraband/new_hill
-	name = "Zagoskeld Art Print #4: Stranger's Fortress"
-	desc = "One of the Zagoskeld Art Print series. It depicts the late medieval fortress of Zeletz at the New Hill, as seen from Mazol Plaza."
-	icon_state = "new_hill"
 
 /obj/structure/sign/poster/contraband/mothic_rations
 	name = "Mothic Ration Chart"
@@ -595,11 +585,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	. += "\t[span_info("Setae Soap, Herb Scent, Bottle (20 Measures): 2 Tickets")]"
 	. += "\t[span_info("Additional Bedding, Floral Print, Sheet: 5 Tickets")]"
 	return .
-
-/obj/structure/sign/poster/contraband/woodpeckers
-	name = "New Osaka Woodpeckers Fan Poster"
-	desc = "A signed poster from the New Osaka Woodpeckers, Mars' number one baseball team."
-	icon_state = "woodpeckers"
 
 /obj/structure/sign/poster/contraband/wildcat
 	name = "Wildcat Customs Screambike"
@@ -625,6 +610,15 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	name = "A New Life"
 	desc = "An old poster from around the time of the First Spinward Rush. It depicts a view of wide, unspoiled lands, ready for Humanity's Manifest Destiny."
 	icon_state = "rush_propaganda"
+
+/obj/structure/sign/poster/contraband/neon_greed/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("TerraGov needs you!")]"
+	. += "\t[span_info("A new life in the colonies awaits intrepid adventurers! All registered colonists are guaranteed transport, land and subsidies!")]"
+	. += "\t[span_info("You could join the legacy of hardworking humans who settled such new frontiers as Mars, Adasta or Saint Mungo!")]"
+	. += "\t[span_info("To apply, inquire at your nearest Colonial Affairs office for evaluation. Our locations can be found at www.terra.gov/colonial_affairs.")]"
+	return .
 
 /obj/structure/sign/poster/contraband/tipper_cream_soda
 	name = "Tipper's Cream Soda"
@@ -660,11 +654,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	. += "\t[span_info("Heartbreaking and thought-provoking- Tea Over Tizira asks questions that few have had the boldness to ask before: The London New Inquirer")]"
 	. += "\t[span_info("Rated PG13. A Pangalactic Studios Picture.")]"
 	return .
-
-/obj/structure/sign/poster/contraband/starstop_temphabs
-	name = "Starstop Temphabs"
-	desc = "An advertisement for Starstop Temphabs, the galaxy's leading hotel chain. When you need a rest, think Starstop."
-	icon_state = "starstop_temphabs"
 
 /obj/structure/sign/poster/contraband/syndiemoth	//Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982); original art credit to AspEv
 	name = "Syndie Moth - Nuclear Operation"
@@ -957,70 +946,5 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	desc = "This informational poster uses Safety Moth™ to tell the viewer to hide in lockers when the Supermatter Crystal has delaminated, to prevent hallucinations. Evacuating might be a better strategy."
 	icon_state = "aspev_delam"
 //End of AspEv posters
-
-//Departmental Posters- For posters that don't fit everywhere and need some degree of geographic limitation
-/obj/structure/sign/poster/cargo
-	poster_item_name = "cargo poster"
-	poster_item_desc = "This poster comes with its own automatic adhesive mechanism, for easy pinning to any vertical surface. It's intended for the cargo department."
-	poster_item_icon_state = "rolled_poster"
-
-/obj/structure/sign/poster/cargo/random
-	name = "random cargo poster"
-	icon_state = "random_cargo"
-	never_random = TRUE
-	random_basetype = /obj/structure/sign/poster/cargo
-
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/cargo/random, 32)
-
-/obj/structure/sign/poster/cargo/crate_rebate
-	name = "Nanotrasen Crate Rebate Scheme"
-	desc = "An informational poster about the Crate Rebate scheme: remember to return crates to Central Command for your deposit back!"
-	icon_state = "crate_rebate"
-
-/obj/structure/sign/poster/cargo/loading_procedure
-	name = "Loading Procedure Checklist"
-	desc = "An informational poster about the protocol and guidelines for correct cargo shuttle loading."
-	icon_state = "loading_procedure"
-
-/obj/structure/sign/poster/cargo/report_contraband
-	name = "Report Contraband"
-	desc = "An informational poster warning the reader about the penalties for smuggling."
-	icon_state = "report_contraband"
-
-/obj/structure/sign/poster/engineering
-	poster_item_name = "engineering poster"
-	poster_item_desc = "This poster comes with its own automatic adhesive mechanism, for easy pinning to any vertical surface. It's intended for the engineering department."
-	poster_item_icon_state = "rolled_poster"
-
-/obj/structure/sign/poster/engineering/random
-	name = "random engineering poster"
-	icon_state = "random_engineering"
-	never_random = TRUE
-	random_basetype = /obj/structure/sign/poster/engineering
-
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/engineering/random, 32)
-
-/obj/structure/sign/poster/engineering/piping_schematics
-	name = "Supermatter Piping Schematics"
-	desc = "A poster showing the schematics for the supermatter engine's standard piping setup."
-	icon_state = "piping_schematics"
-
-/obj/structure/sign/poster/medical
-	poster_item_name = "medical poster"
-	poster_item_desc = "This poster comes with its own automatic adhesive mechanism, for easy pinning to any vertical surface. It's intended for the medical department."
-	poster_item_icon_state = "rolled_poster"
-
-/obj/structure/sign/poster/medical/random
-	name = "random medical poster"
-	icon_state = "random_medical"
-	never_random = TRUE
-	random_basetype = /obj/structure/sign/poster/medical
-
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/medical/random, 32)
-
-/obj/structure/sign/poster/medical/donate_blood
-	name = "Donate Blood"
-	desc = "A poster showing the schematics for the supermatter engine's standard piping setup."
-	icon_state = "piping_schematics"
 
 #undef PLACE_SPEED
