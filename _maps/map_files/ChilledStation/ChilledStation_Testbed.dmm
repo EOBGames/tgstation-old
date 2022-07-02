@@ -2971,6 +2971,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/misc/space)
+"cOz" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 10
+	},
+/turf/open/floor/iron/smooth,
+/area/misc/space)
 "cOF" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 9
@@ -3619,6 +3625,10 @@
 	},
 /turf/open/water/beach,
 /area/misc/space)
+"dAu" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/turf/open/floor/iron/smooth,
+/area/misc/space)
 "dBy" = (
 /obj/machinery/vending/autodrobe/all_access,
 /obj/effect/turf_decal/tile/neutral,
@@ -3916,6 +3926,16 @@
 	dir = 5
 	},
 /turf/open/floor/iron,
+/area/misc/space)
+"dOJ" = (
+/obj/structure/showcase/machinery/oldpod{
+	desc = "An old NT branded sleeper, decommissioned after the lead acetate incident. None of the functional machinery remains inside.";
+	name = "decommissioned sleeper"
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron/smooth,
 /area/misc/space)
 "dOY" = (
 /obj/effect/turf_decal/siding/white,
@@ -5051,6 +5071,12 @@
 /obj/machinery/food_cart,
 /turf/open/floor/iron/kitchen_coldroom,
 /area/misc/space)
+"eNF" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron/smooth,
+/area/misc/space)
 "eNL" = (
 /obj/effect/turf_decal/caution{
 	dir = 4
@@ -5862,6 +5888,17 @@
 "fCu" = (
 /obj/machinery/photocopier,
 /turf/open/floor/wood,
+/area/misc/space)
+"fCD" = (
+/obj/structure/showcase/machinery/oldpod{
+	desc = "An old NT branded sleeper, decommissioned after the lead acetate incident. None of the functional machinery remains inside.";
+	dir = 4;
+	name = "decommissioned sleeper"
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
 /area/misc/space)
 "fCG" = (
 /obj/structure/chair/office/light,
@@ -9720,6 +9757,12 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured,
+/area/misc/space)
+"jxf" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
 /area/misc/space)
 "jxx" = (
 /obj/effect/turf_decal/siding/white,
@@ -14511,6 +14554,12 @@
 /obj/item/clothing/head/radiation,
 /turf/open/floor/iron/dark/textured,
 /area/misc/space)
+"nRK" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/misc/space)
 "nRL" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -18111,6 +18160,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/textured,
+/area/misc/space)
+"rEk" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
 /area/misc/space)
 "rEl" = (
 /obj/structure/cable,
@@ -22439,6 +22494,12 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/iron/cafeteria,
+/area/misc/space)
+"vVv" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron/smooth,
 /area/misc/space)
 "vVW" = (
 /obj/machinery/light/warm/directional/north,
@@ -60642,11 +60703,11 @@ dNZ
 dNZ
 dNZ
 dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
+qTw
+qTw
+qTw
+qTw
+qTw
 qTw
 qTw
 dNZ
@@ -60899,12 +60960,12 @@ dNZ
 dNZ
 dNZ
 dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
+qTw
+dOJ
+rEk
+rEk
+rEk
+cOz
 qTw
 qTw
 qTw
@@ -61156,12 +61217,12 @@ dNZ
 dNZ
 dNZ
 dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
+qTw
+fCD
+mXy
+mXy
+mXy
+dAu
 qTw
 cwT
 wcq
@@ -61413,12 +61474,12 @@ dNZ
 dNZ
 dNZ
 dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
+qTw
+nRK
+mXy
+mXy
+mXy
+dAu
 qTw
 nOI
 oYW
@@ -61670,12 +61731,12 @@ dNZ
 dNZ
 dNZ
 dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
+qTw
+nRK
+mXy
+mXy
+mXy
+dAu
 qTw
 nOI
 oYW
@@ -61927,12 +61988,12 @@ dNZ
 dNZ
 dNZ
 dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
+qTw
+eNF
+jxf
+jxf
+jxf
+vVv
 qTw
 nOI
 oYW
@@ -62184,12 +62245,12 @@ dNZ
 dNZ
 dNZ
 dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
+qTw
+lIX
+lIX
+lIX
+lIX
+lIX
 qTw
 oYk
 wkn
@@ -62441,12 +62502,12 @@ dNZ
 dNZ
 dNZ
 dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
+qTw
+lIX
+lIX
+lIX
+lIX
+lIX
 flP
 wUG
 wFo
@@ -62698,12 +62759,12 @@ dNZ
 dNZ
 dNZ
 dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
-dNZ
+qTw
+lIX
+lIX
+lIX
+lIX
+lIX
 qTw
 wUG
 wFo
