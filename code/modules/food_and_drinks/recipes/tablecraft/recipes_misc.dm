@@ -217,27 +217,6 @@
 	result = /obj/item/food/pesto
 	subcategory = CAT_MISCFOOD
 
-/datum/crafting_recipe/food/tomato_sauce
-	name = "Tomato sauce"
-	reqs = list(
-		/obj/item/food/canned/tomatoes = 1,
-		/datum/reagent/consumable/salt = 2,
-		/obj/item/food/grown/herbs = 1,
-		/datum/reagent/consumable/quality_oil = 5
-	)
-	result = /obj/item/food/tomato_sauce
-	subcategory = CAT_MISCFOOD
-
-/datum/crafting_recipe/food/bechamel_sauce
-	name = "Bechamel sauce"
-	reqs = list(
-		/datum/reagent/consumable/milk = 10,
-		/datum/reagent/consumable/flour = 5,
-		/obj/item/food/butter = 1
-	)
-	result = /obj/item/food/bechamel_sauce
-	subcategory = CAT_MISCFOOD
-
 /datum/crafting_recipe/food/pierogi
 	name = "Pierogi"
 	reqs = list(
