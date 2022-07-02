@@ -121,6 +121,55 @@
 /obj/effect/turf_decal/caution/stand_clear/red
 	icon_state = "stand_clear_red"
 
+/obj/effect/turf_decal/caution/beware
+	icon_state = "beware"
+
+/obj/effect/turf_decal/caution/crush_hazard
+	icon_state = "crush_hazard"
+
+/obj/effect/turf_decal/caution/danger
+	icon_state = "danger"
+
+/obj/effect/turf_decal/caution/hazard
+	icon_state = "hazard"
+
+/obj/effect/turf_decal/caution/shock_hazard
+	icon_state = "shock_hazard"
+
+/obj/effect/turf_decal/caution/sudden_drop
+	icon_state = "sudden_drop"
+
+/obj/effect/turf_decal/label/access
+	icon_state = "access"
+
+/obj/effect/turf_decal/label/cargo
+	icon_state = "cargo"
+
+/obj/effect/turf_decal/label/cargo
+	icon_state = "engine"
+
+//Goes nowhere, does nothing
+/obj/effect/turf_decal/label/gndn
+	icon_state = "gndn01"
+
+/obj/effect/turf_decal/label/gndn/two
+	icon_state = "gndn02"
+
+/obj/effect/turf_decal/label/gndn/three
+	icon_state = "gndn03"
+
+/obj/effect/turf_decal/label/gndn/four
+	icon_state = "gndn04"
+
+/obj/effect/turf_decal/label/gndn/five
+	icon_state = "gndn05"
+
+/obj/effect/turf_decal/label/power
+	icon_state = "power"
+
+/obj/effect/turf_decal/label/power_cells
+	icon_state = "power_cells"
+
 /obj/effect/turf_decal/arrows
 	icon_state = "arrows"
 
@@ -492,3 +541,12 @@
 
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end
 	icon_state = "siding_wideplating_new_end"
+
+/obj/effect/turf_decal/siding/vent
+	icon_state = "siding_vent"
+
+/obj/effect/turf_decal/siding/vent/corner
+	icon_state = "siding_vent_corner"
+
+/obj/effect/turf_decal/siding/vent/end
+	icon_state = "siding_vent_end"
