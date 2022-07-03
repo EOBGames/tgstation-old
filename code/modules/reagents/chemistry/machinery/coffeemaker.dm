@@ -14,11 +14,23 @@
 	var/obj/item/coffee_cartridge/cartridge = null
 	/// The type path to instantiate for the coffee cartridge the device initially comes with, eg. /obj/item/coffee_cartridge
 	var/initial_cartridge = /obj/item/coffee_cartridge
+	/// The number of cups left
+	var/coffee_cups = 20
+	/// The amount of sugar packets left
+	var/sugar_packs = 20
+	/// The amount of sweetener packets left
+	var/sweetener_packs = 20
+	/// The amount of creamer packets left
+	var/creamer_packs = 20
 
 	var/static/radial_examine = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_examine")
 	var/static/radial_brew = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_brew")
 	var/static/radial_eject_pot = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_eject_pot")
 	var/static/radial_eject_cartridge = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_eject_cartridge")
+	var/static/radial_take_cup = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_take_cup")
+	var/static/radial_take_sugar = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_take_sugar")
+	var/static/radial_take_sweetener = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_take_sweetener")
+	var/static/radial_take_creamer = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_take_creamer")
 
 /obj/machinery/coffeemaker/Initialize(mapload)
 	. = ..()
@@ -81,6 +93,34 @@
 				. += span_notice("- grounds cartridge is empty.")
 			else
 				. += span_notice("- grounds cartridge has [cartridge.charges] charges remaining.")
+
+	if (coffee_cups > 1)
+		. += span_notice("There are [coffee_cups] cups left.")
+	else if (paper_cups == 1)
+		. += span_notice("There is one cup left.")
+	else
+		. += span_notice("There are no cups left.")
+
+	if (sugar_packs > 1)
+		. += span_notice("There are [sugar_packs] packets of sugar left.")
+	else if (sugar_packs == 1)
+		. += span_notice("There is one packet of sugar left.")
+	else
+		. += span_notice("There is no sugar left.")
+
+	if (sweetener_packs > 1)
+		. += span_notice("There are [sweetener_packs] packets of sweetener left.")
+	else if (sweetener_packs == 1)
+		. += span_notice("There is one packet of sweetener left.")
+	else
+		. += span_notice("There is no sweetener left.")
+
+	if (creamer_packs > 1)
+		. += span_notice("There are [creamer_packs] packets of creamer left.")
+	else if (creamer_packs == 1)
+		. += span_notice("There is one packet of creamer left.")
+	else
+		. += span_notice("There is no creamer left.")
 
 /obj/machinery/coffeemaker/attack_hand_secondary(mob/user, list/modifiers)
 	. = ..()
@@ -184,6 +224,18 @@
 	if(coffeepot && cartridge && cartridge.charges > 0)
 		options["brew"] = radial_brew
 
+	if(coffee_cups > 0)
+		options["take_cup"] = radial_take_cup
+
+	if(sugar_packs > 0)
+		options["take_sugar"] = radial_take_sugar
+
+	if(sweetener_packs > 0)
+		options["take_sweetener"] = radial_take_sweetener
+
+	if(creamer_packs > 0)
+		options["take_creamer"] = radial_take_creamer
+
 	if(isAI(user))
 		if(machine_stat & NOPOWER)
 			return
@@ -212,6 +264,14 @@
 			eject_cartridge(user)
 		if("examine")
 			examine(user)
+		if("take_cup")
+			take_cup(user)
+		if("take_sugar")
+			take_sugar(user)
+		if("take_sweetener")
+			take_sweetener(user)
+		if("take_creamer")
+			take_creamer(user)
 
 /obj/machinery/coffeemaker/proc/eject_pot(mob/user)
 	if(coffeepot)
@@ -220,6 +280,42 @@
 /obj/machinery/coffeemaker/proc/eject_cartridge(mob/user)
 	if(cartridge)
 		replace_cartridge(user)
+
+/obj/machinery/coffeemaker/proc/take_cup(mob/user)
+	if(!coffee_cups) //shouldn't happen, but we all know how stuff manages to break
+		to_chat(user, span_warning("There aren't any cups left!"))
+		return
+	user.visible_message(span_notice("[user] takes a cup from [src]."), span_notice("You take a cup from [src]."))
+	var/obj/item/reagent_containers/food/drinks/coffee_cup/new_cup = new(get_turf(src))
+	user.put_in_hands(new_cup)
+	coffee_cups--
+
+/obj/machinery/coffeemaker/proc/take_sugar(mob/user)
+	if(!sugar_packs)
+		to_chat(user, span_warning("There isn't any sugar left!"))
+		return
+	user.visible_message(span_notice("[user] takes a packet of sugar from [src]."), span_notice("You take a packet of sugar from [src]."))
+	var/obj/item/reagent_containers/food/condiment/pack/sugar/new_pack = new(get_turf(src))
+	user.put_in_hands(new_pack)
+	sugar_packs--
+
+/obj/machinery/coffeemaker/proc/take_sweetener(mob/user)
+	if(!sweetener_packs)
+		to_chat(user, span_warning("There isn't any sweetener left!"))
+		return
+	user.visible_message(span_notice("[user] takes a packet of sweetener from [src]."), span_notice("You take a packet of sweetener from [src]."))
+	var/obj/item/reagent_containers/food/condiment/pack/astrotame/new_pack = new(get_turf(src))
+	user.put_in_hands(new_pack)
+	sweetener_packs--
+
+/obj/machinery/coffeemaker/proc/take_creamer(mob/user)
+	if(!creamer_packs)
+		to_chat(user, span_warning("There isn't any creamer left!"))
+		return
+	user.visible_message(span_notice("[user] takes a packet of creamer from [src]."), span_notice("You take a packet of creamer from [src]."))
+	var/obj/item/reagent_containers/food/condiment/pack/creamer/new_pack = new(get_turf(src))
+	user.put_in_hands(new_pack)
+	creamer_packs--
 
 /obj/machinery/coffeemaker/proc/operate_for(time, silent = FALSE)
 	brewing = TRUE
@@ -239,7 +335,7 @@
 	coffeepot.reagents.add_reagent_list(cartridge.drink_type)
 	cartridge.charges--
 
-//Coffee Cartridges
+//Coffee Cartridges: like toner, but for your coffee!
 /obj/item/coffee_cartridge
 	name = "coffeemaker cartridge- Caffè Generico"
 	desc = "A coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
@@ -261,7 +357,7 @@
 	desc = "A fancy coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon_state = "cartridge_blend"
 
-//Here's the joke: they're all the same
+//Here's the joke before I get 50 issue reports: they're all the same, and that's intentional
 /obj/item/coffee_cartridge/fancy/Initialize(mapload)
 	. = ..()
 	var/coffee_type = pick("blend", "blue_mountain", "kilimanjaro", "mocha")
@@ -284,6 +380,12 @@
 	desc = "A decaf coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon_state = "cartridge_decaf"
 
+// no you can't just squeeze the juice bag into a glass!
+/obj/item/coffee_cartridge/bootleg
+	name = "coffeemaker cartridge- Botany Blend"
+	desc = "A jury-rigged coffee cartridge. Should work with a Modello 3 system, though it might void the warranty."
+	icon_state = "cartridge_bootleg"
+
 /obj/item/storage/fancy/coffee_cart_rack
 	name = "coffeemaker cartridge rack"
 	desc = "A small rack for storing coffeemaker cartridges."
@@ -299,39 +401,3 @@
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.max_items = 4
 	STR.set_holdable(list(/obj/item/coffee_cartridge))
-
-/obj/item/storage/fancy/coffee_accessories
-	name = "coffee accessories holder"
-	desc = "A little pot to hold sugar, creamer and sweetener."
-	w_class = WEIGHT_CLASS_TINY
-	icon = 'icons/obj/food/containers.dmi'
-	icon_state = "coffee_accessories"
-	base_icon_state = "coffee_accessories"
-	contents_tag = "packet"
-	is_open = TRUE
-	spawn_type = null
-
-/obj/item/storage/fancy/coffee_accessories/ComponentInitialize()
-	. = ..()
-	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
-	STR.max_items = 12
-	STR.set_holdable(list(/obj/item/reagent_containers/food/condiment/pack/creamer,
-						  /obj/item/reagent_containers/food/condiment/pack/sugar,
-						  /obj/item/reagent_containers/food/condiment/pack/astrotame))
-
-/obj/item/storage/fancy/coffee_accessories/PopulateContents()
-	for(var/i = 1 to 6)
-		new /obj/item/reagent_containers/food/condiment/pack/creamer(src)
-	for(var/i = 1 to 4)
-		new /obj/item/reagent_containers/food/condiment/pack/sugar(src)
-	for(var/i = 1 to 2)
-		new /obj/item/reagent_containers/food/condiment/pack/astrotame(src)
-
-/obj/item/storage/fancy/coffee_accessories/update_icon_state()
-	SHOULD_CALL_PARENT(FALSE)
-	return
-
-/obj/item/storage/fancy/coffee_accessories/update_overlays()
-	. = ..()
-	if(!contents.len)
-		. += "[base_icon_state]_empty"

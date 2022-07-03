@@ -608,6 +608,19 @@
 	volume = 30
 	spillable = TRUE
 
+/obj/item/reagent_containers/food/drinks/coffee_cup
+	name = "coffee cup"
+	desc = "A heat-formed plastic coffee cup. Can theoretically be used for other hot drinks, if you're feeling adventurous."
+	icon_state = "coffee_cup_e"
+	possible_transfer_amounts = list(10)
+	volume = 40 //enough to hold 1 standard cup of coffee (30u) with 10u for creamer/sugar/sweetener/whiskey
+	spillable = TRUE
+	isGlass = FALSE
+
+/obj/item/reagent_containers/food/drinks/coffee_cup/update_icon_state()
+	icon_state = reagents.total_volume ? "coffee_cup" : "coffee_cup_e"
+	return ..()
+
 //////////////////////////soda_cans//
 //These are in their own group to be used as IED's in /obj/item/grenade/ghettobomb.dm
 /// How much fizziness is added to the can of soda by throwing it, in percentage points
