@@ -217,7 +217,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
 "bi" = (
-/obj/machinery/gravity_generator/main/station,
+/obj/machinery/gravity_generator/main,
 /turf/open/floor/iron{
 	dir = 8
 	},
@@ -1004,6 +1004,10 @@
 	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/service)
+"jM" = (
+/obj/effect/landmark/blobstart,
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "jV" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 6
@@ -3009,7 +3013,7 @@ eb
 eb
 bu
 cD
-bE
+jM
 bE
 Rl
 Ra
