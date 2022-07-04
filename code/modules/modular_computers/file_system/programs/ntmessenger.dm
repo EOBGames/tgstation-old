@@ -133,6 +133,9 @@
 			if(!sending_and_receiving)
 				to_chat(usr, span_notice("ERROR: Device has sending disabled."))
 				return
+			if(!spam_mode)
+				to_chat(usr, span_notice("ERROR: Device does not have mass-messaging perms."))
+				return
 
 			var/list/targets = list()
 
@@ -348,7 +351,7 @@
 		if(signal.data["emojis"] == TRUE)//so will not parse emojis as such from pdas that don't send emojis
 			inbound_message = emoji_parse(inbound_message)
 
-		if(ringer_status)
+		if(ringer_status && L.is_literate())
 			to_chat(L, "<span class='infoplain'>[icon2html(src)] <b>PDA message from [hrefstart][signal.data["name"]] ([signal.data["job"]])[hrefend], </b>[inbound_message] [reply]</span>")
 
 
