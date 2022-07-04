@@ -608,12 +608,21 @@
 	volume = 30
 	spillable = TRUE
 
+/obj/item/reagent_containers/food/drinks/mug/nanotrasen
+	name = "\improper Nanotrasen mug"
+	desc = "A mug to display your corporate pride."
+	icon_state = "mug_nt"
+
+/obj/item/reagent_containers/food/drinks/mug/nanotrasen/update_icon_state()
+	icon_state = reagents.total_volume ? "mug_nt" : "mug_nt_empty"
+	return ..()
+
 /obj/item/reagent_containers/food/drinks/coffee_cup
 	name = "coffee cup"
 	desc = "A heat-formed plastic coffee cup. Can theoretically be used for other hot drinks, if you're feeling adventurous."
 	icon_state = "coffee_cup_e"
 	possible_transfer_amounts = list(10)
-	volume = 40 //enough to hold 1 standard cup of coffee (30u) with 10u for creamer/sugar/sweetener/whiskey
+	volume = 30
 	spillable = TRUE
 	isGlass = FALSE
 

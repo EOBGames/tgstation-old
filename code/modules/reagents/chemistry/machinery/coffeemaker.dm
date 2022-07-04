@@ -96,7 +96,7 @@
 
 	if (coffee_cups > 1)
 		. += span_notice("There are [coffee_cups] cups left.")
-	else if (paper_cups == 1)
+	else if (coffee_cups == 1)
 		. += span_notice("There is one cup left.")
 	else
 		. += span_notice("There are no cups left.")
@@ -216,30 +216,30 @@
 	var/list/options = list()
 
 	if(coffeepot)
-		options["eject_pot"] = radial_eject_pot
+		options["Eject Pot"] = radial_eject_pot
 
 	if(cartridge)
-		options["eject_cartridge"] = radial_eject_cartridge
+		options["Eject Cartridge"] = radial_eject_cartridge
 
 	if(coffeepot && cartridge && cartridge.charges > 0)
-		options["brew"] = radial_brew
+		options["Brew"] = radial_brew
 
 	if(coffee_cups > 0)
-		options["take_cup"] = radial_take_cup
+		options["Take Cup"] = radial_take_cup
 
 	if(sugar_packs > 0)
-		options["take_sugar"] = radial_take_sugar
+		options["Take Sugar"] = radial_take_sugar
 
 	if(sweetener_packs > 0)
-		options["take_sweetener"] = radial_take_sweetener
+		options["Take Sweetener"] = radial_take_sweetener
 
 	if(creamer_packs > 0)
-		options["take_creamer"] = radial_take_creamer
+		options["Take Creamer"] = radial_take_creamer
 
 	if(isAI(user))
 		if(machine_stat & NOPOWER)
 			return
-		options["examine"] = radial_examine
+		options["Examine"] = radial_examine
 
 	var/choice
 
@@ -256,21 +256,21 @@
 		return
 
 	switch(choice)
-		if("brew")
+		if("Brew")
 			brew(user)
-		if("eject_pot")
+		if("Eject Pot")
 			eject_pot(user)
-		if("eject_cartridge")
+		if("Eject Cartridge")
 			eject_cartridge(user)
-		if("examine")
+		if("Examine")
 			examine(user)
-		if("take_cup")
+		if("Take Cup")
 			take_cup(user)
-		if("take_sugar")
+		if("Take Sugar")
 			take_sugar(user)
-		if("take_sweetener")
+		if("Take Sweetener")
 			take_sweetener(user)
-		if("take_creamer")
+		if("Take Creamer")
 			take_creamer(user)
 
 /obj/machinery/coffeemaker/proc/eject_pot(mob/user)
@@ -386,6 +386,14 @@
 	desc = "A jury-rigged coffee cartridge. Should work with a Modello 3 system, though it might void the warranty."
 	icon_state = "cartridge_bootleg"
 
+// blank cartridge for crafting's sake, can be made at the service lathe
+/obj/item/blank_coffee_cartridge
+	name = "blank coffee cartridge"
+	desc = "A blank coffee cartridge, ready to be filled with coffee paste."
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "cartridge_bootleg"
+
+//now, how do you store coffee carts? well, in a rack, of course!
 /obj/item/storage/fancy/coffee_cart_rack
 	name = "coffeemaker cartridge rack"
 	desc = "A small rack for storing coffeemaker cartridges."

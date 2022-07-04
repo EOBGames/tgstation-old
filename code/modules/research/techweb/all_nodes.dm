@@ -20,6 +20,8 @@
 		"c-reader",
 		"circuit_imprinter",
 		"circuit_imprinter_offstation",
+		"coffeepot",
+		"coffee_cartridge",
 		"conveyor_belt",
 		"conveyor_switch",
 		"design_disk",
@@ -660,6 +662,7 @@
 	prereq_ids = list("bluespace_basic", "engineering")
 	design_ids = list(
 		"bluespacebeaker",
+		"bluespace_coffeepot",
 		"bluespacesyringe",
 		"bs_rped",
 		"minerbag_holding",
