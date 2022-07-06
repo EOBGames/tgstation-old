@@ -484,6 +484,10 @@
 	name = "\improper Female Locker Room"
 	icon_state = "locker_female"
 
+/area/station/commons/fitness/health_club
+	name = "\improper Health Club"
+	icon_state = "rec"
+
 /area/station/commons/fitness/recreation
 	name = "\improper Recreation Area"
 	icon_state = "rec"
@@ -491,6 +495,10 @@
 /area/station/commons/fitness/recreation/entertainment
 	name = "\improper Entertainment Center"
 	icon_state = "entertainment"
+
+/area/station/commons/fitness/recreation/games_room
+	name = "\improper Games Room"
+	icon_state = "rec"
 
 // Commons - Vacant Rooms
 /area/station/commons/vacant_room
@@ -1249,6 +1257,10 @@
 	name = "\improper Quartermaster's Office"
 	icon_state = "quart_office"
 
+/area/station/cargo/break_room
+	name = "\improper Cargo Break Room"
+	icon_state = "cargo_bay"
+
 /area/station/cargo/miningdock
 	name = "\improper Mining Dock"
 	icon_state = "mining_dock"
@@ -1279,6 +1291,10 @@
 
 /area/station/science/lower
 	name = "\improper Lower Science Division"
+	icon_state = "lower_science"
+
+/area/station/science/upper
+	name = "\improper Upper Science Division"
 	icon_state = "lower_science"
 
 /area/station/science/breakroom
