@@ -21,8 +21,3 @@
 		for(var/holidayname in SSevents.holidays)
 			var/datum/holiday/holiday = SSevents.holidays[holidayname]
 			. += span_info("[holiday.name]")
-
-/obj/structure/sign/calendar/janitor
-	name = "pinup calendar"
-	desc = "A sleazy pinup calendar in the Mops Gone Wild series."
-	icon_state = "calendar_janitor"

@@ -611,7 +611,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	desc = "An old poster from around the time of the First Spinward Rush. It depicts a view of wide, unspoiled lands, ready for Humanity's Manifest Destiny."
 	icon_state = "rush_propaganda"
 
-/obj/structure/sign/poster/contraband/neon_greed/examine_more(mob/user)
+/obj/structure/sign/poster/contraband/rush_propaganda/examine_more(mob/user)
 	. = ..()
 	. += span_notice("<i>You browse some of the poster's information...</i>")
 	. += "\t[span_info("TerraGov needs you!")]"
@@ -624,21 +624,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	name = "Tipper's Cream Soda"
 	desc = "An old advertisement for an obscure cream soda brand, now bankrupt due to legal problems."
 	icon_state = "tipper_cream_soda"
-
-/obj/structure/sign/poster/contraband/neon_greed
-	name = "Movie Poster: Neon Greed"
-	desc = "A poster for the cult-classic space-ploitation flick Neon Greed."
-	icon_state = "neon_greed"
-
-/obj/structure/sign/poster/contraband/neon_greed/examine_more(mob/user)
-	. = ..()
-	. += span_notice("<i>You browse some of the poster's information...</i>")
-	. += "\t[span_info("One woman. One laser sword. One mission: reclaim Adasta City from the scum that's taken it.")]"
-	. += "\t[span_info("Revenge is a dish best served at 3500 Kelvin.")]"
-	. += "\t[span_info("Fiona Jameson is Cassidy Miller in: NEON GREED. A Mark S. Redd production. A Petrov Markovnikov film. Screenplay by Harris Wilson. Music by Electrohand. Produced by Mark S. Redd. Directed by Petrov Markovnikov.")]"
-	. += "\t[span_info("Five Stars, I have never seen such an action-packed experience- The Adasta Inquirer")]"
-	. += "\t[span_info("Rated R for Restricted. A Roseus Galactus Picture.")]"
-	return .
 
 /obj/structure/sign/poster/contraband/tea_over_tizira
 	name = "Movie Poster: Tea Over Tizira"
