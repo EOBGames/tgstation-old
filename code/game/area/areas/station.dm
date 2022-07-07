@@ -468,6 +468,16 @@
 	mood_trait = TRAIT_EXTROVERT
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
+//Botanical Garden
+/area/station/commons/botanical_garden
+	name = "\improper Botanical Garden"
+	icon_state = "garden"
+	sound_environment = SOUND_AREA_LARGE_ENCLOSED
+
+/area/station/commons/botanical_garden/upper
+	name = "\improper Botanical Garden Gantries"
+	icon_state = "garden"
+
 /area/station/commons/fitness
 	name = "\improper Fitness Room"
 	icon_state = "fitness"
@@ -710,6 +720,10 @@
 
 /area/station/service/hydroponics/garden/monastery
 	name = "\improper Monastery Garden"
+	icon_state = "hydro"
+
+/area/station/service/break_room
+	name = "Service Break Room"
 	icon_state = "hydro"
 
 //Engineering
@@ -971,6 +985,10 @@
 	name = "\improper Medical Break Room"
 	icon_state = "med_break"
 
+/area/station/medical/break_room/common
+	name = "\improper Medical Common Room"
+	icon_state = "med_break"
+
 /area/station/medical/coldroom
 	name = "\improper Medical Cold Room"
 	icon_state = "kitchen_cold"
@@ -987,6 +1005,11 @@
 /area/station/medical/patients_rooms/room_b
 	name = "Patient Room B"
 	icon_state = "patients"
+
+/area/station/medical/patients_rooms/ward
+	name = "\improper Recovery Ward"
+	icon_state = "patients"
+	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
 /area/station/medical/virology
 	name = "Virology"
