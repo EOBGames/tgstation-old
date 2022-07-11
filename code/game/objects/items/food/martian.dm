@@ -243,7 +243,7 @@
 /obj/item/food/soup/agedashi
 	name = "agedashi tofu"
 	desc = "Crispy fried tofu, served in a tasty dashi broth. Frequently served at izakayas."
-	icon_state = "agedashi"
+	icon_state = "agedashi" //✓
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("fried tofu" = 1, "broth" = 1)
 	foodtypes = MEAT | VEGETABLES
@@ -251,11 +251,11 @@
 
 /obj/item/food/dorayaki_pancakes
 	name = "dorayaki pancakes"
-	desc = "A simple Japanese dessert consisting of two small pancakes with custard sandwiched inbetween. Often served with a sharp berry coulis to balance the sweetness."
-	icon_state = "dorayaki_pancakes"
+	desc = "A simple Japanese dessert consisting of two small pancakes with sweet red bean paste sandwiched inbetween."
+	icon_state = "dorayaki_pancakes" //✓
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
-	tastes = list("pancake" = 1, "custard" = 1, "berries" = 1)
-	foodtypes = GRAIN | DAIRY | FRUIT
+	tastes = list("pancake" = 1, "red bean paste" = 1)
+	foodtypes = GRAIN | VEGETABLES
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -271,7 +271,7 @@
 /obj/item/food/soup/new_osaka_sunrise
 	name = "\improper New Osaka sunrise soup"
 	desc = "A bright, flavourful miso soup with tofu that commonly forms part of a traditional Martian breakfast."
-	icon_state = "new_osaka_sunrise"
+	icon_state = "new_osaka_sunrise" //✓
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("miso" = 1, "tofu" = 1)
 	foodtypes = VEGETABLES | BREAKFAST
@@ -280,7 +280,7 @@
 /obj/item/food/salad/fried_noodles
 	name = "\improper Martian fried noodles"
 	desc = "Fried noodles from the red planet. Martian cooking draws from many cultures, and these noodles are no exception- there's elements of Malay, Thai, Chinese, Korean and Japanese cuisine in here."
-	icon_state = "fried_noodles"
+	icon_state = "fried_noodles" //✓
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("noodles" = 1, "peanut" = 1, "eggs" = 1, "meat" = 1, "dark sauce" = 1)
 	foodtypes = VEGETABLES | MEAT | GRAIN | NUTS
@@ -289,7 +289,7 @@
 /obj/item/food/cilbir
 	name = "cilbir"
 	desc = "Eggs, served on a savoury yoghurt base with a spicy oil topping. Originally a Turkish dish, it came to Mars with German-Turkish settlers and has become a breakfast mainstay since."
-	icon_state = "cilbir"
+	icon_state = "cilbir" //✓
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("eggs" = 1, "yoghurt" = 1, "chili" = 1)
 	foodtypes = MEAT | DAIRY | BREAKFAST
@@ -298,7 +298,7 @@
 /obj/item/food/peking_crepes
 	name = "\improper Peking duck crepes a l'orange"
 	desc = "This dish takes the best of Beijing's and Paris' cuisines to make a deliciously tangy and savoury meal."
-	icon_state = "peking_crepes"
+	icon_state = "peking_crepes" //✓
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 9, /datum/reagent/consumable/ethanol/manly_dorf = 5)
 	tastes = list("duck" = 1, "orange" = 1, "onion" = 1, "chilli" = 1, "crepes" = 1)
 	foodtypes = MEAT | VEGETABLES | FRUIT

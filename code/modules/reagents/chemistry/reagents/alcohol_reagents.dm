@@ -2891,3 +2891,124 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	if(drinker.hallucination < hal_cap && DT_PROB(5, delta_time))
 		drinker.hallucination += hal_amt
 	..()
+
+// some Japanese-inspired drinks because I bought TW: Shogun 2 recently
+/datum/reagent/consumable/ethanol/yuyake //you know midori? well, green sucks, we want red instead!
+	name = "Yūyake"
+	description = "A vibrant red melon liqueur made for mixing."
+	boozepwr = 25
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "melon"
+	glass_icon_state = "yuyake"
+	glass_name = "glass of yūyake"
+	glass_desc = "It's the sweetest sunset you know."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/soju
+	name = "Soju"
+	description = "A distilled rice wine which should not be mistaken for sake."
+	boozepwr = 35
+	color = "#DDDDDD"
+	taste_description = "boozy rice wine"
+	glass_icon_state = "soju"
+	glass_name = "cup of soju"
+	glass_desc = "A cup of soju."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	glass_price = DRINK_PRICE_STOCK
+
+/datum/reagent/consumable/ethanol/yuyakita //lime juice, yuyake, tequila (yes, someone really did order this with midori. no, it is not good.)
+	name = "Yūyakita"
+	description = "A hell unleashed on the world by an unnamed patron."
+	boozepwr = 45
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "sour death"
+	glass_icon_state = "yuyakita"
+	glass_name = "Yūyakita"
+	glass_desc = "And I looked, and behold a pale horse: and his name that sat on him was Death, and Hell followed with him."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/saibasan //sake, yuyake, cherry, triple citrus (no particular inspiration on this one, just wanted something Cybersun related while on the topic of Japanese spirits)
+	name = "Saibāsan"
+	description = "A drink named after Nanotrasen's biggest competitor- it's probably not wise to drink this in front of your employer, but you probably will anyway."
+	boozepwr = 45
+	color = "#FF160C"
+	quality = DRINK_NICE
+	taste_description = "betrayal"
+	glass_icon_state = "saibasan"
+	glass_name = "Saibāsan"
+	glass_desc = "A drink made in honour of Cybersun Industries' 600th year of continual business, and banned on Nanotrasen stations."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/banzaiti //yuyake, triple sec, gin, rum, tequila, vodka, triple citrus, soda water (christ there are a lot of ingredients in a long island iced tea)
+	name = "Banzaitī"
+	description = "To long life, and good health! To live ten thousand years!"
+	boozepwr = 45
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "tokyo iced tea"
+	glass_icon_state = "banzaiti"
+	glass_name = "Banzaitī"
+	glass_desc = "A drink to last ten-thousand years- better sip slowly then."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/sanraizusoda //yuyake, soda water, cream, ice (like a boozy Japanese melon soda)
+	name = "Sanraizusōda"
+	description = "An alcoholic twist on a childhood classic."
+	boozepwr = 15
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "creamy melon"
+	glass_icon_state = "sanraizusoda"
+	glass_name = "Sanraizusōda"
+	glass_desc = "A popular children's dessert from Japan, made adult with the addition of booze. Kanpai!"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/kumicho //japanese godfather: shochu, whiskey, amaretto, bitters
+	name = "Kumichō"
+	description = "A twist on the classic Godfather cocktail, made with shochu."
+	boozepwr = 15
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "illicit activities"
+	glass_icon_state = "kumicho"
+	glass_name = "Kumichō"
+	glass_desc = "Much like the American Godfather, the Kumichō is sophisticated, strong, and possibly tied to illicit activities."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/chrysanthemum_throne //shochu, gin, lemon juice
+	name = "Chrysanthemum Throne"
+	description = "A floral cocktail made with shochu and gin, named for the throne of the Japanese Emperor."
+	boozepwr = 15
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "imperial might"
+	glass_icon_state = "chrysanthemum_throne"
+	glass_name = "Chrysanthemum Throne"
+	glass_desc = "A drink to make you feel like royalty."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/amaterasus_emergence //shochu, berry juice, grenadine, champagne
+	name = "Amaterasu's Emergence"
+	description = "A nectar of the gods- fruity, sweet, and strongly alcoholic."
+	boozepwr = 15
+	color = "#FD5E53"
+	quality = DRINK_NICE
+	taste_description = "godliness"
+	glass_icon_state = "amaterasus_emergence"
+	glass_name = "Amaterasu's Emergence"
+	glass_desc = "And so Amaterasu emerged from the Heavenly Rock Cave, and light was restored to the world."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/reisbiru
+	name = "Martian Reisbiru"
+	description = "A Martian specialty drink made from rice syrup and hops- like beer, made from rice."
+	boozepwr = 25
+	color = "#F5DEB3"
+	quality = DRINK_NICE
+	taste_description = "beer"
+	glass_icon_state = "reisbiru"
+	glass_name = "glass of reisbiru"
+	glass_desc = "Considered a hate crime against Bavarians under the Reinheitsgebot Act of 1516."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED

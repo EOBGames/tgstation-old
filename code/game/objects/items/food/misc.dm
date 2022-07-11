@@ -780,6 +780,19 @@
 	foodtypes = VEGETABLES
 	burns_in_oven = TRUE
 
+/obj/item/food/pickle
+	name = "dill pickle"
+	desc = "A passable pickle from the Red Planet."
+	icon_state = "pickle"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/char = 1)
+	tastes = list("pickles" = 1)
+	foodtypes = VEGETABLES
+
+/obj/item/food/pickle/homemade //it's a little bit better!
+	name = "homemade dill pickle"
+	desc = "A homemade dill pickle. While it might lack that processed charm, it more than makes up for it with pride and accomplishment, and potentially botulism."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/char = 1)
+
 //DONK DINNER: THE INNOVATIVE WAY TO GET YOUR DAILY RECOMMENDED ALLOWANCE OF SALT... AND THEN SOME!
 /obj/item/food/ready_donk
 	name = "\improper Ready-Donk: Bachelor Chow"
@@ -835,6 +848,34 @@
 	desc = "Donk Co's signature Donkhiladas with Donk sauce, served as hot as the Mexican sun."
 	icon_state = "ready_donk_warm_mex"
 	tastes = list("enchiladas" = 2, "laziness" = 1)
+	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
+
+/obj/item/food/ready_donk/donk_pow_chicken
+	name = "\improper Ready-Donk: Donk-Pow Chicken"
+	desc = "Donk-Pow Chicken and fried rice: as authentically Chinese as General Tso's!"
+	microwaved_type = /obj/item/food/ready_donk/warm/donk_pow_chicken
+	tastes = list("kung-pao chicken" = 2, "laziness" = 1)
+	foodtypes = GRAIN | MEAT | VEGETABLES | JUNKFOOD
+
+/obj/item/food/ready_donk/warm/donk_pow_chicken
+	name = "warm Ready-Donk: Donk-Pow Chicken"
+	desc = "Donk-Pow Chicken and fried rice: as authentically Chinese as General Tso's and as hot as a dragon's breath!"
+	icon_state = "ready_donk_warm_chin"
+	tastes = list("kung-pao chicken" = 2, "laziness" = 1)
+	foodtypes = GRAIN | MEAT | VEGETABLES | JUNKFOOD
+
+/obj/item/food/ready_donk/nachos
+	name = "\improper Ready-Donk: Donk World Series Nachos Grandes"
+	desc = "Hot and spicy nachos with Monterey Jack queso, Donk Sauce, five-alarm chili, and black beans. Comes with separate sour cream and pico-de-gallo."
+	microwaved_type = /obj/item/food/ready_donk/warm/nachos
+	tastes = list("nachos" = 2, "laziness" = 1)
+	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
+
+/obj/item/food/ready_donk/warm/nachos
+	name = "warm Ready-Donk: Donk World Series Nachos Grandes"
+	desc = "Hot and spicy nachos with Monterey Jack queso, Donk Sauce, five-alarm chili, and black beans. Almost as hot as the Hot Shots in the Sol Series."
+	icon_state = "ready_donk_warm_nachos"
+	tastes = list("nachos" = 2, "laziness" = 1)
 	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
 
 /obj/item/food/pierogi

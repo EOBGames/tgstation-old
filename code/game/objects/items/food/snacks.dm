@@ -386,7 +386,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	icon_state = "boritosred"
 	trash_type = /obj/item/trash/boritos/red
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/cooking_oil = 2, /datum/reagent/consumable/salt = 3, /datum/reagent/consumable/astrotame = 1, /datum/reagent/consumable/cornmeal = 1)
-	tastes = list("fried corn" = 1, "nacho cheese" = 3) 
+	tastes = list("fried corn" = 1, "nacho cheese" = 3)
 
 /obj/item/food/cornchips/purple
 	name = "\improper Spicy Sweet Chili Boritos corn chips"
@@ -410,6 +410,72 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	food_reagents = sample.food_reagents
 	icon_state = sample.icon_state
 	trash_type = sample.trash_type
+	tastes = sample.tastes
+
+	qdel(sample)
+
+	. = ..()
+
+/obj/item/food/hot_shots
+	name = "\improper Hot Shots" // Buy me some peanuts and... Hot Shots, I guess?
+	desc = "A classic ballgame snack with caramel corn and roasted peanuts. Comes with a free prize in every box!" // You know, thinking about it, Cracker Jacks already have peanuts. Why did he need separate peanuts too?
+	food_reagents = list(/datum/reagent/consumable/caramel = 4, /datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/salt = 1)
+	tastes = list("caramel popcorn" = 1, "peanuts" = 1)
+	trash_type = /obj/item/trash/hot_shots
+	foodtypes = GRAIN | NUTS | JUNKFOOD
+	food_flags = FOOD_FINGER_FOOD
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/sticko
+	name = "\improper Sticko"
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's the original (and as some would say, best) flavour: biscuit and milk chocolate."
+	icon_state = "sticko"
+	trash_type = /obj/item/trash/sticko
+	food_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/coco = 2)
+	tastes = list("biscuit" = 3, "chocolate" = 2)
+	junkiness = 25
+	foodtypes = JUNKFOOD | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/sticko/yuyake
+	name = "\improper Sticko Yuyake"
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's meant to taste like Yuyake, Japan's favourite red melon-flavoured liqueur."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 2)
+	foodtypes = JUNKFOOD | GRAIN | FRUIT
+	tastes = list("biscuit" = 3, "melon" = 2)
+
+/obj/item/food/sticko/nutty
+	name = "\improper Sticko Nutty"
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's going for nut overload, with a peanut-butter flavoured chocolate coating and chopped almonds."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	foodtypes = JUNKFOOD | GRAIN | NUTS
+	tastes = list("biscuit" = 3, "peanut butter" = 1, "almond" = 1)
+
+/obj/item/food/sticko/matcha
+	name = "\improper Sticko Matcha"
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's matcha green tea flavoured, with all the nuanced flavour and eastern grace contained therein."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/tea = 2)
+	tastes = list("biscuit" = 3, "green tea" = 2)
+
+/obj/item/food/sticko/pineapple
+	name = "\improper Sticko Pineapple"
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's pineapple flavoured, making it a favourite amongst those Ananas Fanas." //Wow. That's the worst joke I've ever written. No, I'm not changing it.
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/pineapplejuice = 2)
+	foodtypes = JUNKFOOD | GRAIN | PINEAPPLE
+	tastes = list("biscuit" = 3, "pineapple" = 2)
+
+/obj/item/food/sticko/random
+	name = "\improper Sticko Mystery"
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This is Sticko's Mystery flavour, which isn't really a flavour at all- it's a cleverly disguised box of another random flavour, presumably hidden so they can sell more Sticko. BUY MORE STICKO."
+
+/obj/item/food/sticko/random/Initialize(mapload)
+	var/random_flavour = pick(subtypesof(/obj/item/food/sticko) - /obj/item/food/sticko/random)
+
+	var/obj/item/food/sample = new random_flavour(loc)
+
+	name = sample.name
+	desc = sample.desc
+	food_reagents = sample.food_reagents
 	tastes = sample.tastes
 
 	qdel(sample)
