@@ -206,6 +206,10 @@
 	name = "\improper Starboard Tram Underpass"
 	icon_state = "mainttramR"
 
+/area/station/maintenance/ai_tunnel
+	name = "\improper AI-Annex Access Tunnel"
+	icon_state = "apmaint"
+
 //Maintenance - Discrete Areas
 /area/station/maintenance/disposal
 	name = "Waste Disposal"
@@ -969,6 +973,18 @@
 	name = "Medbay Aft"
 	icon_state = "med_aft"
 
+/area/station/medical/medbay/lower
+	name = "Lower Medbay"
+	icon_state = "med_aft"
+
+/area/station/medical/medbay/lower/east
+	name = "Eastern Lower Medbay"
+	icon_state = "med_aft"
+
+/area/station/medical/medbay/lower/west
+	name = "Western Lower Medbay"
+	icon_state = "med_aft"
+
 /area/station/medical/storage
 	name = "Medbay Storage"
 	icon_state = "med_storage"
@@ -1044,6 +1060,15 @@
 /area/station/medical/surgery/theatre
 	name = "\improper Grand Surgery Theatre"
 	icon_state = "surgerytheatre"
+
+/area/station/medical/surgery/central
+	name = "\improper Central Operating Rooms"
+	icon_state = "surgery"
+
+/area/station/medical/surgery/auxilliary
+	name = "\improper Auxilliary Operating Room"
+	icon_state = "surgery"
+
 /area/station/medical/cryo
 	name = "Cryogenics"
 	icon_state = "cryo"
