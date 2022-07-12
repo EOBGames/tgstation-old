@@ -2892,7 +2892,6 @@ All effects don't start immediately, but rather get worse over time; the rate is
 		drinker.hallucination += hal_amt
 	..()
 
-// some Japanese-inspired drinks because I bought TW: Shogun 2 recently
 /datum/reagent/consumable/ethanol/yuyake //you know midori? well, green sucks, we want red instead!
 	name = "Yūyake"
 	description = "A vibrant red melon liqueur made for mixing."
