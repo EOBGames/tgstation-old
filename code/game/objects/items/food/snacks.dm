@@ -386,7 +386,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	icon_state = "boritosred"
 	trash_type = /obj/item/trash/boritos/red
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/cooking_oil = 2, /datum/reagent/consumable/salt = 3, /datum/reagent/consumable/astrotame = 1, /datum/reagent/consumable/cornmeal = 1)
-	tastes = list("fried corn" = 1, "nacho cheese" = 3) 
+	tastes = list("fried corn" = 1, "nacho cheese" = 3)
 
 /obj/item/food/cornchips/purple
 	name = "\improper Spicy Sweet Chili Boritos corn chips"
@@ -415,3 +415,35 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	qdel(sample)
 
 	. = ..()
+
+/obj/item/food/derby_bar
+	name = "\improper Derby"
+	desc = "A classic chocolate bar with peanuts, caramel and nougat. Get some nuts!"
+	icon_state = "derby_bar"
+	trash_type = /obj/item/trash/derby_bar
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("peanuts" = 1, "caramel" = 1, "nougat" = 1, "chocolate" = 1)
+
+/obj/item/food/moonjump_bar
+	name = "\improper Moonjump"
+	desc = "A classic chocolate bar with caramel and nougat. Make a leap with Moonjump!"
+	icon_state = "moonjump_bar"
+	trash_type = /obj/item/trash/moonjump_bar
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("caramel" = 1, "nougat" = 1, "chocolate" = 1)
+
+/obj/item/food/twinstix_bar
+	name = "\improper Twinstix"
+	desc = "A duo of chocolate bars with biscuit and caramel. Do you prefer the left or right one?"
+	icon_state = "twinstix_bar"
+	trash_type = /obj/item/trash/twinstix_bar
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("caramel" = 1, "biscuit" = 1, "chocolate" = 1)
+
+/obj/item/food/twinstix
+	name = "\improper Twinstix bar"
+	desc = "A duo of chocolate bars with biscuit and caramel. Do you prefer the left or right one?"
+	icon_state = "twinstix_bar"
+	trash_type = /obj/item/trash/moonjump_bar
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("caramel" = 1, "nougat" = 1, "chocolate" = 1)
