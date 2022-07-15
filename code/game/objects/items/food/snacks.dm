@@ -439,11 +439,3 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	trash_type = /obj/item/trash/twinstix_bar
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
 	tastes = list("caramel" = 1, "biscuit" = 1, "chocolate" = 1)
-
-/obj/item/food/twinstix
-	name = "\improper Twinstix bar"
-	desc = "A duo of chocolate bars with biscuit and caramel. Do you prefer the left or right one?"
-	icon_state = "twinstix_bar"
-	trash_type = /obj/item/trash/moonjump_bar
-	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
-	tastes = list("caramel" = 1, "nougat" = 1, "chocolate" = 1)

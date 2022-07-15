@@ -867,3 +867,45 @@
 /obj/item/food/seaweedsheet/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/customizable_reagent_holder, /obj/item/food/sushi/empty, CUSTOM_INGREDIENT_ICON_FILL, max_ingredients = 6)
+
+/obj/item/food/hot_donk_burrito
+	name = "\improper Donk-2-Go Chilirito"
+	desc = "A ready-to-eat hot-cabinet burrito, filled with hearty meat n' beans chili (and queso). Remember: when the cravings hit, it's Time-4-Donk!"
+	tastes = list("burrito" = 2, "laziness" = 1)
+	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
+
+/obj/item/food/hot_donk_nachos
+	name = "\improper Donk-2-Go Donkritos Nachos Grande"
+	desc = "A tub of hot-cabinet Donkritos nachos, topped with neon yellow queso. Remember: when the cravings hit, it's Time-4-Donk!"
+	tastes = list("nachos" = 2, "laziness" = 1)
+	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
+
+/obj/item/food/hot_donk_dog
+	name = "\improper Donk-2-Go Donk-dog"
+	desc = "A glistening, moist hot dog, topped with chili, cheese, and salsa. Remember: when the cravings hit, it's Time-4-Donk!"
+	tastes = list("hot dog" = 2, "laziness" = 1)
+	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
+
+/obj/item/food/hot_donk_burger
+	name = "\improper Donk-2-Go Bacon Big Donk"
+	desc = "The original and best Donk n' Go burger, now available at your local 24-7 store. Remember: when the cravings hit, it's Time-4-Donk!"
+	tastes = list("burger" = 2, "laziness" = 1)
+	foodtypes = GRAIN | MEAT | DAIRY | JUNKFOOD
+
+/obj/item/food/hot_donk_chicken
+	name = "\improper Donk-2-Go Saucy Donk Strips"
+	desc = "The same classic Donk n' Go chicken strips you remember, tossed with Donk sauce, but served at 24-7! Remember: when the cravings hit, it's Time-4-Donk!"
+	tastes = list("spicy chicken" = 2, "laziness" = 1)
+	foodtypes = MEAT | GRAIN | JUNKFOOD
+
+/obj/item/food/hot_donk_hash
+	name = "\improper Donk-2-Go Donk AM Hash"
+	desc = "A sausage, onion and potato hash, doused in Donk sauce and topped with a fried egg, just like they serve at Donk n' Go. Remember: when the cravings hit, it's Time-4-Donk!"
+	tastes = list("breakfast" = 2, "laziness" = 1)
+	foodtypes = VEGETABLES | MEAT | JUNKFOOD
+
+/obj/item/food/hot_donk_fries
+	name = "\improper Donk-2-Go Loaded Donk Fries"
+	desc = "The venerable Donk fries, with secret seasoning and a chili-cheese blanket. Remember: when the cravings hit, it's Time-4-Donk!"
+	tastes = list("chili fries" = 2, "laziness" = 1)
+	foodtypes = VEGETABLES | MEAT | DAIRY | JUNKFOOD
