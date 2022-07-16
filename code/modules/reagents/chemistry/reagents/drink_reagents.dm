@@ -1270,3 +1270,13 @@
 	glass_name = "vanilla dream smoothie"
 	glass_desc = "A classic drink made with vanilla and fresh cream."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/donk_soda
+	name = "Donk Soda"
+	description = "Donk n' Go's signature soda, complete with its secret flavour."
+	color = "#FF476F"
+	taste_description = "mystery soda"
+	glass_icon_state = "donk_soda"
+	glass_name = "glass of Donk Soda"
+	glass_desc = "The mystery soda concocted by Donk Co., normally only available at Donk n' Go. Nobody can say for sure what it's meant to taste of..."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED

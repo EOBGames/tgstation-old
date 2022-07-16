@@ -439,3 +439,79 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	trash_type = /obj/item/trash/twinstix_bar
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
 	tastes = list("caramel" = 1, "biscuit" = 1, "chocolate" = 1)
+
+/obj/item/food/rootin_shooters
+	name = "\improper Rootin' Shooters hard candy"
+	desc = "Individually wrapped hard candy treats, in a variety of Western-inspired flavours."
+	icon_state = "rootin_shooters"
+	trash_type = /obj/item/trash/rootin_shooters
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("rootbeer" = 1, "sarsaparilla" = 1, "chocolate" = 1, "cola" = 1, "black cherry" = 1, "coffee" = 1, "butterscotch" = 1)
+
+/obj/item/food/little_fruits
+	name = "\improper Little Fruits candy- Classic Mix"
+	desc = "The world's most famous fruit candy, straight out of Korea- and they're packed with vitamins, too!"
+	icon_state = "little_fruits"
+	trash_type = /obj/item/trash/little_fruits
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("lychee" = 1, "dragonfruit" = 1, "lime" = 1, "grape" = 1, "melon" = 1)
+
+/obj/item/food/little_fruits/cinema_mix
+	name = "\improper Little Fruits candy- Cinema Mix"
+	desc = "One of Little Fruits' most novel mixes, trying to invoke the flavours of the cinema."
+	icon_state = "lf_cinema"
+	trash_type = /obj/item/trash/little_fruits/cinema_mix
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("buttered popcorn" = 1, "cotton candy" = 1, "salted caramel" = 1, "peanut butter" = 1, "vanilla" = 1)
+
+/obj/item/food/little_fruits/after_dark_mix
+	name = "\improper Little Fruits candy- After Dark Mix"
+	desc = "A classic Little Fruits mix, featuring dark fruits."
+	icon_state = "lf_after_dark"
+	trash_type = /obj/item/trash/little_fruits/after_dark_mix
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("blackberry" = 1, "pomegranate" = 1, "blueberry" = 1, "blackcurrant" = 1, "black cherry" = 1)
+
+/obj/item/food/little_fruits/shake_n_stirred_mix
+	name = "\improper Little Fruits candy- Shake n' Stirred Mix"
+	desc = "A new Little Fruits mix, trying to emulate the tastes of the bar."
+	icon_state = "lf_shake_n_stirred"
+	trash_type = /obj/item/trash/little_fruits/shake_n_stirred_mix
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("pina colada" = 1, "gin and tonic" = 1, "cuba libre" = 1, "mojito" = 1, "white russian" = 1)
+
+/obj/item/food/little_fruits/calypso_mix
+	name = "\improper Little Fruits candy- Calypso Mix"
+	desc = "A classic Little Fruits mix, bringing the tastes of the tropics to your pocket."
+	icon_state = "lf_calypso"
+	trash_type = /obj/item/trash/little_fruits/calypso_mix
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("pineapple" = 1, "tangerine" = 1, "passionfruit" = 1, "mango" = 1, "banana" = 1)
+
+/obj/item/food/little_fruits/random
+	name = "\improper Little Fruits candy- Random Mix"
+	desc = "A random Little Fruits flavour mix, obscured with a little cardboard mystery sleeve. What flavours are you getting? Who knows?"
+
+/obj/item/food/little_fruits/random/Initialize(mapload)
+	var/random_flavour = pick(subtypesof(/obj/item/food/little_fruits) - /obj/item/food/little_fruits/random)
+
+	var/obj/item/food/sample = new random_flavour(loc)
+
+	name = sample.name
+	desc = sample.desc
+	food_reagents = sample.food_reagents
+	icon_state = sample.icon_state
+	trash_type = sample.trash_type
+	tastes = sample.tastes
+
+	qdel(sample)
+
+	. = ..()
+
+/obj/item/food/microwave_popcorn
+	name = "\improper Big Top Pop microwave popcorn"
+	desc = "The most popular clown-themed popcorn on the market, beating out Circus Charlie's and Honk-o-Pop for the top spot. Simply microwave and enjoy."
+	icon_state = "microwave_popcorn"
+	trash_type = /obj/item/trash/little_fruits
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("korn kernels" = 1)
