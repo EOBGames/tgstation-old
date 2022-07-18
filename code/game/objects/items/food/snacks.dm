@@ -440,6 +440,22 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
 	tastes = list("caramel" = 1, "biscuit" = 1, "chocolate" = 1)
 
+/obj/item/food/twist_cups
+	name = "\improper Twist Peanut Butter Cups"
+	desc = "What do you get when you mix peanut butter and chocolate? You get a Twist! Remember, there's no wrong way to eat it!"
+	icon_state = "twist_cups"
+	trash_type = /obj/item/trash/twist_cups
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("peanut butter" = 1, "chocolate" = 1)
+
+/obj/item/food/reginald_toffeepenny
+	name = "\improper Reginald Toffeepenny's Originals"
+	desc = "Your grandparent's favourite butterscotch candy. Careful you don't chip a tooth."
+	icon_state = "reginald_toffeepenny"
+	trash_type = /obj/item/trash/reginald_toffeepenny
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("butterscotch" = 1)
+
 /obj/item/food/rootin_shooters
 	name = "\improper Rootin' Shooters hard candy"
 	desc = "Individually wrapped hard candy treats, in a variety of Western-inspired flavours."
@@ -454,7 +470,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	icon_state = "little_fruits"
 	trash_type = /obj/item/trash/little_fruits
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
-	tastes = list("lychee" = 1, "dragonfruit" = 1, "lime" = 1, "grape" = 1, "melon" = 1)
+	tastes = list("lychee" = 1, "dragonfruit" = 1, "lime" = 1, "grape" = 1, "melon" = 1, "kiwi" = 1)
 
 /obj/item/food/little_fruits/cinema_mix
 	name = "\improper Little Fruits candy- Cinema Mix"
@@ -462,7 +478,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	icon_state = "lf_cinema"
 	trash_type = /obj/item/trash/little_fruits/cinema_mix
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
-	tastes = list("buttered popcorn" = 1, "cotton candy" = 1, "salted caramel" = 1, "peanut butter" = 1, "vanilla" = 1)
+	tastes = list("buttered popcorn" = 1, "cotton candy" = 1, "salted caramel" = 1, "peanut butter" = 1, "vanilla" = 1, "chocolate" = 1)
 
 /obj/item/food/little_fruits/after_dark_mix
 	name = "\improper Little Fruits candy- After Dark Mix"
@@ -470,7 +486,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	icon_state = "lf_after_dark"
 	trash_type = /obj/item/trash/little_fruits/after_dark_mix
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
-	tastes = list("blackberry" = 1, "pomegranate" = 1, "blueberry" = 1, "blackcurrant" = 1, "black cherry" = 1)
+	tastes = list("blackberry" = 1, "pomegranate" = 1, "blueberry" = 1, "blackcurrant" = 1, "black cherry" = 1, "raspberry" = 1)
 
 /obj/item/food/little_fruits/shake_n_stirred_mix
 	name = "\improper Little Fruits candy- Shake n' Stirred Mix"
@@ -478,7 +494,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	icon_state = "lf_shake_n_stirred"
 	trash_type = /obj/item/trash/little_fruits/shake_n_stirred_mix
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
-	tastes = list("pina colada" = 1, "gin and tonic" = 1, "cuba libre" = 1, "mojito" = 1, "white russian" = 1)
+	tastes = list("pina colada" = 1, "gin and tonic" = 1, "cuba libre" = 1, "mojito" = 1, "caipirinha" = 1, "long island iced tea" = 1)
 
 /obj/item/food/little_fruits/calypso_mix
 	name = "\improper Little Fruits candy- Calypso Mix"
@@ -486,7 +502,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	icon_state = "lf_calypso"
 	trash_type = /obj/item/trash/little_fruits/calypso_mix
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
-	tastes = list("pineapple" = 1, "tangerine" = 1, "passionfruit" = 1, "mango" = 1, "banana" = 1)
+	tastes = list("pineapple" = 1, "tangerine" = 1, "passionfruit" = 1, "mango" = 1, "banana" = 1, "coconut" = 1)
 
 /obj/item/food/little_fruits/random
 	name = "\improper Little Fruits candy- Random Mix"
@@ -512,6 +528,65 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	name = "\improper Big Top Pop microwave popcorn"
 	desc = "The most popular clown-themed popcorn on the market, beating out Circus Charlie's and Honk-o-Pop for the top spot. Simply microwave and enjoy."
 	icon_state = "microwave_popcorn"
-	trash_type = /obj/item/trash/little_fruits
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
-	tastes = list("korn kernels" = 1)
+	tastes = list("crunchy corn kernels" = 1)
+
+/obj/item/food/protein_bar
+	name = "\improper Star Cuisine protein bar- vanilla flavour"
+	desc = "The galaxy's favourite protein bar, packed with protein and vitamins to maintain health and musculature, even in space. This one's vanilla flavoured, for a welcome boost any time of the day."
+	icon_state = "protein_bar"
+	trash_type = /obj/item/trash/protein_bar
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("vanilla" = 1)
+
+/obj/item/food/protein_bar/korean_beef
+	name = "\improper Star Cuisine protein bar- Korean barbecue beef flavour"
+	desc = "The galaxy's favourite protein bar, packed with protein and vitamins to maintain health and musculature, even in space. This one's Korean bulgogi beef flavour, and claims to be a great lunch, no matter where you are."
+	icon_state = "pb_korean_beef"
+	trash_type = /obj/item/trash/protein_bar/korean_beef
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("spicy beef" = 1)
+
+/obj/item/food/protein_bar/coco_orange
+	name = "\improper Star Cuisine protein bar- coco-orange flavour"
+	desc = "The galaxy's favourite protein bar, packed with protein and vitamins to maintain health and musculature, even in space. This one's coco-orange flavour, giving a bitter yet refreshing taste that suits late-night cravings."
+	icon_state = "pb_coco_orange"
+	trash_type = /obj/item/trash/protein_bar/coco_orange
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("bitter chocolate" = 1, "sharp orange" = 1)
+
+/obj/item/food/protein_bar/firecracker
+	name = "\improper Star Cuisine protein bar- Firecracker flavour"
+	desc = "The galaxy's favourite protein bar, packed with protein and vitamins to maintain health and musculature, even in space. This one's Firecracker flavour, a spicy blend of seasonings and deep umami richness to produce a satisfying bar for any time of day."
+	icon_state = "pb_firecracker"
+	trash_type = /obj/item/trash/protein_bar/firecracker
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("chilli heat" = 1)
+
+/obj/item/food/protein_bar/jerk_roast_chicken
+	name = "\improper Star Cuisine protein bar- Jerk roast chicken flavour"
+	desc = "The galaxy's favourite protein bar, packed with protein and vitamins to maintain health and musculature, even in space. This one's Jerk roast chicken flavour, bringing a Jamaican twist to any meal."
+	icon_state = "pb_jerk_roast_chicken"
+	trash_type = /obj/item/trash/protein_bar/jerk_roast_chicken
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1, /datum/reagent/consumable/peanut_butter = 1)
+	tastes = list("spicy chicken" = 1)
+
+/obj/item/food/protein_bar/random
+	name = "\improper Star Cuisine protein bar- random flavour"
+	desc = "A random Star Cuisine bar, for when you can't decide what you want for lunch."
+
+/obj/item/food/protein_bar/random/Initialize(mapload)
+	var/random_flavour = pick(subtypesof(/obj/item/food/protein_bar) - /obj/item/food/protein_bar/random)
+
+	var/obj/item/food/sample = new random_flavour(loc)
+
+	name = sample.name
+	desc = sample.desc
+	food_reagents = sample.food_reagents
+	icon_state = sample.icon_state
+	trash_type = sample.trash_type
+	tastes = sample.tastes
+
+	qdel(sample)
+
+	. = ..()
