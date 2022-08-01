@@ -1280,3 +1280,70 @@
 	glass_name = "vanilla dream smoothie"
 	glass_desc = "A classic drink made with vanilla and fresh cream."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//Espresso Drinks: For the Discerning Cafegoer
+/datum/reagent/consumable/espresso
+	name = "Espresso"
+	description = "Strong, powerful black coffee made with high pressure."
+	color = "#FFF3DD"
+	nutriment_factor = 0
+	taste_description = "strong dark coffee"
+	glass_icon_state = "espresso"
+	glass_name = "glass of espresso"
+	glass_desc = "Typically you'd want this in a cup, but a glass will do."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/espresso_con_panna
+	name = "Espresso con Panna"
+	description = "Espresso with whipped cream to temper the beast."
+	color = "#FFF3DD"
+	nutriment_factor = 0
+	taste_description = "coffee and cream"
+	glass_icon_state = "espresso_con_panna"
+	glass_name = "espresso con panna"
+	glass_desc = "A classic Italian espresso drink, combining hot dark espresso and cool fluffy whipped cream."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/espresso_romano
+	name = "Espresso Romano"
+	description = "Espresso topped off with lemon oil- a strange, yet satisfying combination."
+	color = "#FFF3DD"
+	nutriment_factor = 0
+	taste_description = "coffee and cream"
+	glass_icon_state = "espresso_romano"
+	glass_name = "espresso romano"
+	glass_desc = "A sophisticated espresso drink for citrus-lovers."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/cortado
+	name = "Cortado"
+	description = "An Iberian take on the latte, served with less milk for a fuller coffee taste."
+	color = "#FFF3DD"
+	nutriment_factor = 0
+	taste_description = "milky coffee"
+	glass_icon_state = "cortado"
+	glass_name = "cortado"
+	glass_desc = "A short latte born of the Iberian peninsula."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/americano
+	name = "Americano"
+	description = "For when espresso is too daunting, the Americano steps up to make it suit the New World palette."
+	color = "#FFF3DD"
+	nutriment_factor = 0
+	taste_description = "coffee"
+	glass_icon_state = "americano"
+	glass_name = "americano"
+	glass_desc = "Espresso, as watered down to fit the American taste (or lack thereof)."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/cappuccino
+	name = "Cappuccino"
+	description = "Originally an Austrian creation, the Cappuccino derives its name from the Capuchin monks, whose robes the drink's colour resembles."
+	color = "#FFF3DD"
+	nutriment_factor = 0
+	taste_description = "coffee"
+	glass_icon_state = "americano"
+	glass_name = "americano"
+	glass_desc = "Espresso, as watered down to fit the American taste (or lack thereof)."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
