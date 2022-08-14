@@ -40,6 +40,9 @@
 	name = "EVA Maintenance"
 	icon_state = "maint_eva"
 
+/area/station/maintenance/department/eva/abandoned
+	name = "Abandoned EVA Storage"
+
 /area/station/maintenance/department/electrical
 	name = "Electrical Maintenance"
 	icon_state = "maint_electrical"
@@ -208,10 +211,6 @@
 /area/station/maintenance/tram/right
 	name = "\improper Starboard Tram Underpass"
 	icon_state = "mainttramR"
-
-/area/station/maintenance/ai_tunnel
-	name = "\improper AI-Annex Access Tunnel"
-	icon_state = "apmaint"
 
 //Maintenance - Discrete Areas
 /area/station/maintenance/disposal
@@ -407,6 +406,10 @@
 	name = "\improper Research Director's Office"
 	icon_state = "rd_office"
 
+/area/station/command/heads_quarters/qm
+	name = "\improper Quartermaster's Office"
+	icon_state = "qm_office"
+
 //Command - Teleporters
 
 /area/station/command/teleporter
@@ -475,16 +478,6 @@
 	mood_trait = TRAIT_EXTROVERT
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
-//Botanical Garden
-/area/station/commons/botanical_garden
-	name = "\improper Botanical Garden"
-	icon_state = "garden"
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
-
-/area/station/commons/botanical_garden/upper
-	name = "\improper Botanical Garden Gantries"
-	icon_state = "garden"
-
 /area/station/commons/fitness
 	name = "\improper Fitness Room"
 	icon_state = "fitness"
@@ -501,10 +494,6 @@
 	name = "\improper Female Locker Room"
 	icon_state = "locker_female"
 
-/area/station/commons/fitness/health_club
-	name = "\improper Health Club"
-	icon_state = "rec"
-
 /area/station/commons/fitness/recreation
 	name = "\improper Recreation Area"
 	icon_state = "rec"
@@ -512,10 +501,6 @@
 /area/station/commons/fitness/recreation/entertainment
 	name = "\improper Entertainment Center"
 	icon_state = "entertainment"
-
-/area/station/commons/fitness/recreation/games_room
-	name = "\improper Games Room"
-	icon_state = "rec"
 
 // Commons - Vacant Rooms
 /area/station/commons/vacant_room
@@ -567,6 +552,10 @@
 /area/station/service/cafeteria
 	name = "\improper Cafeteria"
 	icon_state = "cafeteria"
+
+/area/station/service/barber
+	name = "\improper Barber"
+	icon_state = "barber"
 
 /area/station/service/kitchen
 	name = "\improper Kitchen"
@@ -731,10 +720,6 @@
 
 /area/station/service/hydroponics/garden/monastery
 	name = "\improper Monastery Garden"
-	icon_state = "hydro"
-
-/area/station/service/break_room
-	name = "Service Break Room"
 	icon_state = "hydro"
 
 //Engineering
@@ -980,18 +965,6 @@
 	name = "Medbay Aft"
 	icon_state = "med_aft"
 
-/area/station/medical/medbay/lower
-	name = "Lower Medbay"
-	icon_state = "med_aft"
-
-/area/station/medical/medbay/lower/east
-	name = "Eastern Lower Medbay"
-	icon_state = "med_aft"
-
-/area/station/medical/medbay/lower/west
-	name = "Western Lower Medbay"
-	icon_state = "med_aft"
-
 /area/station/medical/storage
 	name = "Medbay Storage"
 	icon_state = "med_storage"
@@ -1006,10 +979,6 @@
 
 /area/station/medical/break_room
 	name = "\improper Medical Break Room"
-	icon_state = "med_break"
-
-/area/station/medical/break_room/common
-	name = "\improper Medical Common Room"
 	icon_state = "med_break"
 
 /area/station/medical/coldroom
@@ -1028,11 +997,6 @@
 /area/station/medical/patients_rooms/room_b
 	name = "Patient Room B"
 	icon_state = "patients"
-
-/area/station/medical/patients_rooms/ward
-	name = "\improper Recovery Ward"
-	icon_state = "patients"
-	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
 /area/station/medical/virology
 	name = "Virology"
@@ -1067,15 +1031,6 @@
 /area/station/medical/surgery/theatre
 	name = "\improper Grand Surgery Theatre"
 	icon_state = "surgerytheatre"
-
-/area/station/medical/surgery/central
-	name = "\improper Central Operating Rooms"
-	icon_state = "surgery"
-
-/area/station/medical/surgery/auxilliary
-	name = "\improper Auxilliary Operating Room"
-	icon_state = "surgery"
-
 /area/station/medical/cryo
 	name = "Cryogenics"
 	icon_state = "cryo"
@@ -1246,6 +1201,9 @@
 	name = "Security Post - Medbay"
 	icon_state = "checkpoint_med"
 
+/area/station/security/checkpoint/medical/medsci
+	name = "Security Post - Medsci"
+
 /area/station/security/checkpoint/science
 	name = "Security Post - Science"
 	icon_state = "checkpoint_sci"
@@ -1308,14 +1266,6 @@
 	name = "\improper Cargo Lobby"
 	icon_state = "cargo_lobby"
 
-/area/station/cargo/qm
-	name = "\improper Quartermaster's Office"
-	icon_state = "quart_office"
-
-/area/station/cargo/break_room
-	name = "\improper Cargo Break Room"
-	icon_state = "cargo_bay"
-
 /area/station/cargo/miningdock
 	name = "\improper Mining Dock"
 	icon_state = "mining_dock"
@@ -1346,10 +1296,6 @@
 
 /area/station/science/lower
 	name = "\improper Lower Science Division"
-	icon_state = "lower_science"
-
-/area/station/science/upper
-	name = "\improper Upper Science Division"
 	icon_state = "lower_science"
 
 /area/station/science/breakroom
@@ -1413,6 +1359,10 @@
 	name = "\improper Research Division Server Room"
 	icon_state = "server"
 
+/area/station/science/circuits
+	name = "\improper Circuit Lab"
+	icon_state = "cir_lab"
+
 /area/station/science/explab
 	name = "\improper Experimentation Lab"
 	icon_state = "exp_lab"
@@ -1421,6 +1371,9 @@
 /area/station/science/auxlab
 	name = "\improper Auxillary Lab"
 	icon_state = "aux_lab"
+
+/area/station/science/auxlab/firing_range
+	name = "\improper Research Firing Range"
 
 /area/station/science/robotics
 	name = "Robotics"
