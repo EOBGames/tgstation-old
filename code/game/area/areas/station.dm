@@ -498,9 +498,25 @@
 	name = "\improper Recreation Area"
 	icon_state = "rec"
 
+/area/station/commons/fitness/recreation/rec_room
+	name = "\improper Rec Room"
+	icon_state = "rec"
+
 /area/station/commons/fitness/recreation/entertainment
 	name = "\improper Entertainment Center"
 	icon_state = "entertainment"
+
+/area/station/commons/fitness/recreation/entertainment/arcade
+	name = "\improper Arcade"
+	icon_state = "entertainment"
+
+/area/station/commons/botanical_garden
+	name = "\improper Botanical Garden"
+	icon_state = "garden"
+
+/area/station/commons/botanical_garden/gantries
+	name = "\improper Botanical Garden Gantries"
+	icon_state = "garden"
 
 // Commons - Vacant Rooms
 /area/station/commons/vacant_room
@@ -555,6 +571,22 @@
 
 /area/station/service/barber
 	name = "\improper Barber"
+	icon_state = "barber"
+
+/area/station/service/coffee_shop
+	name = "\improper Coffee Shop"
+	icon_state = "barber"
+
+/area/station/service/convenience_store
+	name = "\improper Convenience Store"
+	icon_state = "barber"
+
+/area/station/service/pizzeria
+	name = "\improper Pizzeria"
+	icon_state = "barber"
+
+/area/station/service/smoothie_bar
+	name = "\improper Smoothie Bar"
 	icon_state = "barber"
 
 /area/station/service/kitchen
@@ -965,6 +997,18 @@
 	name = "Medbay Aft"
 	icon_state = "med_aft"
 
+/area/station/medical/medbay/lower
+	name = "Lower Medbay"
+	icon_state = "med_aft"
+
+/area/station/medical/medbay/lower/west
+	name = "Lower Medbay - West"
+	icon_state = "med_aft"
+
+/area/station/medical/medbay/lower/east
+	name = "Lower Medbay - East"
+	icon_state = "med_aft"
+
 /area/station/medical/storage
 	name = "Medbay Storage"
 	icon_state = "med_storage"
@@ -979,6 +1023,10 @@
 
 /area/station/medical/break_room
 	name = "\improper Medical Break Room"
+	icon_state = "med_break"
+
+/area/station/medical/break_room/common_room
+	name = "\improper Medical Common Room"
 	icon_state = "med_break"
 
 /area/station/medical/coldroom
@@ -996,6 +1044,10 @@
 
 /area/station/medical/patients_rooms/room_b
 	name = "Patient Room B"
+	icon_state = "patients"
+
+/area/station/medical/patients_rooms/recovery_ward
+	name = "Recovery Ward"
 	icon_state = "patients"
 
 /area/station/medical/virology
@@ -1287,6 +1339,35 @@
 	name = "\improper Mining Office"
 	icon_state = "mining"
 
+/area/station/cargo/break_room
+	name = "\improper Cargo Break Room"
+	icon_state = "mining"
+
+//Departmental Mailrooms
+/area/station/cargo/dep_mailroom
+	name = "\improper Departmental Mailroom"
+	icon_state = "mining"
+
+/area/station/cargo/dep_mailroom/medical
+	name = "\improper Departmental Mailroom - Medical"
+	icon_state = "mining"
+
+/area/station/cargo/dep_mailroom/science
+	name = "\improper Departmental Mailroom - Science"
+	icon_state = "mining"
+
+/area/station/cargo/dep_mailroom/engineering
+	name = "\improper Departmental Mailroom - Engineering"
+	icon_state = "mining"
+
+/area/station/cargo/dep_mailroom/service
+	name = "\improper Departmental Mailroom - Service"
+	icon_state = "mining"
+
+/area/station/cargo/dep_mailroom/security
+	name = "\improper Departmental Mailroom - Security"
+	icon_state = "mining"
+
 //Science
 
 /area/station/science
@@ -1301,6 +1382,14 @@
 
 /area/station/science/lower
 	name = "\improper Lower Science Division"
+	icon_state = "lower_science"
+
+/area/station/science/upper
+	name = "\improper Upper Science Division"
+	icon_state = "lower_science"
+
+/area/station/science/stairwell
+	name = "\improper Science Division Stairwell"
 	icon_state = "lower_science"
 
 /area/station/science/breakroom
