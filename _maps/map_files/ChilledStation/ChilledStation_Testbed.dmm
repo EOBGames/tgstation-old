@@ -2927,6 +2927,15 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/cryo)
+"bsb" = (
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/xenobiology)
 "bsp" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/white{
@@ -20680,11 +20689,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/break_room)
-"kkT" = (
-/turf/open/floor/iron/stairs/left{
-	dir = 8
-	},
-/area/station/science/xenobiology)
 "kkV" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -27924,6 +27928,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
+"nuS" = (
+/turf/open/floor/iron/dark,
+/area/icemoon/surface/outdoors/nospawn)
 "nvk" = (
 /obj/machinery/announcement_system,
 /obj/structure/table/reinforced,
@@ -28125,11 +28132,17 @@
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/storage/tech)
 "nyM" = (
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/open/floor/iron/stairs/left{
 	dir = 1
 	},
 /area/station/science/xenobiology)
 "nyS" = (
+/obj/structure/railing{
+	dir = 4
+	},
 /turf/open/floor/iron/stairs/right{
 	dir = 1
 	},
@@ -123505,7 +123518,7 @@ lKw
 iUU
 wpY
 jQu
-eAm
+ehB
 nyS
 nUT
 sdx
@@ -123762,7 +123775,7 @@ lnc
 lnc
 iUU
 jQu
-uXX
+aPI
 nzy
 nUT
 sdx
@@ -124019,7 +124032,7 @@ lnc
 lnc
 iUU
 jQu
-uXX
+aPI
 nBK
 nUT
 mul
@@ -124276,7 +124289,7 @@ lLi
 lnc
 iUU
 jQu
-uXX
+aPI
 nCJ
 nUT
 muR
@@ -124533,7 +124546,7 @@ iUU
 iUU
 wpY
 jQu
-uXX
+aPI
 nBK
 nUT
 omi
@@ -124790,7 +124803,7 @@ loq
 loq
 iUU
 jQu
-uXX
+aPI
 nDb
 nUT
 sdx
@@ -125047,7 +125060,7 @@ loq
 loq
 iUU
 jQu
-mog
+bsb
 nyM
 nUT
 sdx
@@ -126582,7 +126595,7 @@ wpY
 wpY
 iUU
 wpY
-kkT
+vwC
 vKW
 loU
 lNc
@@ -151967,7 +151980,7 @@ qsE
 qsE
 qsE
 qsE
-xUD
+qsE
 qsE
 qsE
 qsE
@@ -279576,11 +279589,11 @@ mxI
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+mxI
+mxI
+mxI
+mxI
+mxI
 qvL
 qvL
 qvL
@@ -279833,11 +279846,11 @@ mxI
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+mxI
+nuS
+nuS
+nuS
+mxI
 qvL
 qvL
 qvL
@@ -280091,10 +280104,10 @@ mxI
 mxI
 mxI
 mxI
-qvL
-qvL
-qvL
-qvL
+nuS
+nuS
+nuS
+mxI
 qvL
 qvL
 qvL
@@ -280347,11 +280360,11 @@ vUt
 vUt
 vUt
 vUt
-qvL
-qvL
-qvL
-qvL
-qvL
+nuS
+nuS
+nuS
+nuS
+mxI
 qvL
 qvL
 qvL
@@ -280604,11 +280617,11 @@ vUt
 vUt
 vUt
 vUt
-qvL
-qvL
-qvL
-qvL
-qvL
+nuS
+nuS
+nuS
+nuS
+mxI
 qvL
 qvL
 qvL
@@ -280861,11 +280874,11 @@ vUt
 vUt
 vUt
 vUt
-qvL
-qvL
-qvL
-qvL
-qvL
+nuS
+nuS
+nuS
+nuS
+mxI
 qvL
 qvL
 qvL
@@ -281119,10 +281132,10 @@ mxI
 mxI
 mxI
 mxI
-qvL
-qvL
-qvL
-qvL
+nuS
+nuS
+nuS
+mxI
 qvL
 qvL
 qvL
@@ -281375,11 +281388,11 @@ mxI
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+mxI
+nuS
+nuS
+nuS
+mxI
 qvL
 qvL
 qvL
@@ -281632,11 +281645,11 @@ mxI
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+mxI
+mxI
+mxI
+mxI
+mxI
 qvL
 qvL
 qvL
