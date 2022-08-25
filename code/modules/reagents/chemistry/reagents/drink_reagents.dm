@@ -1280,3 +1280,14 @@
 	glass_name = "vanilla dream smoothie"
 	glass_desc = "A classic drink made with vanilla and fresh cream."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/hakka_mate //A mate based soda that might or might not be based on a similar German brand
+	name = "Hakkā-Mate"
+	description = "A yerba-mate and green tea soda straight from the streets of Mars. Popular with hackers and programmers."
+	color = "#554862"
+	nutriment_factor = 0
+	taste_description = "tea and mate"
+	glass_icon_state = "hakkā_mate"
+	glass_name = "glass of Hakka-Mate"
+	glass_desc = "Hakkā-Mate: it's an acquired taste."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED

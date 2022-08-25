@@ -2926,3 +2926,79 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc ="A single plum floating in perfume, served in a man's hat."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	glass_price = DRINK_PRICE_STOCK
+
+// Martian Drinks
+/datum/reagent/consumable/ethanol/martian_reisbiru
+	name = "Reisbiru"
+	description = "A light, rice-based lagered beer popular on Mars. Considered a hate crime against Bavarians under the Reinheitsgebot Act of 1516."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "mild carbonated malt"
+	glass_icon_state = "beerglass"
+	glass_name = "glass of reisbiru"
+	glass_desc = "A glass of fine rice beer."
+	ph = 4
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	fallback_icon_state = "beer"
+	glass_price = DRINK_PRICE_STOCK
+
+/datum/reagent/consumable/ethanol/bosozoku //Radler- beer, lemonade
+	name = "Bōsōzoku"
+	description = "A simple summer drink from Mars, made from a 50:50 mix of rice beer and lemonade."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "mild carbonated malt"
+	glass_icon_state = "beerglass"
+	glass_name = "Four Bit"
+	glass_desc = "Straight out of the pits of a Martian hacking convention."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/ersatzche //Faux tepache: pineapple juice, rice beer, capsaicin, sugar
+	name = "Ersatzche"
+	description = "Sweet, bitter, spicy- that's a great combination."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "spicy pineapple beer"
+	glass_icon_state = "beerglass"
+	glass_name = "Ersatzche"
+	glass_desc = "An interesting drink invented in the Blue Room Bar and Grill in New Osaka. It's a tasty take on Mexican tepache, made with a beer base."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/red_city_am //Michelada: rice beer, lime, salt, capsaicin, soy sauce, tomato juice
+	name = "Red City AM"
+	description = "A breakfast drink from New Osaka, for when you really need to get drunk at 9:30 in the morning in more socially acceptable manner than drinking wine on the bullet train. Not that you should drink this on the bullet train either."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "breakfast in a glass"
+	glass_icon_state = "beerglass"
+	glass_name = "Red City AM"
+	glass_desc = "A popular breakfast drink from New Osaka's bars- for the enterprising day drinker."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/four_bit //Tschunk! rum, lime, hakka-mate
+	name = "Four Bit"
+	description = "A drink to power your typing hands."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "cyberspace"
+	glass_icon_state = "beerglass"
+	glass_name = "Four Bit"
+	glass_desc = "Straight out of the pits of a Martian hacking convention."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/oolong_hai //tea, shochu
+	name = "Oolong Hai"
+	description = "A refreshing beverage combining oolong tea and shochu, brought by the Japanese diaspora to bars across the galaxy."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "spiked tea"
+	glass_icon_state = "beerglass"
+	glass_name = "Oolong Hai"
+	glass_desc = "Refreshing, like a gentle breeze through the cherry blossoms."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
