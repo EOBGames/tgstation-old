@@ -2927,7 +2927,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	glass_price = DRINK_PRICE_STOCK
 
-// Martian Drinks
+// Martian Drinks- Base
 /datum/reagent/consumable/ethanol/martian_reisbiru
 	name = "Reisbiru"
 	description = "A light, rice-based lagered beer popular on Mars. Considered a hate crime against Bavarians under the Reinheitsgebot Act of 1516."
@@ -2943,16 +2943,125 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	fallback_icon_state = "beer"
 	glass_price = DRINK_PRICE_STOCK
 
-/datum/reagent/consumable/ethanol/bosozoku //Radler- beer, lemonade
+/datum/reagent/consumable/ethanol/shochu
+	name = "Shochu"
+	description = "Also known as soju or baijiu, this drink is made from fermented rice, much like sake, but at a generally higher proof making it more similar to a true spirit."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "stiff rice wine"
+	glass_icon_state = "beerglass"
+	glass_name = "glass of shochu"
+	glass_desc = "A glass of strong rice wine."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/yuyake
+	name = "Yūyake"
+	description = "A sweet melon liqueur from Japan. Considered a relic of the 1980s by most, it has some niche use in cocktail making, in part due to its bright red colour."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "sweet melon"
+	glass_icon_state = "yuyake"
+	glass_name = "glass of yūyake"
+	glass_desc = "You really shouldn't drink this straight- it's basically a syrup."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//Martian Drinks- Mixed Drinks
+/datum/reagent/consumable/ethanol/yuyakita //lime juice, yuyake, tequila
+	name = "Yūyakita"
+	description = "A hell unleashed upon the world by an unnamed patron."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "death"
+	glass_icon_state = "yuyakita"
+	glass_name = "Yūyakita"
+	glass_desc = "And I looked, and behold a pale horse: and his name that sat on him was Death, and Hell followed with him."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/saibasan //soju, yuyake, cherry, triple citrus
+	name = "Saibāsan"
+	description = "A drink glorifying Cybersun's enduring business."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "betrayal"
+	glass_icon_state = "saibasan"
+	glass_name = "Saibāsan"
+	glass_desc = "A drink made in honour of Cybersun Industries' 600th year of continual business. Officially, you're meant to call this a Hong Kong Cooler on Nanotrasen stations, but that name sucks."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/banzai_ti //Yuyake, Triple Sec, Gin, Rum, Tequila, Vodka, Triple Citrus, Soda Water
+	name = "Banzai-Tī"
+	description = "A variation on the Long Island Iced Tea, made with yuyake for an alternative flavour that's hard to place."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "the liquor cabinet"
+	glass_icon_state = "banzai_ti"
+	glass_name = "Banzai-Tī"
+	glass_desc = "A drink to last ten-thousand years- better sip slowly then."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/sanraizusoda //Yuyake, Soda Water, Cream, Ice
+	name = "Sanraizusōda"
+	description = "It's a melon cream soda, except with alcohol- what's not to love? Well... possibly the hangovers."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "creamy melon soda"
+	glass_icon_state = "sanraizusoda"
+	glass_name = "Sanraizusōda"
+	glass_desc = "A popular children's dessert from Japan, made adult with the addition of booze. Kanpai!"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/kumicho //Shochu, Whiskey, Amaretto, Bitters
+	name = "Kumichō"
+	description = "A new take on a classic cocktail, the Kumicho takes the Godfather formula and adds shochu for an Asian twist."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "rice and rye"
+	glass_icon_state = "kumicho"
+	glass_name = "Kumichō"
+	glass_desc = "Much like the American Godfather, the Kumichō is sophisticated, strong, and possibly tied to illicit activities."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/red_planet //Shochu, Triple Sec, Vermouth, Grenadine, Bitters, if only we had a decent red apertif this could be classier
+	name = "Red Planet"
+	description = "Made in celebration of the Martian Concession, the Red Planet is based on the classic El Presidente, and is as patriotic as it is bright crimson."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "the spirit of freedom"
+	glass_icon_state = "red_planet"
+	glass_name = "Red Planet"
+	glass_desc = "A patriotic drink from Mars, commonly enjoyed on September 15th: the day that peace was declared following the Martian uprising, with the Martian Concession granting Mars proper representation as part of the Terran Federation."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/amaterasus_emergence //Shochu, Berry Juice, Vodka, Grenadine, Soda Water
+	name = "Amaterasu's Emergence"
+	description = "Named for Amaterasu, the Shinto Goddess of the Sun, and specifically of her emergence from the Heavenly Rock Cave."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "sweet nectar of the gods"
+	glass_icon_state = "red_planet"
+	glass_name = "Amaterasu's Emergence"
+	glass_desc = "And so Amaterasu emerged from the Heavenly Rock Cave, and light was restored to the world."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/bosozoku //rice beer, lemonade- simple, classic, wholly delicious on a hot summer day over ice
 	name = "Bōsōzoku"
 	description = "A simple summer drink from Mars, made from a 50:50 mix of rice beer and lemonade."
 	color = "#664300" // rgb: 102, 67, 0
 	nutriment_factor = 1 * REAGENTS_METABOLISM
 	boozepwr = 25
-	taste_description = "mild carbonated malt"
+	taste_description = "bitter lemon"
 	glass_icon_state = "beerglass"
-	glass_name = "Four Bit"
-	glass_desc = "Straight out of the pits of a Martian hacking convention."
+	glass_name = "Bōsōzoku"
+	glass_desc = "A refreshing summer drink enjoyed across Mars and beyond. Any resemblance to shandies or radlers is unintentional." //Ha ha, this will surely throw them off my scent
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/ersatzche //Faux tepache: pineapple juice, rice beer, capsaicin, sugar
@@ -2977,6 +3086,18 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_icon_state = "beerglass"
 	glass_name = "Red City AM"
 	glass_desc = "A popular breakfast drink from New Osaka's bars- for the enterprising day drinker."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/koenigs_loesegeld //gin, rice beer, berry juice, bitters
+	name = "König's Lösegeld"
+	description = "A stiff, bitter drink with an odd name and odder recipe."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "bitter raspberry"
+	glass_icon_state = "beerglass"
+	glass_name = "Königs Lösegeld"
+	glass_desc = "Also known as the King's Ransom, this drink manages to marry a number of seemingly conflicting flavours into a single harmonious taste."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/four_bit //Tschunk! rum, lime, hakka-mate

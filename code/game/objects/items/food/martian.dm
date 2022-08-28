@@ -62,6 +62,148 @@
 	foodtypes = MEAT | GRAIN | SEAFOOD | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
+// Main Dishes
+/obj/item/food/erdesei_katsu_meal
+	name = "erdesei-katsu meal"
+	desc = "Breaded and deep fried meat, with a topping of Martian-style Erdeseisauß, a side of spicy fries and a kimchi slaw."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "erdesei_katsu_meal"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("peanut" = 1, "meat" = 1, "breadcrumbs" = 1, "fries" = 1, "kimchi" = 1)
+	foodtypes = MEAT | NUTS | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/salad/katsu_curry
+	name = "katsu curry"
+	desc = "Breaded and deep fried meat, topped with curry sauce and served on a bed of rice."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "katsu_curry"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("curry" = 1, "meat" = 1, "breadcrumbs" = 1, "rice" = 1)
+	foodtypes = MEAT | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/omurroz
+	name = "omurroz"
+	desc = "An omelette stuffed with spicy fried rice and topped with a spicy tomato salsa."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "omurroz"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("egg" = 1, "spicy rice" = 1, "salsa" = 1)
+	foodtypes = MEAT | GRAIN | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/shoyu_ramen
+	name = "shōyu ramen"
+	desc = "A soy-sauce based ramen, with noodles, fishcake, barbecued meat and a boiled egg."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "shoyu_ramen"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("egg" = 1, "fish" = 1, "noodles" = 1, "meat" = 1, "broth" = 1)
+	foodtypes = MEAT | GRAIN | VEGETABLES | SEAFOOD
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/chileramen_miy_kaezu
+	name = "chileramen miy käzu"
+	desc = "A spicy beef and onion ramen with cheese- blending several cultural influences seemlessly into one tasty dish."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "shoyu_ramen"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("beef broth" = 1, "onion" = 1, "cheese" = 1)
+	foodtypes = MEAT | GRAIN | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/salad/bulgogi_noodles
+	name = "bulgogi noodles"
+	desc = "Korean barbecue meat served with noodles! Made with gochujang, for extra spicy flavour."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "bulgogi_noodles"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("barbecue meat" = 1, "noodles" = 1, "chilli heat" = 1)
+	foodtypes = MEAT | GRAIN | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/bulgogi_teller
+	name = "bulgogi teller"
+	desc = "Fried bulgogi beef, topped with garlic-cream sauce, and served alongside spicy fries and a kimchi salad."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "bulgogi_teller"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("barbecue meat" = 1, "fries" = 1, "spicy cabbage" = 1, "garlic" = 1)
+	foodtypes = MEAT | VEGETABLES | DAIRY
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/salad/bibimbap
+	name = "bibimbap"
+	desc = "A Korean dish consisting of rice and various toppings, served in a hot stone bowl."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "bibimbap"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("rice" = 1, "spicy cabbage" = 1, "chilli heat" = 1, "egg" = 1, "meat" = 1)
+	foodtypes = MEAT | VEGETABLES | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/salad/huoxing_tofu
+	name = "\improper Huoxing tofu"
+	desc = "An adaptation of mapo tofu made famous in Prospect, the foodie Mecca of Mars. It even kinda looks like Mars, if you really squint."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "huoxing_tofu"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("meat" = 1, "chilli heat" = 1, "tofu" = 1)
+	foodtypes = MEAT | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/soup/new_osaka_sunrise
+	name = "\improper New Osaka Sunrise miso soup"
+	desc = "A bright, flavourful miso soup with tofu that commonly forms part of a traditional Martian breakfast, at least in the capital."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "new_osaka_sunrise"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("miso" = 1, "tofu" = 1, "onion" = 1)
+	foodtypes = MEAT | GRAIN | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/cilbir
+	name = "çilbir"
+	desc = "Eggs, served on a savoury yoghurt base with a spicy oil topping. Originally a Turkish dish, it came to Mars with German-Turkish settlers and has become a breakfast mainstay since."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "new_osaka_sunrise"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("yoghurt" = 1, "garlic" = 1, "lemon" = 1, "egg" = 1, "chilli heat" = 1)
+	foodtypes = MEAT | DAIRY | VEGETABLES | FRUIT
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/peking_duck_crepes
+	name = "\improper Peking duck crepes a l'orange"
+	desc = "This dish takes the best of Beijing's and Paris' cuisines to make a deliciously tangy and savoury meal."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "peking_duck_crepes"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("meat" = 1, "crepes" = 1, "orange" = 1)
+	foodtypes = MEAT | DAIRY | VEGETABLES | FRUIT
+	w_class = WEIGHT_CLASS_SMALL
+
+//Cakes
+/obj/item/food/cake/spekkoek
+	name = "vulgaris spekkoek"
+	desc = "Brought to Mars by both Dutch and Indonesian settlers, spekkoek is a common holiday cake on the Red Planet, often being served as part of a traditional rijsttafel. Use of ambrosia vulgaris as a flavouring is one of necessity in deep space, as pandan leaf is rare this far from Earth."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "spekkoek"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/consumable/nutriment/vitamin = 7)
+	tastes = list("winter spices" = 2, "ambrosia vulgaris" = 2, "cake" = 5)
+	foodtypes = GRAIN | SUGAR | DAIRY
+	burns_in_oven = TRUE
+
+/obj/item/food/cake/spekkoek/MakeProcessable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/cakeslice/spekkoek, 5, 3 SECONDS, table_required = TRUE)
+
+/obj/item/food/cakeslice/spekkoek
+	name = "vulgaris spekkoek slice"
+	desc = "A slice of vulgaris spekkoek. If you're Martian, this might remind you of home."
+	icon_state = "spekkoek_slice"
+	tastes = list("winter spices" = 2, "ambrosia vulgaris" = 2, "cake" = 5)
+	foodtypes = GRAIN | SUGAR | DAIRY
+
 // Street Foods/Snacks
 /obj/item/food/brat_kimchi
 	name = "brat-kimchi"

@@ -1284,10 +1284,19 @@
 /datum/reagent/consumable/hakka_mate //A mate based soda that might or might not be based on a similar German brand
 	name = "Hakkā-Mate"
 	description = "A yerba-mate and green tea soda straight from the streets of Mars. Popular with hackers and programmers."
-	color = "#554862"
+	color = "#C4B000"
 	nutriment_factor = 0
 	taste_description = "tea and mate"
 	glass_icon_state = "hakkā_mate"
 	glass_name = "glass of Hakka-Mate"
 	glass_desc = "Hakkā-Mate: it's an acquired taste."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/hakka_mate/overdose_process(mob/living/M, delta_time, times_fired)
+	M.set_timed_status_effect(10 SECONDS * REM * delta_time, /datum/status_effect/jitter, only_if_higher = TRUE)
+	..()
+
+/datum/reagent/consumable/hakka_mate/on_mob_life(mob/living/carbon/M, delta_time, times_fired)
+	M.adjust_timed_status_effect(-10 SECONDS * REM * delta_time, /datum/status_effect/dizziness)
+	M.adjust_drowsyness(-3 * REM * delta_time)
+	M.AdjustSleeping(-40 * REM * delta_time)

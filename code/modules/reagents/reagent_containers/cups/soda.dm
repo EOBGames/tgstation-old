@@ -266,3 +266,26 @@
 	desc = "There is no air shortage. Do not drink."
 	icon_state = "air"
 	list_reagents = list(/datum/reagent/nitrogen = 24, /datum/reagent/oxygen = 6)
+
+/obj/item/reagent_containers/cup/soda_cans/martian_reisbiru
+	name = "Martian Reisbiru"
+	desc = "A light, rice-based lagered beer popular on Mars. Considered a hate crime against Bavarians under the Reinheitsgebot Act of 1516."
+	icon_state = "ebisu"
+	list_reagents = list(/datum/reagent/consumable/ethanol/martian_reisbiru = 30)
+	drink_type = GRAIN | ALCOHOL
+
+/obj/item/reagent_containers/cup/soda_cans/martian_reisbiru/Initialize(mapload, vol)
+	. = ..()
+	var/brand = pick_weight(
+		list("Ebisu Super Dry" = 1, "Shimauma Ichiban" = 1, "Moonlabor Premium Malt's" = 1))
+	name = "[brand]"
+	switch(brand)
+		if("Ebisu Super Dry")
+			desc = "Mars' most popular rice beer brand, Ebisu is best known for its \"Super Dry\" branding. How exactly can a beer be dry?"
+			icon_state = "ebisu"
+		if("Shimauma Ichiban")
+			desc = "Mars' second most popular rice beer brand. While they might be in second place behind Ebisu, they claim their beer is \"drier\". Whatever that means."
+			icon_state = "shimauma"
+		if("Moonlabor Premium Malt's")
+			desc = "Mars' third most popular rice beer brand. Moonlabor decided to avoid getting into the dryness wars with their competitors, instead focusing on the quality of their rice."
+			icon_state = "moonlabor"

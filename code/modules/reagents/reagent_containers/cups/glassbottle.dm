@@ -187,6 +187,15 @@
 	drink_type = GRAIN | ALCOHOL
 	custom_price = PAYCHECK_CREW
 
+/obj/item/reagent_containers/cup/glass/bottle/hakka_mate
+	name = "Hakkā-Mate"
+	desc = "A yerba-mate and green tea soda straight from the streets of Mars. Popular with hackers and programmers."
+	icon_state = "hakkabottle"
+	volume = 30
+	list_reagents = list(/datum/reagent/consumable/hakka_mate = 30)
+	drink_type = SUGAR | JUNKFOOD
+	custom_price = PAYCHECK_CREW
+
 /obj/item/reagent_containers/cup/glass/bottle/gin
 	name = "Griffeater gin"
 	desc = "A bottle of high quality gin, produced in the New London Space Station."
@@ -443,6 +452,18 @@
 	desc = "Ironically named, given it's made in Bermuda."
 	icon_state = "navy_rum_bottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/navy_rum = 100)
+
+/obj/item/reagent_containers/cup/glass/bottle/shochu
+	name = "Olympus Mons Shochu"
+	desc = "A Martian-made shochu, perfect for making the cocktails of the Red Planet."
+	icon_state = "shochu_bottle"
+	list_reagents = list(/datum/reagent/consumable/ethanol/shochu = 100)
+
+/obj/item/reagent_containers/cup/glass/bottle/yuyake
+	name = "Moonlabor Yūyake"
+	desc = "A relic of the 1980s, bottled and shipped straight to your door. Lucky, too, since it's good in cocktails."
+	icon_state = "yuyake_bottle"
+	list_reagents = list(/datum/reagent/consumable/ethanol/yuyake = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/grenadine
 	name = "Jester Grenadine"
