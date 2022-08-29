@@ -571,7 +571,10 @@
 		/datum/reagent/consumable/ethanol/triple_sec,
 		/datum/reagent/consumable/ethanol/curacao,
 		/datum/reagent/consumable/ethanol/sake,
-		/datum/reagent/consumable/ethanol/applejack
+		/datum/reagent/consumable/ethanol/applejack,
+		/datum/reagent/consumable/ethanol/martian_reisbiru,
+		/datum/reagent/consumable/ethanol/shochu,
+		/datum/reagent/consumable/ethanol/yuyake
 	)
 	upgrade_reagents = null
 	emagged_reagents = list(

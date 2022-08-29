@@ -3052,6 +3052,18 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_desc = "And so Amaterasu emerged from the Heavenly Rock Cave, and light was restored to the world."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/reagent/consumable/ethanol/nekomimosa //Yuyake, Melon Juice, Champagne (if we don't laugh at our mistakes, we'll cry)
+	name = "Nekomimosa"
+	description = "An overly sweet cocktail, made with melon liqueur, melon juice, and champagne (which contains no melon, unfortunately)."
+	color = "#664300" // rgb: 102, 67, 0
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "MELON"
+	glass_icon_state = "nekomimosa"
+	glass_name = "Nekomimosa"
+	glass_desc = "A syrupy mess of a cocktail, dedicated to a felinid popstar that took Mars by storm a few years ago."
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
 /datum/reagent/consumable/ethanol/bosozoku //rice beer, lemonade- simple, classic, wholly delicious on a hot summer day over ice
 	name = "Bōsōzoku"
 	description = "A simple summer drink from Mars, made from a 50:50 mix of rice beer and lemonade."

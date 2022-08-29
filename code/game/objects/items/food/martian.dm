@@ -285,6 +285,26 @@
 	foodtypes = FRUIT | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/kitzushi
+	name = "kitzushi"
+	desc = "A variant on inarizushi popular on Mars amongst vulpinids (and the wider animalid community), kitzushi integrates a spicy cheese and chilli mix inside the pocket for extra flavour."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "kitzushi"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("rice" = 1, "tofu" = 1, "chilli cheese" = 1)
+	foodtypes = MEAT | GRAIN | FRIED | VEGETABLES | DAIRY
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/takoyaki
+	name = "takoyaki"
+	desc = "A classic Japanese street food, takoyaki (or octopus balls) are made from octopus and onion inside a fried batter, topped with a savoury sauce."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "takoyaki"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("octopus" = 1, "batter" = 1, "onion" = 1, "worcestershire sauce" = 1)
+	foodtypes = MEAT | GRAIN | FRIED | VEGETABLES | DAIRY
+	w_class = WEIGHT_CLASS_SMALL
+
 // Desserts
 /obj/item/food/salad/halo_halo
 	name = "halo-halo"

@@ -1071,3 +1071,10 @@
 	color = "#efeff0"
 	nutriment_factor = 1.5 * REAGENTS_METABOLISM
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/worcestershire_sauce
+	name = "Worcestershire Sauce"
+	description = "A savoury fish sauce originating in Worcester, England. It's since went on to become a staple ingredient across Earth, and in turn, human controlled space. Next stop: the Lizard Empire."
+	taste_description = "concentrated umami"
+	color = "#542D26"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
