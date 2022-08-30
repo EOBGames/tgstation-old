@@ -160,7 +160,7 @@
 	icon_state = "new_osaka_sunrise"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
 	tastes = list("miso" = 1, "tofu" = 1, "onion" = 1)
-	foodtypes = MEAT | GRAIN | VEGETABLES
+	foodtypes = MEAT | GRAIN | VEGETABLES | BREAKFAST
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/cilbir
@@ -170,7 +170,7 @@
 	icon_state = "new_osaka_sunrise"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
 	tastes = list("yoghurt" = 1, "garlic" = 1, "lemon" = 1, "egg" = 1, "chilli heat" = 1)
-	foodtypes = MEAT | DAIRY | VEGETABLES | FRUIT
+	foodtypes = DAIRY | VEGETABLES | FRUIT | BREAKFAST
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/peking_duck_crepes
@@ -267,7 +267,7 @@
 
 /obj/item/food/kebab/ti_hoeh_koe
 	name = "ti hoeh koe skewer"
-	desc = "Pig blood, mixed with rice, fried, and topped with peanut and coriander. It's an... acquired taste for sure, but is popular at Prospect's night markets, brough by Taiwanese settlers."
+	desc = "Pig blood, mixed with rice, fried, and topped with peanut and coriander. It's an... acquired taste for sure, but it's popular at Prospect's night markets, brought by Taiwanese settlers."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "ti_hoe_koe"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
@@ -277,7 +277,7 @@
 
 /obj/item/food/kebab/kasei_dango
 	name = "kasei dango"
-	desc = "Japanese-style dango balls, flavoured with pomegranate and orange, giving a final result that looks like Mars and tastes like dessert, served three to a stick."
+	desc = "Japanese-style dango balls, flavoured with grenadine and orange, giving a final result that looks like Mars and tastes like dessert, served three to a stick."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "kasei_dango"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
@@ -292,7 +292,7 @@
 	icon_state = "kitzushi"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
 	tastes = list("rice" = 1, "tofu" = 1, "chilli cheese" = 1)
-	foodtypes = MEAT | GRAIN | FRIED | VEGETABLES | DAIRY
+	foodtypes = GRAIN | FRIED | VEGETABLES | DAIRY
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/takoyaki
@@ -303,6 +303,26 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
 	tastes = list("octopus" = 1, "batter" = 1, "onion" = 1, "worcestershire sauce" = 1)
 	foodtypes = MEAT | GRAIN | FRIED | VEGETABLES | DAIRY
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/salad/tako_campechana
+	name = "tako campechana"
+	desc = "Traditionally known as pulpo a la campechana, this dish originated in Mexico and became a popular Martian dish."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "takoyaki"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("octopus" = 1, "squid ink" = 1, "tomato sauce" = 1, "chilli heat" = 1, "herbs" = 1, "wine" = 1)
+	foodtypes = SEAFOOD | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/salad/takosu
+	name = "takosu"
+	desc = "A classic Japanese salad enjoyed at izakayas, both in Japan, and on Mars."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "takosu"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
+	tastes = list("octopus" = 1, "cucumber" = 1, "seaweed" = 1, "vinegar" = 1, "soy sauce" = 1)
+	foodtypes = SEAFOOD | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
 // Desserts
@@ -320,9 +340,9 @@
 	name = "pineapple foster"
 	desc = "A classic Martian adaptation of another classic dessert, Pineapple Foster is a toasty sweet treat which presents only a mild-to-moderate fire risk."
 	icon = 'icons/obj/food/martian.dmi'
-	icon_state = "halo_halo"
+	icon_state = "pineapple_foster"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
-	tastes = list("pineapple" = 1, "vanilla" = 1)
+	tastes = list("pineapple" = 1, "vanilla" = 1, "caramel" = 1)
 	foodtypes = FRUIT | DAIRY | PINEAPPLE
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -369,11 +389,11 @@
 
 /obj/item/food/ballpark_fish_fry
 	name = "ballpark fish fry"
-	desc = "A tasty fried fish dish with spicy mayo from Mars' ballparks. Crispy, tasty, and burning hot."
+	desc = "A tasty fried fish dish with (very) spicy mayo from Mars' ballparks. Crispy, tasty, and burning hot."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "ballpark_fish_fry"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/blood = 3)
-	tastes = list("fish" = 1, "fries" = 1, "spicy mayo" = 1)
+	tastes = list("fish" = 1, "fries" = 1, "an inferno" = 1)
 	foodtypes = SEAFOOD | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 

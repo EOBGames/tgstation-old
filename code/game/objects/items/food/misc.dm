@@ -837,6 +837,34 @@
 	tastes = list("enchiladas" = 2, "laziness" = 1)
 	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
 
+/obj/item/food/ready_donk/donk_pow_chicken
+	name = "\improper Ready-Donk: Donk-Pow! Chicken"
+	desc = "Donk-Pow! Chicken and fried rice: as authentically Chinese as General Tso's!"
+	microwaved_type = /obj/item/food/ready_donk/warm/donk_pow_chicken
+	tastes = list("kung-pao chicken" = 2, "laziness" = 1)
+	foodtypes = GRAIN | MEAT | VEGETABLES | JUNKFOOD
+
+/obj/item/food/ready_donk/warm/donk_pow_chicken
+	name = "warm Ready-Donk: Donk-Pow! Chicken"
+	desc = "Donk-Pow! Chicken and fried rice: as hot as a dragon's breath!"
+	icon_state = "ready_donk_warm_donk_pow"
+	tastes = list("kung-pao chicken" = 2, "laziness" = 1)
+	foodtypes = GRAIN | MEAT | VEGETABLES | JUNKFOOD
+
+/obj/item/food/ready_donk/nachos_grandes
+	name = "\improper Ready-Donk: Donk World Series Nachos Grandes"
+	desc = "Hot and spicy nachos with Monterey Jack queso, Donk Sauce, five-alarm chili, and black beans. Comes with separate sour cream and pico-de-gallo."
+	microwaved_type = /obj/item/food/ready_donk/warm/nachos_grandes
+	tastes = list("deluxe nachos" = 2, "laziness" = 1)
+	foodtypes = GRAIN | MEAT | DAIRY | VEGETABLES | JUNKFOOD
+
+/obj/item/food/ready_donk/warm/nachos_grandes
+	name = "warm Ready-Donk: Donk World Series Nachos Grandes"
+	desc = "Hot and spicy nachos with Monterey Jack queso, Donk Sauce, five-alarm chili, and black beans. Served hotter than a 200MPH swing."
+	icon_state = "ready_donk_warm_nachos"
+	tastes = list("deluxe nachos" = 2, "laziness" = 1)
+	foodtypes = GRAIN | MEAT | DAIRY | VEGETABLES | JUNKFOOD
+
 /obj/item/food/pierogi
 	name = "pierogi"
 	desc = "A dumpling made by wrapping unleavened dough around a savoury or sweet filling and cooking in boiling water. This one is filled with a potato and onion mixture."
