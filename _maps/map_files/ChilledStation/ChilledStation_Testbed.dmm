@@ -1912,6 +1912,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 6
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/dark/textured,
 /area/station/security/warden)
 "aLC" = (
@@ -15738,6 +15739,14 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
+"gkA" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark/textured,
+/area/station/security/warden)
 "gkD" = (
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 1
@@ -16094,6 +16103,11 @@
 /obj/machinery/chem_master,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/chemistry)
+"grv" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/light/cold/no_nightlight/directional/east,
+/turf/open/floor/iron/dark/textured,
+/area/station/science/ordnance/testlab)
 "gse" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/white{
@@ -16503,9 +16517,6 @@
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/aft)
-"gBI" = (
-/turf/open/floor/iron/dark,
-/area/station/maintenance/central)
 "gBM" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -41116,6 +41127,13 @@
 "pKW" = (
 /turf/open/floor/carpet/executive,
 /area/station/command/heads_quarters/cmo)
+"pKY" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/obj/structure/sign/departments/science,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "pKZ" = (
 /obj/machinery/light/cold/no_nightlight/directional/north,
 /turf/open/floor/iron,
@@ -43094,12 +43112,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark/textured,
 /area/station/science/ordnance/storage)
-"qwF" = (
-/obj/machinery/computer/secure_data{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/textured,
-/area/icemoon/underground/explored)
 "qwQ" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/glasses/blindfold{
@@ -45344,10 +45356,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/courtroom)
-"rmq" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/icemoon/underground/explored)
 "rmx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -48553,10 +48561,14 @@
 	pixel_y = 12
 	},
 /obj/item/reagent_containers/cup/glass/bottle/fernet{
+	desc = "A product of the Czech Republic. Kicks like a black bear, which is coincidentally what it's named after.";
+	name = "Cerny Medved fernet";
 	pixel_x = -3;
 	pixel_y = 7
 	},
 /obj/item/reagent_containers/cup/glass/bottle/gin{
+	desc = "An Indian-made gin that has risen to stardom in the London Dry market due to its impeccable quality.";
+	name = "Jewel of the Raj gin";
 	pixel_x = -13;
 	pixel_y = 5
 	},
@@ -49234,9 +49246,6 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/service/pizzeria)
-"sNR" = (
-/turf/open/floor/iron/dark/textured,
-/area/icemoon/underground/explored)
 "sNV" = (
 /turf/open/floor/iron/stairs/old,
 /area/icemoon/underground/explored)
@@ -50343,6 +50352,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/maintenance/central)
+"tnL" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "tnR" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -53780,9 +53793,6 @@
 	dir = 1
 	},
 /area/station/hallway/primary/central/fore)
-"uPY" = (
-/turf/open/floor/iron/dark,
-/area/icemoon/underground/explored)
 "uQe" = (
 /obj/machinery/power/rtg/abductor,
 /obj/structure/cable,
@@ -54943,14 +54953,20 @@
 	},
 /obj/effect/turf_decal/tile/neutral/half,
 /obj/item/reagent_containers/cup/glass/bottle/vermouth{
+	desc = "A dry vermouth from Adasta, where the unique conditions yield a particularly quality product.";
+	name = "Moonlight dry vermouth";
 	pixel_x = -3;
 	pixel_y = 12
 	},
 /obj/item/reagent_containers/cup/glass/bottle/absinthe{
+	desc = "A classic absinthe made in Louisiana. Designed to add the perfect kick to your next Sazerac.";
+	name = "Riverboat Cruise absinthe";
 	pixel_x = -12;
 	pixel_y = 11
 	},
 /obj/item/reagent_containers/cup/glass/bottle/amaretto{
+	desc = "An almond spirit made in Los Angeles from Californian almonds. Some would say that it's not real amaretto since it's not Italian, but the taste doesn't lie.";
+	name = "Angel City amaretto";
 	pixel_x = 8;
 	pixel_y = 11
 	},
@@ -54959,10 +54975,14 @@
 	pixel_y = 4
 	},
 /obj/item/reagent_containers/cup/glass/bottle/cognac{
+	desc = "A fine ambrosia of the French countryside, named for France's most famous general.";
+	name = "Petit Conquérant Napoleon cognac";
 	pixel_x = 5;
 	pixel_y = 7
 	},
 /obj/item/reagent_containers/cup/glass/bottle/whiskey{
+	desc = "A damned fine bourbon whiskey, made in Kentucky to an old recipe.";
+	name = "Old Bluegrass of Kentucky bourbon";
 	pixel_x = 8;
 	pixel_y = 4
 	},
@@ -56345,6 +56365,8 @@
 	pixel_y = 11
 	},
 /obj/item/reagent_containers/cup/glass/bottle/vodka{
+	desc = "The most popular vodka in the Spinward Sector, New Moscow Red is a clean, crisp vodka with a neutral taste. For the connoisseur, there is also New Moscow Blue and New Moscow Black.";
+	name = "New Moscow Red";
 	pixel_x = 11;
 	pixel_y = 5
 	},
@@ -56353,6 +56375,11 @@
 	pixel_y = 6
 	},
 /obj/machinery/light/directional/south,
+/obj/item/reagent_containers/cup/glass/bottle/tequila{
+	desc = "Produced in the Jalisco region, Nuestra Senora is made to an ancient recipe and has been in continuous production for over 500 years. Now that's quality.";
+	name = "Nuestra Senora tequila";
+	pixel_x = 2
+	},
 /turf/open/floor/iron/dark/textured_half,
 /area/station/service/bar)
 "vYT" = (
@@ -157880,11 +157907,11 @@ xms
 xms
 sZX
 czQ
-sXw
-sXw
-sXw
-sXw
-sXw
+qsE
+qsE
+qsE
+qsE
+qsE
 qsE
 qsE
 qsE
@@ -158137,11 +158164,11 @@ hxt
 xms
 utf
 czQ
-sNR
-sNR
-sNR
-sNR
-rmq
+qsE
+qsE
+qsE
+qsE
+qsE
 qsE
 qsE
 qsE
@@ -158394,12 +158421,12 @@ nIG
 xms
 utf
 czQ
-uPY
-uPY
-uPY
-uPY
-rmq
-rmq
+qsE
+qsE
+qsE
+qsE
+qsE
+qsE
 qsE
 qsE
 qsE
@@ -158650,13 +158677,13 @@ kba
 nIG
 xms
 utf
-wfa
-uPY
-uPY
-uPY
-uPY
-sNR
-rmq
+czQ
+qsE
+qsE
+qsE
+qsE
+qsE
+qsE
 qsE
 qsE
 qsE
@@ -158907,13 +158934,13 @@ kba
 xfD
 xms
 utf
-gBI
-uPY
-uPY
-uPY
-uPY
-qwF
-rmq
+czQ
+qsE
+qsE
+qsE
+qsE
+qsE
+qsE
 qsE
 qsE
 qsE
@@ -159164,13 +159191,13 @@ kba
 nIG
 xms
 utf
-wfa
-uPY
-uPY
-uPY
-uPY
-sNR
-rmq
+czQ
+qsE
+qsE
+qsE
+qsE
+qsE
+qsE
 qsE
 qsE
 qsE
@@ -159422,12 +159449,12 @@ nIG
 xms
 utf
 czQ
-uPY
-uPY
-uPY
-uPY
-rmq
-rmq
+qsE
+qsE
+qsE
+qsE
+qsE
+qsE
 qsE
 qsE
 qsE
@@ -159679,11 +159706,11 @@ gKH
 xms
 utf
 czQ
-sNR
-sNR
-sNR
-sNR
-rmq
+qsE
+qsE
+qsE
+qsE
+qsE
 qsE
 qsE
 qsE
@@ -159936,11 +159963,11 @@ xms
 xms
 sZX
 czQ
-sXw
-sXw
-sXw
-sXw
-sXw
+qsE
+qsE
+qsE
+qsE
+qsE
 qsE
 qsE
 qsE
@@ -223903,7 +223930,7 @@ oZF
 ofm
 qQr
 fad
-qQr
+gkA
 aLr
 kLk
 bVC
@@ -263191,12 +263218,12 @@ hPT
 hPT
 hPT
 hPT
+tnL
+tnL
+xHM
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+sXx
+tnL
 qvL
 qvL
 qvL
@@ -263412,10 +263439,10 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
+xHM
+xHM
+tnL
+tnL
 hPT
 hPT
 hPT
@@ -263447,13 +263474,13 @@ hPT
 hPT
 hPT
 qvL
+tnL
+tnL
 qvL
+vmP
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+sXx
+tnL
 qvL
 qvL
 qvL
@@ -263670,16 +263697,16 @@ qvL
 qvL
 qvL
 qvL
+tnL
+tnL
+xHM
 qvL
 qvL
+vmP
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+tnL
+tnL
 uWd
 qvL
 qvL
@@ -263708,8 +263735,8 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xHM
+sXx
 qvL
 qvL
 qvL
@@ -263931,8 +263958,8 @@ qvL
 qvL
 qvL
 vmP
-qvL
-qvL
+tnL
+tnL
 qvL
 qvL
 qvL
@@ -263962,12 +263989,12 @@ qvL
 vmP
 qvL
 qvL
+tnL
+tnL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+tnL
+sXx
+xHM
 qvL
 qvL
 qvL
@@ -264184,16 +264211,16 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xHM
+tnL
+tnL
+tnL
+tnL
 qvL
 vxQ
-qvL
-qvL
-qvL
+tqE
+tqE
+tqE
 qvL
 vmP
 qvL
@@ -264222,9 +264249,9 @@ tqE
 tqE
 qvL
 qvL
-qvL
-qvL
-qvL
+tnL
+sXx
+xHM
 qvL
 qvL
 qvL
@@ -264448,10 +264475,10 @@ qvL
 qvL
 uWd
 qvL
-qvL
-qvL
-qvL
-qvL
+tqE
+tqE
+tqE
+tqE
 qvL
 qvL
 xHM
@@ -264478,9 +264505,9 @@ tqE
 tqE
 qvL
 qvL
-qvL
-qvL
-qvL
+tnL
+tnL
+sXx
 qvL
 qvL
 qvL
@@ -264708,7 +264735,7 @@ xHM
 qvL
 qvL
 qvL
-qvL
+vmP
 qvL
 qvL
 vxQ
@@ -264735,9 +264762,9 @@ tqE
 tqE
 vmP
 qvL
-qvL
-qvL
-qvL
+tnL
+tnL
+sXx
 qvL
 qvL
 qvL
@@ -264993,8 +265020,8 @@ qvL
 qvL
 uWd
 qvL
-qvL
-qvL
+xHM
+sXx
 qvL
 qvL
 qvL
@@ -265251,7 +265278,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -265504,11 +265531,11 @@ tqE
 tqE
 qvL
 vmP
+tnL
 qvL
 qvL
 qvL
-qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -265759,13 +265786,13 @@ tqE
 tqE
 tqE
 qvL
-qvL
-qvL
-qvL
+xHM
+xHM
+tnL
 qvL
 vmP
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -266017,12 +266044,12 @@ qvL
 qvL
 qvL
 qvL
+xHM
+xHM
+tnL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -266279,7 +266306,7 @@ rht
 rht
 qvL
 vmP
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -266536,7 +266563,7 @@ muw
 hDx
 rht
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -266793,7 +266820,7 @@ muw
 muw
 rht
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -267039,7 +267066,7 @@ bRr
 muw
 muw
 bQE
-qvL
+tnL
 rht
 muw
 muw
@@ -267050,7 +267077,7 @@ muw
 muw
 rht
 qvL
-qvL
+sXx
 vmP
 qvL
 qvL
@@ -267296,7 +267323,7 @@ bRr
 nUp
 nnI
 bQE
-qvL
+xHM
 rht
 muw
 muw
@@ -267306,8 +267333,8 @@ rht
 muw
 muw
 rht
-qvL
-vmP
+xHM
+sXx
 qvL
 qvL
 qvL
@@ -267553,7 +267580,7 @@ bRr
 muw
 muw
 bQE
-qvL
+xHM
 rht
 muw
 muw
@@ -267563,8 +267590,8 @@ rht
 muw
 muw
 rht
-qvL
-qvL
+tnL
+sXx
 qvL
 qvL
 qvL
@@ -267810,7 +267837,7 @@ bRr
 xbq
 fet
 bQE
-qvL
+xHM
 rht
 muw
 muw
@@ -267820,8 +267847,8 @@ rht
 muw
 muw
 rht
-qvL
-qvL
+tnL
+sXx
 qvL
 qvL
 qvL
@@ -268077,8 +268104,8 @@ muw
 muw
 hDx
 rht
-qvL
-qvL
+tnL
+sXx
 qvL
 qvL
 qvL
@@ -268335,7 +268362,7 @@ rht
 rht
 qvL
 qvL
-qvL
+sXx
 vmP
 qvL
 qvL
@@ -268550,7 +268577,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+vmP
 vxQ
 qvL
 hfx
@@ -268586,13 +268613,13 @@ qvL
 qvL
 tMV
 qvL
-qvL
-qvL
+xHM
+xHM
 tMV
 qvL
 qvL
 vmP
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -268849,7 +268876,7 @@ bQE
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -269106,7 +269133,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -269363,7 +269390,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+pKY
 qvL
 qvL
 qvL
@@ -269615,12 +269642,12 @@ sXx
 xHM
 qvL
 bQE
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+bQE
+bQE
+bQE
+bQE
+bQE
+jtu
 qvL
 qvL
 qvL
@@ -269834,7 +269861,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+vxQ
 qvL
 qvL
 xHM
@@ -269877,7 +269904,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -270134,7 +270161,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -270350,7 +270377,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+vmP
 qvL
 iHv
 htw
@@ -270383,7 +270410,7 @@ gDl
 obg
 bQE
 sXx
-qvL
+tnL
 qvL
 bQE
 qvL
@@ -270391,7 +270418,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -270640,15 +270667,15 @@ gDl
 tFR
 bQE
 sXx
-qvL
-qvL
+tnL
+tnL
 bQE
 qvL
 qvL
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -270863,12 +270890,12 @@ qvL
 qvL
 qvL
 qvL
-qvL
+vmP
 qvL
 qvL
 uWd
 iHv
-ujd
+grv
 oOF
 emn
 rrr
@@ -270897,15 +270924,15 @@ bQE
 bQE
 bQE
 sXx
-qvL
-qvL
+xHM
+tnL
 bQE
 qvL
 qvL
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -271122,7 +271149,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+vmP
 qvL
 uka
 uka
@@ -271155,14 +271182,14 @@ skd
 skd
 wkn
 qvL
-qvL
+tnL
 bQE
 qvL
 qvL
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -271419,7 +271446,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
@@ -271632,7 +271659,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+vmP
 qvL
 qvL
 qvL
@@ -271676,7 +271703,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+sXx
 qvL
 qvL
 qvL
