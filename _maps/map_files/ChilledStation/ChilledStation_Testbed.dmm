@@ -10003,6 +10003,12 @@
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /turf/open/floor/plating,
 /area/station/engineering/atmos)
+"dGx" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "ATV Garage"
+	},
+/turf/open/floor/plating,
+/area/station/cargo/miningdock)
 "dGC" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -32863,6 +32869,13 @@
 /obj/machinery/light/small/red/directional/west,
 /turf/open/floor/plating,
 /area/station/maintenance/central)
+"lAI" = (
+/obj/machinery/door/poddoor/shutters/window{
+	id = "atv_garage";
+	name = "Garage Door"
+	},
+/turf/open/floor/plating,
+/area/station/cargo/miningdock)
 "lAJ" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -52669,6 +52682,11 @@
 /turf/open/floor/plating/icemoon,
 /area/station/maintenance/central)
 "snm" = (
+/obj/machinery/door/poddoor/shutters/window{
+	dir = 4;
+	id = "mining_elevator";
+	name = "Mining Elevator Shutters"
+	},
 /turf/open/floor/plating,
 /area/station/hallway/primary/central/aft)
 "snn" = (
@@ -58140,6 +58158,10 @@
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/atmos/project)
 "urA" = (
+/obj/machinery/door/poddoor/shutters/window{
+	id = "mining_elevator_bottom";
+	name = "Mining Elevator Shutters"
+	},
 /turf/open/floor/iron/smooth_half,
 /area/station/cargo/miningdock)
 "urP" = (
@@ -88233,7 +88255,7 @@ cgL
 cgL
 cgL
 cgL
-eaG
+lAI
 mdD
 iHU
 nbl
@@ -88490,7 +88512,7 @@ cgL
 cgL
 cgL
 cgL
-eaG
+lAI
 mdD
 iHU
 nbl
@@ -88738,7 +88760,7 @@ mPq
 cgL
 cgL
 cgL
-eaG
+dGx
 dQv
 wwO
 cgL
@@ -88747,7 +88769,7 @@ cgL
 cgL
 cgL
 cgL
-eaG
+lAI
 mdD
 iHU
 nbl
