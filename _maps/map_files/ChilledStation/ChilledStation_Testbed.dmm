@@ -1750,6 +1750,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
+/obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/atmos)
 "aGq" = (
@@ -5649,6 +5650,10 @@
 	},
 /turf/open/floor/plating,
 /area/station/command/bridge)
+"cco" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/open/floor/iron/dark,
+/area/icemoon/underground/explored)
 "ccp" = (
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/captain)
@@ -6076,6 +6081,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_a)
+"cks" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron/smooth,
+/area/icemoon/underground/explored)
 "ckv" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 9
@@ -6740,7 +6752,6 @@
 	},
 /obj/structure/closet/secure_closet/security/engine,
 /obj/item/clothing/suit/utility/radiation,
-/obj/item/clothing/head/radiation,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/iron/dark,
@@ -10396,7 +10407,6 @@
 	},
 /obj/structure/rack,
 /obj/item/clothing/suit/utility/radiation,
-/obj/item/clothing/head/radiation,
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/hallway)
 "dOD" = (
@@ -11292,6 +11302,15 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/service/coffee_shop)
+"ehU" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/icemoon/underground/explored)
 "eic" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/stripes/line{
@@ -12871,6 +12890,10 @@
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/iron/dark/textured,
 /area/station/commons/fitness/recreation/entertainment/arcade)
+"eHZ" = (
+/obj/machinery/power/energy_accumulator/tesla_coil,
+/turf/open/floor/iron/dark,
+/area/icemoon/underground/explored)
 "eIc" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Emergency Surgical Wing"
@@ -13917,8 +13940,6 @@
 /obj/structure/rack,
 /obj/item/clothing/suit/utility/radiation,
 /obj/item/clothing/suit/utility/radiation,
-/obj/item/clothing/head/radiation,
-/obj/item/clothing/head/radiation,
 /obj/structure/sign/warning/radiation{
 	pixel_y = 32
 	},
@@ -14669,6 +14690,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
+/obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/atmos)
 "fsj" = (
@@ -17777,6 +17799,7 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 4
 	},
+/obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/atmos/office)
 "gtI" = (
@@ -24534,6 +24557,21 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/textured_half,
 /area/station/service/bar)
+"iLQ" = (
+/obj/machinery/door/poddoor{
+	id = "engstorage";
+	name = "Engineering Secure Storage Lockdown"
+	},
+/obj/effect/turf_decal/tile/neutral/half{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/half{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_half{
+	dir = 1
+	},
+/area/station/engineering/supermatter/room)
 "iLV" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
@@ -30722,6 +30760,10 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/central)
+"kRI" = (
+/obj/machinery/power/emitter,
+/turf/open/floor/iron/dark,
+/area/icemoon/underground/explored)
 "kRW" = (
 /obj/structure/railing,
 /obj/structure/lattice,
@@ -32169,6 +32211,12 @@
 "lnc" = (
 /turf/open/floor/iron/dark/textured,
 /area/station/science/xenobiology)
+"lnM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/iron/smooth,
+/area/icemoon/underground/explored)
 "lnO" = (
 /obj/structure/table/reinforced/rglass,
 /obj/effect/turf_decal/tile/neutral/half{
@@ -34003,6 +34051,10 @@
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/iron/dark/textured,
 /area/station/cargo/sorting)
+"lUG" = (
+/obj/machinery/power/shieldwallgen,
+/turf/open/floor/iron/dark,
+/area/icemoon/underground/explored)
 "lUO" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 8
@@ -40543,12 +40595,17 @@
 /obj/structure/table/reinforced/rglass,
 /obj/machinery/reagentgrinder{
 	desc = "Used to grind things up into raw materials and liquids.";
+	pixel_x = 4;
 	pixel_y = 5
 	},
 /obj/effect/turf_decal/tile/neutral/half{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral/half,
+/obj/item/reagent_containers/cup/glass/shaker{
+	pixel_x = -6;
+	pixel_y = 6
+	},
 /turf/open/floor/iron/dark/textured_half,
 /area/station/service/bar)
 "ofm" = (
@@ -40753,6 +40810,10 @@
 	dir = 9
 	},
 /obj/structure/table/wood,
+/obj/item/pizzabox{
+	desc = "Midtown Slice makes the best pizza in the whole of the Spinward Sector. Unfortunately, there's no pizza in there anymore.";
+	pixel_y = 9
+	},
 /turf/open/floor/wood,
 /area/station/security/detectives_office/private_investigators_office)
 "oiK" = (
@@ -41704,14 +41765,6 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/command/heads_quarters/hos)
-"oyI" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 1
-	},
-/obj/structure/cable,
-/obj/machinery/computer/monitor,
-/turf/open/floor/iron,
-/area/station/hallway/primary/starboard)
 "oyQ" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 1
@@ -48955,7 +49008,6 @@
 /obj/structure/rack,
 /obj/item/clothing/suit/utility/fire/atmos,
 /obj/item/clothing/mask/gas/atmos,
-/obj/item/clothing/head/hardhat/atmos,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -52745,6 +52797,7 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 1
 	},
+/obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/atmos/office)
 "snZ" = (
@@ -52943,6 +52996,12 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/cargo/lobby)
+"sqI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/icemoon/underground/explored)
 "sqJ" = (
 /obj/structure/flora/bush/large/style_random,
 /turf/open/floor/grass,
@@ -56394,6 +56453,8 @@
 /area/station/command/heads_quarters/ce)
 "tIf" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
+/obj/effect/landmark/start/atmospheric_technician,
+/obj/structure/chair/stool/directional/south,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/atmos)
 "tIg" = (
@@ -56837,6 +56898,10 @@
 	},
 /obj/machinery/light/warm/directional/west,
 /turf/open/floor/iron/dark,
+/area/icemoon/surface/outdoors/nospawn)
+"tRP" = (
+/obj/structure/lattice/catwalk,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "tSi" = (
 /obj/structure/cable,
@@ -58638,8 +58703,12 @@
 /area/icemoon/surface/outdoors/nospawn)
 "uBf" = (
 /obj/structure/table/reinforced,
-/obj/item/grenade/chem_grenade/smart_metal_foam,
-/obj/item/grenade/chem_grenade/smart_metal_foam,
+/obj/item/grenade/chem_grenade/smart_metal_foam{
+	pixel_y = 7
+	},
+/obj/item/grenade/chem_grenade/smart_metal_foam{
+	pixel_y = 7
+	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -58656,6 +58725,7 @@
 	},
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
+/obj/item/clothing/glasses/meson,
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/storage)
 "uBq" = (
@@ -62475,6 +62545,13 @@
 /obj/structure/chair/sofa/bench,
 /turf/open/floor/iron,
 /area/station/commons/fitness)
+"wcC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/smooth,
+/area/icemoon/underground/explored)
 "wcF" = (
 /obj/machinery/light/warm/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -62732,6 +62809,10 @@
 /obj/structure/fence/corner,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"wkW" = (
+/obj/structure/closet/crate,
+/turf/open/floor/iron/dark,
+/area/icemoon/underground/explored)
 "wlc" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 10
@@ -63724,10 +63805,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/station/ai_monitored/security/armory)
-"wGd" = (
-/obj/effect/spawner/structure/window/reinforced/plasma,
-/turf/open/floor/plating,
-/area/station/maintenance/central)
 "wGf" = (
 /obj/machinery/door/airlock/external/glass{
 	name = "External Access"
@@ -63884,6 +63961,10 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/hallway/primary/port)
+"wKG" = (
+/obj/machinery/shieldgen,
+/turf/open/floor/iron/dark,
+/area/icemoon/underground/explored)
 "wKW" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -65965,6 +66046,13 @@
 /obj/effect/turf_decal/trimline/yellow/warning,
 /turf/open/floor/iron/smooth_edge,
 /area/station/hallway/secondary/entry)
+"xGr" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "sm_gas_store";
+	name = "Supermatter Gas Storage"
+	},
+/turf/open/floor/plating,
+/area/station/engineering/supermatter/room)
 "xGt" = (
 /obj/machinery/door/poddoor/shutters/window{
 	id = "freight_private";
@@ -180480,11 +180568,11 @@ qsE
 qsE
 qsE
 qsE
-qsE
-qsE
-qsE
-qsE
-qsE
+sXw
+sXw
+sXw
+sXw
+sXw
 qsE
 qsE
 qsE
@@ -180736,13 +180824,13 @@ qsE
 qsE
 qsE
 qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
+sXw
+sXw
+sqI
+cks
+sqI
+sXw
+sXw
 qsE
 qsE
 qsE
@@ -180993,13 +181081,13 @@ qsE
 qsE
 qsE
 qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
+sXw
+kRI
+kRI
+wcC
+cco
+cco
+sXw
 qsE
 qsE
 qsE
@@ -181250,13 +181338,13 @@ qsE
 qsE
 qsE
 qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
+sXw
+kRI
+kRI
+wcC
+wKG
+wKG
+sXw
 qsE
 qsE
 qsE
@@ -181507,13 +181595,13 @@ qsE
 qsE
 qsE
 qsE
-qsE
-czQ
-qsE
-qsE
-qsE
-qsE
-qsE
+sXw
+lUG
+lUG
+wcC
+wKG
+wKG
+sXw
 qsE
 qsE
 qsE
@@ -181764,13 +181852,13 @@ qsE
 qsE
 qsE
 qsE
-qsE
-czQ
-qsE
-qsE
-qsE
 sXw
-qsE
+lUG
+lUG
+wcC
+eHZ
+eHZ
+sXw
 qsE
 qsE
 qsE
@@ -182021,17 +182109,17 @@ qsE
 qsE
 qsE
 qsE
-qsE
+sXw
+wkW
+lnM
+ehU
+xvq
 czQ
-mKX
-mKX
-mKX
 czQ
-wGd
-wGd
-wGd
-wGd
-wGd
+czQ
+czQ
+czQ
+czQ
 czQ
 lza
 jCe
@@ -182280,9 +182368,9 @@ qsE
 qsE
 czQ
 czQ
-dFV
-wiX
-dFV
+iLQ
+iLQ
+iLQ
 kIC
 lhO
 lAN
@@ -183048,7 +183136,7 @@ oRi
 czQ
 ceD
 gcV
-vIG
+xGr
 soo
 hSD
 jyV
@@ -183305,7 +183393,7 @@ oRi
 czQ
 mxt
 hAm
-vIG
+xGr
 soo
 iSo
 wiX
@@ -183562,7 +183650,7 @@ oRi
 czQ
 aLZ
 rqu
-vIG
+xGr
 soo
 iSo
 uJt
@@ -240381,7 +240469,7 @@ qjN
 biy
 pfT
 ftX
-oyI
+tvF
 xvQ
 mgg
 arB
@@ -312837,21 +312925,21 @@ qvL
 qvL
 qvL
 qvL
+xvn
+xvn
+xvn
+xvn
+xvn
 qvL
 qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+xvn
+xvn
+xvn
+xvn
 qvL
 qvL
 qvL
@@ -313094,21 +313182,21 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+gAU
+gAU
+gAU
+xvn
+xvn
+xvn
+xvn
+xvn
+xvn
+xvn
+tRP
+tRP
+tRP
+xvn
 qvL
 qvL
 qvL
@@ -313351,21 +313439,21 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+xvn
+xvn
+xvn
+xvn
+gAU
+gAU
+xvn
+gAU
+gAU
+xvn
+xvn
+xvn
+xvn
+xvn
 qvL
 qvL
 qvL
@@ -313607,23 +313695,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+xvn
+gAU
+gAU
+gAU
+gAU
+gAU
+gAU
+xvn
+gAU
+gAU
+gAU
+gAU
+gAU
+gAU
+xvn
+xvn
 qvL
 qvL
 qvL
@@ -313864,23 +313952,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+gAU
+gAU
+gAU
 noZ
 noZ
 noZ
 noZ
-qvL
+xvn
 noZ
 noZ
 noZ
 noZ
-qvL
-qvL
-qvL
-qvL
+gAU
+gAU
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -314121,23 +314209,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
+xvn
+gAU
+gAU
 noZ
 noZ
 noZ
 noZ
 noZ
-qvL
+xvn
 noZ
 noZ
 noZ
 noZ
 noZ
-qvL
-qvL
-qvL
+gAU
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -314378,23 +314466,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xvn
+gAU
 noZ
 noZ
 noZ
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+xvn
+xvn
+xvn
+xvn
+xvn
+xvn
 noZ
 noZ
 noZ
-qvL
-qvL
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -314635,23 +314723,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xvn
+gAU
 noZ
 noZ
 noZ
-qvL
+xvn
 cSD
 lHn
 lHn
 lHn
 cSD
-qvL
+xvn
 noZ
 noZ
 noZ
-qvL
-qvL
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -314892,23 +314980,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xvn
+gAU
 noZ
 noZ
 noZ
-qvL
+xvn
 cSD
 rSU
 rSU
 rSU
 cSD
-qvL
+xvn
 noZ
 noZ
 noZ
-qvL
-qvL
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -315149,23 +315237,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xvn
+gAU
 noZ
 noZ
 noZ
-qvL
+xvn
 cSD
 xFc
 tzB
 xFc
 cSD
-qvL
+xvn
 noZ
 noZ
 noZ
-qvL
-qvL
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -315406,23 +315494,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xvn
+gAU
 noZ
 noZ
 noZ
-qvL
+xvn
 cSD
 nHx
 itD
 tzB
 cSD
-qvL
+xvn
 noZ
 noZ
 noZ
-qvL
-qvL
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -315663,23 +315751,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xvn
+gAU
 noZ
 noZ
 noZ
-qvL
+xvn
 cSD
 xFc
 tzB
 xFc
 cSD
-qvL
+xvn
 noZ
 noZ
 noZ
-qvL
-qvL
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -315920,23 +316008,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xvn
+gAU
 noZ
 noZ
 noZ
-qvL
+xvn
 cSD
 rSU
 rSU
 rSU
 cSD
-qvL
+xvn
 noZ
 noZ
 noZ
-qvL
-qvL
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -316177,23 +316265,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xvn
+gAU
 noZ
 noZ
 noZ
-qvL
+xvn
 cSD
 lHn
 lHn
 lHn
 cSD
-qvL
+xvn
 noZ
 noZ
 noZ
-qvL
-qvL
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -316434,23 +316522,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xvn
+gAU
 noZ
 noZ
 noZ
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+xvn
+xvn
+xvn
+xvn
+xvn
+xvn
 noZ
 noZ
 noZ
-qvL
-qvL
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -316691,23 +316779,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
+xvn
+gAU
+gAU
 noZ
 noZ
 noZ
 noZ
 noZ
-qvL
+xvn
 noZ
 noZ
 noZ
 noZ
 noZ
-qvL
-qvL
-qvL
+gAU
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -316948,23 +317036,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+gAU
+gAU
+gAU
 noZ
 noZ
 noZ
 noZ
-qvL
+xvn
 noZ
 noZ
 noZ
 noZ
-qvL
-qvL
-qvL
-qvL
+gAU
+gAU
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -317205,23 +317293,23 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+xvn
+gAU
+gAU
+gAU
+gAU
+gAU
+gAU
+xvn
+gAU
+gAU
+gAU
+gAU
+gAU
+gAU
+xvn
+xvn
 qvL
 qvL
 qvL
@@ -317463,21 +317551,21 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+xvn
+xvn
+xvn
+xvn
+gAU
+gAU
+xvn
+gAU
+gAU
+xvn
+xvn
+xvn
+xvn
+xvn
 qvL
 qvL
 qvL
@@ -317720,21 +317808,21 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+gAU
+gAU
+gAU
+xvn
+xvn
+xvn
+xvn
+xvn
+xvn
+xvn
+gAU
+gAU
+gAU
+xvn
 qvL
 qvL
 qvL
@@ -317977,21 +318065,21 @@ qvL
 qvL
 qvL
 qvL
+xvn
+xvn
+xvn
+xvn
+xvn
 qvL
 qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xvn
+xvn
+xvn
+xvn
+xvn
 qvL
 qvL
 qvL
@@ -320039,9 +320127,9 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
+tRP
+tRP
+tRP
 qvL
 qvL
 qvL
