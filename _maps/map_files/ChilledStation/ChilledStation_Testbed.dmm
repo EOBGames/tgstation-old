@@ -4305,9 +4305,8 @@
 /turf/open/floor/iron/smooth,
 /area/station/command/teleporter)
 "buK" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/ai_slipper,
-/turf/open/floor/iron/dark/telecomms,
+/turf/open/floor/glass/reinforced,
 /area/station/tcommsat/server)
 "buV" = (
 /obj/structure/chair{
@@ -10201,6 +10200,13 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/station/medical/paramedic)
+"duk" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/engine/hull/reinforced,
+/area/icemoon/surface/outdoors/nospawn)
 "duC" = (
 /obj/structure/chair/pew/right{
 	dir = 1
@@ -11081,6 +11087,13 @@
 "dKm" = (
 /turf/open/floor/iron/white,
 /area/station/engineering/transit_tube)
+"dKp" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 1
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/pod/dark,
+/area/icemoon/surface/outdoors/nospawn)
 "dKq" = (
 /obj/machinery/button/elevator{
 	id = "freight_elevator";
@@ -20643,6 +20656,7 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 4
 	},
+/obj/structure/marker_beacon/burgundy,
 /turf/open/floor/engine/hull/reinforced,
 /area/icemoon/surface/outdoors/nospawn)
 "gTQ" = (
@@ -27776,6 +27790,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/science/research)
+"jhe" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/engine/hull/reinforced,
+/area/icemoon/surface/outdoors/nospawn)
 "jhl" = (
 /turf/open/misc/beach/sand{
 	desc = "You feel relaxed just looking at it.";
@@ -32751,6 +32772,18 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/atmos)
+"kLZ" = (
+/obj/effect/turf_decal/trimline/yellow/warning,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/pod/dark,
+/area/icemoon/surface/outdoors/nospawn)
+"kMb" = (
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 4
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/engine/hull/reinforced,
+/area/icemoon/surface/outdoors/nospawn)
 "kMc" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 6
@@ -33462,10 +33495,9 @@
 /turf/open/openspace,
 /area/station/medical/chemistry)
 "kXS" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/telecomms,
+/turf/open/floor/glass/reinforced,
 /area/station/tcommsat/server)
 "kXV" = (
 /obj/item/kirbyplants{
@@ -37936,6 +37968,13 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/hallway/primary/upper)
+"mtb" = (
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 1
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/engine/hull/reinforced,
+/area/icemoon/surface/outdoors/nospawn)
 "mtg" = (
 /obj/structure/railing{
 	dir = 8
@@ -40353,6 +40392,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/science/research)
+"ngr" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 4
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/engine/hull/reinforced,
+/area/icemoon/surface/outdoors/nospawn)
 "ngv" = (
 /obj/structure/showcase{
 	desc = "It's an old, broken jukebox. Looking at the records inside, someone really likes Tom Jones.";
@@ -41078,6 +41124,7 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 9
 	},
+/obj/structure/marker_beacon/burgundy,
 /turf/open/floor/engine/hull/reinforced,
 /area/icemoon/surface/outdoors/nospawn)
 "nsj" = (
@@ -42672,6 +42719,13 @@
 /obj/effect/landmark/start/scientist,
 /turf/open/floor/iron/white,
 /area/station/science/lab)
+"nRh" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 6
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/engine/hull/reinforced,
+/area/icemoon/surface/outdoors/nospawn)
 "nRn" = (
 /obj/machinery/atmospherics/components/trinary/filter/critical{
 	dir = 8
@@ -51653,6 +51707,13 @@
 	},
 /turf/open/openspace,
 /area/station/service/bar)
+"qKT" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 5
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/engine/hull/reinforced,
+/area/icemoon/surface/outdoors/nospawn)
 "qKW" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -51829,6 +51890,9 @@
 /obj/machinery/light/cold/no_nightlight/directional/north,
 /turf/open/floor/iron/dark/textured,
 /area/station/maintenance/disposal/incinerator)
+"qMT" = (
+/turf/open/floor/glass/reinforced,
+/area/station/tcommsat/server)
 "qNd" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/caution{
@@ -59607,6 +59671,13 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
+"tvh" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/engine/hull/reinforced,
+/area/icemoon/surface/outdoors/nospawn)
 "tvF" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
@@ -59998,6 +60069,10 @@
 /obj/structure/sign/flag/nanotrasen/directional/north,
 /turf/open/floor/iron/dark/textured,
 /area/station/command/heads_quarters/hos)
+"tCs" = (
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/engine/hull/reinforced,
+/area/icemoon/surface/outdoors/nospawn)
 "tCw" = (
 /obj/item/kirbyplants,
 /turf/open/floor/carpet/black,
@@ -64907,6 +64982,13 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
+"vrg" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/engine/hull/reinforced,
+/area/icemoon/surface/outdoors/nospawn)
 "vrh" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4
@@ -70619,6 +70701,12 @@
 	dir = 6
 	},
 /area/station/service/chapel)
+"xDB" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 5
+	},
+/turf/open/floor/pod/dark,
+/area/icemoon/surface/outdoors/nospawn)
 "xEd" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -307392,7 +307480,7 @@ urP
 gAt
 xSw
 lhQ
-uoc
+kLZ
 qvL
 qvL
 qvL
@@ -308163,7 +308251,7 @@ ggQ
 tDk
 cUC
 lhQ
-uoc
+kLZ
 qvL
 qvL
 qvL
@@ -309151,7 +309239,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+hye
 bTN
 qlN
 lhv
@@ -309177,7 +309265,7 @@ fXs
 lhV
 qSr
 bTN
-qvL
+uoc
 qvL
 qvL
 qvL
@@ -309408,7 +309496,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+hye
 bTN
 rjL
 tfK
@@ -309434,7 +309522,7 @@ mmb
 tfK
 fFF
 bTN
-qvL
+uoc
 tOG
 qvL
 qvL
@@ -309635,7 +309723,7 @@ sAy
 sAy
 sAy
 sAy
-lXm
+kMb
 gAU
 xnb
 xnb
@@ -309665,7 +309753,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+hye
 bTN
 kSP
 tfK
@@ -309691,7 +309779,7 @@ pRe
 tfK
 jCM
 bTN
-qvL
+uoc
 qvL
 qvL
 qvL
@@ -309922,7 +310010,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+hye
 bTN
 iPF
 kZX
@@ -309948,7 +310036,7 @@ gTn
 ctv
 kzA
 bTN
-qvL
+uoc
 qvL
 qvL
 qvL
@@ -310179,7 +310267,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+dKp
 hBj
 ioS
 qoc
@@ -310205,7 +310293,7 @@ bSS
 bKa
 gHX
 hBj
-qvL
+kLZ
 qvL
 qvL
 qvL
@@ -310436,7 +310524,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+hye
 bTN
 rjL
 kxo
@@ -310462,7 +310550,7 @@ bjK
 fdt
 eiv
 bTN
-qvL
+uoc
 qvL
 qvL
 qvL
@@ -310693,7 +310781,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+hye
 bTN
 kSP
 tfK
@@ -310719,7 +310807,7 @@ mmb
 tfK
 jCM
 bTN
-qvL
+uoc
 qvL
 qvL
 qvL
@@ -310924,10 +311012,10 @@ ydJ
 gAU
 gAU
 gAU
+gcf
 gAU
 gAU
-gAU
-gAU
+gcf
 gAU
 gAU
 gAU
@@ -310950,7 +311038,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+hye
 bTN
 iPF
 tfK
@@ -310976,7 +311064,7 @@ pRe
 tfK
 kzA
 bTN
-qvL
+uoc
 qvL
 qvL
 qvL
@@ -311177,7 +311265,7 @@ oaO
 ivI
 ivI
 ivI
-kAY
+qKT
 sAy
 sAy
 sAy
@@ -311188,7 +311276,7 @@ sAy
 sAy
 sAy
 sAy
-sAy
+ngr
 sAy
 sAy
 sAy
@@ -311207,7 +311295,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+hye
 bTN
 qlN
 tfK
@@ -311233,7 +311321,7 @@ tfK
 tfK
 qlN
 bTN
-qvL
+uoc
 qvL
 qvL
 qvL
@@ -311450,7 +311538,7 @@ hPT
 hPT
 hPT
 hPT
-kAY
+qKT
 lXm
 gAU
 flH
@@ -311464,7 +311552,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+hye
 hBj
 hBj
 qtV
@@ -311490,7 +311578,7 @@ qtV
 qtV
 hBj
 hBj
-qvL
+uoc
 qvL
 qvL
 qvL
@@ -311721,8 +311809,8 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+xDB
+utE
 hBj
 bTN
 bTN
@@ -311746,8 +311834,8 @@ bTN
 bTN
 bTN
 hBj
-qvL
-qvL
+wuB
+jEB
 qvL
 qvL
 qvL
@@ -311979,12 +312067,12 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+xDB
+ucq
+ucq
+ucq
+ucq
+rXm
 bTN
 tfK
 bTN
@@ -311998,12 +312086,12 @@ tfK
 bTN
 tfK
 bTN
-qvL
-qvL
-qvL
-qvL
-qvL
-qvL
+rXm
+ucq
+ucq
+ucq
+ucq
+jEB
 qvL
 qvL
 qvL
@@ -312247,9 +312335,9 @@ wsC
 bTN
 wsC
 bTN
-qvL
-qvL
-qvL
+rXm
+ucq
+rXm
 bTN
 wsC
 bTN
@@ -315048,7 +315136,7 @@ hPT
 nse
 rdi
 rdi
-uBF
+mtb
 flH
 qvL
 qvL
@@ -316073,11 +316161,11 @@ hPT
 hPT
 hPT
 ivI
-kAY
+qKT
 sAy
 sAy
 sAy
-lXm
+kMb
 flH
 qvL
 qvL
@@ -317619,7 +317707,7 @@ hPT
 hPT
 nse
 rdi
-uBF
+mtb
 gAU
 igZ
 qvL
@@ -317638,21 +317726,21 @@ qvL
 qvL
 qvL
 qvL
-hQc
+jhe
 cda
 cda
 cda
-fND
+tvh
 qvL
 qvL
 qvL
 qvL
 qvL
-hQc
+jhe
 cda
 cda
 cda
-fND
+tvh
 qvL
 qvL
 qvL
@@ -318158,9 +318246,9 @@ xvn
 xvn
 xvn
 gAU
-gAU
+gcf
 xvn
-gAU
+gcf
 gAU
 xvn
 xvn
@@ -318410,7 +318498,7 @@ qvL
 qvL
 hQc
 xvn
-gAU
+gcf
 gAU
 gAU
 gAU
@@ -318422,7 +318510,7 @@ gAU
 gAU
 gAU
 gAU
-gAU
+gcf
 xvn
 fND
 qvL
@@ -319184,13 +319272,13 @@ gAU
 noZ
 noZ
 noZ
+tCs
 xvn
 xvn
 xvn
 xvn
 xvn
-xvn
-xvn
+tCs
 noZ
 noZ
 noZ
@@ -319975,11 +320063,11 @@ qvL
 qvL
 qvL
 iBm
+gcf
 gAU
 gAU
 gAU
-gAU
-gAU
+gcf
 flH
 qvL
 qvL
@@ -320208,7 +320296,7 @@ qvL
 qvL
 qvL
 ggS
-gAU
+gcf
 noZ
 noZ
 noZ
@@ -320222,7 +320310,7 @@ xvn
 noZ
 noZ
 noZ
-gAU
+gcf
 cMA
 qvL
 qvL
@@ -320233,9 +320321,9 @@ qvL
 qvL
 iBm
 gAU
-gAU
-gAU
-gAU
+xnb
+xnb
+xnb
 gAU
 flH
 qvL
@@ -320490,9 +320578,9 @@ qvL
 qvL
 iBm
 gAU
-gAU
-gAU
-gAU
+xnb
+xnb
+xnb
 gAU
 flH
 qvL
@@ -320701,7 +320789,7 @@ hPT
 hPT
 hPT
 ydJ
-gAU
+gcf
 gAU
 gAU
 gAU
@@ -320747,9 +320835,9 @@ qvL
 qvL
 iBm
 gAU
-gAU
-gAU
-gAU
+xnb
+xnb
+xnb
 gAU
 flH
 qvL
@@ -321004,9 +321092,9 @@ qvL
 qvL
 iBm
 gAU
-gAU
-gAU
-gAU
+xnb
+xnb
+xnb
 gAU
 flH
 qvL
@@ -321240,13 +321328,13 @@ gAU
 noZ
 noZ
 noZ
+tCs
 xvn
 xvn
 xvn
 xvn
 xvn
-xvn
-xvn
+tCs
 noZ
 noZ
 noZ
@@ -321261,9 +321349,9 @@ qvL
 qvL
 iBm
 gAU
-gAU
-gAU
-gAU
+xnb
+xnb
+xnb
 gAU
 flH
 qvL
@@ -321517,11 +321605,11 @@ qvL
 qvL
 qvL
 iBm
+gcf
 gAU
 gAU
 gAU
-gAU
-gAU
+gcf
 flH
 qvL
 qvL
@@ -321729,7 +321817,7 @@ hPT
 hPT
 hPT
 ydJ
-gAU
+gcf
 gAU
 gAU
 gAU
@@ -322008,7 +322096,7 @@ qvL
 qvL
 gCf
 xvn
-gAU
+gcf
 gAU
 gAU
 gAU
@@ -322020,7 +322108,7 @@ gAU
 gAU
 gAU
 gAU
-gAU
+gcf
 xvn
 jVo
 qvL
@@ -322270,9 +322358,9 @@ xvn
 xvn
 xvn
 gAU
-gAU
+gcf
 xvn
-gAU
+gcf
 gAU
 xvn
 xvn
@@ -322757,7 +322845,7 @@ hPT
 hPT
 hPT
 ydJ
-gAU
+gcf
 gAU
 gAU
 gAU
@@ -322778,21 +322866,21 @@ qvL
 qvL
 qvL
 qvL
-ggS
+duk
 xvn
 xvn
 xvn
-xvn
-gcf
+tCs
 gAU
 gAU
 gAU
-gcf
-xvn
+gAU
+gAU
+tCs
 ngi
 ngi
 ngi
-jVo
+vrg
 qvL
 qvL
 qvL
@@ -324325,11 +324413,11 @@ gAU
 gAU
 gAU
 gAU
-gcf
 gAU
 gAU
 gAU
-gcf
+gAU
+gAU
 flH
 qvL
 qvL
@@ -324581,13 +324669,13 @@ xOJ
 sAy
 sAy
 sAy
-sAy
+ngr
 lXm
 xvn
 xvn
 xvn
 cQd
-sAy
+ngr
 fDW
 fDW
 fDW
@@ -324834,7 +324922,7 @@ xvn
 fDW
 fDW
 fDW
-wfs
+nRh
 hPT
 ivI
 hPT
@@ -324848,7 +324936,7 @@ hPT
 hPT
 ivI
 hPT
-kAY
+qKT
 fDW
 fDW
 fDW
@@ -326104,9 +326192,9 @@ crH
 cDn
 vyH
 vzd
-vyH
+qMT
 kXS
-vyH
+qMT
 ekD
 vyH
 xNo
@@ -326361,9 +326449,9 @@ sgh
 qqr
 ewy
 cCS
-vyH
+qMT
 jst
-vyH
+qMT
 sSw
 ewy
 pCA
@@ -326616,13 +326704,13 @@ hPT
 hPT
 sgh
 gPg
-vyH
+qMT
 bGN
-vyH
+qMT
 xyl
-vyH
+qMT
 iSS
-vyH
+qMT
 fYF
 sgh
 hPT
@@ -327130,13 +327218,13 @@ ivI
 ivI
 hPT
 sgh
-vyH
+qMT
 scK
-vyH
+qMT
 cHS
-vyH
+qMT
 jIi
-vyH
+qMT
 sgh
 hPT
 ivI
@@ -327387,13 +327475,13 @@ hPT
 ivI
 ivI
 sgh
-vyH
-vyH
-vyH
+qMT
+qMT
+qMT
 ekD
-vyH
-vyH
-vyH
+qMT
+qMT
+qMT
 sgh
 ivI
 ivI
