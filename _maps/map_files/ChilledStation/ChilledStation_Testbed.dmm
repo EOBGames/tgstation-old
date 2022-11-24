@@ -7141,6 +7141,15 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/engineering/supermatter/room)
+"cpS" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/structure/closet/l3closet/janitor,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/textured,
+/area/station/service/janitor)
 "cpX" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -9485,7 +9494,7 @@
 /area/station/command/heads_quarters/qm)
 "dbU" = (
 /obj/structure/cable,
-/turf/open/floor/iron/solarpanel/airless,
+/turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "dch" = (
 /obj/structure/cable,
@@ -14553,7 +14562,7 @@
 	id = "southwest";
 	name = "South-Western Solar Array"
 	},
-/turf/open/floor/iron/solarpanel/airless,
+/turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "eIO" = (
 /turf/open/floor/iron/smooth,
@@ -14861,6 +14870,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/flat_white,
 /area/station/medical/medbay/central)
+"eNR" = (
+/obj/machinery/power/tracker,
+/obj/structure/cable,
+/obj/structure/lattice/catwalk,
+/turf/open/openspace/icemoon/keep_below,
+/area/icemoon/surface/outdoors/nospawn)
 "eNW" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -24091,7 +24106,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/obj/structure/closet/l3closet/janitor,
+/obj/machinery/portable_atmospherics/canister/water_vapor,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/cold/no_nightlight/directional/west,
 /turf/open/floor/iron/dark/textured,
@@ -34970,7 +34985,8 @@
 	name = "Eastern Solar Array"
 	},
 /obj/structure/cable,
-/turf/open/floor/iron/solarpanel/airless,
+/obj/structure/lattice/catwalk,
+/turf/open/openspace/icemoon/keep_below,
 /area/icemoon/surface/outdoors/nospawn)
 "lei" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
@@ -56926,15 +56942,6 @@
 /obj/machinery/light/cold/no_nightlight/directional/west,
 /turf/open/openspace,
 /area/station/science/stairwell)
-"rVN" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/effect/turf_decal/siding/white{
-	dir = 4
-	},
-/obj/machinery/portable_atmospherics/canister/water_vapor,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/textured,
-/area/station/service/janitor)
 "rWi" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
@@ -63751,7 +63758,7 @@
 "ukL" = (
 /obj/machinery/power/tracker,
 /obj/structure/cable,
-/turf/open/floor/iron/solarpanel/airless,
+/turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "ulb" = (
 /obj/structure/railing{
@@ -175778,8 +175785,8 @@ arB
 uWN
 bcd
 bcd
-rVN
 hFV
+cpS
 hMW
 hSY
 bsp
@@ -333082,7 +333089,7 @@ hPT
 hPT
 ivI
 ivI
-ukL
+eNR
 ivI
 ivI
 hPT
