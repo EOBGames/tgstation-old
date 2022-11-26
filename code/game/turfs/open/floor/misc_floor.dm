@@ -95,13 +95,28 @@
 	icon_state = "podfloor"
 	floor_tile = /obj/item/stack/tile/pod
 
+/turf/open/floor/pod/icemoon
+	name = "\improper HI-TRAX rubber flooring"
+	desc = "A high-traction, weather-resistant flooring, perfect for keeping your feet on the ground and your neck unbroken."
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/floor/pod/light
 	icon_state = "podfloor_light"
 	floor_tile = /obj/item/stack/tile/pod/light
 
+/turf/open/floor/pod/light/icemoon
+	name = "\improper HI-TRAX rubber flooring"
+	desc = "A high-traction, weather-resistant flooring, perfect for keeping your feet on the ground and your neck unbroken."
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/floor/pod/dark
 	icon_state = "podfloor_dark"
 	floor_tile = /obj/item/stack/tile/pod/dark
+
+/turf/open/floor/pod/dark/icemoon
+	name = "\improper HI-TRAX rubber flooring"
+	desc = "A high-traction, weather-resistant flooring, perfect for keeping your feet on the ground and your neck unbroken."
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
 
 /turf/open/floor/noslip
@@ -236,6 +251,13 @@
 
 /turf/open/floor/vault/rock
 	name = "rocky floor"
+
+/turf/open/floor/vault/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
+/turf/open/floor/vault/icemoon/road
+	name = "road plating"
+	desc = "A prefabricated plastic road surface, slotted together like tiles."
 
 /turf/open/floor/vault/alien
 	name = "alien floor"

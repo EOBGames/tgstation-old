@@ -14,8 +14,18 @@
 	. = ..()
 	old_turf_type = oldType
 
+/turf/open/floor/engine/hull/icemoon
+	name = "weatherproof cladding"
+	desc = "A sturdy exterior cladding that keeps the heat in and the snow out."
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/floor/engine/hull/reinforced
 	name = "exterior reinforced hull plating"
 	desc = "Extremely sturdy exterior hull plating that separates you from the uncaring vacuum of space."
 	icon_state = "reinforced_hull"
 	heat_capacity = INFINITY
+
+/turf/open/floor/engine/hull/reinforced/icemoon
+	name = "reinforced weatherproof cladding"
+	desc = "A reinforced exterior cladding that keeps the heat in and the snow out."
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
