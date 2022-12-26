@@ -8041,6 +8041,10 @@
 "czM" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/door/poddoor/shutters{
+	id = "med_nurse";
+	name = "Nurse's Station Shutters"
+	},
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/office)
 "czP" = (
@@ -14366,15 +14370,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/station/science/ordnance/burnchamber)
-"exq" = (
-/obj/structure/cable,
-/obj/machinery/light/warm/directional/west,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark,
-/area/station/engineering/supermatter/room)
 "exs" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -39030,6 +39025,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/structure/ladder,
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
 "lUQ" = (
@@ -41051,6 +41047,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/supermatter/room)
+"mCj" = (
+/obj/structure/cable,
+/obj/structure/fence/door{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "mCp" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
@@ -42703,13 +42706,13 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/aft)
 "nbE" = (
-/obj/machinery/portable_atmospherics/canister,
 /obj/structure/cable,
 /obj/machinery/light/warm/directional/west,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/ladder,
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
 "nbL" = (
@@ -43140,6 +43143,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/ladder,
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
 "ngM" = (
@@ -45019,6 +45023,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/portable_atmospherics/canister,
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
 "nKy" = (
@@ -52454,14 +52459,13 @@
 "pVc" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/item/kirbyplants{
-	icon_state = "plant-17";
-	pixel_x = -7;
-	pixel_y = 7
-	},
 /obj/structure/desk_bell{
 	pixel_x = 5;
 	pixel_y = 9
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "med_nurse";
+	name = "Nurse's Station Shutters"
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/office)
@@ -53517,6 +53521,8 @@
 "qme" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/table/reinforced,
+/obj/machinery/door/window/left/directional/east,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/office)
 "qmg" = (
@@ -63391,6 +63397,10 @@
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/computer/med_data/laptop,
+/obj/machinery/door/poddoor/shutters{
+	id = "med_nurse";
+	name = "Nurse's Station Shutters"
+	},
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/office)
 "tnU" = (
@@ -64030,6 +64040,7 @@
 /obj/machinery/light/warm/directional/east,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/structure/ladder,
 /turf/open/openspace,
 /area/station/engineering/supermatter/room)
 "tzB" = (
@@ -65443,6 +65454,11 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/leavy/style_random,
+/obj/machinery/door/poddoor/shutters{
+	dir = 8;
+	id = "med_front";
+	name = "Nurse's Station Shutters"
+	},
 /turf/open/floor/grass,
 /area/station/medical/office)
 "tYH" = (
@@ -66976,6 +66992,11 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+/obj/machinery/door/poddoor/shutters{
+	dir = 8;
+	id = "med_front";
+	name = "Nurse's Station Shutters"
+	},
 /turf/open/floor/grass,
 /area/station/medical/office)
 "uzG" = (
@@ -67144,6 +67165,7 @@
 "uDn" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/light/warm/directional/west,
+/obj/structure/ladder,
 /turf/open/openspace,
 /area/station/engineering/supermatter/room)
 "uDo" = (
@@ -192493,7 +192515,7 @@ iRZ
 jwp
 jKo
 jwp
-exq
+nbE
 lhZ
 lhZ
 miU
@@ -222069,6 +222091,7 @@ dkH
 czQ
 czQ
 oRi
+mwd
 qsE
 qsE
 qsE
@@ -222080,8 +222103,7 @@ qsE
 qsE
 qsE
 qsE
-qsE
-qsE
+mwd
 qsE
 qsE
 qsE
@@ -222326,19 +222348,19 @@ tYx
 sUo
 czQ
 oRi
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
+mwd
+mwd
+mwd
+mwd
+mwd
+xUD
+xUD
+xUD
+xUD
+xUD
+xUD
+xUD
+mwd
 qsE
 qsE
 qsE
@@ -222584,17 +222606,17 @@ qhK
 wvT
 oRi
 oRi
+mwd
 qsE
 qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
+mwd
+xUD
+xUD
+xUD
+xUD
+xUD
+xUD
+xUD
 rsl
 rsl
 rsl
@@ -222841,17 +222863,17 @@ jOr
 czQ
 czQ
 oRi
+mwd
 qsE
 qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
+mwd
+xUD
+xUD
+xUD
+mwd
+mwd
+mwd
+mwd
 rsl
 sOl
 sOl
@@ -223098,16 +223120,16 @@ jOr
 cWW
 czQ
 oRi
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
+mwd
+mwd
+mwd
+mwd
+mwd
+xUD
+mwd
+mwd
+xUD
+xUD
 oRi
 rsl
 sHC
@@ -223612,16 +223634,16 @@ jOr
 qRE
 czQ
 aze
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
-qsE
+mwd
+mwd
+mwd
+mwd
+mwd
+mwd
+mwd
+mwd
+mwd
+mwd
 oRi
 rsl
 ltX
@@ -223878,7 +223900,7 @@ qsE
 qsE
 qsE
 qsE
-qsE
+mwd
 qsE
 rsl
 tgR
@@ -224135,7 +224157,7 @@ qsE
 qsE
 qsE
 qsE
-qsE
+mwd
 qsE
 rsl
 rsl
@@ -224392,7 +224414,7 @@ qsE
 qsE
 qsE
 qsE
-qsE
+mwd
 qsE
 qsE
 qsE
@@ -276356,7 +276378,7 @@ hSa
 hSa
 hSa
 hSa
-qvL
+tnL
 qvL
 qvL
 vmP
@@ -276866,7 +276888,7 @@ hSa
 hSa
 hSa
 hSa
-qvL
+tnL
 xHM
 xHM
 vxQ
@@ -277117,11 +277139,11 @@ hSa
 hSa
 hSa
 hSa
-qvL
-qvL
-qvL
-qvL
-qvL
+tnL
+tnL
+xHM
+xHM
+xHM
 qvL
 qvL
 qvL
@@ -277372,10 +277394,10 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
+xHM
+tnL
+tnL
+xHM
 vxQ
 qvL
 qvL
@@ -277386,8 +277408,8 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+tnL
+tnL
 xHM
 xHM
 qvL
@@ -281759,7 +281781,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+xHM
 qvL
 qvL
 qvL
@@ -282015,8 +282037,8 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
+tnL
+xHM
 vxQ
 qvL
 vxQ
@@ -282271,9 +282293,9 @@ vmP
 hSa
 hSa
 qvL
-qvL
-qvL
-qvL
+xHM
+tnL
+tnL
 hSa
 hSa
 hSa
@@ -282529,7 +282551,7 @@ hSa
 hSa
 hSa
 vxQ
-qvL
+tnL
 hSa
 hSa
 hSa
@@ -282785,8 +282807,8 @@ hSa
 hSa
 hSa
 hSa
-qvL
-qvL
+tnL
+tnL
 hSa
 hSa
 qvL
@@ -283040,10 +283062,10 @@ qvL
 qvL
 qvL
 qvL
-qvL
-qvL
-qvL
-qvL
+xHM
+tnL
+tnL
+xHM
 qvL
 qvL
 qvL
@@ -283299,7 +283321,7 @@ qvL
 qvL
 qvL
 qvL
-qvL
+xHM
 qvL
 qvL
 qvL
@@ -303601,7 +303623,7 @@ rWt
 vrW
 rWt
 lOa
-bQE
+bJr
 vmP
 qvL
 qvL
@@ -309001,7 +309023,7 @@ dDp
 pKI
 qvL
 jIB
-qvL
+jIB
 qvL
 qvL
 qvL
@@ -309256,11 +309278,11 @@ kAw
 lbQ
 lbQ
 lbQ
-qvL
-jIB
-jIB
-qvL
-qvL
+skd
+skd
+mCj
+skd
+skd
 qvL
 qvL
 qvL
