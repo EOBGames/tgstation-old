@@ -50,6 +50,12 @@ endmap
 # Debug-only maps.
 
 map gateway_test
+
+map chilledstation
+	votable
+endmap
+
+map runtimestation
 endmap
 
 map multiz_debug
