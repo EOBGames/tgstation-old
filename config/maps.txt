@@ -52,6 +52,7 @@ endmap
 map gateway_test
 
 map chilledstation
+	minplayers 40
 	votable
 endmap
 
