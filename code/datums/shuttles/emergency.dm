@@ -493,4 +493,212 @@
 /datum/map_template/shuttle/emergency/zeta/prerequisites_met()
 	return SSshuttle.shuttle_purchase_requirements_met[SHUTTLE_UNLOCK_ALIENTECH]
 
+/datum/map_template/shuttle/arrival/box
+	suffix = "box"
+	name = "arrival shuttle (Box)"
+
+/datum/map_template/shuttle/cargo/box
+	suffix = "box"
+	name = "cargo ferry (Box)"
+
+/datum/map_template/shuttle/mining/box
+	suffix = "box"
+	name = "mining shuttle (Box)"
+
+/datum/map_template/shuttle/labour/box
+	suffix = "box"
+	name = "labour shuttle (Box)"
+
+/datum/map_template/shuttle/labour/generic
+	suffix = "generic"
+	name = "labour shuttle (Generic)"
+
+/datum/map_template/shuttle/arrival/donut
+	suffix = "donut"
+	name = "arrival shuttle (Donut)"
+
+/datum/map_template/shuttle/infiltrator/basic
+	suffix = "basic"
+	name = "basic syndicate infiltrator"
+	description = "Base Syndicate infiltrator, spawned by default for nukeops to use."
+
+/datum/map_template/shuttle/infiltrator/advanced
+	suffix = "advanced"
+	name = "advanced syndicate infiltrator"
+	description = "A much larger version of the standard Syndicate infiltrator that feels more like Kilostation. Has APCs, but power is not a concern for nuclear operatives. Also comes with atmos!"
+
+/datum/map_template/shuttle/cargo/delta
+	suffix = "delta"
+	name = "cargo ferry (Delta)"
+
+/datum/map_template/shuttle/mining/delta
+	suffix = "delta"
+	name = "mining shuttle (Delta)"
+
+/datum/map_template/shuttle/mining/kilo
+	suffix = "kilo"
+	name = "mining shuttle (Kilo)"
+
+/datum/map_template/shuttle/mining/large
+	suffix = "large"
+	name = "mining shuttle (Large)"
+
+/datum/map_template/shuttle/labour/delta
+	suffix = "delta"
+	name = "labour shuttle (Delta)"
+
+/datum/map_template/shuttle/labour/kilo
+	suffix = "kilo"
+	name = "labour shuttle (Kilo)"
+
+/datum/map_template/shuttle/mining_common/meta
+	suffix = "meta"
+	name = "lavaland shuttle (Meta)"
+
+/datum/map_template/shuttle/mining_common/kilo
+	suffix = "kilo"
+	name = "lavaland shuttle (Kilo)"
+
+/datum/map_template/shuttle/arrival/delta
+	suffix = "delta"
+	name = "arrival shuttle (Delta)"
+
+/datum/map_template/shuttle/arrival/kilo
+	suffix = "kilo"
+	name = "arrival shuttle (Kilo)"
+
+/datum/map_template/shuttle/arrival/pubby
+	suffix = "pubby"
+	name = "arrival shuttle (Pubby)"
+
+/datum/map_template/shuttle/arrival/omega
+	suffix = "omega"
+	name = "arrival shuttle (Omega)"
+
+/datum/map_template/shuttle/arrival/chilled
+	suffix = "chilled"
+	name = "arrival train (Chilled)"
+
+/datum/map_template/shuttle/cargo/chilled
+	suffix = "chilled"
+	name = "cargo train (Chilled)"
+
+/datum/map_template/shuttle/aux_base/default
+	suffix = "default"
+	name = "auxilliary base (Default)"
+
+/datum/map_template/shuttle/aux_base/small
+	suffix = "small"
+	name = "auxilliary base (Small)"
+
+/datum/map_template/shuttle/escape_pod/default
+	suffix = "default"
+	name = "escape pod (Default)"
+	description = "Base escape pod with 2 tiles of interior space."
+
+/datum/map_template/shuttle/escape_pod/large
+	suffix = "large"
+	name = "escape pod (Large)"
+	description = "Actually the old Pubbystation monastery shuttle."
+
+/datum/map_template/shuttle/escape_pod/luxury
+	suffix = "luxury"
+	name = "escape pod (Luxury)"
+	description = "Upgraded escape pod with 3 tiles of interior space."
+
+/datum/map_template/shuttle/escape_pod/cramped
+	suffix = "cramped"
+	name = "escape pod (Cramped)"
+	description = "Downgraded escape pod that lacks a window and only has one seat, alongside lacking an emergency safe."
+
+/datum/map_template/shuttle/assault_pod/default
+	suffix = "default"
+	name = "assault pod (Default)"
+
+/datum/map_template/shuttle/pirate/default
+	suffix = "default"
+	name = "pirate ship (Default)"
+
+/datum/map_template/shuttle/pirate/silverscale
+	suffix = "silverscale"
+	name = "pirate ship (Silver Scales)"
+
+/datum/map_template/shuttle/pirate/dutchman
+	suffix = "dutchman"
+	name = "pirate ship (Flying Dutchman)"
+
+/datum/map_template/shuttle/pirate/psykers
+	suffix = "psyker"
+	name = "pirate ship (Psyker-gang)"
+
+/datum/map_template/shuttle/hunter/space_cop
+	suffix = "space_cop"
+	name = "Police Spacevan"
+
+/datum/map_template/shuttle/hunter/russian
+	suffix = "russian"
+	name = "Russian Cargo Ship"
+
+/datum/map_template/shuttle/hunter/bounty
+	suffix = "bounty"
+	name = "Bounty Hunter Ship"
+
+/datum/map_template/shuttle/starfury
+	port_id = "starfury"
+	who_can_purchase = null
+
+/datum/map_template/shuttle/starfury/fighter_one
+	suffix = "fighter1"
+	name = "SBC Starfury Fighter (1)"
+
+/datum/map_template/shuttle/starfury/fighter_two
+	suffix = "fighter2"
+	name = "SBC Starfury Fighter (2)"
+
+/datum/map_template/shuttle/starfury/fighter_three
+	suffix = "fighter3"
+	name = "SBC Starfury Fighter (3)"
+
+/datum/map_template/shuttle/starfury/corvette
+	suffix = "corvette"
+	name = "SBC Starfury Corvette"
+
+/datum/map_template/shuttle/ruin/cyborg_mothership
+	suffix = "cyborg_mothership"
+	name = "Cyborg Mothership"
+	description = "A highly industrialised vessel designed for silicon operation infested with hivebots and space vines."
+
+/datum/map_template/shuttle/ruin/caravan_victim
+	suffix = "caravan_victim"
+	name = "Small Freighter"
+	description = "Small freight vessel, starts near blacked-out with 3 Syndicate Commandos and 1 Syndicate Stormtrooper, alongside a large hull breach."
+
+/datum/map_template/shuttle/ruin/pirate_cutter
+	suffix = "pirate_cutter"
+	name = "Pirate Cutter"
+	description = "Small pirate vessel with ballistic turrets. Spawns with 3 pirate mobs, one of which drops an energy cutlass."
+
+/datum/map_template/shuttle/ruin/syndicate_dropship
+	suffix = "syndicate_dropship"
+	name = "Syndicate Dropship"
+	description = "Light Syndicate vessel with laser turrets. Spawns with a Syndicate mob in the bridge."
+
+/datum/map_template/shuttle/ruin/syndicate_fighter_shiv
+	suffix = "syndicate_fighter_shiv"
+	name = "Syndicate Fighter"
+	description = "A small Syndicate vessel with exactly one tile of useful interior space and 4 laser turrets. Starts with a Syndicate mob in the pilot's seat, and extremely cramped."
+
+/datum/map_template/shuttle/snowdin/mining
+	suffix = "mining"
+	name = "Snowdin Mining Elevator"
+
+/datum/map_template/shuttle/snowdin/excavation
+	suffix = "excavation"
+	name = "Snowdin Excavation Elevator"
+
+// Custom ERT shuttles
+/datum/map_template/shuttle/ert/bounty
+	suffix = "bounty"
+	name = "Bounty Hunter ERT Shuttle"
+
 #undef EMAG_LOCKED_SHUTTLE_COST
