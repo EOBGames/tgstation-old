@@ -695,6 +695,11 @@
 	turf_type = /turf/open/misc/asteroid/snow/coldroom
 	initial_gas_mix = KITCHEN_COLDROOM_ATMOS
 
+/turf/closed/mineral/snowmountain/porous
+	name = "porous ice"
+	desc = "This rock is filled with pockets of breathable air."
+	baseturfs = /turf/open/misc/asteroid/snow/standard
+
 //yoo RED ROCK RED ROCK
 
 /turf/closed/mineral/asteroid
