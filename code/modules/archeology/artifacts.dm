@@ -18,9 +18,54 @@ Each is made up of multiple parts (the more powerful the item, the more parts!) 
 
 // Hardlight Engitool "Matryoshka" - Space Loot: An old-school third-soviet-era prototype hardlight engineering engitool. Never saw mass-production due to high costs and complexity - and due to the factory that held the blueprints burning down during a riot.
 // Tool Types: Crowbar, Screwdriver, Wirecutters, Wrench, Knife, Pickaxe, Shovel, Lighter
-// Engitool Casing - A small, ergonomic casing. Looks like a flashlight or a laser pointer, but larger. On the base is a dial with a number of tool pictograms, and along the side is some Cyrillic script.
+// Engitool Casing - A small, ergonomic casing. Looks like a flashlight or a laser pointer, but larger. On the base is a dial with a number of tool pictograms, and along the side is some Cyrillic script: /"МАТРЕШКА/".
 // Engiool Emitter - An old-school hardlight emitter. Although almost entirely supplanted by more modern technology today, hardlight tech was an interesting experimental feature in days gone by- even if it was too expensive and complex for most use-cases.
 // Additional parts- cell, cable
+
+/obj/item/omnitool
+	name = "hardlight engitool"
+	desc = "An old-school Neosoviet-era prototype hardlight engineering engitool. Never saw mass-production due to high costs and complexity - and due to the factory that held the blueprints burning down during a riot."
+	icon = 'icons/obj/tools.dmi'
+	icon_state = "engitool"
+	toolspeed = 1.2 //the jack of all trades is the master of none
+	tool_behaviour = null
+
+/obj/item/omnitool/examine()
+	. = ..()
+	. += " The dial is set to the [tool_behaviour] position."
+
+/obj/item/omnitool/attack_self(mob/user)
+	if(!user)
+		return
+	var/list/tool_list = list(
+		"Crowbar" = image(icon = 'icons/obj/tools.dmi', icon_state = "crowbar"),
+		"Screwdriver" = image(icon = 'icons/obj/tools.dmi', icon_state = "screwdriver_map"),
+		"Wirecutters" = image(icon = 'icons/obj/tools.dmi', icon_state = "cutters_map"),
+		"Wrench" = image(icon = 'icons/obj/tools.dmi', icon_state = "wrench"),
+		"Pickaxe" = image(icon = 'icons/obj/mining.dmi', icon_state = "minipick"),
+		"Shovel" = image(icon = 'icons/obj/mining.dmi', icon_state = "spade"),
+		"Knife" = image(icon = 'icons/obj/kitchen.dmi', icon_state = "knife"),
+		"Lighter" =
+		)
+	var/tool_result = show_radial_menu(user, src, tool_list, custom_check = CALLBACK(src, .proc/check_menu, user), require_near = TRUE, tooltips = TRUE)
+	if(!check_menu(user))
+		return
+	switch(tool_result)
+		if("Crowbar")
+			tool_behaviour = TOOL_CROWBAR
+		if("Screwdriver")
+			tool_behaviour = TOOL_SCREWDRIVER
+		if("Wirecutters")
+			tool_behaviour = TOOL_WIRECUTTER
+		if("Wrench")
+			tool_behaviour = TOOL_WRENCH
+		if("Pickaxe")
+			tool_behaviour = TOOL_MINING
+		if("Shovel")
+			tool_behaviour = TOOL_SHOVEL
+		if("Knife")
+			tool_behaviour = TOOL_KNIFE
+		if("Lighter")
 
 // BarBuddy Home - Space Loot: One of BarBuddy's wide range of bartending accessories, the BarBuddy Home is designed for home applications. It can quickly produce glasses from inserted glass, as well as dispensing ice.
 
