@@ -44,8 +44,7 @@ Each is made up of multiple parts (the more powerful the item, the more parts!) 
 		"Wrench" = image(icon = 'icons/obj/tools.dmi', icon_state = "wrench"),
 		"Pickaxe" = image(icon = 'icons/obj/mining.dmi', icon_state = "minipick"),
 		"Shovel" = image(icon = 'icons/obj/mining.dmi', icon_state = "spade"),
-		"Knife" = image(icon = 'icons/obj/kitchen.dmi', icon_state = "knife"),
-		"Lighter" =
+		"Knife" = image(icon = 'icons/obj/kitchen.dmi', icon_state = "knife")
 		)
 	var/tool_result = show_radial_menu(user, src, tool_list, custom_check = CALLBACK(src, .proc/check_menu, user), require_near = TRUE, tooltips = TRUE)
 	if(!check_menu(user))
@@ -65,7 +64,6 @@ Each is made up of multiple parts (the more powerful the item, the more parts!) 
 			tool_behaviour = TOOL_SHOVEL
 		if("Knife")
 			tool_behaviour = TOOL_KNIFE
-		if("Lighter")
 
 // BarBuddy Home - Space Loot: One of BarBuddy's wide range of bartending accessories, the BarBuddy Home is designed for home applications. It can quickly produce glasses from inserted glass, as well as dispensing ice.
 

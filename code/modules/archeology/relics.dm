@@ -25,8 +25,43 @@ Unfortunately, as proven by this specimen’s presence here on the surface of In
 
 /*
 The Civil War that occurred during the fall of the Third Soviet Union was, for the most part, relatively bloodless. There was little in the way of love for the Neosoviet leadership nor their idea of communism remaining by the time the collapse finally happened, and as such, most of the military defected to the Spinward Coalition without firing a shot.
-Of course, as with all repressive regimes, there were the true believers. Most notable, of course, was the Khranitel Revolyutsii, but it wasn't the only ship to bring arms to bear against the democratic revolution. This shot most likely came from one of those conflicts, given it was the largest to occur in the region's short history under humanity.
+Of course, as with all repressive regimes, there were the true believers. Most notable, of course, was the Khranitel Revolyutsii, but it wasn't the only ship to bring arms to bear against the democratic revolution. This shot most likely came from the Battle of Indecipheres, a small-ish conflict given the distance from the Spinward core.
 These types of slugs are still used by the SSC today, mostly from pre-war stocks produced by the Neosoviets, despite advancements made in ship-to-ship combat closer to the core. The Spinwarder philosophy holds true- why spend 3 times as much when a slug does the job?
+*/
+
+/obj/item/relic/lavaland/commemorative_rena
+	name = "commemorative Tiziran rena"
+	desc = "A commemorative coin celebrating the launch of the Thazakto on its journey into the world of FTL flight. One face is marked with the crest of the Imperial Colonisation Commission and a stylised design of the Thazakto, while the other face bares a side relief of Emperor Delan-Rena IV."
+
+/*
+The Tiziran Rena is the official currency of the Tiziran Empire.")]"
+Typical examples of coins from the Empire will feature a small emblem on the front of the coin (often the parliamentary seal), and a silhouette of the reigning monarch on the reverse.
+This coin, however, is a commemorative edition, issued in expectation of the launch of the ICS Thazakto, Lizardkind's first FTL-capable vessel.
+Following the disappearance of the Thazakto, many of these coins were recollected by the Imperial Mint and destroyed to save face.
+This has given surviving examples (such as this one) significant value on the antiques market.
+*/
+
+/obj/item/relic/lavaland/tiziran_officer_badge
+	name = "\improper Thazakto officer's badge"
+	desc = "An embellished badge as originally worn by an officer of the Imperial Colonisation Commission. It's in remarkably good shape given it's been under ash for a few centuries."
+
+/*
+The Imperial Colonisation Commission is the Tiziran Empire's central authority for colonial ventures.
+As a uniformed branch of service, the Commission also has ranks, generally denoted by badges rather than the more traditional stripes of the armed forces.
+This badge denotes a Junior Officer, a position which can carry a broad range of duties within the ICC.
+Junior Officers can handle everything from settlement management, to navigation, to scientific ventures, depending on their specific qualifications, making up the majority of the officers aboard a colonial vessel.
+*/
+
+/obj/item/relic/lavaland/tiziran_ossuary
+	name = "\improper Tiziran burial ossuary"
+	desc = "A small, relatively unadorned casket, designed to hold bones. This would presumably have been used to a colonist that perished aboard the Thazakto prior to transport back to Tizira for proper burial, as is Imperial custom. Thankfully, it's empty, so there's no risk of getting cursed from taking it."
+
+/*
+Tiziran burial rites are a complicated affair, owing to the planet's traditional religion being strongly tied to Tizira itself.
+A strong emphasis is placed on reverance for ancestors. To forget an ancestor is to consign them to darkness, away from Rizkalon's guiding light.
+For this reason, devout followers will be buried in the Rizkalon system, specifically in massive ossuaries purpose built for interring bones. The largest is in Zagoskeld.
+Obviously, this raises logistical questions- how exactly do you take reconcile this with a large space empire? The answer comes in the form of the Tomb Ship: a massive mobile ossuary, that carries the bones back to Rizkalon for proper burial.
+Humanity's first contact with Lizardkind was via a Tomb Ship, with the human wayfinders being mortified to discover a drifting vessel carrying the bones of several thousand lizards.
 */
 
 /obj/item/relic/icemoon
@@ -34,6 +69,16 @@ These types of slugs are still used by the SSC today, mostly from pre-war stocks
 
 /obj/item/relic/space
 	name = "space relic"
+
+/obj/item/relic/space/clockwork_reliquary
+	name = "clockwork reliquary"
+	desc = "A beautifully detailed piece consisting of an impossibly intricate clockwork mechanism encased in an adorned glass casket. A dull blue glow emanates from behind the gears."
+
+/*
+The Clockwork Cult of days gone by is well known for their veneration of the Clockwork God, and by extension of his domain of industry and mechanisation.
+Given what we know of other cult reliquaries that have been found, the mechanism that beats inside this case is probably from one of Ratvar's many avatars, or possibly taken from a loyal servant who was mechanised by the Clockwork God.
+Ratvarian clockwork is typically driven by a substance that researchers have taken to calling \"Essentia\": a distillate of energy itself, however outlandish that may seem.
+*/
 
 /obj/item/clothing/neck/relic/space
 	name = "wearable space relic - necklace"
@@ -54,7 +99,7 @@ To a believer in the cult's doctrine, that would make this an important and deep
 /obj/item/clothing/neck/relic/lavaland
 
 /obj/item/clothing/neck/relic/lavaland/atrakor
-	name = "dusty Atrakor pendant"
+	name = "ashen Atrakor pendant"
 	desc = "A little rusted steel necklace, depicting Atrakor, Lord of the Night Sky, in full illumination- a classic symbol of strength in the Tiziran pantheon."
 	icon_state = "atrakor"
 
