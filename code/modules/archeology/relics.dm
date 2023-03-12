@@ -54,7 +54,7 @@ Junior Officers can handle everything from settlement management, to navigation,
 
 /obj/item/relic/lavaland/tiziran_ossuary
 	name = "\improper Tiziran burial ossuary"
-	desc = "A small, relatively unadorned casket, designed to hold bones. This would presumably have been used to a colonist that perished aboard the Thazakto prior to transport back to Tizira for proper burial, as is Imperial custom. Thankfully, it's empty, so there's no risk of getting cursed from taking it."
+	desc = "A small, relatively unadorned casket, designed to hold bones. This would presumably have been used to inter a colonist that perished aboard the Thazakto prior to transport back to Tizira for proper burial, as is Imperial custom. Thankfully, it's empty, so there's no risk of getting cursed from taking it."
 
 /*
 Tiziran burial rites are a complicated affair, owing to the planet's traditional religion being strongly tied to Tizira itself.
@@ -62,6 +62,50 @@ A strong emphasis is placed on reverance for ancestors. To forget an ancestor is
 For this reason, devout followers will be buried in the Rizkalon system, specifically in massive ossuaries purpose built for interring bones. The largest is in Zagoskeld.
 Obviously, this raises logistical questions- how exactly do you take reconcile this with a large space empire? The answer comes in the form of the Tomb Ship: a massive mobile ossuary, that carries the bones back to Rizkalon for proper burial.
 Humanity's first contact with Lizardkind was via a Tomb Ship, with the human wayfinders being mortified to discover a drifting vessel carrying the bones of several thousand lizards.
+*/
+
+/obj/item/relic/lavaland/tiziran_vi_core
+	name = "\improper Tiziran VI core"
+	desc = "Behind this unassuming hard case beats the silicon heart of an old Tiziran-made virtual intelligence... or so it did, before it hit the ground and damaged the chips beyond repair."
+
+/*
+To a human viewer, the VI core may seem like an antiquated piece of history, having been supplanted by true AI centuries ago. But to a Tiziran, this is much more typical.
+The Tiziran development of AI was initially rapid and promising, but was sadly let down by a general mistrust of the technology by the population, spurred on by a number of mishaps with experimental AIs. Eventually, the shift was made to more advanced (and constrained) VI models instead.
+Given the additional development VI has been given in the Tiziran empire, modern examples are generally about on-par effectiveness-wise with AI, but with a much narrower scope and little adaptive ability.
+A Tiziran-made warship may employ thousands of VI cores like this to give a full range of subsystems and tactical programming. A human-made warship utilising AI will need only one to achieve the same effect.
+This particular example probably came with the Thazakto. There are probably hundreds like it scattered across Lavaland, especially if the Subsystem Core got breached prior to the vessel landing.
+*/
+
+/obj/item/tank/internals/plasma/tiziran
+	name = "\improper Tiziran engine fuel canister"
+	desc = "A tank designed to be filled with plasma for use in a Tiziran-style catalytic engine."
+
+/*
+The catalytic engine is an older model of spacecraft engine which utilises a catalyst-promoted reaction between plasma and nitrogen to produce heat energy. This is generally considered as an effective and (critically) efficient sublight-suitable form of energy production.
+This type of energy production is becoming rarer in core human space due to the development of newer bluespace-based energy systems, but it remains common on the frontier, and, importantly, is a mainstay in the Tiziran empire due to its efficient use of their limited plasma resources.
+Tiziran made systems differ from human-built ones primarily by their method of fuel insertion. On a human model, such as those built by Xinghua, plasma and nitrogen are typically fed from large feed tanks into the engine. While this requires less oversight, it is more dangerous- a lesson the Tizirans have learned the hard way.
+For this reason, Tiziran systems (like those constructed by SAC) instead use canisters of this variety, with smaller engines having slots for 10 or 20, and larger vessels having hundreds. On these larger vessels they are typically exchanged automatically by a computer, while on smaller vessels handling may be manual.
+*/
+
+/obj/item/stock_parts/cell/emproof/clockwork
+	name = "essentia vial"
+	desc = "A little brass vial containing a strange blue liquid. It emanates a dull blue glow."
+	maxcharge = 5000
+
+/*
+Ratvarian clockwork is typically driven by a substance that researchers have taken to calling \"Essentia\": a distillate of energy itself, however outlandish that may seem.
+Due to its incredible energy density, this gives cult equipment a long service life even with only small amounts of essentia.
+Researchers into the cult have attempted to (and failed to) discover the secret of essentia distillation for years. With the cult essentially out of commission (at least publically), this task has been made harder due to the reduced supply of cult relics.
+*/
+
+/obj/item/reagent_containers/food/drinks/soda_cans/diamond_poppi
+	name = "can of Diamond Poppi"
+	desc = "An old can of the fabled Diamond Poppi. Sure, it's flat, lukewarm, and almost certainly poisonous, but surely a taste can't kill you, right?"
+
+/*
+Released during the \"clear surge\" of the early 2300s, Diamond Poppi was an initial smash hit amongst its target audience: the health conscious soda drinker.
+Unfortunately, such success attracted the jealous eye of their rivals at Space Cola. Their answer came in the form of Snap Millenium- a clear version of their most unpopular brand, deliberately marketed as a health product.
+The kamikaze attack by Space Cola torpedoed the reputation of Diamond Poppi. Within months, it was off the market. As might be expected for a product that's been out of production for nearly 250 years, it's quite rare to find a can of it today.
 */
 
 /obj/item/relic/icemoon
@@ -77,7 +121,6 @@ Humanity's first contact with Lizardkind was via a Tomb Ship, with the human way
 /*
 The Clockwork Cult of days gone by is well known for their veneration of the Clockwork God, and by extension of his domain of industry and mechanisation.
 Given what we know of other cult reliquaries that have been found, the mechanism that beats inside this case is probably from one of Ratvar's many avatars, or possibly taken from a loyal servant who was mechanised by the Clockwork God.
-Ratvarian clockwork is typically driven by a substance that researchers have taken to calling \"Essentia\": a distillate of energy itself, however outlandish that may seem.
 */
 
 /obj/item/clothing/neck/relic/space

@@ -34,6 +34,13 @@ Each is made up of multiple parts (the more powerful the item, the more parts!) 
 	. = ..()
 	. += " The dial is set to the [tool_behaviour] position."
 
+/obj/item/debug/omnitool/proc/check_menu(mob/user)
+	if(!istype(user))
+		return FALSE
+	if(user.incapacitated() || !user.Adjacent(src))
+		return FALSE
+	return TRUE
+
 /obj/item/omnitool/attack_self(mob/user)
 	if(!user)
 		return
