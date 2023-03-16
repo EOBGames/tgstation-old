@@ -1673,3 +1673,6 @@
 			drinker.adjust_hallucinations(60 SECONDS * REM * delta_time)
 
 	return ..()
+
+//Martian Food!
+

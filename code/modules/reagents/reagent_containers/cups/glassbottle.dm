@@ -691,6 +691,12 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/mushi_kombucha = 30)
 	isGlass = FALSE
 
+/obj/item/reagent_containers/cup/glass/bottle/coconut_rum
+	name = "Breezy Shoals Coconut Rum"
+	desc = "Live the breezy life with Breezy Shoals, made with only the *finest Caribbean rum."
+	icon_state = "coconut_rum_bottle"
+	list_reagents = list(/datum/reagent/consumable/ethanol/coconut_rum = 100)
+
 ////////////////////////// MOLOTOV ///////////////////////
 /obj/item/reagent_containers/cup/glass/bottle/molotov
 	name = "molotov cocktail"

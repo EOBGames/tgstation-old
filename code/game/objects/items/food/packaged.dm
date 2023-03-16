@@ -91,6 +91,24 @@
 	foodtypes = NUTS
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/canned/squid_ink
+	name = "canned squid ink"
+	desc = "An odd ingredient in typical cooking, squid ink lends a taste of the sea to any dish- while also dyeing it jet black in the process."
+	icon_state = "squidinkcan"
+	trash_type = /obj/item/trash/can/food/squid_ink
+	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/salt = 5)
+	tastes = list("seafood" = 7, "tin" = 1)
+	foodtypes = SEAFOOD
+
+/obj/item/food/canned/chap
+	name = "can of chap"
+	desc = "CHAP: Chopped Ham And Pork. The classic American canned meat product that won a world war, then sent millions of servicemen home with heart congestion."
+	icon_state = "chapcan"
+	trash_type = /obj/item/trash/can/food/chap
+	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/salt = 5)
+	tastes = list("meat" = 7, "tin" = 1)
+	foodtypes = MEAT
+
 /obj/item/food/canned/envirochow
 	name = "dog eat dog envirochow"
 	desc = "The first pet food product that is made fully sustainable by employing ancient British animal husbandry techniques."
