@@ -1932,6 +1932,7 @@
 #include "code\game\objects\items\food\egg.dm"
 #include "code\game\objects\items\food\frozen.dm"
 #include "code\game\objects\items\food\lizard.dm"
+#include "code\game\objects\items\food\martian.dm"
 #include "code\game\objects\items\food\meatdish.dm"
 #include "code\game\objects\items\food\meatslab.dm"
 #include "code\game\objects\items\food\mexican.dm"
