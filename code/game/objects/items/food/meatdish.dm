@@ -87,6 +87,13 @@
 	icon_state = "donkfillet"
 	food_reagents = list(/datum/reagent/yuck = 3)
 
+/obj/item/food/fishmeat/octopus
+	name = "octopus tentacle"
+	desc = "A large tentacle from an octopus."
+	icon = 'icons/obj/food/lizard.dmi'
+	icon_state = "octopus_fillet"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3)
+
 /obj/item/food/fishfingers
 	name = "fish fingers"
 	desc = "A finger of fish."

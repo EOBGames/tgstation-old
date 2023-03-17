@@ -108,7 +108,7 @@
 // Fried Rice
 
 /obj/item/food/salad/hurricane_rice
-	name = "hurricane rice"
+	name = "hurricane fried rice"
 	desc = "Inspired by nasi goreng, this piquant rice dish comes straight from Prospect, on Mars, and its night markets. It's named for its distinctive cooking style, where the frying rice is given lots of airtime while being flipped, mostly because it looks really cool for the customers."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "hurricane_rice"
@@ -116,7 +116,7 @@
 		/datum/reagent/consumable/nutriment = 1,
 		/datum/reagent/consumable/nutriment/protein = 3,
 	)
-	tastes = list("rice" = 1, "meat" = 1, "pineapple" = 1)
+	tastes = list("rice" = 1, "meat" = 1, "pineapple" = 1, "veggies" = 1)
 	foodtypes = MEAT | GRAIN | PINEAPPLE | FRUIT | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
