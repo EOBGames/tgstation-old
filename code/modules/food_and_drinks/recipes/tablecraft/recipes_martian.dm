@@ -21,7 +21,12 @@
 	)
 
 /datum/crafting_recipe/food/hawaiian_fried_rice
-	name = "Hurricane fried rice"
+	name = "Hawaiian fried rice"
 	reqs = list(
 		/obj/item/food/boiledrice = 1,
+		/obj/item/food/chapslice = 1,
+		/obj/item/food/grown/bell_pepper = 1,
+		/obj/item/food/pineappleslice = 1,
+		/obj/item/food/onion_slice = 1,
+		/datum/reagent/consumable/soysauce = 5
 	)
