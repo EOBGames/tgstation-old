@@ -159,6 +159,19 @@
 	foodtypes = MEAT | GRAIN | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/salad/mediterranean_fried_rice
+	name = "mediterranean fried rice"
+	desc = "A strange take on the fried rice formula: herbs, cheese, olives, and of course, meatballs. Sorta like a hybrid of risotto and fried rice."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "mediterranean_fried_rice"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 1,
+		/datum/reagent/consumable/nutriment/protein = 3,
+	)
+	tastes = list("rice" = 1, "sausage" = 1, "ketchup" = 1, "veggies" = 1)
+	foodtypes = MEAT | GRAIN | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/food/salad/egg_fried_rice
 	name = "egg fried rice"
 	desc = "As simple as fried rice gets: rice, egg, soy sauce. Simple, elegant, and infinitely customisable."
@@ -229,6 +242,17 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/protein = 4)
 	tastes = list("noodles" = 1, "soy sauce" = 1)
 	foodtypes = GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+// Curry
+/obj/item/food/salad/setagaya_curry //apple, honey, yoghurt, ketchup, chocolate bar, coffee, red wine, curry powder, meat, onion, carrot, potato
+	name = "\improper Setagaya curry"
+	desc = "Made famous by a cafe in Setagaya, this curry's extensive recipe has gone on to be a closely-guarded secret amongst cafe owners across human space. The taste is said to replenish the diner's soul, whatever that means."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "setagaya_curry"
+	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/protein = 4)
+	tastes = list("the best curry you've ever tasted" = 1, "meat" = 1)
+	foodtypes = GRAIN | MEAT | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
 // Burgers and Sandwiches
@@ -313,7 +337,7 @@
 
 /obj/item/food/takoyaki/russian
 	name = "russian takoyaki"
-	desc = "A dangerous twist on a classic dish, perfect for evading detectives."
+	desc = "A dangerous twist on a classic dish, perfect for evading the police."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "russian_takoyaki"
 	food_reagents = list(
