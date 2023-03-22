@@ -16,7 +16,10 @@
 	desc = "A portion of uncured fish surimi."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "uncured_kamaboko"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/protein = 2)
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment/protein = 4,
+		/datum/reagent/consumable/nutriment/vitamin = 2,
+	)
 	tastes = list("fish" = 1)
 	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
@@ -30,7 +33,10 @@
 	desc = "A Japanese-style cured fishcake frequently used in snacks and ramen."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "kamaboko"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/protein = 2)
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment/protein = 4,
+		/datum/reagent/consumable/nutriment/vitamin = 4,
+	)
 	tastes = list("fish" = 1)
 	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
@@ -41,7 +47,7 @@
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "sambal"
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment/vitamin = 3,
+		/datum/reagent/consumable/nutriment/vitamin = 5,
 		/datum/reagent/consumable/capsaicin = 2
 	)
 	tastes = list("chilli heat" = 1, "umami" = 1)
@@ -54,8 +60,9 @@
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "katsu_fillet"
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 1,
-		/datum/reagent/consumable/nutriment/protein = 3,
+		/datum/reagent/consumable/nutriment/protein = 6,
+		/datum/reagent/consumable/nutriment/vitamin = 2,
+		/datum/reagent/consumable/nutriment = 2
 	)
 	tastes = list("meat" = 1, "breadcrumbs" = 1)
 	foodtypes = MEAT | GRAIN
@@ -66,8 +73,10 @@
 	desc = "A piece of dough made with equal parts rice flour and wheat flour, for a unique flavour."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "rice_dough"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 6)
-	tastes = list("dough" = 1)
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 6
+	)
+	tastes = list("rice" = 1)
 	foodtypes = GRAIN
 
 /obj/item/food/rice_dough/MakeBakeable()
@@ -81,7 +90,10 @@
 	desc = "Rice noodles, made fresh. Remember, there is no secret ingredient."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "noodles"
-	tastes = list("dough" = 1)
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 6
+	)
+	tastes = list("rice" = 1)
 	foodtypes = GRAIN
 
 /obj/item/food/bread/reispan
@@ -89,7 +101,9 @@
 	desc = "Though the concept of rice bread has been common in Asia for centuries, the reispan as we know it today is most commonly associated with Mars- where limited arable land has forced ingenuity."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "reispan"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 15)
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 15
+	)
 	tastes = list("bread" = 10)
 	foodtypes = GRAIN | VEGETABLES
 	venue_value = FOOD_PRICE_TRASH
@@ -102,7 +116,9 @@
 	desc = "A slice of reispan, for use in Martian-style sandwiches."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "reispan_slice"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 2)
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 3
+	)
 	foodtypes = GRAIN | VEGETABLES
 
 // Fried Rice
@@ -113,8 +129,9 @@
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "hurricane_rice"
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 1,
-		/datum/reagent/consumable/nutriment/protein = 3,
+		/datum/reagent/consumable/nutriment = 10,
+		/datum/reagent/consumable/nutriment/protein = 6,
+		/datum/reagent/consumable/nutriment/vitamin = 10,
 	)
 	tastes = list("rice" = 1, "meat" = 1, "pineapple" = 1, "veggies" = 1)
 	foodtypes = MEAT | GRAIN | PINEAPPLE | FRUIT | VEGETABLES
@@ -126,8 +143,10 @@
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "ikareis"
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 1,
-		/datum/reagent/consumable/nutriment/protein = 3,
+		/datum/reagent/consumable/nutriment = 10,
+		/datum/reagent/consumable/nutriment/protein = 10,
+		/datum/reagent/consumable/nutriment/vitamin = 6,
+		/datum/reagent/consumable/capsaicin = 4
 	)
 	tastes = list("rice" = 1, "squid ink" = 1, "veggies" = 1, "sausage" = 1, "chilli heat" = 1)
 	foodtypes = MEAT | GRAIN | SEAFOOD | VEGETABLES
@@ -139,8 +158,9 @@
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "hawaiian_fried_rice"
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 1,
-		/datum/reagent/consumable/nutriment/protein = 3,
+		/datum/reagent/consumable/nutriment = 10,
+		/datum/reagent/consumable/nutriment/protein = 10,
+		/datum/reagent/consumable/nutriment/vitamin = 8,
 	)
 	tastes = list("rice" = 1, "pork" = 1, "pineapple" = 1, "soy sauce" = 1, "veggies" = 1)
 	foodtypes = MEAT | GRAIN | VEGETABLES
@@ -251,7 +271,7 @@
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "setagaya_curry"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/protein = 4)
-	tastes = list("the best curry you've ever tasted" = 1, "meat" = 1)
+	tastes = list("the best curry you've ever tasted" = 1, "rice" = 1)
 	foodtypes = GRAIN | MEAT | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -321,6 +341,19 @@
 	foodtypes = MEAT | DAIRY | VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/croque_martienne
+	name = "croque-martienne"
+	desc = "The quintessential Martian breakfast sandwich. Egg, belly pork, pineapple, cheese. Simple. Classic. Available in every cafe across New Osaka."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "croque_martienne"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 1,
+		/datum/reagent/consumable/nutriment/protein = 3,
+	)
+	tastes = list("egg" = 1, "toast" = 1, "pork" = 1, "pineapple" = 1, "cheese" = 1)
+	foodtypes = MEAT | DAIRY | VEGETABLES | GRAIN | PINEAPPLE
+	w_class = WEIGHT_CLASS_SMALL
+
 // Snacks
 /obj/item/food/takoyaki
 	name = "takoyaki"
@@ -344,7 +377,7 @@
 		/datum/reagent/consumable/nutriment = 1,
 		/datum/reagent/consumable/nutriment/protein = 3,
 	)
-	tastes = list("octopus" = 1, "batter" = 1, "onion" = 1, "worcestershire sauce" = 1)
+	tastes = list("octopus" = 1, "batter" = 1, "onion" = 1, "chilli heat" = 1)
 	foodtypes = MEAT | GRAIN | FRIED | VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -378,6 +411,19 @@
 /obj/item/food/okonomiyaki/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/customizable_reagent_holder, null, CUSTOM_INGREDIENT_ICON_STACK)
+
+/obj/item/food/korean_garlic_bread //soft cheese, sugar, butter, milk, egg, garlic, bread
+	name = "\improper Korean garlic bread"
+	desc = "A distinct form of garlic bread from the streets of Korea. Rich, creamy and garlicky."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "korean_garlic_bread"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 1,
+		/datum/reagent/consumable/nutriment/protein = 3,
+	)
+	tastes = list("bread" = 1, "cream" = 1, "garlic" = 1)
+	foodtypes = GRAIN | DAIRY | SUGAR
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/brat_kimchi
 	name = "brat-kimchi"
@@ -467,6 +513,46 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 8, /datum/reagent/consumable/nutriment = 4)
 	tastes = list("rice" = 1, "burger" = 1, "gravy" = 1, "egg" = 1)
 	foodtypes = MEAT | GRAIN | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/wild_duck_fries
+	name = "wild duck fries"
+	desc = "Fries with shredded duck, ketchup, mayo, and Red Bay. A classic street food on Mars, although they're most often associated with Quack Snax, Mars' favourite (and only) duck themed restaurant."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "wild_duck_fries"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 8, /datum/reagent/consumable/nutriment = 4)
+	tastes = list("fries" = 1, "duck" = 1, "ketchup" = 1, "mayo" = 1, "spicy seasoning" = 1)
+	foodtypes = MEAT | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/little_hawaii_hotdog
+	name = "\improper Little Hawaii hotdog"
+	desc = "Fries with shredded duck, ketchup, mayo, and Red Bay. A classic street food on Mars, although they're most often associated with Quack Snax, Mars' favourite (and only) duck themed restaurant."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "little_hawaii_hotdog"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 8, /datum/reagent/consumable/nutriment = 4)
+	tastes = list("fries" = 1, "duck" = 1, "ketchup" = 1, "mayo" = 1, "spicy seasoning" = 1)
+	foodtypes = MEAT | VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/salt_chilli_fries
+	name = "salt n' chilli fries"
+	desc = "The simple name of this dish doesn't tell the full story of its deliciousness- sure, salt and chilli are big components, but the onion, ginger and garlic are the real flavour heroes here."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "salt_chilli_fries"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 8, /datum/reagent/consumable/nutriment = 4)
+	tastes = list("fries" = 1, "garlic" = 1, "ginger" = 1, "numbing heat" = 1, "salt" = 1)
+	foodtypes = VEGETABLES | FRIED
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/grilled_octopus
+	name = "grilled octopus tentacle"
+	desc = "A simple seafood dish, typical to everywhere that octopus is eaten. Martians like it with Red Bay."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "grilled_octopus"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 8, /datum/reagent/consumable/char = 2)
+	tastes = list("octopus" = 1)
+	foodtypes = VEGETABLES | FRIED
 	w_class = WEIGHT_CLASS_SMALL
 
 // Soups
@@ -611,6 +697,36 @@
 	foodtypes = MEAT | VEGETABLES | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/food/salad/beef_bowl
+	name = "beef bowl"
+	desc = "A tasty mix of stewed beef and onion, served over rice. Typical toppings include pickled ginger, chilli powder, and fried eggs."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "beef_bowl"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/nutriment = 5)
+	tastes = list("beef" = 25, "onion" = 25, "chili heat" = 15, "rice" = 34, "soul" = 1) //I pour my soul into this bowl
+	foodtypes = MEAT | VEGETABLES | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/salad/salt_chilli_bowl
+	name = "salt n' chilli octopus bowl"
+	desc = "Inspired by the Japanese donburi tradition, this spicy take on ten-don is a flavour sensation that's swept the Martian nation."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "salt_chilli_bowl"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/nutriment = 5)
+	tastes = list("seafood" = 1, "rice" = 1, "garlic" = 1, "ginger" = 1, "numbing heat" = 1, "salt" = 1)
+	foodtypes = SEAFOOD | VEGETABLES | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/salad/kansai_bowl
+	name = "\improper Kansai bowl"
+	desc = "Also known as konohadon, this donburi is typical to the Kansai region, and consists of kamaboko fishcake, egg and onion served over rice."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "salt_chilli_bowl"
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/nutriment = 5)
+	tastes = list("seafood" = 1, "rice" = 1, "egg" = 1, "onion" = 1)
+	foodtypes = SEAFOOD | MEAT | VEGETABLES | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
 // Entrees
 /obj/item/food/cilbir
 	name = "çilbir"
@@ -713,6 +829,7 @@
 	foodtypes = FRUIT | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
+// Frozen
 /obj/item/food/pb_ice_cream_mochi
 	name = "peanut butter ice cream mochi"
 	desc = "A classic dessert at the Arabia Street Night Market in Prospect, peanut butter ice cream mochi is made with a peanut-butter flavoured ice cream as the main filling, and coated in crushed peanuts in the Taiwanese tradition."
@@ -720,6 +837,26 @@
 	icon_state = "peanut_butter_mochi"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 6, /datum/reagent/consumable/peanut_butter = 4)
 	tastes = list("peanut butter" = 1, "mochi" = 1)
+	foodtypes = NUTS | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/popsicle/pineapple_pop
+	name = "frozen pineapple pop"
+	desc = "Few cultures love pineapple as much as the Martians, and this dessert proves that- frozen pineapple, on a stick, with just a little dunk of chocolate."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "pineapple_pop"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 6, /datum/reagent/consumable/peanut_butter = 4)
+	tastes = list("cold pineapple" = 1, "chocolate" = 1)
+	foodtypes = NUTS | GRAIN
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/popsicle/sea_salt
+	name = "sea salt ice-cream bar"
+	desc = "This sky-blue ice-cream bar is flavoured with only the finest imported sea salt. Salty... no, sweet!"
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "sea_salt_pop"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 6, /datum/reagent/consumable/peanut_butter = 4)
+	tastes = list("salt" = 1, "sweet" = 1)
 	foodtypes = NUTS | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -783,3 +920,27 @@
 	tastes = list("chicken" = 1, "umami sauce" = 1)
 	foodtypes = MEAT
 	w_class = WEIGHT_CLASS_SMALL
+
+// Ethereal-suitable cross-culture food
+/* Ethereals are, as part of the uplifting process, considered as citizens of the Terran Federation.
+   For this reason, a lot of ethereals have chosen to move throughout human space, settling on various planets to a mixed reception.
+   Mars is no exception to this rule, where the ethereal population has been more welcomed than most, due to Mars' more cosmopolitan past.
+   Here, the ethereals have developed a distinct culture, neither that of their homeland nor that of Mars, and with that a distinct cuisine.
+*/
+
+// Pickled Voltvine
+/obj/item/food/pickled_voltvine
+	name = "pickled voltvine"
+	desc = "A traditional dish from Sprout (where it is known as hinu'sashuruhk), pickled voltvine has taken on a new identity amongst the pickle masters of Mars, earning a seat at the holy pickle pantheon alongside pickled ginger and kimchi (once appropriately discharged, at least)."
+
+// 24-Volt Energy
+/obj/item/food/volt_fish
+	name = "24-volt fish"
+	desc = "Some may question the 24-volt fish. After all, fish poached in electric-blue super-sour energy drink looks awful. And, indeed, tastes awful. So why do the Martian ethereals like it, then?" //beats the hell out of me
+
+// Sprout Bowl
+/obj/item/food/salad/sprout_bowl
+	name = "\improper Sprout bowl"
+	desc = "Named for the Ethereal homeworld, this rice-based bowl draws on the donburi tradition, but rejects typical donburi toppings, instead using sashimi grade fish and pickled voltvine."
+
+// Shok-Roks

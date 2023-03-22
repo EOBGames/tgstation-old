@@ -1101,3 +1101,10 @@
 		affected_mob.investigate_log("has been gibbed by consuming [src] while fat.", INVESTIGATE_DEATHS)
 		affected_mob.inflate_gib()
 	return ..()
+
+/datum/reagent/consumable/grounding_solution
+	name = "Grounding Solution"
+	description = "A food-safe ionic solution designed to neutralise the enigmatic \"liquid electricity\" that is common to food from Sprout, forming harmless salt on contact."
+	color = "#efeff0"
+	taste_description = "metallic salt"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
