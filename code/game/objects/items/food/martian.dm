@@ -527,7 +527,7 @@
 
 /obj/item/food/little_hawaii_hotdog
 	name = "\improper Little Hawaii hotdog"
-	desc = "Fries with shredded duck, ketchup, mayo, and Red Bay. A classic street food on Mars, although they're most often associated with Quack Snax, Mars' favourite (and only) duck themed restaurant."
+	desc = "From the friendly vendors of Honolulu Avenue comes the Little Hawaii dog- tropical and fattening, all at the same time!"
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "little_hawaii_hotdog"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2, /datum/reagent/consumable/nutriment/vitamin = 8, /datum/reagent/consumable/nutriment = 4)
