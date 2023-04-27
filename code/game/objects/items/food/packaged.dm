@@ -109,6 +109,18 @@
 	tastes = list("meat" = 7, "tin" = 1)
 	foodtypes = MEAT
 
+/obj/item/food/chapslice
+	name = "slice of chap"
+	desc = "A thin slice of chap. Useful for frying, or making sandwiches."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "chapslice"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment/vitamin = 3
+	)
+	tastes = list("meat" = 1)
+	foodtypes = MEAT
+	w_class = WEIGHT_CLASS_SMALL
+
 /obj/item/food/canned/envirochow
 	name = "dog eat dog envirochow"
 	desc = "The first pet food product that is made fully sustainable by employing ancient British animal husbandry techniques."

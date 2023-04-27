@@ -159,6 +159,14 @@
 	name = "canned pine nuts"
 	icon_state = "pinenutscan_empty"
 
+/obj/item/trash/can/food/squid_ink
+	name = "canned squid ink"
+	icon_state = "pinenutscan_empty"
+
+/obj/item/trash/can/food/chap
+	name = "can of chap"
+	icon_state = "pinenutscan_empty"
+
 /obj/item/trash/can/food/jellyfish
 	name = "canned gunner jellyfish"
 	icon_state = "jellyfish_empty"

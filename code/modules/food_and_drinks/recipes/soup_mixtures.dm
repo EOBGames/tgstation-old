@@ -1718,3 +1718,261 @@
 		/datum/reagent/consumable/sugar = 8,
 	)
 	percentage_of_nutriment_converted = 0.1
+
+// Martian Food
+
+// Dashi Broth
+/datum/reagent/consumable/nutriment/soup/dashi
+	name = "Dashi"
+	description = "Made with kombu and katsuobushi, this mother stock forms the basis for a large number of Japanese dishes."
+	data = list("umami" = 1)
+	color = "#D49D26"
+
+/datum/glass_style/has_foodtype/soup/dashi
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/dashi
+	name = "dashi"
+	drink_type = SEAFOOD
+
+/datum/chemical_reaction/food/soup/dashi
+	required_other = FALSE
+	required_reagents = list(
+		/datum/reagent/consumable/dashi_concentrate = 5,
+		/datum/reagent/water = 40,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/dashi = 40,
+	)
+
+// Teriyaki Sauce
+/datum/reagent/consumable/nutriment/soup/teriyaki
+	name = "Teriyaki Sauce"
+	description = "A Japanese sauce that's heavy on umami."
+	data = list("umami" = 1)
+	color = "#D49D26"
+
+/datum/glass_style/has_foodtype/soup/teriyaki
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/teriyaki
+	name = "teriyaki sauce"
+	drink_type = VEGETABLES
+
+/datum/chemical_reaction/food/soup/teriyaki
+	required_other = FALSE
+	required_reagents = list(
+		/datum/reagent/consumable/soysauce = 10,
+		/datum/reagent/consumable/ethanol/sake = 10,
+		/datum/reagent/consumable/mirin = 10,
+		/datum/reagent/consumable/sugar = 5,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/teriyaki = 20,
+	)
+
+// Curry Sauce
+/datum/reagent/consumable/nutriment/soup/curry_sauce
+	name = "Curry Sauce"
+	description = "A basic curry sauce that goes well on a wide range of foods."
+	data = list("curry" = 1)
+	color = "#F6C800"
+
+/datum/glass_style/has_foodtype/soup/curry_sauce
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/curry_sauce
+	name = "curry sauce"
+	drink_type = VEGETABLES
+
+/datum/chemical_reaction/food/soup/curry_sauce
+	required_other = FALSE
+	required_reagents = list(
+		/datum/reagent/water = 30,
+		/datum/reagent/consumable/curry_powder = 10,
+		/datum/reagent/consumable/soysauce = 5,
+		/datum/reagent/consumable/corn_starch = 5,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/curry_sauce = 40,
+	)
+
+// Shoyu Ramen
+/datum/reagent/consumable/nutriment/soup/shoyu_ramen
+	name = "Shōyu Ramen"
+	description = "A soy-sauce based ramen, with noodles, fishcake, barbecued meat and a boiled egg."
+	data = list("egg" = 1, "fish" = 1, "noodles" = 1, "meat" = 1, "broth" = 1)
+	color = "#F0DD5A"
+
+/datum/glass_style/has_foodtype/soup/shoyu_ramen
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/shoyu_ramen
+	name = "shōyu ramen"
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "shoyu_ramen"
+	drink_type = MEAT | GRAIN | VEGETABLES | SEAFOOD
+
+/datum/chemical_reaction/food/soup/shoyu_ramen
+	required_reagents = list(
+		/datum/reagent/consumable/nutriment/soup/dashi = 20,
+		/datum/reagent/consumable/nutriment/soup/teriyaki = 15,
+	)
+	required_ingredients = list(
+		/obj/item/food/boilednoodles = 1,
+		/obj/item/food/kamaboko_slice = 1,
+		/obj/item/food/meat/cutlet = 1,
+		/obj/item/food/boiledegg = 1,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/shoyu_ramen = 30,
+		/datum/reagent/consumable/nutriment/vitamin = 8,
+		/datum/reagent/consumable/nutriment/protein = 8,
+	)
+
+// Gyuramen
+/datum/reagent/consumable/nutriment/soup/gyuramen
+	name = "Gyuramen Miy Käzu"
+	description = "A rich beef and onion ramen with cheese- blending several cultural influences seemlessly into one tasty dish."
+	data = list("beef broth" = 1, "onion" = 1, "cheese" = 1)
+	color = "#F0DD5A"
+
+/datum/glass_style/has_foodtype/soup/gyuramen
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/gyuramen
+	name = "gyuramen miy käzu"
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "gyuramen"
+	drink_type = MEAT | GRAIN | DAIRY | VEGETABLES
+
+/datum/chemical_reaction/food/soup/gyuramen
+	required_reagents = list(
+		/datum/reagent/consumable/nutriment/soup/dashi = 15,
+		/datum/reagent/consumable/soysauce = 5,
+	)
+	required_ingredients = list(
+		/obj/item/food/boilednoodles = 1,
+		/obj/item/food/cheese/wedge = 1,
+		/obj/item/food/onion_slice = 2,
+		/obj/item/food/meat/cutlet = 1,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/gyuramen = 30,
+		/datum/reagent/consumable/nutriment/vitamin = 2,
+		/datum/reagent/consumable/nutriment/protein = 10,
+	)
+
+// New Osaka Sunrise
+/datum/reagent/consumable/nutriment/soup/new_osaka_sunrise
+	name = "New Osaka Sunrise Soup"
+	description = "A bright, flavourful miso soup with tofu that commonly forms part of a traditional Martian breakfast, at least in the capital."
+	data = list("miso" = 1, "tofu" = 1, "onion" = 1, "eggplant" = 1)
+	color = "#F0DD5A"
+
+/datum/glass_style/has_foodtype/soup/new_osaka_sunrise
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/new_osaka_sunrise
+	name = "\improper New Osaka Sunrise soup"
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "new_osaka_sunrise"
+	drink_type = MEAT | GRAIN | DAIRY | VEGETABLES
+
+/datum/chemical_reaction/food/soup/new_osaka_sunrise
+	required_reagents = list(
+		/datum/reagent/consumable/nutriment/soup/miso = 15,
+	)
+	required_ingredients = list(
+		/obj/item/food/grown/herbs = 1,
+		/obj/item/food/grown/eggplant = 1,
+		/obj/item/food/onion_slice = 1,
+		/obj/item/food/tofu = 1,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/new_osaka_sunrise = 30,
+		/datum/reagent/consumable/nutriment/vitamin = 8,
+		/datum/reagent/consumable/nutriment/protein = 2,
+	)
+
+// Satsuma Black
+/datum/reagent/consumable/nutriment/soup/satsuma_black
+	name = "Satsuma Black Soup"
+	description = "A rich, heavy seafood and noodle soup from Mars, employing squid ink to give a strong taste of the sea."
+	data = list("seafood" = 1, "tofu" = 1, "noodles" = 1)
+	color = "#F0DD5A"
+
+/datum/glass_style/has_foodtype/soup/satsuma_black
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/satsuma_black
+	name = "\improper Satsuma Black soup"
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "satsuma_black"
+	drink_type = SEAFOOD | GRAIN | VEGETABLES
+
+/datum/chemical_reaction/food/soup/satsuma_black
+	required_reagents = list(
+		/datum/reagent/consumable/nutriment/soup/dashi = 20,
+		/datum/reagent/consumable/squid_ink = 15,
+	)
+	required_ingredients = list(
+		/obj/item/food/boilednoodles = 1,
+		/obj/item/food/seaweedsheet = 1,
+		/obj/item/food/tofu = 1,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/satsuma_black = 30,
+		/datum/reagent/consumable/nutriment/vitamin = 4,
+		/datum/reagent/consumable/nutriment/protein = 6,
+	)
+
+// Dragon Style
+/datum/reagent/consumable/nutriment/soup/dragon_ramen
+	name = "Dragon Style Ramen"
+	description = "For the ramen fan who hates their tastebuds and digestive tract. Traditionally made with seven different chilis, although after two or so the point sorta gets lost."
+	data = list("meat" = 1, "liquid hot magma" = 1, "noodles" = 1)
+	color = "#F0DD5A"
+
+/datum/glass_style/has_foodtype/soup/dragon_ramen
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/dragon_ramen
+	name = "\improper Dragon Style ramen"
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "dragon_ramen"
+	drink_type = SEAFOOD | GRAIN | VEGETABLES
+
+/datum/chemical_reaction/food/soup/dragon_ramen
+	required_reagents = list(
+		/datum/reagent/consumable/nutriment/soup/dashi = 20,
+		/datum/reagent/consumable/nutriment/soup/teriyaki = 15,
+		/datum/reagent/consumable/red_bay = 5,
+	)
+	required_ingredients = list(
+		/obj/item/food/boilednoodles = 1,
+		/obj/item/food/grown/ghost_chili = 2,
+		/obj/item/food/kamaboko_slice = 1,
+		/obj/item/food/boiledegg = 1,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/dragon_ramen = 30,
+		/datum/reagent/consumable/nutriment/vitamin = 4,
+		/datum/reagent/consumable/nutriment/protein = 6,
+	)
+
+// Hong Kong Borscht
+/datum/reagent/consumable/nutriment/soup/hong_kong_borscht
+	name = "Hong Kong Borscht"
+	description = "Also known as luo song tang or Russian soup, this dish bears little to no resemblance to Eastern European borscht- indeed, it's a tomato-based soup with no beets in sight."
+	data = list("tomato" = 1, "meat" = 1, "cabbage" = 1)
+	color = "#F0DD5A"
+
+/datum/glass_style/has_foodtype/soup/hong_kong_borscht
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/hong_kong_borscht
+	name = "\improper Hong Kong borscht"
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "hong_kong_borscht"
+	drink_type = MEAT | VEGETABLES
+
+/datum/chemical_reaction/food/soup/dragon_ramen
+	required_reagents = list(
+		/datum/reagent/consumable/nutriment/soup/dashi = 20,
+		/datum/reagent/consumable/nutriment/soup/teriyaki = 15,
+		/datum/reagent/consumable/red_bay = 5,
+	)
+	required_ingredients = list(
+		/obj/item/food/boilednoodles = 1,
+		/obj/item/food/grown/ghost_chili = 2,
+		/obj/item/food/kamaboko_slice = 1,
+		/obj/item/food/boiledegg = 1,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/dragon_ramen = 30,
+		/datum/reagent/consumable/nutriment/vitamin = 4,
+		/datum/reagent/consumable/nutriment/protein = 6,
+	)
