@@ -1959,20 +1959,51 @@
 	icon_state = "hong_kong_borscht"
 	drink_type = MEAT | VEGETABLES
 
-/datum/chemical_reaction/food/soup/dragon_ramen
+/datum/chemical_reaction/food/soup/hong_kong_borscht
 	required_reagents = list(
-		/datum/reagent/consumable/nutriment/soup/dashi = 20,
-		/datum/reagent/consumable/nutriment/soup/teriyaki = 15,
-		/datum/reagent/consumable/red_bay = 5,
+		/datum/reagent/water = 50,
+		/datum/reagent/consumable/soysauce = 5,
 	)
 	required_ingredients = list(
-		/obj/item/food/boilednoodles = 1,
-		/obj/item/food/grown/ghost_chili = 2,
-		/obj/item/food/kamaboko_slice = 1,
-		/obj/item/food/boiledegg = 1,
+		/obj/item/food/grown/tomato = 1,
+		/obj/item/food/grown/cabbage = 1,
+		/obj/item/food/grown/onion = 1,
+		/obj/item/food/grown/carrot = 1,
+		/obj/item/food/meat/cutlet = 1,
 	)
 	results = list(
-		/datum/reagent/consumable/nutriment/soup/dragon_ramen = 30,
-		/datum/reagent/consumable/nutriment/vitamin = 4,
+		/datum/reagent/consumable/nutriment/soup/hong_kong_borscht = 30,
+		/datum/reagent/consumable/nutriment/vitamin = 8,
+		/datum/reagent/consumable/nutriment/protein = 2,
+	)
+	percentage_of_nutriment_converted = 0.1
+
+// Huotui Tong Fen
+/datum/reagent/consumable/nutriment/soup/hong_kong_macaroni
+	name = "Hong Kong Macaroni Soup"
+	description = "A favourite from Hong Kong's Cha Chaan Tengs, this macaroni soup came to Mars with Cantonese settlers under Cybersun Industries, and has become as much of a breakfast staple there as it is in its homeland."
+	data = list("cream" = 1, "chicken" = 1, "pasta" = 1, "ham" = 1)
+	color = "#F0DD5A"
+
+/datum/glass_style/has_foodtype/soup/hong_kong_macaroni
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/hong_kong_macaroni
+	name = "\improper Hong Kong macaroni soup"
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "hong_kong_macaroni"
+	drink_type = MEAT | VEGETABLES
+
+/datum/chemical_reaction/food/soup/hong_kong_macaroni
+	required_reagents = list(
+		/datum/reagent/consumable/water = 30,
+		/datum/reagent/consumable/cream = 10,
+	)
+	required_ingredients = list(
+		/obj/item/food/spaghetti/boiledspaghetti = 1,
+		/obj/item/food/meat/cutlet/chicken = 1,
+		/obj/item/food/meat/bacon = 1,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/hong_kong_macaroni = 30,
 		/datum/reagent/consumable/nutriment/protein = 6,
 	)
+	percentage_of_nutriment_converted = 0.2
