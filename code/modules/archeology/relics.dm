@@ -34,7 +34,7 @@ These types of slugs are still used by the SSC today, mostly from pre-war stocks
 	desc = "A commemorative coin celebrating the launch of the Thazakto on its journey into the world of FTL flight. One face is marked with the crest of the Imperial Colonisation Commission and a stylised design of the Thazakto, while the other face bares a side relief of Emperor Delan-Rena IV."
 
 /*
-The Tiziran Rena is the official currency of the Tiziran Empire.")]"
+The Tiziran Rena is the official currency of the Tiziran Empire.
 Typical examples of coins from the Empire will feature a small emblem on the front of the coin (often the parliamentary seal), and a silhouette of the reigning monarch on the reverse.
 This coin, however, is a commemorative edition, issued in expectation of the launch of the ICS Thazakto, Lizardkind's first FTL-capable vessel.
 Following the disappearance of the Thazakto, many of these coins were recollected by the Imperial Mint and destroyed to save face.
@@ -70,7 +70,7 @@ Humanity's first contact with Lizardkind was via a Tomb Ship, with the human way
 
 /*
 To a human viewer, the VI core may seem like an antiquated piece of history, having been supplanted by true AI centuries ago. But to a Tiziran, this is much more typical.
-The Tiziran development of AI was initially rapid and promising, but was sadly let down by a general mistrust of the technology by the population, spurred on by a number of mishaps with experimental AIs. Eventually, the shift was made to more advanced (and constrained) VI models instead.
+The Tiziran development of AI was initially rapid and promising, but was sadly let down by a general mistrust of the technology by the population, spurred on by a number of mishaps with experimental AIs. Eventually, the shift was made to advanced (and constrained) VI models instead.
 Given the additional development VI has been given in the Tiziran empire, modern examples are generally about on-par effectiveness-wise with AI, but with a much narrower scope and little adaptive ability.
 A Tiziran-made warship may employ thousands of VI cores like this to give a full range of subsystems and tactical programming. A human-made warship utilising AI will need only one to achieve the same effect.
 This particular example probably came with the Thazakto. There are probably hundreds like it scattered across Lavaland, especially if the Subsystem Core got breached prior to the vessel landing.

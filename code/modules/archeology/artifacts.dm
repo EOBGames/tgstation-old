@@ -10,11 +10,30 @@ Each is made up of multiple parts (the more powerful the item, the more parts!) 
 
 /obj/machinery/smoke_machine/steam_censer
 
-// Clockwork Timekeeper - Space/Lavaland Loot: A Clockwork Cult-styled artificial heart. Roughly on par with a Tier-3 augment, but without the drawback of EMP vulnerability.
+// Clockwork Timekeeper - Space/Lavaland Loot: A Clockwork Cult-styled artificial heart. Roughly on par with a Tier-3 augment, but without the drawback of EMP vulnerability nor the epinephrine dose.
 // Brassbellow Ventriclium - A small, intricate chamber, similar in appearance to an old set of bellows, which, given the waterproof parts, is probably designed to move fluids. It has an empty slot on it, and seems to be missing a number of parts.
 // Glowing Brass Vial - A small brass vial of glowing green liquid. It feels warm to the touch, and seems to pulsate slightly.
 // Timekeeper Mechanism - A little assembly of gears and pipes. Looks important- and incomplete. Whatever piece this came from probably relies on it to keep time.
 // Additional parts- screwdriver
+
+/obj/item/organ/heart/clockwork
+	name = "clockwork timekeeper"
+	desc = "An electronic device designed to mimic the functions of an organic human heart. Also holds an emergency dose of epinephrine, used automatically after facing severe trauma. This upgraded model can regenerate its dose after use."
+	icon_state = "heart-clockwork"
+	maxHealth = 2 * STANDARD_ORGAN_THRESHOLD
+	organ_flags = ORGAN_SYNTHETIC
+
+/obj/item/artifact/timekeeper/ventriclium
+	name = "brassbellow ventriclium"
+	desc = "A small, intricate chamber, similar in appearance to an old set of bellows, which, given the waterproof parts, is probably designed to move fluids. It has an empty slot on it, and seems to be missing a number of parts."
+
+/obj/item/artifact/timekeeper/vial
+	name = "glowing brass vial"
+	desc = "A small brass vial of glowing green liquid. It feels warm to the touch, and seems to pulsate slightly."
+
+/obj/item/artifact/timekeeper/mechanism
+	name = "timekeeper mechanism"
+	desc = "A little assembly of gears and pipes. Looks important- and incomplete. Whatever piece this came from probably relies on it to keep time."
 
 // Hardlight Engitool "Matryoshka" - Space Loot: An old-school third-soviet-era prototype hardlight engineering engitool. Never saw mass-production due to high costs and complexity - and due to the factory that held the blueprints burning down during a riot.
 // Tool Types: Crowbar, Screwdriver, Wirecutters, Wrench, Knife, Pickaxe, Shovel, Lighter
