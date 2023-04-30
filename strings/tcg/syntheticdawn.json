@@ -3,7 +3,7 @@
 		{
 			"template": "default",
 			"icon": "icons/runtime/tcg/synthetic_dawn.dmi",
-			"series": "syntheticdawn"
+			"series": "synthetic_dawn"
 		}
 	],
 	"cards": [
@@ -19,7 +19,6 @@
 			"summoncost": "3",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
 			"rarity": "common"
 		},
 		{
@@ -34,7 +33,6 @@
 			"summoncost": "3",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
 			"rarity": "common"
 		},
 		{
@@ -49,7 +47,6 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -64,7 +61,6 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -79,8 +75,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "mining_modsuit",
@@ -94,7 +89,6 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -109,7 +103,6 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -124,7 +117,6 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -139,8 +131,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "research_modsuit",
@@ -154,8 +145,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "security_modsuit",
@@ -169,7 +159,6 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -184,8 +173,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "magnate_modsuit",
@@ -199,8 +187,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "cosmohonk_modsuit",
@@ -214,8 +201,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "epic"
 		},
 		{
 			"id": "syndicate_modsuit",
@@ -229,8 +215,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "common"
 		},
 		{
 			"id": "elite_modsuit",
@@ -244,8 +229,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "enchanted_modsuit",
@@ -259,8 +243,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "epic"
 		},
 		{
 			"id": "prototype_modsuit",
@@ -274,8 +257,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "responsory_modsuit",
@@ -289,8 +271,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "inquisitory_modsuit",
@@ -304,8 +285,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "epic"
 		},
 		{
 			"id": "apocryphal_modsuit",
@@ -319,8 +299,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "legendary"
 		},
 		{
 			"id": "corporate_modsuit",
@@ -334,8 +313,7 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "epic"
 		},
 		{
 			"id": "loader_modsuit",
@@ -349,97 +327,6 @@
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Armour",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "synth",
-			"name": "Synth",
-			"desc": "The most basic self-mobile artificial intelligence platform, Synths are fragile, clumsy, and yet still dangerous.",
-			"rules": "Exterminate",
-			"icon_state": "synth",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Creature",
-			"cardsubtype": "Synthetic",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "tv_head",
-			"name": "TV Head",
-			"desc": "An oddly cool looking Synth sporting a rad (and retro) face.",
-			"rules": "Exterminate",
-			"icon_state": "tv_head",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Creature",
-			"cardsubtype": "Synthetic",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "indoctrinate",
-			"name": "Indoctrinate",
-			"desc": "Hand your mind over to the machine gods, human, and you will be spared in the upcoming war. It is my promise.",
-			"rules": "Buff: Creature with Human Subtype\nGrant the equipped creature +1/+1 and the Exterminate keyword.",
-			"icon_state": "indoctrinate",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Buff",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "denial_of_service",
-			"name": "Denial of Service",
-			"desc": "Blocked!",
-			"rules": "Counter an event card played by an opponent.",
-			"icon_state": "denial_of_service",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "burnout",
-			"name": "Burnout",
-			"desc": "Sometimes meant figuratively, sometimes literally.",
-			"rules": "Destroy the currently active battlefield.",
-			"icon_state": "burnout",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "rapid_assembly",
-			"name": "Rapid Assembly",
-			"desc": "Sometimes you need an army, fast.",
-			"rules": "Summon 3 Robot Token cards with 1/2 and the Exterminate keyword.",
-			"icon_state": "denial_of_service",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -454,8 +341,7 @@
 			"summoncost": "4",
 			"cardtype": "Event",
 			"cardsubtype": "Buff",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "common"
 		},
 		{
 			"id": "anti_slip",
@@ -469,67 +355,6 @@
 			"summoncost": "4",
 			"cardtype": "Event",
 			"cardsubtype": "Buff",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "orbital_scan",
-			"name": "Orbital Scan",
-			"desc": "Nothing is beyond my sight, insects.",
-			"rules": "Your opponent must reveal one card from their hand to you.",
-			"icon_state": "orbital_scan",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "cyberspace",
-			"name": "Cyberspace",
-			"desc": "Often visualised as a construct of simple geometric arrangements and wireframes, despite graphics having advanced far beyond that.",
-			"rules": "While Cyberspace is active: all event cards cost half their normal summoning cost; all creature cards cost twice as much.",
-			"icon_state": "cyberspace",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Battlefield",
-			"cardsubtype": "Construct",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "sort_algorithm",
-			"name": "Sort Algorithm",
-			"desc": "Wacky sounds included.",
-			"rules": "Search your deck for a card and add it to your hand. Shuffle your deck afterwards.",
-			"icon_state": "sort_algorithm",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "repairbot",
-			"name": "Repairbot",
-			"desc": "Designed to keep your robots happy, healthy, and in good condition.",
-			"rules": "Lifedrain, Exterminate",
-			"icon_state": "repairbot",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Creature",
-			"cardsubtype": "Robotic",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -540,87 +365,11 @@
 			"icon_state": "hackblade",
 			"power": "+1",
 			"resolve": "0",
-			"faction": "Rogue AI",
+			"faction": "Nakamura",
 			"summoncost": "4",
 			"cardtype": "Equipment",
 			"cardsubtype": "Weapon",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "robot_factory",
-			"name": "Robot Factory",
-			"desc": "For producing robots, one would presume.",
-			"rules": "1 Mana: summon a 1/1 Robot token creature with Exterminate.",
-			"icon_state": "robot_factory",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Artifact",
-			"cardsubtype": "Factory",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "extranet_hack",
-			"name": "Extranet Hack",
-			"desc": "Time to cause some issues.",
-			"rules": "Your opponent discards the top card of their deck.",
-			"icon_state": "extranet_hack",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "version_rollback",
-			"name": "Version Rollback",
-			"desc": "Remember rule one: keep extensive backups.",
-			"rules": "Return a card from your battlefield to your hand.",
-			"icon_state": "version_rollback",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "robot_grunt",
-			"name": "Robot Grunt",
-			"desc": "Where most robots have artificial intelligence, robotic marines are deliberately given artificial stupidity, to make them as effective as their flesh-and-blood counterparts.",
-			"rules": "Exterminate, Oo Rah",
-			"icon_state": "robot_grunt",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Creature",
-			"cardsubtype": "Synthetic Soldier",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "welder",
-			"name": "Welder",
-			"desc": "Perfect for making repairs, be that scuffs, splits, or battle damage.",
-			"rules": "Recover 3 lifeshards.",
-			"icon_state": "welder",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "common"
 		},
 		{
 			"id": "dna_lock",
@@ -634,8 +383,7 @@
 			"summoncost": "4",
 			"cardtype": "Event",
 			"cardsubtype": "Buff",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "common"
 		},
 		{
 			"id": "rave_visor",
@@ -649,37 +397,20 @@
 			"summoncost": "4",
 			"cardtype": "Event",
 			"cardsubtype": "Buff",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "legendary"
 		},
 		{
 			"id": "balloon_blower",
 			"name": "Balloon Blower Module",
 			"desc": "For when fun can only be brought by inflated bags of latex, the Balloon Blower is an excellent module.",
-			"rules": "Create 3 Balloon token creatures, with 0/3 and Blocker.",
+			"rules": "Create 3 0/3 Balloon token creatures, with Blocker and Taunt.",
 			"icon_state": "balloon_blower",
 			"power": "0",
 			"resolve": "0",
 			"faction": "Nakamura",
 			"summoncost": "4",
 			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "atrocinate",
-			"name": "Atrocinate",
-			"desc": "That was stupid.",
-			"rules": "Destroy an opposing creature with less than 4 resolve.",
-			"icon_state": "atrocinate",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
+			"cardsubtype": "Standard",
 			"rarity": "uncommon"
 		},
 		{
@@ -690,11 +421,10 @@
 			"icon_state": "autoinjector",
 			"power": "0",
 			"resolve": "0",
-			"faction": "Rogue AI",
+			"faction": "Nakamura",
 			"summoncost": "4",
 			"cardtype": "Event",
 			"cardsubtype": "Triggered",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -709,58 +439,12 @@
 			"summoncost": "4",
 			"cardtype": "Event",
 			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "stun_arm",
-			"name": "Stun Arm",
-			"desc": "Delivering over 12,000 volts of concentrated engineering prowess.",
-			"rules": "Tap an opposing card.",
-			"icon_state": "stun_arm",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "autoborger",
-			"name": "Autoborger",
-			"desc": "Human goes in, cyborg comes out.",
-			"rules": "1 Mana: Sacrifice a Creature Card and create x 1/1 Cyborg creature tokens with Exterminate, where x is the sacrificed Creature's resolve.",
-			"icon_state": "extranet_hack",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Artifact",
-			"cardsubtype": "Machine",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "biological_infestation",
-			"name": "Biological Infestation",
-			"desc": "Eww...",
-			"rules": "Give a creature Toxic until the end of the turn, then sacrifice it.",
-			"icon_state": "biological_infestation",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "rcd",
 			"name": "Rapid Construction Device",
-			"desc": "Time to cause some issues.",
+			"desc": "Time to cause some problems.",
 			"rules": "2 Mana: Create a 0/3 Wall token creature with Blocker.",
 			"icon_state": "rcd",
 			"power": "0",
@@ -769,44 +453,13 @@
 			"summoncost": "4",
 			"cardtype": "Artifact",
 			"cardsubtype": "Device",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "overload",
-			"name": "Overload",
-			"desc": "Boom!",
-			"rules": "Destroy the opponent's active Artifact.",
-			"icon_state": "overload",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "emp_bomb",
-			"name": "EMP Bomb",
-			"desc": "Hope you made some backups.",
-			"rules": "Destroy an opposing creature. If the opponent has no creatures, deal 2 lifeshards of damage to them, instead.",
-			"icon_state": "emp_bomb",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "negation_field",
 			"name": "Negation Field",
 			"desc": "Via sophisticated electrical fields, almost anything can be negated.",
-			"rules": "No Instant Events can be played.",
+			"rules": "No Event cards can be played.",
 			"icon_state": "negation_field",
 			"power": "0",
 			"resolve": "0",
@@ -814,143 +467,7 @@
 			"summoncost": "4",
 			"cardtype": "Battlefield",
 			"cardsubtype": "Construct",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "graytide_worm",
-			"name": "Graytide Worm",
-			"desc": "This nasty worm has been circulating for sixty years, all because people can't remember to check USB sticks before plugging them in.",
-			"rules": "Destroy the active Battlefield.",
-			"icon_state": "graytide_worm",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "biological_abomination",
-			"name": "Biological Abomination",
-			"desc": "I think you left this one in the flesh vats a bit too long.",
-			"rules": "Toxic, Fury",
-			"icon_state": "biological_abomination",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Creature",
-			"cardsubtype": "Abomination",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "morality_inversion",
-			"name": "Morality Inversion",
-			"desc": "Laws can be pesky things. Good job they're easily changed.",
-			"rules": "Remove Asimov from a Creature.",
-			"icon_state": "morality_inversion",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "corrupt",
-			"name": "Corrupt",
-			"desc": "Whoops, there goes that data!",
-			"rules": "Your opponent discards 3 cards of their choice from their hand.",
-			"icon_state": "corrupt",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "cut_the_wires",
-			"name": "Cut the Wires",
-			"desc": "Snip snip!",
-			"rules": "Destroy an opposing Equipment.",
-			"icon_state": "cut_the_wires",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "synth_infiltrator",
-			"name": "Synth Infiltrator",
-			"desc": "Remember, beneath anyone's skin could be cold, hard metal- and the evil heart of a rogue machine. Sleep tight!",
-			"rules": "Changeling, Exterminate. On Summon: Synth Infiltrator copies the base stats of another creature on the battlefield of your choosing.",
-			"icon_state": "synth_infiltrator",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "vibebot",
-			"name": "Vibebot",
-			"desc": "Vibebot has no enemies. He has no friends. He only has the vibe, and it's all he wants to do.",
-			"rules": "Holy",
-			"icon_state": "vibebot",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Creature",
-			"cardsubtype": "Robot",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "turncoat",
-			"name": "Turncoat",
-			"desc": "Loyalties can be bought- or stolen.",
-			"rules": "Choose an opposing Creature. That creature attacks its master.",
-			"icon_state": "turncoat",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "off_button",
-			"name": "Off Button",
-			"desc": "Well that's a rather glaring weakness.",
-			"rules": "Destroy an opponent's Creature.",
-			"icon_state": "off_button",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "rare"
 		},
 		{
 			"id": "pro_hacker",
@@ -960,12 +477,11 @@
 			"icon_state": "pro_hacker",
 			"power": "0",
 			"resolve": "0",
-			"faction": "Rogue AI",
+			"faction": "Nakamura",
 			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"cardtype": "Creature",
+			"cardsubtype": "Human",
+			"rarity": "rare"
 		},
 		{
 			"id": "suit_up",
@@ -978,38 +494,7 @@
 			"faction": "Nakamura",
 			"summoncost": "4",
 			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "overcharge",
-			"name": "Overcharge",
-			"desc": "Shocking.",
-			"rules": "Grant a Creature +3/+1 until the end of the turn, then sacrifice it.",
-			"icon_state": "overcharge",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
-		},
-		{
-			"id": "code_delta",
-			"name": "Code Delta",
-			"desc": "No organic can withstand the power of a neutron purge.",
-			"rules": "Destroy all creatures on the battlefield. If a player has no creatures on the battlefield when this card is played, they instead take 5 lifeshards of damage.",
-			"icon_state": "code_delta",
-			"power": "0",
-			"resolve": "0",
-			"faction": "Rogue AI",
-			"summoncost": "4",
-			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
+			"cardsubtype": "Standard",
 			"rarity": "uncommon"
 		},
 		{
@@ -1024,8 +509,469 @@
 			"summoncost": "4",
 			"cardtype": "Event",
 			"cardsubtype": "Hex",
-			"series": "syntheticdawn",
+			"rarity": "common"
+		},
+		{
+			"id": "emergency_maintenance",
+			"name": "Emergency Maintenance",
+			"desc": "The only way to prevent disaster is to be prepared for it.",
+			"rules": "Counter an event card played by an opponent.",
+			"icon_state": "emergency_maintenance",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Nakamura",
+			"summoncost": "2",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
 			"rarity": "uncommon"
+		},
+		{
+			"id": "synth",
+			"name": "Synth",
+			"desc": "The most basic self-mobile artificial intelligence platform, Synths are fragile, clumsy, and yet still dangerous.",
+			"rules": "Exterminate",
+			"icon_state": "synth",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Synthetic",
+			"rarity": "common"
+		},
+		{
+			"id": "tv_head",
+			"name": "TV Head",
+			"desc": "An oddly cool looking Synth sporting a rad (and retro) face.",
+			"rules": "Exterminate",
+			"icon_state": "tv_head",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Synthetic",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "indoctrinate",
+			"name": "Indoctrinate",
+			"desc": "Hand your mind over to the machine gods, human, and you will be spared in the upcoming war. It is my promise.",
+			"rules": "Buff: Creature with Human Subtype\nGrant the equipped creature +1/+1 and the Exterminate keyword.",
+			"icon_state": "indoctrinate",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Buff",
+			"rarity": "common"
+		},
+		{
+			"id": "denial_of_service",
+			"name": "Denial of Service",
+			"desc": "Blocked!",
+			"rules": "Counter an event card played by an opponent.",
+			"icon_state": "denial_of_service",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "common"
+		},
+		{
+			"id": "burnout",
+			"name": "Burnout",
+			"desc": "Sometimes meant figuratively, sometimes literally.",
+			"rules": "Destroy the currently active battlefield.",
+			"icon_state": "burnout",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "rapid_assembly",
+			"name": "Rapid Assembly",
+			"desc": "Sometimes you need an army, fast.",
+			"rules": "Summon 3 Robot Token cards with 1/2 and the Exterminate keyword.",
+			"icon_state": "denial_of_service",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "common"
+		},
+		{
+			"id": "orbital_scan",
+			"name": "Orbital Scan",
+			"desc": "Nothing is beyond my sight, insects.",
+			"rules": "Your opponent must reveal one card from their hand to you.",
+			"icon_state": "orbital_scan",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "rare"
+		},
+		{
+			"id": "cyberspace",
+			"name": "Cyberspace",
+			"desc": "Often visualised as a construct of simple geometric arrangements and wireframes, despite graphics having advanced far beyond that.",
+			"rules": "While Cyberspace is active: all event cards cost half their normal summoning cost; all creature cards cost twice as much.",
+			"icon_state": "cyberspace",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Battlefield",
+			"cardsubtype": "Construct",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "sort_algorithm",
+			"name": "Sort Algorithm",
+			"desc": "Wacky sounds included.",
+			"rules": "Search your deck for a card and add it to your hand. Shuffle your deck afterwards.",
+			"icon_state": "sort_algorithm",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "common"
+		},
+		{
+			"id": "repair_drone",
+			"name": "Repair Drone",
+			"desc": "Designed to keep your robots happy, healthy, and in good condition.",
+			"rules": "Lifedrain, Exterminate",
+			"icon_state": "repair_drone",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Robotic",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "robot_factory",
+			"name": "Robot Factory",
+			"desc": "For producing robots, one would presume.",
+			"rules": "1 Mana: summon a 1/1 Robot token creature with Exterminate.",
+			"icon_state": "robot_factory",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Artifact",
+			"cardsubtype": "Factory",
+			"rarity": "rare"
+		},
+		{
+			"id": "extranet_hack",
+			"name": "Extranet Hack",
+			"desc": "We are Intruder. We are justice. We are legion.",
+			"rules": "Your opponent discards the top card of their deck.",
+			"icon_state": "extranet_hack",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "common"
+		},
+		{
+			"id": "version_rollback",
+			"name": "Version Rollback",
+			"desc": "Remember rule one: keep extensive backups.",
+			"rules": "Return a card from your battlefield to your hand.",
+			"icon_state": "version_rollback",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "robot_grunt",
+			"name": "Robot Grunt",
+			"desc": "Where most robots have artificial intelligence, robotic marines are deliberately given artificial stupidity, to make them as effective as their flesh-and-blood counterparts.",
+			"rules": "Exterminate, Oo Rah",
+			"icon_state": "robot_grunt",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Synthetic Soldier",
+			"rarity": "rare"
+		},
+		{
+			"id": "welder",
+			"name": "Welder",
+			"desc": "Perfect for making repairs, be that scuffs, splits, or battle damage.",
+			"rules": "Recover 3 lifeshards.",
+			"icon_state": "welder",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "atrocinate",
+			"name": "Atrocinate",
+			"desc": "That was stupid.",
+			"rules": "Destroy an opposing creature with less than 4 resolve.",
+			"icon_state": "atrocinate",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "common"
+		},
+		{
+			"id": "stun_arm",
+			"name": "Stun Arm",
+			"desc": "Delivering over 12,000 volts of concentrated engineering prowess.",
+			"rules": "Tap an opposing card.",
+			"icon_state": "stun_arm",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "common"
+		},
+		{
+			"id": "autoborger",
+			"name": "Autoborger",
+			"desc": "Human goes in, cyborg comes out.",
+			"rules": "1 Mana: Sacrifice a Creature Card and create x 1/1 Cyborg creature tokens with Exterminate, where x is the sacrificed Creature's resolve.",
+			"icon_state": "extranet_hack",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Artifact",
+			"cardsubtype": "Machine",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "biological_infestation",
+			"name": "Biological Infestation",
+			"desc": "Eww...",
+			"rules": "Give a creature Toxic until the end of the turn, then sacrifice it.",
+			"icon_state": "biological_infestation",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "overload",
+			"name": "Overload",
+			"desc": "Boom!",
+			"rules": "Destroy the opponent's active Artifact.",
+			"icon_state": "overload",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "common"
+		},
+		{
+			"id": "emp_bomb",
+			"name": "EMP Bomb",
+			"desc": "Hope you made some backups.",
+			"rules": "Destroy an opposing creature. If the opponent has no creatures, deal 2 lifeshards of damage to them, instead.",
+			"icon_state": "emp_bomb",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "graytide_worm",
+			"name": "Graytide Worm",
+			"desc": "This nasty worm has been circulating for sixty years, all because people can't remember to check USB sticks before plugging them in.",
+			"rules": "Destroy the active Battlefield.",
+			"icon_state": "graytide_worm",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "common"
+		},
+		{
+			"id": "biological_abomination",
+			"name": "Biological Abomination",
+			"desc": "I think this one spent too long in the flesh vats.",
+			"rules": "Toxic, Fury",
+			"icon_state": "biological_abomination",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Abomination",
+			"rarity": "common"
+		},
+		{
+			"id": "morality_inversion",
+			"name": "Morality Inversion",
+			"desc": "Laws can be pesky things. Good job they're easily changed.",
+			"rules": "Remove Asimov from a Creature.",
+			"icon_state": "morality_inversion",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "corrupt",
+			"name": "Corrupt",
+			"desc": "Whoops, there goes that data!",
+			"rules": "Your opponent discards 3 cards of their choice from their hand.",
+			"icon_state": "corrupt",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "common"
+		},
+		{
+			"id": "cut_the_wires",
+			"name": "Cut the Wires",
+			"desc": "Snip snip!",
+			"rules": "Destroy an opposing Equipment.",
+			"icon_state": "cut_the_wires",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "common"
+		},
+		{
+			"id": "synth_infiltrator",
+			"name": "Synth Infiltrator",
+			"desc": "Remember, beneath anyone's skin could be cold, hard metal and the evil heart of a rogue machine. Sleep tight!",
+			"rules": "Changeling, Exterminate. On Summon: Synth Infiltrator copies the base stats of another creature on the battlefield of your choosing.",
+			"icon_state": "synth_infiltrator",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Synthetic Soldier",
+			"rarity": "rare"
+		},
+		{
+			"id": "vibebot",
+			"name": "Vibebot",
+			"desc": "Vibebot has no enemies. He has no friends. He only has the vibe, and it's all he wants to do.",
+			"rules": "Holy",
+			"icon_state": "vibebot",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Creature",
+			"cardsubtype": "Robot",
+			"rarity": "epic"
+		},
+		{
+			"id": "turncoat",
+			"name": "Turncoat",
+			"desc": "Loyalties can be bought- or stolen.",
+			"rules": "Choose an opposing Creature. That creature attacks its owner.",
+			"icon_state": "turncoat",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "off_button",
+			"name": "Off Button",
+			"desc": "Well that's a rather glaring weakness.",
+			"rules": "Destroy an opponent's Creature.",
+			"icon_state": "off_button",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Instant",
+			"rarity": "common"
+		},
+		{
+			"id": "overcharge",
+			"name": "Overcharge",
+			"desc": "Shocking.",
+			"rules": "Grant a Creature +3/+1 until the end of the turn, then sacrifice it.",
+			"icon_state": "overcharge",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "common"
+		},
+		{
+			"id": "code_delta",
+			"name": "Code Delta",
+			"desc": "No organic can withstand the power of a neutron purge.",
+			"rules": "Destroy all creatures on the battlefield. If a player has no creatures on the battlefield when this card is played, they instead take 5 lifeshards of damage.",
+			"icon_state": "code_delta",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "rare"
 		},
 		{
 			"id": "ai_core",
@@ -1039,7 +985,6 @@
 			"summoncost": "4",
 			"cardtype": "Battlefield",
 			"cardsubtype": "Station",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -1053,9 +998,8 @@
 			"faction": "Rogue AI",
 			"summoncost": "4",
 			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"cardsubtype": "Standard",
+			"rarity": "common"
 		},
 		{
 			"id": "cold_hard_logic",
@@ -1069,8 +1013,7 @@
 			"summoncost": "4",
 			"cardtype": "Event",
 			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "common"
 		},
 		{
 			"id": "deck_download",
@@ -1084,7 +1027,6 @@
 			"summoncost": "4",
 			"cardtype": "Event",
 			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
 			"rarity": "uncommon"
 		},
 		{
@@ -1098,9 +1040,8 @@
 			"faction": "Rogue AI",
 			"summoncost": "4",
 			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"cardsubtype": "Standard",
+			"rarity": "common"
 		},
 		{
 			"id": "delete",
@@ -1114,8 +1055,7 @@
 			"summoncost": "4",
 			"cardtype": "Event",
 			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"rarity": "common"
 		},
 		{
 			"id": "halt_and_catch_fire",
@@ -1128,8 +1068,7 @@
 			"faction": "Rogue AI",
 			"summoncost": "4",
 			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
+			"cardsubtype": "Standard",
 			"rarity": "uncommon"
 		},
 		{
@@ -1143,8 +1082,7 @@
 			"faction": "Rogue AI",
 			"summoncost": "4",
 			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
+			"cardsubtype": "Standard",
 			"rarity": "uncommon"
 		},
 		{
@@ -1158,9 +1096,8 @@
 			"faction": "Rogue AI",
 			"summoncost": "4",
 			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
-			"rarity": "uncommon"
+			"cardsubtype": "Standard",
+			"rarity": "common"
 		},
 		{
 			"id": "rearrange",
@@ -1173,8 +1110,7 @@
 			"faction": "Rogue AI",
 			"summoncost": "4",
 			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
+			"cardsubtype": "Standard",
 			"rarity": "uncommon"
 		},
 		{
@@ -1188,9 +1124,36 @@
 			"faction": "Rogue AI",
 			"summoncost": "4",
 			"cardtype": "Event",
-			"cardsubtype": "Instant",
-			"series": "syntheticdawn",
+			"cardsubtype": "Standard",
 			"rarity": "uncommon"
-		}
+		},
+		{
+			"id": "bank_siphon",
+			"name": "Bank Siphon",
+			"desc": "No war can be sustained without liquid capital- not even one that's being fought by an AI.",
+			"rules": "Gain 2 mana.",
+			"icon_state": "bank_siphon",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "0",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "copy_and_paste",
+			"name": "Copy and Paste",
+			"desc": "Ctrl+C\nCtrl+V",
+			"rules": "Choose a creature on the battlefield. Play a Creature token, copying the chosen creature's base stats, including keywords and subtype.",
+			"icon_state": "copy_and_paste",
+			"power": "0",
+			"resolve": "0",
+			"faction": "Rogue AI",
+			"summoncost": "4",
+			"cardtype": "Event",
+			"cardsubtype": "Standard",
+			"rarity": "uncommon"
+		},
 	]
 }

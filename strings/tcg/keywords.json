@@ -17,7 +17,18 @@
 		"Double Strike": "<abbr title=\"This creature deals First Strike and Regular damage.\">Double Strike</abbr>",
 		"Oo Rah": "<abbr title=\"While attacking alongside 4 or more cards with this effect, all cards with Oo Rah gain +1/+1.\">Oo Rah</abbr>",
 		"Carapace": "<abbr title=\"The creature cannot equip equipment cards.\">Carapace</abbr>",
-		"Toxic": "<abbr title=\"Any damage the creature deals to opposing creatures is fatal.\">Toxic</abbr>",
-		"Death-Defying": "<abbr title=\"Any time the creature would be destroyed in combat, flip a coin. If heads, the creature is not destroyed.\">Death-Defying</abbr>"
+		"Toxic": "<abbr title=\"Any damage the creature deals to opposing creatures is fatal. This does not apply to lifeshard damage.\">Toxic</abbr>",
+		"Death-Defying": "<abbr title=\"Any time the creature would be destroyed in combat, flip a coin. If heads, the creature is not destroyed.\">Death-Defying</abbr>",
+		"Necrotaint": "<abbr title=\"Only one creature with Necrotaint may be on each player's battlefield at a time.\">Necrotaint</abbr>",
+		"Lifedrain": "<abbr title=\"Upon dealing lifeshard damage to an opposing player with a creature with Lifedrain, heal for one lifeshard.\">Lifedrain</abbr>",
+		"Stasis": "<abbr title=\"While in Stasis, the creature cannot attack, defend, or activate abilities. Any card effects or keywords they possess remain active, provided they do not cause the creature to attack, defend, or activate an ability.\">Stasis</abbr>",
+		"Acid Blood": "<abbr title=\"While defending, if a creature with Acid Blood is destroyed, the creature that destroys it is also destroyed.\">Acid Blood</abbr>",
+		"Modular": "<abbr title=\"When this equipment is attached to a creature, the creature gains +1/+1 in addition to the effects listed on the card.\">Modular</abbr>",
+		"Systems Nominal": "<abbr title=\"The creature always fights as if at full strength.\">Systems Nominal</abbr>",
+		"Exterminate": "<abbr title=\"The creature has +1/0 if fighting a creature with the Human subtype.\">Exterminate</abbr>",
+		"Focused": "<abbr title=\"The creature ignores creatures with the Blocker keyword.\">Focused</abbr>",
+		"Unstoppable": "<abbr title=\"The creature cannot be blocked.\">Unstoppable</abbr>",
+		"Blood Pawn": "<abbr title=\"Once per turn, a creature with Blood Pawn may be sacrificed to gain mana equal to half of its base resolve.\">Blood Pawn</abbr>",
+		"Indestructible": "<abbr title=\"This creature cannot be destroyed by combat damage. Effects, keywords and events can still destroy it, however.\">Indestructible</abbr>"
 	}
 }
