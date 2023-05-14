@@ -58,7 +58,7 @@
 	name = "kamaboko"
 	desc = "A Japanese-style cured fishcake frequently used in snacks and ramen."
 	icon = 'icons/obj/food/martian.dmi'
-	icon_state = "kamaboko"
+	icon_state = "kamaboko_sunrise"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 4,
 		/datum/reagent/consumable/nutriment/vitamin = 4,
@@ -66,6 +66,12 @@
 	tastes = list("fish" = 1)
 	foodtypes = SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/food/kamaboko/Initialize(mapload)
+	. = ..()
+	var/design = pick("smiling", "spiral", "star", "sunrise")
+	name = "[design] kamaboko"
+	icon_state = "kamaboko_[design]"
 
 /obj/item/food/sambal
 	name = "sambal"
@@ -111,9 +117,21 @@
 /obj/item/food/rice_dough/make_processable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/noodles, 6, 3 SECONDS, table_required = TRUE)
 
-/obj/item/food/noodles
+/obj/item/food/spaghetti/rawnoodles
 	name = "fresh noodles"
 	desc = "Rice noodles, made fresh. Remember, there is no secret ingredient."
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "noodles"
+
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 3
+	)
+	tastes = list("rice" = 1)
+	foodtypes = GRAIN
+
+/obj/item/food/spaghetti/boilednoodles
+	name = "cooked noodles"
+	desc = "Cooked fresh to order."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "noodles"
 	food_reagents = list(
@@ -801,7 +819,7 @@
 	name = "\improper Kansai bowl"
 	desc = "Also known as konohadon, this donburi is typical to the Kansai region, and consists of kamaboko fishcake, egg and onion served over rice."
 	icon = 'icons/obj/food/martian.dmi'
-	icon_state = "salt_chilli_bowl"
+	icon_state = "kansai_bowl"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/nutriment = 5)
 	tastes = list("seafood" = 1, "rice" = 1, "egg" = 1, "onion" = 1)
 	foodtypes = SEAFOOD | MEAT | VEGETABLES | GRAIN
@@ -813,7 +831,7 @@
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "eigamudo_curry"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/nutriment = 5)
-	tastes = list("grit" = 1, "slime" = 1, "gristle" = 1, "rice" = 1, "Mystery Food X")
+	tastes = list("grit" = 1, "slime" = 1, "gristle" = 1, "rice" = 1, "Mystery Food X" = 1)
 	foodtypes = GROSS | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 

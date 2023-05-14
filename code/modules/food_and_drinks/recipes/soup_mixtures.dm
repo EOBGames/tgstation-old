@@ -1720,6 +1720,16 @@
 	percentage_of_nutriment_converted = 0.1
 
 // Martian Food
+// Boiled Noodles
+/datum/chemical_reaction/food/soup/boilednoodles
+	required_other = list(
+		/obj/item/food/spaghetti/rawnoodles = 1
+	)
+	required_catalysts = list(
+		/datum/reagent/water = 30
+	)
+	reaction_flags = REACTION_INSTANT
+	resulting_food_path = /obj/item/food/spaghetti/boilednoodles
 
 // Dashi Broth
 /datum/reagent/consumable/nutriment/soup/dashi
