@@ -121,7 +121,7 @@
 	name = "fresh noodles"
 	desc = "Rice noodles, made fresh. Remember, there is no secret ingredient."
 	icon = 'icons/obj/food/martian.dmi'
-	icon_state = "noodles"
+	icon_state = "raw_noodles"
 
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3
@@ -133,7 +133,7 @@
 	name = "cooked noodles"
 	desc = "Cooked fresh to order."
 	icon = 'icons/obj/food/martian.dmi'
-	icon_state = "noodles"
+	icon_state = "cooked_noodles"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3
 	)
@@ -1079,5 +1079,3 @@
 /obj/item/food/salad/sprout_bowl
 	name = "\improper Sprout bowl"
 	desc = "Named for the Ethereal homeworld, this rice-based bowl draws on the donburi tradition, but rejects typical donburi toppings, instead using sashimi grade fish and pickled voltvine."
-
-// Shok-Roks

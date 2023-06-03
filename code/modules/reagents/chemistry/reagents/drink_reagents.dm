@@ -1682,4 +1682,16 @@
 	return ..()
 
 //Martian Food!
+/datum/reagent/consumable/hakka_mate
+	name = "Hakka-Mate"
+	desc = "A Martian-made yerba mate soda, dragged straight out of the pits of a hacking convention."
+	color = "#c4b000" // rgb: 212,66,47
+	taste_description = "bubbly yerba mate"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/glass_style/drinking_glass/hakka_mate
+	required_drink_type = /datum/reagent/consumable/hakka_mate
+	name = "Hakka-Mate"
+	desc = "The perfect drink for hacking. Just don't pour it on your computer, that'll only slow you down."
+	icon = 'icons/obj/drinks/drinks.dmi'
+	icon_state = "hakka_mate"

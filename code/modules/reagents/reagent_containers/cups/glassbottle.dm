@@ -704,6 +704,12 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/mushi_kombucha = 30)
 	isGlass = FALSE
 
+/obj/item/reagent_containers/cup/glass/bottle/hakka_mate
+	name = "Hakka-Mate"
+	desc = "Hakka-Mate: it's an acquired taste."
+	icon_state = "hakka_mate_bottle"
+	list_reagents = list(/datum/reagent/consumable/hakka_mate = 30)
+
 /obj/item/reagent_containers/cup/glass/bottle/shochu
 	name = "Shu-Kouba Straight Shochu"
 	desc = "A boozier form of shochu designed for mixing. Comes straight from Mars' Dusty City itself, Shu-Kouba."
