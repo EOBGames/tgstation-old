@@ -2,7 +2,7 @@
 
 /obj/machinery/coffeemaker
 	name = "coffeemaker"
-	desc = "A Modello 3 Coffeemaker that brews coffee and holds it at the perfect temperature of 176 fahrenheit. Made by Piccionaia Home Appliances."
+	desc = "A Modello 3 Coffeemaker that brews coffee and holds it at the perfect temperature of 176 fahrenheit. Takes larger \"G-B-A\" model cartridges. Made by Piccionaia Home Appliances."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "coffeemaker_nopot_nocart"
 	base_icon_state = "coffeemaker"
@@ -15,6 +15,8 @@
 	var/speed = 1
 	/// The coffee cartridge to make coffee from. In the future, coffee grounds are like printer ink.
 	var/obj/item/coffee_cartridge/cartridge = null
+	/// The accepted cartridge type. Applies only to cartridge based machines.
+	var/accepted_cartridge_type = "GBA"
 	/// The type path to instantiate for the coffee cartridge the device initially comes with, eg. /obj/item/coffee_cartridge
 	var/initial_cartridge = /obj/item/coffee_cartridge
 	/// The number of cups left
@@ -423,12 +425,17 @@
 	coffeepot.reagents.add_reagent_list(cartridge.drink_type)
 	cartridge.charges--
 
+/obj/machinery/coffeemaker/piccolo
+	name = "microcoffeemaker"
+	desc = "A Piccolo 5 Coffeemaker that brews single cups of coffee. Takes smaller \"D-S\" model cartridges. Made by Piccionaia Home Appliances."
+
 //Coffee Cartridges: like toner, but for your coffee!
 /obj/item/coffee_cartridge
 	name = "coffeemaker cartridge- Caffè Generico"
-	desc = "A coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
+	desc = "A \"G-B-A\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon = 'icons/obj/food/cartridges.dmi'
 	icon_state = "cartridge_basic"
+	var/cartridge_type = "GBA"
 	var/charges = 4
 	var/list/drink_type = list(/datum/reagent/consumable/coffee = 120)
 
@@ -441,7 +448,7 @@
 
 /obj/item/coffee_cartridge/fancy
 	name = "coffeemaker cartridge - Caffè Fantasioso"
-	desc = "A fancy coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
+	desc = "A fancy \"G-B-A\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon_state = "cartridge_blend"
 
 //Here's the joke before I get 50 issue reports: they're all the same, and that's intentional
@@ -461,24 +468,172 @@
 		if("mocha")
 			name = "coffeemaker cartridge - Moka Arabica"
 			icon_state = "cartridge_mocha"
+		if("shb_blend")
+			name = "coffeemaker cartridge - Miscela di SHB"
+			icon_state = "cartridge_shb"
+		if("narino")
+			name = "coffeemaker cartridge - Narino Columbiano"
+			icon_state = "cartridge_narino"
+		if("crystal_mountain")
+			name = "coffeemaker cartridge - Montagna di Cristallo Cubana"
+			icon_state = "cartridge_crystal_mountain"
+		if("kona")
+			name = "coffeemaker cartridge - 10% Kona Hawaiana"
+			icon_state = "cartridge_kona"
+		if("yirgacheffe")
+			name = "coffeemaker cartridge - Yirgacheffe Etiope"
+			icon_state = "cartridge_yirgacheffe"
+		if("altura")
+			name = "coffeemaker cartridge - Altura Premium Messicana"
+			icon_state = "cartridge_altura"
+		if("santos")
+			name = "coffeemaker cartridge - Brasiliano n.2/18"
+			icon_state = "cartridge_santos"
+		if("bucaramanga")
+			name = "coffeemaker cartridge - Bucaramanga Supremo"
+			icon_state = "cartridge_bucaramanga"
+		if("kenyan_aa")
+			name = "coffeemaker cartridge - Keniota AA"
+			icon_state = "cartridge_kenyan_aa"
+		if("bourbon")
+			name = "coffeemaker cartridge - Bourbon Brasiliano"
+			icon_state = "cartridge_bourbon"
+		if("typica")
+			name = "coffeemaker cartridge - 100% Tipica Columbiana"
+			icon_state = "cartridge_typica"
+		if("antigua")
+			name = "coffeemaker cartridge - Antigua Guatemalteca"
+			icon_state = "cartridge_antigua"
+		if("pacamara")
+			name = "coffeemaker cartridge - Pacamara Salvadoregna"
+			icon_state = "cartridge_pacamara"
+		if("esmerelda")
+			name = "coffeemaker cartridge - Panama Esmerelda Geisha"
+			icon_state = "cartridge_esmerelda"
+		if("kopi_luwak")
+			name = "coffeemaker cartridge - Kopi Luwak Indonesiano"
+			icon_state = "cartridge_kopi_luwak"
 
 /obj/item/coffee_cartridge/decaf
 	name = "coffeemaker cartridge - Caffè Decaffeinato"
-	desc = "A decaf coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
+	desc = "A decaf \"G-B-A\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon_state = "cartridge_decaf"
+
+/obj/item/coffee_cartridge/tea
+	name = "coffeemaker cartridge - Tè Nero"
+	desc = "A \"G-B-A\" model tea cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
+	drink_type = list(/datum/reagent/consumable/tea = 120)
+	icon_state = "cartridge_tea"
 
 // no you can't just squeeze the juice bag into a glass!
 /obj/item/coffee_cartridge/bootleg
 	name = "coffeemaker cartridge - Botany Blend"
-	desc = "A jury-rigged coffee cartridge. Should work with a Modello 3 system, though it might void the warranty."
+	desc = "A jury-rigged \"G-B-A\" model coffee cartridge. Should work with a Modello 3 system, though it might void the warranty."
 	icon_state = "cartridge_bootleg"
+
+// cute little cartridges for the cute little system
+/obj/item/coffee_cartridge/micro
+	name = "microcoffeemaker cartridge- Caffè Generico"
+	desc = "A cute little \"D-S\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
+	icon_state = "cartridge_micro_basic"
+	cartridge_type = "DS"
+	charges = 1 //single use, just like coffee pods
+	drink_type = list(/datum/reagent/consumable/coffee = 30)
+
+/obj/item/coffee_cartridge/micro/fancy
+	name = "microcoffeemaker cartridge - Caffè Fantasioso"
+	desc = "A fancy \"D-S\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
+	icon_state = "cartridge_micro_blend"
+
+/obj/item/coffee_cartridge/fancy/Initialize(mapload)
+	. = ..()
+	var/coffee_type = pick("blend", "blue_mountain", "kilimanjaro", "mocha")
+	switch(coffee_type)
+		if("blend")
+			name = "microcoffeemaker cartridge - Miscela di Piccione"
+			icon_state = "cartridge_micro_blend"
+		if("blue_mountain")
+			name = "microcoffeemaker cartridge - Montagna Blu"
+			icon_state = "cartridge_micro_blue_mtn"
+		if("kilimanjaro")
+			name = "microcoffeemaker cartridge - Kilimangiaro"
+			icon_state = "cartridge_micro_kilimanjaro"
+		if("mocha")
+			name = "microcoffeemaker cartridge - Moka Arabica"
+			icon_state = "cartridge_micro_mocha"
+		if("shb_blend")
+			name = "microcoffeemaker cartridge - Miscela di SHB"
+			icon_state = "cartridge_micro_shb"
+		if("narino")
+			name = "microcoffeemaker cartridge - Narino Columbiano"
+			icon_state = "cartridge_micro_narino"
+		if("crystal_mountain")
+			name = "microcoffeemaker cartridge - Montagna di Cristallo Cubana"
+			icon_state = "cartridge_micro_crystal_mountain"
+		if("kona")
+			name = "microcoffeemaker cartridge - 10% Kona Hawaiana"
+			icon_state = "cartridge_micro_kona"
+		if("yirgacheffe")
+			name = "microcoffeemaker cartridge - Yirgacheffe Etiope"
+			icon_state = "cartridge_micro_yirgacheffe"
+		if("altura")
+			name = "microcoffeemaker cartridge - Altura Premium Messicana"
+			icon_state = "cartridge_micro_altura"
+		if("santos")
+			name = "microcoffeemaker cartridge - Brasiliano n.2/18"
+			icon_state = "cartridge_micro_santos"
+		if("bucaramanga")
+			name = "microcoffeemaker cartridge - Bucaramanga Supremo"
+			icon_state = "cartridge_micro_bucaramanga"
+		if("kenyan_aa")
+			name = "microcoffeemaker cartridge - Keniota AA"
+			icon_state = "cartridge_micro_kenyan_aa"
+		if("bourbon")
+			name = "microcoffeemaker cartridge - Bourbon Brasiliano"
+			icon_state = "cartridge_micro_bourbon"
+		if("typica")
+			name = "microcoffeemaker cartridge - 100% Tipica Columbiana"
+			icon_state = "cartridge_micro_typica"
+		if("antigua")
+			name = "microcoffeemaker cartridge - Antigua Guatemalteca"
+			icon_state = "cartridge_micro_antigua"
+		if("pacamara")
+			name = "microcoffeemaker cartridge - Pacamara Salvadoregna"
+			icon_state = "cartridge_micro_pacamara"
+		if("esmerelda")
+			name = "microcoffeemaker cartridge - Panama Esmerelda Geisha"
+			icon_state = "cartridge_micro_esmerelda"
+		if("kopi_luwak")
+			name = "microcoffeemaker cartridge - Kopi Luwak Indonesiano"
+			icon_state = "cartridge_micro_kopi_luwak"
+
+/obj/item/coffee_cartridge/micro/decaf
+	name = "microcoffeemaker cartridge - Caffè Decaffeinato"
+	desc = "A decaf \"D-S\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
+	icon_state = "cartridge_micro_decaf"
+
+/obj/item/coffee_cartridge/micro/tea
+	name = "microcoffeemaker cartridge - Tè Nero"
+	desc = "A \"D-S\" model tea cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
+	drink_type = list(/datum/reagent/consumable/tea = 30)
+	icon_state = "cartridge_micro_tea"
+
+/obj/item/coffee_cartridge/micro/bootleg
+	name = "microcoffeemaker cartridge - Botany Blend"
+	desc = "A jury-rigged \"D-S\" model coffee cartridge. Should work with a Piccolo 5 system, though it might void the warranty."
+	icon_state = "cartridge_micro_bootleg"
 
 // blank cartridge for crafting's sake, can be made at the service lathe
 /obj/item/blank_coffee_cartridge
 	name = "blank coffee cartridge"
-	desc = "A blank coffee cartridge, ready to be filled with coffee paste."
+	desc = "A blank \"G-B-A\" model coffee cartridge, ready to be filled with coffee paste."
 	icon = 'icons/obj/food/cartridges.dmi'
 	icon_state = "cartridge_blank"
+
+/obj/item/blank_coffee_cartridge/micro
+	name = "blank microcoffee cartridge"
+	desc = "A blank \"D-S\" model coffee cartridge, ready to be filled with coffee paste."
+	icon_state = "cartridge_micro_blank"
 
 //now, how do you store coffee carts? well, in a rack, of course!
 /obj/item/storage/fancy/coffee_cart_rack

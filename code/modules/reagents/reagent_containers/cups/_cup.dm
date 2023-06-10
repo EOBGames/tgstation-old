@@ -545,3 +545,5 @@
 	volume = 240
 	icon_state = "coffeepot_bluespace"
 	fill_icon_thresholds = list(0)
+
+//Milk Steamer Jug- for use with the espressomaker

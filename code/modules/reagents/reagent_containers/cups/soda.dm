@@ -272,3 +272,9 @@
 	desc = "There is no air shortage. Do not drink."
 	icon_state = "air"
 	list_reagents = list(/datum/reagent/nitrogen = 24, /datum/reagent/oxygen = 6)
+
+/obj/item/reagent_containers/cup/soda_cans/coffee
+	name = "Jim's Original Coffee-2-Go"
+	desc = "From Jim Norton's comes Coffee-2-Go, the innovative way to drink cold coffee."
+	icon_state = "coffee"
+	list_reagents = list(/datum/reagent/consumable/coffee = 30)

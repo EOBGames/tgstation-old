@@ -36,3 +36,36 @@
 /datum/reagent/consumable/coffee/engine_slag
 
 /datum/reagent/consumable/coffee/lungo
+
+// Espresso Drinks
+/datum/reagent/consumable/coffee/espresso_con_panna
+	name = "Espresso Con Panna"
+	description = "An espresso with a kiss of whipped cream floated on top. Helps to temper the bitterness and add some volume."
+
+/datum/reagent/consumable/coffee/espresso_macchiato
+	name = "Espresso Macchiato"
+	description = "Meaning marked in Italian, a macchiato is an espresso 'marked' with a dash of steamed milk."
+
+/datum/reagent/consumable/coffee/americano
+	name = "Americano"
+	description = "Made by diluting espresso with hot water, the americano was born in the wake of the Second World War in Italy, to cater to the taste (or lack thereof) of the occupying Americans."
+
+/datum/reagent/consumable/coffee/cappuccino
+	name = "Cappuccino"
+	description = "An old Viennese coffee drink, the cappuccino has since went on to become a popular breakfast drink worldwide."
+
+/datum/reagent/consumable/coffee/caffe_latte
+	name = "Caffe Latte"
+	description = "A milky coffee beverage that straddles the line of even being classifiable as a coffee-based drink. Still tasty, though."
+
+/datum/reagent/consumable/coffee/mesta
+	name = "Mesta"
+	description = "A mix of coffee and sulat that's gained popularity in recent years. Combines the bitterness and depth of coffee with the acidic brightness of sulat."
+
+/datum/reagent/consumable/sulat
+	name = "Sulat"
+	description = "Tizira's answer to coffee. Closer to a tea than Terran coffee, this sharp, acidic drink is made by steeping dried sulat berries in hot water. Traditionally, sulat is never mixed with milk of any kind."
+
+/datum/reagent/consumable/sulatte
+	name = "Sulatte"
+	description = "A hot drink made from sulat and steamed korta milk. Considered sacrilegious amongst sulat traditionalists on Tizira, it is nonetheless popular with spacers and, particularly, with humans."
