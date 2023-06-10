@@ -2040,7 +2040,7 @@
 
 /datum/chemical_reaction/food/soup/hong_kong_macaroni
 	required_reagents = list(
-		/datum/reagent/consumable/water = 30,
+		/datum/reagent/water = 30,
 		/datum/reagent/consumable/cream = 10,
 	)
 	required_ingredients = list(
@@ -2054,32 +2054,87 @@
 	)
 	percentage_of_nutriment_converted = 0.2
 
-// Huotui Tong Fen
+// Fox's Prize Soup
 /datum/reagent/consumable/nutriment/soup/foxs_prize_soup
 	name = "Fox's Prize Soup"
 	description = "Originally based on the Chinese classic of egg-drop soup, fox's prize soup iterated on the concept via the addition of aburaage and dashi, making a dish that would truly appeal to any hungry fox."
 	data = list("egg" = 1, "chicken" = 1, "fried tofu" = 1, "umami broth" = 1)
 	color = "#F0DD5A"
 
-/datum/glass_style/has_foodtype/soup/hong_kong_macaroni
-	required_drink_type = /datum/reagent/consumable/nutriment/soup/hong_kong_macaroni
-	name = "\improper Hong Kong macaroni soup"
+/datum/glass_style/has_foodtype/soup/foxs_prize_soup
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/foxs_prize_soup
+	name = "fox's prize soup"
 	icon = 'icons/obj/food/martian.dmi'
-	icon_state = "hong_kong_macaroni"
+	icon_state = "foxs_prize_soup"
 	drink_type = MEAT | VEGETABLES
 
-/datum/chemical_reaction/food/soup/hong_kong_macaroni
+/datum/chemical_reaction/food/soup/foxs_prize_soup
 	required_reagents = list(
-		/datum/reagent/consumable/water = 30,
-		/datum/reagent/consumable/cream = 10,
+		/datum/reagent/consumable/nutriment/soup/dashi = 30,
+		/datum/reagent/consumable/eggwhite = 10,
 	)
 	required_ingredients = list(
-		/obj/item/food/spaghetti/boiledspaghetti = 1,
 		/obj/item/food/meat/cutlet/chicken = 1,
-		/obj/item/food/meat/bacon = 1,
+		/obj/item/food/tofu = 1,
 	)
 	results = list(
-		/datum/reagent/consumable/nutriment/soup/hong_kong_macaroni = 30,
+		/datum/reagent/consumable/nutriment/soup/foxs_prize_soup = 30,
+		/datum/reagent/consumable/nutriment/protein = 6,
+	)
+	percentage_of_nutriment_converted = 0.2
+
+// Secret Noodle Soup
+/datum/reagent/consumable/nutriment/soup/secret_noodle_soup
+	name = "Secret Noodle Soup"
+	description = "Made to a secret family recipe (that's in several cookbooks). What is the secret ingredient, you ask? Well, let's just say it could be anything..."
+	data = list("noodles" = 1, "chicken" = 1, "aromatic broth" = 1)
+	color = "#F0DD5A"
+
+/datum/glass_style/has_foodtype/soup/secret_noodle_soup
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/secret_noodle_soup
+	name = "secret noodle soup"
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "secret_noodle_soup"
+	drink_type = MEAT | VEGETABLES
+
+/datum/chemical_reaction/food/soup/secret_noodle_soup
+	required_reagents = list(
+		/datum/reagent/consumable/nutriment/soup/dashi = 30,
+	)
+	required_ingredients = list(
+		/obj/item/food/meat/cutlet/chicken = 1,
+		/obj/item/food/spaghetti/boilednoodles = 1,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/secret_noodle_soup = 30,
+		/datum/reagent/consumable/nutriment/protein = 6,
+	)
+	percentage_of_nutriment_converted = 0.2
+
+// Budae-Jjigae
+/datum/reagent/consumable/nutriment/soup/budae_jjigae
+	name = "Budae-Jjigae"
+	description = "A dish born of the American presence in South Korea, made with ingredients typical to the 1960s American army base- hot dogs, chap, and baked beans, as well as a number of native Korean ingredients such as gochujang and kimchi."
+	data = list("hot dog" = 1, "pork" = 1, "beans" = 1, "kimchi" = 1, "noodles" = 1)
+	color = "#F0DD5A"
+
+/datum/glass_style/has_foodtype/soup/budae_jjigae
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/budae_jjigae
+	name = "budae-jjigae"
+	icon = 'icons/obj/food/martian.dmi'
+	icon_state = "budae_jjigae"
+	drink_type = MEAT | VEGETABLES | GRAIN
+
+/datum/chemical_reaction/food/soup/budae_jjigae
+	required_reagents = list(
+		/datum/reagent/water = 30,
+	)
+	required_ingredients = list(
+		/obj/item/food/canned/beans = 1,
+		/obj/item/food/spaghetti/rawnoodles = 1,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/secret_noodle_soup = 30,
 		/datum/reagent/consumable/nutriment/protein = 6,
 	)
 	percentage_of_nutriment_converted = 0.2

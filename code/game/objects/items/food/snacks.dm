@@ -538,8 +538,8 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 /obj/item/food/sticko
 	name = "\improper Sticko Classic"
 	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's the original (and as some would say, best) flavour: biscuit and milk chocolate."
-	icon_state = "cnds"
-	trash_type = /obj/item/trash/cnds
+	icon_state = "sticko_classic"
+	trash_type = /obj/item/trash/sticko
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 3,
 		/datum/reagent/consumable/coco = 1,
@@ -552,6 +552,8 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 /obj/item/food/sticko/matcha
 	name = "\improper Sticko Matcha"
 	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got matcha flavoured white chocolate as its coating, to evoke feelings of tradition."
+	icon_state = "sticko_matcha"
+	trash_type = /obj/item/trash/sticko/matcha
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 2,
 		/datum/reagent/consumable/coco = 1,
@@ -562,6 +564,8 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 /obj/item/food/sticko/nutty
 	name = "\improper Sticko Nutty"
 	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got peanut-butter flavoured chocolate as its coating, for a nutty twist."
+	icon_state = "sticko_nutty"
+	trash_type = /obj/item/trash/sticko/nutty
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 2,
 		/datum/reagent/consumable/nutriment = 1,
@@ -573,6 +577,8 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 /obj/item/food/sticko/pineapple
 	name = "\improper Sticko Pineapple"
 	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got pineapple flavoured white chocolate as its coating, for those ananas fan-as."
+	icon_state = "sticko_pineapple"
+	trash_type = /obj/item/trash/sticko/pineapple
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 2,
 		/datum/reagent/consumable/coco = 1,
@@ -584,6 +590,8 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 /obj/item/food/sticko/yuyake
 	name = "\improper Sticko Yūyake"
 	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got Yūyake flavoured white chocolate as its coating, for a refreshing melony treat."
+	icon_state = "sticko_yuyake"
+	trash_type = /obj/item/trash/sticko/yuyake
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 2,
 		/datum/reagent/consumable/coco = 1,
@@ -592,8 +600,8 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	tastes = list("biscuit" = 1, "melon" = 1)
 
 /obj/item/food/sticko/random
-	name = "mystery filled C&Ds"
-	desc = "Filled with one of four delicious flavours!"
+	name = "\improper Sticko Mystery"
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got an obscuring paper sheath, to hide the true flavour..."
 
 /obj/item/food/sticko/random/Initialize(mapload)
 	var/random_flavour = pick(subtypesof(/obj/item/food/sticko) - /obj/item/food/sticko/random)
