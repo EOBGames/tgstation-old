@@ -329,20 +329,6 @@
 	result = /obj/item/food/okonomiyaki
 	category = CAT_MARTIAN
 
-/datum/crafting_recipe/food/korean_garlic_bread
-	name = "Korean garlic bread"
-	reqs = list(
-		/obj/item/food/breadslice/reispan = 1,
-		/obj/item/food/cheese/curd_cheese = 1,
-		/obj/item/food/butter = 1,
-		/obj/item/food/grown/garlic = 1,
-		/obj/item/food/egg = 1,
-		/datum/reagent/consumable/milk = 2,
-		/datum/reagent/consumable/sugar = 2,
-	)
-	result = /obj/item/food/korean_garlic_bread
-	category = CAT_MARTIAN
-
 /datum/crafting_recipe/food/brat_kimchi
 	name = "Brat-kimchi"
 	reqs = list(

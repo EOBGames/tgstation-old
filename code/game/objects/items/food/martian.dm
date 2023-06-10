@@ -470,19 +470,6 @@
 	. = ..()
 	AddComponent(/datum/component/customizable_reagent_holder, null, CUSTOM_INGREDIENT_ICON_STACK)
 
-/obj/item/food/korean_garlic_bread //soft cheese, sugar, butter, milk, egg, garlic, bread
-	name = "\improper Korean garlic bread"
-	desc = "A distinct form of garlic bread from the streets of Korea. Rich, creamy and garlicky."
-	icon = 'icons/obj/food/martian.dmi'
-	icon_state = "korean_garlic_bread"
-	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 1,
-		/datum/reagent/consumable/nutriment/protein = 3,
-	)
-	tastes = list("bread" = 1, "cream" = 1, "garlic" = 1)
-	foodtypes = GRAIN | DAIRY | SUGAR
-	w_class = WEIGHT_CLASS_SMALL
-
 /obj/item/food/brat_kimchi
 	name = "brat-kimchi"
 	desc = "Fried kimchi, mixed with sugar and topped with bratwurst. A popular dish at izakayas on Mars."
