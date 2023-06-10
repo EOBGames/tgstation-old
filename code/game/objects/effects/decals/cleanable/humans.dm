@@ -134,7 +134,7 @@
 
 /obj/effect/decal/cleanable/blood/gibs/on_entered(datum/source, atom/movable/L)
 	if(isliving(L) && has_gravity(loc))
-		playsound(loc, 'sound/effects/gib_step.ogg', HAS_TRAIT(L, TRAIT_LIGHT_STEP) ? 20 : 50, TRUE)
+		playsound(loc, 'sound/effects/footstep/gib_step.ogg', HAS_TRAIT(L, TRAIT_LIGHT_STEP) ? 20 : 50, TRUE)
 	. = ..()
 
 /obj/effect/decal/cleanable/blood/gibs/proc/on_pipe_eject(atom/source, direction)
@@ -361,7 +361,7 @@ GLOBAL_LIST_EMPTY(bloody_footprints_cache)
 	var/datum/move_loop/loop = SSmove_manager.move_towards(src, target_turf, delay, timeout = delay * range, priority = MOVEMENT_ABOVE_SPACE_PRIORITY, flags = MOVEMENT_LOOP_START_FAST)
 	RegisterSignal(loop, COMSIG_MOVELOOP_PREPROCESS_CHECK, PROC_REF(pre_move))
 	RegisterSignal(loop, COMSIG_MOVELOOP_POSTPROCESS, PROC_REF(post_move))
-	RegisterSignal(loop, COMSIG_PARENT_QDELETING, PROC_REF(loop_done))
+	RegisterSignal(loop, COMSIG_QDELETING, PROC_REF(loop_done))
 
 /obj/effect/decal/cleanable/blood/hitsplatter/proc/pre_move(datum/move_loop/source)
 	SIGNAL_HANDLER
