@@ -366,6 +366,40 @@
 	base_icon_state = "slime"
 	spawn_type = /obj/item/clothing/mask/cigarette/xeno
 
+/obj/item/storage/fancy/cigarettes/cigpack_noirs
+	name = "\improper Noirs 120s packet"
+	desc = "Made with the finest synthtobacco on Adasta, for the discerning chainsmoker."
+	icon_state = "noirs"
+	base_icon_state = "noirs"
+	spawn_type = /obj/item/clothing/mask/cigarette/noirs
+
+/obj/item/storage/fancy/cigarettes/cigpack_holy_smokes
+	name = "\improper Holy Smokes! packet"
+	desc = "Machine-rolled by monks from Santos Discipulos, it's Holy Smokes!, the galaxy's first (and only) religious cigarette brand."
+	icon_state = "holy_smokes"
+	base_icon_state = "holy_smokes"
+	spawn_type = /obj/item/clothing/mask/cigarette/holy_smokes
+
+/obj/item/storage/fancy/cigarettes/gagarin
+	name = "\improper Gagarin packet"
+	desc = "An old, damp pack of Gagarins- once the Third Soviet Union's favourite cigarette, last produced in 2400."
+	icon_state = "gagarin_yuck"
+	base_icon_state = "gagarin_yuck"
+	spawn_type = /obj/item/clothing/mask/cigarette/gagarin
+
+/obj/item/storage/fancy/cigarettes/gagarin/pristine
+	desc = "A perfectly-preserved pack of Gagarins- once the Third Soviet Union's favourite cigarette, last produced in 2400."
+	icon_state = "gagarin_pristine"
+	base_icon_state = "gagarin_pristine"
+	spawn_type = /obj/item/clothing/mask/cigarette/gagarin/pristine
+
+/obj/item/storage/fancy/cigarettes/new_moscow_blacks
+	name = "\improper New Moscow Blacks packet"
+	desc = "The Spinward Sector's most premium cigarette brand. The smokable of choice for celebrities, oligarchs, and corrupt heads of state."
+	icon_state = "new_moscow_blacks"
+	base_icon_state = "new_moscow_blacks"
+	spawn_type = /obj/item/clothing/mask/cigarette/new_moscow_blacks
+
 /obj/item/storage/fancy/cigarettes/cigpack_cannabis
 	name = "\improper Freak Brothers' Special packet"
 	desc = "A label on the packaging reads, \"Endorsed by Phineas, Freddy and Franklin.\""

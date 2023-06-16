@@ -440,6 +440,30 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	lung_harm = 2
 	list_reagents = list (/datum/reagent/drug/nicotine = 20, /datum/reagent/medicine/regen_jelly = 15, /datum/reagent/drug/krokodil = 4)
 
+/obj/item/clothing/mask/cigarette/noirs
+	desc = "A Noirs 120s brand cigarette."
+	chem_volume = 45
+	lung_harm = 1.5
+	list_reagents = list(/datum/reagent/drug/nicotine = 24, /datum/reagent/consumable/ethanol/cognac = 3)
+
+/obj/item/clothing/mask/cigarette/holy_smokes
+	desc = "A Holy Smokes! brand cigarette."
+	list_reagents = list(/datum/reagent/drug/nicotine = 15, /datum/reagent/water/holywater = 3)
+
+/obj/item/clothing/mask/cigarette/gagarin
+	desc = "A Gagarin brand cigarette. Looks a bit mouldy."
+	lung_harm = 1.5 // it's literally filled with mould
+	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/consumable/mold = 3) // why exactly did you decide to smoke the 250 year old cigarettes?
+
+/obj/item/clothing/mask/cigarette/gagarin/pristine
+	desc = "A Gagarin brand cigarette. Looks perfectly preserved."
+	lung_harm = 0.5 // breathe easy, comrade
+	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/medicine/salbutamol = 3) //oh, that's why
+
+/obj/item/clothing/mask/cigarette/new_moscow_blacks
+	desc = "A New Moscow Black brand cigarette."
+	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/consumable/honey = 3)
+
 // Rollies.
 
 /obj/item/clothing/mask/cigarette/rollie
