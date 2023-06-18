@@ -112,7 +112,7 @@
 	icon_state = "magazine_ships"
 	remarks = list(
 		"This months's Shipyard Spotlight- we take a trip to Juarez, to the Pacifica showfloor...",
-		"FUCK THE SYSTEM's latest album, FUCK CORPO PIGS, makes record sales for the band...",
+		"Is Galaxywise's new Voidroamer model the best starter ship on the market? This month on our Ship Deep Dive...",
 		"Our top ten albums of the year, ranked...",
 		"The hottest new soundsystems on the market- is this Audiosynthesia's best speaker lineup yet?",
 		"This month, we're all going crazy for Rockerboy- the hottest new solo act straight outta San Fran...",
