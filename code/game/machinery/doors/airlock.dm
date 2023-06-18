@@ -93,7 +93,7 @@
 	smoothing_groups = SMOOTH_GROUP_AIRLOCK
 
 	interaction_flags_machine = INTERACT_MACHINE_WIRES_IF_OPEN | INTERACT_MACHINE_ALLOW_SILICON | INTERACT_MACHINE_OPEN_SILICON | INTERACT_MACHINE_OPEN
-	blocks_emissive = NONE // Custom emissive blocker. We don't want the normal behavior.
+	blocks_emissive = EMISSIVE_BLOCK_NONE // Custom emissive blocker. We don't want the normal behavior.
 
 	///The type of door frame to drop during deconstruction
 	var/assemblytype = /obj/structure/door_assembly
@@ -1373,7 +1373,7 @@
 				message = "unshocked"
 			else
 				message = "temp shocked for [secondsElectrified] seconds"
-		LAZYADD(shockedby, text("\[[time_stamp()]\] [key_name(user)] - ([uppertext(message)])"))
+		LAZYADD(shockedby, "\[[time_stamp()]\] [key_name(user)] - ([uppertext(message)])")
 		log_combat(user, src, message)
 		add_hiddenprint(user)
 

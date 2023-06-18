@@ -124,7 +124,7 @@
 	for(var/mutable_appearance/appearance as anything in .)
 		appearance.color = active ? rainbow_order[rave_number] : null
 
-/obj/item/mod/module/visor/rave/on_active_process(delta_time)
+/obj/item/mod/module/visor/rave/on_active_process(seconds_per_tick)
 	rave_number++
 	if(rave_number > length(rainbow_order))
 		rave_number = 1
@@ -310,7 +310,7 @@
 /obj/item/mod/module/atrocinator/proc/check_upstairs()
 	SIGNAL_HANDLER
 
-	if(you_fucked_up || mod.wearer.has_gravity() != NEGATIVE_GRAVITY)
+	if(you_fucked_up || mod.wearer.has_gravity() > NEGATIVE_GRAVITY)
 		return
 	var/turf/open/current_turf = get_turf(mod.wearer)
 	var/turf/open/openspace/turf_above = get_step_multiz(mod.wearer, UP)
@@ -334,3 +334,16 @@
 	QDEL_IN(mod.wearer, FLY_TIME)
 
 #undef FLY_TIME
+
+/obj/item/mod/module/recycler/donk/safe
+	name = "MOD foam dart recycler module"
+	desc = "A mod module that collects and repackages fired foam darts into half-sized ammo boxes. \
+		Activate on a nearby turf or storage to unload stored ammo boxes."
+	icon_state = "donk_safe_recycler"
+	overlay_state_inactive = "module_donk_safe_recycler"
+	overlay_state_active = "module_donk_safe_recycler"
+	complexity = 1
+	efficiency = 1
+	allowed_item_types = list(/obj/item/ammo_casing/caseless/foam_dart)
+	ammobox_type = /obj/item/ammo_box/foambox/mini
+	required_amount = SMALL_MATERIAL_AMOUNT*2.5
