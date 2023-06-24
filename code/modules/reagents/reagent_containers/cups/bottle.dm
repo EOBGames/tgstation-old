@@ -555,6 +555,155 @@
 	desc = "A pump bottle containing korta syrup. A sweet, sugary substance made from crushed sweet korta nuts."
 	list_reagents = list(/datum/reagent/consumable/korta_nectar = 50)
 
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/vanilla
+	name = "bottle of vanilla syrup"
+	desc = "A pump bottle containing vanilla syrup. Sure, it might be basic, but it tastes damned good."
+	list_reagents = list(/datum/reagent/consumable/vanilla = 50)
+
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/chocolate
+	name = "bottle of chocolate syrup"
+	desc = "A pump bottle containing chocolate syrup. Also goes great on ice cream."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Holiday Syrups
+// Waitangi Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/lolly_cake
+	name = "bottle of lolly cake syrup"
+	desc = "A pump bottle containing seasonal lolly cake syrup. A taste of Kiwiland, condensed into a bottle."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Valentine's Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/cherry_cheesecake
+	name = "bottle of cherry cheesecake syrup"
+	desc = "A pump bottle containing seasonal cherry cheesecake syrup. Tastes like passion... and cherry."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// SS13's Birthday, Ian's Birthday, and Crew Birthdays
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/birthday_cake
+	name = "bottle of birthday cake syrup"
+	desc = "A pump bottle containing seasonal birthday cake syrup. Tastes like getting older."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Pi Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/blackberry_pie
+	name = "bottle of blackberry pie syrup"
+	desc = "A pump bottle containing seasonal blackberry pie syrup. Tastes distinctly mathematical, however that works."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// St Patrick's Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/shamrock_sherbet
+	name = "bottle of shamrock sherbet syrup"
+	desc = "A pump bottle containing seasonal shamrock sherbet syrup. It's green, it's minty, it's (probably not) Irish!"
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// April Fool's Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/tutti_frutti
+	name = "bottle of tutti-frutti syrup"
+	desc = "A pump bottle containing seasonal tutti-frutti syrup. It's like having every fruit, all at once!"
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Four-Twenty
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/hemp_medley
+	name = "bottle of hemp medley syrup"
+	desc = "A pump bottle containing seasonal hemp medley syrup. Far out, brother."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Anzac Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/anzac_biscuit
+	name = "bottle of ANZAC biscuit syrup"
+	desc = "A pump bottle containing seasonal ANZAC biscuit syrup. Tastes like autumn under the southern cross."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Bee Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/honey_caramel
+	name = "bottle of honey caramel syrup"
+	desc = "A pump bottle containing seasonal honey caramel syrup. Thank the bees."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Bee Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/rainbow
+	name = "bottle of rainbow syrup"
+	desc = "A pump bottle containing seasonal rainbow syrup. Tastes like pride."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// UFO Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/cosmic_combo
+	name = "bottle of cosmic combo syrup"
+	desc = "A pump bottle containing seasonal cosmic combo syrup. Makes for an impressive drink, although it's hard to say what it tastes like."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Independence Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/apple_pie
+	name = "bottle of apple pie syrup"
+	desc = "A pump bottle containing seasonal apple pie syrup. Tastes like freedom."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Bastille Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/macaron
+	name = "bottle of macaron syrup"
+	desc = "A pump bottle containing seasonal macaron syrup. Vive la republique!"
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Wizard's Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/sorcerous_sweetberry
+	name = "bottle of sorcerous sweetberry syrup"
+	desc = "A pump bottle containing seasonal sorcerous sweetberry syrup. Has an indescribable flavour."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Indigenous People's Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/wojapi
+	name = "bottle of wojapi syrup"
+	desc = "A pump bottle containing seasonal wojapi syrup. A Native American classic."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Ukrainian Independence Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/kyiv_cake
+	name = "bottle of Kyiv cake syrup"
+	desc = "A pump bottle containing seasonal Kyiv cake syrup. An old-Earth favourite."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Halloween
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/tiger_tail
+	name = "bottle of tiger tail syrup"
+	desc = "A pump bottle containing seasonal tiger tail syrup. Vanilla and licorice, now in perfect harmony."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// October Revolution
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/chocolate_zefir
+	name = "bottle of chocolate zefir syrup"
+	desc = "A pump bottle containing seasonal chocolate zefir syrup. It's like marshmallow, but Soviet-er."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Flower Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/floral_medley
+	name = "bottle of floral medley syrup"
+	desc = "A pump bottle containing seasonal floral medley syrup. Tastes like flowers, in the best possible way."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Festive Season
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/holiday_cookie
+	name = "bottle of holiday cookie syrup"
+	desc = "A pump bottle containing seasonal holiday cookie syrup. Full of wintery spices to warm you up."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// New Years
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/champagne
+	name = "bottle of champagne syrup"
+	desc = "A pump bottle containing seasonal champagne syrup. Gets you in that New Years mood."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Programmer's Day
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/err_null
+	name = "bottle of ERR_NULL; syrup"
+	desc = "A pump bottle containing seasonal ERR_NULL; syrup. DESCRIPTION NOT FOUND."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
+// Easter
+/obj/item/reagent_containers/cup/bottle/syrup_bottle/cotton_candy
+	name = "bottle of cotton candy syrup"
+	desc = "A pump bottle containing seasonal cotton candy syrup. Mmm... eastery."
+	list_reagents = list(/datum/reagent/consumable/coco = 50)
+
 //secret syrup
 /obj/item/reagent_containers/cup/bottle/syrup_bottle/laughsyrup
 	name = "bottle of laugh syrup"

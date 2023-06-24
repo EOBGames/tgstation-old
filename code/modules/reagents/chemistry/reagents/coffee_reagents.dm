@@ -68,4 +68,4 @@
 
 /datum/reagent/consumable/sulatte
 	name = "Sulatte"
-	description = "A hot drink made from sulat and steamed korta milk. Considered sacrilegious amongst sulat traditionalists on Tizira, it is nonetheless popular with spacers and, particularly, with humans."
+	description = "A hot drink made from sulat and steamed korta milk. Considered sacrilegious amongst sulat traditionalists on Tizira, it is nonetheless popular with spacers and particularly with humans."

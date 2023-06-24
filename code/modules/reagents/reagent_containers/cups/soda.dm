@@ -278,3 +278,18 @@
 	desc = "From Jim Norton's comes Coffee-2-Go, the innovative way to drink cold coffee."
 	icon_state = "coffee"
 	list_reagents = list(/datum/reagent/consumable/coffee = 30)
+
+/obj/item/reagent_containers/cup/soda_cans/coffee/latte
+	name = "FlyJoe City Latte"
+
+/obj/item/reagent_containers/cup/soda_cans/coffee/hazelnut_latte
+	name = "FlyJoe Blonde Hazel Latte"
+
+/obj/item/reagent_containers/cup/soda_cans/coffee/matcha_latte
+	name = "FlyJoe Chai Matcha Latte"
+
+/obj/item/reagent_containers/cup/soda_cans/coffee/peppermint_mocha
+	name = "FlyJoe Peppermint Mocha"
+
+/obj/item/reagent_containers/cup/soda_cans/coffee/orange_mocha
+	name = "FlyJoe Orange Mocha"
