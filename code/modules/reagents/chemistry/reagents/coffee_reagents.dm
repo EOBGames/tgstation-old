@@ -29,6 +29,16 @@
 	..()
 	. = TRUE
 
+/datum/reagent/consumable/coffee/fresh_brew
+	name = "Fresh-Brewed Coffee"
+	description = "Look upon it and weep, for it is the opium of the corporate masses."
+	color = "#482000" // rgb: 72, 32, 0
+	nutriment_factor = 0
+	overdose_threshold = 80
+	taste_description = "bitterness"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	glass_price = DRINK_PRICE_STOCK
+
 /datum/reagent/consumable/coffee/espresso
 
 /datum/reagent/consumable/coffee/ristretto

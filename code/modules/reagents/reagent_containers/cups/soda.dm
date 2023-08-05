@@ -293,3 +293,9 @@
 
 /obj/item/reagent_containers/cup/soda_cans/coffee/orange_mocha
 	name = "FlyJoe Orange Mocha"
+
+/obj/item/reagent_containers/cup/soda_cans/tea
+	name = ""
+
+/obj/item/reagent_containers/cup/soda_cans/tea/chai
+	name = "Shirsher Masala Chai"
