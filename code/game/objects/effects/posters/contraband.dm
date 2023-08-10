@@ -625,3 +625,70 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/blood_geometer
 	icon_state = "singletank_bomb"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/singletank_bomb, 32)
+
+/obj/structure/sign/poster/contraband/know_the_danger
+	name = "Peacekeeping Notice #46: Know the Danger"
+	desc = "A poster for the TGJMC on Sprout, detailing what to look out for to prevent Fort Summer getting bombed. Again."
+	icon_state = "know_the_danger"
+
+/obj/structure/sign/poster/contraband/know_the_danger/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("IMPORTANT ADVISORY")]"
+	. += "\t[span_info("In the wake of recent terrorist activity targeting Fort Summer, all TGJMC Peacekeeping Forces are reminded to watch for signs of terrorist sympathies amongst the local populace.")]"
+	. += "\t[span_info("Observe closely- secretive, suspicious, or dangerous-looking individuals should be reported to the nearest MP as quickly as possible.")]"
+	. += "\t[span_info("You could be saving your own life, and the lives of your comrades!")]"
+	return .
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/know_the_danger, 32)
+
+/obj/structure/sign/poster/contraband/neon_greed
+	name = "Movie Poster: Neon Greed"
+	desc = "A movie poster for the cult classic (25)80s space-ploitation flick, Neon Greed."
+	icon_state = "neon_greed"
+
+/obj/structure/sign/poster/contraband/neon_greed/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("One woman. One laser sword. One mission: reclaim Adasta City from the scum that's taken it.")]"
+	. += "\t[span_info("Revenge is a dish best served at 3500 Kelvin.")]"
+	. += "\t[span_info("Fiona Jameson is Cassidy Miller in: NEON GREED. A Mark S. Redd production. A Petrov Markovnikov film. Screenplay by Harris Wilson. Music by Electrohand. Produced by Mark S. Redd. Directed by Petrov Markovnikov.")]"
+	. += "\t[span_info("Five Stars, I have never seen such an action-packed experience- The Adasta Inquirer")]"
+	. += "\t[span_info("Rated R for Restricted. A Roseus Galactus Picture.")]"
+	return .
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/neon_greed, 32)
+
+/obj/structure/sign/poster/contraband/romanticists
+	name = "Romanticist Resistance poster"
+	desc = "A poster promoting the Romanticist movement- dedicated to ending corporate influence in China and a reunification of the country."
+	icon_state = "neon_greed"
+
+/obj/structure/sign/poster/contraband/neon_greed/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("One woman. One laser sword. One mission: reclaim Adasta City from the scum that's taken it.")]"
+	. += "\t[span_info("Revenge is a dish best served at 3500 Kelvin.")]"
+	. += "\t[span_info("Fiona Jameson is Cassidy Miller in: NEON GREED. A Mark S. Redd production. A Petrov Markovnikov film. Screenplay by Harris Wilson. Music by Electrohand. Produced by Mark S. Redd. Directed by Petrov Markovnikov.")]"
+	. += "\t[span_info("Five Stars, I have never seen such an action-packed experience- The Adasta Inquirer")]"
+	. += "\t[span_info("Rated R for Restricted. A Roseus Galactus Picture.")]"
+	return .
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/neon_greed, 32)
+
+/obj/structure/sign/poster/contraband/ebisu_rice_beer
+	name = "Movie Poster: Neon Greed"
+	desc = "A movie poster for the cult classic (25)80s space-ploitation flick, Neon Greed."
+	icon_state = "neon_greed"
+
+/obj/structure/sign/poster/contraband/neon_greed/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("One woman. One laser sword. One mission: reclaim Adasta City from the scum that's taken it.")]"
+	. += "\t[span_info("Revenge is a dish best served at 3500 Kelvin.")]"
+	. += "\t[span_info("Fiona Jameson is Cassidy Miller in: NEON GREED. A Mark S. Redd production. A Petrov Markovnikov film. Screenplay by Harris Wilson. Music by Electrohand. Produced by Mark S. Redd. Directed by Petrov Markovnikov.")]"
+	. += "\t[span_info("Five Stars, I have never seen such an action-packed experience- The Adasta Inquirer")]"
+	. += "\t[span_info("Rated R for Restricted. A Roseus Galactus Picture.")]"
+	return .
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/neon_greed, 32)
