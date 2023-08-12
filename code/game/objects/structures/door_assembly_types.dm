@@ -267,12 +267,21 @@
 	nomineral = TRUE
 	material_flags = MATERIAL_EFFECTS | MATERIAL_ADD_PREFIX | MATERIAL_GREYSCALE | MATERIAL_AFFECT_STATISTICS
 
+/obj/structure/door_assembly/multi_tile/glass
+	name = "large glass airlock assembly"
+	base_name = "large glass airlock"
+	icon = 'icons/obj/doors/airlocks/glass_large/glass_large.dmi'
+	overlays_file = 'icons/obj/doors/airlocks/glass_large/overlays.dmi'
+	airlock_type = /obj/machinery/door/airlock/multi_tile/glass
+	glass_type = /obj/machinery/door/airlock/multi_tile/glass
+
+
 /obj/structure/door_assembly/door_assembly_material/deconstruct(disassembled = TRUE)
 	if(!(flags_1 & NODECONSTRUCT_1))
 		var/turf/T = get_turf(src)
 		for(var/material in custom_materials)
 			var/datum/material/material_datum = material
-			var/material_count = FLOOR(custom_materials[material_datum] / MINERAL_MATERIAL_AMOUNT, 1)
+			var/material_count = FLOOR(custom_materials[material_datum] / SHEET_MATERIAL_AMOUNT, 1)
 			if(!disassembled)
 				material_count = rand(FLOOR(material_count/2, 1), material_count)
 			new material_datum.sheet_type(T, material_count)

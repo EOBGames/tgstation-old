@@ -46,9 +46,36 @@
 
 /obj/item/mod/construction/broken_core/screwdriver_act(mob/living/user, obj/item/tool)
 	. = ..()
+	balloon_alert(user, "repairing...")
 	if(!tool.use_tool(src, user, 5 SECONDS, volume = 30))
+		balloon_alert(user, "interrupted!")
 		return
 	new /obj/item/mod/core/standard(drop_location())
+	qdel(src)
+
+/obj/item/mod/construction/lavalandcore
+	name = "plasma flower"
+	icon_state = "plasma-flower"
+	desc = "A strange flower from the desolate wastes of lavaland. It pulses with a bright purple glow.  \
+		Its shape is remarkably similar to that of a MOD core."
+	light_system = MOVABLE_LIGHT
+	light_color = "#cc00cc"
+	light_range = 2
+
+/obj/item/mod/construction/lavalandcore/examine(mob/user)
+	. = ..()
+	. += span_notice("You could probably attach some <b>wires</b> to it...")
+
+/obj/item/mod/construction/lavalandcore/attackby(obj/item/weapon, mob/user, params)
+	if(!istype(weapon, /obj/item/stack/cable_coil))
+		return ..()
+	if(!weapon.tool_start_check(user, amount=2))
+		return
+	balloon_alert(user, "installing wires...")
+	if(!weapon.use_tool(src, user, 5 SECONDS, amount = 2, volume = 30))
+		balloon_alert(user, "interrupted!")
+		return
+	new /obj/item/mod/core/plasma/lavaland(drop_location())
 	qdel(src)
 
 /obj/item/mod/construction/plating
