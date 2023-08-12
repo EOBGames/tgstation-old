@@ -79,3 +79,27 @@
 /datum/reagent/consumable/sulatte
 	name = "Sulatte"
 	description = "A hot drink made from sulat and steamed korta milk. Considered sacrilegious amongst sulat traditionalists on Tizira, it is nonetheless popular with spacers and particularly with humans."
+
+/datum/reagent/consumable/cafe_miel
+	name = "Café Miel"
+	description = "Combining the flavours of coffee, milk, honey and cinnamon, the Café Miel is a warming drink that's easy to sip."
+
+/datum/reagent/consumable/ethanol/caffe_corretto
+	name = "Caffe Corretto"
+	description = "So how exactly do you \"correct\" coffee? Well, you add a shot of stiff liquor. The Italians are many things, but subtle is not one of them."
+
+/datum/reagent/consumable/ethanol/cafe_carajillo
+	name = "Café Carajillo"
+	description = "The concept of the carajillo means many things to many people. Here in the far flung frontiers, however, the version from San Garcia reigns supreme- coffee, rum, triple sec, and caramel, all topped off with whipped cream."
+
+/datum/reagent/consumable/ethanol/svartkopp
+	name = "Svartkopp"
+	description = "A Swedish/Norwegian beverage of ill-renown, although the concept's hardly unique to Scandinavia- combining coffee and moonshine, it's sure to heat you up on a cold winter's night."
+
+/datum/reagent/consumable/ethanol/ruedesheimer_kaffee
+	name = "Rüdesheimer Kaffee"
+	description = "Originating in the German town of Rüdesheim am Rhein, this alcoholic coffee drink warms the body and the soul."
+
+/datum/reagent/consumable/ethanol/coffee_gunfire
+	name = "Coffee Gunfire"
+	description = "A classic drink from the British navy, making a gunfire is as simple as adding rum to your tea. Down under, however, they prefer it with coffee."
