@@ -178,6 +178,18 @@
 	name = "\improper Barber"
 	icon_state = "barber"
 
+/area/station/service/pizzeria
+	name = "\improper Pizzeria"
+
+/area/station/service/convenience_store
+	name = "\improper Convenience Store"
+
+/area/station/service/coffee_shop
+	name = "\improper Coffee Shop"
+
+/area/station/service/smoothie_bar
+	name = "\improper Smoothie Bar"
+
 /*
 * Abandoned Rooms
 */
