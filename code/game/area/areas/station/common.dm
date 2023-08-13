@@ -108,6 +108,10 @@
 	name = "\improper Entertainment Center"
 	icon_state = "entertainment"
 
+/area/station/commons/fitness/recreation/entertainment/arcade
+	name = "\improper Arcade"
+	icon_state = "entertainment"
+
 /*
 * Vacant Rooms
 */
@@ -155,3 +159,13 @@
 /area/station/commons/storage/mining
 	name = "\improper Public Mining Storage"
 	icon_state = "mining_storage"
+
+/*
+* Gardens
+*/
+
+/area/station/commons/botanical_garden
+	name = "\improper Botanical Garden"
+
+/area/station/commons/botanical_garden/gantries
+	name = "\improper Botanical Garden Gantries"
