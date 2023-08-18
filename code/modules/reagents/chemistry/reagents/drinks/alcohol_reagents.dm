@@ -2821,5 +2821,14 @@
 	taste_description = "the aloha state"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/reagent/consumable/ethanol/licor_milagroso
+	name = "Licor Milagroso"
+	description = "Spain's national liqueur. Made from a secret list of herbs, spices and flavourings, it's got an unmistakeable flavour that's crucial to a number of cocktails."
+	boozepwr = 20
+	color = "#F7D801"
+	quality = DRINK_NICE
+	taste_description = "herby vanilla"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
 #undef ALCOHOL_EXPONENT
 #undef ALCOHOL_THRESHOLD_MODIFIER

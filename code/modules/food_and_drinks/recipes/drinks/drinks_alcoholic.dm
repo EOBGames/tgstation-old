@@ -661,3 +661,32 @@
 /datum/chemical_reaction/drink/blue_hawaiian
 	results = list(/datum/reagent/consumable/ethanol/blue_hawaiian = 5)
 	required_reagents = list(/datum/reagent/consumable/ethanol/coconut_rum = 2, /datum/reagent/consumable/pineapplejuice = 1, /datum/reagent/consumable/lemonjuice = 1, /datum/reagent/consumable/ethanol/curacao = 1)
+
+// Coffee
+/datum/chemical_reaction/drink/caffe_corretto
+	results = list(/datum/reagent/consumable/ethanol/caffe_corretto = 2)
+	required_reagents = list(/datum/reagent/consumable/espresso = 1, /datum/reagent/consumable/ethanol/grappa = 1)
+
+/datum/chemical_reaction/drink/carajillo_garciano
+	results = list(/datum/reagent/consumable/ethanol/carajillo_garciano = 10)
+	required_reagents = list(/datum/reagent/consumable/ethanol/rum = 1, /datum/reagent/consumable/ethanol/triple_sec = 1, /datum/reagent/consumable/ethanol/kahlua = 2, /datum/reagent/consumable/caramel = 1, /datum/reagent/consumable/coffee = 4, /datum/reagent/consumable/whipped_cream = 1)
+
+/datum/chemical_reaction/drink/karsk
+	results = list(/datum/reagent/consumable/ethanol/karsk = 2)
+	required_reagents = list(/datum/reagent/consumable/ethanol/moonshine = 1, /datum/reagent/consumable/coffee = 1)
+
+/datum/chemical_reaction/drink/ruedesheimer_kaffee
+	results = list(/datum/reagent/consumable/ethanol/ruedesheimer_kaffee = 5)
+	required_reagents = list(/datum/reagent/consumable/ethanol/cognac = 1, /datum/reagent/consumable/coffee = 3, /datum/reagent/consumable/whipped_cream = 1)
+
+/datum/chemical_reaction/drink/coffee_gunfire
+	results = list(/datum/reagent/consumable/ethanol/coffee_gunfire = 5)
+	required_reagents = list(/datum/reagent/consumable/ethanol/navy_rum = 1, /datum/reagent/consumable/coffee = 4)
+
+/datum/chemical_reaction/drink/cafe_tonic
+	results = list(/datum/reagent/consumable/ethanol/cafe_tonic = 5)
+	required_reagents = list(/datum/reagent/consumable/espresso = 1, /datum/reagent/consumable/tonic = 4)
+
+/datum/chemical_reaction/drink/dead_by_dawn
+	results = list(/datum/reagent/consumable/ethanol/dead_by_dawn = 10)
+	required_reagents = list(/datum/reagent/consumable/ethanol/branca_menta = 1, /datum/reagent/consumable/ethanol/kahlua = 1, /datum/reagent/consumable/ethanol/absinthe = 2, /datum/reagent/consumable/espresso = 3, /datum/reagent/consumable/ethanol/bitters = 1, /datum/reagent/consumable/salt = 1, /datum/reagent/consumable/sugar = 1)

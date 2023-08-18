@@ -2,7 +2,7 @@
 
 /obj/machinery/espressomaker
 	name = "espressomaker"
-	desc = "A Fabbrica 7 Espressomaker that makes espresso and steamed milk. A series of dials and switches allow changing the amount of water and pressure pushed through the grounds to make a series of different types of espresso. Takes industrial \"S-N-E-S\" model cartridges. Made by Piccionaia Home Appliances."
+	desc = "A Fabbrica Modello 7 Espressomaker that makes espresso and steamed milk. A series of dials and switches allow changing the amount of water and pressure pushed through the grounds to make a series of different types of espresso. Takes industrial \"S-N-E-S\" model cartridges. Made by Piccionaia Home Appliances."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "espressomaker_nocup_nomilk_nocart"
 	base_icon_state = "espressomaker"

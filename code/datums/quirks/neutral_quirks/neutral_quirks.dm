@@ -481,3 +481,15 @@
 	pin.icon_state = pride_reskin
 
 	give_item_to_holder(pin, list(LOCATION_BACKPACK = ITEM_SLOT_BACKPACK, LOCATION_HANDS = ITEM_SLOT_HANDS))
+
+/datum/quirk/percolation_prole
+	name = "Percolation Prole"
+	desc = "You reject the increasing pretention of coffee, caring only for the warming embrace of a cup of filter Joe."
+	gain_text = span_notice("You only wish to taste burnt bean water.")
+	lose_text = span_danger("You feel only slightly less fruity than before.")
+
+/datum/quirk/bougie_brewer
+	name = "Bougie Brewer"
+
+/datum/quirk/java_junkie
+	name = "Java Junkie"

@@ -1146,3 +1146,10 @@
 	color = "#efeff0"
 	taste_description = "metallic salt"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/cinnamon
+	name = "Cinnamon Powder"
+	description = "One of the quintessential spices, cinnamon is popular the galaxy over for its aroma and delicately spicy flavour."
+	color = "#D2691E"
+	taste_description = "cinnamon"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED

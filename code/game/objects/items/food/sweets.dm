@@ -173,6 +173,16 @@
 	tastes = list("chocolate" = 1, "peanut butter" = 1)
 	foodtypes = DAIRY | SUGAR | JUNKFOOD | NUTS
 
+/obj/item/food/turkish_delight
+	name = "\improper Turkish delight"
+	desc = "A sweet treat from the Middle East, traditionally associated with Turkey. Can be eaten anytime, but goes especially well with a cup of coffee, Turkish-style if possible."
+	icon_state = "turkish_delight"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 1,
+		/datum/reagent/consumable/sugar = 3,
+	)
+	tastes = list("rose water" = 1, "sugar" = 1)
+	foodtypes = SUGAR
 
 // Gum
 /obj/item/food/bubblegum

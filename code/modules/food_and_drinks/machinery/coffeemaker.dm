@@ -428,6 +428,8 @@
 /obj/machinery/coffeemaker/piccolo
 	name = "microcoffeemaker"
 	desc = "A Piccolo 5 Coffeemaker that brews single cups of coffee. Takes smaller \"D-S\" model cartridges. Made by Piccionaia Home Appliances."
+	accepted_cartridge_type = "DS"
+	initial_cartridge = /obj/item/coffee_cartridge/micro
 
 //Coffee Cartridges: like toner, but for your coffee!
 /obj/item/coffee_cartridge
@@ -525,6 +527,12 @@
 	drink_type = list(/datum/reagent/consumable/tea = 120)
 	icon_state = "cartridge_tea"
 
+/obj/item/coffee_cartridge/chicory
+	name = "coffeemaker cartridge - Caffè alla Cicoria"
+	desc = "A \"G-B-A\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system. With added chicory, for an authentic Cajun experience."
+	drink_type = list(/datum/reagent/consumable/coffee/chicory = 120)
+	icon_state = "cartridge_chicory"
+
 // no you can't just squeeze the juice bag into a glass!
 /obj/item/coffee_cartridge/bootleg
 	name = "coffeemaker cartridge - Botany Blend"
@@ -611,17 +619,53 @@
 	name = "microcoffeemaker cartridge - Caffè Decaffeinato"
 	desc = "A decaf \"D-S\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
 	icon_state = "cartridge_micro_decaf"
+	drink_type = list(/datum/reagent/consumable/coffee/decaf = 30)
 
-/obj/item/coffee_cartridge/micro/tea
+/obj/item/coffee_cartridge/micro/tea //featuring innovative tea paste technology for a consistent brew, every time
 	name = "microcoffeemaker cartridge - Tè Nero"
 	desc = "A \"D-S\" model tea cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
 	drink_type = list(/datum/reagent/consumable/tea = 30)
 	icon_state = "cartridge_micro_tea"
 
+/obj/item/coffee_cartridge/micro/latte
+	name = "microcoffeemaker cartridge - Caffè Latte"
+	drink_type = list(/datum/reagent/consumable/coffee/caffe_latte = 30)
+
+/obj/item/coffee_cartridge/micro/mocha
+	name = "microcoffeemaker cartridge - Caffè della Moka"
+	drink_type = list(/datum/reagent/consumable/coffee/mocha = 30)
+
+/obj/item/coffee_cartridge/micro/americano
+	name = "microcoffeemaker cartridge - Caffè Americano"
+	drink_type = list(/datum/reagent/consumable/coffee/americano = 30)
+
+/obj/item/coffee_cartridge/micro/cappuccino
+	name = "microcoffeemaker cartridge - Cappuccino Triestino"
+	drink_type = list(/datum/reagent/consumable/coffee/cappuccino = 30)
+
+/obj/item/coffee_cartridge/micro/donkaccino
+	name = "microcoffeemaker cartridge - Big Donk Donuts' Donkaccino"
+	desc = "A \"D-S\" model drink cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system. Part of Piccionaia's Signature range, this cartridge makes a home facsimile of Big Donk Donuts' signature Donkaccino."
+	drink_type = list(/datum/reagent/consumable/coffee/donkaccino = 30)
+
+/obj/item/coffee_cartridge/micro/maple_white
+	name = "microcoffeemaker cartridge - Jim Nortons' Maple White"
+	desc = "A \"D-S\" model drink cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system. Part of Piccionaia's Signature range, this cartridge makes a home facsimile of Jim Nortons' signature Maple White."
+	drink_type = list(/datum/reagent/consumable/coffee/maple_white = 30)
+
+/obj/item/coffee_cartridge/micro/twin_shot_caramel
+	name = "microcoffeemaker cartridge - Siren Java Company's Caramel Twin Shot"
+	desc = "A \"D-S\" model drink cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system. Part of Piccionaia's Signature range, this cartridge makes a home facsimile of the Siren Java Company's signature Caramel Twin-Shot."
+	drink_type = list(/datum/reagent/consumable/coffee/twin_shot_caramel = 30)
+
 /obj/item/coffee_cartridge/micro/bootleg
 	name = "microcoffeemaker cartridge - Botany Blend"
 	desc = "A jury-rigged \"D-S\" model coffee cartridge. Should work with a Piccolo 5 system, though it might void the warranty."
 	icon_state = "cartridge_micro_bootleg"
+
+/obj/item/coffee_cartridge/micro/bootleg/mothic
+	name = "microcoffeemaker cartridge - Fleet Blend"
+	desc = "A jury-rigged \"D-S\" model coffee cartridge, imported from the Mothic Fleet. Should work with a Piccolo 5 system, though it will definitely void the warranty."
 
 // blank cartridge for crafting's sake, can be made at the service lathe
 /obj/item/blank_coffee_cartridge

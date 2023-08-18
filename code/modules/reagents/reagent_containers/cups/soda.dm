@@ -325,7 +325,7 @@
 	name = "FlyJoe Orange Mocha"
 
 /obj/item/reagent_containers/cup/soda_cans/tea
-	name = ""
+	name = "teatotal CasualTea"
 
 /obj/item/reagent_containers/cup/soda_cans/tea/chai
 	name = "Shirsher Masala Chai"
