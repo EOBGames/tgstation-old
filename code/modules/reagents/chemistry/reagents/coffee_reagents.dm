@@ -108,6 +108,10 @@
 	name = "Café Miel"
 	description = "Combining the flavours of coffee, milk, honey and cinnamon, the Café Miel is a warming drink that's easy to sip."
 
+/datum/reagent/consumable/coffee/maple_white
+	name = "Maple White"
+	description = "Jim Norton's signature drink, as invented by Jim himself. Combines white coffee with maple syrup and french vanilla for a true taste of the frozen north."
+
 /datum/reagent/consumable/coffee/espresso_romano
 	name = "Espresso Romano"
 	description = "When in Rome, do as the Romans do- add some lemon to your espresso."
@@ -116,9 +120,9 @@
 	name = "Cà Phê Trứng"
 	description = "Born of Vietnamese coffee traditions, cà phê trứng (or egg coffee) consists of strong coffee topped with a sweetened, beaten egg yolk and condensed milk foam."
 
-/datum/reagent/consumable/babyccino
-	name = "Babyccino"
-	description = "Want to look like you're drinking coffee, but don't actually want coffee? Enter the babyccino- steamed milk and milk froth, and nothin' else."
+/datum/reagent/consumable/icecoffee/ellinikos_frape
+	name = "Ellinikós Frapé"
+	description = "In contrast to typical frappes, Greek \"frapés\" are made from instant coffee and milk shaken with ice in a shaker. This creates a unique flavour and texture that can't be found elsewhere, and that's why the Greeks love them."
 
 /datum/reagent/consumable/coffee/kafka //3:1 space cola : espresso
 	name = "Kafka"
@@ -221,3 +225,11 @@
 /datum/reagent/consumable/tea/teh_talua
 	name = "Teh Talua"
 	description = "An Indonesian tea drink that combines tea, egg yolk, lime and condensed milk."
+
+/datum/reagent/consumable/tea/london_fog
+	name = "London Fog"
+	description = "A tea latte made with Earl Grey and vanilla. Typical to Canadian coffeeshops, it's perhaps no wonder that Jim Norton's does it."
+
+/datum/reagent/consumable/ethanol/john_daly
+	name = "John Daly"
+	description = "A boozier take on the Arnold Palmer. Makes you want to commit violence with a golf club."

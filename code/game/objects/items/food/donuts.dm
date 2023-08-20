@@ -200,12 +200,6 @@
 	tastes = list("donut" = 3, "fizzy tutti frutti" = 1,)
 	is_decorated = TRUE
 
-/obj/item/food/donut/maple
-	name = "maple dip donut"
-	desc = "Goes great with a cup of Maple White."
-
-/obj/item/food/
-
 //////////////////////JELLY DONUTS/////////////////////////
 
 /obj/item/food/donut/jelly
@@ -481,39 +475,5 @@
 	)
 	tastes = list("jelly" = 3, "donut" = 1, "fizzy tutti frutti" = 1)
 	is_decorated = TRUE
-
-/obj/item/food/donut/new_orleans_beignet
-	name = "\improper New Orleans beignet"
-	desc = "Contrasting with the classic French-style beignet, which is made from choux pastry, the New Orleans beignet is closer to a traditional donut. They're also a favourite across the galaxy due to their adoption by Jim Nortons."
-
-/obj/item/food/donut/hollander
-	name = "\improper Hollander"
-	desc = "The one and only, as invented by Jim Norton himself. Light, airy, raisin-y, glaze-y, it's such a good breakfast that Jim used to eat one every day- including before his tragic end at the hands of Big Larry."
-
-// You've heard of donut holes- but what if they were 50 cents a pop, and had a funny name?
-// Enter the Jimmini!
-/obj/item/food/jimmini
-	name = "classic glazed Jimmini"
-
-/obj/item/food/jimmini/chocolate
-	name = "chocolate glazed Jimmini"
-
-/obj/item/food/jimmini/apple
-	name = "apple fritter Jimmini"
-
-/obj/item/food/jimmini/sprinkle
-	name = "birthday cake Jimmini"
-
-/obj/item/food/jimmini/choco_sprinkle
-	name = "chocolate truffle Jimmini"
-
-/obj/item/food/jimmini/honey_cruller
-	name = "honey cruller Jimmini"
-
-/obj/item/food/jimmini/jelly
-	name = "jelly-filled Jimmini"
-
-/obj/item/food/jimmini/maple
-	name = "maple-dip Jimmini"
 
 #undef DONUT_SPRINKLE_CHANCE

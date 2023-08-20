@@ -1147,6 +1147,10 @@
 	taste_description = "metallic salt"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/reagent/consumable/instant_soup
+	name = "Instant Soup"
+	description = "Instant powder soup, as dispensed by coffee machines."
+
 /datum/reagent/consumable/cinnamon
 	name = "Cinnamon Powder"
 	description = "One of the quintessential spices, cinnamon is popular the galaxy over for its aroma and delicately spicy flavour."

@@ -2085,6 +2085,7 @@
 #include "code\game\objects\items\food\bait.dm"
 #include "code\game\objects\items\food\bread.dm"
 #include "code\game\objects\items\food\burgers.dm"
+#include "code\game\objects\items\food\cafe.dm"
 #include "code\game\objects\items\food\cake.dm"
 #include "code\game\objects\items\food\cheese.dm"
 #include "code\game\objects\items\food\donkpocket.dm"

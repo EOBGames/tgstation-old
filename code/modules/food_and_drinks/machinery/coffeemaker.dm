@@ -629,6 +629,7 @@
 
 /obj/item/coffee_cartridge/micro/latte
 	name = "microcoffeemaker cartridge - Caffè Latte"
+	desc = "A \"D-S\" model coffee-beverage cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
 	drink_type = list(/datum/reagent/consumable/coffee/caffe_latte = 30)
 
 /obj/item/coffee_cartridge/micro/mocha
@@ -657,6 +658,10 @@
 	name = "microcoffeemaker cartridge - Siren Java Company's Caramel Twin Shot"
 	desc = "A \"D-S\" model drink cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system. Part of Piccionaia's Signature range, this cartridge makes a home facsimile of the Siren Java Company's signature Caramel Twin-Shot."
 	drink_type = list(/datum/reagent/consumable/coffee/twin_shot_caramel = 30)
+
+/obj/item/coffee_cartridge/micro/hot_cocoa
+	name = "microcoffeemaker cartridge - Cioccolato Caldo"
+	desc = "A \"D-S\" model drink cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
 
 /obj/item/coffee_cartridge/micro/bootleg
 	name = "microcoffeemaker cartridge - Botany Blend"
