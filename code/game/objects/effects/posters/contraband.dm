@@ -625,3 +625,18 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/blood_geometer
 	icon_state = "singletank_bomb"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/singletank_bomb, 32)
+
+/obj/structure/sign/poster/contraband/piccionaia
+	name = "Piccionaia Coffeemakers"
+	desc = "A poster advertising Piccionaia's range of coffeemakers."
+	icon_state = "blood_geometer"
+
+/obj/structure/sign/poster/contraband/piccionaia/examine_more(mob/user)
+	. = ..()
+	. += span_notice("<i>You browse some of the poster's information...</i>")
+	. += "\t[span_info("Piccionaia Home Appliances: BARISTA RANGE")]"
+	. += "\t[span_info("Modello 5: a perfect coffeemaker for the office or families. Brews pots using Piccionaia's patented CaffeCart technology.")]"
+	. += "\t[span_info("Piccolo 3: a single-cup coffeemaker for the desk or your morning routine.")]"
+	. += "\t[span_info("Impressa 7: a professional grade brewer for the aspiring home barista. Uses roast beans for a traditional coffee experience.")]"
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/piccionaia, 32)

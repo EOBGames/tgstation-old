@@ -1,7 +1,7 @@
 #define BEAN_CAPACITY 10 //amount of coffee beans that can fit inside the impressa coffeemaker
 
 /obj/machinery/coffeemaker
-	name = "coffeemaker"
+	name = "\improper Modello 3 coffeemaker"
 	desc = "A Modello 3 Coffeemaker that brews coffee and holds it at the perfect temperature of 176 fahrenheit. Takes larger \"G-B-A\" model cartridges. Made by Piccionaia Home Appliances."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "coffeemaker_nopot_nocart"
@@ -426,10 +426,26 @@
 	cartridge.charges--
 
 /obj/machinery/coffeemaker/piccolo
-	name = "microcoffeemaker"
+	name = "\improper Piccolo 5 microcoffeemaker"
 	desc = "A Piccolo 5 Coffeemaker that brews single cups of coffee. Takes smaller \"D-S\" model cartridges. Made by Piccionaia Home Appliances."
 	accepted_cartridge_type = "DS"
 	initial_cartridge = /obj/item/coffee_cartridge/micro
+
+/obj/machinery/coffeemaker/piccolo/red
+	desc = "A Piccolo 5 Coffeemaker that brews single cups of coffee. Takes smaller \"D-S\" model cartridges. This particular one is in \"Chili Red\"."
+
+/obj/machinery/coffeemaker/piccolo/green
+	desc = "A Piccolo 5 Coffeemaker that brews single cups of coffee. Takes smaller \"D-S\" model cartridges. This particular one is in Piccionaia's classic \"Dovecote Green\"."
+
+/obj/machinery/coffeemaker/piccolo/blue
+	desc = "A Piccolo 5 Coffeemaker that brews single cups of coffee. Takes smaller \"D-S\" model cartridges. This particular one is in \"Marine Blue\"."
+
+/obj/machinery/coffeemaker/piccolo/tricolore
+	desc = "A Piccolo 5 Coffeemaker that brews single cups of coffee. Takes smaller \"D-S\" model cartridges. This particular one is in the colours of the Italian flag, \"Il Tricolore\"."
+
+/obj/machinery/coffeemaker/piccolo/deluxo
+	name = "\improper Piccolo 5 Deluxo microcoffeemaker"
+	desc = "A deluxe-model Piccolo 5 Coffeemaker that brews single cups of coffee. Takes smaller \"D-S\" model cartridges. This Deluxo model comes with wood paneling and polished brass finishings. Love yourself. Love your coffee."
 
 //Coffee Cartridges: like toner, but for your coffee!
 /obj/item/coffee_cartridge
@@ -621,6 +637,12 @@
 	icon_state = "cartridge_micro_decaf"
 	drink_type = list(/datum/reagent/consumable/coffee/decaf = 30)
 
+/obj/item/coffee_cartridge/micro/chicory
+	name = "microcoffeemaker cartridge - Caffè alla Cicoria"
+	desc = "A decaf \"D-S\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
+	icon_state = "cartridge_micro_chicory"
+	drink_type = list(/datum/reagent/consumable/coffee/chicory = 30)
+
 /obj/item/coffee_cartridge/micro/tea //featuring innovative tea paste technology for a consistent brew, every time
 	name = "microcoffeemaker cartridge - Tè Nero"
 	desc = "A \"D-S\" model tea cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
@@ -662,6 +684,7 @@
 /obj/item/coffee_cartridge/micro/hot_cocoa
 	name = "microcoffeemaker cartridge - Cioccolato Caldo"
 	desc = "A \"D-S\" model drink cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
+	drink_type = list(/datum/reagent/consumable/hot_coco = 30)
 
 /obj/item/coffee_cartridge/micro/bootleg
 	name = "microcoffeemaker cartridge - Botany Blend"
@@ -706,8 +729,8 @@
  */
 
 /obj/machinery/coffeemaker/impressa
-	name = "impressa coffeemaker"
-	desc = "An industry-grade Impressa Modello 5 Coffeemaker of the Piccionaia Home Appliances premium coffeemakers product line. Makes coffee from fresh dried whole beans."
+	name = "\improper Impressa 7 coffeemaker"
+	desc = "An industry-grade Impressa 7 Coffeemaker of the Piccionaia Commercial premium coffeemakers product line. Makes coffee from fresh dried whole beans."
 	icon = 'icons/obj/machines/coffeemaker.dmi'
 	icon_state = "coffeemaker_impressa"
 	circuit = /obj/item/circuitboard/machine/coffeemaker/impressa
