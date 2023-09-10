@@ -345,18 +345,53 @@ GLOBAL_LIST_EMPTY(tcgcard_radial_choices)
 		"uncommon" = 60)
 	var/drop_all_cards = FALSE
 
-/obj/item/cardpack/series_one
-	name = "Trading Card Pack: Series 1"
+/obj/item/cardpack/coreset_2560
+	name = "Trading Card Pack: 2560 Core Set"
 	desc = "Contains six cards of varying rarity from the 2560 Core Set. Collect them all!"
-	icon_state = "cardpack_series1"
-	series = "coreset2020"
+	icon_state = "cardpack_core_2560"
+	series = "coreset2560"
 	contains_coin = 10
+
+/obj/item/cardpack/coreset_2563
+	name = "Trading Card Pack: 2563 Core Set"
+	desc = "Contains six cards of varying rarity from the 2563 Core Set. Collect them all!"
+	icon_state = "cardpack_core_2560"
+	series = "coreset2563"
+	contains_coin = 10
+
+// Special Sets
 
 /obj/item/cardpack/resin
 	name = "Trading Card Pack: Resin Frontier Booster Pack"
 	desc = "Contains six cards of varying rarity from the Resin Frontier set. Collect them all!"
 	icon_state = "cardpack_resin"
 	series = "resinfront"
+	contains_coin = 0
+	rarity_table = list(
+		"common" = 900,
+		"uncommon" = 300,
+		"rare" = 100,
+		"epic" = 30,
+		"legendary" = 5)
+
+/obj/item/cardpack/blood_and_stone
+	name = "Trading Card Pack: Blood and Stone Booster Pack"
+	desc = "Contains six cards of varying rarity from the Blood and Stone set. Collect them all!"
+	icon_state = "cardpack_blood_and_stone"
+	series = "blood_and_stone"
+	contains_coin = 0
+	rarity_table = list(
+		"common" = 900,
+		"uncommon" = 300,
+		"rare" = 100,
+		"epic" = 30,
+		"legendary" = 5)
+
+/obj/item/cardpack/synthetic_dawn
+	name = "Trading Card Pack: Synthetic Dawn Booster Pack"
+	desc = "Contains six cards of varying rarity from the Synthetic Dawn set. Collect them all!"
+	icon_state = "cardpack_resin"
+	series = "synthetic_dawn"
 	contains_coin = 0
 	rarity_table = list(
 		"common" = 900,
