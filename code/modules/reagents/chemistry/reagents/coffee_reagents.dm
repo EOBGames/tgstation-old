@@ -164,8 +164,8 @@
 	name = "Rüdesheimer Kaffee"
 	description = "Originating in the German town of Rüdesheim am Rhein, this alcoholic coffee drink warms the body and the soul."
 
-/datum/reagent/consumable/ethanol/coffee_gunfire
-	name = "Coffee Gunfire"
+/datum/reagent/consumable/ethanol/anzac_gunfire
+	name = "ANZAC Gunfire"
 	description = "A classic drink from the British navy, making a gunfire is as simple as adding rum to your tea. Down under, however, they prefer it with coffee."
 
 /datum/reagent/consumable/ethanol/cafe_tonic
@@ -179,6 +179,14 @@
 /datum/reagent/consumable/ethanol/engine_fire
 	name = "Engine Fire"
 	description = "A mothic wake-up-shot of legend, the engine fire combines the mothic coffee favourite engine slag with rum, töchtaüse syrup, and hot sauce. Sharp, acidic and burning-hot spicy, there's nary a moth alive can stay drowsy after one of these."
+
+/datum/reagent/consumable/ethanol/hotshot
+	name = "Hotshot"
+	description = "Combining coffee, cream, and vanilla liqueur, this Scandi-shot is a tasty way to get your daily recommended dose of caffeine and alcohol."
+
+/datum/reagent/consumable/ethanol/calypso_coffee
+	name = "Calypso Coffee"
+	description = "For when coffee starts to get attached to work, the Calypso is here to save the day- with rum, kahlua and cream, it'll pull you away to the tropics- at least until you finish the mug, anyway."
 
 /datum/reagent/consumable/ethanol/cool_edge
 	name = "Cool Edge"
@@ -233,3 +241,7 @@
 /datum/reagent/consumable/ethanol/john_daly
 	name = "John Daly"
 	description = "A boozier take on the Arnold Palmer. Makes you want to commit violence with a golf club."
+
+/datum/reagent/consumable/ethanol/jagertee
+	name = "Jagertee"
+	description = "An Austrian tea-based punch, made with the nation's signature inländer rum. Popular as an après-ski."

@@ -2830,5 +2830,32 @@
 	taste_description = "herby vanilla"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/reagent/consumable/ethanol/garibaldi
+	name = "Garibaldi"
+	description = "An Italian liqueur that blends vanilla and aniseed to create a unique flavour. Named for Garibaldi, a legendary figure in Italian unification."
+	boozepwr = 20
+	color = "#F7D801"
+	quality = DRINK_NICE
+	taste_description = "vanilla and liquorice"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/inlaender_rum
+	name = "Inländer Rum"
+	description = "Originally produced in the Austrian Empire as an ersatz rum due to a lack of Imperial holdings from which to source cane sugar, inländer rum became a key part of Austrian cooking and mixology even long after regular rum became widely available in the country."
+	boozepwr = 20
+	color = "#F7D801"
+	quality = DRINK_NICE
+	taste_description = "butterscotch and vanilla"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/advocaat
+	name = "Advocaat"
+	description = "A sweet egg-yolk infused liqueur from the Netherlands. Sorta like a boozier, creamier eggnog."
+	boozepwr = 20
+	color = "#F7D801"
+	quality = DRINK_NICE
+	taste_description = "rich custard"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
 #undef ALCOHOL_EXPONENT
 #undef ALCOHOL_THRESHOLD_MODIFIER

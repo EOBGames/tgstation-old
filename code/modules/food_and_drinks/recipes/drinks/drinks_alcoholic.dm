@@ -679,8 +679,8 @@
 	results = list(/datum/reagent/consumable/ethanol/ruedesheimer_kaffee = 5)
 	required_reagents = list(/datum/reagent/consumable/ethanol/cognac = 1, /datum/reagent/consumable/coffee = 3, /datum/reagent/consumable/whipped_cream = 1)
 
-/datum/chemical_reaction/drink/coffee_gunfire
-	results = list(/datum/reagent/consumable/ethanol/coffee_gunfire = 5)
+/datum/chemical_reaction/drink/anzac_gunfire
+	results = list(/datum/reagent/consumable/ethanol/anzac_gunfire = 5)
 	required_reagents = list(/datum/reagent/consumable/ethanol/navy_rum = 1, /datum/reagent/consumable/coffee = 4)
 
 /datum/chemical_reaction/drink/cafe_tonic

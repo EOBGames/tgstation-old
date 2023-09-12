@@ -1157,3 +1157,11 @@
 	color = "#D2691E"
 	taste_description = "cinnamon"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/chicory_extract
+	name = "Chicory Extract"
+	description = "A bitter substance made from chicory roots. Can be used as a coffee additive or substitute, depending on how desperate you are for a cup of joe."
+
+/datum/reagent/consumable/mulling_spices
+	name = "Mulling Spices"
+	description = "A mixture of various wintery spices which can transform any drink instantly into a Christmas classic."

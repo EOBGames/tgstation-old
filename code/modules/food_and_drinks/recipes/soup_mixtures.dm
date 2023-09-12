@@ -2197,3 +2197,51 @@
 	resulting_food_path = /obj/item/food/volt_fish
 	ingredient_reagent_multiplier = 0
 	mix_message = "The air fills with a hellish mix of fish and artificial flavouring."
+
+// Crème Anglaise
+/datum/reagent/consumable/nutriment/soup/creme_anglaise
+	name = "Crème Anglaise"
+	description = "Perhaps the only concession that French cooking has ever made to the English, crème anglaise is one of France's traditional mother sauces."
+	data = list("custard" = 1)
+	color = "#C8400E"
+
+/datum/glass_style/has_foodtype/soup/creme_anglaise
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/creme_anglaise
+	name = "crème anglaise"
+	icon_state = "creme_anglaise"
+	drink_type = DAIRY | SUGAR
+
+/datum/chemical_reaction/food/soup/creme_anglaise
+	required_reagents = list(
+		/datum/reagent/consumable/milk = 10,
+		/datum/reagent/consumable/eggyolk = 5,
+		/datum/reagent/consumable/sugar = 10,
+		/datum/reagent/consumable/vanilla = 5,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/creme_anglaise = 30,
+	)
+
+// Crème Bavaroise
+/datum/reagent/consumable/nutriment/soup/creme_bavaroise
+	name = "Crème Bavaroise"
+	description = "Confusingly, this \"Bavarian Cream\" consists of \"English Cream\". How multicultural."
+	data = list("custard" = 1)
+	color = "#C8400E"
+
+/datum/glass_style/has_foodtype/soup/creme_bavaroise
+	required_drink_type = /datum/reagent/consumable/nutriment/soup/creme_bavaroise
+	name = "crème bavaroise"
+	icon_state = "creme_bavaroise"
+	drink_type = DAIRY | SUGAR
+
+/datum/chemical_reaction/food/soup/creme_anglaise
+	required_reagents = list(
+		/datum/reagent/consumable/milk = 10,
+		/datum/reagent/consumable/eggyolk = 5,
+		/datum/reagent/consumable/sugar = 10,
+		/datum/reagent/consumable/vanilla = 5,
+	)
+	results = list(
+		/datum/reagent/consumable/nutriment/soup/creme_anglaise = 30,
+	)
