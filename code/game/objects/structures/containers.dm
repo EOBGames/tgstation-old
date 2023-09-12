@@ -16,6 +16,11 @@
 
 	AddComponent(/datum/component/seethrough, SEE_THROUGH_MAP_SHIPPING_CONTAINER)
 
+/obj/structure/shipping_container/amsco
+	name = "\improper AMSCO shipping container"
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from AMSCO, also known as Amundsen-Scott Prospecting, and so it most likely contains exploration and surveying gear."
+	icon_state = "amsco"
+
 /obj/structure/shipping_container/conarex
 	name = "\improper Conarex Aeronautics shipping container"
 	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Conarex Aeronautics, and is probably carrying spacecraft parts (or a bribery scandal) as a result."
@@ -26,9 +31,14 @@
 	desc = "A standard-measure shipping container for bulk transport of goods. This one is from DeForest, and so is probably carrying medical supplies."
 	icon_state = "deforest"
 
+/obj/structure/shipping_container/great_northern
+	name = "\improper Great Northern shipping container"
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Great Northern, and so it's probably carrying agricultural equipment."
+	icon_state = "great_northern"
+
 /obj/structure/shipping_container/kahraman
 	name = "\improper Kahraman Heavy Industry shipping container"
-	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Kahraman, and is reinforced for carrying ore."
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Kahraman, and is reinforced for carrying ore, which is probably what's inside."
 	icon_state = "kahraman"
 
 /obj/structure/shipping_container/kahraman/alt
@@ -53,10 +63,16 @@
 	name = "\improper Nanotrasen shipping container"
 	desc = "A standard-measure shipping container for bulk transport of goods. This one prominently features Nanotrasen's logo, and so presumably could be carrying anything."
 	icon_state = "nanotrasen"
+
 /obj/structure/shipping_container/nthi
 	name = "\improper Nanotrasen Heavy Industries shipping container"
-	desc = "A standard-measure shipping container for bulk transport of goods. This one is from NTHI: Nanotrasen's mining and refining subdivision."
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from NTHI: Nanotrasen's mining and refining subdivision, so it probably contains ore."
 	icon_state = "nthi"
+
+/obj/structure/shipping_container/sunda_internasional
+	name = "\improper Sunda Internasional shipping container"
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Sunda Internasional, and could be carrying pretty much anything."
+	icon_state = "biosustain"
 
 /obj/structure/shipping_container/vitezstvi
 	name = "\improper Vítězství Arms shipping container"
@@ -64,6 +80,11 @@
 	icon_state = "vitezstvi"
 
 //Syndies
+/obj/structure/shipping_container/biosustain
+	name = "\improper Biosustain shipping container"
+	desc = "A standard-measure shipping container for bulk transport of goods. This one is from Biosustain, and is probably carrying genemodded seeds or agrochemicals."
+	icon_state = "biosustain"
+
 /obj/structure/shipping_container/cybersun
 	name = "\improper Cybersun Industries shipping container"
 	desc = "A standard-measure shipping container for bulk transport of goods. This one prominently features Cybersun's logo, and so presumably could be carrying almost anything."
@@ -81,3 +102,29 @@
 
 /obj/structure/shipping_container/gorlex/red
 	icon_state = "gorlex_red"
+
+// Gas Cisterns
+/obj/structure/shipping_container/gas_cistern
+	name = "gas cistern"
+	desc = "A standard-measure gas cistern for bulk transport of... well, gases. This one is unbranded, and rather dangerously unmarked- what if it's filled with something explosive?"
+
+/obj/structure/shipping_container/gas_cistern/apda
+	name = "\improper APdA S.p.A. gas cistern"
+	desc = "A standard-measure gas cistern for bulk transport of... well, gases. This one is from Associato Petrochimico dell'Adriatico- humanity's largest producer of helium-3 and legacy hydrocarbons, as well as being in the jealous 3rd place for plasma."
+
+/obj/structure/shipping_container/gas_cistern/nthi
+	name = "\improper NTHI gas cistern"
+	desc = "A standard-measure gas cistern for bulk transport of... well, gases. This one is from NTHI, so is probably carrying plasma. I mean, what other gas is NTHI going to be shipping around these parts?"
+
+// Tanks
+/obj/structure/shipping_container/liquid_tank
+	name = "shipping tank"
+	desc = "A standard-measure liquid tank for bulk transport of liquids. This one is unbranded and unmarked."
+
+/obj/structure/shipping_container/liquid_tank/biosustain
+	name = "\improper Biosustain shipping tank"
+	desc = "A standard-measure liquid tank for bulk transport of liquids. This one is from Biosustain and is almost certainly full of noxious agrochemicals."
+
+/obj/structure/shipping_container/liquid_tank/federalenergetika
+	name = "\improper Federalenergetika shipping tank"
+	desc = "A standard-measure liquid tank for bulk transport of liquids. This one is from Federalenergetika and is therefore probably filled with heavy water, or maybe nuclear waste knowing their history."
