@@ -484,12 +484,16 @@
 
 /datum/quirk/percolation_prole
 	name = "Percolation Prole"
-	desc = "You reject the increasing pretention of coffee, caring only for the warming embrace of a cup of filter Joe."
+	desc = "You reject the increasing pretention of coffee, instead believing in the superiority of the working-man's cup of instant. Drinking instant coffee will give you a mood boost, but \"proper\" coffee makes you upset."
 	gain_text = span_notice("You only wish to taste burnt bean water.")
-	lose_text = span_danger("You feel only slightly less fruity than before.")
+	lose_text = span_danger("Espresso's starting to make sense again.")
+	medical_record_text = "Patient has a negative psychological reaction to \"bourgeoisie\" coffee."
 
 /datum/quirk/bougie_brewer
-	name = "Bougie Brewer"
+	name = "Brewing Bourgeoisie"
+	desc = "Instant coffee is the realm of the poor and uncaring masses. You reject it; only the finest true-brewed java will pass your lips, so help you God. Drinking special coffee drinks will give you a greater mood boost, but instant will ruin your day. And god forbid your coffee get cold..."
 
 /datum/quirk/java_junkie
 	name = "Java Junkie"
+	desc = "Smeesh, you hit the coffee a little too hard. You've got a bonafide addiction to it, and going without for too long gives you a bad headache and worse shakes."
+	medical_record_text = "Patient has a physiological dependence on coffee due to excessive past consumption."

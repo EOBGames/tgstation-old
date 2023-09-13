@@ -1087,6 +1087,10 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	default_container = /obj/item/reagent_containers/condiment/creamer
 
+/datum/reagent/consumable/creamer/vanilla
+	name = "Vanilla Coffee Creamer"
+	description = "Infuse your coffee with only the *finest vanilla flavour, produced in only the finest flavour labs."
+
 /datum/reagent/consumable/mintextract
 	name = "Mint Extract"
 	description = "Useful for dealing with undesirable customers."
@@ -1146,6 +1150,10 @@
 	color = "#efeff0"
 	taste_description = "metallic salt"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/dry_instant_coffee
+	name = "Dry Instant Coffee"
+	description = "Made by freeze-drying coffee beans. Makes for easier coffee, but the tradeoff is concentrating a lot of the undesirable flavours."
 
 /datum/reagent/consumable/instant_soup
 	name = "Instant Soup"

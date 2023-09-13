@@ -91,3 +91,22 @@
 	desc = "Increases robustness by 37 percent!"
 	icon_state = "coffee_robusta"
 	grind_results = list(/datum/reagent/toxin/coffeepowder = 0, /datum/reagent/medicine/morphine = 0)
+
+// Coffee Liberica
+/obj/item/seeds/coffee/liberica
+	name = "pack of coffee liberica seeds"
+	desc = "These seeds grow into coffee liberica bushes."
+	icon_state = "seed-coffeel"
+	species = "coffeel"
+	plantname = "Coffee Liberica Tree"
+	product = /obj/item/food/grown/coffee/liberica
+	mutatelist = null
+	reagents_add = list(/datum/reagent/medicine/ephedrine = 0.1, /datum/reagent/consumable/nutriment/vitamin = 0.04, /datum/reagent/toxin/coffeepowder = 0.1)
+	rarity = 20
+
+/obj/item/food/grown/coffee/liberica
+	seed = /obj/item/seeds/coffee/liberica
+	name = "coffee liberica beans"
+	desc = "Increases robustness by 37 percent!"
+	icon_state = "coffee_robusta"
+	grind_results = list(/datum/reagent/toxin/coffeepowder = 0, /datum/reagent/medicine/morphine = 0)

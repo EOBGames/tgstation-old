@@ -455,7 +455,7 @@
 	icon_state = "cartridge_basic"
 	var/cartridge_type = "GBA"
 	var/charges = 4
-	var/list/drink_type = list(/datum/reagent/consumable/coffee = 120)
+	var/list/drink_type = list(/datum/reagent/consumable/coffee/instant = 120)
 
 /obj/item/coffee_cartridge/examine(mob/user)
 	. = ..()
@@ -468,6 +468,7 @@
 	name = "coffeemaker cartridge - Caffè Fantasioso"
 	desc = "A fancy \"G-B-A\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon_state = "cartridge_blend"
+	drink_type = list(/datum/reagent/consumable/coffee/fresh_brew = 120)
 
 //Here's the joke before I get 50 issue reports: they're all the same, and that's intentional
 /obj/item/coffee_cartridge/fancy/Initialize(mapload)
@@ -536,17 +537,18 @@
 	name = "coffeemaker cartridge - Caffè Decaffeinato"
 	desc = "A decaf \"G-B-A\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon_state = "cartridge_decaf"
+	drink_type = list(/datum/reagent/consumable/coffee/decaf/instant = 120)
 
 /obj/item/coffee_cartridge/tea
 	name = "coffeemaker cartridge - Tè Nero"
 	desc = "A \"G-B-A\" model tea cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
-	drink_type = list(/datum/reagent/consumable/tea = 120)
+	drink_type = list(/datum/reagent/consumable/tea/instant = 120)
 	icon_state = "cartridge_tea"
 
 /obj/item/coffee_cartridge/chicory
 	name = "coffeemaker cartridge - Caffè alla Cicoria"
 	desc = "A \"G-B-A\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system. With added chicory, for an authentic Cajun experience."
-	drink_type = list(/datum/reagent/consumable/coffee/chicory = 120)
+	drink_type = list(/datum/reagent/consumable/coffee/chicory/instant = 120)
 	icon_state = "cartridge_chicory"
 
 // no you can't just squeeze the juice bag into a glass!
@@ -554,6 +556,7 @@
 	name = "coffeemaker cartridge - Botany Blend"
 	desc = "A jury-rigged \"G-B-A\" model coffee cartridge. Should work with a Modello 3 system, though it might void the warranty."
 	icon_state = "cartridge_bootleg"
+	drink_type = list(/datum/reagent/consumable/coffee/fresh_brew = 120)
 
 // cute little cartridges for the cute little system
 /obj/item/coffee_cartridge/micro
@@ -562,12 +565,13 @@
 	icon_state = "cartridge_micro_basic"
 	cartridge_type = "DS"
 	charges = 1 //single use, just like coffee pods
-	drink_type = list(/datum/reagent/consumable/coffee = 30)
+	drink_type = list(/datum/reagent/consumable/coffee/instant = 30)
 
 /obj/item/coffee_cartridge/micro/fancy
 	name = "microcoffeemaker cartridge - Caffè Fantasioso"
 	desc = "A fancy \"D-S\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
 	icon_state = "cartridge_micro_blend"
+	drink_type = list(/datum/reagent/consumable/coffee/fresh_brew = 30)
 
 /obj/item/coffee_cartridge/fancy/Initialize(mapload)
 	. = ..()
@@ -635,18 +639,18 @@
 	name = "microcoffeemaker cartridge - Caffè Decaffeinato"
 	desc = "A decaf \"D-S\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
 	icon_state = "cartridge_micro_decaf"
-	drink_type = list(/datum/reagent/consumable/coffee/decaf = 30)
+	drink_type = list(/datum/reagent/consumable/coffee/decaf/instant = 30)
 
 /obj/item/coffee_cartridge/micro/chicory
 	name = "microcoffeemaker cartridge - Caffè alla Cicoria"
 	desc = "A decaf \"D-S\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
 	icon_state = "cartridge_micro_chicory"
-	drink_type = list(/datum/reagent/consumable/coffee/chicory = 30)
+	drink_type = list(/datum/reagent/consumable/coffee/chicory/instant = 30)
 
 /obj/item/coffee_cartridge/micro/tea //featuring innovative tea paste technology for a consistent brew, every time
 	name = "microcoffeemaker cartridge - Tè Nero"
 	desc = "A \"D-S\" model tea cartridge manufactured by Piccionaia Coffee, for use with the Piccolo 5 system."
-	drink_type = list(/datum/reagent/consumable/tea = 30)
+	drink_type = list(/datum/reagent/consumable/tea/instant = 30)
 	icon_state = "cartridge_micro_tea"
 
 /obj/item/coffee_cartridge/micro/latte

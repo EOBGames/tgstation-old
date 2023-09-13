@@ -38,10 +38,16 @@
 	taste_description = "bitterness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	glass_price = DRINK_PRICE_STOCK
+	quality = DRINK_NICE // a little reward for using the better methods of making coffee
+
+/datum/reagent/consumable/coffee/instant
+	name = "Instant Coffee"
+	description = "Look upon it and weep, for it is the bitter opium of the corporate masses."
 
 /datum/reagent/consumable/coffee/cold_brew
 	name = "Cold-Brewed Coffee"
 	description = "While on the surface cold brew may seem like just another method of making coffee, in actual fact it's very distinct- extracting less harsh flavours than traditional methods, it creates a mellow, smooth drink that's very easy-going."
+	quality = DRINK_NICE
 
 /datum/reagent/consumable/coffee/espresso
 	name = "Espresso"
@@ -59,7 +65,7 @@
 	name = "Lungo"
 	description = "A longer espresso variety pulled with double the usual water quantity, a lungo results in a vastly different coffee experience to a typical espresso due to the higher extraction."
 
-// Espresso Drinks
+// ESPRESSO DRINKS
 /datum/reagent/consumable/coffee/espresso_con_panna
 	name = "Espresso Con Panna"
 	description = "An espresso with a kiss of whipped cream floated on top. Helps to temper the bitterness and add some volume."
@@ -68,6 +74,11 @@
 	name = "Espresso Macchiato"
 	description = "Meaning marked in Italian, a macchiato is an espresso 'marked' with a dash of steamed milk."
 
+/datum/reagent/consumable/coffee/espresso_romano
+	name = "Espresso Romano"
+	description = "When in Rome, do as the Romans do- add some lemon to your espresso."
+
+// LONG DRINKS
 /datum/reagent/consumable/coffee/americano
 	name = "Americano"
 	description = "Made by diluting espresso with hot water, the americano was born in the wake of the Second World War in Italy, to cater to the taste (or lack thereof) of the occupying Americans."
@@ -84,6 +95,14 @@
 	name = "Dead Eye Coffee"
 	description = "For when neither filter coffee nor espresso is quite enough solo, the Red Eye combines them. Stay up in style."
 
+/datum/reagent/consumable/coffee/cafe_au_lait
+	name = "Cafe au Lait"
+
+// FLAVOURED CAFE AU LAIT
+/datum/reagent/consumable/coffee/maple_white
+	name = "Maple White"
+	description = "Jim Norton's signature drink, as invented by Jim himself. Combines cafe au lait with maple syrup and french vanilla for a true taste of the frozen north."
+
 /datum/reagent/consumable/coffee/cappuccino
 	name = "Cappuccino"
 	description = "An old Viennese coffee drink, the cappuccino has since went on to become a popular breakfast drink worldwide."
@@ -92,50 +111,69 @@
 	name = "Caffe Latte"
 	description = "A milky coffee beverage that straddles the line of even being classifiable as a coffee-based drink. Still tasty, though."
 
-/datum/reagent/consumable/coffee/mesta
-	name = "Mesta"
-	description = "A mix of coffee and sulat that's gained popularity in recent years. Combines the bitterness and depth of coffee with the acidic brightness of sulat."
+// FLAVOURED LATTES
+// BASIC
+/datum/reagent/consumable/coffee/caffe_latte/almond
+	name = "Almond Latte"
 
-/datum/reagent/consumable/sulat
-	name = "Sulat"
-	description = "Tizira's answer to coffee. Closer to a tea than Terran coffee, this sharp, acidic drink is made by steeping dried sulat berries in hot water. Traditionally, sulat is never mixed with milk of any kind."
+/datum/reagent/consumable/coffee/caffe_latte/caramel
+	name = "Caramel Latte"
 
-/datum/reagent/consumable/sulatte
-	name = "Sulatte"
-	description = "A hot drink made from sulat and steamed korta milk. Considered sacrilegious amongst sulat traditionalists on Tizira, it is nonetheless popular with spacers and particularly with humans."
+/datum/reagent/consumable/coffee/caffe_latte/cinnamon
+	name = "Cinnamon Latte"
+
+/datum/reagent/consumable/coffee/caffe_latte/hazelnut
+	name = "Hazelnut Latte"
+
+/datum/reagent/consumable/coffee/caffe_latte/peppermint
+	name = "Peppermint Latte"
+
+/datum/reagent/consumable/coffee/caffe_latte/vanilla
+	name = "Vanilla Latte"
+	description = "A classic marriage of vanilla and caffe latte."
+
+// SPECIALTY
+/datum/reagent/consumable/coffee/caffe_latte/pumpkin_spice
+	name = "Pumpkin Spice Latte"
+
+/datum/reagent/consumable/coffee/caffe_latte/red_bay
+	name = "Red Bay Latte"
+	description = "A confusing coffee concoction dreamed up by Mars' craziest baristas. Uses a Red Bay-based syrup to add a taste of the red planet."
+
+/datum/reagent/consumable/coffee/mocha
+	name = "Mocha"
 
 /datum/reagent/consumable/coffee/cafe_miel
 	name = "Café Miel"
 	description = "Combining the flavours of coffee, milk, honey and cinnamon, the Café Miel is a warming drink that's easy to sip."
 
-/datum/reagent/consumable/coffee/maple_white
-	name = "Maple White"
-	description = "Jim Norton's signature drink, as invented by Jim himself. Combines white coffee with maple syrup and french vanilla for a true taste of the frozen north."
-
-/datum/reagent/consumable/coffee/espresso_romano
-	name = "Espresso Romano"
-	description = "When in Rome, do as the Romans do- add some lemon to your espresso."
-
-/datum/reagent/consumable/coffee/ca_phe_trung
-	name = "Cà Phê Trứng"
-	description = "Born of Vietnamese coffee traditions, cà phê trứng (or egg coffee) consists of strong coffee topped with a sweetened, beaten egg yolk and condensed milk foam."
-
 /datum/reagent/consumable/icecoffee/ellinikos_frape
 	name = "Ellinikós Frapé"
 	description = "In contrast to typical frappes, Greek \"frapés\" are made from instant coffee and milk shaken with ice in a shaker. This creates a unique flavour and texture that can't be found elsewhere, and that's why the Greeks love them."
 
-/datum/reagent/consumable/coffee/kafka //3:1 space cola : espresso
+// MISC COFFEES
+/datum/reagent/consumable/coffee/ca_phe_trung
+	name = "Cà Phê Trứng"
+	description = "Born of Vietnamese coffee traditions, cà phê trứng (or egg coffee) consists of strong coffee topped with a sweetened, beaten egg yolk and condensed milk foam."
+
+// MISC COFFEE COMBOS
+/datum/reagent/consumable/ethanol/cafe_tonic
+	name = "Café Tonic"
+	description = "A drink that combines the bitterness of coffee with the additional bitterness of tonic water- making a refreshing taste that's most definitely acquired."
+
+/datum/reagent/consumable/icecoffee/kafka
 	name = "Kafka"
 	description = "An odd combination of strong black espresso, and Space Cola. As weird as it sounds, the taste is unique, and not in a bad way."
 
-/datum/reagent/consumable/coffee/adrenalino //3:1 monkey energy : espresso
+/datum/reagent/consumable/icecoffee/adrenalino
 	name = "Adrenalino"
 	description = "What happens when you combine espresso and energy drink? The University of Adasta's finest frats bring you the answer via the adrenalino: made with only the finest Monkey Energy, accept no substitutes."
 
-/datum/reagent/consumable/coffee/adrenalino_ethere //3:1 24-volt energy : espresso
+/datum/reagent/consumable/coffee/adrenalino_ethere
 	name = "Adrenalino Éthéré"
 	description = "A shocking twist on the adrenalino format, this drink swaps the Monkey Energy for 24-Volt instead, making it nominally ethereal-appropriate."
 
+// LIQUEUR COFFEES
 /datum/reagent/consumable/ethanol/caffe_corretto
 	name = "Caffe Corretto"
 	description = "So how exactly do you \"correct\" coffee? Well, you add a shot of stiff liquor. The Italians are many things, but subtle is not one of them."
@@ -152,10 +190,6 @@
 	name = "Barraquito"
 	description = "A coffee cocktail endemic to Tenerife, carried further afield by Iberian settlers to the rest of the galaxy- in particular San García, where this drink enjoys almost as much popularity as it has back in the Canaries."
 
-/datum/reagent/consumable/ethanol/espresso_martini
-	name = "Espresso Martini"
-	description = "A drink all the way outta the (19)80s, destined to wake you up then fuck you up, in that order."
-
 /datum/reagent/consumable/ethanol/karsk
 	name = "Karsk"
 	description = "A Swedish/Norwegian beverage of ill-renown, although the concept's hardly unique to Scandinavia- combining coffee and moonshine, it's sure to heat you up on a cold winter's night."
@@ -168,9 +202,18 @@
 	name = "ANZAC Gunfire"
 	description = "A classic drink from the British navy, making a gunfire is as simple as adding rum to your tea. Down under, however, they prefer it with coffee."
 
-/datum/reagent/consumable/ethanol/cafe_tonic
-	name = "Café Tonic"
-	description = "A drink that combines the bitterness of coffee with the additional bitterness of tonic water- making a refreshing taste that's most definitely acquired."
+/datum/reagent/consumable/ethanol/calypso_coffee
+	name = "Calypso Coffee"
+	description = "For when coffee starts to get attached to work, the Calypso is here to save the day- with rum, kahlua and cream, it'll pull you away to the tropics- at least until you finish the mug, anyway."
+
+/datum/reagent/consumable/ethanol/alpenkaffee
+	name = "Alpenkaffee"
+	description = "A warming drink straight from the ski slopes of the Eastern Alps."
+
+// COFFEE COCKTAILS
+/datum/reagent/consumable/ethanol/espresso_martini
+	name = "Espresso Martini"
+	description = "A drink all the way outta the (19)80s, destined to wake you up then fuck you up, in that order."
 
 /datum/reagent/consumable/ethanol/dead_by_dawn
 	name = "Dead by Dawn"
@@ -183,10 +226,6 @@
 /datum/reagent/consumable/ethanol/hotshot
 	name = "Hotshot"
 	description = "Combining coffee, cream, and vanilla liqueur, this Scandi-shot is a tasty way to get your daily recommended dose of caffeine and alcohol."
-
-/datum/reagent/consumable/ethanol/calypso_coffee
-	name = "Calypso Coffee"
-	description = "For when coffee starts to get attached to work, the Calypso is here to save the day- with rum, kahlua and cream, it'll pull you away to the tropics- at least until you finish the mug, anyway."
 
 /datum/reagent/consumable/ethanol/cool_edge
 	name = "Cool Edge"
@@ -220,7 +259,7 @@
 
 /datum/reagent/consumable/tea/astra
 	name = "Tea Astra"
-	description = "A medicinal tea originally found on Idyllus. Well known for its blue colour, salty flavour, and invigorating medicinal effect."
+	description = "A medicinal tea, well known for its blue colour, salty flavour, and invigorating medicinal effect."
 
 /datum/reagent/consumable/tea/windgrass
 	name = "Windgrass Tea"
@@ -245,3 +284,21 @@
 /datum/reagent/consumable/ethanol/jagertee
 	name = "Jagertee"
 	description = "An Austrian tea-based punch, made with the nation's signature inländer rum. Popular as an après-ski."
+
+// ALIEN BASE DRINKS
+/datum/reagent/consumable/sulat
+	name = "Sulat"
+	description = "Tizira's answer to coffee. Closer to a tea than Terran coffee, this sharp, acidic drink is made by steeping dried sulat berries in hot water. Traditionally, sulat is never mixed with milk of any kind."
+
+/datum/reagent/consumable/coffee/mesta
+	name = "Mesta"
+	description = "A mix of coffee and sulat that's gained popularity in recent years. Combines the bitterness and depth of coffee with the acidic brightness of sulat."
+
+// SULATTE
+/datum/reagent/consumable/sulat/sulatte
+	name = "Sulatte"
+	description = "A hot drink made from sulat and steamed korta milk. Considered sacrilegious amongst sulat traditionalists on Tizira, it is nonetheless popular with spacers and particularly with humans."
+
+/datum/reagent/consumable/sulat/siokolat
+	name = "Siokolat"
+	description = "Similar to the Earth mocha, the siokolat is a Tiziran drink that makes use of dark chocolate to accentuate the stonefruit flavours of the sulat."
