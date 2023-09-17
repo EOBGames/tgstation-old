@@ -45,3 +45,17 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/mothic, 32)
 	icon_state = "flag_mars"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/mars, 32)
+
+/obj/structure/sign/flag/romanticist
+	name = "flag of the Romanticist Movement"
+	desc = "The flag of Mars. Originally a revolutionary flag during the Martian Rebellions, it has since been adopted as the official flag of the planet, as a reminder of how Mars fought for representation and democracy."
+	icon_state = "flag_romanticist"
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/romanticist, 32)
+
+/obj/structure/sign/flag/solars
+	name = "flag of the Solars"
+	desc = "The flag of the legendary Solars. One of the Spinward Sector's premiere piracy groups, led by the elusive Red Sun."
+	icon_state = "flag_solars"
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/solars, 32)

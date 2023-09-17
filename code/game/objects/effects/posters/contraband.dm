@@ -664,31 +664,20 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/neon_greed, 32
 	desc = "A poster promoting the Romanticist movement- dedicated to ending corporate influence in China and a reunification of the country."
 	icon_state = "neon_greed"
 
-/obj/structure/sign/poster/contraband/neon_greed/examine_more(mob/user)
+/obj/structure/sign/poster/contraband/romanticists/examine_more(mob/user)
 	. = ..()
 	. += span_notice("<i>You browse some of the poster's information...</i>")
-	. += "\t[span_info("One woman. One laser sword. One mission: reclaim Adasta City from the scum that's taken it.")]"
-	. += "\t[span_info("Revenge is a dish best served at 3500 Kelvin.")]"
-	. += "\t[span_info("Fiona Jameson is Cassidy Miller in: NEON GREED. A Mark S. Redd production. A Petrov Markovnikov film. Screenplay by Harris Wilson. Music by Electrohand. Produced by Mark S. Redd. Directed by Petrov Markovnikov.")]"
-	. += "\t[span_info("Five Stars, I have never seen such an action-packed experience- The Adasta Inquirer")]"
-	. += "\t[span_info("Rated R for Restricted. A Roseus Galactus Picture.")]"
+	. += "\t[span_info("SONS AND DAUGHTERS OF THE MIDDLE KINGDOM: UNITE!!")]"
+	. += "\t[span_info("For too long has Zhōngguó been divided amongst corporate influence: the time has come to end their dominance!")]"
+	. += "\t[span_info("We call upon all like-minded individuals to put aside our differences and take up arms against the real enemy!")]"
+	. += "\t[span_info("For Zhōngguó, long divided, must unite!")]"
 	return .
 
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/neon_greed, 32)
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/romanticists, 32)
 
 /obj/structure/sign/poster/contraband/ebisu_rice_beer
-	name = "Movie Poster: Neon Greed"
+	name = "Ebisu Rice Beer: A Beer for Every Occasion"
 	desc = "A movie poster for the cult classic (25)80s space-ploitation flick, Neon Greed."
-	icon_state = "neon_greed"
+	icon_state = "ebisu_rice_beer"
 
-/obj/structure/sign/poster/contraband/neon_greed/examine_more(mob/user)
-	. = ..()
-	. += span_notice("<i>You browse some of the poster's information...</i>")
-	. += "\t[span_info("One woman. One laser sword. One mission: reclaim Adasta City from the scum that's taken it.")]"
-	. += "\t[span_info("Revenge is a dish best served at 3500 Kelvin.")]"
-	. += "\t[span_info("Fiona Jameson is Cassidy Miller in: NEON GREED. A Mark S. Redd production. A Petrov Markovnikov film. Screenplay by Harris Wilson. Music by Electrohand. Produced by Mark S. Redd. Directed by Petrov Markovnikov.")]"
-	. += "\t[span_info("Five Stars, I have never seen such an action-packed experience- The Adasta Inquirer")]"
-	. += "\t[span_info("Rated R for Restricted. A Roseus Galactus Picture.")]"
-	return .
-
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/neon_greed, 32)
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/ebisu_rice_beer, 32)
