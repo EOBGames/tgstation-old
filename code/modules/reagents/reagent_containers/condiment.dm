@@ -369,6 +369,20 @@
 	list_reagents = list(/datum/reagent/consumable/grounding_solution = 50)
 	fill_icon_thresholds = null
 
+/obj/item/reagent_containers/condiment/dry_instant_coffee
+	name = "tin of dried instant coffee"
+	desc = "A tin of dried instant coffee, Matterhorn Robust brand. Tastes about as good as you could expect."
+	icon_state = "dry_instant_coffee"
+	list_reagents = list(/datum/reagent/consumable/dry_instant_coffee = 50)
+	fill_icon_thresholds = null
+
+/obj/item/reagent_containers/condiment/big_creamer
+	name = "tin of coffee creamer"
+	desc = "A tin of Nice n' Creamy coffee creamer. For when you want your coffee to be white, but milk is too great an expense."
+	icon_state = "creamer"
+	list_reagents = list(/datum/reagent/consumable/creamer = 50)
+	fill_icon_thresholds = null
+
 //technically condiment packs but they are non transparent
 
 /obj/item/reagent_containers/condiment/creamer
