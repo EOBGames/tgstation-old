@@ -12,6 +12,13 @@
 	name = "\improper Lower Science Division"
 	icon_state = "lower_science"
 
+/area/station/science/upper
+	name = "\improper Upper Science Division"
+	icon_state = "lower_science"
+
+/area/station/science/stairwell
+	name = "\improper Science Division Stairwell"
+
 /area/station/science/breakroom
 	name = "\improper Science Break Room"
 	icon_state = "science_breakroom"

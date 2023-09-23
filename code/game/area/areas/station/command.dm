@@ -72,6 +72,10 @@
 	name = "\improper Quartermaster's Office"
 	icon_state = "qm_office"
 
+/area/station/command/heads_quarters/dorms
+	name = "Command Dormitories"
+	icon_state = "heads_quarters"
+
 /*
 * Command - Teleporter
 */

@@ -27,6 +27,16 @@
 	name = "Medbay Aft"
 	icon_state = "med_aft"
 
+/area/station/medical/medbay/lower
+	name = "Lower Medbay"
+	icon_state = "med_aft"
+
+/area/station/medical/medbay/lower/east
+	name = "Eastern Lower Medbay"
+
+/area/station/medical/medbay/lower/west
+	name = "Western Lower Medbay"
+
 /area/station/medical/storage
 	name = "Medbay Storage"
 	icon_state = "med_storage"
@@ -42,6 +52,9 @@
 /area/station/medical/break_room
 	name = "\improper Medical Break Room"
 	icon_state = "med_break"
+
+/area/station/medical/break_room/common_room
+	name = "\improper Medical Common Room"
 
 /area/station/medical/coldroom
 	name = "\improper Medical Cold Room"
@@ -59,6 +72,9 @@
 /area/station/medical/patients_rooms/room_b
 	name = "Patient Room B"
 	icon_state = "patients"
+
+/area/station/medical/patients_rooms/recovery_ward
+	name = "\improper Recovery Ward"
 
 /area/station/medical/virology
 	name = "Virology"

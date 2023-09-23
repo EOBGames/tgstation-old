@@ -104,6 +104,9 @@
 	name = "\improper Recreation Area"
 	icon_state = "rec"
 
+/area/station/commons/fitness/recreation/rec_room
+	name = "\improper Rec Room"
+
 /area/station/commons/fitness/recreation/entertainment
 	name = "\improper Entertainment Center"
 	icon_state = "entertainment"

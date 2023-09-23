@@ -23,6 +23,10 @@
 	name = "\improper Security Locker Room"
 	icon_state = "securitylockerroom"
 
+/area/station/security/break_room
+	name = "\improper Security Break Room"
+	icon_state = "securitylockerroom"
+
 /area/station/security/brig
 	name = "\improper Brig"
 	icon_state = "brig"
