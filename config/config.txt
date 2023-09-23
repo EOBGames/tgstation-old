@@ -381,7 +381,7 @@ CLIENT_ERROR_BUILD 1421
 ## Set to 0 or comment out to disable.
 SECOND_TOPIC_LIMIT 10
 
-MINUTE_TOPIC_LIMIT 100
+MINUTE_TOPIC_LIMIT 200
 
 
 ## CLICK RATE LIMITING
@@ -584,3 +584,9 @@ TOAST_NOTIFICATION_ON_INIT
 
 ## Causes configuration errors to spit out runtimes
 CONFIG_ERRORS_RUNTIME
+
+## Restricts client uploads to the server, defined in bytes, default is 0.5MB
+UPLOAD_LIMIT 524288
+
+## Restricts admin client uploads to the server, defined in bytes, default is 5MB
+UPLOAD_LIMIT_ADMIN 5242880

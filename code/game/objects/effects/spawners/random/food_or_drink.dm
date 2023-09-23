@@ -56,6 +56,7 @@
 		/obj/item/seeds/liberty = 5,
 		/obj/item/seeds/replicapod = 5,
 		/obj/item/seeds/reishi = 5,
+		/obj/item/seeds/seedling = 5,
 		/obj/item/seeds/nettle/death = 1,
 		/obj/item/seeds/plump/walkingmushroom = 1,
 		/obj/item/seeds/cannabis/rainbow = 1,
@@ -243,7 +244,7 @@
 		/obj/item/reagent_containers/condiment/soysauce = 1,
 		/obj/item/reagent_containers/condiment/vinegar = 1,
 		/obj/item/reagent_containers/condiment/peanut_butter = 1,
-		/obj/item/reagent_containers/condiment/quality_oil = 1,
+		/obj/item/reagent_containers/condiment/olive_oil = 1,
 		/obj/item/reagent_containers/condiment/cherryjelly = 1,
 	)
 

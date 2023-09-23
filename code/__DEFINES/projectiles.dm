@@ -35,7 +35,7 @@
 /// The caliber used by the the M-90gl Carbine, and NT-ARG 'Boarder'.
 #define CALIBER_A223 "a223"
 /// The caliber used by bolt action rifles.
-#define CALIBER_A762 "a762"
+#define CALIBER_STRILKA310 ".310_strilka"
 /// The caliber used by shotguns.
 #define CALIBER_SHOTGUN "shotgun"
 /// The caliber used by grenade launchers.
@@ -59,6 +59,9 @@
 
 /// For gunpoints, how many tiles around the target the shooter can roam without losing their shot
 #define GUNPOINT_SHOOTER_STRAY_RANGE 2
+
+/// A spark will be generated for each THIS amount of damage dealt to a robotic limb by a projectile.
+#define PROJECTILE_DAMAGE_PER_ROBOTIC_SPARK 20
 
 //Designed for things that need precision trajectories like projectiles.
 //Don't use this for anything that you don't absolutely have to use this with (like projectiles!) because it isn't worth using a datum unless you need accuracy down to decimal places in pixels.

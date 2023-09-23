@@ -123,6 +123,7 @@
 #include "dcs_check_list_arguments.dm"
 #include "dcs_get_id_from_elements.dm"
 #include "designs.dm"
+#include "dismemberment.dm"
 #include "door_access.dm"
 #include "dragon_expiration.dm"
 #include "drink_icons.dm"
@@ -175,6 +176,7 @@
 #include "missing_icons.dm"
 #include "mob_faction.dm"
 #include "mob_spawn.dm"
+#include "modify_fantasy_variable.dm"
 #include "modsuit.dm"
 #include "modular_map_loader.dm"
 #include "monkey_business.dm"
@@ -258,6 +260,7 @@
 #include "unit_test.dm"
 #include "verify_config_tags.dm"
 #include "verify_emoji_names.dm"
+#include "weird_food.dm"
 #include "wizard_loadout.dm"
 #include "worn_icons.dm"
 // END_INCLUDE
