@@ -54,6 +54,9 @@
 	name = "\improper Mining Office"
 	icon_state = "mining"
 
+/area/station/cargo/break_room
+	name = "\improper Cargo Breakroom"
+
 /*
 * Departmental Mailrooms
 */
