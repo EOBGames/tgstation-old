@@ -677,7 +677,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/romanticists, 
 
 /obj/structure/sign/poster/contraband/ebisu_rice_beer
 	name = "Ebisu Rice Beer: A Beer for Every Occasion"
-	desc = "A movie poster for the cult classic (25)80s space-ploitation flick, Neon Greed."
+	desc = "A poster for Mars' favourite rice beer brand. Ebisu Super Dry: A Beer for Every Occasion."
 	icon_state = "ebisu_rice_beer"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/ebisu_rice_beer, 32)
