@@ -140,6 +140,10 @@
 	name = "Red Bay Latte"
 	description = "A confusing coffee concoction dreamed up by Mars' craziest baristas. Uses a Red Bay-based syrup to add a taste of the red planet."
 
+/datum/reagent/consumable/coffee/caffe_latte/oliva
+	name = "Oliva Latte"
+	description = "An innovative way to get your daily dose of olive oil and coffee, all at the same time."
+
 /datum/reagent/consumable/coffee/mocha
 	name = "Mocha"
 
@@ -155,6 +159,10 @@
 /datum/reagent/consumable/coffee/ca_phe_trung
 	name = "Cà Phê Trứng"
 	description = "Born of Vietnamese coffee traditions, cà phê trứng (or egg coffee) consists of strong coffee topped with a sweetened, beaten egg yolk and condensed milk foam."
+
+// TEA/COFFEE COMBOS
+/datum/reagent/consumable/coffee/caffe_latte/dirty_chai
+	name = "Dirty Chai Latte"
 
 // MISC COFFEE COMBOS
 /datum/reagent/consumable/ethanol/cafe_tonic
@@ -257,6 +265,9 @@
 	name = "Matcha Tea"
 	description = "It's green, it's herbal, it's matcha!"
 
+/datum/reagent/consumable/tea/south_china_milk_tea
+	name = "South China Milk Tea"
+
 /datum/reagent/consumable/tea/astra
 	name = "Tea Astra"
 	description = "A medicinal tea, well known for its blue colour, salty flavour, and invigorating medicinal effect."
@@ -302,3 +313,6 @@
 /datum/reagent/consumable/sulat/siokolat
 	name = "Siokolat"
 	description = "Similar to the Earth mocha, the siokolat is a Tiziran drink that makes use of dark chocolate to accentuate the stonefruit flavours of the sulat."
+
+/datum/reagent/consumable/iced_sulat
+	name = "Iced Sulat"

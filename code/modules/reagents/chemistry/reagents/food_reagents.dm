@@ -1173,3 +1173,6 @@
 /datum/reagent/consumable/mulling_spices
 	name = "Mulling Spices"
 	description = "A mixture of various wintery spices which can transform any drink instantly into a Christmas classic."
+
+/datum/reagent/consumable/tapioca_pearls
+	name = "Tapioca Pearls"
