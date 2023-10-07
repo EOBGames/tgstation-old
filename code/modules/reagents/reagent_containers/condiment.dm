@@ -505,17 +505,12 @@
 	originalname = "hotsauce"
 	list_reagents = list(/datum/reagent/consumable/capsaicin = 10)
 
-/obj/item/reagent_containers/condiment/pack/astrotame
-	name = "astrotame pack"
-	originalname = "astrotame"
-	volume = 5
-	list_reagents = list(/datum/reagent/consumable/astrotame = 5)
-
 /obj/item/reagent_containers/condiment/pack/bbqsauce
 	name = "bbq sauce pack"
 	originalname = "bbq sauce"
 	list_reagents = list(/datum/reagent/consumable/bbqsauce = 10)
 
+// Coffee Time
 /obj/item/reagent_containers/condiment/pack/creamer
 	name = "creamer pack"
 	originalname = "creamer"
@@ -527,3 +522,41 @@
 	originalname = "sugar"
 	volume = 5
 	list_reagents = list(/datum/reagent/consumable/sugar = 5)
+
+/obj/item/reagent_containers/condiment/pack/astrotame
+	name = "astrotame pack"
+	originalname = "astrotame"
+	volume = 5
+	list_reagents = list(/datum/reagent/consumable/astrotame = 5)
+
+/obj/item/reagent_containers/condiment/pack/instant_coffee
+	name = "instant coffee pack"
+	originalname = "instant coffee"
+	volume = 5
+	list_reagents = list(/datum/reagent/consumable/dry_instant_coffee = 5)
+
+/obj/item/reagent_containers/condiment/pack/tea
+	name = "dried black tea pack"
+	originalname = "dried black tea"
+	volume = 5
+	list_reagents = list(/datum/reagent/toxin/teapowder = 5)
+
+/obj/item/reagent_containers/condiment/pack/tea/green
+	name = "dried green tea pack"
+	originalname = "dried green tea"
+	list_reagents = list(/datum/reagent/toxin/teapowder/green = 5)
+
+/obj/item/reagent_containers/condiment/pack/tea/astra
+	name = "dried astra tea pack"
+	originalname = "dried astra tea"
+	list_reagents = list(/datum/reagent/toxin/teapowder/astra = 5)
+
+/obj/item/reagent_containers/condiment/pack/tea/matcha
+	name = "matcha pack"
+	originalname = "matcha"
+	list_reagents = list(/datum/reagent/consumable/matcha_powder = 5)
+
+/obj/item/reagent_containers/condiment/pack/tea/lemon
+	name = "instant lemon tea pack"
+	originalname = "instant lemon tea"
+	list_reagents = list(/datum/reagent/toxin/teapowder/lemon = 5)

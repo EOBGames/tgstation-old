@@ -181,6 +181,34 @@
 	icon_state = "mug_nt_empty"
 	base_icon_state = "mug_nt"
 
+/obj/item/reagent_containers/cup/glass/mug/souvenir
+	name = "\improper I HEART MANHATTAN mug"
+	desc = "A souvenir mug from the Manhattan TID. Show your Terran pride in a tacky, glazed ceramic fashion."
+
+/obj/item/reagent_containers/cup/glass/mug/skull
+	name = "skull-shaped mug"
+	desc = "A rad mug for your inner steppe warlord or edgy teenage goth. Maybe both at the same time, even."
+
+/obj/item/reagent_containers/cup/glass/mug/beaker
+	name = "beaker mug"
+	desc = "The perfect glassware for preparing a concentrated solution of CoFFe. Just don't mix it up with the one you use for acids."
+
+/obj/item/reagent_containers/cup/glass/mug/flashbang
+	name = "flashbang-shaped mug"
+	desc = "The perfect gift for your local rent-a-cop. Perfectly sized to balance a donut on top of, if you're so inclined."
+
+/obj/item/reagent_containers/cup/glass/mug/medical
+	name = "prescription bottle-shaped mug"
+	desc = "Contains the only medicine you'll ever need."
+
+/obj/item/reagent_containers/cup/glass/mug/hippocratic
+	name = "novelty medic mug"
+	desc = "A funny mug for the doctor in your life. One side reads: \"DO NO HARM IS A SUGGESTION!\", the other \"300CCS OF COFFEE, STAT!\"."
+
+/obj/item/reagent_containers/cup/glass/mug/captain
+	name = "\improper Galaxy's Best Captain mug"
+	desc = "A mug that proclaims that the Captain is, in fact, the GOAT. Now, did someone buy this for the captain, or did they buy it for themselves?"
+
 /obj/item/reagent_containers/cup/glass/coffee_cup
 	name = "coffee cup"
 	desc = "A heat-formed plastic coffee cup. Can theoretically be used for other hot drinks, if you're feeling adventurous."

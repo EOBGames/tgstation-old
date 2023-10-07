@@ -727,6 +727,11 @@
 	atom_storage.max_slots = 4
 	atom_storage.set_holdable(list(/obj/item/coffee_cartridge))
 
+/obj/machinery/coffeemaker/tea_brewer
+	name = "\improper Infuso 6 tea brewer"
+	desc = "A Infuso 6 tea brewer that makes delicious infusions from loose leaf tea. Has a range of presets to ensure that every tea, tisane or blend tastes its best."
+
+
 /*
  * impressa coffee maker
  * its supposed to be a premium line product, so its cargo-only, the board cant be therefore researched

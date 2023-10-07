@@ -135,6 +135,7 @@
 // SPECIALTY
 /datum/reagent/consumable/coffee/caffe_latte/pumpkin_spice
 	name = "Pumpkin Spice Latte"
+	description = "Tastes a lot like fall. And pumpkin too, I guess."
 
 /datum/reagent/consumable/coffee/caffe_latte/red_bay
 	name = "Red Bay Latte"
@@ -218,6 +219,10 @@
 	name = "Alpenkaffee"
 	description = "A warming drink straight from the ski slopes of the Eastern Alps."
 
+/datum/reagent/consumable/ethanol/bombenschuetze
+	name = "Bombenschütze"
+	description = "A variation on the Italian Bombardino cocktail, made using Austrian inländer rum. After a few, you'll be shooting about as well as an Austrian artillerist."
+
 // COFFEE COCKTAILS
 /datum/reagent/consumable/ethanol/espresso_martini
 	name = "Espresso Martini"
@@ -240,8 +245,9 @@
 	description = "A sulat-based drink from the breezy shores of Tizira's Minosk, named for the cool edge it imparts on a hot summer day by the beach."
 
 // Tea
+// BASE TEAS
 /datum/reagent/consumable/tea
-	name = "Tea"
+	name = "Black Tea"
 	description = "Tasty black tea, it has antioxidants, it's good for you!"
 	color = "#101000" // rgb: 16, 16, 0
 	nutriment_factor = 0
@@ -261,13 +267,50 @@
 	..()
 	. = TRUE
 
+/datum/reagent/consumable/tea/green
+	name = "Green Tea"
+
+/datum/reagent/consumable/tea/oolong
+	name = "Oolong Tea"
+
+/datum/reagent/consumable/tea/white
+	name = "White Tea"
+
 /datum/reagent/consumable/tea/matcha
 	name = "Matcha Tea"
 	description = "It's green, it's herbal, it's matcha!"
 
-/datum/reagent/consumable/tea/south_china_milk_tea
-	name = "South China Milk Tea"
+// FLAVOURED TEAS, TISANES AND TEA BLENDS
+/datum/reagent/consumable/tea/earl_grey
+	name = "Earl Grey Tea"
 
+/datum/reagent/consumable/tea/jasmine
+	name = "Jasmine Tea"
+
+/datum/reagent/consumable/tea/camomile
+	name = "Camomile Tea"
+
+/datum/reagent/consumable/tea/rooibos
+	name = "Rooibos"
+	description = "A tisane hailing from South Africa, made from the leaves of bushes that grow predominantly around the region."
+
+/datum/reagent/consumable/tea/mate
+	name = "Maté"
+	description = "A bitter tisane produced from yerba-maté. Popular amongst the Latinoamericano regions of Earth, this classic drink has made its way to the stars alongside spacers and colonists from these areas."
+
+/datum/reagent/consumable/tea/hibiscus
+	name = "Hibiscus Tea"
+
+/datum/reagent/consumable/tea/mint
+	name = "Mint Tea"
+
+/datum/reagent/consumable/tea/ginger
+	name = "Ginger Tea"
+
+/datum/reagent/consumable/tea/weed
+	name = "Cannabis Tea"
+
+// EXOTIC TEAS
 /datum/reagent/consumable/tea/astra
 	name = "Tea Astra"
 	description = "A medicinal tea, well known for its blue colour, salty flavour, and invigorating medicinal effect."
@@ -275,6 +318,25 @@
 /datum/reagent/consumable/tea/windgrass
 	name = "Windgrass Tea"
 	description = "A popular herb amongst the moths, windgrass has a strong herbal flavour and mellowing effects."
+
+//MIXED TEA BEVERAGES
+/datum/reagent/consumable/tea/south_china_milk_tea
+	name = "South China Milk Tea"
+
+/datum/reagent/consumable/tea/masala_chai
+	name = "Masala Chai"
+	description = "Also known as \"Chai Tea\" in the west, this Indian creation blends tea, milk, and spices into a single warming concoction."
+
+/datum/reagent/consumable/tea/noon_chai
+	name = "Noon Chai"
+	description = "A traditional tea drink from Kashmir, Noon Chai uses green tea cooked with milk, salt and baking soda, turning the tea pink."
+
+/datum/reagent/consumable/tea/bho_jha
+	name = "Bho Jha"
+	description = "Also known as Butter Tea, this Tibetan tea drink forms a traditional part of an average Tibetan day."
+
+/datum/reagent/consumable/tea/moroccan_mint
+	name = "Moroccan Mint Tea"
 
 /datum/reagent/consumable/tea/matcha_latte
 	name = "Matcha Latte"
@@ -286,7 +348,7 @@
 
 /datum/reagent/consumable/tea/london_fog
 	name = "London Fog"
-	description = "A tea latte made with Earl Grey and vanilla. Typical to Canadian coffeeshops, it's perhaps no wonder that Jim Norton's does it."
+	description = "A tea latte made with black tea and vanilla. Typical to Canadian coffeeshops, it's perhaps no wonder that Jim Norton's does it."
 
 /datum/reagent/consumable/ethanol/john_daly
 	name = "John Daly"
@@ -295,6 +357,14 @@
 /datum/reagent/consumable/ethanol/jagertee
 	name = "Jagertee"
 	description = "An Austrian tea-based punch, made with the nation's signature inländer rum. Popular as an après-ski."
+
+// MISC HOT DRINKS
+/datum/reagent/consumable/hot_malted_milk
+	name = "Hot Malted Milk"
+
+/datum/reagent/consumable/aztec_hot_chocolate
+	name = "Xocolatl"
+	description = "A modern take on Aztec-style hot chocolate, made with vanilla, cinnamon, and chilli."
 
 // ALIEN BASE DRINKS
 /datum/reagent/consumable/sulat
