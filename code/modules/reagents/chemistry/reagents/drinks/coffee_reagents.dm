@@ -29,7 +29,7 @@
 	..()
 	. = TRUE
 
-/datum/reagent/consumable/coffee/fresh_brew
+/datum/reagent/consumable/coffee/fresh_brew // comes from coffeemakers
 	name = "Fresh-Brewed Coffee"
 	description = "Look upon it and weep, for it is the opium of the corporate masses."
 	color = "#482000" // rgb: 72, 32, 0
@@ -40,7 +40,7 @@
 	glass_price = DRINK_PRICE_STOCK
 	quality = DRINK_NICE // a little reward for using the better methods of making coffee
 
-/datum/reagent/consumable/coffee/instant
+/datum/reagent/consumable/coffee/instant // 4u water, 1u instant coffee, > 353K, cannot be used for coffee recipes- get a real coffeemaker, bro!
 	name = "Instant Coffee"
 	description = "Look upon it and weep, for it is the bitter opium of the corporate masses."
 
@@ -66,124 +66,122 @@
 	description = "A longer espresso variety pulled with double the usual water quantity, a lungo results in a vastly different coffee experience to a typical espresso due to the higher extraction."
 
 // ESPRESSO DRINKS
-/datum/reagent/consumable/coffee/espresso_con_panna
+/datum/reagent/consumable/coffee/espresso_con_panna // 1u espresso, 1u whipped cream
 	name = "Espresso Con Panna"
 	description = "An espresso with a kiss of whipped cream floated on top. Helps to temper the bitterness and add some volume."
 
-/datum/reagent/consumable/coffee/espresso_macchiato
-	name = "Espresso Macchiato"
-	description = "Meaning marked in Italian, a macchiato is an espresso 'marked' with a dash of steamed milk."
-
-/datum/reagent/consumable/coffee/espresso_romano
+/datum/reagent/consumable/coffee/espresso_romano // 1u espresso, 1u lemon juice
 	name = "Espresso Romano"
 	description = "When in Rome, do as the Romans do- add some lemon to your espresso."
 
 // LONG DRINKS
-/datum/reagent/consumable/coffee/americano
+/datum/reagent/consumable/coffee/americano // 1u espresso, 2u water, >353K
 	name = "Americano"
 	description = "Made by diluting espresso with hot water, the americano was born in the wake of the Second World War in Italy, to cater to the taste (or lack thereof) of the occupying Americans."
 
-/datum/reagent/consumable/coffee/red_eye
+/datum/reagent/consumable/coffee/red_eye // 1u espresso, 2u fresh-brewed coffee, >353K
 	name = "Red Eye Coffee"
 	description = "For when neither filter coffee nor espresso is quite enough solo, the Red Eye combines them. Stay up in style."
 
-/datum/reagent/consumable/coffee/black_eye
+/datum/reagent/consumable/coffee/black_eye // 1u espresso, 2u red eye coffee, >353K
 	name = "Black Eye Coffee"
 	description = "For when neither filter coffee nor espresso is quite enough solo, the Red Eye combines them. Stay up in style."
 
-/datum/reagent/consumable/coffee/dead_eye
+/datum/reagent/consumable/coffee/dead_eye // 1u espresso, 2u black eye coffee, >353K
 	name = "Dead Eye Coffee"
 	description = "For when neither filter coffee nor espresso is quite enough solo, the Red Eye combines them. Stay up in style."
 
-/datum/reagent/consumable/coffee/cafe_au_lait
+/datum/reagent/consumable/coffee/cafe_au_lait // 1u espresso, 1u steamed milk
 	name = "Cafe au Lait"
+	description = "A classic European coffee, made with equal parts dark coffee (or espresso) and steamed milk. Such a basic combination can, and indeed does, serve as a base for dozens of different drinks."
 
-// FLAVOURED CAFE AU LAIT
-/datum/reagent/consumable/coffee/maple_white
+// CAFE AU LAIT-BASED DRINKS
+/datum/reagent/consumable/coffee/mocha // 2u cafe au lait, 1u hot coco
+	name = "Mocha"
+	description = "Named for the port of Mokha in Yemen, this drink is entirely unlike anything you'll find in the city itself- instead, it's an Italian invention that combines cafe au lait with hot chocolate in a satisfying way."
+
+/datum/reagent/consumable/coffee/maple_white // 3u cafe au lait, 1u maple syrup, 1u vanilla syrup
 	name = "Maple White"
 	description = "Jim Norton's signature drink, as invented by Jim himself. Combines cafe au lait with maple syrup and french vanilla for a true taste of the frozen north."
 
-/datum/reagent/consumable/coffee/cappuccino
+/datum/reagent/consumable/coffee/cafe_miel // 3u cafe au lait, 1u honey, 1u cinnamon
+	name = "Café Miel"
+	description = "Combining the flavours of coffee, milk, honey and cinnamon, the café miel is a warming drink that's easy to sip."
+
+/datum/reagent/consumable/coffee/cappuccino // 2u cafe au lait, 1u frothed milk
 	name = "Cappuccino"
 	description = "An old Viennese coffee drink, the cappuccino has since went on to become a popular breakfast drink worldwide."
 
-/datum/reagent/consumable/coffee/caffe_latte
+/datum/reagent/consumable/coffee/caffe_latte // 2u cafe au lait, 1u steamed milk
 	name = "Caffe Latte"
-	description = "A milky coffee beverage that straddles the line of even being classifiable as a coffee-based drink. Still tasty, though."
+	description = "A milky coffee beverage that goes great with flavoured syrups."
 
 // FLAVOURED LATTES
 // BASIC
-/datum/reagent/consumable/coffee/caffe_latte/almond
+/datum/reagent/consumable/coffee/caffe_latte/almond // 4u caffe latte, 1u almond syrup
 	name = "Almond Latte"
 
-/datum/reagent/consumable/coffee/caffe_latte/caramel
+/datum/reagent/consumable/coffee/caffe_latte/caramel // 4u caffe latte, 1u caramel syrup
 	name = "Caramel Latte"
 
-/datum/reagent/consumable/coffee/caffe_latte/cinnamon
+/datum/reagent/consumable/coffee/caffe_latte/cinnamon // 4u caffe latte, 1u cinnamon dolce syrup
 	name = "Cinnamon Latte"
 
-/datum/reagent/consumable/coffee/caffe_latte/hazelnut
+/datum/reagent/consumable/coffee/caffe_latte/hazelnut // 4u caffe latte, 1u hazelnut syrup
 	name = "Hazelnut Latte"
 
-/datum/reagent/consumable/coffee/caffe_latte/peppermint
+/datum/reagent/consumable/coffee/caffe_latte/peppermint // 4u caffe latte, 1u mint syrup
 	name = "Peppermint Latte"
 
-/datum/reagent/consumable/coffee/caffe_latte/vanilla
+/datum/reagent/consumable/coffee/caffe_latte/vanilla // 4u caffe latte, 1u vanilla syrup
 	name = "Vanilla Latte"
 	description = "A classic marriage of vanilla and caffe latte."
 
 // SPECIALTY
-/datum/reagent/consumable/coffee/caffe_latte/pumpkin_spice
+/datum/reagent/consumable/coffee/caffe_latte/pumpkin_spice // 4u caffe latte, 1u pumpkin spice syrup
 	name = "Pumpkin Spice Latte"
 	description = "Tastes a lot like fall. And pumpkin too, I guess."
 
-/datum/reagent/consumable/coffee/caffe_latte/red_bay
+/datum/reagent/consumable/coffee/caffe_latte/red_bay // 4u caffe latte, 1u red bay syrup
 	name = "Red Bay Latte"
 	description = "A confusing coffee concoction dreamed up by Mars' craziest baristas. Uses a Red Bay-based syrup to add a taste of the red planet."
 
-/datum/reagent/consumable/coffee/caffe_latte/oliva
+/datum/reagent/consumable/coffee/caffe_latte/oliva // 4u caffe latte, 1u olive oil
 	name = "Oliva Latte"
 	description = "An innovative way to get your daily dose of olive oil and coffee, all at the same time."
-
-/datum/reagent/consumable/coffee/mocha
-	name = "Mocha"
-
-/datum/reagent/consumable/coffee/cafe_miel
-	name = "Café Miel"
-	description = "Combining the flavours of coffee, milk, honey and cinnamon, the Café Miel is a warming drink that's easy to sip."
 
 /datum/reagent/consumable/icecoffee/ellinikos_frape
 	name = "Ellinikós Frapé"
 	description = "In contrast to typical frappes, Greek \"frapés\" are made from instant coffee and milk shaken with ice in a shaker. This creates a unique flavour and texture that can't be found elsewhere, and that's why the Greeks love them."
 
 // MISC COFFEES
-/datum/reagent/consumable/coffee/ca_phe_trung
+/datum/reagent/consumable/coffee/ca_phe_trung // 2u espresso, 1u egg yolk, 1u condensed milk
 	name = "Cà Phê Trứng"
 	description = "Born of Vietnamese coffee traditions, cà phê trứng (or egg coffee) consists of strong coffee topped with a sweetened, beaten egg yolk and condensed milk foam."
 
 // TEA/COFFEE COMBOS
-/datum/reagent/consumable/coffee/caffe_latte/dirty_chai
+/datum/reagent/consumable/coffee/caffe_latte/dirty_chai //3u chai tea, 2u espresso
 	name = "Dirty Chai Latte"
 
 // MISC COFFEE COMBOS
-/datum/reagent/consumable/ethanol/cafe_tonic
+/datum/reagent/consumable/ethanol/cafe_tonic // 1u espresso, 3u tonic water, 1u sugar
 	name = "Café Tonic"
 	description = "A drink that combines the bitterness of coffee with the additional bitterness of tonic water- making a refreshing taste that's most definitely acquired."
 
-/datum/reagent/consumable/icecoffee/kafka
+/datum/reagent/consumable/icecoffee/kafka // 1u espresso, 2u space cola
 	name = "Kafka"
 	description = "An odd combination of strong black espresso, and Space Cola. As weird as it sounds, the taste is unique, and not in a bad way."
 
-/datum/reagent/consumable/icecoffee/adrenalino
+/datum/reagent/consumable/icecoffee/adrenalino // 1u espresso, 2u monkey energy
 	name = "Adrenalino"
 	description = "What happens when you combine espresso and energy drink? The University of Adasta's finest frats bring you the answer via the adrenalino: made with only the finest Monkey Energy, accept no substitutes."
 
-/datum/reagent/consumable/coffee/adrenalino_ethere
+/datum/reagent/consumable/coffee/adrenalino_ethere // 1u espresso, 2u 24-volt energy
 	name = "Adrenalino Éthéré"
 	description = "A shocking twist on the adrenalino format, this drink swaps the Monkey Energy for 24-Volt instead, making it nominally ethereal-appropriate."
 
 // LIQUEUR COFFEES
-/datum/reagent/consumable/ethanol/caffe_corretto
+/datum/reagent/consumable/ethanol/caffe_corretto // 2u espresso, 1u grappa
 	name = "Caffe Corretto"
 	description = "So how exactly do you \"correct\" coffee? Well, you add a shot of stiff liquor. The Italians are many things, but subtle is not one of them."
 
@@ -207,7 +205,7 @@
 	name = "Rüdesheimer Kaffee"
 	description = "Originating in the German town of Rüdesheim am Rhein, this alcoholic coffee drink warms the body and the soul."
 
-/datum/reagent/consumable/ethanol/anzac_gunfire
+/datum/reagent/consumable/ethanol/anzac_gunfire // 4u fresh-brewed coffee, 1u navy rum
 	name = "ANZAC Gunfire"
 	description = "A classic drink from the British navy, making a gunfire is as simple as adding rum to your tea. Down under, however, they prefer it with coffee."
 
@@ -276,19 +274,22 @@
 /datum/reagent/consumable/tea/white
 	name = "White Tea"
 
-/datum/reagent/consumable/tea/matcha
+/datum/reagent/consumable/tea/matcha // 4u water, 1u matcha powder
 	name = "Matcha Tea"
 	description = "It's green, it's herbal, it's matcha!"
 
 // FLAVOURED TEAS, TISANES AND TEA BLENDS
 /datum/reagent/consumable/tea/earl_grey
 	name = "Earl Grey Tea"
+	description = "A classic British tea infusion made by adding bergamot to Indian black tea. Has a distinct citric kick to distinguish itself from other, more basic teas."
 
 /datum/reagent/consumable/tea/jasmine
 	name = "Jasmine Tea"
+	description = "A popular Chinese tea infusion, with the addition of jasmine flowers to green tea giving it a subtle aroma and character."
 
-/datum/reagent/consumable/tea/camomile
-	name = "Camomile Tea"
+/datum/reagent/consumable/tea/chamomile
+	name = "Chamomile Tea"
+	description = "A calming tisane made from chamomile. Makes you feel kinda sleepy."
 
 /datum/reagent/consumable/tea/rooibos
 	name = "Rooibos"
@@ -300,6 +301,9 @@
 
 /datum/reagent/consumable/tea/hibiscus
 	name = "Hibiscus Tea"
+
+/datum/reagent/consumable/tea/rose
+	name = "Rose Tea"
 
 /datum/reagent/consumable/tea/mint
 	name = "Mint Tea"
@@ -315,10 +319,6 @@
 	name = "Tea Astra"
 	description = "A medicinal tea, well known for its blue colour, salty flavour, and invigorating medicinal effect."
 
-/datum/reagent/consumable/tea/windgrass
-	name = "Windgrass Tea"
-	description = "A popular herb amongst the moths, windgrass has a strong herbal flavour and mellowing effects."
-
 //MIXED TEA BEVERAGES
 /datum/reagent/consumable/tea/south_china_milk_tea
 	name = "South China Milk Tea"
@@ -327,36 +327,37 @@
 	name = "Masala Chai"
 	description = "Also known as \"Chai Tea\" in the west, this Indian creation blends tea, milk, and spices into a single warming concoction."
 
-/datum/reagent/consumable/tea/noon_chai
+/datum/reagent/consumable/tea/noon_chai // 3u green tea, 3u milk, 1u salt, 1u sodium hydroxide
 	name = "Noon Chai"
 	description = "A traditional tea drink from Kashmir, Noon Chai uses green tea cooked with milk, salt and baking soda, turning the tea pink."
 
-/datum/reagent/consumable/tea/bho_jha
-	name = "Bho Jha"
-	description = "Also known as Butter Tea, this Tibetan tea drink forms a traditional part of an average Tibetan day."
+/datum/reagent/consumable/tea/maghrebi_mint // 3u green tea, 1u sugar, 1u menthol
+	name = "Maghrebi Mint Tea"
+	description = "Popular in Morocco and the wider Maghreb, this refreshing drink is made from green tea, spearmint, and sugar, as well as a wide range of optional extras."
 
-/datum/reagent/consumable/tea/moroccan_mint
-	name = "Moroccan Mint Tea"
+/datum/reagent/consumable/tea/chai_latte // 2u chai tea, 2u steamed milk, 1u sugar
+	name = "Chai Latte"
+	description = "A tea drink inspired by Indian chai, and yet thoroughly unheard of in India itself."
 
-/datum/reagent/consumable/tea/matcha_latte
+/datum/reagent/consumable/tea/matcha_latte // 2u matcha tea, 2u steamed milk, 1u sugar
 	name = "Matcha Latte"
-	description = "Made with matcha tea and hot milk."
+	description = "Made with matcha tea and hot milk. Trendy, yet (kinda) traditional."
 
-/datum/reagent/consumable/tea/teh_talua
+/datum/reagent/consumable/tea/teh_talua // 5u black tea, 1u egg yolk, 1u lime juice, 3u condensed milk
 	name = "Teh Talua"
 	description = "An Indonesian tea drink that combines tea, egg yolk, lime and condensed milk."
 
-/datum/reagent/consumable/tea/london_fog
+/datum/reagent/consumable/tea/london_fog // 3u earl grey tea, 3u steamed milk, 2u vanilla syrup, 2u sugar
 	name = "London Fog"
-	description = "A tea latte made with black tea and vanilla. Typical to Canadian coffeeshops, it's perhaps no wonder that Jim Norton's does it."
+	description = "A tea latte made with earl grey tea and vanilla. Typical to Canadian coffeeshops, it's perhaps no wonder that Jim Norton's does it."
 
-/datum/reagent/consumable/ethanol/john_daly
+/datum/reagent/consumable/ethanol/john_daly // 3u Arnold Palmer, 2u vodka
 	name = "John Daly"
 	description = "A boozier take on the Arnold Palmer. Makes you want to commit violence with a golf club."
 
-/datum/reagent/consumable/ethanol/jagertee
+/datum/reagent/consumable/ethanol/jagertee // 1u black tea, 1u spiced rum, 1u wine, 1u plum wine, 1u orange juice, 373k
 	name = "Jagertee"
-	description = "An Austrian tea-based punch, made with the nation's signature inländer rum. Popular as an après-ski."
+	description = "An Austrian tea-based hot punch, made with the nation's signature inländer rum. Popular as an après-ski."
 
 // MISC HOT DRINKS
 /datum/reagent/consumable/hot_malted_milk
@@ -374,6 +375,14 @@
 /datum/reagent/consumable/coffee/mesta
 	name = "Mesta"
 	description = "A mix of coffee and sulat that's gained popularity in recent years. Combines the bitterness and depth of coffee with the acidic brightness of sulat."
+
+/datum/reagent/consumable/tea/sharzen
+	name = "Sharzen"
+	description = "A tisane enjoyed widely in the Tiziran Empire, although the Sharzen fern is originally native to Muan- yet another thing the lizards stole from their subjects."
+
+/datum/reagent/consumable/tea/windgrass
+	name = "Windgrass Tea"
+	description = "A popular herb amongst the moths, windgrass has a strong herbal flavour and mellowing effects."
 
 // SULATTE
 /datum/reagent/consumable/sulat/sulatte

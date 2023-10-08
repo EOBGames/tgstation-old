@@ -1157,7 +1157,11 @@
 
 /datum/reagent/consumable/instant_soup
 	name = "Instant Soup"
-	description = "Instant powder soup, as dispensed by coffee machines."
+	description = "Instant powder soup, as dispensed by coffee machines. It's uh... chicken, maybe?"
+
+/datum/reagent/consumable/matcha_powder
+	name = "Matcha Powder"
+	description = "Bitter green tea powder from Japan. Forms a traditional part of the Japanese tea ceremony."
 
 /datum/reagent/consumable/cinnamon
 	name = "Cinnamon Powder"
@@ -1176,3 +1180,6 @@
 
 /datum/reagent/consumable/tapioca_pearls
 	name = "Tapioca Pearls"
+
+/datum/reagent/consumable/malt_powder
+	name = "Malt Powder"
