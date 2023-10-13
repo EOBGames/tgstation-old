@@ -209,6 +209,10 @@
 	name = "\improper Galaxy's Best Captain mug"
 	desc = "A mug that proclaims that the Captain is, in fact, the GOAT. Now, did someone buy this for the captain, or did they buy it for themselves?"
 
+/obj/item/reagent_containers/cup/glass/mug/tiziran
+	name = "\improper Tiziran sulathra"
+	desc = "A traditional Tiziran vessel for drinking hot drinks. Consists of a removable glass in an ornamented metal holder."
+
 /obj/item/reagent_containers/cup/glass/coffee_cup
 	name = "coffee cup"
 	desc = "A heat-formed plastic coffee cup. Can theoretically be used for other hot drinks, if you're feeling adventurous."
@@ -223,6 +227,43 @@
 /obj/item/reagent_containers/cup/glass/coffee_cup/update_icon_state()
 	icon_state = reagents.total_volume ? base_icon_state : "[base_icon_state]_e"
 	return ..()
+
+/obj/item/reagent_containers/cup/glass/coffee_cup/coffee
+	name = "\improper Robust coffee"
+	desc = "Careful, the beverage you're about to enjoy is extremely hot."
+	list_reagents = list(/datum/reagent/consumable/coffee/instant = 30)
+	resistance_flags = FREEZE_PROOF
+	drink_type = BREAKFAST
+
+/obj/item/reagent_containers/cup/glass/coffee_cup/tea
+	name = "\improper Duke Purple tea"
+	desc = "An insult to Duke Purple is an insult to the Space Queen! Any proper gentleman will fight you, if you sully this tea."
+	list(/datum/reagent/consumable/tea/instant = 30)
+	resistance_flags = FREEZE_PROOF
+	drink_type = BREAKFAST
+
+/obj/item/reagent_containers/cup/glass/coffee_cup/coco
+	name = "\improper Dutch hot coco"
+	desc = "Made in Space South America."
+	list_reagents = list(/datum/reagent/consumable/hot_coco = 15, /datum/reagent/consumable/sugar = 5)
+	resistance_flags = FREEZE_PROOF
+	drink_type = SUGAR
+	custom_price = PAYCHECK_CREW * 1.2
+
+/obj/item/reagent_containers/cup/glass/coffee_cup/soup
+	name = "\improper Hungee fast soup"
+	desc = "Just about filling enough to qualify as food."
+	list_reagents = list(/datum/reagent/consumable/instant_soup = 20)
+	resistance_flags = FREEZE_PROOF
+	drink_type = VEGETABLES
+	custom_price = PAYCHECK_CREW * 1.5
+
+/obj/item/reagent_containers/cup/glass/coffee_cup/mocha
+	name = "\improper Take-a-Break mocha"
+	desc = "It's chocolate, it's coffee, it's from a machine- yep, that's a mocha, alright."
+	list_reagents = list(/datum/reagent/consumable/coffee/mocha = 30)
+	resistance_flags = FREEZE_PROOF
+	drink_type = BREAKFAST | SUGAR
 
 /obj/item/reagent_containers/cup/glass/dry_ramen
 	name = "cup ramen"

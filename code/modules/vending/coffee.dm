@@ -6,9 +6,15 @@
 	icon_vend = "coffee-vend"
 	panel_type = "panel9"
 	products = list(
-		/obj/item/reagent_containers/cup/glass/coffee = 6,
-		/obj/item/reagent_containers/cup/glass/mug/tea = 6,
-		/obj/item/reagent_containers/cup/glass/mug/coco = 3,
+		/obj/item/reagent_containers/cup/glass/coffee_cup/coffee = 6,
+		/obj/item/reagent_containers/cup/glass/coffee_cup/tea = 6,
+		/obj/item/reagent_containers/cup/glass/coffee_cup/coco = 6,
+		/obj/item/reagent_containers/cup/glass/coffee_cup/soup = 6,
+	)
+	premium = list(
+		/obj/item/reagent_containers/cup/glass/coffee_cup/cappuccino = 3,
+		/obj/item/reagent_containers/cup/glass/coffee_cup/latte = 3,
+		/obj/item/reagent_containers/cup/glass/coffee_cup/mocha = 3,
 	)
 	contraband = list(
 		/obj/item/reagent_containers/cup/glass/ice = 12,

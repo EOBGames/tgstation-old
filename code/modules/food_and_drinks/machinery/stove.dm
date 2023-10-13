@@ -208,3 +208,33 @@
 
 	filled_overlay.color = mix_color_from_reagents(reagents.reagent_list + food_reagents)
 	. += filled_overlay
+
+/obj/item/reagent_containers/cup/soup_pot/sauce
+	name = "saucepot"
+	desc = "A smaller pot designed for preparing sauces, reductions, and syrups."
+	icon_state = "saucepot"
+	base_icon_state = "saucepot"
+	volume = 80
+	possible_transfer_amounts = list(20, 50, 80)
+	amount_per_transfer_from_this = 20
+	reagent_flags = REFILLABLE | DRAINABLE
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT)
+	w_class = WEIGHT_CLASS_BULKY
+	custom_price = PAYCHECK_LOWER * 2
+	fill_icon_thresholds = null
+	max_ingredients = 8
+
+/obj/item/reagent_containers/cup/soup_pot/kettle
+	name = "hot drinks kettle"
+	desc = "A large pot designed for preparing and dispensing hot beverages."
+	icon_state = "drinks_kettle"
+	base_icon_state = "drinks_kettle"
+	volume = 120
+	possible_transfer_amounts = list(20, 50, 80, 120)
+	amount_per_transfer_from_this = 20
+	reagent_flags = REFILLABLE | DRAINABLE
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 2)
+	w_class = WEIGHT_CLASS_BULKY
+	custom_price = PAYCHECK_LOWER * 5
+	fill_icon_thresholds = null
+	max_ingredients = 12

@@ -307,28 +307,31 @@
 	name = "Jim's Original Coffee-2-Go"
 	desc = "From Jim Norton's comes Coffee-2-Go, the innovative way to drink cold coffee."
 	icon_state = "coffee"
-	list_reagents = list(/datum/reagent/consumable/coffee = 30)
+	list_reagents = list(/datum/reagent/consumable/iced_coffee/cold_brew = 30)
 
 /obj/item/reagent_containers/cup/soda_cans/coffee/latte
-	name = "FlyJoe City Latte"
+	name = "FlyJoe City Roast Latte"
+	desc = "A simple, yet refined, canned latte for the discerning coffee lover. FlyJoe: from Seattle to the Stars, we've got you."
 
-/obj/item/reagent_containers/cup/soda_cans/coffee/hazelnut_latte
-	name = "FlyJoe Blonde Hazel Latte"
+/obj/item/reagent_containers/cup/soda_cans/coffee/mocha
+	name = "FlyJoe French Roast Mocha"
+	desc = "A roasty toasty chilled mocha in a can. FlyJoe: from Seattle to the Stars, we've got you."
 
-/obj/item/reagent_containers/cup/soda_cans/coffee/matcha_latte
-	name = "FlyJoe Chai Matcha Latte"
-
-/obj/item/reagent_containers/cup/soda_cans/coffee/peppermint_mocha
-	name = "FlyJoe Peppermint Mocha"
-
-/obj/item/reagent_containers/cup/soda_cans/coffee/orange_mocha
-	name = "FlyJoe Orange Mocha"
+/obj/item/reagent_containers/cup/soda_cans/coffee/cappuccino
+	name = "FlyJoe Viennese Roast Cappuccino"
+	desc = "A cappuccino that looks back to its roots. FlyJoe: from Seattle to the Stars, we've got you."
 
 /obj/item/reagent_containers/cup/soda_cans/tea
 	name = "teatotal CasualTea"
+	desc = "A can of oolong tea, best served ice cold. teatotal: refresh yourself."
 
-/obj/item/reagent_containers/cup/soda_cans/tea/chai
-	name = "Shirsher Masala Chai"
+/obj/item/reagent_containers/cup/soda_cans/iced_tea/amethyst
+	name = "eisT Energy Amethyst Sunrise"
+	desc = "A can of tropical bliss, with pink grapefruit, yuzu, and yerba mate. eisT: Precision German Engineering for your thirst."
+
+/obj/item/reagent_containers/cup/soda_cans/iced_tea/dopple
+	name = "eisT Energy Doppletee"
+	desc = "A canned iced tea blend, with green and white tea, delicately sweetened with honey. eisT: Precision German Engineering for your thirst."
 
 /obj/item/reagent_containers/cup/soda_cans/beer
 	name = "space beer"

@@ -29,24 +29,49 @@
 	..()
 	. = TRUE
 
+/datum/reagent/consumable/iced_coffee
+	name = "Iced Coffee"
+	description = "Coffee and ice, refreshing and cool."
+	color = "#102838" // rgb: 16, 40, 56
+	nutriment_factor = 0
+	overdose_threshold = 80
+	taste_description = "bitter coldness"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/iced_coffee/overdose_process(mob/living/affected_mob, seconds_per_tick, times_fired)
+	affected_mob.set_jitter_if_lower(10 SECONDS * REM * seconds_per_tick)
+	..()
+
+/datum/reagent/consumable/iced_coffee/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
+	affected_mob.adjust_dizzy(-10 SECONDS * REM * seconds_per_tick)
+	affected_mob.adjust_drowsiness(-6 SECONDS * REM * seconds_per_tick)
+	affected_mob.AdjustSleeping(-40 * REM * seconds_per_tick)
+	affected_mob.adjust_bodytemperature(-5 * REM * TEMPERATURE_DAMAGE_COEFFICIENT * seconds_per_tick, affected_mob.get_body_temp_normal())
+	affected_mob.set_jitter_if_lower(10 SECONDS * REM * seconds_per_tick)
+	..()
+	. = TRUE
+
 /datum/reagent/consumable/coffee/fresh_brew // comes from coffeemakers
 	name = "Fresh-Brewed Coffee"
 	description = "Look upon it and weep, for it is the opium of the corporate masses."
-	color = "#482000" // rgb: 72, 32, 0
-	nutriment_factor = 0
-	overdose_threshold = 80
-	taste_description = "bitterness"
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	glass_price = DRINK_PRICE_STOCK
 	quality = DRINK_NICE // a little reward for using the better methods of making coffee
+
+/datum/reagent/consumable/iced_coffee/fresh_brew
+	name = "Iced Fresh-Brewed Coffee"
+	description = "A freshly-brewed, refreshing drink for those warm summer days."
 
 /datum/reagent/consumable/coffee/instant // 4u water, 1u instant coffee, > 353K, cannot be used for coffee recipes- get a real coffeemaker, bro!
 	name = "Instant Coffee"
 	description = "Look upon it and weep, for it is the bitter opium of the corporate masses."
 
-/datum/reagent/consumable/coffee/cold_brew
+/datum/reagent/consumable/iced_coffee/instant
+	name = "Iced Instant Coffee"
+	description = "Instant coffee, served over ice. All the burnt taste, none of the heat."
+
+/datum/reagent/consumable/iced_coffee/cold_brew
 	name = "Cold-Brewed Coffee"
 	description = "While on the surface cold brew may seem like just another method of making coffee, in actual fact it's very distinct- extracting less harsh flavours than traditional methods, it creates a mellow, smooth drink that's very easy-going."
+	overdose_threshold = 60 // higher caffeine content than hot-brewed coffee
 	quality = DRINK_NICE
 
 /datum/reagent/consumable/coffee/espresso
@@ -65,6 +90,15 @@
 	name = "Lungo"
 	description = "A longer espresso variety pulled with double the usual water quantity, a lungo results in a vastly different coffee experience to a typical espresso due to the higher extraction."
 
+// SPECIALTY COFFEES
+/datum/reagent/consumable/coffee/chicory
+	name = "Chicory Coffee"
+	description = "Coffee fortified with roasted chicory root. Popular amongst the French and French-like."
+
+/datum/reagent/consumable/iced_coffee/chicory
+	name = "Iced Chicory Coffee"
+	description = "Chicory coffee, cold. Beat the Louisiana heat in Cajun style."
+
 // ESPRESSO DRINKS
 /datum/reagent/consumable/coffee/espresso_con_panna // 1u espresso, 1u whipped cream
 	name = "Espresso Con Panna"
@@ -78,6 +112,9 @@
 /datum/reagent/consumable/coffee/americano // 1u espresso, 2u water, >353K
 	name = "Americano"
 	description = "Made by diluting espresso with hot water, the americano was born in the wake of the Second World War in Italy, to cater to the taste (or lack thereof) of the occupying Americans."
+
+/datum/reagent/consumable/iced_coffee/americano
+	name = "Iced Americano"
 
 /datum/reagent/consumable/coffee/red_eye // 1u espresso, 2u fresh-brewed coffee, >353K
 	name = "Red Eye Coffee"
@@ -95,62 +132,108 @@
 	name = "Cafe au Lait"
 	description = "A classic European coffee, made with equal parts dark coffee (or espresso) and steamed milk. Such a basic combination can, and indeed does, serve as a base for dozens of different drinks."
 
+/datum/reagent/consumable/iced_coffee/cafe_au_lait
+	name = "Iced Cafe au Lait"
+
 // CAFE AU LAIT-BASED DRINKS
 /datum/reagent/consumable/coffee/mocha // 2u cafe au lait, 1u hot coco
-	name = "Mocha"
+	name = "Caffe Mocha"
 	description = "Named for the port of Mokha in Yemen, this drink is entirely unlike anything you'll find in the city itself- instead, it's an Italian invention that combines cafe au lait with hot chocolate in a satisfying way."
+
+/datum/reagent/consumable/iced_coffee/mocha
+	name = "Iced Caffe Mocha"
 
 /datum/reagent/consumable/coffee/maple_white // 3u cafe au lait, 1u maple syrup, 1u vanilla syrup
 	name = "Maple White"
 	description = "Jim Norton's signature drink, as invented by Jim himself. Combines cafe au lait with maple syrup and french vanilla for a true taste of the frozen north."
 
+/datum/reagent/consumable/iced_coffee/maple_white
+	name = "Frosted Maple White"
+
 /datum/reagent/consumable/coffee/cafe_miel // 3u cafe au lait, 1u honey, 1u cinnamon
 	name = "Café Miel"
 	description = "Combining the flavours of coffee, milk, honey and cinnamon, the café miel is a warming drink that's easy to sip."
+
+/datum/reagent/consumable/iced_coffee/cafe_miel
+	name = "Iced Café Miel"
 
 /datum/reagent/consumable/coffee/cappuccino // 2u cafe au lait, 1u frothed milk
 	name = "Cappuccino"
 	description = "An old Viennese coffee drink, the cappuccino has since went on to become a popular breakfast drink worldwide."
 
+/datum/reagent/consumable/iced_coffee/cappuccino
+	name = "Iced Cappuccino"
+
 /datum/reagent/consumable/coffee/caffe_latte // 2u cafe au lait, 1u steamed milk
 	name = "Caffe Latte"
 	description = "A milky coffee beverage that goes great with flavoured syrups."
+
+/datum/reagent/consumable/iced_coffee/caffe_latte
+	name = "Iced Caffe Latte"
 
 // FLAVOURED LATTES
 // BASIC
 /datum/reagent/consumable/coffee/caffe_latte/almond // 4u caffe latte, 1u almond syrup
 	name = "Almond Latte"
 
+/datum/reagent/consumable/iced_coffee/caffe_latte/almond
+	name = "Iced Almond Latte"
+
 /datum/reagent/consumable/coffee/caffe_latte/caramel // 4u caffe latte, 1u caramel syrup
 	name = "Caramel Latte"
+
+/datum/reagent/consumable/iced_coffee/caffe_latte/caramel
+	name = "Iced Caramel Latte"
 
 /datum/reagent/consumable/coffee/caffe_latte/cinnamon // 4u caffe latte, 1u cinnamon dolce syrup
 	name = "Cinnamon Latte"
 
+/datum/reagent/consumable/iced_coffee/caffe_latte/cinnamon
+	name = "Iced Cinnamon Latte"
+
 /datum/reagent/consumable/coffee/caffe_latte/hazelnut // 4u caffe latte, 1u hazelnut syrup
 	name = "Hazelnut Latte"
+
+/datum/reagent/consumable/iced_coffee/caffe_latte/hazelnut
+	name = "Iced Hazelnut Latte"
 
 /datum/reagent/consumable/coffee/caffe_latte/peppermint // 4u caffe latte, 1u mint syrup
 	name = "Peppermint Latte"
 
+/datum/reagent/consumable/iced_coffee/caffe_latte/peppermint
+	name = "Iced Peppermint Latte"
+
 /datum/reagent/consumable/coffee/caffe_latte/vanilla // 4u caffe latte, 1u vanilla syrup
 	name = "Vanilla Latte"
 	description = "A classic marriage of vanilla and caffe latte."
+
+/datum/reagent/consumable/iced_coffee/caffe_latte/vanilla
+	name = "Iced Vanilla Latte"
 
 // SPECIALTY
 /datum/reagent/consumable/coffee/caffe_latte/pumpkin_spice // 4u caffe latte, 1u pumpkin spice syrup
 	name = "Pumpkin Spice Latte"
 	description = "Tastes a lot like fall. And pumpkin too, I guess."
 
+/datum/reagent/consumable/iced_coffee/caffe_latte/pumpkin_spice
+	name = "Iced Pumpkin Spice Latte"
+
 /datum/reagent/consumable/coffee/caffe_latte/red_bay // 4u caffe latte, 1u red bay syrup
 	name = "Red Bay Latte"
 	description = "A confusing coffee concoction dreamed up by Mars' craziest baristas. Uses a Red Bay-based syrup to add a taste of the red planet."
+
+/datum/reagent/consumable/iced_coffee/caffe_latte/red_bay
+	name = "Iced Red Bay Latte"
 
 /datum/reagent/consumable/coffee/caffe_latte/oliva // 4u caffe latte, 1u olive oil
 	name = "Oliva Latte"
 	description = "An innovative way to get your daily dose of olive oil and coffee, all at the same time."
 
-/datum/reagent/consumable/icecoffee/ellinikos_frape
+/datum/reagent/consumable/iced_coffee/caffe_latte/oliva
+	name = "Iced Oliva Latte"
+	description = "Perhaps icing an oil-based latte wasn't a great idea."
+
+/datum/reagent/consumable/iced_coffee/ellinikos_frape
 	name = "Ellinikós Frapé"
 	description = "In contrast to typical frappes, Greek \"frapés\" are made from instant coffee and milk shaken with ice in a shaker. This creates a unique flavour and texture that can't be found elsewhere, and that's why the Greeks love them."
 
@@ -168,15 +251,15 @@
 	name = "Café Tonic"
 	description = "A drink that combines the bitterness of coffee with the additional bitterness of tonic water- making a refreshing taste that's most definitely acquired."
 
-/datum/reagent/consumable/icecoffee/kafka // 1u espresso, 2u space cola
+/datum/reagent/consumable/iced_coffee/kafka // 1u espresso, 2u space cola
 	name = "Kafka"
 	description = "An odd combination of strong black espresso, and Space Cola. As weird as it sounds, the taste is unique, and not in a bad way."
 
-/datum/reagent/consumable/icecoffee/adrenalino // 1u espresso, 2u monkey energy
+/datum/reagent/consumable/iced_coffee/adrenalino // 1u espresso, 2u monkey energy
 	name = "Adrenalino"
 	description = "What happens when you combine espresso and energy drink? The University of Adasta's finest frats bring you the answer via the adrenalino: made with only the finest Monkey Energy, accept no substitutes."
 
-/datum/reagent/consumable/coffee/adrenalino_ethere // 1u espresso, 2u 24-volt energy
+/datum/reagent/consumable/iced_coffee/adrenalino_ethere // 1u espresso, 2u 24-volt energy
 	name = "Adrenalino Éthéré"
 	description = "A shocking twist on the adrenalino format, this drink swaps the Monkey Energy for 24-Volt instead, making it nominally ethereal-appropriate."
 
@@ -265,67 +348,142 @@
 	..()
 	. = TRUE
 
+/datum/reagent/consumable/iced_tea
+	name = "Iced Black Tea"
+	description = "No relation to a certain rap artist/actor."
+	color = "#104038" // rgb: 16, 64, 56
+	nutriment_factor = 0
+	taste_description = "sweet tea"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/iced_tea/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
+	affected_mob.adjust_dizzy(-4 SECONDS * REM * seconds_per_tick)
+	affected_mob.adjust_drowsiness(-2 SECONDS * REM * seconds_per_tick)
+	affected_mob.AdjustSleeping(-40 * REM * seconds_per_tick)
+	if(affected_mob.getToxLoss() && SPT_PROB(10, seconds_per_tick))
+		affected_mob.adjustToxLoss(-1, FALSE, required_biotype = affected_biotype)
+	affected_mob.adjust_bodytemperature(-5 * REM * TEMPERATURE_DAMAGE_COEFFICIENT * seconds_per_tick, affected_mob.get_body_temp_normal())
+	..()
+	. = TRUE
+
 /datum/reagent/consumable/tea/green
 	name = "Green Tea"
+	description = "Despite originating from the same plant as good old black tea, green tea has underwent a different production process- yielding an entirely different world of flavours."
+
+/datum/reagent/consumable/iced_tea/green
+	name = "Iced Green Tea"
 
 /datum/reagent/consumable/tea/oolong
 	name = "Oolong Tea"
+	description = "Falling somewhere between the oxidation levels of black and green tea, oolong tea is a distinct type of tea that's known for its smoky, roasty flavours."
+
+/datum/reagent/consumable/iced_tea/oolong
+	name = "Iced Oolong Tea"
 
 /datum/reagent/consumable/tea/white
 	name = "White Tea"
+	description = "The least processed and oxidised of the tea varieties, white tea has sweeter, lighter notes than black or green tea; despite coming from the same plant."
+
+/datum/reagent/consumable/iced_tea/white
+	name = "Iced White Tea"
 
 /datum/reagent/consumable/tea/matcha // 4u water, 1u matcha powder
 	name = "Matcha Tea"
 	description = "It's green, it's herbal, it's matcha!"
+
+/datum/reagent/consumable/iced_tea/matcha
+	name = "Iced Matcha Tea"
 
 // FLAVOURED TEAS, TISANES AND TEA BLENDS
 /datum/reagent/consumable/tea/earl_grey
 	name = "Earl Grey Tea"
 	description = "A classic British tea infusion made by adding bergamot to Indian black tea. Has a distinct citric kick to distinguish itself from other, more basic teas."
 
+/datum/reagent/consumable/iced_tea/earl_grey
+	name = "Iced Earl Grey Tea"
+
 /datum/reagent/consumable/tea/jasmine
 	name = "Jasmine Tea"
 	description = "A popular Chinese tea infusion, with the addition of jasmine flowers to green tea giving it a subtle aroma and character."
+
+/datum/reagent/consumable/iced_tea/jasmine
+	name = "Iced Jasmine Tea"
 
 /datum/reagent/consumable/tea/chamomile
 	name = "Chamomile Tea"
 	description = "A calming tisane made from chamomile. Makes you feel kinda sleepy."
 
+/datum/reagent/consumable/iced_tea/chamomile
+	name = "Iced Chamomile Tea"
+
 /datum/reagent/consumable/tea/rooibos
 	name = "Rooibos"
-	description = "A tisane hailing from South Africa, made from the leaves of bushes that grow predominantly around the region."
+	description = "A tisane hailing from South Africa, made from the leaves of redshrub bushes."
+
+/datum/reagent/consumable/iced_tea/rooibos
+	name = "Iced Rooibos"
 
 /datum/reagent/consumable/tea/mate
 	name = "Maté"
 	description = "A bitter tisane produced from yerba-maté. Popular amongst the Latinoamericano regions of Earth, this classic drink has made its way to the stars alongside spacers and colonists from these areas."
 
+/datum/reagent/consumable/iced_tea/mate
+	name = "Iced Maté"
+
 /datum/reagent/consumable/tea/hibiscus
 	name = "Hibiscus Tea"
+	description = "Made from the vibrant red petals of the hibiscus flower, this tisane has a deep, complex and acidic flavour that makes it perfect for use in cold drinks."
+
+/datum/reagent/consumable/iced_tea/hibiscus
+	name = "Iced Hibiscus Tea"
 
 /datum/reagent/consumable/tea/rose
 	name = "Rose Tea"
+	description = "A fragrant infusion made from black tea and rose petals. Lends an air of sophistication to your cuppa."
+
+/datum/reagent/consumable/iced_tea/rose
+	name = "Iced Rose Tea"
 
 /datum/reagent/consumable/tea/mint
 	name = "Mint Tea"
+	description = "Not to be confused with Maghrebi mint tea, this tisane is made by steeping mint leaves in hot water. It's great for fixing a sore throat."
+
+/datum/reagent/consumable/iced_tea/mint
+	name = "Iced Mint Tea"
 
 /datum/reagent/consumable/tea/ginger
 	name = "Ginger Tea"
+	description = "This refreshing tisane is made with... you guessed it, garlic. No, wait, it's ginger. Unsurprisingly, it tastes like hot ginger."
+
+/datum/reagent/consumable/iced_tea/ginger
+	name = "Iced Ginger Tea"
 
 /datum/reagent/consumable/tea/weed
-	name = "Cannabis Tea"
+	name = "Weed Tea"
+	description = "Ride the rainbow with this tokey tisane. It's hemptastic!"
+
+/datum/reagent/consumable/iced_tea/weed
+	name = "Iced Weed Tea"
 
 // EXOTIC TEAS
 /datum/reagent/consumable/tea/astra
 	name = "Tea Astra"
 	description = "A medicinal tea, well known for its blue colour, salty flavour, and invigorating medicinal effect."
 
+/datum/reagent/consumable/iced_tea/astra
+	name = "Iced Tea Astra"
+
 //MIXED TEA BEVERAGES
+/datum/reagent/consumable/tea/lemon
+	name = "Lemon Tea"
+	description = "A refreshing combination of black tea and lemon. Good for sore throats."
+
 /datum/reagent/consumable/tea/south_china_milk_tea
 	name = "South China Milk Tea"
 
 /datum/reagent/consumable/tea/masala_chai
 	name = "Masala Chai"
-	description = "Also known as \"Chai Tea\" in the west, this Indian creation blends tea, milk, and spices into a single warming concoction."
+	description = "Also known as \"Chai Tea\" in the west, this Indian creation blends black tea, milk, and spices into a single warming concoction."
 
 /datum/reagent/consumable/tea/noon_chai // 3u green tea, 3u milk, 1u salt, 1u sodium hydroxide
 	name = "Noon Chai"
@@ -359,6 +517,11 @@
 	name = "Jagertee"
 	description = "An Austrian tea-based hot punch, made with the nation's signature inländer rum. Popular as an après-ski."
 
+// ICED TEA DRINKS
+/datum/reagent/consumable/tea/iced/bissap
+	name = "Bissap"
+	description = "The national drink of Senegal, although it's also enjoyed across most of West Africa. Made from iced hibiscus tea, pineapple juice, and ginger, it's a refreshing beverage in the subsaharan heat."
+
 // MISC HOT DRINKS
 /datum/reagent/consumable/hot_malted_milk
 	name = "Hot Malted Milk"
@@ -368,7 +531,7 @@
 	description = "A modern take on Aztec-style hot chocolate, made with vanilla, cinnamon, and chilli."
 
 // ALIEN BASE DRINKS
-/datum/reagent/consumable/sulat
+/datum/reagent/consumable/coffee/sulat
 	name = "Sulat"
 	description = "Tizira's answer to coffee. Closer to a tea than Terran coffee, this sharp, acidic drink is made by steeping dried sulat berries in hot water. Traditionally, sulat is never mixed with milk of any kind."
 
@@ -385,13 +548,22 @@
 	description = "A popular herb amongst the moths, windgrass has a strong herbal flavour and mellowing effects."
 
 // SULATTE
-/datum/reagent/consumable/sulat/sulatte
+/datum/reagent/consumable/coffee/sulatte
 	name = "Sulatte"
 	description = "A hot drink made from sulat and steamed korta milk. Considered sacrilegious amongst sulat traditionalists on Tizira, it is nonetheless popular with spacers and particularly with humans."
 
-/datum/reagent/consumable/sulat/siokolat
+/datum/reagent/consumable/coffee/siokolat
 	name = "Siokolat"
 	description = "Similar to the Earth mocha, the siokolat is a Tiziran drink that makes use of dark chocolate to accentuate the stonefruit flavours of the sulat."
 
-/datum/reagent/consumable/iced_sulat
+/datum/reagent/consumable/iced_coffee/sulat
 	name = "Iced Sulat"
+
+// SHARZEN-BASED DRINKS
+/datum/reagent/consumable/tea/iced/sharzen
+	name = "Iced Sharzen"
+	description = "For those hot Tiziran summer days, iced sharzen is just the tonic to keep on going."
+
+/datum/reagent/consumable/iced_tea/sharzal
+	name = "Sharzal"
+	description = "A Tiziran soft drink that's made from iced sharzen, honey, and a mix of spices- blends vary, but the main additives are usually chortilla and coastflower extracts."

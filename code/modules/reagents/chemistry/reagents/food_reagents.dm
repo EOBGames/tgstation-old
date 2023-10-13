@@ -1174,9 +1174,8 @@
 	name = "Chicory Extract"
 	description = "A bitter substance made from chicory roots. Can be used as a coffee additive or substitute, depending on how desperate you are for a cup of joe."
 
-/datum/reagent/consumable/mulling_spices
-	name = "Mulling Spices"
-	description = "A mixture of various wintery spices which can transform any drink instantly into a Christmas classic."
+/datum/reagent/consumable/condensed_milk
+	name = "Condensed Milk"
 
 /datum/reagent/consumable/tapioca_pearls
 	name = "Tapioca Pearls"

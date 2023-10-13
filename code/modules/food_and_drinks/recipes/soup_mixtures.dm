@@ -2292,6 +2292,21 @@
 		/datum/reagent/consumable/chili_syrup = 30,
 	)
 
+// Cinnamon Dolce Syrup
+/datum/reagent/consumable/cinnamon_dolce_syrup
+	name = "Cinnamon Dolce Syrup"
+	description = "A sweetened syrup made of cinnamon and sugar."
+
+/datum/chemical_reaction/food/soup/chili_syrup
+	required_reagents = list(
+		/datum/reagent/consumable/cinnamon = 10,
+		/datum/reagent/consumable/sugar = 10,
+		/datum/reagent/consumable/water = 15,
+	)
+	results = list(
+		/datum/reagent/consumable/cinnamon_syrup = 30,
+	)
+
 // Coffee Syrup
 /datum/reagent/consumable/coffee_syrup
 	name = "Coffee Syrup"

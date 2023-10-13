@@ -468,7 +468,7 @@
 	name = "coffeemaker cartridge - Caffè Fantasioso"
 	desc = "A fancy \"G-B-A\" model coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon_state = "cartridge_blend"
-	drink_type = list(/datum/reagent/consumable/coffee/fresh_brew = 120)
+	drink_type = list(/datum/reagent/consumable/coffee/fresh_brew = 120) // finally, there's a purpose to these ones!
 
 //Here's the joke before I get 50 issue reports: they're all the same, and that's intentional
 /obj/item/coffee_cartridge/fancy/Initialize(mapload)
@@ -730,7 +730,12 @@
 /obj/machinery/coffeemaker/tea_brewer
 	name = "\improper Infuso 6 tea brewer"
 	desc = "A Infuso 6 tea brewer that makes delicious infusions from loose leaf tea. Has a range of presets to ensure that every tea, tisane or blend tastes its best."
-
+	icon_state = "tea_brewer"
+	circuit = /obj/item/circuitboard/machine/coffeemaker/tea_brewer
+	initial_cartridge = null
+	brew_time = 40 SECONDS // long brew time, it is tea after all
+	/// List of tea leaves stored
+	var/list/tea_leaves = list()
 
 /*
  * impressa coffee maker

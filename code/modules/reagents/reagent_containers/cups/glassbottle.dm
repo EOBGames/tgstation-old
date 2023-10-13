@@ -734,6 +734,14 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/mushi_kombucha = 30)
 	isGlass = FALSE
 
+/obj/item/reagent_containers/cup/glass/bottle/sharzal
+	name = "Solzara Brewing Company Sharzal"
+	desc = "Enjoy a taste of Tizira whereever you are. Best served cold."
+	icon_state = "shroomy_bottle"
+	volume = 30
+	list_reagents = list(/datum/reagent/consumable/iced_tea/sharzal = 30)
+	isGlass = FALSE
+
 /obj/item/reagent_containers/cup/glass/bottle/hakka_mate
 	name = "Hakka-Mate"
 	desc = "Hakka-Mate: it's an acquired taste."
