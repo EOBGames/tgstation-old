@@ -238,7 +238,7 @@
 /obj/item/reagent_containers/cup/glass/coffee_cup/tea
 	name = "\improper Duke Purple tea"
 	desc = "An insult to Duke Purple is an insult to the Space Queen! Any proper gentleman will fight you, if you sully this tea."
-	list(/datum/reagent/consumable/tea/instant = 30)
+	list_reagents = list(/datum/reagent/consumable/tea/instant = 30)
 	resistance_flags = FREEZE_PROOF
 	drink_type = BREAKFAST
 
