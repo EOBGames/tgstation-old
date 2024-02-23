@@ -387,6 +387,74 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/barsign, 32)
 	desc = "Drink till you puke and/or break the laws of reality!"
 	neon_color = "#00cc33"
 
+// Cafe Signs
+/datum/barsign/jim_norton
+	name = "Jim Norton's"
+
+/datum/barsign/selkie_java
+	name = "Selkie Java Company"
+
+/datum/barsign/kosmokofe
+	name = "Kosmokofe"
+	desc = "Straight out of New Moscow, it's Kosmokofe- the Spinward Sector's hottest (and indeed, only) coffee chain!"
+
+/datum/barsign/costoso
+	name = "Costoso Coffee"
+	desc = "Get your daily alloted caffeine intake and spend your month's salary, all in one easy transaction."
+
+/datum/barsign/big_donk_donuts
+	name = "Big Donk Donuts"
+
+/datum/barsign/tasty_creme
+	name = "Tasty Creme Coffee"
+	desc = "Don't even pretend you're here for the coffee- it's the donuts you're after, right?"
+
+/datum/barsign/victoria_greens
+	name = "Victoria Green's Coffee"
+	desc = "The Australicus Sector's favourite coffee chain, 200 years running."
+
+/datum/barsign/joes
+	name = "Joe's Cafe"
+	icon = "joes"
+	desc = "The cafe where everyone knows your name."
+
+/datum/barsign/twin_rs
+	name = "Twin R's"
+	icon = "twin_rs"
+	desc = "Really, you gotta try the coffee."
+
+/datum/barsign/pigeons_perch
+	name = "The Pigeon's Perch"
+	icon = "pigeons_perch"
+	desc = "...coo."
+
+/datum/barsign/cafe_lupin
+	name = "Café Lupin"
+	icon = "cafe_lupin"
+	desc = "A favourite hangout of thieves."
+
+/datum/barsign/french_press
+	name = "The French Press"
+	icon = ""
+	desc = ""
+
+/datum/barsign/javabean
+	name = "The Javabean"
+	icon = ""
+	desc = "Hungry? Thirsty? I've got just the thing."
+
+/datum/barsign/istanbulite
+	name = "The Istanbulite"
+	desc = "Previously known as \"The Constantinoupoleian\"."
+
+/datum/barsign/mary_janes
+	name = "Mary Jane's Coffeeshop"
+	desc = ""
+
+/datum/barsign/wiener_hutte
+	name = "Wiener Hütte"
+	desc = "Also try Wiener Hütte Junior."
+
 // Hidden signs list below this point
 
 /datum/barsign/hiddensigns

@@ -1170,6 +1170,13 @@
 	taste_description = "cinnamon"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/reagent/consumable/maple_syrup
+	name = "Maple Syrup"
+	description = "The lifeblood of every good Canadian. Makes pancakes delicious."
+	color = "#D2691E"
+	taste_description = "sweet maple"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
 /datum/reagent/consumable/chicory_extract
 	name = "Chicory Extract"
 	description = "A bitter substance made from chicory roots. Can be used as a coffee additive or substitute, depending on how desperate you are for a cup of joe."

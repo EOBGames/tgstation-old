@@ -549,6 +549,11 @@
 	icon_state = "coffeepot_bluespace"
 	fill_icon_thresholds = list(0)
 
+//Teapots
+/obj/item/reagent_containers/cup/teapot
+	name = "teapot"
+	desc = "A pot for making tea."
+
 ///Test tubes created by chem master and pandemic and placed in racks
 /obj/item/reagent_containers/cup/tube
 	name = "tube"

@@ -492,8 +492,3 @@
 /datum/quirk/bougie_brewer
 	name = "Brewing Bourgeoisie"
 	desc = "Instant coffee is the realm of the poor and uncaring masses. You reject it; only the finest true-brewed java will pass your lips, so help you God. Drinking special coffee drinks will give you a greater mood boost, but instant will ruin your day. And god forbid your coffee get cold..."
-
-/datum/quirk/java_junkie
-	name = "Java Junkie"
-	desc = "Smeesh, you hit the coffee a little too hard. You've got a bonafide addiction to it, and going without for too long gives you a bad headache and worse shakes."
-	medical_record_text = "Patient has a physiological dependence on coffee due to excessive past consumption."

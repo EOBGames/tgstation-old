@@ -209,3 +209,103 @@
 	)
 	tastes = list("meat" = 2, "dough" = 2, "inner peace" = 1)
 	foodtypes = GRAIN
+
+/obj/item/food/donkpocket/popdonk
+	name = "\improper PopDonk! Starberry Surprise!"
+	desc = "Donk's galaxy-famous toaster pastry, stuffed with strawberry jam."
+	icon_state = "popdonk_strawberry"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 3,
+		/datum/reagent/consumable/sugar = 2,
+	)
+	tastes = list("sugar" = 2, "strawberry" = 2, "pastry" = 1)
+	foodtypes = GRAIN | FRUIT
+
+	warm_type = /obj/item/food/donkpocket/warm/popdonk
+
+/obj/item/food/donkpocket/warm/popdonk
+	name = "warm PopDonk! Starberry Surprise!"
+	desc = "Donk's galaxy-famous toaster pastry, stuffed with strawberry jam and served supernova hot."
+	icon_state = "popdonk_strawberry"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 3,
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/medicine/omnizine = 2,
+	)
+	tastes = list("sugar" = 2, "strawberry" = 2, "pastry" = 1)
+	foodtypes = GRAIN | FRUIT
+
+/obj/item/food/donkpocket/popdonk/choco_banana
+	name = "\improper PopDonk! Go Chocobananas!"
+	desc = "Donk's galaxy-famous toaster pastry, with a filling of chocolate and banana."
+	icon_state = "popdonk_choco_banana"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 3,
+		/datum/reagent/consumable/sugar = 2,
+	)
+	tastes = list("sugar" = 2, "chocolate" = 1, "banana" = 1, "pastry" = 1)
+	foodtypes = GRAIN | FRUIT
+
+	warm_type = /obj/item/food/donkpocket/warm/popdonk/choco_banana
+
+/obj/item/food/donkpocket/warm/popdonk/choco_banana
+	name = "warm PopDonk! Go Chocobananas!"
+	desc = "Donk's galaxy-famous toaster pastry, with a red-hot filling of chocolate and banana."
+	icon_state = "popdonk_strawberry"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 3,
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/medicine/omnizine = 2,
+	)
+	tastes = list("sugar" = 2, "chocolate" = 1, "banana" = 1, "pastry" = 1)
+	foodtypes = GRAIN | FRUIT
+
+/obj/item/food/donkpocket/popdonk/cherry_berry
+	name = "\improper PopDonk! Very Cherry Berry!"
+	desc = "Donk's galaxy-famous toaster pastry, with a medley of berry and cherry flavours inside."
+	icon_state = "popdonk_cherry_berry"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 3,
+		/datum/reagent/consumable/sugar = 2,
+	)
+	tastes = list("sugar" = 2, "cherry" = 1, "berry" = 1, "pastry" = 1)
+	foodtypes = GRAIN | FRUIT
+
+	warm_type = /obj/item/food/donkpocket/warm/popdonk/cherry_berry
+
+/obj/item/food/donkpocket/warm/popdonk/cherry_berry
+	name = "warm PopDonk! Very Cherry Berry!"
+	desc = "Donk's galaxy-famous toaster pastry, with a piping-hot medley of berry and cherry flavours inside."
+	icon_state = "popdonk_cherry_berry"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 3,
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/medicine/omnizine = 2,
+	)
+	tastes = list("sugar" = 2, "cherry" = 1, "berry" = 1, "pastry" = 1)
+	foodtypes = GRAIN | FRUIT
+
+/obj/item/food/donkpocket/popdonk/fudge_sundae
+	name = "\improper PopDonk! Superfudge Sundae!"
+	desc = "Donk's galaxy-famous toaster pastry, with a fudgy filling and sprinkles on top, just like a real sundae."
+	icon_state = "popdonk_fudge_sundae"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 3,
+		/datum/reagent/consumable/sugar = 2,
+	)
+	tastes = list("sugar" = 2, "chocolate fudge" = 1, "sprinkles" = 1, "pastry" = 1)
+	foodtypes = GRAIN
+
+	warm_type = /obj/item/food/donkpocket/warm/popdonk/fudge_sundae
+
+/obj/item/food/donkpocket/warm/popdonk/fudge_sundae
+	name = "warm PopDonk! Very Cherry Berry!"
+	desc = "Donk's galaxy-famous toaster pastry, with a fudgy filling and served hot, just like a real sundae isn't."
+	icon_state = "popdonk_fudge_sundae"
+	food_reagents = list(
+		/datum/reagent/consumable/nutriment = 3,
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/medicine/omnizine = 2,
+	)
+	tastes = list("sugar" = 2, "chocolate fudge" = 1, "sprinkles" = 1, "pastry" = 1)
+	foodtypes = GRAIN

@@ -147,6 +147,10 @@
 	desc = "Either Nanotrasen's water supply is contaminated, or this machine actually vends lemon, chocolate, and cherry snow cones."
 	list_reagents = list(/datum/reagent/consumable/ice = 25, /datum/reagent/consumable/liquidgibs = 5)
 
+/obj/item/reagent_containers/cup/glass/espresso
+	name = "espresso glass"
+	desc = "A little cup for making espresso into. Comfortably holds a double shot; takes a lungo at a pinch."
+
 /obj/item/reagent_containers/cup/glass/mug // parent type is literally just so empty mug sprites are a thing
 	name = "mug"
 	desc = "A drink served in a classy mug."
@@ -191,11 +195,15 @@
 
 /obj/item/reagent_containers/cup/glass/mug/beaker
 	name = "beaker mug"
-	desc = "The perfect glassware for preparing a concentrated solution of CoFFe. Just don't mix it up with the one you use for acids."
+	desc = "The perfect glassware for preparing a concentrated solution of CoFFe. Just don't mix it up with the one you use for acids." //god, I don't want to imagine the hell that is CoFFe
 
 /obj/item/reagent_containers/cup/glass/mug/flashbang
 	name = "flashbang-shaped mug"
 	desc = "The perfect gift for your local rent-a-cop. Perfectly sized to balance a donut on top of, if you're so inclined."
+
+/obj/item/reagent_containers/cup/glass/mug/security
+	name = "novelty security mug"
+	desc = "A hilarious(ly insufferable) mug for the security officer in your life. It reads: \"My body is a machine that turns coffee into police brutality.\"."
 
 /obj/item/reagent_containers/cup/glass/mug/medical
 	name = "prescription bottle-shaped mug"
@@ -203,11 +211,15 @@
 
 /obj/item/reagent_containers/cup/glass/mug/hippocratic
 	name = "novelty medic mug"
-	desc = "A funny mug for the doctor in your life. One side reads: \"DO NO HARM IS A SUGGESTION!\", the other \"300CCS OF COFFEE, STAT!\"."
+	desc = "A hilarious(ly insufferable) mug for the doctor in your life. One side reads: \"DO NO HARM IS A SUGGESTION!\", the other \"300CCS OF COFFEE, STAT!\"."
 
 /obj/item/reagent_containers/cup/glass/mug/captain
 	name = "\improper Galaxy's Best Captain mug"
 	desc = "A mug that proclaims that the Captain is, in fact, the GOAT. Now, did someone buy this for the captain, or did they buy it for themselves?"
+
+/obj/item/reagent_containers/cup/glass/mug/retro_gamer
+	name = "retro gamer mug"
+	desc = "An old mug in the shape of vintage game character Phanic the Weasel's stupid spiky head. You feel like you saw warnings about the lead content of the paint somewhere."
 
 /obj/item/reagent_containers/cup/glass/mug/tiziran
 	name = "\improper Tiziran sulathra"

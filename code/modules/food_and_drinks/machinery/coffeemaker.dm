@@ -3,9 +3,8 @@
 /obj/machinery/coffeemaker
 	name = "\improper Modello 3 coffeemaker"
 	desc = "A Modello 3 Coffeemaker that brews coffee and holds it at the perfect temperature of 176 fahrenheit. Takes larger \"G-B-A\" model cartridges. Made by Piccionaia Home Appliances."
-	icon = 'icons/obj/medical/chemical.dmi'
-	icon_state = "coffeemaker_nopot_nocart"
-	base_icon_state = "coffeemaker"
+	icon = 'icons/obj/machines/coffeemaker.dmi'
+	icon_state = "standard"
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	circuit = /obj/item/circuitboard/machine/coffeemaker
 	anchored_tabletop_offset = 4
@@ -153,12 +152,27 @@
 	. = ..()
 	. += overlay_checks()
 
-/obj/machinery/coffeemaker/proc/overlay_checks()
+/obj/machinery/coffeemaker/overlay_checks()
 	. = list()
 	if(coffeepot)
-		. += "coffeemaker_pot"
+		if(coffeepot.reagents.total_volume > 0)
+			. += "standard_pot_full"
+		else
+			. += "standard_pot_empty"
 	if(cartridge)
-		. += "coffeemaker_cartidge"
+		. += "standard_cartridge"
+		if(is_operational)
+			switch(cartridge.charges)
+				if(0)
+					. += "standard_cartridge_light_empty"
+				if(1)
+					. += "standard_cartridge_light_mid"
+				else
+					. += "standard_cartridge_light_full"
+	if(brewing)
+		. += "standard_brew_light"
+	if(is_operational)
+		. += "standard_power_light"
 	return .
 
 /obj/machinery/coffeemaker/proc/replace_pot(mob/living/user, obj/item/reagent_containers/cup/coffeepot/new_coffeepot)
@@ -745,8 +759,7 @@
 /obj/machinery/coffeemaker/impressa
 	name = "\improper Impressa 7 coffeemaker"
 	desc = "An industry-grade Impressa 7 Coffeemaker of the Piccionaia Commercial premium coffeemakers product line. Makes coffee from fresh dried whole beans."
-	icon = 'icons/obj/machines/coffeemaker.dmi'
-	icon_state = "coffeemaker_impressa"
+	icon_state = "impressa"
 	circuit = /obj/item/circuitboard/machine/coffeemaker/impressa
 	initial_cartridge = null //no cartridge, just coffee beans
 	brew_time = 15 SECONDS //industrial grade, its faster than the regular one
@@ -788,28 +801,28 @@
 	. = list()
 	if(coffeepot)
 		if(coffeepot.reagents.total_volume > 0)
-			. += "pot_full"
+			. += "impressa_pot_full"
 		else
-			. += "pot_empty"
+			. += "impressa_pot_empty"
 	if(coffee_cups > 0)
 		if(coffee_cups >= max_coffee_cups/3)
 			if(coffee_cups > max_coffee_cups/1.5)
-				. += "cups_3"
+				. += "impressa_cups_3"
 			else
-				. += "cups_2"
+				. += "impressa_cups_2"
 		else
-			. += "cups_1"
+			. += "impressa_cups_1"
 	if(sugar_packs)
-		. += "extras_1"
+		. += "impressa_extras_1"
 	if(creamer_packs)
-		. += "extras_2"
+		. += "impressa_extras_2"
 	if(sweetener_packs)
-		. += "extras_3"
+		. += "impressa_extras_3"
 	if(coffee_amount)
 		if(coffee_amount < 0.7*BEAN_CAPACITY)
-			. += "grinder_half"
+			. += "impressa_grinder_half"
 		else
-			. += "grinder_full"
+			. += "impressa_grinder_full"
 	return .
 
 /obj/machinery/coffeemaker/impressa/handle_atom_del(atom/A)

@@ -9,7 +9,7 @@
 
 /obj/item/food/trois_rivieres_sausage_roll
 	name = "\improper Trois-Rivières sausage roll"
-	desc = "An original Jim Norton recipe."
+	desc = "An original Jim Norton recipe for a classic sausage roll."
 
 /obj/item/food/cinnamon_bun
 	name = "cinnamon bun"
@@ -17,11 +17,11 @@
 
 /obj/item/food/cinnamon_roll
 	name = "cinnamon roll"
-	desc = "How do you improve upon the cinnamon bun? With icing, of course! Enter the cinnamon roll, America's contribution to the cinnamon-pastry party and eternal enemy of Scandinavians everywhere."
+	desc = "How do you improve upon the cinnamon bun? With icing, of course! Enter the cinnamon roll, America's contribution to the advancement of cinnamon-pastries and eternally hated by Scandinavians everywhere."
 
 /obj/item/food/pets_de_soeurs
 	name = "pets de sœurs"
-	desc = "Somewhat similar to cinnamon rolls, the Québécois favourite pets de sœurs differ by replacing the cinnamon with brown sugar, for a molasses-like flavour in the finished product."
+	desc = "Somewhat similar to cinnamon rolls, the Québécois favourite pets de sœurs differ by replacing the cinnamon with brown sugar, for a molasses-like flavour in the finished product. It's best not to question what the name means."
 
 // MooseAntlers
 /obj/item/food/moose_antler
@@ -35,6 +35,126 @@
 /obj/item/food/moose_antler/maple_white_chocolate
 	name = "maple white chocolate MooseAntler"
 	desc = "Based on the Maple White, this Jim signature combines the distinctive flavours of white chocolate, and maple syrup."
+
+// Biscuits
+/obj/item/food/cookie/candy
+	name = "candy cookie"
+	desc = "A cookie filled with chocolate candy. They might not melt in your hand, but they sure melted in the oven."
+
+/obj/item/food/cookie/snickerdoodle
+	name = "snickerdoodle cookie"
+	desc = "Much like a regular sugar cookie, but with more cinnamon."
+
+/obj/item/food/madeleine_batter
+	name = "madeleine batter"
+
+/obj/item/food/madeleine
+	name = "madeleine"
+	desc = "Ah, madeleine, je t'aime."
+
+/obj/item/food/palmier_roll
+	name = "palmier roll"
+	desc = "We were going to call it a \"palmier log\", but were outvoted by the comedy committee."
+
+/obj/item/food/palmier
+	name = "palmier"
+	desc = "Yep, that's palmy, alright."
+
+/obj/item/food/mendiant
+	name = "mendiant"
+	desc = "A traditional mendiant, made with one fruit for each mendicant order."
+
+/obj/item/food/speculoos_dough
+	name = "speculoos dough"
+	desc = "A long roll of speculoos dough. Cut it up, and let's get baking."
+
+/obj/item/food/speculoos
+	name = "speculoos biscuit"
+	desc = "The Belgian confection that's swept the nation. Tastes like staying in a cheap hotel."
+
+/obj/item/food/pizzelle
+	name = "pizzelle"
+	desc = "Less of a biscuit and more of a small waffle, though who are we to judge?"
+
+/obj/item/food/biscotti
+	name = "biscotti"
+	desc = "A sweet Italian almond-based biscuit. Best eaten dunked in a drink, typically coffee."
+
+/obj/item/food/empire_biscuit
+	name = "empire biscuit"
+	desc = "The sun never sets on the biscuit empire."
+
+/obj/item/food/halfmoon_cookie
+	name = "halfmoon cookie"
+	desc = "A New Yorker classic, beloved in and around the Manhattan Capital District."
+
+/obj/item/food/anzac_biscuit
+	name = "\improper ANZAC biscuit"
+	desc = "An oaty biscuit that's ubiquituous to the nations Down Under- and the Australicus Sector, too."
+
+/obj/item/food/sable
+	name = "sablé breton"
+	desc = "Kinda sandy."
+
+/obj/item/food/ladyfinger
+	name = "ladyfinger biscuit"
+	desc = "Despite the name, these aren't really biscuits, they're more like dry cakes."
+
+/obj/item/food/gingersnap
+	name = "gingersnap biscuit"
+	desc = "A crisp biscuit with a gingery taste."
+
+/obj/item/food/digestive
+	name = "digestive biscuit"
+	desc = "A wheaty biscuit that's good for digestion, supposedly."
+
+/obj/item/food/bourbon_biscuit
+	name = "bourbon biscuit"
+	desc = "No whiskey included."
+
+/obj/item/food/custard_cream
+	name = "custard cream"
+	desc = "You wouldn't eat an entire packet of these, would you?"
+
+/obj/item/food/pink_wafer
+	name = "pink wafer"
+	desc = "Often associated with big cats and French detectives."
+
+/obj/item/food/florentine
+	name = "florentine"
+	desc = "Really less of a biscuit and more of a conglomeration of sugar, nuts and fruit, but such trivial matters don't concern you, do they?"
+
+/obj/item/food/graham_cracker
+	name = "graham cracker"
+	desc = "Ironically designed to be dry and boring, graham crackers form the critical bedrock of a number of delicious desserts, most famously the ubiquitous 'smore."
+
+/obj/item/food/lebkuchen
+	name = "lebkuchen"
+	desc = "A German holiday favourite made with spices, nuts and fruit."
+
+/obj/item/food/nice_biscuit
+	name = "nice biscuit"
+	desc = "That's \"Nice\" as in the French city, although they are also very nice."
+
+/obj/item/food/linzer_biscuit //jammy dodger
+	name = "linzer biscuit"
+	desc = "Mmm, jammy."
+
+/obj/item/food/petit_beurre
+	name = "petit-beurre"
+	desc = "A French take on shortbread. The name literally translates to \"little butter\", an ironic name given they're about 20% butter by weight."
+
+/obj/item/food/vanillekipferl
+	name = "vanillekipferl"
+	desc = "A Central European treat made with almonds and vanilla."
+
+/obj/item/food/coyota
+	name = "coyota"
+	desc = "A Mexican biscuit that's not really a biscuit- it's more like an empanada. Though there are lots of options for fillings, brown sugar is the most common."
+
+/obj/item/food/tea_biscuit
+	name = "tea biscuit"
+	desc = "I say, jolly good."
 
 // Donuts
 /obj/item/food/donut/maple
@@ -95,9 +215,6 @@
 /obj/item/food/baba_au_rhum
 	name = "baba au rhum"
 
-/obj/item/food/madeleine
-	name = "madeleine"
-
 /obj/item/food/mille_feuille
 	name = "mille-feuille"
 
@@ -106,9 +223,6 @@
 
 /obj/item/food/pain_aux_raisins
 	name = "pain aux raisins"
-
-/obj/item/food/palmier
-	name = "palmier"
 
 /obj/item/food/macaron
 	name = "vanilla macaron"
@@ -140,13 +254,16 @@
 /obj/item/food/eclair/hazelnut
 	name = "hazelnut eclair"
 
-/obj/item/food/mendiant
-	name = "mendiant"
-
 /obj/item/food/peach_melba
 	name = "peach melba"
 
 // German
+/obj/item/food/raw_nussecke_tray
+	name = "raw nußecke tray"
+
+/obj/item/food/nussecke_tray
+	name = "nußecke tray"
+
 /obj/item/food/nussecke
 	name = "nußecke"
 	desc = "A German dessert of shortbread, jam, and caramelised hazelnuts, with a small dip of dark chocolate. Dense, chewy and delicious."
@@ -190,9 +307,6 @@
 	desc = "A litle slice of a bienenstich cake. Makes a good accompaniment to coffee."
 
 // Dutch/Belgian
-/obj/item/food/speculoos
-	name = "speculoos biscuit"
-
 /obj/item/food/stroopwafel
 	name = "stroopwafel"
 
@@ -204,18 +318,11 @@
 	name = "slice of princess cake"
 
 // Italian
-/obj/item/food/biscotti
-	name = "biscotti"
-	desc = "A sweet Italian almond-based biscuit. Best eaten dunked in a drink, typically coffee."
-
 /obj/item/food/cake/tiramisu
 	name = "tray of tiramisu"
 
 /obj/item/food/cakeslice/tiramisu
 	name = "tiramisu"
-
-/obj/item/food/pizzelle
-	name = "pizzelle"
 
 /obj/item/food/sfogliatella
 	name = "sfogliatella"
@@ -256,7 +363,7 @@
 
 /obj/item/food/cake/peppermint_slice
 	name = "tray of peppermint slice"
-	desc = ""
+	desc = "A classic no-bake dessert. Peppermint icing, a buttery biscuit base, and a chocolate topping come together in perfect harmony."
 
 /obj/item/food/cakeslice/peppermint_slice
 	name = "peppermint slice"
@@ -264,11 +371,11 @@
 
 /obj/item/food/cake/battenberg
 	name = "battenberg cake"
-	desc = ""
+	desc = "A traditional British cake with two colours of cakey goodness, stuck together with jam and covered in marzipan. I say, good sir."
 
 /obj/item/food/cakeslice/battenberg
 	name = "slice of battenberg cake"
-	desc = ""
+	desc = "A little slice of battenberg cake. Jolly good, good sir."
 
 /obj/item/food/cake/babka
 	name = "babka"
@@ -288,7 +395,7 @@
 
 /obj/item/food/cake/lokum
 	name = "tray of lokum"
-	desc = "A sweet treat from the Middle East, traditionally associated with Turkey. Can be eaten anytime, but goes especially well with a cup of coffee, Turkish-style if possible."
+	desc = "A sweet treat from the Middle East, traditionally associated with Turkey. Can be eaten anytime, but goes especially well with a cup of coffee, Turkish-style if available."
 
 /obj/item/food/cakeslice/lokum
 	name = "piece of lokum"
@@ -304,14 +411,69 @@
 /obj/item/food/cakeslice/scone
 	name = "sliced scone"
 
-/obj/item/food/empire_biscuit
-	name = "empire biscuit"
+/obj/item/food/cake/scone/cheese
+	name = "cheese scone"
+
+/obj/item/food/cakeslice/scone
+	name = "sliced cheese scone"
+
+/obj/item/food/cake/scone/fruit
+	name = "fruit scone"
+
+/obj/item/food/cakeslice/scone
+	name = "sliced fruit scone"
+
+/obj/item/food/cake/scone/treacle
+	name = "treacle scone"
+
+/obj/item/food/cakeslice/scone
+	name = "sliced treacle scone"
 
 /obj/item/food/cranachan
 	name = "cranachan"
 
-/obj/item/food/halfmoon_cookie
-	name = "halfmoon cookie"
+// Coffee Desserts
+/obj/item/food/affogato
+	name = "espresso affogato"
+
+/obj/item/food/cake/coffee
+	name = "coffee cake"
+
+/obj/item/food/cakeslice/coffee
+	name = "slice of coffee cake"
+
+/obj/item/food/cake/espresso_cheesecake
+	name = "espresso martini cheesecake"
+
+/obj/item/food/cakeslice/espresso_cheesecake
+	name = "slice of espresso martini cheesecake"
+
+/obj/item/food/panna_cotta/espresso
+	name = "espresso panna cotta"
+
+/obj/item/food/cake/swiss_roll
+	name = "vanilla swiss roll"
+
+/obj/item/food/cakeslice/swiss_roll
+	name = "slice of vanilla swiss roll"
+
+/obj/item/food/cake/swiss_roll/chocolate
+	name = "chocolate swiss roll"
+
+/obj/item/food/cakeslice/swiss_roll
+	name = "slice of chocolate swiss roll"
+
+/obj/item/food/cake/chocolate_marquise
+	name = "chocolate marquise"
+
+/obj/item/food/cakeslice/chocolate_marquise
+	name = "slice of chocolate marquise"
+
+/obj/item/food/cake/sachertorte
+	name = "sachertorte"
+
+/obj/item/food/cakeslice/sachertorte
+	name = "slice of sachertorte"
 
 // You've heard of donut holes- but what if they were 50 cents a pop, and had a funny name?
 // Enter the Jimmini!
