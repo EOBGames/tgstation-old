@@ -58,7 +58,7 @@
 	icon_state = "plasma-flower"
 	desc = "A strange flower from the desolate wastes of lavaland. It pulses with a bright purple glow.  \
 		Its shape is remarkably similar to that of a MOD core."
-	light_system = MOVABLE_LIGHT
+	light_system = OVERLAY_LIGHT
 	light_color = "#cc00cc"
 	light_range = 2
 
@@ -281,18 +281,18 @@
 	QDEL_NULL(boots)
 	return ..()
 
-/obj/item/mod/construction/shell/handle_atom_del(atom/deleted_atom)
-	if(deleted_atom == core)
+/obj/item/mod/construction/shell/Exited(atom/movable/gone, direction)
+	. = ..()
+	if(gone == core)
 		core = null
-	if(deleted_atom == helmet)
+	if(gone == helmet)
 		helmet = null
-	if(deleted_atom == chestplate)
+	if(gone == chestplate)
 		chestplate = null
-	if(deleted_atom == gauntlets)
+	if(gone == gauntlets)
 		gauntlets = null
-	if(deleted_atom == boots)
+	if(gone == boots)
 		boots = null
-	return ..()
 
 #undef START_STEP
 #undef CORE_STEP

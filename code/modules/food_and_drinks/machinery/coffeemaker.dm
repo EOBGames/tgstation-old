@@ -46,10 +46,9 @@
 		coffeepot = new /obj/item/reagent_containers/cup/coffeepot(src)
 		cartridge = new /obj/item/coffee_cartridge(src)
 
-/obj/machinery/coffeemaker/deconstruct()
+/obj/machinery/coffeemaker/on_deconstruction(disassembled)
 	coffeepot?.forceMove(drop_location())
 	cartridge?.forceMove(drop_location())
-	return ..()
 
 /obj/machinery/coffeemaker/Destroy()
 	QDEL_NULL(coffeepot)
@@ -57,11 +56,13 @@
 	return ..()
 
 /obj/machinery/coffeemaker/Exited(atom/movable/gone, direction)
+	. = ..()
 	if(gone == coffeepot)
 		coffeepot = null
+		update_appearance(UPDATE_OVERLAYS)
 	if(gone == cartridge)
 		cartridge = null
-	return ..()
+		update_appearance(UPDATE_OVERLAYS)
 
 /obj/machinery/coffeemaker/RefreshParts()
 	. = ..()
@@ -140,14 +141,6 @@
 /obj/machinery/coffeemaker/attack_ai_secondary(mob/user, list/modifiers)
 	return attack_hand_secondary(user, modifiers)
 
-/obj/machinery/coffeemaker/handle_atom_del(atom/A)
-	. = ..()
-	if(A == coffeepot)
-		coffeepot = null
-	if(A == cartridge)
-		cartridge = null
-	update_appearance(UPDATE_OVERLAYS)
-
 /obj/machinery/coffeemaker/update_overlays()
 	. = ..()
 	. += overlay_checks()
@@ -199,7 +192,7 @@
 /obj/machinery/coffeemaker/wrench_act(mob/living/user, obj/item/tool)
 	. = ..()
 	default_unfasten_wrench(user, tool)
-	return TOOL_ACT_TOOLTYPE_SUCCESS
+	return ITEM_INTERACT_SUCCESS
 
 /obj/machinery/coffeemaker/attackby(obj/item/attack_item, mob/living/user, params)
 	//You can only screw open empty grinder
@@ -735,11 +728,12 @@
 	contents_tag = "coffee cartridge"
 	open_status = FANCY_CONTAINER_ALWAYS_OPEN
 	spawn_type = /obj/item/coffee_cartridge
+	spawn_count = 1
 
 /obj/item/storage/fancy/coffee_cart_rack/Initialize(mapload)
 	. = ..()
 	atom_storage.max_slots = 4
-	atom_storage.set_holdable(list(/obj/item/coffee_cartridge))
+	atom_storage.set_holdable(/obj/item/coffee_cartridge)
 
 /obj/machinery/coffeemaker/tea_brewer
 	name = "\improper Infuso 6 tea brewer"
@@ -781,13 +775,6 @@
 	QDEL_NULL(coffee)
 	return ..()
 
-/obj/machinery/coffeemaker/impressa/Exited(atom/movable/gone, direction)
-	if(gone == coffeepot)
-		coffeepot = null
-	if(gone == coffee)
-		coffee = null
-	return ..()
-
 /obj/machinery/coffeemaker/impressa/examine(mob/user)
 	. = ..()
 	if(coffee)
@@ -825,13 +812,11 @@
 			. += "impressa_grinder_full"
 	return .
 
-/obj/machinery/coffeemaker/impressa/handle_atom_del(atom/A)
+/obj/machinery/coffeemaker/impressa/Exited(atom/movable/gone, direction)
 	. = ..()
-	if(A == coffeepot)
-		coffeepot = null
-	if(A == coffee)
-		coffee.Cut()
-	update_appearance(UPDATE_OVERLAYS)
+	if(gone in coffee)
+		coffee -= gone
+		update_appearance(UPDATE_OVERLAYS)
 
 /obj/machinery/coffeemaker/impressa/try_brew()
 	if(coffee_amount <= 0)
