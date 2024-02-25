@@ -110,6 +110,10 @@
 /area/station/security/execution/education
 	name = "\improper Prisoner Education Chamber"
 
+/area/station/security/mechbay
+	name = "Security Mechbay"
+	icon_state = "sec_mechbay"
+
 /*
 * Security Checkpoints
 */
@@ -177,9 +181,6 @@
 	name = "Security Post - Third Floor"
 	icon_state = "checkpoint_3"
 
-/*
-* Prison Areas
-*/
 
 /area/station/security/prison
 	name = "\improper Prison Wing"
