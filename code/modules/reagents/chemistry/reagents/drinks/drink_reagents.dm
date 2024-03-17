@@ -242,6 +242,34 @@
 		if(affected_mob.heal_bodypart_damage(1, 0))
 			return UPDATE_MOB_HEALTH
 
+/datum/reagent/consumable/oat_milk
+	name = "Oat Milk"
+	description = "An opaque white liquid made from soybeans."
+	color = "#DFDFC7" // rgb: 223, 223, 199
+	taste_description = "oat milk"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	default_container = /obj/item/reagent_containers/condiment/oat_milk
+
+/datum/reagent/consumable/oat_milk/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
+	. = ..()
+	if(affected_mob.getBruteLoss() && SPT_PROB(10, seconds_per_tick))
+		if(affected_mob.heal_bodypart_damage(1, 0))
+			return UPDATE_MOB_HEALTH
+
+/datum/reagent/consumable/almond_milk
+	name = "Almond Milk"
+	description = "An opaque white liquid made from soybeans."
+	color = "#DFDFC7" // rgb: 223, 223, 199
+	taste_description = "almond milk"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	default_container = /obj/item/reagent_containers/condiment/almond_milk
+
+/datum/reagent/consumable/almond_milk/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
+	. = ..()
+	if(affected_mob.getBruteLoss() && SPT_PROB(10, seconds_per_tick))
+		if(affected_mob.heal_bodypart_damage(1, 0))
+			return UPDATE_MOB_HEALTH
+
 /datum/reagent/consumable/cream
 	name = "Cream"
 	description = "The fatty, still liquid part of milk. Why don't you mix this with sum scotch, eh?"
