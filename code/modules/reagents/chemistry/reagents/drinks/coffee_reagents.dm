@@ -786,7 +786,7 @@
 
 /datum/reagent/consumable/tea/esanarak
 	name = "Es'anarak"
-	description = "A herbal tea infusion from the Ethereal homeworld, Sprout. Pairs a complex acidity with a clean, crisp finish; oh, and a touch of electricity, of course."
+	description = "An algal tea infusion from the Ethereal homeworld, Sprout. Pairs a complex acidity with a clean, crisp finish; oh, and a touch of electricity, of course."
 
 //MIXED TEA BEVERAGES
 /datum/reagent/consumable/tea/lemon

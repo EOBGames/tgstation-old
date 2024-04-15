@@ -774,6 +774,30 @@
 	icon_state = "coconut_rum_bottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/coconut_rum = 100)
 
+/obj/item/reagent_containers/cup/glass/bottle/garibaldi
+	name = "Liquore Garibaldi l'Autentico"
+	desc = "An obscure vanilla-and-herb liqueur, named for an Italian general and used in a variety of kitschy cocktails."
+	icon_state = "garibaldi_bottle"
+	list_reagents = list(/datum/reagent/consumable/ethanol/garibaldi = 100)
+
+/obj/item/reagent_containers/cup/glass/bottle/inlaender_rum
+	name = "Schnee 60"
+	desc = "A bottle of authentic Schnee 60, ethically harvested from a Saint Bernard's collar."
+	icon_state = "inlaender_rum_bottle"
+	list_reagents = list(/datum/reagent/consumable/ethanol/inlaender_rum = 100)
+
+/obj/item/reagent_containers/cup/glass/bottle/licor_milagroso
+	name = "Licor Milagroso"
+	desc = "Spain's best kept secret- well, the recipe, at least."
+	icon_state = "licor_milagroso_bottle"
+	list_reagents = list(/datum/reagent/consumable/ethanol/licor_milagroso = 100)
+
+/obj/item/reagent_containers/cup/glass/bottle/advocaat
+	name = "Lloyd's Golden Advocaat"
+	desc = "A tasty liqueur named after Dutch lawyers. Be careful, though- it tends to stain."
+	icon_state = "advocaat_bottle"
+	list_reagents = list(/datum/reagent/consumable/ethanol/advocaat = 100)
+
 ////////////////////////// MOLOTOV ///////////////////////
 /obj/item/reagent_containers/cup/glass/bottle/molotov
 	name = "molotov cocktail"
