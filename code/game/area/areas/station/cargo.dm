@@ -54,6 +54,31 @@
 	name = "\improper Mining Office"
 	icon_state = "mining"
 
+/area/station/cargo/break_room
+	name = "\improper Cargo Breakroom"
+
+/*
+* Departmental Mailrooms
+*/
+
+/area/station/cargo/dep_mailroom
+	name = "\improper Department Mailroom"
+
+/area/station/cargo/dep_mailroom/engineering
+	name = "\improper Engineering Department Mailroom"
+
+/area/station/cargo/dep_mailroom/science
+	name = "\improper Research Department Mailroom"
+
+/area/station/cargo/dep_mailroom/medical
+	name = "\improper Medical Department Mailroom"
+
+/area/station/cargo/dep_mailroom/security
+	name = "\improper Security Department Mailroom"
+
+/area/station/cargo/dep_mailroom/service
+	name = "\improper Service Department Mailroom"
+
 /area/station/cargo/miningfoundry
 	name = "\improper Mining Foundry"
 	icon_state = "mining_foundry"

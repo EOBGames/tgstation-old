@@ -37,6 +37,11 @@ map metastation
 	votable
 endmap
 
+map chilledstation
+	minplayers 40
+	votable
+endmap
+
 map northstar
 	minplayers 50
 	votable
