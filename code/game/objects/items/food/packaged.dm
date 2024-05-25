@@ -323,3 +323,22 @@
 
 /obj/item/food/rationpack/proc/check_liked(mob/mob) //Nobody likes rationpacks. Nobody.
 	return FOOD_DISLIKED
+
+// Foodpacks
+/obj/item/storage/box/foodpack
+	name = "foodpack"
+	desc = "A pack of food. Revolutionary, I know."
+
+/obj/item/storage/box/foodpack/complete_french_breakfast
+	name = "\improper P'tit Complete French Breakfast"
+	desc = "P'tit's most complete breakfast option, complete with bread, a croissant, various spreads, and a microwaveable omelette. Bon appetit!"
+
+/obj/item/food/packaged_croissant
+	name = "packaged croissant"
+	desc = "A shelf-stable croissant. It's a bit dry and squashed, but it makes for an adequate start to the day."
+	food_reagents = list(/datum/reagent/consumable/nutriment = 4)
+	tastes = list("squashed pastry" = 1, "butter" = 2)
+
+/obj/item/food/packaged_bread_roll
+	name = "packaged bread roll"
+	desc = "A shelf-stable bread roll. Fine dining this ain't, but it <i>is</i> at least bread."
