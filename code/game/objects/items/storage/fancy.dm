@@ -395,7 +395,7 @@
 
 /obj/item/storage/fancy/cigarettes/new_moscow_blacks
 	name = "\improper New Moscow Blacks packet"
-	desc = "The Spinward Sector's most premium cigarette brand. The smokable of choice for celebrities, oligarchs, and corrupt heads of state."
+	desc = "The Spinward Sector's most premium cigarette brand. The smokable of choice of the SSC's own (highly corrupt) president, Oleksandr Kushnirenko."
 	icon_state = "new_moscow_blacks"
 	base_icon_state = "new_moscow_blacks"
 	spawn_type = /obj/item/clothing/mask/cigarette/new_moscow_blacks
