@@ -339,12 +339,67 @@
 	base_icon_state = "robustg"
 	spawn_type = /obj/item/clothing/mask/cigarette/robustgold
 
+/obj/item/storage/fancy/cigarettes/cigpack_luckystars
+	name = "\improper Lucky Stars packet"
+	desc = "Lucky Stars: the cigarette that won the Xeno Wars, with that mellow, toasty flavour that marines just can't get enough of."
+	icon_state = "luckystars"
+	base_icon_state = "luckystars"
+	spawn_type = /obj/item/clothing/mask/cigarette/luckystars
+
+/obj/item/storage/fancy/cigarettes/cigpack_blackjack
+	name = "\improper Blackjack Royale packet"
+	desc = "Produced from synthtobacco in the heart of the SSC, the smooth, clean taste of Blackjack Royale is the modern proleteriat's choice, accept no substitutes."
+	icon_state = "blackjack"
+	base_icon_state = "blackjack"
+	spawn_type = /obj/item/clothing/mask/cigarette/aceofhearts
+
 /obj/item/storage/fancy/cigarettes/cigpack_carp
 	name = "\improper Carp Classic packet"
 	desc = "Since 2313."
 	icon_state = "carp"
 	base_icon_state = "carp"
 	spawn_type = /obj/item/clothing/mask/cigarette/carp
+
+/obj/item/storage/fancy/cigarettes/cigpack_noirs
+	name = "\improper Noirs 120s packet"
+	desc = "Long, bold, and made with the finest synthtobacco from Adasté. For the discerning chainsmoker."
+	icon_state = "noirs"
+	base_icon_state = "noirs"
+	spawn_type = /obj/item/clothing/mask/cigarette/noirs
+
+/obj/item/storage/fancy/cigarettes/cigpack_holy_smokes
+	name = "\improper Holy Smokes! packet"
+	desc = "Machine-rolled by monks from Santos Discipulos, it's Holy Smokes!, the galaxy's first (and indeed, only) religious cigarette brand."
+	icon_state = "holy_smokes"
+	base_icon_state = "holy_smokes"
+	spawn_type = /obj/item/clothing/mask/cigarette/holy_smokes
+
+/obj/item/storage/fancy/cigarettes/cigpack_gagarin
+	name = "\improper Gagarin packet"
+	desc = "An old, damp pack of Gagarins- once the Third Soviet Union's favourite cigarette, last produced in 2505." // alright, let's get this out onto a tray... nice!
+	icon_state = "gagarin_yuck"
+	base_icon_state = "gagarin_yuck"
+	spawn_type = /obj/item/clothing/mask/cigarette/gagarin
+
+/obj/item/storage/fancy/cigarettes/cigpack_gagarin/pristine
+	desc = "A perfectly-preserved pack of Gagarins- once the Third Soviet Union's favourite cigarette, last produced in 2505." // oh boy steve's hit the jackpot this time
+	icon_state = "gagarin_pristine"
+	base_icon_state = "gagarin_pristine"
+	spawn_type = /obj/item/clothing/mask/cigarette/gagarin/pristine
+
+/obj/item/storage/fancy/cigarettes/cigpack_newmoscowblacks
+	name = "\improper New Moscow Blacks packet"
+	desc = "The Spinward Sector's most premium cigarette brand. The smokable of choice of the SSC's own (highly corrupt) president, Oleksandr Kushnirenko."
+	icon_state = "new_moscow_blacks"
+	base_icon_state = "new_moscow_blacks"
+	spawn_type = /obj/item/clothing/mask/cigarette/new_moscow_blacks
+
+/obj/item/storage/fancy/cigarettes/cigpack_muertelibre
+	name = "\improper Muerte Libres packet"
+	desc = "A pack of Muerte Libre kreteks. Has an acquired taste, but is well liked amongst the weirdest people you know."
+	icon_state = "muerte_libre"
+	base_icon_state = "muerte_libre"
+	spawn_type = /obj/item/clothing/mask/cigarette/muerte_libre
 
 /obj/item/storage/fancy/cigarettes/cigpack_syndicate
 	name = "cigarette packet"

@@ -540,6 +540,7 @@
 	premium = list(
 		/obj/item/clothing/head/chaplain/bishopmitre = 1,
 		/obj/item/clothing/suit/chaplainsuit/bishoprobe = 1,
+		/obj/item/storage/fancy/cigarettes/cigpack_holy_smokes = 3,
 	)
 	refill_canister = /obj/item/vending_refill/wardrobe/chap_wardrobe
 	payment_department = ACCOUNT_SRV

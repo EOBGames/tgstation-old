@@ -128,7 +128,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 /obj/item/clothing/mask/cigarette
 	name = "cigarette"
 	desc = "A roll of tobacco and nicotine."
-	icon_state = "cigoff"
+	icon_state = "basic"
 	inhand_icon_state = "cigon" //gets overriden during intialize(), just have it for unit test sanity.
 	throw_speed = 0.5
 	w_class = WEIGHT_CLASS_TINY
@@ -486,6 +486,8 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 // Cigarette brands.
 /obj/item/clothing/mask/cigarette/space_cigarette
 	desc = "A Space brand cigarette that can be smoked anywhere."
+	icon_state = "spacecig"
+	lit_type = "blue"
 	list_reagents = list(/datum/reagent/drug/nicotine = 9, /datum/reagent/oxygen = 9)
 	smoketime = 4 MINUTES // space cigs have a shorter burn time than normal cigs
 	smoke_all = TRUE // so that it doesn't runout of oxygen while being smoked in space
@@ -496,6 +498,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 
 /obj/item/clothing/mask/cigarette/uplift
 	desc = "An Uplift Smooth brand cigarette. Smells refreshing."
+	icon_state = "uplift"
 	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/consumable/menthol = 5)
 
 /obj/item/clothing/mask/cigarette/robust
@@ -503,7 +506,17 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 
 /obj/item/clothing/mask/cigarette/robustgold
 	desc = "A Robust Gold brand cigarette."
+	icon_state = "robustgold"
 	list_reagents = list(/datum/reagent/drug/nicotine = 15, /datum/reagent/gold = 3) // Just enough to taste a hint of expensive metal.
+
+/obj/item/clothing/mask/cigarette/luckystars
+	desc = "A Lucky Stars brand cigarette."
+	icon_state = "luckystars"
+	list_reagents = list(/datum/reagent/drug/nicotine = 15, /datum/reagent/consumable/char = 3) // it's toasted
+
+/obj/item/clothing/mask/cigarette/blackjack
+	desc = "A Blackjack Royale brand cigarette."
+	icon_state = "blackjack"
 
 /obj/item/clothing/mask/cigarette/carp
 	desc = "A Carp Classic brand cigarette. A small label on its side indicates that it does NOT contain carpotoxin."
@@ -514,8 +527,47 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		return
 	reagents?.add_reagent(/datum/reagent/toxin/carpotoxin , 3) // They lied
 
+/obj/item/clothing/mask/cigarette/noirs
+	desc = "A Noirs 120s brand cigarette."
+	icon_state = "noirs"
+	cig_size = "extra-long"
+	chem_volume = 45 // It's a 120mm- about 50% larger than a regular cigarette
+	lung_harm = 1.5
+	list_reagents = list(/datum/reagent/drug/nicotine = 24, /datum/reagent/consumable/ethanol/cognac = 3)
+
+/obj/item/clothing/mask/cigarette/holy_smokes
+	desc = "A Holy Smokes! brand cigarette."
+	icon_state = "holysmokes"
+	list_reagents = list(/datum/reagent/drug/nicotine = 15, /datum/reagent/water/holywater = 3)
+
+/obj/item/clothing/mask/cigarette/gagarin
+	desc = "A Gagarin brand cigarette. Looks a bit mouldy."
+	icon_state = "gagarin_mouldy"
+	lung_harm = 1.5 // it's literally filled with mould
+	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/consumable/mold = 3) // why exactly did you decide to smoke the 50 year old cigarettes?
+
+/obj/item/clothing/mask/cigarette/gagarin/pristine
+	desc = "A Gagarin brand cigarette. Looks perfectly preserved."
+	icon_state = "gagarin_pristine"
+	lung_harm = 0.5 // breathe easy, comrade
+	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/medicine/salbutamol = 3) //oh, that's why
+
+/obj/item/clothing/mask/cigarette/new_moscow_blacks
+	desc = "A New Moscow Black brand cigarette."
+	icon_state = "newmoscow"
+	list_reagents = list(/datum/reagent/drug/nicotine = 15, /datum/reagent/consumable/honey = 3)
+
+/obj/item/clothing/mask/cigarette/muerte_libre
+	desc = "A Muerte Libre brand kretek."
+	icon_state = "muertelibre"
+	lung_harm = 1.5
+	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/consumable/blackpepper = 3)
+
 /obj/item/clothing/mask/cigarette/syndicate
 	desc = "An unknown brand cigarette."
+	icon_state = "syndie"
+	lit_type = "blue"
+	cig_size = "extra-long"
 	chem_volume = 60
 	smoketime = 2 MINUTES
 	smoke_all = TRUE
@@ -524,11 +576,14 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 
 /obj/item/clothing/mask/cigarette/shadyjims
 	desc = "A Shady Jim's Super Slims cigarette."
+	icon_state = "shadyjims"
 	lung_harm = 1.5
 	list_reagents = list(/datum/reagent/drug/nicotine = 15, /datum/reagent/toxin/lipolicide = 4, /datum/reagent/ammonia = 2, /datum/reagent/toxin/plantbgone = 1, /datum/reagent/toxin = 1.5)
 
 /obj/item/clothing/mask/cigarette/xeno
 	desc = "A Xeno Filtered brand cigarette."
+	icon_state = "slime"
+	lit_type = "spliff_blue"
 	lung_harm = 2
 	list_reagents = list (/datum/reagent/drug/nicotine = 20, /datum/reagent/medicine/regen_jelly = 15, /datum/reagent/drug/krokodil = 4)
 
@@ -537,9 +592,8 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 /obj/item/clothing/mask/cigarette/rollie
 	name = "rollie"
 	desc = "A roll of dried plant matter wrapped in thin paper."
-	icon_state = "spliffoff"
-	icon_on = "spliffon"
-	icon_off = "spliffoff"
+	icon_state = "spliff"
+	lit_type = "spliff"
 	type_butt = /obj/item/cigbutt/roach
 	throw_speed = 0.5
 	smoketime = 4 MINUTES
@@ -610,9 +664,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	name = "\improper Little Timmy's candy cigarette"
 	desc = "For all ages*! Doesn't contain any amount of nicotine. Health and safety risks can be read on the tip of the cigarette."
 	smoketime = 2 MINUTES
-	icon_state = "candyoff"
-	icon_on = "candyon"
-	icon_off = "candyoff" //make sure to add positional sprites in icons/obj/cigarettes.dmi if you add more.
+	icon_state = "candy"
 	inhand_icon_off = "candyoff"
 	type_butt = /obj/item/food/candy_trash
 	heat = 473.15 // Lowered so that the sugar can be carmalized, but not burnt.
@@ -643,9 +695,8 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 /obj/item/clothing/mask/cigarette/cigar
 	name = "cigar"
 	desc = "A brown roll of tobacco and... well, you're not quite sure. This thing's huge!"
-	icon_state = "cigaroff"
-	icon_on = "cigaron"
-	icon_off = "cigaroff" //make sure to add positional sprites in icons/obj/cigarettes.dmi if you add more.
+	icon_state = "cigar"
+	lit_type = "cigar"
 	inhand_icon_state = "cigaron" //gets overriden during intialize(), just have it for unit test sanity.
 	inhand_icon_on = "cigaron"
 	inhand_icon_off = "cigaroff"
@@ -658,14 +709,13 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 
 /obj/item/clothing/mask/cigarette/cigar/premium
 	name = "premium cigar"
+	icon_state = "preemcigar"
 	//this is the version that actually spawns in premium cigar cases, the distinction is made so that the smoker quirk can differentiate between the default cigar box and its subtypes
 
 /obj/item/clothing/mask/cigarette/cigar/cohiba
 	name = "\improper Cohiba Robusto cigar"
 	desc = "There's little more you could want from a cigar."
-	icon_state = "cigar2off"
-	icon_on = "cigar2on"
-	icon_off = "cigar2off"
+	icon_state = "robusto"
 	smoketime = 20 MINUTES
 	chem_volume = 80
 	list_reagents = list(/datum/reagent/drug/nicotine = 40)
@@ -673,9 +723,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 /obj/item/clothing/mask/cigarette/cigar/havana
 	name = "premium Havanian cigar"
 	desc = "A cigar fit for only the best of the best."
-	icon_state = "cigar2off"
-	icon_on = "cigar2on"
-	icon_off = "cigar2off"
+	icon_state = "havana"
 	smoketime = 30 MINUTES
 	chem_volume = 60
 	list_reagents = list(/datum/reagent/drug/nicotine = 45)
