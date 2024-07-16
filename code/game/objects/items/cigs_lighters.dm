@@ -520,6 +520,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 
 /obj/item/clothing/mask/cigarette/carp
 	desc = "A Carp Classic brand cigarette. A small label on its side indicates that it does NOT contain carpotoxin."
+	icon_state = "carpclassic"
 
 /obj/item/clothing/mask/cigarette/carp/Initialize(mapload)
 	. = ..()
