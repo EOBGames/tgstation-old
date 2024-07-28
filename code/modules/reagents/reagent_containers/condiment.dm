@@ -226,6 +226,26 @@
 	list_reagents = list(/datum/reagent/consumable/soymilk = 50)
 	fill_icon_thresholds = null
 
+/obj/item/reagent_containers/condiment/oat_milk
+	name = "oat milk"
+	desc = "It's oat milk. The most hipster of the milks!"
+	icon_state = "oat_milk"
+	inhand_icon_state = "carton"
+	lefthand_file = 'icons/mob/inhands/items/drinks_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/items/drinks_righthand.dmi'
+	list_reagents = list(/datum/reagent/consumable/oat_milk = 50)
+	fill_icon_thresholds = null
+
+/obj/item/reagent_containers/condiment/almond_milk
+	name = "almond milk"
+	desc = "It's almond milk. Makes passable coffee!"
+	icon_state = "almondmilk"
+	inhand_icon_state = "carton"
+	lefthand_file = 'icons/mob/inhands/items/drinks_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/items/drinks_righthand.dmi'
+	list_reagents = list(/datum/reagent/consumable/almond_milk = 50)
+	fill_icon_thresholds = null
+
 /obj/item/reagent_containers/condiment/rice
 	name = "rice sack"
 	desc = "A big bag of rice. Good for cooking!"

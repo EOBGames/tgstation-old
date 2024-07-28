@@ -473,7 +473,7 @@
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/datum/reagent/consumable/sugar = 5,
-		/datum/reagent/consumable/coffee = 5
+		/datum/reagent/consumable/coffee/instant = 5
 	)
 	result = /obj/item/food/cookie/sugar/spookycoffin
 	category = CAT_PASTRY

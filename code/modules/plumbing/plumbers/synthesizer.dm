@@ -124,7 +124,7 @@
 
 	//Copied from soda dispenser
 	var/static/list/soda_reagents = list(
-		/datum/reagent/consumable/coffee,
+		/datum/reagent/consumable/coffee/instant,
 		/datum/reagent/consumable/space_cola,
 		/datum/reagent/consumable/cream,
 		/datum/reagent/consumable/dr_gibb,

@@ -2,14 +2,6 @@
 	results = list(/datum/reagent/consumable/icetea = 4)
 	required_reagents = list(/datum/reagent/consumable/ice = 1, /datum/reagent/consumable/tea = 3)
 
-/datum/chemical_reaction/drink/icecoffee
-	results = list(/datum/reagent/consumable/icecoffee = 4)
-	required_reagents = list(/datum/reagent/consumable/ice = 1, /datum/reagent/consumable/coffee = 3)
-
-/datum/chemical_reaction/drink/hoticecoffee
-	results = list(/datum/reagent/consumable/hot_ice_coffee = 3)
-	required_reagents = list(/datum/reagent/toxin/hot_ice = 1, /datum/reagent/consumable/coffee = 2)
-
 /datum/chemical_reaction/drink/nuka_cola
 	results = list(/datum/reagent/consumable/nuka_cola = 6)
 	required_reagents = list(/datum/reagent/uranium = 1, /datum/reagent/consumable/space_cola = 6)
@@ -18,14 +10,6 @@
 	results = list(/datum/reagent/consumable/doctor_delight = 5)
 	required_reagents = list(/datum/reagent/consumable/limejuice = 1, /datum/reagent/consumable/tomatojuice = 1, /datum/reagent/consumable/orangejuice = 1, /datum/reagent/consumable/cream = 1, /datum/reagent/medicine/cryoxadone = 1)
 	reaction_tags = REACTION_TAG_DRINK | REACTION_TAG_EASY | REACTION_TAG_BRUTE | REACTION_TAG_BURN | REACTION_TAG_TOXIN | REACTION_TAG_OXY
-
-/datum/chemical_reaction/drink/soy_latte
-	results = list(/datum/reagent/consumable/soy_latte = 2)
-	required_reagents = list(/datum/reagent/consumable/coffee = 1, /datum/reagent/consumable/soymilk = 1)
-
-/datum/chemical_reaction/drink/cafe_latte
-	results = list(/datum/reagent/consumable/cafe_latte = 2)
-	required_reagents = list(/datum/reagent/consumable/coffee = 1, /datum/reagent/consumable/milk = 1)
 
 /datum/chemical_reaction/drink/cherryshake
 	results = list(/datum/reagent/consumable/cherryshake = 3)
@@ -54,10 +38,6 @@
 /datum/chemical_reaction/drink/bananashake
 	results = list(/datum/reagent/consumable/bananashake = 3)
 	required_reagents = list(/datum/reagent/consumable/banana = 1, /datum/reagent/consumable/ice = 1, /datum/reagent/consumable/cream = 1)
-
-/datum/chemical_reaction/drink/pumpkin_latte
-	results = list(/datum/reagent/consumable/pumpkin_latte = 15)
-	required_reagents = list(/datum/reagent/consumable/pumpkinjuice = 5, /datum/reagent/consumable/coffee = 5, /datum/reagent/consumable/cream = 5)
 
 /datum/chemical_reaction/drink/gibbfloats
 	results = list(/datum/reagent/consumable/gibbfloats = 15)
@@ -101,14 +81,6 @@
 	results = list(/datum/reagent/consumable/hot_coco = 3)
 	required_reagents = list(/datum/reagent/consumable/milk/chocolate_milk = 1, /datum/reagent/consumable/milk = 2)
 	required_temp = 320
-
-/datum/chemical_reaction/drink/coffee
-	results = list(/datum/reagent/consumable/coffee = 5)
-	required_reagents = list(/datum/reagent/toxin/coffeepowder = 1, /datum/reagent/water = 5)
-
-/datum/chemical_reaction/drink/tea
-	results = list(/datum/reagent/consumable/tea = 5)
-	required_reagents = list(/datum/reagent/toxin/teapowder = 1, /datum/reagent/water = 5)
 
 /datum/chemical_reaction/drink/cream_soda
 	results = list(/datum/reagent/consumable/cream_soda = 4)

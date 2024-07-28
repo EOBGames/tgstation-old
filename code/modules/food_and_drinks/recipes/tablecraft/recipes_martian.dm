@@ -215,7 +215,7 @@
 		/datum/reagent/consumable/honey = 3,
 		/datum/reagent/consumable/ketchup = 3,
 		/obj/item/food/chocolatebar = 1,
-		/datum/reagent/consumable/coffee = 3,
+		/datum/reagent/consumable/dry_instant_coffee = 2,
 		/datum/reagent/consumable/ethanol/wine = 3,
 		/datum/reagent/consumable/curry_powder = 3,
 		/obj/item/food/meat/slab = 1,

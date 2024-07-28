@@ -13,10 +13,14 @@
 	var/brewing = FALSE
 	var/brew_time = 20 SECONDS
 	var/speed = 1
+	/// The coffee cartridge to make coffee from. In the future, coffee grounds are like printer ink.
+	var/obj/item/coffee_cartridge/espresso/cartridge = null
+	/// The coffee cartridge to make coffee from. In the future, coffee grounds are like printer ink.
+	var/obj/item/reagent_containers/cup/glass/milk_canister/milk_container = null
 	/// The setting for water use. Determines the type of espresso being made: 1 = Engine Slag, 2 = Ristretto, 3 = Espresso, 4 = Lungo, 3 is default
 	var/water_setting = 3
 	/// The coffee cartridge to make coffee from. This model only takes S-N-E-S model cartridges, so no accepted_cartridge_type is necessary.
-	var/obj/item/coffee_cartridge/espresso/cartridge = null
+	var/obj/item/coffee_cartridge/cartridge = null
 	/// The type path to instantiate for the coffee cartridge the device initially comes with, eg. /obj/item/coffee_cartridge
 	var/initial_cartridge = /obj/item/coffee_cartridge/espresso
 
@@ -28,9 +32,20 @@
 	var/static/radial_take_sugar = image(icon = 'icons/hud/radial_coffee.dmi', icon_state = "radial_take_sugar")
 	var/static/radial_take_sweetener = image(icon = 'icons/hud/radial_coffee.dmi', icon_state = "radial_take_sweetener")
 	var/static/radial_take_creamer = image(icon = 'icons/hud/radial_coffee.dmi', icon_state = "radial_take_creamer")
+	var/static/radial_water_setting = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_water_setting")
+
+/obj/machinery/espressomaker/Initialize(mapload)
+	. = ..()
+	if(mapload)
+		cartridge = new /obj/item/coffee_cartridge/espresso(src)
+		milk_container = new /obj/item/reagent_containers/cup/glass/milk_canister(src)
+
+/obj/machinery/espressomaker/on_deconstruction(disassembled)
+	coffeepot?.forceMove(drop_location())
+	cartridge?.forceMove(drop_location())
 
 // Espresso cartridges. All use the S-N-E-S model, making them incompatible with other models.
-/obj/item/espresso_cartridge
+/obj/item/coffee_cartridge/espresso
 	name = "espressomaker cartridge - Coffee"
 	desc = "An \"S-N-E-S\" model espressomaker cartridge manufactured by Piccionaia Coffee, for use with the Fabbrica 7 system. This is loaded with coffee grounds, to make basic espresso."
 	icon_state = "cartridge_espresso_basic"

@@ -506,7 +506,7 @@
 	show_ph = FALSE
 	/// The default list of reagents dispensable by the soda dispenser
 	var/static/list/drinks_dispensable_reagents = list(
-		/datum/reagent/consumable/coffee,
+		/datum/reagent/consumable/coffee/instant,
 		/datum/reagent/consumable/space_cola,
 		/datum/reagent/consumable/cream,
 		/datum/reagent/consumable/dr_gibb,

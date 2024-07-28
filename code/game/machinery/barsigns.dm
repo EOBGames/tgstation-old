@@ -502,6 +502,8 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/barsign, 32)
 // Cafe Signs
 /datum/barsign/jim_norton
 	name = "Jim Norton's"
+	icon_state = "jim_nortons"
+	desc = ""
 
 /datum/barsign/selkie_java
 	name = "Selkie Java Company"
@@ -523,36 +525,36 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/barsign, 32)
 
 /datum/barsign/victoria_greens
 	name = "Victoria Green's Coffee"
-	desc = "The Australicus Sector's favourite coffee chain, 200 years running."
+	desc = "The Australicus Sector's favourite coffee chain, 150 years running."
 
 /datum/barsign/joes
 	name = "Joe's Cafe"
-	icon = "joes"
+	icon_state = "joes"
 	desc = "The cafe where everyone knows your name."
 
 /datum/barsign/twin_rs
 	name = "Twin R's"
-	icon = "twin_rs"
+	icon_state = "twin_rs"
 	desc = "Really, you gotta try the coffee."
 
 /datum/barsign/pigeons_perch
 	name = "The Pigeon's Perch"
-	icon = "pigeons_perch"
+	icon_state = "pigeons_perch"
 	desc = "...coo."
 
 /datum/barsign/cafe_lupin
 	name = "Café Lupin"
-	icon = "cafe_lupin"
+	icon_state = "cafe_lupin"
 	desc = "A favourite hangout of thieves."
 
 /datum/barsign/french_press
 	name = "The French Press"
-	icon = ""
+	icon_state = ""
 	desc = ""
 
 /datum/barsign/javabean
 	name = "The Javabean"
-	icon = ""
+	icon_state = ""
 	desc = "Hungry? Thirsty? I've got just the thing."
 
 /datum/barsign/istanbulite
@@ -561,7 +563,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/barsign, 32)
 
 /datum/barsign/mary_janes
 	name = "Mary Jane's Coffeeshop"
-	desc = ""
+	desc = "Based on the "
 
 /datum/barsign/wiener_hutte
 	name = "Wiener Hütte"
@@ -580,6 +582,12 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/barsign, 32)
 
 /datum/barsign/hiddensigns/syndibarsign
 	name = "Syndi Cat"
+	icon_state = "syndibarsign"
+	desc = "Syndicate or die."
+	neon_color = "#ff0000"
+
+/datum/barsign/hiddensigns/le_fantome
+	name = "Le Fantôme"
 	icon_state = "syndibarsign"
 	desc = "Syndicate or die."
 	neon_color = "#ff0000"

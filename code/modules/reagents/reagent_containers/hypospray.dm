@@ -170,7 +170,7 @@
 	base_icon_state = "stimpen"
 	volume = 20
 	amount_per_transfer_from_this = 20
-	list_reagents = list(/datum/reagent/medicine/ephedrine = 10, /datum/reagent/consumable/coffee = 10)
+	list_reagents = list(/datum/reagent/medicine/ephedrine = 10, /datum/reagent/consumable/coffee/instant = 10)
 
 /obj/item/reagent_containers/hypospray/medipen/stimpack/traitor
 	desc = "A modified stimulants autoinjector for use in combat situations. Has a mild healing effect."

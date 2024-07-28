@@ -96,7 +96,7 @@
 
 /datum/chemical_reaction/pumpup
 	results = list(/datum/reagent/drug/pumpup = 5)
-	required_reagents = list(/datum/reagent/medicine/epinephrine = 2, /datum/reagent/consumable/coffee = 5)
+	required_reagents = list(/datum/reagent/medicine/epinephrine = 2, /datum/reagent/consumable/coffee/instant = 5)
 	reaction_tags = REACTION_TAG_EASY | REACTION_TAG_DRUG | REACTION_TAG_TOXIN | REACTION_TAG_DAMAGING
 
 /datum/chemical_reaction/maint_tar1

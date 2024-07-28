@@ -2225,6 +2225,7 @@
 #include "code\game\objects\items\cigs_lighters.dm"
 #include "code\game\objects\items\climbingrope.dm"
 #include "code\game\objects\items\clown_items.dm"
+#include "code\game\objects\items\coffee.dm"
 #include "code\game\objects\items\control_wand.dm"
 #include "code\game\objects\items\cosmetics.dm"
 #include "code\game\objects\items\courtroom.dm"

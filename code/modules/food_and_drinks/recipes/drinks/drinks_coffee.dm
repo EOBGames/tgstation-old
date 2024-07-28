@@ -296,7 +296,7 @@
 	required_reagents = list(
 		/datum/reagent/consumable/almond_milk = 10,
 		/datum/reagent/consumable/sugar = 10,
-		/datum/reagent/consumable/water = 15,
+		/datum/reagent/water = 15,
 	)
 	results = list(
 		/datum/reagent/consumable/almond_syrup = 30,
@@ -311,7 +311,7 @@
 	required_reagents = list(
 		/datum/reagent/consumable/berryjuice = 10,
 		/datum/reagent/consumable/sugar = 10,
-		/datum/reagent/consumable/water = 15,
+		/datum/reagent/water = 15,
 	)
 	results = list(
 		/datum/reagent/consumable/berry_syrup = 30,
@@ -326,7 +326,7 @@
 	required_reagents = list(
 		/datum/reagent/consumable/capsaicin = 10,
 		/datum/reagent/consumable/sugar = 10,
-		/datum/reagent/consumable/water = 15,
+		/datum/reagent/water = 15,
 	)
 	results = list(
 		/datum/reagent/consumable/chili_syrup = 30,
@@ -341,7 +341,7 @@
 	required_reagents = list(
 		/datum/reagent/consumable/cinnamon = 10,
 		/datum/reagent/consumable/sugar = 10,
-		/datum/reagent/consumable/water = 15,
+		/datum/reagent/water = 15,
 	)
 	results = list(
 		/datum/reagent/consumable/cinnamon_syrup = 30,
@@ -356,7 +356,7 @@
 	required_reagents = list(
 		/datum/reagent/consumable/coffee/fresh_brew = 10,
 		/datum/reagent/consumable/sugar = 10,
-		/datum/reagent/consumable/water = 15,
+		/datum/reagent/water = 15,
 	)
 	results = list(
 		/datum/reagent/consumable/coffee_syrup = 30,
@@ -371,7 +371,7 @@
 	required_reagents = list(
 		/datum/reagent/consumable/hazelnut_milk = 10,
 		/datum/reagent/consumable/sugar = 10,
-		/datum/reagent/consumable/water = 15,
+		/datum/reagent/water = 15,
 	)
 	results = list(
 		/datum/reagent/consumable/hazelnut_syrup = 30,
@@ -386,7 +386,7 @@
 	required_reagents = list(
 		/datum/reagent/consumable/korta_milk = 10,
 		/datum/reagent/consumable/sugar = 10,
-		/datum/reagent/consumable/water = 15,
+		/datum/reagent/water = 15,
 	)
 	results = list(
 		/datum/reagent/consumable/kortanut_syrup = 30,
@@ -401,7 +401,7 @@
 	required_reagents = list(
 		/datum/reagent/consumable/menthol = 10,
 		/datum/reagent/consumable/sugar = 10,
-		/datum/reagent/consumable/water = 15,
+		/datum/reagent/water = 15,
 	)
 	results = list(
 		/datum/reagent/consumable/peppermint_syrup = 30,
@@ -416,7 +416,7 @@
 	required_reagents = list(
 		/datum/reagent/consumable/pumpkinjuice = 10,
 		/datum/reagent/consumable/sugar = 10,
-		/datum/reagent/consumable/water = 15,
+		/datum/reagent/water = 15,
 		/datum/reagent/consumable/cinnamon = 5,
 	)
 	results = list(
@@ -432,7 +432,7 @@
 	required_reagents = list(
 		/datum/reagent/consumable/vanilla = 10,
 		/datum/reagent/consumable/sugar = 10,
-		/datum/reagent/consumable/water = 15,
+		/datum/reagent/water = 15,
 	)
 	results = list(
 		/datum/reagent/consumable/vanilla_syrup = 30,

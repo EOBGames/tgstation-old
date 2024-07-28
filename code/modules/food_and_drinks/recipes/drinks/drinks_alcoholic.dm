@@ -44,7 +44,7 @@
 
 /datum/chemical_reaction/drink/kahlua
 	results = list(/datum/reagent/consumable/ethanol/kahlua = 5)
-	required_reagents = list(/datum/reagent/consumable/coffee = 5, /datum/reagent/consumable/sugar = 5)
+	required_reagents = list(/datum/reagent/consumable/coffee/fresh_brew = 5, /datum/reagent/consumable/sugar = 5)
 	required_catalysts = list(/datum/reagent/consumable/enzyme = 5)
 	reaction_tags = REACTION_TAG_DRINK | REACTION_TAG_EASY | REACTION_TAG_OTHER
 
@@ -135,7 +135,7 @@
 
 /datum/chemical_reaction/drink/irish_coffee
 	results = list(/datum/reagent/consumable/ethanol/irishcoffee = 2)
-	required_reagents = list(/datum/reagent/consumable/ethanol/irish_cream = 1, /datum/reagent/consumable/coffee = 1)
+	required_reagents = list(/datum/reagent/consumable/ethanol/irish_cream = 1, /datum/reagent/consumable/coffee/fresh_brew = 1)
 
 /datum/chemical_reaction/drink/b52
 	results = list(/datum/reagent/consumable/ethanol/b52 = 3)
@@ -329,7 +329,7 @@
 
 /datum/chemical_reaction/drink/thirteenloko
 	results = list(/datum/reagent/consumable/ethanol/thirteenloko = 3)
-	required_reagents = list(/datum/reagent/consumable/ethanol/vodka = 1, /datum/reagent/consumable/coffee = 1, /datum/reagent/consumable/limejuice = 1)
+	required_reagents = list(/datum/reagent/consumable/ethanol/vodka = 1, /datum/reagent/consumable/coffee/fresh_brew = 1, /datum/reagent/consumable/limejuice = 1)
 	reaction_tags = REACTION_TAG_DRINK | REACTION_TAG_EASY | REACTION_TAG_OTHER
 
 /datum/chemical_reaction/drink/drunkenblumpkin
@@ -651,7 +651,7 @@
 
 /datum/chemical_reaction/drink/konococo_rumtini
 	results = list(/datum/reagent/consumable/ethanol/konococo_rumtini = 10)
-	required_reagents = list(/datum/reagent/consumable/ethanol/coconut_rum = 2, /datum/reagent/consumable/ethanol/kahlua = 3, /datum/reagent/consumable/coffee = 3, /datum/reagent/consumable/sugar = 2)
+	required_reagents = list(/datum/reagent/consumable/ethanol/coconut_rum = 3, /datum/reagent/consumable/ethanol/kahlua = 3, /datum/reagent/consumable/coffee/espresso = 2, /datum/reagent/consumable/sugar = 2)
 
 /datum/chemical_reaction/drink/blue_hawaiian
 	results = list(/datum/reagent/consumable/ethanol/blue_hawaiian = 5)
@@ -660,7 +660,7 @@
 // Coffee
 /datum/chemical_reaction/drink/caffe_corretto
 	results = list(/datum/reagent/consumable/ethanol/caffe_corretto = 2)
-	required_reagents = list(/datum/reagent/consumable/espresso = 1, /datum/reagent/consumable/ethanol/grappa = 1)
+	required_reagents = list(/datum/reagent/consumable/coffee/espresso = 1, /datum/reagent/consumable/ethanol/grappa = 1)
 
 /datum/chemical_reaction/drink/carajillo_garciano
 	results = list(/datum/reagent/consumable/ethanol/carajillo_garciano = 10)
@@ -680,8 +680,8 @@
 
 /datum/chemical_reaction/drink/cafe_tonic
 	results = list(/datum/reagent/consumable/ethanol/cafe_tonic = 5)
-	required_reagents = list(/datum/reagent/consumable/espresso = 1, /datum/reagent/consumable/tonic = 4)
+	required_reagents = list(/datum/reagent/consumable/coffee/espresso = 1, /datum/reagent/consumable/tonic = 4)
 
 /datum/chemical_reaction/drink/dead_by_dawn
 	results = list(/datum/reagent/consumable/ethanol/dead_by_dawn = 10)
-	required_reagents = list(/datum/reagent/consumable/ethanol/branca_menta = 1, /datum/reagent/consumable/ethanol/kahlua = 1, /datum/reagent/consumable/ethanol/absinthe = 2, /datum/reagent/consumable/espresso = 3, /datum/reagent/consumable/ethanol/bitters = 1, /datum/reagent/consumable/salt = 1, /datum/reagent/consumable/sugar = 1)
+	required_reagents = list(/datum/reagent/consumable/ethanol/branca_menta = 1, /datum/reagent/consumable/ethanol/kahlua = 1, /datum/reagent/consumable/ethanol/absinthe = 2, /datum/reagent/consumable/coffee/espresso = 3, /datum/reagent/consumable/ethanol/bitters = 1, /datum/reagent/consumable/salt = 1, /datum/reagent/consumable/sugar = 1)

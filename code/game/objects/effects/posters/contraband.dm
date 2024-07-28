@@ -628,7 +628,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/singletank_bom
 
 /obj/structure/sign/poster/contraband/piccionaia
 	name = "Piccionaia Coffeemakers"
-	desc = "A poster advertising Piccionaia's range of coffeemakers."
+	desc = "A poster advertising Piccionaia's consumer range of coffeemakers."
 	icon_state = "blood_geometer"
 
 /obj/structure/sign/poster/contraband/piccionaia/examine_more(mob/user)

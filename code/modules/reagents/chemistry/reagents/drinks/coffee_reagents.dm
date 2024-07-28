@@ -59,7 +59,7 @@
 	..()
 	. = TRUE
 
-/datum/reagent/consumable/coffee/fresh_brew // comes from coffeemakers
+/datum/reagent/consumable/coffee/fresh_brew // comes from coffeemakers, used for most recipes that call for "basic" coffee
 	name = "Fresh-Brewed Coffee"
 	description = "Mmm, fresh."
 	quality = DRINK_NICE // a little reward for using the better methods of making coffee
@@ -109,7 +109,7 @@
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "iced_basic"
 
-/datum/reagent/consumable/coffee/iced_coffee/cold_brew
+/datum/reagent/consumable/coffee/iced_coffee/cold_brew // can serve as a substitute for espresso in making drinks, is also very nice on its own
 	name = "Cold-Brewed Coffee"
 	description = "While on the surface cold brew may seem like just another method of making coffee, in actual fact it's very distinct- extracting less harsh flavours than traditional methods, it creates a mellow, smooth drink that's very easy-going."
 	overdose_threshold = 60 // higher caffeine content than hot-brewed coffee
@@ -123,7 +123,7 @@
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "iced_basic"
 
-/datum/reagent/consumable/coffee/espresso
+/datum/reagent/consumable/coffee/espresso //the bread and butter of the coffeeshop: used for most pure coffee recipes
 	name = "Espresso"
 	description = "A strong black shot of concentrated coffee, produced at pressure. Done right, it yields a smooth, intense coffee experience."
 	taste_description = "intense bitterness"
@@ -143,7 +143,7 @@
 /datum/glass_style/drinking_glass/ristretto
 	required_drink_type = /datum/reagent/consumable/coffee/ristretto
 	name = "caffe ristretto"
-	desc = "Ristretto means restricted, as in you restricted the flow of water to the shot. It makes for a more concentrated experience all round."
+	desc = "Ristretto means \"restricted\", as in you \"restricted\" the flow of water to the shot. It makes for a more concentrated experience all round."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "espresso"
 
@@ -167,7 +167,7 @@
 /datum/glass_style/drinking_glass/lungo
 	required_drink_type = /datum/reagent/consumable/coffee/lungo
 	name = "caffe lungo"
-	desc = "Lungo means long, as in you lengthen the shot with more water. Somewhere between an espresso and americano, it winds up being a totally different thing to the classic espresso."
+	desc = "Lungo means \"long\", as in you \"lengthen\" the shot with more water. Somewhere between an espresso and americano, it winds up being a totally different thing to the classic espresso."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "espresso"
 
@@ -239,7 +239,7 @@
 /datum/glass_style/drinking_glass/iced_americano
 	required_drink_type = /datum/reagent/consumable/coffee/iced_coffee/americano
 	name = "iced caffe americano"
-	desc = "You can't really get a more simple iced coffee experience, or at least, none that are worth actually drinking."
+	desc = "You can't really get a more simple quick iced coffee experience, or at least, none that are worth actually drinking."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "iced_americano"
 
@@ -267,6 +267,7 @@
 
 /datum/reagent/consumable/coffee/iced_coffee/cafe_au_lait
 	name = "Iced Cafe au Lait"
+	description = "A slightly odd way to drink a cafe-au-lait, this is nonetheless a pleasant summer beverage for a hot European day."
 
 /datum/glass_style/drinking_glass/iced_cafe_au_lait
 	required_drink_type = /datum/reagent/consumable/coffee/iced_coffee/cafe_au_lait
@@ -304,7 +305,7 @@
 /datum/glass_style/drinking_glass/maple_white
 	required_drink_type = /datum/reagent/consumable/coffee/maple_white
 	name = "\improper Maple White"
-	desc = "Widely regarded as Jim Norton's signature drink, the Maple White combines a classic cafe-au-lait with maple syrup and french vanilla. It tastes a lot like Canada."
+	desc = "Widely regarded as Jim Norton's signature drink, the Maple White combines a classic cafe-au-lait with maple syrup and french vanilla. It tastes a lot like Canada would, if Canada was edible and not made of rocks and stuff."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "maple_white"
 
@@ -571,7 +572,7 @@
 // LIQUEUR COFFEES
 /datum/reagent/consumable/ethanol/caffe_corretto // 2u espresso, 1u grappa
 	name = "Caffe Corretto"
-	description = "So how exactly do you \"correct\" coffee? Well, you add a shot of stiff liquor. The Italians are many things, but subtle is not one of them."
+	description = "So how exactly do you \"correct\" coffee? Well, you add a shot of stiff liquor, in a classic display of Italian subtlety."
 
 /datum/reagent/consumable/ethanol/carajillo_garciano
 	name = "Carajillo Garcíano"
