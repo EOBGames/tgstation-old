@@ -370,35 +370,35 @@
 /obj/item/storage/fancy/cigarettes/cigpack_holy_smokes
 	name = "\improper Holy Smokes! packet"
 	desc = "Machine-rolled by monks from Santos Discipulos, it's Holy Smokes!, the galaxy's first (and indeed, only) religious cigarette brand."
-	icon_state = "holy_smokes"
-	base_icon_state = "holy_smokes"
+	icon_state = "holysmokes"
+	base_icon_state = "holysmokes"
 	spawn_type = /obj/item/clothing/mask/cigarette/holy_smokes
 
 /obj/item/storage/fancy/cigarettes/cigpack_gagarin
 	name = "\improper Gagarin packet"
 	desc = "An old, damp pack of Gagarins- once the Third Soviet Union's favourite cigarette, last produced in 2505." // alright, let's get this out onto a tray... nice!
-	icon_state = "gagarin_yuck"
-	base_icon_state = "gagarin_yuck"
+	icon_state = "gagarin"
+	base_icon_state = "gagarin"
 	spawn_type = /obj/item/clothing/mask/cigarette/gagarin
 
 /obj/item/storage/fancy/cigarettes/cigpack_gagarin/pristine
 	desc = "A perfectly-preserved pack of Gagarins- once the Third Soviet Union's favourite cigarette, last produced in 2505." // oh boy steve's hit the jackpot this time
-	icon_state = "gagarin_pristine"
-	base_icon_state = "gagarin_pristine"
+	icon_state = "gagarinclean"
+	base_icon_state = "gagarinclean"
 	spawn_type = /obj/item/clothing/mask/cigarette/gagarin/pristine
 
 /obj/item/storage/fancy/cigarettes/cigpack_newmoscowblacks
 	name = "\improper New Moscow Blacks packet"
 	desc = "The Spinward Sector's most premium cigarette brand. The smokable of choice of the SSC's own (highly corrupt) president, Oleksandr Kushnirenko."
-	icon_state = "new_moscow_blacks"
-	base_icon_state = "new_moscow_blacks"
+	icon_state = "newmoscow"
+	base_icon_state = "newmoscow"
 	spawn_type = /obj/item/clothing/mask/cigarette/new_moscow_blacks
 
 /obj/item/storage/fancy/cigarettes/cigpack_muertelibre
 	name = "\improper Muerte Libres packet"
-	desc = "A pack of Muerte Libre kreteks. Has an acquired taste, but is well liked amongst the weirdest people you know."
-	icon_state = "muerte_libre"
-	base_icon_state = "muerte_libre"
+	desc = "A pack of Muerte Libre kreteks. Has an acquired taste, but is well liked amongst the weirdest people you know." // a kretek is a clove cigarette popular in Indonesia
+	icon_state = "muerte"
+	base_icon_state = "muerte"
 	spawn_type = /obj/item/clothing/mask/cigarette/muerte_libre
 
 /obj/item/storage/fancy/cigarettes/cigpack_syndicate
@@ -414,6 +414,19 @@
 	icon_state = "midori"
 	base_icon_state = "midori"
 	spawn_type = /obj/item/clothing/mask/cigarette/rollie/nicotine
+
+/obj/item/storage/fancy/cigarettes/cigarillos
+	name = "\improper Perrito Papa cigarillos packet"
+	desc = "Want all the excitement of a cigar, with none of the actual class or taste? Get yourself some cigarillos: now with 20% less carcinogens!"
+	icon_state = "perrito"
+	base_icon_state = "perrito"
+	contents_tag = "cigarillo"
+	spawn_type = /obj/item/clothing/mask/cigarette/cigarillo
+	spawn_count = 5
+
+/obj/item/storage/fancy/cigarettes/cigarillos/skeeterjoes
+	name = "\improper Skeeter Joe's cigarillos packet"
+	desc = "Love the feeling of nicotine, but that borin' old tobacco taste got you down, and e-cigarettes threaten your masculinity just a touch too much? Why not smoke Skeeter Tom's flavoured cigarillos?"
 
 /obj/item/storage/fancy/cigarettes/cigpack_candy
 	name = "\improper Timmy's First Candy Smokes packet"
@@ -528,6 +541,13 @@
 	icon_state = "cohibacase"
 	base_icon_state = "cohibacase"
 	spawn_type = /obj/item/clothing/mask/cigarette/cigar/havana
+
+/obj/item/storage/fancy/cigarettes/cigars/castro
+	name = "\improper Castro Grandes cigar case"
+	desc = "A case of Castro Grandes; they're big, they're premium, they're named after a man who never smoked them."
+	icon_state = "castrocase"
+	base_icon_state = "castrocase"
+	spawn_type = /obj/item/clothing/mask/cigarette/cigar/castro
 
 /*
  * Heart Shaped Box w/ Chocolates

@@ -689,6 +689,19 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	pixel_x = rand(-5, 5)
 	pixel_y = rand(-5, 5)
 
+/obj/item/clothing/mask/cigarette/cigarillo
+	name = "cigarillo"
+	desc = "A tight roll of tobacco that not-so-elegantly bridges the gap between cigarettes and cigars."
+	icon_state = "cigarillo"
+	cig_size = "extra-long"
+	inhand_icon_state = "cigarillo"
+	type_butt = /obj/item/cigbutt/cigarillo
+
+/obj/item/clothing/mask/cigarette/cigarillo/perrito
+	name = "\improper Perrito Papa cigarillo"
+
+/obj/item/clothing/mask/cigarette/cigarillo/skeeterjoes
+	name = "\improper Skeeter Joe's cigarillo"
 
 ////////////
 // CIGARS //
