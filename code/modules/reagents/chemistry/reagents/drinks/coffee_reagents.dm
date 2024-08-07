@@ -319,6 +319,48 @@
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "iced_maple_white"
 
+/datum/reagent/consumable/coffee/donkaccino // 3u hot cocoa, 1u espresso, 1u sprinkles
+	name = "Donkaccino"
+	description = "The signature drink of Big Donk Donuts. It's basically a hot chocolate with a shot of espresso added, and some sprinkles too."
+
+/datum/glass_style/drinking_glass/donkaccino
+	required_drink_type = /datum/reagent/consumable/coffee/donkaccino
+	name = "\improper Donkaccino"
+	desc = "What's my name? Donkaccino! You may remember this drink from its abysmal product placement in Two's Company, widely regarded as one of the worst cinematic abortions of all time, but don't let that dissuade you: this drink marries hot cocoa and coffee in a way that's similar to, but distinct from, a mocha. Plus, it has sprinkles!"
+	icon = 'icons/obj/drinks/coffee.dmi'
+	icon_state = "donkaccino"
+
+/datum/reagent/consumable/coffee/iced_coffee/donkaccino
+	name = "Frozen Donkaccino"
+
+/datum/glass_style/drinking_glass/iced_donkaccino
+	required_drink_type = /datum/reagent/consumable/coffee/iced_coffee/donkaccino
+	name = "frozen Donkaccino"
+	desc = "W-w-what's m-my n-name? D-d-donkac-c-cino!"
+	icon = 'icons/obj/drinks/coffee.dmi'
+	icon_state = "iced_donkaccino"
+
+/datum/reagent/consumable/coffee/twin_shot_caramel // 3u hot cocoa, 1u espresso, 1u sprinkles
+	name = "Twin-Shot Caramel"
+	description = "Kelpie Cascadia's signature drink, the Twin Shot Caramel. A double espresso cortado with a shot of caramel, for a strong (and drinkable) kick of caffeine in the morning."
+
+/datum/glass_style/drinking_glass/donkaccino
+	required_drink_type = /datum/reagent/consumable/coffee/donkaccino
+	name = "\improper Donkaccino"
+	desc = "What's my name? Donkaccino! You may remember this drink from its abysmal product placement in Two's Company, widely regarded as one of the worst cinematic abortions of all time, but don't let that dissuade you: this drink marries hot cocoa and coffee in a way that's similar to, but distinct from, a mocha. Plus, it has sprinkles!"
+	icon = 'icons/obj/drinks/coffee.dmi'
+	icon_state = "donkaccino"
+
+/datum/reagent/consumable/coffee/iced_coffee/donkaccino
+	name = "Frozen Donkaccino"
+
+/datum/glass_style/drinking_glass/iced_maple_white
+	required_drink_type = /datum/reagent/consumable/coffee/iced_coffee/maple_white
+	name = "frozen Donkaccino"
+	desc = "W-w-what's m-my n-name? D-d-donkac-c-cino!"
+	icon = 'icons/obj/drinks/coffee.dmi'
+	icon_state = "iced_donkaccino"
+
 /datum/reagent/consumable/coffee/cafe_miel // 3u cafe au lait, 1u honey, 1u cinnamon
 	name = "Café Miel"
 	description = "Combining the flavours of coffee, milk, honey and cinnamon, the café miel is a warming drink that's easy to sip."
