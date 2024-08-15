@@ -578,6 +578,13 @@
 /obj/structure/table/wood/poker/narsie_act()
 	..(FALSE)
 
+/obj/structure/table/wood/luxury
+	name = "luxury wooden table"
+	desc = "A high class table for high class people. Make sure you use a coaster!"
+	icon = 'icons/obj/smooth_structures/luxury_wood_table.dmi'
+	icon_state = "luxury_wood_table-0"
+	base_icon_state = "luxury_wood_table"
+
 /obj/structure/table/wood/fancy
 	name = "fancy table"
 	desc = "A standard metal table frame covered with an amazingly fancy, patterned cloth."
