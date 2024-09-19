@@ -351,7 +351,14 @@
 	desc = "Produced from synthtobacco in the heart of the SSC, the smooth, clean taste of Blackjack Royale is the modern proleteriat's choice, accept no substitutes."
 	icon_state = "blackjack"
 	base_icon_state = "blackjack"
-	spawn_type = /obj/item/clothing/mask/cigarette/aceofhearts
+	spawn_type = /obj/item/clothing/mask/cigarette/blackjack
+
+/obj/item/storage/fancy/cigarettes/cigpack_xianggang
+	name = "\improper Xianggang packet"
+	desc = "A Hongkonger budget cigarette brand popular in the Core Systems. Sometimes known as Joeboys, for unclear reasons."
+	icon_state = "xianggang"
+	base_icon_state = "xianggang"
+	spawn_type = /obj/item/clothing/mask/cigarette/xianggang
 
 /obj/item/storage/fancy/cigarettes/cigpack_carp
 	name = "\improper Carp Classic packet"
@@ -426,7 +433,7 @@
 
 /obj/item/storage/fancy/cigarettes/cigarillos/skeeterjoes
 	name = "\improper Skeeter Joe's cigarillos packet"
-	desc = "Love the feeling of nicotine, but that borin' old tobacco taste got you down, and e-cigarettes threaten your masculinity just a touch too much? Why not smoke Skeeter Tom's flavoured cigarillos?"
+	desc = "Love the feeling of nicotine, but that borin' old tobacco taste got you down, and e-cigarettes threaten your masculinity just a touch too much? Why not smoke Skeeter Joe's flavoured cigarillos?"
 
 /obj/item/storage/fancy/cigarettes/cigpack_candy
 	name = "\improper Timmy's First Candy Smokes packet"

@@ -518,6 +518,10 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	desc = "A Blackjack Royale brand cigarette."
 	icon_state = "blackjack"
 
+/obj/item/clothing/mask/cigarette/xianggang
+	desc = "A Xianggang brand cigarette"
+	icon_state = "xianggang"
+
 /obj/item/clothing/mask/cigarette/carp
 	desc = "A Carp Classic brand cigarette. A small label on its side indicates that it does NOT contain carpotoxin."
 	icon_state = "carpclassic"
@@ -547,11 +551,17 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	lung_harm = 1.5 // it's literally filled with mould
 	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/consumable/mold = 3) // why exactly did you decide to smoke the 50 year old cigarettes?
 
+/obj/item/clothing/mask/cigarette/gagarin/Initialize(mapload)
+	. = ..()
+	if(!prob(5))
+		return
+	reagents?.add_reagent(/datum/reagent/medicine/salbutamol , 1) //oh, that's why
+
 /obj/item/clothing/mask/cigarette/gagarin/pristine
 	desc = "A Gagarin brand cigarette. Looks perfectly preserved."
 	icon_state = "gagarin_pristine"
 	lung_harm = 0.5 // breathe easy, comrade
-	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/medicine/salbutamol = 3) //oh, that's why
+	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/medicine/salbutamol = 3) // turns out these things were good 150 years ago, who knew?
 
 /obj/item/clothing/mask/cigarette/new_moscow_blacks
 	desc = "A New Moscow Black brand cigarette."
