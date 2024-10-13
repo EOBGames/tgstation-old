@@ -331,25 +331,9 @@
 	name = "teatotal CasualTea"
 	desc = "A can of oolong tea, best served ice cold. teatotal: refresh yourself."
 
-/obj/item/reagent_containers/cup/soda_cans/iced_tea/amethyst_sunrise
-	name = "eisT Amethyst Sunrise"
-	desc = "A can of citrus awakening, with pink grapefruit, yuzu, and yerba mate. eisT: Precision German Engineering for your thirst."
-
-/obj/item/reagent_containers/cup/soda_cans/iced_tea/round_the_clock
-	name = "eisT Round-the-Clock"
-	desc = "A can of round-the-clock refreshment, with green tea and a mix of sweet herbs, all sugar free. eisT: Precision German Engineering for your thirst."
-
-/obj/item/reagent_containers/cup/soda_cans/iced_tea/dawn_mist
-	name = "eisT Dawn Mist"
-	desc = "A can of morning speed, with mint, cucumber and green tea. eisT: Precision German Engineering for your thirst."
-
-/obj/item/reagent_containers/cup/soda_cans/iced_tea/solar_flare
-	name = "eisT Solar Flare"
-	desc = "A can of tropical energy, with pomelo, pineapple and orange, blended with Ceylon tea. eisT: Precision German Engineering for your thirst."
-
-/obj/item/reagent_containers/cup/soda_cans/iced_tea/midnight_vigour
-	name = "eisT Midnight Vigour"
-	desc = "A can of nighttime vigour, with sour cherry, blackcurrant and cranberry, with Ceylon tea. eisT: Precision German Engineering for your thirst."
+/obj/item/reagent_containers/cup/soda_cans/tea/green
+	name = "Shimauma Shincha"
+	desc = "A can of green tea, made by Shimauma, perhaps better known for their rice beer. Upside: take this to a party, and everyone will think you're drinking."
 
 /obj/item/reagent_containers/cup/soda_cans/beer
 	name = "space beer"

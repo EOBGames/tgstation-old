@@ -344,22 +344,22 @@
 	name = "Twin-Shot Caramel"
 	description = "Kelpie Cascadia's signature drink, the Twin Shot Caramel. A double espresso cortado with a shot of caramel, for a strong (and drinkable) kick of caffeine in the morning."
 
-/datum/glass_style/drinking_glass/donkaccino
-	required_drink_type = /datum/reagent/consumable/coffee/donkaccino
-	name = "\improper Donkaccino"
+/datum/glass_style/drinking_glass/twin_shot_caramel
+	required_drink_type = /datum/reagent/consumable/coffee/twin_shot_caramel
+	name = "\improper Twin-Shot Caramel"
 	desc = "What's my name? Donkaccino! You may remember this drink from its abysmal product placement in Two's Company, widely regarded as one of the worst cinematic abortions of all time, but don't let that dissuade you: this drink marries hot cocoa and coffee in a way that's similar to, but distinct from, a mocha. Plus, it has sprinkles!"
 	icon = 'icons/obj/drinks/coffee.dmi'
-	icon_state = "donkaccino"
+	icon_state = "twin_shot_caramel"
 
-/datum/reagent/consumable/coffee/iced_coffee/donkaccino
-	name = "Frozen Donkaccino"
+/datum/reagent/consumable/coffee/iced_coffee/twin_shot_caramel
+	name = "Iced Twin-Shot Caramel"
 
-/datum/glass_style/drinking_glass/iced_maple_white
-	required_drink_type = /datum/reagent/consumable/coffee/iced_coffee/maple_white
-	name = "frozen Donkaccino"
+/datum/glass_style/drinking_glass/iced_twin_shot_caramel
+	required_drink_type = /datum/reagent/consumable/coffee/iced_coffee/twin_shot_caramel
+	name = "iced Twin-Shot Caramel"
 	desc = "W-w-what's m-my n-name? D-d-donkac-c-cino!"
 	icon = 'icons/obj/drinks/coffee.dmi'
-	icon_state = "iced_donkaccino"
+	icon_state = "iced_twin_shot_caramel"
 
 /datum/reagent/consumable/coffee/cafe_miel // 3u cafe au lait, 1u honey, 1u cinnamon
 	name = "Café Miel"
@@ -378,7 +378,7 @@
 /datum/glass_style/drinking_glass/iced_cafe_miel
 	required_drink_type = /datum/reagent/consumable/coffee/iced_coffee/cafe_miel
 	name = "iced café miel"
-	desc = "A good way to beat the Iberian heat."
+	desc = "Dios mio, that's a good drink."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "iced_cafe_miel"
 
@@ -656,8 +656,6 @@
 	name = "Advocaatte"
 	description = "A latte with advocaat. Seriously, who comes up with these names?"
 
-/datum/reagent/consumable/ethanol/saint_nick_latte
-
 // COFFEE COCKTAILS
 /datum/reagent/consumable/ethanol/espresso_martini
 	name = "Espresso Martini"
@@ -748,13 +746,41 @@
 /datum/reagent/consumable/iced_tea/matcha
 	name = "Iced Matcha Tea"
 
-// FLAVOURED TEAS, TISANES AND TEA BLENDS
+// FLAVOURED TEAS AND TEA BLENDS
 /datum/reagent/consumable/tea/earl_grey
 	name = "Earl Grey Tea"
-	description = "A classic British tea infusion made by adding bergamot to Indian black tea. Has a distinct citric kick to distinguish itself from other, more basic teas."
+	description = "A classic British tea infusion made by adding bergamot essence to Indian black tea. Has a distinct citric kick to distinguish itself from other, more basic teas."
 
 /datum/reagent/consumable/iced_tea/earl_grey
 	name = "Iced Earl Grey Tea"
+
+/datum/reagent/consumable/tea/darling_grey
+	name = "Darling Grey Tea"
+	description = "A tea infusion made with black tea and a variety of citrus peels. Comparable to Earl Grey, but easier-going."
+
+/datum/reagent/consumable/iced_tea/darling_grey
+	name = "Iced Darling Grey Tea"
+
+/datum/reagent/consumable/tea/russian_caravan
+	name = "Russian Caravan Tea"
+	description = "A smoky tea infusion popular in the former Soviet bloc. Named for the caravans that used to carry it overland from China to Moscow."
+
+/datum/reagent/consumable/iced_tea/russian_caravan
+	name = "Iced Russian Caravan Tea"
+
+/datum/reagent/consumable/tea/imperial
+	name = "Imperial Tea"
+	description = "An aromatic tea infusion made from black tea, blended with warming spices, orange peel, and vanilla."
+
+/datum/reagent/consumable/iced_tea/imperial
+	name = "Iced Imperial Tea"
+
+/datum/reagent/consumable/tea/genmaicha
+	name = "Genmaicha"
+	description = "A toasty Japanese tea blend made from green tea and roasted rice. Sometimes known as popcorn tea, as the rice has a tendency to pop once the water's added."
+
+/datum/reagent/consumable/iced_tea/genmaicha
+	name = "Iced Genmaicha"
 
 /datum/reagent/consumable/tea/jasmine
 	name = "Jasmine Tea"
@@ -763,34 +789,6 @@
 /datum/reagent/consumable/iced_tea/jasmine
 	name = "Iced Jasmine Tea"
 
-/datum/reagent/consumable/tea/chamomile
-	name = "Chamomile Tea"
-	description = "A calming tisane made from chamomile. Makes you feel kinda sleepy."
-
-/datum/reagent/consumable/iced_tea/chamomile
-	name = "Iced Chamomile Tea"
-
-/datum/reagent/consumable/tea/rooibos
-	name = "Rooibos"
-	description = "A tisane hailing from South Africa, made from the leaves of redshrub bushes."
-
-/datum/reagent/consumable/iced_tea/rooibos
-	name = "Iced Rooibos"
-
-/datum/reagent/consumable/tea/mate
-	name = "Maté"
-	description = "A bitter tisane produced from yerba-maté. Popular amongst the Latinoamericano regions of Earth, this classic drink has made its way to the stars alongside spacers and colonists from these areas."
-
-/datum/reagent/consumable/iced_tea/mate
-	name = "Iced Maté"
-
-/datum/reagent/consumable/tea/hibiscus
-	name = "Hibiscus Tea"
-	description = "Made from the vibrant red petals of the hibiscus flower, this tisane has a deep, complex and acidic flavour that makes it perfect for use in cold drinks."
-
-/datum/reagent/consumable/iced_tea/hibiscus
-	name = "Iced Hibiscus Tea"
-
 /datum/reagent/consumable/tea/rose
 	name = "Rose Tea"
 	description = "A fragrant infusion made from black tea and rose petals. Lends an air of sophistication to your cuppa."
@@ -798,23 +796,51 @@
 /datum/reagent/consumable/iced_tea/rose
 	name = "Iced Rose Tea"
 
+/datum/reagent/consumable/tea/chamomile
+	name = "Chamomile Tea"
+	description = "A calming tea blend made from chamomile. Makes you feel kinda sleepy."
+
+/datum/reagent/consumable/iced_tea/chamomile
+	name = "Iced Chamomile Tea"
+
+/datum/reagent/consumable/tea/rooibos
+	name = "Rooibos"
+	description = "A tea blend hailing from South Africa, made from the leaves of redshrub bushes."
+
+/datum/reagent/consumable/iced_tea/rooibos
+	name = "Iced Rooibos"
+
+/datum/reagent/consumable/tea/mate
+	name = "Maté"
+	description = "A bitter tea blend produced from yerba-maté. Popular amongst the Latinoamericano regions of Earth, this classic drink has made its way to the stars alongside spacers and colonists from these areas."
+
+/datum/reagent/consumable/iced_tea/mate
+	name = "Iced Maté"
+
+/datum/reagent/consumable/tea/hibiscus
+	name = "Hibiscus Tea"
+	description = "Made from the vibrant red petals of the hibiscus flower, this tea blend has a deep, complex and acidic flavour that makes it perfect for use in cold drinks."
+
+/datum/reagent/consumable/iced_tea/hibiscus
+	name = "Iced Hibiscus Tea"
+
 /datum/reagent/consumable/tea/mint
 	name = "Mint Tea"
-	description = "Not to be confused with Maghrebi mint tea, this tisane is made by steeping mint leaves in hot water. It's great for fixing a sore throat."
+	description = "Not to be confused with Maghrebi mint tea, this tea blend is made by steeping mint leaves in hot water. It's great for fixing a sore throat."
 
 /datum/reagent/consumable/iced_tea/mint
 	name = "Iced Mint Tea"
 
 /datum/reagent/consumable/tea/ginger
 	name = "Ginger Tea"
-	description = "This refreshing tisane is made with... you guessed it, garlic. No, wait, it's ginger. Unsurprisingly, it tastes like hot ginger."
+	description = "This refreshing tea blend is made with... you guessed it, garlic. No, wait, it's ginger. Unsurprisingly, it tastes like hot ginger."
 
 /datum/reagent/consumable/iced_tea/ginger
 	name = "Iced Ginger Tea"
 
 /datum/reagent/consumable/tea/weed
 	name = "Weed Tea"
-	description = "Ride the rainbow with this tokey tisane. It's hemptastic!"
+	description = "Ride the rainbow with this tokey tea blend. It's hemptastic!"
 
 /datum/reagent/consumable/iced_tea/weed
 	name = "Iced Weed Tea"
@@ -826,10 +852,6 @@
 
 /datum/reagent/consumable/iced_tea/astra
 	name = "Iced Tea Astra"
-
-/datum/reagent/consumable/tea/esanarak
-	name = "Es'anarak"
-	description = "An algal tea infusion from the Ethereal homeworld, Sprout. Pairs a complex acidity with a clean, crisp finish; oh, and a touch of electricity, of course."
 
 //MIXED TEA BEVERAGES
 /datum/reagent/consumable/tea/lemon
@@ -875,7 +897,10 @@
 	name = "Jagertee"
 	description = "An Austrian tea-based hot punch, made with the nation's signature inländer rum. Popular as an après-ski."
 
-// ICED TEA DRINKS
+/datum/reagent/consumable/ethanol/oolong_hai
+	name = "Oolong-Hai"
+	description = "A refreshing combination of oolong tea and shochu."
+
 /datum/reagent/consumable/tea/iced/bissap
 	name = "Bissap"
 	description = "The national drink of Senegal, although it's also enjoyed across most of West Africa. Made from iced hibiscus tea, pineapple juice, and ginger, it's a refreshing beverage in the subsaharan heat."
@@ -893,35 +918,50 @@
 	name = "Sulat"
 	description = "Tizira's answer to coffee. Closer to a tea than Terran coffee, this sharp, acidic drink is made by steeping dried sulat berries in hot water. Traditionally, sulat is never mixed with milk of any kind."
 
+/datum/reagent/consumable/coffee/iced_coffee/sulat
+	name = "Iced Sulat"
+
 /datum/reagent/consumable/coffee/mesta
 	name = "Mesta"
 	description = "A mix of coffee and sulat that's gained popularity in recent years. Combines the bitterness and depth of coffee with the acidic brightness of sulat."
 
+/datum/reagent/consumable/coffee/iced_coffee/mesta
+	name = "Iced Mesta"
+
 /datum/reagent/consumable/tea/sharzen
-	name = "Sharzen"
-	description = "A tisane enjoyed widely in the Tiziran Empire, although the Sharzen fern is originally native to Muan- yet another thing the lizards stole from their subjects."
+	name = "Sharzen Tea"
+	description = "A herbal tea enjoyed widely in the Tiziran Empire, although the Sharzen fern is originally native to Muan- yet another thing the lizards stole from their subjects."
+
+/datum/reagent/consumable/tea/iced/sharzen
+	name = "Iced Sharzen Tea"
+	description = "For those hot Tiziran summer days, iced sharzen is just the tonic to keep on going."
+
+/datum/reagent/consumable/coffee/fleetroast
+	name = "Fleetroast Coffee"
+	description = "Despite what the name might say, this isn't actually coffee at all- it's actually made from the (very darkly) roasted seeds of a common plant on the Mothic fleet. When coffee rations become tight, this keeps the moths going."
 
 /datum/reagent/consumable/tea/sparkweed
 	name = "Sparkweed Tea"
 	description = "A popular herb amongst the moths, sparkweed has a strong herbal flavour and mellowing effects."
 
-// SULATTE
+/datum/reagent/consumable/tea/iced/sparkweed
+	name = "Iced Sparkweed Tea"
+
+/datum/reagent/consumable/tea/esanarak
+	name = "Es'anarak"
+	description = "An algal tea infusion from the Ethereal homeworld, Sprout. Pairs a complex acidity with a clean, crisp finish; oh, and a touch of electricity, of course."
+
+/datum/reagent/consumable/iced_tea/esanarak
+	name = "Iced Es'anarak"
+
 /datum/reagent/consumable/coffee/sulatte
 	name = "Sulatte"
-	description = "A hot drink made from sulat and steamed korta milk. Considered sacrilegious amongst sulat traditionalists on Tizira, it is nonetheless popular with spacers and particularly with humans."
+	description = "A hot drink made from sulat and steamed korta milk. Considered sacrilegious amongst sulat traditionalists on Tizira, it is nonetheless popular with spacers and humans."
 
-/datum/reagent/consumable/coffee/siokolat
-	name = "Siokolat"
-	description = "Similar to the Earth mocha, the siokolat is a Tiziran drink that makes use of dark chocolate to accentuate the stonefruit flavours of the sulat."
-
-/datum/reagent/consumable/coffee/iced_coffee/sulat
-	name = "Iced Sulat"
-
-// SHARZEN-BASED DRINKS
-/datum/reagent/consumable/tea/iced/sharzen
-	name = "Iced Sharzen"
-	description = "For those hot Tiziran summer days, iced sharzen is just the tonic to keep on going."
+/datum/reagent/consumable/coffee/sioko // prounounced "show-ko"
+	name = "Sioko"
+	description = "Similar to the Earth mocha, the sioko is a Tiziran drink that makes use of imported dark chocolate (confusingly also known as sioko) to accentuate the stonefruit flavours of the sulat."
 
 /datum/reagent/consumable/iced_tea/sharzal
 	name = "Sharzal"
-	description = "A Tiziran soft drink that's made from iced sharzen, honey, and a mix of spices- blends vary, but the main additives are usually chortilla and coastflower extracts."
+	description = "A Tiziran soft drink that's made from iced sharzen, honey, and a mix of spices- blends vary, but the main additives are usually chorticord and coastflower extracts."

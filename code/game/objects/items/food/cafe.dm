@@ -26,7 +26,7 @@
 // MooseAntlers
 /obj/item/food/moose_antler
 	name = "plain MooseAntler"
-	desc = "A signature dish of Jim Norton's. Can be eaten plain, but they're really more famous for the toppings."
+	desc = "A classic Canadian treat. Can be eaten plain, but they're really more famous for the toppings."
 
 /obj/item/food/moose_antler/cinnamon_sugar
 	name = "cinnamon sugar MooseAntler"
@@ -54,7 +54,7 @@
 
 /obj/item/food/palmier_roll
 	name = "palmier roll"
-	desc = "We were going to call it a \"palmier log\", but were outvoted by the comedy committee."
+	desc = "We were going to call it a \"palmier log\", but were vetoed by the Philistines at the Comedy Committee."
 
 /obj/item/food/palmier
 	name = "palmier"
@@ -74,7 +74,7 @@
 
 /obj/item/food/pizzelle
 	name = "pizzelle"
-	desc = "Less of a biscuit and more of a small waffle, though who are we to judge?"
+	desc = "Really less of a biscuit and more of a small waffle, though who are we to judge?"
 
 /obj/item/food/biscotti
 	name = "biscotti"
@@ -185,7 +185,7 @@
 // Canadian
 /obj/item/food/cake/nanaimo_bar
 	name = "\improper Nanaimo bar tray"
-	desc = "The original and, some would say, best. Fried dough and cinnamon, what more could you ask for?"
+	desc = "What exactly chocolate, coconut and custard have to do with Nanaimo is anyone's guess."
 
 /obj/item/food/cakeslice/nanaimo_bar
 	name = "\improper Nanaimo bar"

@@ -45,8 +45,6 @@
 	desc = "A souvenir mug from the Manhattan TID. Show your Terran pride in a tacky, glazed ceramic fashion."
 	icon_state = "mug_manhattan"
 
-/obj/item/reagent_containers/cup/glass/mug/
-
 /obj/item/reagent_containers/cup/glass/mug/captain
 	name = "\improper Sector's Best Captain mug"
 	desc = "A mug that proclaims that the Captain is, in fact, the GOAT. Now, did someone buy this for the captain, or did they buy it for themselves?"
@@ -54,8 +52,8 @@
 
 /obj/item/reagent_containers/cup/glass/mug/jim_nortons
 	name = "\improper Jim Norton's-branded mug"
-	desc = ""
-	icon_state = "mug_captain"
+	desc = "Trois-Rivières, représentez!"
+	icon_state = "mug_jim_norton"
 
 /obj/item/reagent_containers/cup/glass/mug/cybersun
 	name = "\improper Cybersun Industries-branded mug"
@@ -109,7 +107,7 @@
 
 // SHAPED MUGS - HARD TO DRINK FROM, HARDER TO CLEAN
 
-/obj/item/reagent_containers/cup/glass/mug/medical
+/obj/item/reagent_containers/cup/glass/mug/prescription
 	name = "prescription bottle-shaped mug"
 	desc = "Contains the only medicine you'll ever need."
 	icon_state = "mug_prescription"
