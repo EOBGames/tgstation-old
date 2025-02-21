@@ -8,10 +8,15 @@
 	products = list(
 		/obj/item/storage/fancy/cigarettes = 5,
 		/obj/item/storage/fancy/cigarettes/cigpack_candy = 4,
+		/obj/item/storage/fancy/cigarettes/dromedaryco = 3,
 		/obj/item/storage/fancy/cigarettes/cigpack_uplift = 3,
 		/obj/item/storage/fancy/cigarettes/cigpack_robust = 3,
+		/obj/item/storage/fancy/cigarettes/cigpack_luckystars = 3,
+		/obj/item/storage/fancy/cigarettes/cigpack_blackjack = 3,
+		/obj/item/storage/fancy/cigarettes/cigpack_tsingyi = 3,
 		/obj/item/storage/fancy/cigarettes/cigpack_carp = 3,
 		/obj/item/storage/fancy/cigarettes/cigpack_midori = 3,
+		/obj/item/storage/fancy/cigarettes/cigpack_muertelibre = 3,
 		/obj/item/storage/box/matches = 10,
 		/obj/item/lighter/greyscale = 4,
 		/obj/item/storage/fancy/rollingpapers = 5,
@@ -21,6 +26,7 @@
 	)
 	premium = list(
 		/obj/item/storage/fancy/cigarettes/cigpack_robustgold = 3,
+		/obj/item/storage/fancy/cigarettes/cigpack_newmoscowblacks = 3,
 		/obj/item/storage/box/gum/nicotine = 2,
 		/obj/item/lighter = 3,
 		/obj/item/storage/fancy/cigarettes/cigars = 1,

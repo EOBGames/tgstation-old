@@ -53,6 +53,7 @@ GLOBAL_LIST_INIT(possible_smoker_addictions, setup_smoker_addictions(list(
 	/obj/item/storage/fancy/cigarettes/cigpack_robustgold,
 	/obj/item/storage/fancy/cigarettes/cigpack_carp,
 	/obj/item/storage/fancy/cigarettes/cigpack_luckystars,
+	/obj/item/storage/fancy/cigarettes/cigpack_tsingyi,
 	/obj/item/storage/fancy/cigarettes/cigpack_blackjack,
 	/obj/item/storage/fancy/cigarettes/cigpack_muertelibre,
 	/obj/item/storage/fancy/cigarettes/cigars,

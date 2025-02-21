@@ -353,12 +353,12 @@
 	base_icon_state = "blackjack"
 	spawn_type = /obj/item/clothing/mask/cigarette/blackjack
 
-/obj/item/storage/fancy/cigarettes/cigpack_xianggang
-	name = "\improper Xianggang packet"
-	desc = "A Hongkonger budget cigarette brand popular in the Core Systems. Sometimes known as Joeboys, for unclear reasons."
-	icon_state = "xianggang"
-	base_icon_state = "xianggang"
-	spawn_type = /obj/item/clothing/mask/cigarette/xianggang
+/obj/item/storage/fancy/cigarettes/cigpack_tsingyi
+	name = "\improper Tsingyi packet"
+	desc = "A Chinese budget cigarette brand popular in the Core Systems. Sometimes known as Joeboys, for unclear reasons."
+	icon_state = "tsingyi"
+	base_icon_state = "tsingyi"
+	spawn_type = /obj/item/clothing/mask/cigarette/tsingyi
 
 /obj/item/storage/fancy/cigarettes/cigpack_carp
 	name = "\improper Carp Classic packet"
@@ -548,13 +548,6 @@
 	icon_state = "cohibacase"
 	base_icon_state = "cohibacase"
 	spawn_type = /obj/item/clothing/mask/cigarette/cigar/havana
-
-/obj/item/storage/fancy/cigarettes/cigars/castro
-	name = "\improper Castro Grandes cigar case"
-	desc = "A case of Castro Grandes; they're big, they're premium, they're named after a man who never smoked them."
-	icon_state = "castrocase"
-	base_icon_state = "castrocase"
-	spawn_type = /obj/item/clothing/mask/cigarette/cigar/castro
 
 /*
  * Heart Shaped Box w/ Chocolates

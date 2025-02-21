@@ -664,6 +664,7 @@
 		/obj/item/clothing/shoes/kim = 1,
 		/obj/item/reagent_containers/cup/glass/flask/det = 2,
 		/obj/item/storage/fancy/cigarettes = 5,
+		/obj/item/storage/fancy/cigarettes/cigpack_noirs = 5,
 		/obj/item/storage/fancy/cigarettes/cigpack_candy = 5,
 	)
 	premium = list(
